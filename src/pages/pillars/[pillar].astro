@@ -28,7 +28,7 @@ const trees = (await getCollection("trees")).filter((t) => t.data.pillar === pil
       {fam.title} · pillar {info.number} of 16
     </p>
     <h1 class="font-heading text-4xl font-bold tracking-tight">{info.title}</h1>
-    <p class="max-w-2xl font-reading text-lg text-muted-foreground">{info.covers}</p>
+    <p class="max-w-2xl lg:max-w-7xl font-reading text-lg text-muted-foreground">{info.covers}</p>
     <p class="text-sm text-muted-foreground">
       {plural(items.length, "lesson")} from {items[0]?.level ?? "A1"} to {items.at(-1)?.level ?? "C2"} · {plural(points.length, "grammar point")}
     </p>

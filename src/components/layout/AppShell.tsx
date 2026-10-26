@@ -63,7 +63,7 @@ const TOOLS = [
   { href: "/mindmaps", label: "Mindmaps", icon: HierarchySquare01Icon },
   { href: "/practice", label: "Practice", icon: Dumbbell01Icon },
   { href: "/flashcards", label: "Flashcards", icon: Cards01Icon, badge: true },
-  { href: "/persian-corner", label: "Grammar Tips", icon: LanguageSkillIcon },
+  { href: "/grammar-tips", label: "Grammar Tips", icon: LanguageSkillIcon },
   { href: "/grammar-index", label: "Grammar index", icon: SortingAZ01Icon },
   { href: "/reference", label: "Reference", icon: LibraryIcon },
   { href: "/coverage", label: "Coverage", icon: CheckListIcon },

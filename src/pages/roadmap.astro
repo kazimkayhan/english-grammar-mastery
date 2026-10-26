@@ -15,7 +15,7 @@ const weeks = LEVELS.reduce((n, l) => n + LEVEL_INFO[l].weeks, 0)
 <AppLayout title="Roadmap" description="The whole A1 → C2 grammar course on one page.">
   <header class="flex flex-col gap-3">
     <h1 class="font-heading text-4xl font-bold tracking-tight">The roadmap</h1>
-    <p class="max-w-2xl font-reading text-lg text-muted-foreground">
+    <p class="max-w-2xl lg:max-w-7xl font-reading text-lg text-muted-foreground">
       {syllabus.length} lessons from A1 to C2: about {hours} hours of lessons, or roughly {weeks} weeks at one hour a day
       (including the review week at the end of each level). {plural(published, "lesson")} {isAre(published)} ready now.
     </p>
