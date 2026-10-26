@@ -30,7 +30,7 @@ src/content/
   lessons/<level>/NN-*.mdx   the written lessons (one file per syllabus entry)
   mindmaps/*.md              master / family / pillar / level mindmaps (outline Markdown)
   trees/*.yaml               decision trees ("a, an, the or no article?")
-  reference/*.yaml           irregular verbs, EN–FA glossary, Persian Corner traps
+  reference/*.yaml           irregular verbs, EN–FA glossary, Grammar Tips traps
   audit/*.yaml               reference sources and their mapped checklists
 ```
 
@@ -45,7 +45,7 @@ Copy `src/content/lessons/a1/05-be-am-is-are.mdx`. Every lesson follows the same
 3. `mindmap`: outline Markdown (`# root`, `## branch`, `- leaf`)
 4. form table / `<Timeline>` in the body
 5. uses with `<Example context="work" fa="…">` sentences
-6. Persian support: `<Persian>` (A1–A2, full) or `<Persian kind="tip">` (B1–B2); none at C1–C2. `traps:` adds Persian Corner ✗ → ✓ items
+6. Persian support: `<Persian>` (A1–A2, full) or `<Persian kind="tip">` (B1–B2); none at C1–C2. `traps:` adds Grammar Tips ✗ → ✓ items
 7. common mistakes: `<WrongRight wrong="…" right="…" why="…" />`
 8. `<MemoryHook>`
 9. `exercises:` at least 8, at least 3 types (`mcq`, `gap`, `correct`, `reorder`, `transform`, `match`)

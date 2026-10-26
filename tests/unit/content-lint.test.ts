@@ -64,7 +64,7 @@ describe.each(lessons.map((l) => [l.id, l] as const))("lesson %s", (_id, lesson)
   })
 })
 
-describe("Persian Corner index", () => {
+describe("Grammar Tips index", () => {
   const traps = loadYaml<{ id: string; lesson: string }[]>("reference/persian-traps.yaml")
   it("maps every trap to a planned lesson", () => {
     for (const t of traps) expect(syllabus.has(t.lesson), `${t.id} → ${t.lesson}`).toBe(true)

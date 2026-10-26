@@ -93,7 +93,7 @@ const components = {
           ["#rule-title", "Rule"],
           ["#map-title", "Mindmap"],
           ["#lesson-body", "Lesson"],
-          ...(data.traps.length ? [["#traps-title", "Persian Corner"]] : []),
+          ...(data.traps.length ? [["#traps-title", "Grammar Tips"]] : []),
           ["#practice", "Practice"],
           ["#recall-title", "Recall"],
           ["#flashcards", "Flashcards"],
@@ -155,12 +155,12 @@ const components = {
       <Content components={components} />
     </div>
 
-    <!-- 6 · Persian Corner -->
+    <!-- 6 · Grammar Tips -->
     {
       data.traps.length > 0 && (
         <section class="flex flex-col gap-3" aria-labelledby="traps-title">
           <h2 id="traps-title" class="font-heading text-2xl font-bold">
-            Persian Corner <span class="fa text-lg font-normal text-persian">کُنج فارسی</span>
+            Grammar Tips <span class="fa text-lg font-normal text-persian">نکته های گرامری</span>
           </h2>
           <p class="text-muted-foreground">Mistakes Persian speakers often make with this grammar, and why.</p>
           {data.traps.map((trap) => (

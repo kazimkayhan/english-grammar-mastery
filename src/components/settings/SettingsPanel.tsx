@@ -45,7 +45,7 @@ const PERSIAN_OPTIONS: { value: PersianMode; title: string; description: string 
   {
     value: "always",
     title: "Always",
-    description: "Like Auto, plus the Persian notes on Persian Corner traps at every level.",
+    description: "Like Auto, plus the Persian notes on Grammar Tips traps at every level.",
   },
   { value: "never", title: "Off", description: "Hide all Persian. English only, everywhere." },
 ]

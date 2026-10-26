@@ -20,7 +20,7 @@ export const GET: APIRoute = async () => {
     { group: "Pages", title: "Mindmaps", href: "/mindmaps", keywords: "map recall" },
     { group: "Pages", title: "Flashcards", href: "/flashcards", keywords: "review spaced repetition" },
     { group: "Pages", title: "Practice & Level Checks", href: "/practice", keywords: "exercises test quiz" },
-    { group: "Pages", title: "Persian Corner", href: "/persian-corner", keywords: "farsi persian mistakes فارسی" },
+    { group: "Pages", title: "Grammar Tips", href: "/persian-corner", keywords: "farsi persian mistakes فارسی" },
     { group: "Pages", title: "Grammar index (A–Z)", href: "/grammar-index" },
     { group: "Pages", title: "Reference", href: "/reference", keywords: "irregular verbs tense chart glossary" },
     { group: "Pages", title: "Settings", href: "/settings", keywords: "theme font dark night sepia backup" },
