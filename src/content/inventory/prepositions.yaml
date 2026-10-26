@@ -1,0 +1,36 @@
+pillar: prepositions
+points:
+  - { id: place-in-on-at, title: "in, on, at for place (in the box, on the table, at the door)", level: A1, lesson: a1-31, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: place-others, title: "under, next to, between, behind, in front of, near, opposite", level: A1, lesson: a1-31, sources: [ GSE, CI, GIU, PEU, OPG, CGEL, LEG, LALG ] }
+  - { id: address-prepositions, title: "at + address, on + street, in + city", level: A1, lesson: a1-31, sources: [ GIU, OPG ] }
+  - { id: time-at-on-in, title: "at (times), on (days, dates), in (months, years, seasons, parts of the day)", level: A1, lesson: a1-32, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, CGEL, LEG, LALG ] }
+  - { id: no-prep-time, title: "No preposition with next, last, this, every, tomorrow, yesterday", level: A1, lesson: a1-32, sources: [ GSE, PEU, OPG, CGEL, LEG ] }
+  - { id: from-to-until, title: "from … to / until", level: A1, lesson: a1-32, sources: [ GSE, GIU, PEU, OPG, CGEL, LEG, LALG ] }
+  - { id: at-night-weekend, title: "at night, on the weekend (UK at the weekend), in the morning", level: A1, lesson: a1-32, sources: [ GIU, OPG, LEG ] }
+  - { id: movement, title: "Prepositions of movement: to, into, out of, onto, off, across, along, through, past, towards, up, down, over, around", level: A2, lesson: a2-44, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, CGEL, LEG, LALG ] }
+  - { id: go-home, title: "go home / come home (no to)", level: A2, lesson: a2-44, sources: [ GIU, PEU ] }
+  - { id: arrive-in-at, title: "arrive in (a city) / arrive at (a place)", level: A2, lesson: a2-44, sources: [ GIU, PEU, LEG ] }
+  - { id: by-with, title: "by + transport (by bus), on foot; with + tool (cut with a knife)", level: A2, lesson: a2-45, sources: [ GSE, GIU, PEU, OEGC, OPG, CGEL, LEG ] }
+  - { id: about-prep, title: "about (a book about cats)", level: A2, lesson: a2-45, sources: [ OPG, CGEL, LEG ] }
+  - { id: between-among, title: "between vs among", level: A2, lesson: a2-45, sources: [ GSE, GIU, PEU, OEGC, OPG, CGEL, LEG, LALG ] }
+  - { id: above-over-below-under, title: "above / over, below / under", level: A2, lesson: a2-45, sources: [ GIU, PEU, OPG, CGEL, LEG, LALG ] }
+  - { id: transport-in-on, title: "in a car / on a bus, train, plane", level: A2, lesson: a2-45, sources: [ GIU, PEU, OPG, CGEL, LEG ] }
+  - { id: adj-prep-1, title: "Adjective + preposition (good at, interested in, afraid of, proud of, responsible for, angry with)", level: B1, lesson: b1-36, aliases: [ "dependent prepositions" ], sources: [ GIU, PEU, OEGC, OPG, OMEG, CGEL, LEG, LALG ] }
+  - { id: verb-prep-1, title: "Verb + preposition (depend on, listen to, wait for, belong to, look at, apologize for)", level: B1, lesson: b1-36, sources: [ GSE, GIU, PEU, OEGC, OPG, LGSWE, CGEL, LEG, LALG ] }
+  - { id: noun-prep, title: "Noun + preposition (reason for, increase in, solution to, effect on, advantage of, demand for)", level: B2, lesson: b2-41, sources: [ GIU, PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: verb-obj-prep, title: "Verb + object + preposition (accuse sb of, thank sb for, remind sb of, blame sb for)", level: B2, lesson: b2-41, sources: [ GSE, GIU, PEU, OEGC, OPG, LGSWE, CGEL, LALG ] }
+  - { id: prep-phrases, title: "Prepositional phrases (in time / on time, at the end / in the end, by mistake, on purpose, in advance, at first)", level: B2, lesson: b2-42, sources: [ GIU, PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: except-besides, title: "except, besides, apart from, instead of, according to", level: B2, lesson: b2-42, sources: [ GSE, GIU, PEU, OEGC, OPG, CGEL, LEG ] }
+  - { id: zero-prep-verbs, title: "Verbs with no preposition (discuss, enter, marry, contact, call, reach; explain sth to sb)", level: B2, lesson: b2-42, sources: [ GIU, PEU ] }
+  - { id: prep-vs-conj, title: "during vs while; because of vs because; despite vs although; like vs as", level: B2, lesson: b2-43, sources: [ GSE, GIU, PEU, OEGC, OPG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: due-to-owing-to, title: "due to, owing to, because of", level: B2, lesson: b2-43, sources: [ GSE, PEU, OEGC, CGEL, LALG ] }
+  - { id: complex-prepositions, title: "Complex prepositions (in terms of, with regard to, by means of, on behalf of, as opposed to, by virtue of, in light of)", level: C1, lesson: c1-33, sources: [ OPG, OMEG, LGSWE, CGEL, LALG ] }
+  - { id: preposition-stranding, title: "Preposition at the end (Who…to?) vs formal To whom…?", level: C1, lesson: c1-33, sources: [ PEU, OEGC, LGSWE, LSGSWE, CGEL, LALG ] }
+  - { id: prepositions-academic, title: "Prepositions in academic style (in relation to, with respect to)", level: C1, lesson: c1-33, sources: [ PEU ] }
+  # added from the reference audit
+  - { id: adverbs-place-direction, title: "Adverbs of place and direction (here, there, up, down, back, away, upstairs, abroad)", level: A2, lesson: a2-44, sources: [ GSE, OPG ] }
+  - { id: before-after-noun, title: "before / after + noun (before lunch, after class)", level: A2, lesson: a2-45, sources: [ GSE ] }
+  - { id: with-without-description, title: "with / without for description (a girl with long hair, coffee without sugar)", level: A2, lesson: a2-45, sources: [ GSE ] }
+  - { id: in-on-at-other, title: "in / on / at: other uses (on the left, on TV, in the newspaper, in the rain, at the age of)", level: A2, lesson: a2-45, sources: [ GIU ] }
+  - { id: place-adverbial-verbs, title: "Verbs that need a place adverbial (live, put, stay, keep + where)", level: A2, lesson: a2-44, sources: [ LGSWE ] }
+  - { id: prep-before-that, title: "Prepositions before wh- and that-clauses (depending on whether…; sure that…)", level: B2, lesson: b2-41, sources: [ PEU, OEGC ] }

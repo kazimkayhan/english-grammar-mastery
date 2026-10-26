@@ -1,0 +1,76 @@
+pillar: sentence-structure
+points:
+  - { id: svo-order, title: "Word order: Subject + Verb + Object", level: A1, lesson: a1-03, aliases: [ "word order" ], sources: [ GSE, GIU, PEU, OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: subject-required, title: "Every sentence needs a subject (It's raining)", level: A1, lesson: a1-03, sources: [ PEU, OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG ] }
+  - { id: place-before-time, title: "Place before time (I go to work at 8)", level: A1, lesson: a1-03, sources: [ GIU, PEU, OPG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: be-questions, title: "Questions with be (Are you…? Is she…?)", level: A1, lesson: a1-06, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: be-short-answers, title: "Short answers (Yes, I am. / No, she isn't.)", level: A1, lesson: a1-06, sources: [ CI, GIU, PEU, OEGC, OPG, LEG ] }
+  - { id: question-words, title: "Question words: what, where, who, when, why, how", level: A1, lesson: a1-07, aliases: [ "wh- questions" ], sources: [ GSE, CI, GIU, PEU, OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: how-questions, title: "how old, how much, how many, how far", level: A1, lesson: a1-07, sources: [ GSE, PEU, OPG, LEG ] }
+  - { id: question-word-order, title: "Question word + be / do + subject", level: A1, lesson: a1-07, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: there-is-are, title: "there is / there are", level: A1, lesson: a1-14, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: there-negative-questions, title: "Is there…? / There isn't… / There aren't…", level: A1, lesson: a1-14, sources: [ GSE, OPG, LEG ] }
+  - { id: there-is-a-some, title: "there is a… / there are some…", level: A1, lesson: a1-14, sources: [] }
+  - { id: imperatives, title: "Imperatives (Sit down. Don't worry.)", level: A1, lesson: a1-20, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG ] }
+  - { id: lets, title: "let's / let's not", level: A1, lesson: a1-20, sources: [ GSE, GIU, PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG ] }
+  - { id: always-never-imperative, title: "Always… / Never… + imperative", level: A1, lesson: a1-20, sources: [ PEU, OEGC, OPG, LGSWE, LSGSWE, CGEL, LEG ] }
+  - { id: dummy-it, title: "it for time, weather, distance and dates (It's 5 o'clock. It's cold.)", level: A1, lesson: a1-34, sources: [ GSE, GIU, OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: what-vs-which, title: "what vs which", level: A2, lesson: a2-01, sources: [ GSE, GIU, PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG ] }
+  - { id: how-long-often-far, title: "How long…? How often…? How far…?", level: A2, lesson: a2-01, sources: [ PEU, OPG, LEG ] }
+  - { id: what-like, title: "What … like? (What's she like? vs What does she like?)", level: A2, lesson: a2-01, sources: [ PEU, OPG, LEG ] }
+  - { id: preposition-end-questions, title: "Prepositions at the end of questions (Who are you talking to?)", level: A2, lesson: a2-01, sources: [ GSE, GIU, PEU, OEGC, OPG, LGSWE, LEG, LALG ] }
+  - { id: negative-words, title: "no, not, never, nothing, nobody, nowhere", level: A2, lesson: a2-02, sources: [ PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: one-negative, title: "Only one negative per clause (I didn't see anybody / I saw nobody)", level: A2, lesson: a2-02, aliases: [ "double negative" ], sources: [ PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: answering-negative-questions, title: "Answering negative questions (Didn't you go? No, I didn't.)", level: A2, lesson: a2-02, sources: [ PEU, OPG, LEG, LALG ] }
+  - { id: negative-questions-basic, title: "Negative questions (Don't you like it?)", level: A2, lesson: a2-02, sources: [ EGP, GSE, GIU, PEU, OEGC, OPG, LGSWE, CGEL, LEG, LALG ] }
+  - { id: exclamations, title: "Exclamations: What a…! What + plural / uncountable! How + adjective!", level: A2, lesson: a2-04, sources: [ PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, CGEL ] }
+  - { id: so-such-exclamations, title: "so and such for emphasis (It's so cold! She's such a kind person!)", level: A2, lesson: a2-04, sources: [ GIU, PEU, OEGC, LGSWE, LSGSWE, CGEL ] }
+  - { id: subject-questions, title: "Subject questions (Who called you?)", level: B1, lesson: b1-01, sources: [ GSE, GIU, OEGC, OPG, OMEG, LGSWE, CGEL, LEG, LALG ] }
+  - { id: object-questions, title: "Object questions (Who did you call?)", level: B1, lesson: b1-01, sources: [ GIU, OEGC, OPG, OMEG, LGSWE, CGEL, LEG, LALG ] }
+  - { id: question-tags, title: "Question tags (It's cold, isn't it?)", level: B1, lesson: b1-02, aliases: [ "tag questions" ], sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: special-tags, title: "Special tags (I'm…, aren't I? Let's…, shall we? Open the door, will you?)", level: B1, lesson: b1-02, sources: [ CI, GIU, PEU, OEGC, OPG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: tags-checking-asking, title: "Tags to check (falling) vs to ask (rising)", level: B1, lesson: b1-02, sources: [ GIU, PEU, OEGC, LGSWE, CGEL, LEG, LALG ] }
+  - { id: indirect-questions, title: "Indirect questions (Do you know where…? Can you tell me if…?)", level: B1, lesson: b1-03, aliases: [ "embedded questions" ], sources: [ GSE, GIU, PEU, OEGC, OPG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: wh-to, title: "Question word + to-infinitive (I don't know what to do)", level: B1, lesson: b1-03, sources: [ GSE, PEU, OPG, OMEG, LGSWE, LSGSWE, LEG, LALG ] }
+  - { id: it-vs-there, title: "it vs there", level: B1, lesson: b1-04, sources: [ GIU, PEU, OPG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: there-tenses, title: "there + any tense (there will be, there has been, there used to be)", level: B1, lesson: b1-04, sources: [ GIU, PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: there-seems, title: "there seems / appears to be", level: B1, lesson: b1-04, sources: [ GSE, GIU, PEU, OEGC, OMEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: it-takes, title: "it takes + time + to", level: B1, lesson: b1-04, sources: [ GIU, PEU, LGSWE, LALG ] }
+  - { id: it-adj-to, title: "It's + adjective + to (It's easy to learn)", level: B1, lesson: b1-04, sources: [ GSE, GIU, PEU, OEGC, LGSWE, LSGSWE, LEG, LALG ] }
+  - { id: agreement-indefinite, title: "Singular verb after everyone, nobody, each", level: B1, lesson: b1-05, aliases: [ "subject-verb agreement" ], sources: [ GIU, PEU, OPG, LGSWE, LSGSWE, CGEL, LALG ] }
+  - { id: one-of-plural, title: "one of + plural noun + singular verb", level: B1, lesson: b1-05, sources: [ GSE, GIU, PEU, OPG, LGSWE, LSGSWE ] }
+  - { id: agreement-there, title: "there is + singular / there are + plural", level: B1, lesson: b1-05, sources: [ OPG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: long-subject-agreement, title: "Agreement with long subjects (The price of the shoes is…)", level: B1, lesson: b1-05, sources: [ GIU ] }
+  - { id: how-come, title: "How come…? (no inversion)", level: B2, lesson: b2-01, sources: [ OPG, LEG ] }
+  - { id: what-for, title: "What … for? / Who else…?", level: B2, lesson: b2-01, sources: [ OPG, LEG ] }
+  - { id: echo-reply-questions, title: "Echo and reply questions (You did what? Oh, did you?)", level: B2, lesson: b2-01, sources: [ GIU, PEU, OEGC, OPG, OMEG, LGSWE, CGEL, LEG, LALG ] }
+  - { id: negative-surprise, title: "Negative questions for surprise or criticism (Haven't you finished yet?)", level: B2, lesson: b2-01, sources: [ GIU, PEU, OEGC, LGSWE, LEG, LALG ] }
+  - { id: rhetorical-questions, title: "Rhetorical questions", level: B2, lesson: b2-01, sources: [ PEU, OEGC, OPG, OMEG, CGEL ] }
+  - { id: collective-agreement, title: "Collective nouns: the team is / are (US vs UK)", level: B2, lesson: b2-02, sources: [ GIU, PEU, OEGC, OPG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: number-of, title: "a number of + plural vs the number of + singular", level: B2, lesson: b2-02, sources: [ GIU, PEU, LGSWE, LSGSWE, CGEL, LALG ] }
+  - { id: either-or-agreement, title: "either…or / neither…nor: the verb agrees with the nearer subject", level: B2, lesson: b2-02, sources: [ GIU, PEU, LGSWE, LSGSWE, CGEL, LALG ] }
+  - { id: measurement-singular, title: "Amounts as singular (Ten miles is a long way)", level: B2, lesson: b2-02, sources: [ GIU, PEU, OPG, LGSWE, LSGSWE ] }
+  - { id: majority-agreement, title: "the majority / a lot / the rest + singular or plural", level: C1, lesson: c1-28, sources: [ GIU, PEU, LGSWE, LSGSWE, CGEL ] }
+  - { id: one-of-those-who, title: "one of those who are…", level: C1, lesson: c1-28, sources: [ GIU, PEU ] }
+  - { id: more-than-one, title: "more than one + singular", level: C1, lesson: c1-28, sources: [ GIU ] }
+  - { id: notional-agreement, title: "Notional vs grammatical agreement", level: C1, lesson: c1-28, sources: [ GIU, OPG, LGSWE, LSGSWE, CGEL, LALG ] }
+  - { id: parallelism, title: "Parallel structure", level: C2, lesson: c2-08, sources: [ OEGC, OMEG, CGEL, LALG ] }
+  - { id: balance-embedding, title: "Balance and multiple embedding", level: C2, lesson: c2-08, sources: [ PEU, OEGC, LGSWE ] }
+  - { id: garden-path, title: "Garden-path sentences and how to avoid them", level: C2, lesson: c2-08, sources: [ PEU, OEGC ] }
+  - { id: scope-negation, title: "Scope of negation (All that glitters is not gold)", level: C2, lesson: c2-17, sources: [ PEU, OEGC, OMEG, LGSWE, LSGSWE, CGEL, LALG ] }
+  - { id: transferred-negation, title: "Transferred negation (I don't think he's coming)", level: C2, lesson: c2-17, sources: [ PEU, OEGC, LGSWE, CGEL, LALG ] }
+  - { id: negative-polarity, title: "Negative polarity items (ever, yet, any, at all, budge an inch)", level: C2, lesson: c2-17, sources: [ PEU, LGSWE, LSGSWE, CGEL, LALG ] }
+  - { id: barely-scarcely, title: "barely, scarcely, hardly + any / ever", level: C2, lesson: c2-17, sources: [ PEU, OEGC, OPG, LGSWE, CGEL, LALG ] }
+  - { id: not-any-vs-no, title: "not … any vs no; not a single", level: C2, lesson: c2-17, sources: [ GIU, PEU, OEGC, OPG, LGSWE, LSGSWE, CGEL, LALG ] }
+  - { id: misplaced-modifiers, title: "Misplaced modifiers", level: C2, lesson: c2-27, sources: [ OEGC ] }
+  - { id: dangling-modifiers, title: "Dangling modifiers", level: C2, lesson: c2-27, sources: [ OEGC ] }
+  - { id: structural-ambiguity, title: "Structural ambiguity (I saw the man with the telescope)", level: C2, lesson: c2-27, sources: [] }
+  # added from the reference audit
+  - { id: what-kind-of, title: "What kind / sort of …? (What kind of music do you like?)", level: A2, lesson: a2-01, sources: [ GSE ] }
+  - { id: questions-that-clauses, title: "Questions with that-clauses (Who did you say you saw?)", level: B2, lesson: b2-01, sources: [ GIU ] }
+  - { id: alternative-questions, title: "Alternative questions (Do you want tea or coffee?)", level: A2, lesson: a2-01, sources: [ LGSWE, LSGSWE, LEG ] }
+  - { id: discontinuous-np, title: "Discontinuous noun phrases (A man arrived who wanted to see you)", level: C2, lesson: c2-08, sources: [ LGSWE ] }
+  - { id: and-agreement, title: "Agreement with subjects joined by and (Ali and Sara are…; Bread and butter is…)", level: B2, lesson: b2-02, sources: [ LGSWE, LSGSWE, CGEL ] }
+  - { id: names-titles-agreement, title: "Agreement with names, titles and quotations (The Netherlands is…; Gulliver's Travels was…)", level: C1, lesson: c1-28, sources: [ LGSWE, LSGSWE, CGEL ] }
+  - { id: declarative-questions, title: "Declarative questions (You're leaving? That's the boss?)", level: B1, lesson: b1-01, sources: [ PEU, OEGC ] }
+  - { id: distributive-plural, title: "Distributive plural (They took off their coats)", level: B2, lesson: b2-02, sources: [ PEU ] }

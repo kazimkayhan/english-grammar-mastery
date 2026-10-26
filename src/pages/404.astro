@@ -1,0 +1,16 @@
+---
+import AppLayout from "@/layouts/AppLayout.astro"
+import LinkButton from "@/components/common/LinkButton.astro"
+---
+
+<AppLayout title="Page not found">
+  <section class="flex flex-col items-start gap-4 py-10">
+    <p class="text-sm font-bold tracking-widest text-primary uppercase">404</p>
+    <h1 class="font-heading text-4xl font-bold">This page doesn't exist (yet).</h1>
+    <p class="font-reading text-lg text-muted-foreground">Many lessons are still being written. Try the roadmap or search.</p>
+    <div class="flex gap-2">
+      <LinkButton href="/roadmap">Roadmap</LinkButton>
+      <LinkButton href="/" variant="outline">Home</LinkButton>
+    </div>
+  </section>
+</AppLayout>

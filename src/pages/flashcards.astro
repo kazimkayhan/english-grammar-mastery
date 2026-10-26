@@ -1,0 +1,20 @@
+---
+import AppLayout from "@/layouts/AppLayout.astro"
+import { FlashcardReview } from "@/components/flashcards/FlashcardReview"
+---
+
+<AppLayout title="Flashcards" description="Spaced-repetition review of the grammar you've learned.">
+  <header class="flex flex-col gap-3">
+    <h1 class="font-heading text-4xl font-bold tracking-tight">Flashcards</h1>
+    <p class="max-w-2xl font-reading text-lg text-muted-foreground">
+      Ten minutes a day. Answer in your head, show the answer, then rate yourself honestly: each card comes back just before you
+      would forget it.
+    </p>
+    <p class="hidden text-sm text-muted-foreground sm:block">
+      Keys: <kbd class="rounded border px-1.5">Space</kbd> show answer · <kbd class="rounded border px-1.5">1</kbd> Again ·
+      <kbd class="rounded border px-1.5">2</kbd> Hard · <kbd class="rounded border px-1.5">3</kbd> Good ·
+      <kbd class="rounded border px-1.5">4</kbd> Easy
+    </p>
+  </header>
+  <FlashcardReview client:load />
+</AppLayout>

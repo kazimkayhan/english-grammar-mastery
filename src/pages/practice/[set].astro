@@ -1,0 +1,57 @@
+---
+import AppLayout from "@/layouts/AppLayout.astro"
+import { ExerciseSet } from "@/components/exercises/ExerciseSet"
+import { getLessons, lessonHref } from "@/lib/content"
+import { seededShuffle } from "@/lib/exercises"
+import { plural } from "@/lib/text"
+import { LEVEL_INFO, LEVELS, PILLAR_INFO, PILLARS, type Level, type Pillar } from "@/lib/taxonomy"
+
+export async function getStaticPaths() {
+  const lessons = await getLessons()
+  const levelSets = LEVELS.filter((level) => lessons.some((l) => l.data.level === level)).map((level) => ({
+    params: { set: level.toLowerCase() },
+    props: { kind: "level" as const, key: level },
+  }))
+  const pillarSets = PILLARS.filter((pillar) => lessons.some((l) => l.data.pillar === pillar)).map((pillar) => ({
+    params: { set: pillar },
+    props: { kind: "pillar" as const, key: pillar },
+  }))
+  return [...levelSets, ...pillarSets]
+}
+
+const { kind, key } = Astro.props as { kind: "level" | "pillar"; key: string }
+const lessons = (await getLessons()).filter((l) => (kind === "level" ? l.data.level === key : l.data.pillar === key))
+const pool = lessons.flatMap((l) => l.data.exercises.map((ex) => ({ ex, lesson: l })))
+const size = kind === "level" ? 25 : 20
+const picked = seededShuffle(pool, `${kind}-${key}-${pool.length}`).slice(0, size)
+const title = kind === "level" ? `${key} Level Check` : `${PILLAR_INFO[key as Pillar].title}: mixed practice`
+const subtitle =
+  kind === "level"
+    ? `${LEVEL_INFO[key as Level].title}. ${plural(picked.length, "exercise")} from across the level. Aim for 80% before moving on.`
+    : `${plural(picked.length, "exercise")} from every level of this pillar.`
+---
+
+<AppLayout title={title} description={subtitle}>
+  <header class="flex flex-col gap-2">
+    <a href="/practice" class="text-sm text-muted-foreground hover:text-foreground">← All practice sets</a>
+    <h1 class="font-heading text-3xl font-bold tracking-tight">{title}</h1>
+    <p class="text-muted-foreground">{subtitle}</p>
+  </header>
+
+  <ExerciseSet client:load exercises={picked.map((p) => p.ex)} seed={`${kind}-${key}`} title="Exercises" />
+
+  <section class="flex flex-col gap-2">
+    <h2 class="font-heading text-lg font-bold">Lessons in this set</h2>
+    <ul class="flex flex-wrap gap-2">
+      {
+        lessons.map((l) => (
+          <li>
+            <a href={lessonHref(l)} class="inline-flex rounded-full border bg-card px-3 py-1 text-sm hover:bg-muted/50">
+              {l.data.level}.{l.data.number} {l.data.title}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+</AppLayout>

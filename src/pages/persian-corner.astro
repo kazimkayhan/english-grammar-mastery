@@ -1,0 +1,75 @@
+---
+import { getCollection } from "astro:content"
+
+import AppLayout from "@/layouts/AppLayout.astro"
+import WrongRight from "@/components/lesson/WrongRight.astro"
+import { getSyllabus } from "@/lib/content"
+
+const traps = await getCollection("persianTraps")
+const syllabus = new Map((await getSyllabus()).map((s) => [s.id, s]))
+const GROUPS = [
+  "Sentence structure",
+  "Nouns & determiners",
+  "Pronouns & clauses",
+  "Verbs & tenses",
+  "Verb patterns & reported speech",
+  "Prepositions",
+  "Modifiers",
+] as const
+---
+
+<AppLayout title="Persian Corner" description="The typical English grammar mistakes of Persian speakers, and how to fix them.">
+  <header class="flex flex-col gap-3">
+    <h1 class="font-heading text-4xl font-bold tracking-tight">
+      Persian Corner <span class="fa text-3xl font-normal text-persian">کُنج فارسی</span>
+    </h1>
+    <p class="max-w-2xl font-reading text-lg text-muted-foreground">
+      {traps.length} mistakes that Persian speakers make because Persian grammar works differently. Each one shows what people
+      say, the correct English, why, and the lesson that fixes it for good.
+    </p>
+    <p lang="fa" dir="rtl" class="fa persian-only max-w-2xl rounded-2xl bg-persian-soft px-4 py-3">
+      این اشتباه‌ها به خاطر تفاوت دستور زبان فارسی و انگلیسی است. دانستن «چرا»ی هر اشتباه کمک می‌کند برای همیشه درست شود.
+    </p>
+    <nav aria-label="Groups" class="flex flex-wrap gap-2 pt-1">
+      {
+        GROUPS.map((g) => (
+          <a href={`#${g.toLowerCase().replace(/[^a-z]+/g, "-")}`} class="rounded-full border bg-card px-3 py-1 text-sm hover:bg-muted/50">
+            {g}
+          </a>
+        ))
+      }
+    </nav>
+  </header>
+
+  {
+    GROUPS.map((group) => (
+      <section class="flex flex-col gap-3" id={group.toLowerCase().replace(/[^a-z]+/g, "-")}>
+        <h2 class="font-heading text-2xl font-bold">{group}</h2>
+        {traps
+          .filter((t) => t.data.group === group)
+          .map((t) => {
+            const planned = syllabus.get(t.data.lesson)
+            return (
+              <div class="flex flex-col gap-1.5">
+                <WrongRight wrong={t.data.wrong} right={t.data.right} why={t.data.why} fa={t.data.fa} />
+                {planned && (
+                  <p class="px-1 text-sm text-muted-foreground">
+                    Fixed in{" "}
+                    {planned.lesson ? (
+                      <a class="font-bold text-primary hover:underline" href={`/lessons/${planned.lesson.id}`}>
+                        {planned.level}.{planned.number} {planned.title}
+                      </a>
+                    ) : (
+                      <span>
+                        {planned.level}.{planned.number} {planned.title} (coming soon)
+                      </span>
+                    )}
+                  </p>
+                )}
+              </div>
+            )
+          })}
+      </section>
+    ))
+  }
+</AppLayout>

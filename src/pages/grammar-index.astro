@@ -1,0 +1,109 @@
+---
+import AppLayout from "@/layouts/AppLayout.astro"
+import { getCoverage, getInventory, getSyllabus } from "@/lib/content"
+import { FAMILY_INFO, PILLAR_INFO, type Pillar } from "@/lib/taxonomy"
+
+const points = await getInventory()
+const syllabus = new Map((await getSyllabus()).map((s) => [s.id, s]))
+const { taughtBy } = await getCoverage()
+
+// One entry per title and per alias, like the index at the back of a book.
+// Sort on the first letter or digit, so "-ed spelling" files under E, not before A.
+const sortKey = (term: string) => term.replace(/^[^a-z0-9]+/i, "")
+const entries = points
+  .flatMap((p) => [p.title, ...p.aliases].map((term) => ({ term, point: p, alias: term !== p.title })))
+  .sort((a, b) => sortKey(a.term).localeCompare(sortKey(b.term), "en", { sensitivity: "base" }))
+
+const letterOf = (term: string) => {
+  const c = sortKey(term)[0]?.toUpperCase() ?? "#"
+  return /[A-Z]/.test(c) ? c : "#"
+}
+const letters = [...new Set(entries.map((e) => letterOf(e.term)))]
+---
+
+<AppLayout title="Grammar index" description="Every grammar point from A1 to C2, A to Z.">
+  <header class="flex flex-col gap-3">
+    <h1 class="font-heading text-4xl font-bold tracking-tight">Grammar index</h1>
+    <p class="max-w-2xl font-reading text-lg text-muted-foreground">
+      All {points.length} grammar points in the course, A to Z, with their other names. Each one links to the lesson that
+      teaches it.
+    </p>
+    <div class="flex max-w-md flex-col gap-1.5">
+      <label for="index-filter" class="text-sm font-bold">Filter the index</label>
+      <input
+        id="index-filter"
+        type="search"
+        autocomplete="off"
+        placeholder="e.g. perfect, article, if"
+        class="h-10 w-full rounded-4xl border border-input bg-input/30 px-4 text-base outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50"
+      />
+      <p id="index-count" class="text-sm text-muted-foreground" aria-live="polite"></p>
+    </div>
+    <nav aria-label="Letters" class="flex flex-wrap gap-1">
+      {
+        letters.map((l) => (
+          <a href={`#letter-${l}`} class="flex size-8 items-center justify-center rounded-lg border bg-card text-sm font-bold hover:bg-muted/50">
+            {l}
+          </a>
+        ))
+      }
+    </nav>
+  </header>
+
+  {
+    letters.map((letter) => (
+      <section id={`letter-${letter}`} class="index-letter flex flex-col gap-2">
+        <h2 class="font-heading text-2xl font-bold">{letter}</h2>
+        <ul class="grid gap-x-6 gap-y-1 sm:grid-cols-2">
+          {entries
+            .filter((e) => letterOf(e.term) === letter)
+            .map(({ term, point, alias }) => {
+              const by = taughtBy.get(point.id) ?? []
+              const planned = syllabus.get(point.lesson)
+              const fam = FAMILY_INFO[PILLAR_INFO[point.pillar as Pillar].family]
+              return (
+                <li class="index-entry flex items-baseline gap-2 border-b border-dashed py-1.5 text-sm" data-term={`${term} ${point.title}`.toLowerCase()}>
+                  <span class="size-2 shrink-0 rounded-full" style={`background:${fam.color}`} aria-hidden="true" />
+                  <span class="min-w-0 flex-1">
+                    {by.length ? (
+                      <a href={`/lessons/${by[0]}`} class="font-bold hover:underline">
+                        {term}
+                      </a>
+                    ) : (
+                      <span>{term}</span>
+                    )}
+                    {alias && <span class="text-muted-foreground"> → {point.title}</span>}
+                  </span>
+                  <span class="shrink-0 text-xs text-muted-foreground tabular-nums">
+                    {planned ? `${planned.level}.${planned.number}` : point.level}
+                  </span>
+                </li>
+              )
+            })}
+        </ul>
+      </section>
+    ))
+  }
+  <p id="index-empty" class="hidden text-muted-foreground">No grammar point matches that. Try a shorter word.</p>
+</AppLayout>
+
+<script>
+  // Instant filter over the static index (nothing is stored).
+  const input = document.getElementById("index-filter") as HTMLInputElement | null
+  const count = document.getElementById("index-count")
+  const empty = document.getElementById("index-empty")
+  const entries = [...document.querySelectorAll<HTMLElement>(".index-entry")]
+  const sections = [...document.querySelectorAll<HTMLElement>(".index-letter")]
+  input?.addEventListener("input", () => {
+    const words = input.value.toLowerCase().split(/\s+/).filter(Boolean)
+    let shown = 0
+    for (const li of entries) {
+      const match = words.every((w) => li.dataset.term!.includes(w))
+      li.hidden = !match
+      if (match) shown++
+    }
+    for (const s of sections) s.hidden = !s.querySelector(".index-entry:not([hidden])")
+    if (count) count.textContent = words.length ? `${shown} ${shown === 1 ? "entry" : "entries"}` : ""
+    empty?.classList.toggle("hidden", shown > 0)
+  })
+</script>

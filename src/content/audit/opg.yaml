@@ -1,0 +1,400 @@
+source: OPG
+edition: "Revised edition 2019 is the newest (Basic ISBN 9780194214728, Intermediate 9780194214742, Advanced 9780194214766). Contents actually read: Basic and Intermediate = 2006 'new series' edition contents pages; Advanced = with-key edition (2006, reprinted 2009)."
+retrieved_from:
+  - "http://fdslive.oup.com/www.oup.com/elt/catalogue/pdf/contents_pages/grammar/9780194310239.pdf"
+  - "http://fdslive.oup.com/www.oup.com/elt/catalogue/pdf/contents_pages/grammar/9780194309103.pdf"
+  - "http://fdslive.oup.com/www.oup.com/elt/catalogue/pdf/contents_pages/grammar/9780194579827.pdf"
+  - "https://ia800409.us.archive.org/0/items/OPGwAPdfbooksfree.pk/OPGwAPdfbooksfree.pk.pdf"
+  - "https://ia601803.us.archive.org/31/items/oxford-practice-grammar-advanced-tests-2019-250211-141229/OXFORD%20PRACTICE%20GRAMMAR_Advanced_Tests_2019_250211_141229_djvu.txt"
+verified: partial
+note: "All three levels in one file; refs are prefixed B (Basic, 109 units + 4 appendices), I (Intermediate, 153 units + 6 appendices) and A (Advanced, 17 chapters with their unit titles). Items are unit titles only (OPG contents pages list no finer headings). The 2019 Revised Edition contents pages could not be retrieved (OUP ELT site not reachable from here); the older contents were used. Evidence the structure is stable: the 2019 'Advanced Tests' book lists the same 17 chapters as the earlier Advanced contents, and the 1999 second edition of the Intermediate book (153 units, read in full, archive.org OPGwAPdfbooksfree.pk) matches the 2006 Intermediate list apart from small wording changes (e.g. units 95 and 150). Treat 2019 Basic/Intermediate unit titles as unverified."
+items:
+  - { ref: "B1", item: "Basic 1 Be: Present Simple (1)", maps: [ be-present-forms, be-contractions ] }
+  - { ref: "B2", item: "Basic 2 Be: Present Simple (2)", maps: [ be-negative, be-questions, be-short-answers ] }
+  - { ref: "B3", item: "Basic 3 Present Simple (1)", maps: [ present-simple-positive, third-person-s, third-person-spelling, present-simple-uses ] }
+  - { ref: "B4", item: "Basic 4 Present Simple (2)", maps: [ present-simple-negative, present-simple-questions, wh-present-simple ] }
+  - { ref: "B5", item: "Basic 5 Present Continuous (1)", maps: [ present-continuous-form, ing-spelling ] }
+  - { ref: "B6", item: "Basic 6 Present Continuous (2)", maps: [ present-continuous-now, temporary-permanent, changing-situations ] }
+  - { ref: "B7", item: "Basic 7 Present Simple or Present Continuous", maps: [ simple-vs-continuous ] }
+  - { ref: "B8", item: "Basic 8 Imperative", maps: [ imperatives, lets, always-never-imperative ] }
+  - { ref: "B9", item: "Basic 9 Be: Past Simple", maps: [ was-were, was-born, there-was-were ] }
+  - { ref: "B10", item: "Basic 10 Past Simple", maps: [ past-simple-regular, past-simple-irregular, ed-spelling, did-negative-questions, past-simple-wh ] }
+  - { ref: "B11", item: "Basic 11 Past Continuous", maps: [ past-continuous ] }
+  - { ref: "B12", item: "Basic 12 Past Simple or Past Continuous", maps: [ past-simple-vs-continuous, when-while ] }
+  - { ref: "B13", item: "Basic 13 Present Perfect (1)", maps: [ present-perfect-form, past-participle, present-perfect-recent ] }
+  - { ref: "B14", item: "Basic 14 Present Perfect (2)", maps: [ present-perfect-experience, been-gone, just-already-yet ] }
+  - { ref: "B15", item: "Basic 15 Present Perfect (3)", maps: [ for-since, how-long ] }
+  - { ref: "B16", item: "Basic 16 Past Simple or Present Perfect", maps: [ pp-vs-past, finished-time-trap ] }
+  - { ref: "B17", item: "Basic 17 Present Perfect Continuous", maps: [ ppc-form, ppc-duration ] }
+  - { ref: "B18", item: "Basic 18 Present Perfect Simple or Continuous", maps: [ ppc-vs-pp ] }
+  - { ref: "B19", item: "Basic 19 Past Perfect", maps: [ past-perfect ] }
+  - { ref: "B20", item: "Basic 20 Used to", maps: [ used-to, didnt-use-to ] }
+  - { ref: "B21", item: "Basic 21 Be going to", maps: [ going-to-plans, going-to-evidence ] }
+  - { ref: "B22", item: "Basic 22 Will and shall", maps: [ will-decisions, will-predictions, shall-offers ] }
+  - { ref: "B23", item: "Basic 23 Will or be going to", maps: [ which-future-intro, futures-compared ] }
+  - { ref: "B24", item: "Basic 24 Present Continuous for the future", maps: [ present-continuous-future ] }
+  - { ref: "B25", item: "Basic 25 Present tense: when, before, after, until etc", maps: [ future-time-clauses-basic, future-time-clauses ] }
+  - { ref: "B26", item: "Basic 26 Future", maps: [ futures-compared ] }
+  - { ref: "B27", item: "Basic 27 Nouns, verbs, adjectives, etc.", maps: [ parts-of-speech ] }
+  - { ref: "B28", item: "Basic 28 Word order: subject, verb, object", maps: [ svo-order, place-before-time ] }
+  - { ref: "B29", item: "Basic 29 Yes/no questions", maps: [ be-questions, present-simple-questions ] }
+  - { ref: "B30", item: "Basic 30 Where, when, why, how", maps: [ question-words, question-word-order ] }
+  - { ref: "B31", item: "Basic 31 Who, what, which", maps: [ what-vs-which, question-words ] }
+  - { ref: "B32", item: "Basic 32 How long/far/often...?", maps: [ how-long-often-far, how-questions ] }
+  - { ref: "B33", item: "Basic 33 What ... like?", maps: [ what-like ] }
+  - { ref: "B34", item: "Basic 34 Who and what: subject and object", maps: [ subject-questions, object-questions ] }
+  - { ref: "B35", item: "Basic 35 Whose is this? It's John's", maps: [ whose, possessive-pronouns, possessive-s ] }
+  - { ref: "B36", item: "Basic 36 Question tags", maps: [ question-tags ] }
+  - { ref: "B37", item: "Basic 37 Short answers", maps: [ be-short-answers ] }
+  - { ref: "B38", item: "Basic 38 So am I, I am too, Neither am I etc", maps: [ so-neither-do-i, me-too-me-neither ] }
+  - { ref: "B39", item: "Basic 39 Ability: can, can't, could, couldn't", maps: [ can-ability, could-past-ability ] }
+  - { ref: "B40", item: "Basic 40 Can/Could I? May I? Can/Could you?", maps: [ can-permission-requests, could-may-requests ] }
+  - { ref: "B41", item: "Basic 41 Must, mustn't", maps: [ must-have-to, mustnt-dont-have-to ] }
+  - { ref: "B42", item: "Basic 42 Have to", maps: [ must-have-to, had-to ] }
+  - { ref: "B43", item: "Basic 43 Must/have to, mustn't/don't have to", maps: [ mustnt-dont-have-to ] }
+  - { ref: "B44", item: "Basic 44 Must, can't, may, might, could", maps: [ deduction-present, may-might-possibility ] }
+  - { ref: "B45", item: "Basic 45 Should, shouldn't", maps: [ should-advice ] }
+  - { ref: "B46", item: "Basic 46 Should, ought to, had better", maps: [ ought-to, had-better ] }
+  - { ref: "B47", item: "Basic 47 Need, needn't, needn't have", maps: [ need-neednt, neednt-have ] }
+  - { ref: "B48", item: "Basic 48 Had to do/go, should have done/gone", maps: [ had-to, should-have ] }
+  - { ref: "B49", item: "Basic 49 Articles (1): a, an or the", maps: [ a-an-sound, a-jobs, the-specific, the-second-mention, a-vs-one ] }
+  - { ref: "B50", item: "Basic 50 Articles (2): a/an, the or no article", maps: [ the-vs-zero, zero-article-set-phrases, articles-meals-days, the-unique ] }
+  - { ref: "B51", item: "Basic 51 Plural nouns; one and ones", maps: [ plural-regular, plural-irregular, plural-f-ves, plural-o, one-ones ] }
+  - { ref: "B52", item: "Basic 52 This, that, these, those", maps: [ demonstratives, demonstrative-pronouns ] }
+  - { ref: "B53", item: "Basic 53 Countable and uncountable nouns", maps: [ countable-uncountable ] }
+  - { ref: "B54", item: "Basic 54 A, some, any, no", maps: [ some-any-basic, some-any-offers, no-none ] }
+  - { ref: "B55", item: "Basic 55 I and me (subject and object pronouns)", maps: [ subject-pronouns, object-pronouns, pronoun-after-preposition ] }
+  - { ref: "B56", item: "Basic 56 There or it/they", maps: [ there-is-are, dummy-it, there-negative-questions ] }
+  - { ref: "B57", item: "Basic 57 My, your; mine, yours", maps: [ possessive-adjectives, possessive-pronouns, its-vs-its ] }
+  - { ref: "B58", item: "Basic 58 Myself, yourself etc; each other", maps: [ reflexive-pronouns, each-other, by-myself ] }
+  - { ref: "B59", item: "Basic 59 Direct and indirect objects", maps: [ two-objects, two-objects-to-for ] }
+  - { ref: "B60", item: "Basic 60 Much, many; how much/many; more", maps: [ much-many, how-much-many ] }
+  - { ref: "B61", item: "Basic 61 A lot of, lots of, a little, a few", maps: [ a-lot-of, a-few-a-little ] }
+  - { ref: "B62", item: "Basic 62 Something, anybody, nothing etc", maps: [ indefinite-compounds ] }
+  - { ref: "B63", item: "Basic 63 Every/each; one/another/other/others", maps: [ each-every-basic, another-other ] }
+  - { ref: "B64", item: "Basic 64 All, most, some, none", maps: [ all-both-basic, most-of, none-of ] }
+  - { ref: "B65", item: "Basic 65 Adjectives (order)", maps: [ adjective-order-intro, adjective-position ] }
+  - { ref: "B66", item: "Basic 66 Adjectives: -ed or -ing", maps: [ ed-ing-adjectives ] }
+  - { ref: "B67", item: "Basic 67 Cardinal and ordinal numbers", maps: [ cardinal-numbers, ordinal-numbers ] }
+  - { ref: "B68", item: "Basic 68 Comparison: (not) as ... as", maps: [ as-as, same-similar-different ] }
+  - { ref: "B69", item: "Basic 69 Too and enough", maps: [ too-enough ] }
+  - { ref: "B70", item: "Basic 70 So and such", maps: [ so-such ] }
+  - { ref: "B71", item: "Basic 71 Comparative adjectives", maps: [ comparatives-short, comparatives-long, comparatives-irregular, than-me ] }
+  - { ref: "B72", item: "Basic 72 Superlative adjectives", maps: [ superlatives, superlative-in-of ] }
+  - { ref: "B73", item: "Basic 73 Adverbs (1): adjectives and adverbs", maps: [ adverbs-manner, adjective-vs-adverb, adverb-spelling, irregular-adverbs ] }
+  - { ref: "B74", item: "Basic 74 Adverbs (2): adverbs of frequency", maps: [ frequency-adverbs, frequency-position, how-often ] }
+  - { ref: "B75", item: "Basic 75 Adverbs (3): place, direction, sequence", maps: [ adverbs-place-direction ], suggest: { title: "Adverbs of place and direction (here, there, upstairs, outside, away)", level: A2, lesson: "a2-41" } }
+  - { ref: "B76", item: "Basic 76 Adverb + adjective; noun + noun; etc.", maps: [ very-really, compound-nouns ] }
+  - { ref: "B77", item: "Basic 77 Position of adverbs in a sentence", maps: [ adverb-positions, adverb-order ] }
+  - { ref: "B78", item: "Basic 78 Prepositions of place and movement", maps: [ place-in-on-at, place-others, movement ] }
+  - { ref: "B79", item: "Basic 79 Prepositions of time", maps: [ time-at-on-in, no-prep-time, from-to-until ] }
+  - { ref: "B80", item: "Basic 80 As/like; as if/as though", maps: [ like-as, as-if ] }
+  - { ref: "B81", item: "Basic 81 In; with; preposition + -ing", maps: [ ing-after-prepositions, by-with ] }
+  - { ref: "B82", item: "Basic 82 Other uses of prepositions", maps: [ by-with, about-prep, except-besides ] }
+  - { ref: "B83", item: "Basic 83 Verb + preposition", maps: [ verb-prep-1 ] }
+  - { ref: "B84", item: "Basic 84 Adjective + preposition", maps: [ adj-prep-1 ] }
+  - { ref: "B85", item: "Basic 85 Have and have got", maps: [ have-possession, have-got, have-questions ] }
+  - { ref: "B86", item: "Basic 86 Make, do, have, get", maps: [ make-vs-do, delexical-verbs, get-uses ] }
+  - { ref: "B87", item: "Basic 87 Phrasal verbs (1): meanings and types", maps: [ phrasal-verbs-intro ] }
+  - { ref: "B88", item: "Basic 88 Phrasal verbs (2): separability", maps: [ phrasal-pronoun-position, phrasal-separable ] }
+  - { ref: "B89", item: "Basic 89 Passive sentences (1)", maps: [ passive-form, passive-present-past ] }
+  - { ref: "B90", item: "Basic 90 Passive sentences (2)", maps: [ passive-by, passive-why, passive-perfect, passive-modal ] }
+  - { ref: "B91", item: "Basic 91 Have something done", maps: [ have-something-done ] }
+  - { ref: "B92", item: "Basic 92 Infinitive with/without to", maps: [ verb-to, make-let-help, modal-grammar ] }
+  - { ref: "B93", item: "Basic 93 Verb + -ing; like and would like", maps: [ verb-ing, like-ing, would-like, like-vs-would-like ] }
+  - { ref: "B94", item: "Basic 94 Verb + to or verb + -ing", maps: [ ing-to-meaning-change, same-meaning-verbs ] }
+  - { ref: "B95", item: "Basic 95 Purpose: for ...ing", maps: [ infinitive-purpose, for-noun-purpose ] }
+  - { ref: "B96", item: "Basic 96 Verb + object (+ to) + infinitive", maps: [ verb-object-to, want-sb-to, make-let-help ] }
+  - { ref: "B97", item: "Basic 97 Zero Conditional and First Conditional", maps: [ zero-conditional, first-conditional ] }
+  - { ref: "B98", item: "Basic 98 Second Conditional", maps: [ second-conditional, if-i-were-you ] }
+  - { ref: "B99", item: "Basic 99 Third Conditional", maps: [ third-conditional ] }
+  - { ref: "B100", item: "Basic 100 Reported speech (1)", maps: [ say-tell, backshift, reported-changes ] }
+  - { ref: "B101", item: "Basic 101 Reported speech (2)", maps: [ reported-changes, no-backshift, reported-commands ] }
+  - { ref: "B102", item: "Basic 102 Reported questions", maps: [ reported-questions, reported-if-whether ] }
+  - { ref: "B103", item: "Basic 103 And, but, so, both ... and, either etc", maps: [ and-but-or, because-so, both-and, either-or-neither-nor ] }
+  - { ref: "B104", item: "Basic 104 Because, in case, so, so that", maps: [ reason-clauses, in-case, purpose-clauses ] }
+  - { ref: "B105", item: "Basic 105 Since, as, for", maps: [ reason-clauses ] }
+  - { ref: "B106", item: "Basic 106 Although, while, however, despite etc", maps: [ contrast-although, however-but, despite-in-spite, whereas-while ] }
+  - { ref: "B107", item: "Basic 107 Relative clauses (1)", maps: [ relative-who-which-that, defining-relative-basic ] }
+  - { ref: "B108", item: "Basic 108 Relative clauses (2)", maps: [ omit-relative, relative-where, relative-whose-when ] }
+  - { ref: "B109", item: "Basic 109 Relative clauses (3)", maps: [ defining-nondefining, comma-nondefining, preposition-relative ] }
+  - { ref: "BA1", item: "Basic Appendix 1 Nouns (plural spelling)", maps: [ plural-regular, plural-irregular, plural-f-ves, plural-o ] }
+  - { ref: "BA2", item: "Basic Appendix 2 Regular verbs (spelling)", maps: [ ed-spelling, ing-spelling, third-person-spelling ] }
+  - { ref: "BA3", item: "Basic Appendix 3 Irregular verbs", maps: [ irregular-verbs-2, past-simple-irregular ] }
+  - { ref: "BA4", item: "Basic Appendix 4 Adjectives and adverbs (spelling and forms)", maps: [ adverb-spelling, comparatives-short, comparatives-irregular ] }
+  - { ref: "I1", item: "Intermediate 1 Word classes: nouns, verbs, adjectives, etc.", maps: [ parts-of-speech ] }
+  - { ref: "I2", item: "Intermediate 2 Sentence structure: subject, verb, object, etc.", maps: [ sentence-parts, svo-order ] }
+  - { ref: "I3", item: "Intermediate 3 Direct and indirect objects", maps: [ two-objects, two-objects-to-for ] }
+  - { ref: "I4", item: "Intermediate 4 Present Continuous", maps: [ present-continuous-form, present-continuous-now, changing-situations, temporary-permanent ] }
+  - { ref: "I5", item: "Intermediate 5 Present Simple", maps: [ present-simple-positive, present-simple-uses, present-simple-negative, present-simple-questions ] }
+  - { ref: "I6", item: "Intermediate 6 Present Continuous or Present Simple?", maps: [ simple-vs-continuous ] }
+  - { ref: "I7", item: "Intermediate 7 State verbs and action verbs", maps: [ stative-verbs, stative-dynamic-meanings ] }
+  - { ref: "I8", item: "Intermediate 8 Past Simple", maps: [ past-simple-uses, past-simple-regular, past-simple-irregular, did-negative-questions ] }
+  - { ref: "I9", item: "Intermediate 9 Past Continuous", maps: [ past-continuous, past-continuous-background ] }
+  - { ref: "I10", item: "Intermediate 10 Past Continuous or Past Simple?", maps: [ past-simple-vs-continuous, when-while ] }
+  - { ref: "I11", item: "Intermediate 11 Present Perfect (1)", maps: [ present-perfect-form, present-perfect-recent ] }
+  - { ref: "I12", item: "Intermediate 12 Present Perfect (2): just, already, yet; for and since", maps: [ just-already-yet, for-since ] }
+  - { ref: "I13", item: "Intermediate 13 Present Perfect (3): ever, this week etc", maps: [ present-perfect-experience, been-gone, pp-vs-past ] }
+  - { ref: "I14", item: "Intermediate 14 Present Perfect or Past Simple? (1)", maps: [ pp-vs-past ] }
+  - { ref: "I15", item: "Intermediate 15 Present Perfect or Past Simple? (2)", maps: [ finished-time-trap, news-perfect-past ] }
+  - { ref: "I16", item: "Intermediate 16 Present Perfect Continuous", maps: [ ppc-form, ppc-duration, ppc-recent-results ] }
+  - { ref: "I17", item: "Intermediate 17 Present Perfect Continuous or Simple?", maps: [ ppc-vs-pp ] }
+  - { ref: "I18", item: "Intermediate 18 Past Perfect", maps: [ past-perfect, past-perfect-sequence ] }
+  - { ref: "I19", item: "Intermediate 19 Review of the Past Simple, Continuous and Perfect", maps: [ narrative-tenses ] }
+  - { ref: "I20", item: "Intermediate 20 Past Perfect Continuous", maps: [ past-perfect-continuous ] }
+  - { ref: "I21", item: "Intermediate 21 Review of present and past tenses", maps: [ simple-vs-continuous, pp-vs-past, narrative-tenses ] }
+  - { ref: "I22", item: "Intermediate 22 Introduction to the future", maps: [ futures-compared ] }
+  - { ref: "I23", item: "Intermediate 23 Will and shall", maps: [ will-decisions, will-predictions, shall-offers ] }
+  - { ref: "I24", item: "Intermediate 24 Be going to", maps: [ going-to-plans, going-to-evidence ] }
+  - { ref: "I25", item: "Intermediate 25 Will and be going to", maps: [ futures-compared ] }
+  - { ref: "I26", item: "Intermediate 26 Present tenses for the future", maps: [ present-continuous-future, present-simple-timetable ] }
+  - { ref: "I27", item: "Intermediate 27 When I get there, before you leave etc", maps: [ future-time-clauses, future-time-clauses-basic ] }
+  - { ref: "I28", item: "Intermediate 28 Will be doing", maps: [ future-continuous-intro, future-continuous-full ] }
+  - { ref: "I29", item: "Intermediate 29 Will have done and was going to", maps: [ future-perfect, was-going-to ] }
+  - { ref: "I30", item: "Intermediate 30 Review of the future", maps: [ futures-compared ] }
+  - { ref: "I31", item: "Intermediate 31 The verb have", maps: [ have-possession, have-got, have-actions, delexical-verbs ] }
+  - { ref: "I32", item: "Intermediate 32 Short forms (it's, don't)", maps: [ be-contractions, contractions, s-is-has ] }
+  - { ref: "I33", item: "Intermediate 33 Emphatic do", maps: [ emphatic-do ] }
+  - { ref: "I34", item: "Intermediate 34 Yes/no questions", maps: [ be-questions, present-simple-questions ] }
+  - { ref: "I35", item: "Intermediate 35 Short answers, e.g. Yes, it is", maps: [ be-short-answers ] }
+  - { ref: "I36", item: "Intermediate 36 Wh-questions", maps: [ question-words, question-word-order ] }
+  - { ref: "I37", item: "Intermediate 37 Subject/object questions", maps: [ subject-questions, object-questions ] }
+  - { ref: "I38", item: "Intermediate 38 Prepositions in wh-questions", maps: [ preposition-end-questions ] }
+  - { ref: "I39", item: "Intermediate 39 Who, what or which?", maps: [ what-vs-which ] }
+  - { ref: "I40", item: "Intermediate 40 Negative statements", maps: [ negative-words, present-simple-negative, one-negative ] }
+  - { ref: "I41", item: "Intermediate 41 Negative questions", maps: [ negative-questions-basic, answering-negative-questions ] }
+  - { ref: "I42", item: "Intermediate 42 Question tags, e.g. isn't it?", maps: [ question-tags, special-tags ] }
+  - { ref: "I43", item: "Intermediate 43 So/Neither do I and I think so", maps: [ so-neither-do-i, think-so-hope-not ] }
+  - { ref: "I44", item: "Intermediate 44 Ability: can, could and be able to", maps: [ can-ability, could-past-ability, be-able-to ] }
+  - { ref: "I45", item: "Intermediate 45 Permission: can, may, could and be allowed to", maps: [ can-permission-requests, allowed-to, could-may-requests ] }
+  - { ref: "I46", item: "Intermediate 46 Possibility and certainty: may, might, could, must etc", maps: [ deduction-present, may-might-possibility ] }
+  - { ref: "I47", item: "Intermediate 47 Necessity: must and have to", maps: [ must-have-to, had-to ] }
+  - { ref: "I48", item: "Intermediate 48 Necessity: mustn't, needn't etc", maps: [ mustnt-dont-have-to, need-neednt ] }
+  - { ref: "I49", item: "Intermediate 49 Should, ought to, had better and be supposed to", maps: [ should-advice, ought-to, had-better, supposed-to ] }
+  - { ref: "I50", item: "Intermediate 50 Asking people to do things", maps: [ would-polite, could-may-requests, would-you-mind ] }
+  - { ref: "I51", item: "Intermediate 51 Suggestions, offers and invitations", maps: [ suggestions, offers ] }
+  - { ref: "I52", item: "Intermediate 52 Will, would, shall and should", maps: [ will-habits, would-characteristic, shall-formal, should-expectation ] }
+  - { ref: "I53", item: "Intermediate 53 It may/could/must have been etc", maps: [ deduction-past, should-have, could-have ] }
+  - { ref: "I54", item: "Intermediate 54 Passive verb forms", maps: [ passive-form, passive-present-past, passive-perfect, passive-future, passive-continuous ] }
+  - { ref: "I55", item: "Intermediate 55 Active and passive (1)", maps: [ passive-why, passive-by ] }
+  - { ref: "I56", item: "Intermediate 56 Active and passive (2)", maps: [ passive-two-objects, passive-phrasal, choosing-voice ] }
+  - { ref: "I57", item: "Intermediate 57 Special passive structures", maps: [ impersonal-it-said, personal-said-to, get-passive, needs-doing ] }
+  - { ref: "I58", item: "Intermediate 58 Have something done", maps: [ have-something-done, causative-experience ] }
+  - { ref: "I59", item: "Intermediate 59 To be done and being done", maps: [ passive-infinitive-gerund ] }
+  - { ref: "I60", item: "Intermediate 60 Verb + to-infinitive", maps: [ verb-to ] }
+  - { ref: "I61", item: "Intermediate 61 Verb + -ing form", maps: [ verb-ing, fixed-ing-expressions ] }
+  - { ref: "I62", item: "Intermediate 62 Verb + to-infinitive or verb + -ing form?", maps: [ same-meaning-verbs, ing-to-meaning-change ] }
+  - { ref: "I63", item: "Intermediate 63 Like, start etc", maps: [ same-meaning-verbs, like-doing-vs-to ] }
+  - { ref: "I64", item: "Intermediate 64 Remember, regret, try etc", maps: [ ing-to-meaning-change ] }
+  - { ref: "I65", item: "Intermediate 65 Verb + object + to-infinitive or -ing form", maps: [ verb-object-to, perception-base-ing ] }
+  - { ref: "I66", item: "Intermediate 66 Question word + to-infinitive", maps: [ wh-to ] }
+  - { ref: "I67", item: "Intermediate 67 Adjective + to-infinitive", maps: [ adjective-to ] }
+  - { ref: "I68", item: "Intermediate 68 For with the to-infinitive", maps: [ for-object-to ] }
+  - { ref: "I69", item: "Intermediate 69 The infinitive with and without to", maps: [ make-let-help, modal-grammar ] }
+  - { ref: "I70", item: "Intermediate 70 Verb/Adjective + preposition + -ing form", maps: [ ing-after-prepositions, difficulty-spend ] }
+  - { ref: "I71", item: "Intermediate 71 Afraid to do or afraid of doing?", maps: [ afraid-sorry-interested ] }
+  - { ref: "I72", item: "Intermediate 72 Used to do and be used to doing", maps: [ used-to-vs-be-used-to, be-used-to, get-used-to, used-to ] }
+  - { ref: "I73", item: "Intermediate 73 Preposition or linking word + -ing form", maps: [ ing-after-prepositions, conjunction-ing ] }
+  - { ref: "I74", item: "Intermediate 74 See it happen or see it happening?", maps: [ perception-base-ing ] }
+  - { ref: "I75", item: "Intermediate 75 Some structures with the -ing form", maps: [ fixed-ing-expressions, go-ing, participle-clauses ] }
+  - { ref: "I76", item: "Intermediate 76 Ship and water: countable and uncountable nouns", maps: [ countable-uncountable, uncountable-traps ] }
+  - { ref: "I77", item: "Intermediate 77 A carton of milk, a piece of information etc", maps: [ partitives ] }
+  - { ref: "I78", item: "Intermediate 78 Nouns that can be either countable or uncountable", maps: [ dual-countability ] }
+  - { ref: "I79", item: "Intermediate 79 Agreement", maps: [ agreement-indefinite, agreement-there, one-of-plural ] }
+  - { ref: "I80", item: "Intermediate 80 Singular or plural?", maps: [ singular-s-nouns, plural-verb-nouns, collective-agreement, measurement-singular ] }
+  - { ref: "I81", item: "Intermediate 81 Pair nouns and group nouns", maps: [ plural-only, collective-agreement ] }
+  - { ref: "I82", item: "Intermediate 82 Two nouns together", maps: [ compound-nouns, measurement-compounds, possessive-of ] }
+  - { ref: "I83", item: "Intermediate 83 A/an and the (1)", maps: [ a-an-sound, the-specific, the-second-mention ] }
+  - { ref: "I84", item: "Intermediate 84 A/an and the (2)", maps: [ the-unique, generic-reference ] }
+  - { ref: "I85", item: "Intermediate 85 A/an, one and some", maps: [ a-vs-one, some-any-offers ] }
+  - { ref: "I86", item: "Intermediate 86 Cars or the cars?", maps: [ the-vs-zero, generic-reference ] }
+  - { ref: "I87", item: "Intermediate 87 Prison, school, bed etc", maps: [ institutions, zero-article-set-phrases ] }
+  - { ref: "I88", item: "Intermediate 88 On Friday, for lunch etc", maps: [ articles-meals-days, zero-article-set-phrases ] }
+  - { ref: "I89", item: "Intermediate 89 Quite a, such a, what a etc", maps: [ predeterminers, so-such, exclamations ] }
+  - { ref: "I90", item: "Intermediate 90 Place names and the", maps: [ the-geography ] }
+  - { ref: "I91", item: "Intermediate 91 This, that, these and those", maps: [ demonstratives ] }
+  - { ref: "I92", item: "Intermediate 92 My, your etc and mine, yours etc", maps: [ possessive-adjectives, possessive-pronouns ] }
+  - { ref: "I93", item: "Intermediate 93 The possessive form and of", maps: [ possessive-s, possessive-of, time-possessive ] }
+  - { ref: "I94", item: "Intermediate 94 Some and any", maps: [ some-any-basic, some-any-offers, any-whichever ] }
+  - { ref: "I95", item: "Intermediate 95 A lot of, lots of, many, much, (a) few and (a) little", maps: [ a-lot-of, much-many, a-few-a-little ] }
+  - { ref: "I96", item: "Intermediate 96 All, half, most, some, no and none", maps: [ all-both-basic, half, most-of, none-of ] }
+  - { ref: "I97", item: "Intermediate 97 Every, each, whole, both, either and neither", maps: [ each-every-full, both-all-whole, either-neither ] }
+  - { ref: "I98", item: "Intermediate 98 Personal pronouns (I, you)", maps: [ subject-pronouns, object-pronouns, pronoun-case ] }
+  - { ref: "I99", item: "Intermediate 99 There and it", maps: [ it-vs-there, dummy-it, there-is-are ] }
+  - { ref: "I100", item: "Intermediate 100 Reflexive pronouns", maps: [ reflexive-pronouns ] }
+  - { ref: "I101", item: "Intermediate 101 Emphatic pronouns and each other", maps: [ emphatic-reflexive, each-other ] }
+  - { ref: "I102", item: "Intermediate 102 The pronoun one/ones", maps: [ one-ones ] }
+  - { ref: "I103", item: "Intermediate 103 Everyone, something etc", maps: [ indefinite-compounds, indefinite-singular-verb ] }
+  - { ref: "I104", item: "Intermediate 104 Adjectives", maps: [ adjective-position, predicative-only, attributive-only ] }
+  - { ref: "I105", item: "Intermediate 105 Adjectives (order)", maps: [ adjective-order-intro, adjective-order-full ] }
+  - { ref: "I106", item: "Intermediate 106 The old, the rich etc", maps: [ the-adjective-group, the-nationality ] }
+  - { ref: "I107", item: "Intermediate 107 Interesting and interested", maps: [ ed-ing-adjectives ] }
+  - { ref: "I108", item: "Intermediate 108 Adjective or adverb? (1)", maps: [ adjective-vs-adverb, adverbs-manner ] }
+  - { ref: "I109", item: "Intermediate 109 Adjective or adverb? (2)", maps: [ irregular-adverbs, hard-hardly, linking-verbs ] }
+  - { ref: "I110", item: "Intermediate 110 Comparative and superlative forms", maps: [ comparatives-short, comparatives-long, comparatives-irregular, superlatives ] }
+  - { ref: "I111", item: "Intermediate 111 Comparative and superlative patterns (1)", maps: [ than-me, as-as, superlative-in-of, superlative-ever ] }
+  - { ref: "I112", item: "Intermediate 112 Comparative and superlative patterns (2)", maps: [ much-far-comparative, more-and-more, the-the-intro, times-as ] }
+  - { ref: "I113", item: "Intermediate 113 Adverbs and word order", maps: [ adverb-positions, adverb-order, frequency-position ] }
+  - { ref: "I114", item: "Intermediate 114 Yet, still and already", maps: [ already-yet-still, still-anymore ] }
+  - { ref: "I115", item: "Intermediate 115 Adverbs of degree (very, quite)", maps: [ intensifiers, softeners, very-really ] }
+  - { ref: "I116", item: "Intermediate 116 Quite and rather", maps: [ softeners, quite-us-uk ] }
+  - { ref: "I117", item: "Intermediate 117 Too and enough", maps: [ too-enough, too-enough-to ] }
+  - { ref: "I118", item: "Intermediate 118 Prepositions of place", maps: [ place-others, above-over-below-under, between-among ] }
+  - { ref: "I119", item: "Intermediate 119 In, on and at (place)", maps: [ place-in-on-at, address-prepositions, transport-in-on ] }
+  - { ref: "I120", item: "Intermediate 120 In, on and at (time)", maps: [ time-at-on-in, at-night-weekend ] }
+  - { ref: "I121", item: "Intermediate 121 For, since, ago and before", maps: [ for-since, ago, during-vs-for ] }
+  - { ref: "I122", item: "Intermediate 122 During or while? By or until? As or like?", maps: [ prep-vs-conj, by-until, like-as ] }
+  - { ref: "I123", item: "Intermediate 123 Preposition + noun (on holiday)", maps: [ prep-phrases ] }
+  - { ref: "I124", item: "Intermediate 124 Noun + preposition (trouble with)", maps: [ noun-prep ] }
+  - { ref: "I125", item: "Intermediate 125 Adjective + preposition (proud of)", maps: [ adj-prep-1 ] }
+  - { ref: "I126", item: "Intermediate 126 Prepositional verbs (wait for)", maps: [ prepositional-verbs, verb-prep-1 ] }
+  - { ref: "I127", item: "Intermediate 127 Verb + object + preposition", maps: [ verb-obj-prep ] }
+  - { ref: "I128", item: "Intermediate 128 Phrasal verbs (1)", maps: [ phrasal-verbs-intro ] }
+  - { ref: "I129", item: "Intermediate 129 Phrasal verbs (2)", maps: [ phrasal-separable, phrasal-pronoun-position ] }
+  - { ref: "I130", item: "Intermediate 130 Phrasal verbs (3)", maps: [ phrasal-separable, three-part-phrasal ] }
+  - { ref: "I131", item: "Intermediate 131 Verb + adverb + preposition", maps: [ three-part-phrasal ] }
+  - { ref: "I132", item: "Intermediate 132 Direct speech and reported speech", maps: [ say-tell, direct-speech-punctuation ] }
+  - { ref: "I133", item: "Intermediate 133 Reported speech: person, place and time", maps: [ reported-changes ] }
+  - { ref: "I134", item: "Intermediate 134 Reported speech: the tense change", maps: [ backshift, no-backshift ] }
+  - { ref: "I135", item: "Intermediate 135 Reported questions", maps: [ reported-questions, reported-if-whether ] }
+  - { ref: "I136", item: "Intermediate 136 Reported requests, offers etc", maps: [ reported-commands, reported-requests, reporting-verbs-patterns ] }
+  - { ref: "I137", item: "Intermediate 137 Relative clauses with who, which and that", maps: [ relative-who-which-that, that-vs-which ] }
+  - { ref: "I138", item: "Intermediate 138 The relative pronoun as object", maps: [ omit-relative, no-resumptive ] }
+  - { ref: "I139", item: "Intermediate 139 Prepositions in relative clauses", maps: [ preposition-relative ] }
+  - { ref: "I140", item: "Intermediate 140 Relative structures with whose, what and it", maps: [ relative-whose-when, nominal-what, it-cleft ] }
+  - { ref: "I141", item: "Intermediate 141 The use of relative clauses", maps: [ defining-nondefining, comma-nondefining ] }
+  - { ref: "I142", item: "Intermediate 142 Relative pronouns and relative adverbs", maps: [ relative-where, relative-whose-when, place-clauses ] }
+  - { ref: "I143", item: "Intermediate 143 Relative clauses: participle and to-infinitive", maps: [ reduced-relative, first-to ] }
+  - { ref: "I144", item: "Intermediate 144 Conditionals (1)", maps: [ zero-conditional, first-conditional ] }
+  - { ref: "I145", item: "Intermediate 145 Conditionals (2)", maps: [ second-conditional, if-i-were-you, first-vs-second ] }
+  - { ref: "I146", item: "Intermediate 146 Conditionals (3)", maps: [ third-conditional, mixed-past-present ] }
+  - { ref: "I147", item: "Intermediate 147 Review of conditionals", maps: [ first-vs-second, mixed-present-past ] }
+  - { ref: "I148", item: "Intermediate 148 If, when, unless and in case", maps: [ when-vs-if, unless, in-case, as-long-as ] }
+  - { ref: "I149", item: "Intermediate 149 Wish and if only", maps: [ wish-past, wish-past-perfect, if-only-intro, wish-would ] }
+  - { ref: "I150", item: "Intermediate 150 But, although, in spite of, whereas etc", maps: [ contrast-although, despite-in-spite, whereas-while, however-but ] }
+  - { ref: "I151", item: "Intermediate 151 To, in order to, so that and for", maps: [ purpose-clauses, infinitive-purpose ] }
+  - { ref: "I152", item: "Intermediate 152 Review of linking words", maps: [ reason-clauses, result-clauses, contrast-although, linkers-contrast ] }
+  - { ref: "I153", item: "Intermediate 153 Links across sentences", maps: [ linkers-addition, linkers-contrast, linkers-result, linkers-example, linkers-summary, sequencing ] }
+  - { ref: "IA1", item: "Intermediate Appendix 1 Word formation", maps: [ suffix-noun, suffix-adjective, suffix-verb, prefix-negative ] }
+  - { ref: "IA2", item: "Intermediate Appendix 2 The spelling of endings", maps: [ ed-spelling, ing-spelling, third-person-spelling, plural-regular ] }
+  - { ref: "IA3", item: "Intermediate Appendix 3 Punctuation", maps: [ period-question-mark, comma-lists, apostrophe-possession, direct-speech-punctuation, colon-semicolon, dash-hyphen ] }
+  - { ref: "IA4", item: "Intermediate Appendix 4 Pronunciation", outOfScope: "pronunciation" }
+  - { ref: "IA5", item: "Intermediate Appendix 5 American English", maps: [ us-uk-verbs, us-uk-prepositions, us-uk-collective ] }
+  - { ref: "IA6", item: "Intermediate Appendix 6 Irregular verbs", maps: [ irregular-verbs-2, past-participle ] }
+  - { ref: "A1.1", item: "Advanced 1 Sentences: Simple sentences and verbs", maps: [ sentence-parts, svo-order, parts-of-speech ] }
+  - { ref: "A1.2", item: "Advanced 1 Sentences: Subjects and verbs", maps: [ subject-required, agreement-indefinite, notional-agreement ] }
+  - { ref: "A1.3", item: "Advanced 1 Sentences: Verbs and objects", maps: [ sentence-parts, svo-order ] }
+  - { ref: "A1.4", item: "Advanced 1 Sentences: Verbs with indirect objects and clauses", maps: [ two-objects, two-objects-to-for, reporting-verbs-patterns ] }
+  - { ref: "A1.5", item: "Advanced 1 Sentences: Linking verbs", maps: [ linking-verbs ] }
+  - { ref: "A1.6", item: "Advanced 1 Sentences: Compound and complex sentences", maps: [ sentence-types ] }
+  - { ref: "A2.1", item: "Advanced 2 Tenses: Verbs, auxiliary verbs and tenses", maps: [ verb-forms, auxiliaries ] }
+  - { ref: "A2.2", item: "Advanced 2 Tenses: Present and present perfect", maps: [ simple-vs-continuous, present-perfect-form, ppc-vs-pp ] }
+  - { ref: "A2.3", item: "Advanced 2 Tenses: Past and past perfect", maps: [ past-simple-vs-continuous, narrative-tenses, past-perfect-continuous ] }
+  - { ref: "A2.4", item: "Advanced 2 Tenses: Present perfect or past simple?", maps: [ pp-vs-past ] }
+  - { ref: "A2.5", item: "Advanced 2 Tenses: Past perfect or past simple?", maps: [ past-perfect-sequence ] }
+  - { ref: "A2.6", item: "Advanced 2 Tenses: Future", maps: [ futures-compared, future-perfect, future-continuous-full, future-in-past ] }
+  - { ref: "A3.1", item: "Advanced 3 Modals: Modals and phrasal modals", maps: [ modal-grammar, had-better, supposed-to, be-to-vs-have-to ] }
+  - { ref: "A3.2", item: "Advanced 3 Modals: Complex modals", maps: [ modal-continuous, modal-perfect-continuous, modal-combinations ] }
+  - { ref: "A3.3", item: "Advanced 3 Modals: Prediction: will, would, be going to, shall", maps: [ will-predictions, going-to-evidence, shall-formal ] }
+  - { ref: "A3.4", item: "Advanced 3 Modals: Willingness, habits and preferences: will and would", maps: [ would-characteristic, will-habits, wont-refusal, rather-better-prefer ] }
+  - { ref: "A3.5", item: "Advanced 3 Modals: Ability: can, could, be able to", maps: [ can-ability, could-past-ability, be-able-to, managed-to ] }
+  - { ref: "A3.6", item: "Advanced 3 Modals: Permission: can, could, may, might, be allowed to", maps: [ can-permission-requests, could-may-requests, allowed-to ] }
+  - { ref: "A3.7", item: "Advanced 3 Modals: Possibility: may, might, can, could", maps: [ may-might-possibility, may-well ] }
+  - { ref: "A3.8", item: "Advanced 3 Modals: Necessity: must, have to, have got to, need to, needn't", maps: [ must-have-to, have-got-to, need-neednt, mustnt-dont-have-to ] }
+  - { ref: "A3.9", item: "Advanced 3 Modals: Deduction: must, have to, have got to, can't and couldn't", maps: [ deduction-present, deduction-past, cant-vs-mustnt ] }
+  - { ref: "A3.10", item: "Advanced 3 Modals: Obligation and advice: should, ought to, be supposed to, had better", maps: [ should-advice, ought-to, supposed-to, had-better ] }
+  - { ref: "A4.1", item: "Advanced 4 Negatives and questions: Word order in negatives and questions", maps: [ question-word-order, negative-words ] }
+  - { ref: "A4.2", item: "Advanced 4 Negatives and questions: Negative questions and question tags", maps: [ negative-questions-basic, question-tags, special-tags ] }
+  - { ref: "A4.3", item: "Advanced 4 Negatives and questions: Negative words", maps: [ negative-words, barely-scarcely, not-any-vs-no, one-negative ] }
+  - { ref: "A4.4", item: "Advanced 4 Negatives and questions: Question words", maps: [ question-words, how-come, what-for ] }
+  - { ref: "A4.5", item: "Advanced 4 Negatives and questions: Other question types", maps: [ rhetorical-questions, echo-reply-questions, indirect-questions ] }
+  - { ref: "A5.1", item: "Advanced 5 The passive: Active and passive", maps: [ passive-form, passive-why ] }
+  - { ref: "A5.2", item: "Advanced 5 The passive: Passives with modals, infinitives and gerunds", maps: [ modal-passive, passive-infinitive-gerund, modal-perfect-passive ] }
+  - { ref: "A5.3", item: "Advanced 5 The passive: Passive verbs", maps: [ passive-continuous, passive-two-objects, passive-phrasal, impersonal-it-said ] }
+  - { ref: "A5.4", item: "Advanced 5 The passive: The uses of the passive", maps: [ choosing-voice, passive-weakens, agency-news-academic ] }
+  - { ref: "A5.5", item: "Advanced 5 The passive: Passives with by-phrases and ergatives", maps: [ passive-by, ergative-verbs, middle-voice ] }
+  - { ref: "A5.6", item: "Advanced 5 The passive: Passives with get", maps: [ get-passive ] }
+  - { ref: "A6.1", item: "Advanced 6 Articles and nouns: Types of articles and nouns", maps: [ countable-uncountable, dual-countability ] }
+  - { ref: "A6.2", item: "Advanced 6 Articles and nouns: Articles: a/an or the", maps: [ a-an-sound, the-specific, the-unique ] }
+  - { ref: "A6.3", item: "Advanced 6 Articles and nouns: a/an or one, a/an or no article, the or no article", maps: [ a-vs-one, the-vs-zero, generic-reference ] }
+  - { ref: "A6.4", item: "Advanced 6 Articles and nouns: Nouns: countable and uncountable", maps: [ dual-countability, uncountable-traps, partitives ] }
+  - { ref: "A6.5", item: "Advanced 6 Articles and nouns: Nouns: generic, pair, group, plural and singular (+ -s)", maps: [ plural-only, singular-s-nouns, collective-agreement, generic-reference ] }
+  - { ref: "A6.6", item: "Advanced 6 Articles and nouns: Possessive and compound nouns", maps: [ possessive-of, compound-nouns, time-possessive, group-possessive ] }
+  - { ref: "A6.7", item: "Advanced 6 Articles and nouns: Articles and nouns in discourse", maps: [ the-second-mention, lexical-cohesion, such-this-reference ] }
+  - { ref: "A7.1", item: "Advanced 7 Determiners and quantifiers: Determiners", maps: [ determiner-order ] }
+  - { ref: "A7.2", item: "Advanced 7 Determiners and quantifiers: Quantifiers", maps: [ much-many, great-deal, quite-a-few ] }
+  - { ref: "A7.3", item: "Advanced 7 Determiners and quantifiers: Some and any, no and none", maps: [ some-any-basic, no-none, none-agreement ] }
+  - { ref: "A7.4", item: "Advanced 7 Determiners and quantifiers: All and both, half and whole", maps: [ all-both-basic, both-all-whole, half, predeterminers ] }
+  - { ref: "A7.5", item: "Advanced 7 Determiners and quantifiers: Each and every, either and neither", maps: [ each-every-full, either-neither ] }
+  - { ref: "A7.6", item: "Advanced 7 Determiners and quantifiers: Many, much and a lot (of), more and most", maps: [ much-many, a-lot-of, most-of ] }
+  - { ref: "A7.7", item: "Advanced 7 Determiners and quantifiers: (A) few and (a) little, fewer/fewest and less/least", maps: [ few-a-few, fewer-less, less-least ] }
+  - { ref: "A7.8", item: "Advanced 7 Determiners and quantifiers: Multipliers, fractions and percentages", maps: [ times-as, fractions-decimals, large-numbers ] }
+  - { ref: "A8.1", item: "Advanced 8 Pronouns, substitution and ellipsis: Personal, generic and possessive pronouns", maps: [ pronoun-case, generic-you-one, singular-they, possessive-pronouns ] }
+  - { ref: "A8.2", item: "Advanced 8 Pronouns, substitution and ellipsis: Demonstrative and indefinite pronouns", maps: [ demonstrative-pronouns, indefinite-compounds ] }
+  - { ref: "A8.3", item: "Advanced 8 Pronouns, substitution and ellipsis: Reflexive and reciprocal pronouns", maps: [ reflexive-pronouns, each-other, myself-misuse ] }
+  - { ref: "A8.4", item: "Advanced 8 Pronouns, substitution and ellipsis: Empty subject it", maps: [ dummy-it, extraposition, it-vs-there ] }
+  - { ref: "A8.5", item: "Advanced 8 Pronouns, substitution and ellipsis: Empty subject there", maps: [ there-is-are, there-tenses, existential-variants ] }
+  - { ref: "A8.6", item: "Advanced 8 Pronouns, substitution and ellipsis: Substitution: one and ones", maps: [ one-ones ] }
+  - { ref: "A8.7", item: "Advanced 8 Pronouns, substitution and ellipsis: Substitution: so and do so", maps: [ do-so, substitution-suppose-so ] }
+  - { ref: "A8.8", item: "Advanced 8 Pronouns, substitution and ellipsis: Ellipsis", maps: [ auxiliary-ellipsis, ellipsis-to, comparison-ellipsis ] }
+  - { ref: "A9.1", item: "Advanced 9 Adjectives and adverbs: Adjectives: emphasizing, describing, classifying", maps: [ gradable-nongradable, intensifiers, adjective-order-full ] }
+  - { ref: "A9.2", item: "Advanced 9 Adjectives and adverbs: Adjectives: position and punctuation", maps: [ adjective-order-full, predicative-only, attributive-only ] }
+  - { ref: "A9.3", item: "Advanced 9 Adjectives and adverbs: Participle adjectives, compound adjectives and adjectives as nouns", maps: [ ed-ing-adjectives, compound-adjectives, the-adjective-group ] }
+  - { ref: "A9.4", item: "Advanced 9 Adjectives and adverbs: Position of adverbs; adverbs of place, time, frequency, expectation, focus", maps: [ adverb-positions, adverb-order, focus-adverbs, probably-negative ] }
+  - { ref: "A9.5", item: "Advanced 9 Adjectives and adverbs: Adverbs: degree, manner, viewpoint, comment", maps: [ intensifiers, adverbs-manner, viewpoint-adverbs, comment-adverbs ] }
+  - { ref: "A9.6", item: "Advanced 9 Adjectives and adverbs: Equatives, comparatives and superlatives", maps: [ as-as, comparatives-short, comparatives-long, superlatives, times-as, by-far ] }
+  - { ref: "A10.1", item: "Advanced 10 Prepositions: Prepositions and prepositional phrases", maps: [ prep-phrases, complex-prepositions ] }
+  - { ref: "A10.2", item: "Advanced 10 Prepositions: Prepositions of time: at, in, on etc.", maps: [ time-at-on-in ] }
+  - { ref: "A10.3", item: "Advanced 10 Prepositions: Prepositions of time: during, for, since etc.", maps: [ during-vs-for, for-since, by-until ] }
+  - { ref: "A10.4", item: "Advanced 10 Prepositions: Prepositions of place: at, in, on", maps: [ place-in-on-at ] }
+  - { ref: "A10.5", item: "Advanced 10 Prepositions: Prepositions of place: above, below, between etc.", maps: [ above-over-below-under, between-among, place-others ] }
+  - { ref: "A10.6", item: "Advanced 10 Prepositions: Prepositions of movement and place: from, across, along etc.", maps: [ movement ] }
+  - { ref: "A10.7", item: "Advanced 10 Prepositions: Prepositions used for connections: of, with, by", maps: [ by-with, noun-prep ] }
+  - { ref: "A10.8", item: "Advanced 10 Prepositions: Prepositions used for exceptions: except (for), besides, without etc.", maps: [ except-besides, without-given-assuming ] }
+  - { ref: "A10.9", item: "Advanced 10 Prepositions: Phrasal verbs", maps: [ phrasal-verbs-intro, phrasal-separable, three-part-phrasal ] }
+  - { ref: "A11.1", item: "Advanced 11 Infinitives and gerunds: Simple infinitives and gerunds", maps: [ verb-to, verb-ing, ing-subject, infinitive-subject ] }
+  - { ref: "A11.2", item: "Advanced 11 Infinitives and gerunds: Complex infinitives and gerunds", maps: [ perfect-infinitive, perfect-gerund, passive-infinitive-gerund ] }
+  - { ref: "A11.3", item: "Advanced 11 Infinitives and gerunds: Verbs with infinitives and gerunds", maps: [ ing-to-meaning-change, same-meaning-verbs, mean-go-on, verb-object-to ] }
+  - { ref: "A11.4", item: "Advanced 11 Infinitives and gerunds: Adjectives with infinitives and gerunds", maps: [ adjective-to, easy-to-please, afraid-sorry-interested, worth-ing ] }
+  - { ref: "A11.5", item: "Advanced 11 Infinitives and gerunds: Nouns and pronouns with infinitives and gerunds", maps: [ noun-to, for-object-to ] }
+  - { ref: "A12.1", item: "Advanced 12 Reporting: Direct speech", maps: [ direct-speech-punctuation ] }
+  - { ref: "A12.2", item: "Advanced 12 Reporting: Indirect speech", maps: [ say-tell, backshift, no-backshift, reported-changes ] }
+  - { ref: "A12.3", item: "Advanced 12 Reporting: Reporting verbs", maps: [ reporting-verbs-patterns, suggest-pattern, accuse-apologise ] }
+  - { ref: "A12.4", item: "Advanced 12 Reporting: Reporting statements and questions", maps: [ reported-questions, reported-if-whether ] }
+  - { ref: "A12.5", item: "Advanced 12 Reporting: Reporting orders, requests, advice and opinions", maps: [ reported-commands, reported-requests, reported-thoughts ] }
+  - { ref: "A13.1", item: "Advanced 13 Noun clauses: That-clauses and wh-clauses", maps: [ that-clauses, wh-clauses ] }
+  - { ref: "A13.2", item: "Advanced 13 Noun clauses: Noun clauses as subjects and objects", maps: [ clause-as-subject, if-whether-clauses ] }
+  - { ref: "A13.3", item: "Advanced 13 Noun clauses: Nouns with noun clauses", maps: [ the-fact-that ] }
+  - { ref: "A13.4", item: "Advanced 13 Noun clauses: Adjectives with noun clauses", maps: [ it-adj-that ] }
+  - { ref: "A13.5", item: "Advanced 13 Noun clauses: The subjunctive or should in noun clauses", maps: [ mandative-subjunctive, putative-should, should-subjunctive ] }
+  - { ref: "A13.6", item: "Advanced 13 Noun clauses: Uses of noun clauses", maps: [ extraposition, preparatory-it-object ] }
+  - { ref: "A14.1", item: "Advanced 14 Relative clauses: Relative clauses and relative pronouns", maps: [ relative-who-which-that, that-vs-which, omit-relative ] }
+  - { ref: "A14.2", item: "Advanced 14 Relative clauses: Defining and non-defining relative clauses", maps: [ defining-nondefining, comma-nondefining ] }
+  - { ref: "A14.3", item: "Advanced 14 Relative clauses: Reduced relative clauses", maps: [ reduced-relative ] }
+  - { ref: "A14.4", item: "Advanced 14 Relative clauses: Possessives and pronouns with relative clauses", maps: [ relative-whose-when, whose-things ] }
+  - { ref: "A14.5", item: "Advanced 14 Relative clauses: Prepositions in relative clauses", maps: [ preposition-relative ] }
+  - { ref: "A14.6", item: "Advanced 14 Relative clauses: Relative clauses with where, what, whatever etc.", maps: [ relative-where, nominal-what, ever-clauses, whoever-whatever-expert ] }
+  - { ref: "A15.1", item: "Advanced 15 Conditionals: Real conditionals", maps: [ zero-conditional, first-conditional ] }
+  - { ref: "A15.2", item: "Advanced 15 Conditionals: Unreal conditionals", maps: [ second-conditional, third-conditional ] }
+  - { ref: "A15.3", item: "Advanced 15 Conditionals: Mixed conditionals", maps: [ mixed-past-present, mixed-present-past ] }
+  - { ref: "A15.4", item: "Advanced 15 Conditionals: Order and punctuation in conditionals", maps: [ comma-intro ] }
+  - { ref: "A15.5", item: "Advanced 15 Conditionals: The uses of conditionals", maps: [ if-will-would, implied-conditionals ] }
+  - { ref: "A15.6", item: "Advanced 15 Conditionals: Only if, even if, unless, whether, if so etc.", maps: [ only-if, even-if, unless, whether-or-not, if-so-not ] }
+  - { ref: "A16.1", item: "Advanced 16 Adverbial clauses: Adverbial clauses and conjunctions", maps: [ time-clauses-full, sentence-types ] }
+  - { ref: "A16.2", item: "Advanced 16 Adverbial clauses: Time clauses with when, while, as", maps: [ when-while, time-clauses-full ] }
+  - { ref: "A16.3", item: "Advanced 16 Adverbial clauses: Time clauses with after, before, until, since etc.", maps: [ time-clauses-full, time-clauses-basic ] }
+  - { ref: "A16.4", item: "Advanced 16 Adverbial clauses: Manner clauses with as, as if, as though etc.", maps: [ as-if, like-as ] }
+  - { ref: "A16.5", item: "Advanced 16 Adverbial clauses: Reason clauses with because, as, since etc.", maps: [ reason-clauses ] }
+  - { ref: "A16.6", item: "Advanced 16 Adverbial clauses: Purpose clauses with so that, in order that, in order to etc.", maps: [ purpose-clauses ] }
+  - { ref: "A16.7", item: "Advanced 16 Adverbial clauses: Result clauses with so, so ... that, such ... that", maps: [ result-clauses ] }
+  - { ref: "A16.8", item: "Advanced 16 Adverbial clauses: Contrast clauses with although, though, even though etc.", maps: [ contrast-although ] }
+  - { ref: "A16.9", item: "Advanced 16 Adverbial clauses: Reduced adverbial clauses", maps: [ conjunction-ing, verbless-clauses ] }
+  - { ref: "A17.1", item: "Advanced 17 Connectors and focus structures: Types of connectors and focus structures", maps: [ linkers-addition, linkers-contrast, linkers-result ] }
+  - { ref: "A17.2", item: "Advanced 17 Connectors and focus structures: Connectors, prepositions and conjunctions", maps: [ prep-vs-conj, despite-in-spite ] }
+  - { ref: "A17.3", item: "Advanced 17 Connectors and focus structures: Adding and contrasting connectors", maps: [ linkers-addition, linkers-contrast ] }
+  - { ref: "A17.4", item: "Advanced 17 Connectors and focus structures: Result and time connectors", maps: [ linkers-result, sequencing ] }
+  - { ref: "A17.5", item: "Advanced 17 Connectors and focus structures: Listing connectors", maps: [ sequencing, linkers-summary ] }
+  - { ref: "A17.6", item: "Advanced 17 Connectors and focus structures: Focus structures: fronting and inversion", maps: [ fronting, negative-inversion, place-inversion ] }
+  - { ref: "A17.7", item: "Advanced 17 Connectors and focus structures: Focus structures: cleft sentences", maps: [ it-cleft, wh-cleft ] }
+  - { ref: "AA1", item: "Advanced Appendix: Regular and irregular verbs", maps: [ ed-spelling, irregular-verbs-2 ] }
+  - { ref: "AA2", item: "Advanced Glossary of grammatical terms", outOfScope: "glossary of terminology, not a grammar point" }

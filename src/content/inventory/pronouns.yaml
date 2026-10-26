@@ -1,0 +1,31 @@
+pillar: pronouns
+points:
+  - { id: subject-pronouns, title: "Subject pronouns: I, you, he, she, it, we, they", level: A1, lesson: a1-04, aliases: [ "personal pronouns" ], sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: he-she-it, title: "he (male), she (female), it (thing or animal)", level: A1, lesson: a1-04, sources: [ PEU, OEGC, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: you-singular-plural, title: "you for one person and for many people", level: A1, lesson: a1-04, sources: [ PEU, LGSWE, LSGSWE, CGEL, LEG ] }
+  - { id: possessive-adjectives, title: "Possessive adjectives: my, your, his, her, its, our, their", level: A1, lesson: a1-12, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: possessive-s, title: "Possessive 's (Sara's phone)", level: A1, lesson: a1-12, aliases: [ "apostrophe s" ], sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: its-vs-its, title: "its vs it's", level: A1, lesson: a1-12, sources: [ PEU, OPG, LEG ] }
+  - { id: object-pronouns, title: "Object pronouns: me, you, him, her, it, us, them", level: A1, lesson: a1-13, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: pronoun-after-preposition, title: "Object pronouns after verbs and prepositions (call him, with me)", level: A1, lesson: a1-13, sources: [ PEU, OPG, OMEG, LEG ] }
+  - { id: possessive-pronouns, title: "Possessive pronouns: mine, yours, his, hers, ours, theirs", level: A2, lesson: a2-33, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: whose, title: "Whose…? (Whose bag is this?)", level: A2, lesson: a2-33, sources: [ GSE, GIU, PEU, OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG ] }
+  - { id: double-possessive, title: "a friend of mine / a friend of Sara's", level: A2, lesson: a2-33, sources: [ GSE, GIU, PEU, OEGC, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: s-plural-possessive, title: "'s and s' (the children's room, the boys' room)", level: A2, lesson: a2-33, sources: [ GSE, CI, GIU, PEU, LGSWE, LSGSWE, LEG, LALG ] }
+  - { id: reflexive-pronouns, title: "Reflexive pronouns: myself, yourself, themselves…", level: A2, lesson: a2-34, sources: [ GSE, GIU, PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: by-myself, title: "by myself = alone; enjoy yourself, help yourself", level: A2, lesson: a2-34, sources: [ GIU, PEU, OPG, LGSWE, LSGSWE, CGEL, LEG ] }
+  - { id: emphatic-reflexive, title: "Emphatic reflexives (I did it myself)", level: A2, lesson: a2-34, sources: [ GSE, GIU, PEU, OPG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: generic-you-one, title: "Generic you, one, they, people", level: B1, lesson: b1-43, sources: [ GSE, PEU, OEGC, OPG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: singular-they, title: "someone… they (singular they)", level: B1, lesson: b1-43, sources: [ PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, CGEL, LALG ] }
+  - { id: each-other, title: "each other / one another vs -selves", level: B1, lesson: b1-43, sources: [ GSE, GIU, PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: who-whom, title: "who vs whom", level: C1, lesson: c1-29, sources: [ GIU, PEU, OMEG, LGSWE, LSGSWE, CGEL, LALG ] }
+  - { id: pronoun-case, title: "Pronoun case: between you and me, It's me, than me / than I am", level: C1, lesson: c1-29, sources: [ PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, CGEL, LALG ] }
+  - { id: myself-misuse, title: "Misused myself (Contact Ali or myself ✗)", level: C1, lesson: c1-29, sources: [ GIU, PEU, OPG, LGSWE, LSGSWE, CGEL ] }
+  - { id: formal-one, title: "Formal one (One should always…)", level: C1, lesson: c1-29, sources: [ GSE, PEU, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: it-this-that-reference, title: "it, this, that for reference in texts", level: C1, lesson: c1-29, sources: [ GSE, GIU, PEU, OEGC, LGSWE, LSGSWE, CGEL, LALG ] }
+  - { id: cataphora, title: "Cataphora (When she arrived, Sara…)", level: C2, lesson: c2-15, sources: [ CGEL, LALG ] }
+  - { id: ambiguous-pronouns, title: "Ambiguous pronoun reference and how to fix it", level: C2, lesson: c2-15, sources: [ PEU, OEGC, LGSWE, CGEL ] }
+  - { id: they-organisations, title: "they / it for organizations (The company has… / They have…)", level: C2, lesson: c2-15, sources: [ PEU, LGSWE, LSGSWE, CGEL, LALG ] }
+  - { id: reference-chains, title: "Reference chains in long texts", level: C2, lesson: c2-15, sources: [ PEU, OEGC, LGSWE, CGEL, LALG ] }
+  # added from the reference audit
+  - { id: own, title: "own (my own car; on my own; a car of my own)", level: B1, lesson: b1-43, sources: [ PEU ] }

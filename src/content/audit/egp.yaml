@@ -1,0 +1,20 @@
+source: EGP
+edition: "English Grammar Profile (Cambridge / English Profile); online database NOT retrievable on 2026-10-26; 13 statements quoted in Bannò et al., arXiv 2603.17171 (March 2026)"
+retrieved_from:
+  - "https://arxiv.org/pdf/2603.17171"
+verified: partial
+note: "PARTIAL AND SECONDARY ONLY. The EGP Online database (englishprofile.org / languageresearch.cambridge.org/english-grammar-profile) could not be fetched: englishprofile.org/english-grammar-profile/egp-online and /grammatical-categories returned 404; languageresearch.cambridge.org did not resolve (ENOTFOUND); the Cambridge ELT blog posts on EGP and the Oke et al. 2017 IJCL paper (doi 10.1075/ijcl.14086.oke, Cardiff ORCA copy) returned 403 or a redirect to a paywall. The only real EGP entries obtained are the 13 can-do statements (with EGP ids and CEFR levels) printed in Table II and the introduction of the arXiv paper 'Exploiting the English Grammar Profile for L2 grammatical analysis with LLMs'. Items 983, 19, 209, 228, 242, 249, 708 and the politeness statement come from that paper; the paper does not give an id for the politeness statement. These 13 items are NOT a coverage audit: EGP has about 1,200 statements (19 super-categories) and the rest must be checked by a reviewer with access to EGP Online (free login). The paper notes EGP levels are cumulative (an A1 statement is valid for higher levels). Levels: the paper lists EGP 983 as A1, EGP 19/209/228/242 as A2, EGP 37/266/295/367/598/708 as B1, EGP 249 and the politeness statement as B2."
+items:
+  - { ref: "EGP 37", level: B1, item: "Can use 'enough' to modify adjectives (adjectives, modifying)", maps: [ too-enough ] }
+  - { ref: "EGP 266", level: B1, item: "Can use 'either ... or' to connect two words, phrases or clauses (conjunctions, coordinating)", maps: [ either-or-neither-nor ] }
+  - { ref: "EGP 295", level: B1, item: "Can use 'another' to talk about something different (determiners, articles)", maps: [ another-other ] }
+  - { ref: "EGP 367", level: B1, item: "Can use 'would' to talk about the future from a point in the past (future, future in the past)", maps: [ future-in-past, was-going-to ], levelNote: "source says B1, inventory says future-in-past C1" }
+  - { ref: "EGP 598", level: B1, item: "Can use 'used to' to talk about repeated actions or states in the past that are no longer true (modality, used to)", maps: [ used-to, didnt-use-to ] }
+  - { ref: "EGP 983", level: A1, item: "Can use 'everything' as subject, with a singular verb (pronouns, indefinite -thing/-one/-body)", maps: [ indefinite-compounds, indefinite-singular-verb ] }
+  - { ref: "EGP 19", level: A2, item: "Can form irregular comparative adjectives (adjectives, comparatives)", maps: [ comparatives-irregular ] }
+  - { ref: "EGP 209", level: A2, item: "Can form negative interrogative clauses (clauses, interrogatives)", maps: [ negative-questions-basic ] }
+  - { ref: "EGP 228", level: A2, item: "Can use a defining relative clause, without a relative pronoun (clauses, relative)", maps: [ omit-relative ] }
+  - { ref: "EGP 242", level: A2, item: "Can use a finite subordinate clause with time conjunctions, before or after a main clause (clauses, subordinated)", maps: [ time-clauses-basic, time-clauses-full ] }
+  - { ref: "EGP 249", level: B2, item: "Can use a finite subordinate clause, before or after a main clause, with conjunctions to introduce conditions (clauses, subordinated)", maps: [ zero-conditional, first-conditional, second-conditional, third-conditional, unless, provided-providing ], levelNote: "source says B2, inventory says zero-conditional A2, first-conditional A2" }
+  - { ref: "EGP 708", level: B1, item: "Can use the past simple passive affirmative with a range of pronoun and noun subjects (passives, passives: form)", maps: [ passive-present-past ] }
+  - { ref: "EGP (no id)", level: B2, item: "Can use the past simple with 'I wondered' and 'I wanted' as politeness structures, when making polite requests and thanking (past time)", maps: [ distancing-past ] }

@@ -1,0 +1,100 @@
+---
+import AppLayout from "@/layouts/AppLayout.astro"
+import LinkButton from "@/components/common/LinkButton.astro"
+import SyllabusList from "@/components/common/SyllabusList.astro"
+import MapEmbed from "@/components/lesson/MapEmbed.astro"
+import { getLessons, getSyllabus, sizeMinutes } from "@/lib/content"
+import { plural } from "@/lib/text"
+import { isolatePersian } from "@/lib/bidi"
+import { FAMILIES, FAMILY_INFO, LEVEL_INFO, LEVELS, PILLAR_INFO, type Level } from "@/lib/taxonomy"
+
+export function getStaticPaths() {
+  return LEVELS.map((level) => ({ params: { level: level.toLowerCase() }, props: { level } }))
+}
+
+const { level } = Astro.props as { level: Level }
+const info = LEVEL_INFO[level]
+const items = (await getSyllabus()).filter((s) => s.level === level)
+const ready = items.filter((s) => s.lesson)
+const hours = Math.round(items.reduce((n, s) => n + sizeMinutes(s.size), 0) / 60)
+const next = LEVELS[LEVELS.indexOf(level) + 1]
+const hasExercises = (await getLessons()).some((l) => l.data.level === level)
+
+const PERSIAN_NOTE = {
+  full: "Every lesson has a full Persian explanation (توضیح کامل فارسی) you can open or hide.",
+  tip: "Lessons are in English with short Persian tips on the tricky points.",
+  none: "English only: you're ready. Persian Corner still lists the traps for Persian speakers.",
+}
+---
+
+<AppLayout title={`${level} · ${info.title}`} description={info.canDo}>
+  <header class="flex flex-col gap-3">
+    <p class="text-sm font-bold tracking-widest text-primary uppercase">Level {LEVELS.indexOf(level) + 1} of 6</p>
+    <h1 class="font-heading text-4xl font-bold tracking-tight">{level} · {info.title}</h1>
+    <p class="max-w-2xl font-reading text-lg">
+      <strong>By the end you can:</strong>&nbsp;{info.canDo}
+    </p>
+    <p class="text-muted-foreground">
+      {items.length} lessons · about {hours} hours · {info.weeks} weeks at an hour a day (the last week is review and the Level
+      Check) · {ready.length ? `${plural(ready.length, "lesson")} ready now` : "lessons are being written"}
+    </p>
+    <p class="rounded-2xl bg-persian-soft px-4 py-3 text-sm" set:html={isolatePersian(PERSIAN_NOTE[info.persian])} />
+    <div class="flex flex-wrap gap-2">
+      {ready[0]?.lesson && <LinkButton href={`/lessons/${ready[0].lesson.id}`}>Start the first lesson</LinkButton>}
+      {hasExercises && <LinkButton href={`/practice/${level.toLowerCase()}`} variant="outline">Level Check</LinkButton>}
+    </div>
+  </header>
+
+  <section class="flex flex-col gap-3" aria-labelledby="levelmap-title">
+    <h2 id="levelmap-title" class="font-heading text-2xl font-bold">What's new at {level}</h2>
+    <MapEmbed id={`level-${level.toLowerCase()}`} height={460} recall />
+  </section>
+
+  <section class="flex flex-col gap-3" aria-labelledby="all-title">
+    <h2 id="all-title" class="font-heading text-2xl font-bold">All {level} lessons, in order</h2>
+    <SyllabusList items={items} />
+  </section>
+
+  <section class="flex flex-col gap-4" aria-labelledby="byfamily-title">
+    <h2 id="byfamily-title" class="font-heading text-2xl font-bold">The same lessons by family</h2>
+    <div class="grid gap-4 md:grid-cols-2">
+      {
+        FAMILIES.map((f) => {
+          const fam = FAMILY_INFO[f]
+          const list = items.filter((s) => PILLAR_INFO[s.pillar as keyof typeof PILLAR_INFO].family === f)
+          return (
+            <div class="flex flex-col gap-2 rounded-2xl border bg-card p-4" style={`border-top:4px solid ${fam.color}`}>
+              <h3 class="font-heading text-lg font-bold">
+                {fam.title} <span class="text-sm font-normal text-muted-foreground">· {list.length}</span>
+              </h3>
+              <ul class="flex flex-col gap-1 text-sm">
+                {list.map((s) => (
+                  <li class="flex gap-2">
+                    <span class="w-8 shrink-0 text-muted-foreground tabular-nums">{s.number}</span>
+                    {s.lesson ? (
+                      <a class="font-bold hover:underline" href={`/lessons/${s.lesson.id}`}>
+                        {s.title}
+                      </a>
+                    ) : (
+                      <span class="text-muted-foreground">{s.title}</span>
+                    )}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )
+        })
+      }
+    </div>
+  </section>
+
+  {
+    next && (
+      <div class="flex justify-end">
+        <LinkButton href={`/levels/${next.toLowerCase()}`} variant="ghost">
+          Next level: {next} · {LEVEL_INFO[next].title} →
+        </LinkButton>
+      </div>
+    )
+  }
+</AppLayout>

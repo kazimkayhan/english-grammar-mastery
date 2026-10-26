@@ -1,0 +1,95 @@
+---
+import { getCollection } from "astro:content"
+
+import AppLayout from "@/layouts/AppLayout.astro"
+import SyllabusList from "@/components/common/SyllabusList.astro"
+import MapEmbed from "@/components/lesson/MapEmbed.astro"
+import TreeEmbed from "@/components/lesson/TreeEmbed.astro"
+import { getCoverage, getInventory, getSyllabus } from "@/lib/content"
+import { plural } from "@/lib/text"
+import { FAMILY_INFO, LEVELS, PILLAR_INFO, PILLARS, type Pillar } from "@/lib/taxonomy"
+
+export function getStaticPaths() {
+  return PILLARS.map((pillar) => ({ params: { pillar }, props: { pillar } }))
+}
+
+const { pillar } = Astro.props as { pillar: Pillar }
+const info = PILLAR_INFO[pillar]
+const fam = FAMILY_INFO[info.family]
+const items = (await getSyllabus()).filter((s) => s.pillar === pillar)
+const points = (await getInventory()).filter((p) => p.pillar === pillar)
+const { taughtBy } = await getCoverage()
+const trees = (await getCollection("trees")).filter((t) => t.data.pillar === pillar)
+---
+
+<AppLayout title={info.title} description={info.covers}>
+  <header class="flex flex-col gap-3" style={`--lesson-color:${fam.color};--lesson-soft:${fam.soft}`}>
+    <p class="text-sm font-bold tracking-widest uppercase" style={`color:${fam.color}`}>
+      {fam.title} · pillar {info.number} of 16
+    </p>
+    <h1 class="font-heading text-4xl font-bold tracking-tight">{info.title}</h1>
+    <p class="max-w-2xl font-reading text-lg text-muted-foreground">{info.covers}</p>
+    <p class="text-sm text-muted-foreground">
+      {plural(items.length, "lesson")} from {items[0]?.level ?? "A1"} to {items.at(-1)?.level ?? "C2"} · {plural(points.length, "grammar point")}
+    </p>
+  </header>
+
+  <section class="flex flex-col gap-3" aria-labelledby="pmap-title">
+    <h2 id="pmap-title" class="font-heading text-2xl font-bold">Mindmap: {info.short} from A1 to C2</h2>
+    <p class="text-muted-foreground">Starts folded: recall each level's points, then open the branch to check.</p>
+    <MapEmbed id={`pillar-${pillar}`} height={520} recall />
+  </section>
+
+  {
+    trees.length > 0 && (
+      <section class="flex flex-col gap-3" aria-labelledby="trees-title">
+        <h2 id="trees-title" class="font-heading text-2xl font-bold">Decision trees</h2>
+        <div class="grid gap-4">
+          {trees.map((t) => (
+            <TreeEmbed id={t.id} />
+          ))}
+        </div>
+      </section>
+    )
+  }
+
+  <section class="flex flex-col gap-3" aria-labelledby="plessons-title">
+    <h2 id="plessons-title" class="font-heading text-2xl font-bold">Lessons in this pillar</h2>
+    <SyllabusList items={items} showLevel showPillar={false} />
+  </section>
+
+  <section class="flex flex-col gap-3" aria-labelledby="points-title">
+    <h2 id="points-title" class="font-heading text-2xl font-bold">Every grammar point</h2>
+    <p class="text-muted-foreground">The complete checklist for this pillar. Nothing is left out.</p>
+    {
+      LEVELS.map((level) => {
+        const list = points.filter((p) => p.level === level)
+        if (!list.length) return null
+        return (
+          <div class="flex flex-col gap-2">
+            <h3 class="font-heading font-bold">{level}</h3>
+            <ul class="grid gap-1.5 sm:grid-cols-2">
+              {list.map((p) => {
+                const by = taughtBy.get(p.id) ?? []
+                return (
+                  <li class="flex items-start gap-2 rounded-xl border bg-card px-3 py-2 text-sm">
+                    <span aria-hidden="true" class={by.length ? "text-success" : "text-muted-foreground"}>
+                      {by.length ? "●" : "○"}
+                    </span>
+                    {by.length ? (
+                      <a href={`/lessons/${by[0]}`} class="hover:underline">
+                        {p.title}
+                      </a>
+                    ) : (
+                      <span class="text-muted-foreground">{p.title}</span>
+                    )}
+                  </li>
+                )
+              })}
+            </ul>
+          </div>
+        )
+      })
+    }
+  </section>
+</AppLayout>

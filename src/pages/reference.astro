@@ -1,0 +1,205 @@
+---
+import { getCollection } from "astro:content"
+
+import AppLayout from "@/layouts/AppLayout.astro"
+import { LEVELS } from "@/lib/taxonomy"
+
+const verbs = await getCollection("irregularVerbs")
+const glossary = (await getCollection("glossary")).sort((a, b) => a.data.term.localeCompare(b.data.term))
+
+const TENSES = [
+  { name: "Present simple", form: "I work · she works", use: "habits, facts, timetables" },
+  { name: "Present continuous", form: "I am working", use: "now, temporary, future plans" },
+  { name: "Present perfect", form: "I have worked", use: "past → now; experience; news" },
+  { name: "Present perfect continuous", form: "I have been working", use: "activity up to now (how long)" },
+  { name: "Past simple", form: "I worked", use: "finished past (yesterday, in 2019)" },
+  { name: "Past continuous", form: "I was working", use: "in progress at a past moment" },
+  { name: "Past perfect", form: "I had worked", use: "before another past action" },
+  { name: "Past perfect continuous", form: "I had been working", use: "duration up to a past moment" },
+  { name: "Future simple (will)", form: "I will work", use: "decisions, predictions, promises" },
+  { name: "Future continuous", form: "I will be working", use: "in progress at a future moment" },
+  { name: "Future perfect", form: "I will have worked", use: "completed before a future moment" },
+  { name: "Future perfect continuous", form: "I will have been working", use: "duration up to a future moment" },
+]
+
+const SPELLING = [
+  { rule: "-s / -es (plurals & he/she/it)", examples: "book → books · watch → watches · go → goes · study → studies · play → plays" },
+  { rule: "-ing", examples: "make → making (drop e) · run → running (double) · lie → lying · visit → visiting (stress on 1st syllable)" },
+  { rule: "-ed", examples: "work → worked · like → liked · stop → stopped · study → studied · play → played · travel → traveled (UK travelled)" },
+  { rule: "-er / -est", examples: "small → smaller · big → bigger · happy → happier · nice → nicer" },
+  { rule: "-ly", examples: "quick → quickly · happy → happily · gentle → gently · basic → basically · full → fully" },
+]
+
+const PUNCTUATION = [
+  { mark: ".", name: "period (UK: full stop)", use: "Ends a statement: I'm ready." },
+  { mark: "?", name: "question mark", use: "Ends a direct question: Are you ready?" },
+  { mark: "!", name: "exclamation mark", use: "Strong feeling (use rarely): What a day!" },
+  { mark: ",", name: "comma", use: "Lists, after introductory phrases, around extra information: My brother, who lives in Tabriz, is a doctor." },
+  { mark: "'", name: "apostrophe", use: "Missing letters (don't) and possession (Sara's, the boys' room). Never for plurals." },
+  { mark: ":", name: "colon", use: "Before a list or an explanation: You need two things: time and patience." },
+  { mark: ";", name: "semicolon", use: "Joins two related sentences: It was late; we went home." },
+  { mark: "-", name: "hyphen", use: "Joins words into one idea: a well-known writer, a five-year-old girl." },
+  { mark: "—", name: "dash", use: "A strong break or added comment: She was late — again." },
+  { mark: "“ ”", name: "quotation marks", use: "Exact words: “I'm tired,” she said. (US: commas and periods go inside.)" },
+]
+
+const USUK = [
+  { topic: "have got", us: "Do you have a car?", uk: "Have you got a car?" },
+  { topic: "Past participle of get", us: "It's gotten colder.", uk: "It's got colder." },
+  { topic: "Present perfect with just/already", us: "I just ate. / I've just eaten.", uk: "I've just eaten." },
+  { topic: "Collective nouns", us: "The team is winning.", uk: "The team is / are winning." },
+  { topic: "shall", us: "Should I open the window?", uk: "Shall I open the window?" },
+  { topic: "Prepositions", us: "on the weekend · different from/than", uk: "at the weekend · different from/to" },
+  { topic: "Spelling", us: "color · center · organize · traveled", uk: "colour · centre · organise · travelled" },
+  { topic: "Subjunctive", us: "I suggest that he leave.", uk: "I suggest that he leaves / should leave." },
+]
+---
+
+<AppLayout title="Reference" description="Tense chart, irregular verbs, spelling rules, punctuation, US/UK differences and an English–Persian glossary.">
+  <header class="flex flex-col gap-3">
+    <h1 class="font-heading text-4xl font-bold tracking-tight">Reference</h1>
+    <p class="max-w-2xl font-reading text-lg text-muted-foreground">Quick tables to look things up while you study.</p>
+    <nav aria-label="Sections" class="flex flex-wrap gap-2">
+      {
+        [
+          ["tenses", "Tense chart"],
+          ["irregular", "Irregular verbs"],
+          ["spelling", "Spelling rules"],
+          ["punctuation", "Punctuation"],
+          ["usuk", "US vs UK"],
+          ["glossary", "Glossary EN–FA"],
+        ].map(([id, label]) => (
+          <a href={`#${id}`} class="rounded-full border bg-card px-3 py-1 text-sm hover:bg-muted/50">
+            {label}
+          </a>
+        ))
+      }
+    </nav>
+  </header>
+
+  <section id="tenses" class="flex flex-col gap-3">
+    <h2 class="font-heading text-2xl font-bold">The 12 tenses: 3 times × 4 aspects</h2>
+    <div class="table-scroll" tabindex="0" role="region" aria-label="Table (scroll sideways if needed)">
+        <table>
+        <thead><tr><th>Tense</th><th>Form</th><th>Main use</th></tr></thead>
+        <tbody>
+          {
+            TENSES.map((t) => (
+              <tr>
+                <td><strong>{t.name}</strong></td>
+                <td>{t.form}</td>
+                <td>{t.use}</td>
+              </tr>
+            ))
+          }
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="irregular" class="flex flex-col gap-3">
+    <h2 class="font-heading text-2xl font-bold">Irregular verbs ({verbs.length})</h2>
+    <p class="text-muted-foreground">Grouped by the level where you'll need them. Learn A1 and A2 first.</p>
+    {
+      LEVELS.map((level) => {
+        const list = verbs.filter((v) => v.data.level === level)
+        if (!list.length) return null
+        return (
+          <details class="group rounded-2xl border bg-card" open={level === "A1"}>
+            <summary class="cursor-pointer px-5 py-3 font-bold select-none">
+              {level} · {list.length} verbs
+            </summary>
+            <div class="table-scroll mx-3 mb-3" tabindex="0" role="region" aria-label="Table (scroll sideways if needed)">
+        <table>
+                <thead><tr><th>Base</th><th>Past simple</th><th>Past participle</th><th class="persian-only">فارسی</th></tr></thead>
+                <tbody>
+                  {list.map((v) => (
+                    <tr>
+                      <td><strong>{v.data.base}</strong></td>
+                      <td>{v.data.past}</td>
+                      <td>{v.data.participle}</td>
+                      <td class="persian-only fa">{v.data.fa}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </details>
+        )
+      })
+    }
+  </section>
+
+  <section id="spelling" class="flex flex-col gap-3">
+    <h2 class="font-heading text-2xl font-bold">Spelling rules for endings</h2>
+    <div class="grid gap-3 sm:grid-cols-2">
+      {
+        SPELLING.map((s) => (
+          <div class="rounded-2xl border bg-card p-4">
+            <p class="font-bold">{s.rule}</p>
+            <p class="text-muted-foreground">{s.examples}</p>
+          </div>
+        ))
+      }
+    </div>
+  </section>
+
+  <section id="punctuation" class="flex flex-col gap-3">
+    <h2 class="font-heading text-2xl font-bold">Punctuation</h2>
+    <div class="table-scroll" tabindex="0" role="region" aria-label="Table (scroll sideways if needed)">
+        <table>
+        <thead><tr><th>Mark</th><th>Name</th><th>Use</th></tr></thead>
+        <tbody>
+          {
+            PUNCTUATION.map((p) => (
+              <tr>
+                <td class="text-center text-xl font-bold">{p.mark}</td>
+                <td>{p.name}</td>
+                <td>{p.use}</td>
+              </tr>
+            ))
+          }
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="usuk" class="flex flex-col gap-3">
+    <h2 class="font-heading text-2xl font-bold">American vs British grammar</h2>
+    <p class="text-muted-foreground">This course uses American English. Both are correct; just be consistent.</p>
+    <div class="table-scroll" tabindex="0" role="region" aria-label="Table (scroll sideways if needed)">
+        <table>
+        <thead><tr><th>Topic</th><th>🇺🇸 American</th><th>🇬🇧 British</th></tr></thead>
+        <tbody>
+          {
+            USUK.map((r) => (
+              <tr>
+                <td><strong>{r.topic}</strong></td>
+                <td>{r.us}</td>
+                <td>{r.uk}</td>
+              </tr>
+            ))
+          }
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="glossary" class="flex flex-col gap-3">
+    <h2 class="font-heading text-2xl font-bold">Grammar terms: English–Persian</h2>
+    <div class="grid gap-2 sm:grid-cols-2">
+      {
+        glossary.map((g) => (
+          <div class="flex flex-col gap-0.5 rounded-xl border bg-card px-4 py-3">
+            <p class="flex items-baseline justify-between gap-3">
+              <strong>{g.data.term}</strong>
+              <span class="fa persian-only text-persian">{g.data.fa}</span>
+            </p>
+            <p class="text-sm text-muted-foreground">{g.data.meaning}</p>
+            {g.data.example && <p class="text-sm italic">{g.data.example}</p>}
+          </div>
+        ))
+      }
+    </div>
+  </section>
+</AppLayout>

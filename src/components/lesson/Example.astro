@@ -1,0 +1,30 @@
+---
+import { isolateLatinText } from "@/lib/bidi"
+// A real-world example sentence. Wrap the key grammar in <mark> to highlight it.
+interface Props {
+  context?: "home" | "work" | "travel" | "news" | "school" | "social" | "shopping" | "health"
+  /** Persian translation (A1–A2), hidden when Persian is off. */
+  fa?: string
+  note?: string
+}
+const { context, fa, note } = Astro.props
+const LABEL: Record<string, string> = {
+  home: "🏠 Home",
+  work: "💼 Work",
+  travel: "✈️ Travel",
+  news: "📰 News",
+  school: "🎓 Study",
+  social: "💬 Social",
+  shopping: "🛒 Shopping",
+  health: "🩺 Health",
+}
+---
+
+<div class="example not-prose flex flex-col gap-1 rounded-xl border-l-4 bg-card px-4 py-2.5 shadow-xs" style="border-left-color: var(--lesson-color, var(--primary))">
+  <div class="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+    {context && <span class="font-sans text-xs font-bold text-muted-foreground">{LABEL[context]}</span>}
+    <p class="text-[1.02em] [&_mark]:rounded [&_mark]:bg-(--lesson-soft) [&_mark]:px-0.5 [&_mark]:font-bold [&_mark]:text-inherit"><slot /></p>
+  </div>
+  {note && <p class="font-sans text-sm text-muted-foreground">{note}</p>}
+  {fa && <p lang="fa" dir="rtl" class="fa persian-only text-sm text-muted-foreground" set:html={isolateLatinText(fa)} />}
+</div>

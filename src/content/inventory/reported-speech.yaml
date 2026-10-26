@@ -1,0 +1,24 @@
+pillar: reported-speech
+points:
+  - { id: say-tell, title: "say vs tell", level: B1, lesson: b1-26, aliases: [ "indirect speech" ], sources: [ GSE, CI, GIU, PEU, OEGC, OPG, LGSWE, CGEL, LEG, LALG ] }
+  - { id: backshift, title: "Tense backshift", level: B1, lesson: b1-26, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: reported-changes, title: "Pronoun, time and place changes (tomorrow → the next day)", level: B1, lesson: b1-26, sources: [ GIU, PEU, OEGC, OPG, LGSWE, CGEL, LEG, LALG ] }
+  - { id: reported-questions, title: "Reported questions (She asked where I lived)", level: B1, lesson: b1-27, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, CGEL, LEG, LALG ] }
+  - { id: reported-if-whether, title: "if / whether in reported yes/no questions", level: B1, lesson: b1-27, sources: [ GSE, GIU, PEU, OEGC, OPG, LGSWE, LSGSWE, LEG, LALG ] }
+  - { id: reported-commands, title: "tell / ask somebody (not) to do", level: B1, lesson: b1-28, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, CGEL, LEG, LALG ] }
+  - { id: reported-requests, title: "Reported requests and advice", level: B1, lesson: b1-28, sources: [ GSE, GIU, PEU, OPG, LEG, LALG ] }
+  - { id: reporting-verbs-patterns, title: "Reporting verbs + patterns: verb + to, verb + sb + to, verb + -ing, verb + that, verb + preposition + -ing", level: B2, lesson: b2-21, sources: [ GSE, GIU, PEU, OEGC, OPG, LGSWE, LSGSWE, LEG, LALG ] }
+  - { id: suggest-pattern, title: "suggest + -ing / that (never suggest to)", level: B2, lesson: b2-21, sources: [ GIU, PEU, OPG, OMEG, LALG ] }
+  - { id: accuse-apologise, title: "accuse sb of, apologize for, insist on, blame sb for, congratulate sb on", level: B2, lesson: b2-21, sources: [ GIU, OPG, LALG ] }
+  - { id: no-backshift, title: "When not to backshift (still true; reporting verb in the present)", level: B2, lesson: b2-22, sources: [ GIU, PEU, OEGC, OPG, CGEL, LEG, LALG ] }
+  - { id: reported-modals, title: "Modals in reported speech (can → could, will → would, must → must / had to)", level: B2, lesson: b2-22, sources: [ GIU, PEU, OEGC, OMEG, CGEL, LEG, LALG ] }
+  - { id: reported-thoughts, title: "Reporting thoughts and beliefs", level: B2, lesson: b2-22, sources: [ GSE, GIU, PEU, OPG, LGSWE, LEG, LALG ] }
+  - { id: nominal-reporting, title: "Reporting with nouns (He made an apology / gave a warning)", level: C1, lesson: c1-17, sources: [ GIU ] }
+  - { id: passive-reporting, title: "Passive reporting (It was announced that…)", level: C1, lesson: c1-17, sources: [ GSE, GIU, PEU, LGSWE ] }
+  - { id: deny-having, title: "verb + having done (He denied having taken it)", level: C1, lesson: c1-17, sources: [ GIU, PEU, LEG, LALG ] }
+  - { id: summarising-speech, title: "Summarizing speech instead of reporting word for word", level: C1, lesson: c1-17, sources: [ GIU, PEU, LEG, LALG ] }
+  - { id: attribution, title: "Attribution and distance (allegedly, reportedly, purportedly, is said to)", level: C2, lesson: c2-21, sources: [ LGSWE ] }
+  - { id: free-indirect, title: "Free indirect speech in fiction", level: C2, lesson: c2-21, sources: [ PEU, CGEL ] }
+  - { id: academic-reporting, title: "Reporting verbs in academic writing (argue, claim, contend, maintain, acknowledge)", level: C2, lesson: c2-21, sources: [ PEU, LGSWE ] }
+  # added from the reference audit
+  - { id: that-omission, title: "Leaving out that (I think you're right; He said he'd come)", level: B1, lesson: b1-26, sources: [ PEU, OEGC, LGSWE, LSGSWE ] }

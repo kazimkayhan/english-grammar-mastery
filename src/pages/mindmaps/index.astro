@@ -1,0 +1,79 @@
+---
+import { getCollection } from "astro:content"
+
+import AppLayout from "@/layouts/AppLayout.astro"
+import { getAllMaps } from "@/lib/maps"
+import { FAMILY_INFO, PILLAR_INFO } from "@/lib/taxonomy"
+
+const maps = await getAllMaps()
+const trees = await getCollection("trees")
+const KINDS = [
+  { kind: "master", title: "Master map", text: "All of English grammar on one page." },
+  { kind: "family", title: "Family maps", text: "Words, Verbs, Sentences and Text." },
+  { kind: "pillar", title: "Pillar maps", text: "One topic from A1 to C2." },
+  { kind: "level", title: "Level maps", text: "What's new at each level." },
+] as const
+---
+
+<AppLayout title="Mindmaps" description="Mindmaps and decision trees for every part of English grammar.">
+  <header class="flex flex-col gap-3">
+    <h1 class="font-heading text-4xl font-bold tracking-tight">Mindmaps</h1>
+    <p class="max-w-2xl font-reading text-lg text-muted-foreground">
+      See the shape of the grammar, then test yourself: turn on <strong>Recall mode</strong>, say each branch aloud, and click
+      to check. One review like this beats five re-readings.
+    </p>
+  </header>
+
+  {
+    KINDS.map(({ kind, title, text }) => {
+      const list = maps.filter((m) => m.kind === kind)
+      if (!list.length) return null
+      return (
+        <section class="flex flex-col gap-3">
+          <div>
+            <h2 class="font-heading text-2xl font-bold">{title}</h2>
+            <p class="text-muted-foreground">{text}</p>
+          </div>
+          <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {list.map((m) => (
+              <a
+                href={`/mindmaps/${m.id}`}
+                class="flex flex-col gap-1 rounded-2xl border bg-card p-4 transition-colors hover:bg-muted/50"
+                style={m.colorVar ? `border-left:4px solid var(${m.colorVar})` : undefined}
+              >
+                <span class="font-bold">{m.title}</span>
+                <span class="text-sm text-muted-foreground">{m.description}</span>
+              </a>
+            ))}
+          </div>
+        </section>
+      )
+    })
+  }
+
+  {
+    trees.length > 0 && (
+      <section class="flex flex-col gap-3">
+        <div>
+          <h2 class="font-heading text-2xl font-bold">Decision trees</h2>
+          <p class="text-muted-foreground">Answer one question at a time until the right form appears.</p>
+        </div>
+        <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+          {trees.map((t) => {
+            const fam = FAMILY_INFO[PILLAR_INFO[t.data.pillar].family]
+            return (
+              <a
+                href={`/pillars/${t.data.pillar}#trees-title`}
+                class="flex flex-col gap-1 rounded-2xl border bg-card p-4 transition-colors hover:bg-muted/50"
+                style={`border-left:4px solid ${fam.color}`}
+              >
+                <span class="font-bold">{t.data.title}</span>
+                <span class="text-sm text-muted-foreground">{t.data.description}</span>
+              </a>
+            )
+          })}
+        </div>
+      </section>
+    )
+  }
+</AppLayout>

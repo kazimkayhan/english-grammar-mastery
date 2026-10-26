@@ -1,0 +1,111 @@
+---
+import AppLayout from "@/layouts/AppLayout.astro"
+import LinkButton from "@/components/common/LinkButton.astro"
+import { DueBanner } from "@/components/flashcards/DueBanner"
+import { getLessons, getLessonsByLevel, lessonHref } from "@/lib/content"
+import { FAMILIES, FAMILY_INFO, LEVEL_INFO, LEVELS, pillarsOf } from "@/lib/taxonomy"
+
+const lessons = await getLessons()
+const byLevel = await getLessonsByLevel()
+const first = lessons[0]
+const planned = LEVELS.reduce((n, l) => n + LEVEL_INFO[l].lessons, 0)
+
+const loop = [
+  { min: 10, step: "Review", text: "Flashcards due today" },
+  { min: 20, step: "Learn", text: "Rule → mindmap → examples → Persian help" },
+  { min: 15, step: "Practice", text: "Exercises with instant feedback" },
+  { min: 10, step: "Use it", text: "Write 3–5 sentences about your own life" },
+  { min: 5, step: "Recall", text: "Redraw the mindmap from memory" },
+]
+---
+
+<AppLayout title="Home">
+  <section class="flex flex-col gap-5 pt-2">
+    <p class="text-sm font-bold tracking-widest text-primary uppercase">A1 → C2 · grammar only · nothing left out</p>
+    <h1 class="max-w-3xl font-heading text-4xl font-bold tracking-tight text-balance sm:text-5xl">
+      Learn all of English grammar, one small step at a time.
+    </h1>
+    <p class="max-w-2xl font-reading text-lg text-muted-foreground">
+      {planned} short lessons take you from your first sentence to expert precision. Every lesson has one simple rule, a mindmap,
+      real-life examples, help in Persian when you need it, exercises with instant feedback, and flashcards that come back
+      right before you'd forget.
+    </p>
+    <div class="flex flex-wrap gap-3">
+      {first && <LinkButton href={lessonHref(first)} size="lg">Start with lesson {first.data.level}.{first.data.number}</LinkButton>}
+      <LinkButton href="/roadmap" size="lg" variant="outline">See the whole roadmap</LinkButton>
+      <LinkButton href="/flashcards" size="lg" variant="ghost">Review flashcards</LinkButton>
+    </div>
+    <DueBanner client:idle />
+  </section>
+
+  <section class="flex flex-col gap-4" aria-labelledby="families-title">
+    <h2 id="families-title" class="font-heading text-2xl font-bold">Grammar in four families: small → big</h2>
+    <div class="grid gap-4 sm:grid-cols-2">
+      {
+        FAMILIES.map((f, i) => {
+          const fam = FAMILY_INFO[f]
+          return (
+            <div class="flex flex-col gap-3 rounded-3xl border bg-card p-5" style={`border-top:5px solid ${fam.color}`}>
+              <div class="flex items-baseline gap-2">
+                <span class="text-sm font-bold tabular-nums" style={`color:${fam.color}`}>
+                  {i + 1}
+                </span>
+                <h3 class="font-heading text-xl font-bold">{fam.title}</h3>
+              </div>
+              <p class="text-muted-foreground">{fam.tagline}</p>
+              <ul class="flex flex-wrap gap-1.5">
+                {pillarsOf(f).map((p) => (
+                  <li>
+                    <a
+                      href={`/pillars/${p.id}`}
+                      class="inline-flex h-7 items-center gap-1.5 rounded-full px-3 text-sm font-bold"
+                      style={`background:${fam.soft};color:${fam.color}`}
+                    >
+                      {p.number} {p.short}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )
+        })
+      }
+    </div>
+  </section>
+
+  <section class="flex flex-col gap-4" aria-labelledby="levels-title">
+    <h2 id="levels-title" class="font-heading text-2xl font-bold">Six levels</h2>
+    <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+      {
+        LEVELS.map((l) => (
+          <a href={`/levels/${l.toLowerCase()}`} class="flex flex-col gap-2 rounded-2xl border bg-card p-4 transition-colors hover:bg-muted/50">
+            <span class="flex items-baseline justify-between">
+              <span class="font-heading text-2xl font-bold">{l}</span>
+              <span class="text-sm text-muted-foreground">
+                {byLevel[l].length}/{LEVEL_INFO[l].lessons} lessons · {LEVEL_INFO[l].weeks} wk
+              </span>
+            </span>
+            <span class="font-bold">{LEVEL_INFO[l].title}</span>
+            <span class="text-sm text-muted-foreground">{LEVEL_INFO[l].canDo}</span>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+
+  <section class="flex flex-col gap-4" aria-labelledby="loop-title">
+    <h2 id="loop-title" class="font-heading text-2xl font-bold">Your daily hour</h2>
+    <p class="text-muted-foreground">The same five steps every day, so studying becomes a habit you don't have to think about.</p>
+    <ol class="grid gap-3 sm:grid-cols-5">
+      {
+        loop.map((s) => (
+          <li class="flex flex-col gap-1 rounded-2xl border bg-card p-4">
+            <span class="text-2xl font-bold text-primary tabular-nums">{s.min}′</span>
+            <span class="font-bold">{s.step}</span>
+            <span class="text-sm text-muted-foreground">{s.text}</span>
+          </li>
+        ))
+      }
+    </ol>
+  </section>
+</AppLayout>

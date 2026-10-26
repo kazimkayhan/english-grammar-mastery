@@ -1,0 +1,172 @@
+# Irregular verbs: base · past simple · past participle. Level = when learners usually need it.
+# "/" shows two correct forms (the first is more common in American English).
+- { id: be, base: be, past: was / were, participle: been, level: A1, fa: "بودن" }
+- { id: begin, base: begin, past: began, participle: begun, level: A1, fa: "شروع کردن" }
+- { id: bring, base: bring, past: brought, participle: brought, level: A1, fa: "آوردن" }
+- { id: buy, base: buy, past: bought, participle: bought, level: A1, fa: "خریدن" }
+- { id: come, base: come, past: came, participle: come, level: A1, fa: "آمدن" }
+- { id: cost, base: cost, past: cost, participle: cost, level: A1, fa: "قیمت داشتن" }
+- { id: do, base: do, past: did, participle: done, level: A1, fa: "انجام دادن" }
+- { id: drink, base: drink, past: drank, participle: drunk, level: A1, fa: "نوشیدن" }
+- { id: drive, base: drive, past: drove, participle: driven, level: A1, fa: "رانندگی کردن" }
+- { id: eat, base: eat, past: ate, participle: eaten, level: A1, fa: "خوردن" }
+- { id: feel, base: feel, past: felt, participle: felt, level: A1, fa: "احساس کردن" }
+- { id: find, base: find, past: found, participle: found, level: A1, fa: "پیدا کردن" }
+- { id: fly, base: fly, past: flew, participle: flown, level: A1, fa: "پرواز کردن" }
+- { id: forget, base: forget, past: forgot, participle: forgotten, level: A1, fa: "فراموش کردن" }
+- { id: get, base: get, past: got, participle: gotten / got, level: A1, fa: "گرفتن؛ شدن؛ رسیدن" }
+- { id: give, base: give, past: gave, participle: given, level: A1, fa: "دادن" }
+- { id: go, base: go, past: went, participle: gone, level: A1, fa: "رفتن" }
+- { id: have, base: have, past: had, participle: had, level: A1, fa: "داشتن" }
+- { id: hear, base: hear, past: heard, participle: heard, level: A1, fa: "شنیدن" }
+- { id: know, base: know, past: knew, participle: known, level: A1, fa: "دانستن؛ شناختن" }
+- { id: leave, base: leave, past: left, participle: left, level: A1, fa: "ترک کردن؛ رفتن" }
+- { id: lose, base: lose, past: lost, participle: lost, level: A1, fa: "گم کردن؛ باختن" }
+- { id: make, base: make, past: made, participle: made, level: A1, fa: "ساختن؛ درست کردن" }
+- { id: meet, base: meet, past: met, participle: met, level: A1, fa: "ملاقات کردن؛ آشنا شدن" }
+- { id: pay, base: pay, past: paid, participle: paid, level: A1, fa: "پرداختن" }
+- { id: put, base: put, past: put, participle: put, level: A1, fa: "گذاشتن" }
+- { id: read, base: read, past: read (/red/), participle: read (/red/), level: A1, fa: "خواندن" }
+- { id: run, base: run, past: ran, participle: run, level: A1, fa: "دویدن" }
+- { id: say, base: say, past: said, participle: said, level: A1, fa: "گفتن" }
+- { id: see, base: see, past: saw, participle: seen, level: A1, fa: "دیدن" }
+- { id: sell, base: sell, past: sold, participle: sold, level: A1, fa: "فروختن" }
+- { id: send, base: send, past: sent, participle: sent, level: A1, fa: "فرستادن" }
+- { id: sing, base: sing, past: sang, participle: sung, level: A1, fa: "آواز خواندن" }
+- { id: sit, base: sit, past: sat, participle: sat, level: A1, fa: "نشستن" }
+- { id: sleep, base: sleep, past: slept, participle: slept, level: A1, fa: "خوابیدن" }
+- { id: speak, base: speak, past: spoke, participle: spoken, level: A1, fa: "صحبت کردن" }
+- { id: spend, base: spend, past: spent, participle: spent, level: A1, fa: "خرج کردن؛ گذراندن" }
+- { id: stand, base: stand, past: stood, participle: stood, level: A1, fa: "ایستادن" }
+- { id: swim, base: swim, past: swam, participle: swum, level: A1, fa: "شنا کردن" }
+- { id: take, base: take, past: took, participle: taken, level: A1, fa: "برداشتن؛ بردن" }
+- { id: teach, base: teach, past: taught, participle: taught, level: A1, fa: "درس دادن" }
+- { id: tell, base: tell, past: told, participle: told, level: A1, fa: "گفتن (به کسی)" }
+- { id: think, base: think, past: thought, participle: thought, level: A1, fa: "فکر کردن" }
+- { id: understand, base: understand, past: understood, participle: understood, level: A1, fa: "فهمیدن" }
+- { id: wake, base: wake, past: woke, participle: woken, level: A1, fa: "بیدار شدن" }
+- { id: wear, base: wear, past: wore, participle: worn, level: A1, fa: "پوشیدن" }
+- { id: win, base: win, past: won, participle: won, level: A1, fa: "بردن (مسابقه)" }
+- { id: write, base: write, past: wrote, participle: written, level: A1, fa: "نوشتن" }
+- { id: become, base: become, past: became, participle: become, level: A2, fa: "شدن" }
+- { id: blow, base: blow, past: blew, participle: blown, level: A2, fa: "وزیدن؛ فوت کردن" }
+- { id: break, base: break, past: broke, participle: broken, level: A2, fa: "شکستن" }
+- { id: build, base: build, past: built, participle: built, level: A2, fa: "ساختن (بنا)" }
+- { id: burn, base: burn, past: burned / burnt, participle: burned / burnt, level: A2, fa: "سوختن؛ سوزاندن" }
+- { id: catch, base: catch, past: caught, participle: caught, level: A2, fa: "گرفتن؛ به چیزی رسیدن" }
+- { id: choose, base: choose, past: chose, participle: chosen, level: A2, fa: "انتخاب کردن" }
+- { id: cut, base: cut, past: cut, participle: cut, level: A2, fa: "بریدن" }
+- { id: draw, base: draw, past: drew, participle: drawn, level: A2, fa: "نقاشی کشیدن" }
+- { id: dream, base: dream, past: dreamed / dreamt, participle: dreamed / dreamt, level: A2, fa: "خواب دیدن؛ رؤیا داشتن" }
+- { id: fall, base: fall, past: fell, participle: fallen, level: A2, fa: "افتادن" }
+- { id: feed, base: feed, past: fed, participle: fed, level: A2, fa: "غذا دادن" }
+- { id: fight, base: fight, past: fought, participle: fought, level: A2, fa: "جنگیدن؛ دعوا کردن" }
+- { id: forgive, base: forgive, past: forgave, participle: forgiven, level: A2, fa: "بخشیدن" }
+- { id: freeze, base: freeze, past: froze, participle: frozen, level: A2, fa: "یخ زدن" }
+- { id: grow, base: grow, past: grew, participle: grown, level: A2, fa: "رشد کردن؛ کاشتن" }
+- { id: hang, base: hang, past: hung, participle: hung, level: A2, fa: "آویزان کردن" }
+- { id: hide, base: hide, past: hid, participle: hidden, level: A2, fa: "پنهان کردن" }
+- { id: hit, base: hit, past: hit, participle: hit, level: A2, fa: "زدن؛ برخورد کردن" }
+- { id: hold, base: hold, past: held, participle: held, level: A2, fa: "نگه داشتن؛ برگزار کردن" }
+- { id: hurt, base: hurt, past: hurt, participle: hurt, level: A2, fa: "آسیب زدن؛ درد کردن" }
+- { id: keep, base: keep, past: kept, participle: kept, level: A2, fa: "نگه داشتن؛ ادامه دادن" }
+- { id: learn, base: learn, past: learned / learnt, participle: learned / learnt, level: A2, fa: "یاد گرفتن" }
+- { id: lend, base: lend, past: lent, participle: lent, level: A2, fa: "قرض دادن" }
+- { id: let, base: let, past: let, participle: let, level: A2, fa: "اجازه دادن" }
+- { id: lie-rest, base: lie (rest), past: lay, participle: lain, level: A2, fa: "دراز کشیدن (lie = دروغ گفتن باقاعده است)" }
+- { id: light, base: light, past: lit / lighted, participle: lit / lighted, level: A2, fa: "روشن کردن" }
+- { id: mean, base: mean, past: meant, participle: meant, level: A2, fa: "معنی دادن؛ منظور داشتن" }
+- { id: ride, base: ride, past: rode, participle: ridden, level: A2, fa: "سوار شدن (دوچرخه، اسب)" }
+- { id: ring, base: ring, past: rang, participle: rung, level: A2, fa: "زنگ زدن" }
+- { id: rise, base: rise, past: rose, participle: risen, level: A2, fa: "بالا آمدن؛ طلوع کردن" }
+- { id: set, base: set, past: set, participle: set, level: A2, fa: "قرار دادن؛ تنظیم کردن" }
+- { id: shake, base: shake, past: shook, participle: shaken, level: A2, fa: "تکان دادن" }
+- { id: shine, base: shine, past: shone, participle: shone, level: A2, fa: "درخشیدن" }
+- { id: shoot, base: shoot, past: shot, participle: shot, level: A2, fa: "شلیک کردن؛ فیلم‌برداری کردن" }
+- { id: show, base: show, past: showed, participle: shown / showed, level: A2, fa: "نشان دادن" }
+- { id: shut, base: shut, past: shut, participle: shut, level: A2, fa: "بستن" }
+- { id: smell, base: smell, past: smelled / smelt, participle: smelled / smelt, level: A2, fa: "بو کردن؛ بو دادن" }
+- { id: spell, base: spell, past: spelled / spelt, participle: spelled / spelt, level: A2, fa: "هجی کردن" }
+- { id: steal, base: steal, past: stole, participle: stolen, level: A2, fa: "دزدیدن" }
+- { id: throw, base: throw, past: threw, participle: thrown, level: A2, fa: "پرتاب کردن" }
+- { id: bear, base: bear, past: bore, participle: borne (born = به دنیا آمده), level: B1, fa: "تحمل کردن؛ به دنیا آوردن" }
+- { id: beat, base: beat, past: beat, participle: beaten, level: B1, fa: "شکست دادن؛ زدن" }
+- { id: bend, base: bend, past: bent, participle: bent, level: B1, fa: "خم کردن" }
+- { id: bet, base: bet, past: bet, participle: bet, level: B1, fa: "شرط بستن" }
+- { id: bite, base: bite, past: bit, participle: bitten, level: B1, fa: "گاز گرفتن" }
+- { id: bleed, base: bleed, past: bled, participle: bled, level: B1, fa: "خونریزی کردن" }
+- { id: breed, base: breed, past: bred, participle: bred, level: B1, fa: "پرورش دادن" }
+- { id: broadcast, base: broadcast, past: broadcast, participle: broadcast, level: B1, fa: "پخش کردن (رادیو، تلویزیون)" }
+- { id: burst, base: burst, past: burst, participle: burst, level: B1, fa: "ترکیدن" }
+- { id: deal, base: deal, past: dealt, participle: dealt, level: B1, fa: "سروکار داشتن؛ معامله کردن" }
+- { id: dig, base: dig, past: dug, participle: dug, level: B1, fa: "کندن" }
+- { id: dive, base: dive, past: dove / dived, participle: dived, level: B1, fa: "شیرجه زدن" }
+- { id: fit, base: fit, past: fit / fitted, participle: fit / fitted, level: B1, fa: "اندازه بودن" }
+- { id: forbid, base: forbid, past: forbade, participle: forbidden, level: B1, fa: "ممنوع کردن" }
+- { id: kneel, base: kneel, past: knelt / kneeled, participle: knelt / kneeled, level: B1, fa: "زانو زدن" }
+- { id: lay, base: lay, past: laid, participle: laid, level: B1, fa: "گذاشتن؛ تخم گذاشتن" }
+- { id: lead, base: lead, past: led, participle: led, level: B1, fa: "رهبری کردن؛ منجر شدن" }
+- { id: lean, base: lean, past: leaned / leant, participle: leaned / leant, level: B1, fa: "تکیه دادن" }
+- { id: leap, base: leap, past: leaped / leapt, participle: leaped / leapt, level: B1, fa: "جهیدن" }
+- { id: quit, base: quit, past: quit, participle: quit, level: B1, fa: "ترک کردن؛ استعفا دادن" }
+- { id: seek, base: seek, past: sought, participle: sought, level: B1, fa: "جستجو کردن" }
+- { id: shrink, base: shrink, past: shrank, participle: shrunk, level: B1, fa: "کوچک شدن؛ آب رفتن" }
+- { id: sink, base: sink, past: sank, participle: sunk, level: B1, fa: "غرق شدن" }
+- { id: slide, base: slide, past: slid, participle: slid, level: B1, fa: "سُر خوردن" }
+- { id: spill, base: spill, past: spilled / spilt, participle: spilled / spilt, level: B1, fa: "ریختن (مایع)" }
+- { id: split, base: split, past: split, participle: split, level: B1, fa: "تقسیم کردن؛ شکافتن" }
+- { id: spread, base: spread, past: spread, participle: spread, level: B1, fa: "پخش کردن؛ گسترش یافتن" }
+- { id: stick, base: stick, past: stuck, participle: stuck, level: B1, fa: "چسباندن؛ گیر کردن" }
+- { id: sting, base: sting, past: stung, participle: stung, level: B1, fa: "نیش زدن" }
+- { id: strike, base: strike, past: struck, participle: struck, level: B1, fa: "ضربه زدن؛ اعتصاب کردن" }
+- { id: swear, base: swear, past: swore, participle: sworn, level: B1, fa: "قسم خوردن؛ فحش دادن" }
+- { id: sweep, base: sweep, past: swept, participle: swept, level: B1, fa: "جارو کردن" }
+- { id: swing, base: swing, past: swung, participle: swung, level: B1, fa: "تاب خوردن" }
+- { id: tear, base: tear, past: tore, participle: torn, level: B1, fa: "پاره کردن" }
+- { id: upset, base: upset, past: upset, participle: upset, level: B1, fa: "ناراحت کردن" }
+- { id: wind, base: wind (/waɪnd/), past: wound, participle: wound, level: B1, fa: "پیچیدن؛ کوک کردن" }
+- { id: withdraw, base: withdraw, past: withdrew, participle: withdrawn, level: B1, fa: "برداشت کردن؛ کنار کشیدن" }
+- { id: arise, base: arise, past: arose, participle: arisen, level: B2, fa: "پیش آمدن؛ به وجود آمدن" }
+- { id: awake, base: awake, past: awoke, participle: awoken, level: B2, fa: "بیدار شدن" }
+- { id: bind, base: bind, past: bound, participle: bound, level: B2, fa: "بستن؛ ملزم کردن" }
+- { id: cling, base: cling, past: clung, participle: clung, level: B2, fa: "چسبیدن" }
+- { id: creep, base: creep, past: crept, participle: crept, level: B2, fa: "خزیدن" }
+- { id: flee, base: flee, past: fled, participle: fled, level: B2, fa: "فرار کردن" }
+- { id: fling, base: fling, past: flung, participle: flung, level: B2, fa: "پرت کردن" }
+- { id: foresee, base: foresee, past: foresaw, participle: foreseen, level: B2, fa: "پیش‌بینی کردن" }
+- { id: grind, base: grind, past: ground, participle: ground, level: B2, fa: "آسیاب کردن" }
+- { id: mislead, base: mislead, past: misled, participle: misled, level: B2, fa: "گمراه کردن" }
+- { id: overcome, base: overcome, past: overcame, participle: overcome, level: B2, fa: "غلبه کردن" }
+- { id: overtake, base: overtake, past: overtook, participle: overtaken, level: B2, fa: "سبقت گرفتن" }
+- { id: prove, base: prove, past: proved, participle: proven / proved, level: B2, fa: "ثابت کردن" }
+- { id: sew, base: sew, past: sewed, participle: sewn / sewed, level: B2, fa: "دوختن" }
+- { id: shed, base: shed, past: shed, participle: shed, level: B2, fa: "ریختن (مو، برگ)" }
+- { id: sneak, base: sneak, past: snuck / sneaked, participle: snuck / sneaked, level: B2, fa: "یواشکی رفتن" }
+- { id: sow, base: sow, past: sowed, participle: sown / sowed, level: B2, fa: "بذر کاشتن" }
+- { id: speed, base: speed, past: sped / speeded, participle: sped / speeded, level: B2, fa: "با سرعت رفتن" }
+- { id: spin, base: spin, past: spun, participle: spun, level: B2, fa: "چرخیدن؛ ریسیدن" }
+- { id: spit, base: spit, past: spit / spat, participle: spit / spat, level: B2, fa: "تف کردن" }
+- { id: stink, base: stink, past: stank, participle: stunk, level: B2, fa: "بوی بد دادن" }
+- { id: stride, base: stride, past: strode, participle: stridden, level: B2, fa: "گام‌های بلند برداشتن" }
+- { id: string, base: string, past: strung, participle: strung, level: B2, fa: "به نخ کشیدن" }
+- { id: strive, base: strive, past: strove / strived, participle: striven / strived, level: B2, fa: "تلاش کردن" }
+- { id: undergo, base: undergo, past: underwent, participle: undergone, level: B2, fa: "متحمل شدن؛ تحت (عمل) قرار گرفتن" }
+- { id: undertake, base: undertake, past: undertook, participle: undertaken, level: B2, fa: "به عهده گرفتن" }
+- { id: uphold, base: uphold, past: upheld, participle: upheld, level: B2, fa: "حفظ و تأیید کردن" }
+- { id: weave, base: weave, past: wove, participle: woven, level: B2, fa: "بافتن" }
+- { id: weep, base: weep, past: wept, participle: wept, level: B2, fa: "گریستن" }
+- { id: wring, base: wring, past: wrung, participle: wrung, level: B2, fa: "چلاندن" }
+- { id: bid, base: bid, past: bid, participle: bid, level: C1, fa: "پیشنهاد قیمت دادن" }
+- { id: cast, base: cast, past: cast, participle: cast, level: C1, fa: "انداختن؛ انتخاب بازیگر" }
+- { id: forecast, base: forecast, past: forecast, participle: forecast, level: C1, fa: "پیش‌بینی کردن (هوا، اقتصاد)" }
+- { id: forsake, base: forsake, past: forsook, participle: forsaken, level: C1, fa: "رها کردن (ادبی)" }
+- { id: outdo, base: outdo, past: outdid, participle: outdone, level: C1, fa: "پیشی گرفتن" }
+- { id: override, base: override, past: overrode, participle: overridden, level: C1, fa: "نادیده گرفتن؛ لغو کردن" }
+- { id: oversee, base: oversee, past: oversaw, participle: overseen, level: C1, fa: "نظارت کردن" }
+- { id: plead, base: plead, past: pleaded / pled, participle: pleaded / pled, level: C1, fa: "التماس کردن؛ اقرار کردن (دادگاه)" }
+- { id: slay, base: slay, past: slew, participle: slain, level: C1, fa: "کشتن (ادبی)" }
+- { id: spring, base: spring, past: sprang, participle: sprung, level: C1, fa: "جهیدن" }
+- { id: thrust, base: thrust, past: thrust, participle: thrust, level: C1, fa: "هل دادن؛ فرو کردن" }
+- { id: tread, base: tread, past: trod, participle: trodden, level: C1, fa: "پا گذاشتن" }
+- { id: withhold, base: withhold, past: withheld, participle: withheld, level: C1, fa: "دریغ کردن؛ نگه داشتن" }
+- { id: withstand, base: withstand, past: withstood, participle: withstood, level: C1, fa: "تاب آوردن" }

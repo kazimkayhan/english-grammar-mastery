@@ -1,0 +1,69 @@
+---
+import AppLayout from "@/layouts/AppLayout.astro"
+import { getLessons } from "@/lib/content"
+import { plural } from "@/lib/text"
+import { FAMILY_INFO, LEVEL_INFO, LEVELS, PILLAR_INFO, PILLARS } from "@/lib/taxonomy"
+
+const lessons = await getLessons()
+const countBy = (pred: (l: (typeof lessons)[number]) => boolean) =>
+  lessons.filter(pred).reduce((n, l) => n + l.data.exercises.length, 0)
+---
+
+<AppLayout title="Practice" description="Mixed exercise sets by level and by grammar pillar, plus Level Checks.">
+  <header class="flex flex-col gap-3">
+    <h1 class="font-heading text-4xl font-bold tracking-tight">Practice</h1>
+    <p class="max-w-2xl font-reading text-lg text-muted-foreground">
+      Mixed sets pull exercises from many lessons, which is the best way to make grammar automatic. Scores show
+      instantly and are never saved.
+    </p>
+  </header>
+
+  <section class="flex flex-col gap-3" aria-labelledby="checks-title">
+    <h2 id="checks-title" class="font-heading text-2xl font-bold">Level Checks</h2>
+    <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+      {
+        LEVELS.map((level) => {
+          const n = countBy((l) => l.data.level === level)
+          return (
+            <a
+              href={n ? `/practice/${level.toLowerCase()}` : undefined}
+              class:list={["flex flex-col gap-1 rounded-2xl border p-4", n ? "bg-card hover:bg-muted/50" : "border-dashed bg-transparent"]}
+              aria-disabled={n ? undefined : "true"}
+            >
+              <span class="font-heading text-xl font-bold">{level} Level Check</span>
+              <span class="text-sm text-muted-foreground">
+                {LEVEL_INFO[level].title} · {n ? `${plural(n, "exercise")} in the pool` : "coming soon"}
+              </span>
+            </a>
+          )
+        })
+      }
+    </div>
+  </section>
+
+  <section class="flex flex-col gap-3" aria-labelledby="pillar-sets-title">
+    <h2 id="pillar-sets-title" class="font-heading text-2xl font-bold">By pillar</h2>
+    <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+      {
+        PILLARS.map((pillar) => {
+          const info = PILLAR_INFO[pillar]
+          const fam = FAMILY_INFO[info.family]
+          const n = countBy((l) => l.data.pillar === pillar)
+          return (
+            <a
+              href={n ? `/practice/${pillar}` : undefined}
+              class:list={["flex flex-col gap-1 rounded-2xl border p-4", n ? "bg-card hover:bg-muted/50" : "border-dashed bg-transparent"]}
+              style={`border-left:4px solid ${fam.color}`}
+              aria-disabled={n ? undefined : "true"}
+            >
+              <span class="font-bold">
+                {info.number}. {info.short}
+              </span>
+              <span class="text-sm text-muted-foreground">{n ? plural(n, "exercise") : "coming soon"}</span>
+            </a>
+          )
+        })
+      }
+    </div>
+  </section>
+</AppLayout>

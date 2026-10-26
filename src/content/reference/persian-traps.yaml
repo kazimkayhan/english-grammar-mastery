@@ -1,0 +1,330 @@
+# Persian Corner: typical mistakes of Persian speakers, each mapped to the lesson that fixes it.
+- id: dropped-subject
+  group: Sentence structure
+  wrong: "Is raining. / Am tired."
+  right: "It's raining. / I'm tired."
+  why: "English always needs a subject, even an empty one like it."
+  fa: "فارسی فاعل را حذف می‌کند (خسته‌ام)، اما جمله‌ی انگلیسی همیشه فاعل می‌خواهد؛ حتی it بی‌معنی در It's raining."
+  lesson: a1-03
+- id: verb-last
+  group: Sentence structure
+  wrong: "I yesterday to the bazaar went."
+  right: "I went to the bazaar yesterday."
+  why: "English order is Subject + Verb + Object, then place, then time."
+  fa: "در فارسی فعل آخر جمله می‌آید. در انگلیسی فعل درست بعد از فاعل می‌آید: فاعل + فعل + مفعول + مکان + زمان."
+  lesson: a1-03
+- id: adjective-after-noun
+  group: Sentence structure
+  wrong: "I have a car red."
+  right: "I have a red car."
+  why: "Adjectives go before the noun in English."
+  fa: "ما می‌گوییم «ماشینِ قرمز» (اسم + صفت). در انگلیسی صفت قبل از اسم می‌آید: a red car."
+  lesson: a1-29
+- id: no-auxiliary-question
+  group: Sentence structure
+  wrong: "Where you work?"
+  right: "Where do you work?"
+  why: "Questions need an auxiliary (do/does/did, be, have, a modal) before the subject."
+  fa: "در فارسی فقط با لحن سؤال می‌پرسیم. در انگلیسی برای سؤال، فعل کمکی (مثل do) قبل از فاعل لازم است."
+  lesson: a1-18
+- id: negative-question-answer
+  group: Sentence structure
+  wrong: "“Don't you like tea?” “Yes.” (meaning: I don't)"
+  right: "“Don't you like tea?” “No, I don't.” / “Yes, I do.”"
+  why: "Answer the fact, not the question: Yes = I do, No = I don't."
+  fa: "در فارسی «نه» یعنی «حرفت درست است، دوست ندارم» و «چرا» یعنی «دوست دارم». در انگلیسی Yes یعنی دوست دارم و No یعنی دوست ندارم."
+  lesson: a2-02
+- id: although-but
+  group: Sentence structure
+  wrong: "Although it was late, but we went out."
+  right: "Although it was late, we went out. / It was late, but we went out."
+  why: "Use although OR but, never both."
+  fa: "«با اینکه... ولی...» در فارسی طبیعی است، اما در انگلیسی فقط یکی را بیاورید: although یا but."
+  lesson: b1-31
+- id: because-so
+  group: Sentence structure
+  wrong: "Because I was tired, so I went home."
+  right: "Because I was tired, I went home. / I was tired, so I went home."
+  why: "Use because OR so, never both in one sentence."
+  fa: "«چون... پس...» را در انگلیسی با هم نمی‌آوریم؛ یا because یا so."
+  lesson: a1-33
+- id: and-chains
+  group: Sentence structure
+  wrong: "I went to the office and I saw my boss and he said the report is late and…"
+  right: "I went to the office, where my boss told me the report was late."
+  why: "English prefers shorter sentences joined with varied linkers and clauses."
+  fa: "جمله‌های طولانی با «و... و...» در فارسی رایج است؛ در انگلیسی از جمله‌ی کوتاه‌تر و رابط‌های متنوع استفاده کنید."
+  lesson: b1-48
+- id: missing-article
+  group: Nouns & determiners
+  wrong: "I am teacher. / I bought car."
+  right: "I am a teacher. / I bought a car."
+  why: "One countable thing needs a/an (or the, my…)."
+  fa: "فارسی حرف تعریف ندارد. در انگلیسی اسم مفرد قابل‌شمارش تنها نمی‌آید: a teacher، a car."
+  lesson: a1-09
+- id: generic-the
+  group: Nouns & determiners
+  wrong: "The life is beautiful. / The music helps me relax."
+  right: "Life is beautiful. / Music helps me relax."
+  why: "For things in general, use no article with uncountable and plural nouns."
+  fa: "وقتی درباره‌ی چیزی به طور کلی حرف می‌زنیم (زندگی، موسیقی) the نمی‌آوریم."
+  lesson: a2-30
+- id: singular-after-number
+  group: Nouns & determiners
+  wrong: "I have two book."
+  right: "I have two books."
+  why: "After two, three… the noun is plural."
+  fa: "در فارسی بعد از عدد اسم مفرد است («دو کتاب»)، اما در انگلیسی جمع می‌شود: two books."
+  lesson: a1-08
+- id: one-of-my-friend
+  group: Nouns & determiners
+  wrong: "One of my friend lives in Paris."
+  right: "One of my friends lives in Paris."
+  why: "one of + plural noun (+ singular verb)."
+  fa: "بعد از one of اسم جمع می‌آید (friends)، ولی فعل مفرد است (lives)."
+  lesson: b1-05
+- id: every-plural
+  group: Nouns & determiners
+  wrong: "Every students has a book."
+  right: "Every student has a book."
+  why: "every and each take a singular noun."
+  fa: "بعد از every و each اسم مفرد می‌آید، برخلاف «همه‌ی دانشجویان»."
+  lesson: a2-36
+- id: plural-uncountables
+  group: Nouns & determiners
+  wrong: "Can you give me some informations / advices?"
+  right: "Can you give me some information / advice?"
+  why: "information, advice, news, furniture… are uncountable: no -s, no a/an."
+  fa: "این اسم‌ها در انگلیسی غیرقابل‌شمارش‌اند و جمع بسته نمی‌شوند؛ برای یکی بگویید a piece of advice."
+  lesson: b1-38
+- id: he-she
+  group: Pronouns & clauses
+  wrong: "My mother is a doctor. He works at night."
+  right: "My mother is a doctor. She works at night."
+  why: "English separates he (man), she (woman) and it (thing)."
+  fa: "«او» در فارسی برای زن و مرد یکی است. در انگلیسی برای مرد he و برای زن she."
+  lesson: a1-04
+- id: resumptive-pronoun
+  group: Pronouns & clauses
+  wrong: "This is the man that I saw him."
+  right: "This is the man (that) I saw."
+  why: "The relative pronoun already replaces him: don't repeat it."
+  fa: "در فارسی می‌گوییم «مردی که او را دیدم»، اما در انگلیسی that جای him را می‌گیرد و him تکرار نمی‌شود."
+  lesson: b1-29
+- id: third-person-s
+  group: Verbs & tenses
+  wrong: "She work in a bank."
+  right: "She works in a bank."
+  why: "Present simple with he/she/it adds -s."
+  fa: "در زمان حال ساده، با he / she / it به فعل s اضافه می‌شود."
+  lesson: a1-17
+- id: double-past
+  group: Verbs & tenses
+  wrong: "I didn't saw him."
+  right: "I didn't see him."
+  why: "After did/didn't, use the base form: did already shows the past."
+  fa: "did خودش گذشته است؛ پس فعل بعد از آن ساده می‌آید: didn't see."
+  lesson: a1-27
+- id: am-agree
+  group: Verbs & tenses
+  wrong: "I am agree. / It's depend."
+  right: "I agree. / It depends."
+  why: "agree and depend are verbs: no am/is."
+  fa: "«موافقم» در انگلیسی فقط I agree است؛ am اضافه نکنید. همین‌طور It depends."
+  lesson: a1-17
+- id: age-have
+  group: Verbs & tenses
+  wrong: "I have 20 years."
+  right: "I'm 20. / I'm 20 years old."
+  why: "Age uses be, not have."
+  fa: "«۲۰ سال دارم» در انگلیسی با be گفته می‌شود: I'm 20."
+  lesson: a1-05
+- id: am-born
+  group: Verbs & tenses
+  wrong: "I am born in 1995."
+  right: "I was born in 1995."
+  why: "Birth is a finished past event: was/were born."
+  fa: "«متولد ۱۹۹۵ هستم» را با گذشته می‌گوییم: I was born in 1995."
+  lesson: a1-25
+- id: perfect-finished-time
+  group: Verbs & tenses
+  wrong: "I have seen him yesterday."
+  right: "I saw him yesterday."
+  why: "With a finished time (yesterday, last week, in 2019) use the past simple."
+  fa: "با زمان تمام‌شده (دیروز، پارسال) حال کامل استفاده نمی‌شود؛ گذشته‌ی ساده بیاورید."
+  lesson: b1-06
+- id: since-years
+  group: Verbs & tenses
+  wrong: "I have lived here since three years."
+  right: "I have lived here for three years."
+  why: "for + a period (three years); since + a starting point (2020)."
+  fa: "for برای مدت زمان (سه سال) و since برای نقطه‌ی شروع (از ۲۰۲۰)."
+  lesson: b1-07
+- id: present-for-duration
+  group: Verbs & tenses
+  wrong: "I am living here since 2010."
+  right: "I have been living here since 2010."
+  why: "From the past up to now = present perfect (continuous), not present."
+  fa: "«از ۲۰۱۰ اینجا زندگی می‌کنم» در انگلیسی با حال کامل گفته می‌شود: I have been living / I have lived."
+  lesson: b1-08
+- id: stative-ing
+  group: Verbs & tenses
+  wrong: "I am knowing the answer."
+  right: "I know the answer."
+  why: "State verbs (know, like, want, believe) are not used in the continuous."
+  fa: "فعل‌های حالت مثل know و want معمولاً ing نمی‌گیرند."
+  lesson: b1-10
+- id: if-would-have
+  group: Verbs & tenses
+  wrong: "If I would have known, I would have come."
+  right: "If I had known, I would have come."
+  why: "No would in the if-clause: if + past perfect."
+  fa: "در بخش if از would استفاده نکنید؛ if + had + قسمت سوم فعل."
+  lesson: b2-17
+- id: make-do
+  group: Verbs & tenses
+  wrong: "I made my homework."
+  right: "I did my homework."
+  why: "do for tasks and work, make for creating things; both are «کردن» in Persian."
+  fa: "«کردن» گاهی make است و گاهی do: do homework، make a decision. باید با هم‌نشین‌ها حفظ شوند."
+  lesson: b1-16
+- id: for-study
+  group: Verb patterns & reported speech
+  wrong: "I came here for study."
+  right: "I came here to study."
+  why: "Purpose with a verb uses to + verb."
+  fa: "«برای درس خواندن آمدم» = I came to study؛ for قبل از فعل نمی‌آید."
+  lesson: a2-25
+- id: suggest-to
+  group: Verb patterns & reported speech
+  wrong: "He suggested me to go."
+  right: "He suggested (that) I go. / He suggested going."
+  why: "suggest is never followed by object + to."
+  fa: "بعد از suggest ساختار «مفعول + to» نمی‌آید؛ از that یا ing استفاده کنید."
+  lesson: b2-21
+- id: said-me
+  group: Verb patterns & reported speech
+  wrong: "He said me that he was busy."
+  right: "He told me (that) he was busy. / He said (that) he was busy."
+  why: "tell + person; say + (to + person)."
+  fa: "«به من گفت» با tell me گفته می‌شود، نه said me."
+  lesson: b1-26
+- id: want-that
+  group: Verb patterns & reported speech
+  wrong: "I want that you come."
+  right: "I want you to come."
+  why: "want + person + to + verb."
+  fa: "«می‌خواهم که بیایی» = I want you to come؛ بعد از want که (that) نمی‌آید."
+  lesson: b1-34
+- id: let-to
+  group: Verb patterns & reported speech
+  wrong: "Let me to explain."
+  right: "Let me explain."
+  why: "let, make and modal verbs take the base form without to."
+  fa: "بعد از let و make فعل بدون to می‌آید."
+  lesson: b1-34
+- id: modal-to
+  group: Verb patterns & reported speech
+  wrong: "Can you to help me?"
+  right: "Can you help me?"
+  why: "Modal verbs are followed by the base form, no to."
+  fa: "بعد از can، must، should و… فعل بدون to می‌آید."
+  lesson: a1-21
+- id: go-to-home
+  group: Prepositions
+  wrong: "I go to home at six."
+  right: "I go home at six."
+  why: "home after go/come/get needs no preposition."
+  fa: "با home بعد از go و come حرف اضافه نمی‌آید: go home."
+  lesson: a2-44
+- id: explain-me
+  group: Prepositions
+  wrong: "Can you explain me the rule?"
+  right: "Can you explain the rule to me?"
+  why: "explain something to someone."
+  fa: "explain مستقیم شخص نمی‌گیرد: explain it to me."
+  lesson: b2-42
+- id: discuss-about
+  group: Prepositions
+  wrong: "We discussed about the plan."
+  right: "We discussed the plan."
+  why: "discuss takes a direct object: no about."
+  fa: "«درباره‌ی... بحث کردیم» = We discussed the plan؛ about لازم نیست."
+  lesson: b2-42
+- id: enter-to
+  group: Prepositions
+  wrong: "She entered to the room."
+  right: "She entered the room."
+  why: "enter takes a direct object."
+  fa: "«وارد اتاق شد» = She entered the room؛ بدون to."
+  lesson: b2-42
+- id: married-with
+  group: Prepositions
+  wrong: "He married with her."
+  right: "He married her. / He got married to her."
+  why: "marry someone; get married to someone."
+  fa: "«با او ازدواج کرد» = He married her؛ with نمی‌آید."
+  lesson: b1-36
+- id: depend-to
+  group: Prepositions
+  wrong: "It depends to you."
+  right: "It depends on you."
+  why: "depend on, not to."
+  fa: "«بستگی دارد به...» = depend on."
+  lesson: b1-36
+- id: angry-from
+  group: Prepositions
+  wrong: "I'm angry from him."
+  right: "I'm angry with him."
+  why: "angry with a person, angry about a thing."
+  fa: "«از او عصبانی‌ام» = I'm angry with him؛ from نمی‌آید."
+  lesson: b1-36
+- id: question-from
+  group: Prepositions
+  wrong: "I have a question from you."
+  right: "I have a question for you. / Can I ask you something?"
+  why: "a question for someone."
+  fa: "«از شما سؤال دارم» = I have a question for you."
+  lesson: b2-41
+- id: with-bus
+  group: Prepositions
+  wrong: "I go to work with bus."
+  right: "I go to work by bus."
+  why: "by + transport (by bus, by car), but on foot."
+  fa: "«با اتوبوس» = by bus؛ برای پیاده: on foot."
+  lesson: a2-45
+- id: in-monday
+  group: Prepositions
+  wrong: "See you in Monday."
+  right: "See you on Monday."
+  why: "on + days and dates, in + months and years, at + times."
+  fa: "برای روزها on، برای ماه و سال in و برای ساعت at."
+  lesson: a1-32
+- id: very-delicious
+  group: Modifiers
+  wrong: "The food was very delicious."
+  right: "The food was really delicious. / absolutely delicious."
+  why: "Strong adjectives (delicious, amazing, huge) don't go with very."
+  fa: "صفت‌های قوی با very نمی‌آیند؛ از really یا absolutely استفاده کنید."
+  lesson: b2-37
+- id: more-better
+  group: Modifiers
+  wrong: "This one is more better."
+  right: "This one is better. / much better."
+  why: "better is already comparative: don't add more."
+  fa: "better خودش تفضیلی است؛ more اضافه نکنید. برای تأکید: much better."
+  lesson: a2-37
+- id: interesting-interested
+  group: Modifiers
+  wrong: "I'm very interesting in music."
+  right: "I'm very interested in music."
+  why: "-ed = how you feel; -ing = what causes the feeling."
+  fa: "interested حس خود شماست؛ interesting یعنی جذاب. «علاقه دارم» = I'm interested."
+  lesson: a2-42
+- id: speaks-good
+  group: Modifiers
+  wrong: "He speaks English very good."
+  right: "He speaks English very well."
+  why: "Verbs are described by adverbs: well, not good."
+  fa: "برای توصیف فعل از قید استفاده می‌کنیم: well، نه good."
+  lesson: a2-41

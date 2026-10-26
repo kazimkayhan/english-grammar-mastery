@@ -1,0 +1,40 @@
+---
+import AppLayout from "@/layouts/AppLayout.astro"
+import LinkButton from "@/components/common/LinkButton.astro"
+import { Mindmap } from "@/components/mindmap/Mindmap"
+import { getAllMaps, type MapEntry } from "@/lib/maps"
+
+export async function getStaticPaths() {
+  const maps = await getAllMaps()
+  return maps.map((map) => ({ params: { id: map.id }, props: { map } }))
+}
+
+const { map } = Astro.props as { map: MapEntry }
+const back =
+  map.kind === "pillar"
+    ? { href: `/pillars/${map.id.replace("pillar-", "")}`, label: "Pillar page" }
+    : map.kind === "level"
+      ? { href: `/levels/${map.id.replace("level-", "")}`, label: "Level page" }
+      : { href: "/roadmap", label: "Roadmap" }
+---
+
+<AppLayout title={map.title} description={map.description}>
+  <header class="flex flex-col gap-2">
+    <a href="/mindmaps" class="text-sm text-muted-foreground hover:text-foreground">← All mindmaps</a>
+    <h1 class="font-heading text-3xl font-bold tracking-tight">{map.title}</h1>
+    <p class="text-muted-foreground">{map.description}</p>
+  </header>
+  <Mindmap
+    client:load
+    markdown={map.markdown}
+    colors={map.colors}
+    colorVar={map.colorVar}
+    branchColors={map.branchColors}
+    title={map.title}
+    height={640}
+    recallDefault
+  />
+  <div class="flex gap-2">
+    <LinkButton href={back.href} variant="outline">{back.label}</LinkButton>
+  </div>
+</AppLayout>

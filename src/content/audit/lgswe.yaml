@@ -1,0 +1,326 @@
+source: LGSWE
+edition: "2021, John Benjamins (redesign of the 1999 Longman edition). TOC actually read: 1999 Longman first edition (scan on archive.org). The 2021 TOC could not be retrieved."
+retrieved_from:
+  - "https://archive.org/details/EnglishLongmanGrammarOfSpokenAndWrittenEng (full text of 'Contents in detail', pp. xi-xxv, 1999 Longman edition)"
+  - "https://www.torrossa.com/de/resources/an/5242297 (2021 edition: bibliographic record only, no TOC)"
+  - "https://linguistlist.org/issues/32/1432/ (2021 edition announcement: description only, no TOC)"
+verified: partial
+note: "Benjamins catalogue (403), JBE platform (403) and De Gruyter Brill (405) blocked automated fetches, so the 2021 contents list was not read. The items below are the section and sub-section headings of the 1999 Longman Grammar of Spoken and Written English, read from the OCR text of 'Contents in detail'. The 2021 Benjamins edition is described by the publisher as a redesign of the same book, but its chapter structure is NOT verified here. Headings are shortened. Corpus-frequency sub-sections (the many 'distribution' and 'register distribution' headings) are collapsed into outOfScope items. Section numbers come from OCR and some sub-sub-numbers may be slightly off."
+items:
+  # ---------------- Chapter 1 ----------------
+  - { ref: "1", item: "Corpus-based approach: goals, register and dialect variation, the LSWE Corpus, quantitative method", outOfScope: "corpus methodology" }
+  - { ref: "1.3.3", item: "Standard and non-standard English (variation within standard and non-standard English)", maps: [ register-grammar, other-englishes, dialect-double-negatives ] }
+  # ---------------- Chapter 2 Word and phrase grammar ----------------
+  - { ref: "2.2.1-2.2.2", item: "Word types and tokens; orthographic words, grammatical words, lexemes; TTR across registers", outOfScope: "corpus methodology" }
+  - { ref: "2.2.3", item: "The three major word classes: lexical words, function words, inserts", maps: [ parts-of-speech, interjections ] }
+  - { ref: "2.2.4", item: "Closed systems vs open classes", maps: [ parts-of-speech ] }
+  - { ref: "2.2.5", item: "Structure of words: inflection, derivation, compounding, multi-word lexical units", maps: [ word-families, suffix-noun, prefix-meaning, compound-words, phrasal-verbs-intro ] }
+  - { ref: "2.2.6", item: "Core vs peripheral members of word classes", maps: [ parts-of-speech ] }
+  - { ref: "2.2.7", item: "Multiple class membership", maps: [ conversion, adjective-vs-adverb ] }
+  - { ref: "2.2.8-2.2.9", item: "Use of lexical words, function words and inserts; lexical density", outOfScope: "corpus methodology" }
+  - { ref: "2.3.1-2.3.5", item: "Survey of lexical words: nouns, lexical verbs, adjectives, adverbs", maps: [ parts-of-speech ] }
+  - { ref: "2.3.6", item: "Borderline cases of lexical word class membership", maps: [ conversion ] }
+  - { ref: "2.4.1", item: "Determiners (function-word survey)", maps: [ parts-of-speech, determiner-order ] }
+  - { ref: "2.4.2", item: "Pronouns; overlap of pronoun, determiner and adverb classes; other pro-forms", maps: [ subject-pronouns, object-pronouns, possessive-pronouns, one-ones, do-so ] }
+  - { ref: "2.4.3", item: "Primary auxiliaries", maps: [ auxiliaries ] }
+  - { ref: "2.4.4", item: "Modal auxiliaries", maps: [ modal-grammar ] }
+  - { ref: "2.4.5", item: "Prepositions: free vs bound, complex prepositions, overlap with other classes", maps: [ place-in-on-at, complex-prepositions, prep-vs-conj, verb-prep-1 ] }
+  - { ref: "2.4.6", item: "Adverbial particles (vs adverbs, vs prepositions)", maps: [ phrasal-verbs-intro, phrasal-separable ] }
+  - { ref: "2.4.7", item: "Coordinators: simple and correlative; coordinators vs other word classes; sentence/turn-initial coordinators", maps: [ and-but-or, both-and, either-or-neither-nor, not-only-but-also, and-but-start ] }
+  - { ref: "2.4.8", item: "Subordinators: simple, complex and correlative; overlap with other word classes", maps: [ in-that-given-that, in-the-event, result-clauses, prep-vs-conj ] }
+  - { ref: "2.4.9", item: "Wh- words", maps: [ question-words, what-vs-which, whose ] }
+  - { ref: "2.4.10", item: "Existential there", maps: [ there-is-are, it-vs-there ] }
+  - { ref: "2.4.11", item: "The negator not", maps: [ be-negative, present-simple-negative, negative-words ] }
+  - { ref: "2.4.12", item: "The infinitive marker to", maps: [ verb-to, to-preposition ] }
+  - { ref: "2.4.13", item: "Numerals: cardinals and ordinals", maps: [ cardinal-numbers, ordinal-numbers ] }
+  - { ref: "2.4.14", item: "Major function word classes: distribution", outOfScope: "corpus methodology" }
+  - { ref: "2.5", item: "Survey of inserts", maps: [ interjections, response-tokens, discourse-speech ] }
+  - { ref: "2.6", item: "Phrases and their characteristics: constituency, form vs syntactic role", maps: [ sentence-parts ] }
+  - { ref: "2.7.1", item: "Noun phrases: syntactic roles", maps: [ sentence-parts ] }
+  - { ref: "2.7.1.2", item: "Discontinuous noun phrases (A man came in who...)", maps: [ discontinuous-np ], suggest: { title: "Discontinuous noun phrases (A man arrived who wanted to see you; Several people came, all of them angry)", level: C2, lesson: c2-08 } }
+  - { ref: "2.7.2", item: "Verb phrases: syntactic role; discontinuous VPs; auxiliary-only verb phrases", maps: [ auxiliary-ellipsis, auxiliaries ] }
+  - { ref: "2.7.3", item: "Adjective phrases: syntactic roles; discontinuous adjective phrases", maps: [ adjective-position, predicative-only ] }
+  - { ref: "2.7.4", item: "Adverb phrases: syntactic roles", maps: [ adverb-positions ] }
+  - { ref: "2.7.5", item: "Prepositional phrases: extended PPs; syntactic roles; stranded prepositions (also in wh-questions)", maps: [ prep-phrases, preposition-stranding, preposition-end-questions ] }
+  - { ref: "2.7.6", item: "Genitive phrases", maps: [ possessive-s, possessive-of ] }
+  - { ref: "2.7.7", item: "Numeral phrases: complex numbers, types of numerical expressions", maps: [ cardinal-numbers, large-numbers, fractions-decimals ] }
+  - { ref: "2.7.7.3-2.7.7.4", item: "Approximate numbers and approximating numeral expressions (about thirty, a dozen, thirty-odd, a couple of)", maps: [ approximating-numbers ], suggest: { title: "Approximating numbers and amounts (about, roughly, -odd, a dozen, a couple of)", level: B1, lesson: b1-42 } }
+  - { ref: "2.8", item: "Embedding of phrases", maps: [ balance-embedding, noun-phrase-postmod ] }
+  - { ref: "2.9", item: "Coordination of phrases: phrasal vs clausal coordination; coordination tags (and stuff, or something)", maps: [ and-but-or, vague-language, comparison-ellipsis ] }
+  - { ref: "2.10", item: "Simple vs complex phrases", maps: [ noun-phrase-premod, noun-phrase-postmod ] }
+  # ---------------- Chapter 3 Clause grammar ----------------
+  - { ref: "3.1", item: "Clause vs non-clausal material", maps: [ spoken-ellipsis, headline-grammar ] }
+  - { ref: "3.2", item: "Major clause elements: subject, verb phrase, predicatives, objects, adverbials, operator", maps: [ sentence-parts, svo-order, auxiliaries ] }
+  - { ref: "3.2.1.2", item: "Dummy subjects", maps: [ subject-required, dummy-it, it-vs-there ] }
+  - { ref: "3.2.4.2", item: "Dummy objects (it as object)", maps: [ preparatory-it-object ] }
+  - { ref: "3.2.5", item: "Indirect object", maps: [ two-objects, two-objects-to-for ] }
+  - { ref: "3.2.6", item: "Prepositional object", maps: [ prepositional-verbs, verb-obj-prep ] }
+  - { ref: "3.2.7", item: "Object predicative", maps: [ object-complement, find-it-adj ] }
+  - { ref: "3.2.8", item: "Adverbials: circumstance, stance, linking", maps: [ disjuncts-conjuncts, adverbial-scope ] }
+  - { ref: "3.3", item: "Clause links", maps: [ and-but-or, sentence-types ] }
+  - { ref: "3.4.1", item: "Detached predicatives and related forms (Angry and tired, she left)", maps: [ supplementive-adjectives ], suggest: { title: "Detached predicatives and supplementive adjective phrases (Tired and hungry, they went home)", level: C1, lesson: c1-22 } }
+  - { ref: "3.4.2", item: "Parentheticals", maps: [ parentheses, hedging ] }
+  - { ref: "3.4.3-3.4.4", item: "Prefaces and tags (peripheral elements)", maps: [ heads-tails ] }
+  - { ref: "3.4.5", item: "Discourse markers", maps: [ discourse-speech, discourse-writing ] }
+  - { ref: "3.4.6", item: "Vocatives", maps: [ vocatives ], suggest: { title: "Vocatives and forms of address (Come here, John; Thank you, Mr Smith) and their commas", level: A2, lesson: a2-47 } }
+  - { ref: "3.5.1-3.5.2", item: "Clause patterns: S-V; S-V-obligatory adverbial", maps: [ svo-order, place-before-time ] }
+  - { ref: "3.5.2", item: "Subject + verb + obligatory adverbial (She lives in Paris; Put it on the table)", maps: [ place-adverbial-verbs ], suggest: { title: "Verbs that need a place adverbial (live, put, stay, keep + where)", level: A2, lesson: a2-44 } }
+  - { ref: "3.5.3", item: "S-V-subject predicative: characterizing and identifying patterns", maps: [ linking-verbs, be-uses-age, sentence-parts ] }
+  - { ref: "3.5.4", item: "S-V-direct object", maps: [ svo-order ] }
+  - { ref: "3.5.5", item: "S-V-prepositional object", maps: [ prepositional-verbs ] }
+  - { ref: "3.5.6", item: "S-V-indirect object-direct object", maps: [ two-objects, two-objects-to-for ] }
+  - { ref: "3.5.7", item: "S-V-direct object-prepositional object", maps: [ verb-obj-prep ] }
+  - { ref: "3.5.8", item: "S-V-direct object-object predicative", maps: [ object-complement ] }
+  - { ref: "3.5.9", item: "S-V-direct object-obligatory adverbial", maps: [ place-adverbial-verbs ], suggest: { title: "Verbs that need a place adverbial (live, put, stay, keep + where)", level: A2, lesson: a2-44 } }
+  - { ref: "3.5.10", item: "More complex patterns", maps: [ sentence-types, balance-embedding ] }
+  - { ref: "3.6.1", item: "Order variations: inversion, fronting, postponement", maps: [ negative-inversion, place-inversion, fronting, heavy-np-shift ] }
+  - { ref: "3.6.2", item: "The passive", maps: [ passive-form, passive-why ] }
+  - { ref: "3.6.3", item: "Existential there", maps: [ there-is-are, there-tenses ] }
+  - { ref: "3.6.4", item: "Extraposition", maps: [ extraposition, it-adj-that ] }
+  - { ref: "3.6.5", item: "Getting (get-passive and get constructions)", maps: [ get-passive, get-uses ] }
+  - { ref: "3.6.6", item: "Condensation (non-finite clauses replacing finite clauses)", maps: [ reduced-relative, participle-clauses, infinitive-clauses ] }
+  - { ref: "3.7.1-3.7.2", item: "Ellipsis in coordinated clauses and in comparative clauses", maps: [ auxiliary-ellipsis, comparison-ellipsis, comparative-ellipsis-clause ] }
+  - { ref: "3.7.3-3.7.5", item: "Ellipsis in question-answer sequences; textual ellipsis; omission of function words, situational ellipsis", maps: [ spoken-ellipsis, ellipsis-to, me-too-me-neither ] }
+  - { ref: "3.8.1", item: "Overall frequency of negation", outOfScope: "corpus methodology" }
+  - { ref: "3.8.2", item: "Not-negation: do with have (got), have to, dare, need, ought to, used to; full vs contracted forms; aren't I and ain't", maps: [ be-negative, present-simple-negative, have-got, didnt-use-to, dare, need-modal, contractions, special-tags, dialect-double-negatives ] }
+  - { ref: "3.8.3-3.8.4", item: "No-negation vs not-negation; choice and collocations", maps: [ negative-words, not-any-vs-no, one-negative ] }
+  - { ref: "3.8.5", item: "Scope of negation", maps: [ scope-negation, transferred-negation ] }
+  - { ref: "3.8.6", item: "Assertive and non-assertive forms", maps: [ some-any-basic, negative-polarity, at-all-whatsoever ] }
+  - { ref: "3.8.7", item: "Multiple negation: dependent and independent", maps: [ one-negative, dialect-double-negatives, barely-scarcely ] }
+  - { ref: "3.9.1.1", item: "Concord with plural forms not ending in -s", maps: [ plural-verb-nouns ] }
+  - { ref: "3.9.1.2", item: "Concord with singular forms ending in -s", maps: [ singular-s-nouns ] }
+  - { ref: "3.9.1.3", item: "Concord with coordinated subjects", maps: [ either-or-agreement ] }
+  - { ref: "3.9.1.3b", item: "Concord with subjects joined by and (bread and butter is; each and every)", maps: [ and-agreement ], suggest: { title: "Agreement with subjects joined by and (Bread and butter is..., Ali and Sara are...)", level: B2, lesson: b2-02 } }
+  - { ref: "3.9.1.4", item: "Concord with indefinite pronouns and quantifying expressions", maps: [ agreement-indefinite, quantity-agreement, majority-agreement, one-of-plural, number-of ] }
+  - { ref: "3.9.1.5", item: "Concord with existential there", maps: [ agreement-there ] }
+  - { ref: "3.9.1.6", item: "Concord with clausal subjects", maps: [ clause-as-subject, ing-subject ] }
+  - { ref: "3.9.2.1", item: "Notional concord with names, titles and quotations (The Philippines is...)", maps: [ names-titles-agreement ], suggest: { title: "Agreement with names, titles and quotations (The Netherlands is..., Gulliver's Travels was...)", level: C1, lesson: c1-28 } }
+  - { ref: "3.9.2.2", item: "Notional concord with measure expressions", maps: [ measurement-singular ] }
+  - { ref: "3.9.2.3", item: "Notional concord with collective nouns", maps: [ collective-agreement, notional-agreement ] }
+  - { ref: "3.9.3", item: "Concord and proximity", maps: [ either-or-agreement, notional-agreement ] }
+  - { ref: "3.9.4", item: "Non-standard concord in conversation (we was, he don't, there's three)", maps: [ nonstandard-agreement ], suggest: { title: "Non-standard agreement in speech (we was, he don't, there's three people) for recognition", level: C2, lesson: c2-25 } }
+  - { ref: "3.9.5", item: "Subject-verb concord and pronominal reference", maps: [ singular-they, they-organisations ] }
+  - { ref: "3.10", item: "Types of dependent clauses", maps: [ sentence-types ] }
+  - { ref: "3.11.1", item: "Finite nominal clauses", maps: [ that-clauses, wh-clauses, if-whether-clauses ] }
+  - { ref: "3.11.2", item: "Finite adverbial clauses", maps: [ time-clauses-full, reason-clauses, result-clauses, purpose-clauses, contrast-although ] }
+  - { ref: "3.11.3", item: "Finite relative clauses", maps: [ defining-relative-basic, defining-nondefining ] }
+  - { ref: "3.11.4", item: "Comparative clauses and other degree clauses", maps: [ as-as, than-me, result-clauses, times-as ] }
+  - { ref: "3.11.5", item: "Reporting clauses", maps: [ reporting-verbs-patterns, say-tell ] }
+  - { ref: "3.11.6", item: "Comment clauses (I think, you know, as I said)", maps: [ hedging, discourse-speech ] }
+  - { ref: "3.11.7", item: "Other peripheral clauses", maps: [ sentential-which, parentheses ] }
+  - { ref: "3.12.1", item: "Non-finite infinitive clauses", maps: [ infinitive-clauses, purpose-clauses ] }
+  - { ref: "3.12.2-3.12.3", item: "Non-finite ing- and ed-clauses", maps: [ participle-clauses, reduced-relative ] }
+  - { ref: "3.12.4", item: "Supplement clauses (non-finite)", maps: [ participle-clauses, absolute-clauses ] }
+  - { ref: "3.12.5", item: "Verbless clauses", maps: [ verbless-clauses ] }
+  - { ref: "3.13.1", item: "Declarative clauses", maps: [ svo-order ] }
+  - { ref: "3.13.2.1", item: "Wh-questions", maps: [ question-words, question-word-order, subject-questions, object-questions ] }
+  - { ref: "3.13.2.2", item: "Yes/no questions", maps: [ be-questions, present-simple-questions, have-questions ] }
+  - { ref: "3.13.2.3", item: "Alternative questions", maps: [ alternative-questions ], suggest: { title: "Alternative questions (Do you want tea or coffee?) and their intonation", level: A2, lesson: a2-01 } }
+  - { ref: "3.13.2.4", item: "Question tags", maps: [ question-tags, special-tags, tags-checking-asking ] }
+  - { ref: "3.13.2.5-3.13.2.6", item: "Interrogatives and question types: distribution", outOfScope: "corpus methodology" }
+  - { ref: "3.13.2.7", item: "Choice between interrogative who and whom", maps: [ who-whom, who-whom-usage ] }
+  - { ref: "3.13.2.8", item: "Auxiliary do in independent interrogative clauses", maps: [ present-simple-questions, did-negative-questions, question-word-order ] }
+  - { ref: "3.13.3", item: "Exclamative clauses", maps: [ exclamations, so-such-exclamations ] }
+  - { ref: "3.13.4", item: "Imperative clauses: realization and distribution", maps: [ imperatives, lets, always-never-imperative ] }
+  - { ref: "3.14", item: "Unembedded dependent clauses (If only..., That he should...)", maps: [ if-only-intro, wish-past, putative-should ] }
+  - { ref: "3.15", item: "Non-clausal material in writing and in conversation", maps: [ headline-grammar, notes-instructions, spoken-ellipsis, response-tokens ] }
+  # ---------------- Chapter 4 Nouns, pronouns, simple NP ----------------
+  - { ref: "4.1.1", item: "Use of nominals in discourse: density, establishing reference, chains of reference", maps: [ reference-chains, it-this-that-reference ] }
+  - { ref: "4.1.2-4.1.4", item: "Pronouns vs full noun phrases; forms of anaphoric expressions; anaphora and distance", maps: [ it-this-that-reference, such-this-reference, ambiguous-pronouns, reference-chains ] }
+  - { ref: "4.2", item: "Basic structure of noun-headed phrases", maps: [ sentence-parts, noun-phrase-premod, noun-phrase-postmod ] }
+  - { ref: "4.3.1-4.3.2", item: "Countable and uncountable nouns; countable and uncountable uses; plural uncountables", maps: [ countable-uncountable, uncountable-traps, dual-countability, plural-only ] }
+  - { ref: "4.3.3", item: "Proper nouns: initial capitals, regular article use, proper nouns as common nouns", maps: [ capital-names, the-geography, articles-names ] }
+  - { ref: "4.3.4", item: "Collective nouns", maps: [ collective-agreement, partitives ] }
+  - { ref: "4.3.5", item: "Unit nouns (a piece of, a slice of)", maps: [ partitives ] }
+  - { ref: "4.3.6", item: "Quantifying nouns (a lot of, a pair vs a couple of)", maps: [ a-lot-of, partitives, great-deal ] }
+  - { ref: "4.3.7", item: "Species nouns (kind of, sort of, type of)", maps: [ kind-of-agreement ], suggest: { title: "kind of / sort of / type of + noun, and their agreement (these kinds of problem)", level: B2, lesson: b2-36 } }
+  - { ref: "4.3.8", item: "Noun vs determiner (a lot of, plenty of)", maps: [ a-lot-of, quite-a-few ] }
+  - { ref: "4.4.1", item: "The articles: indefinite, zero, definite; generic reference; reference patterns of definite NPs", maps: [ a-an-sound, a-jobs, a-vs-one, the-specific, the-unique, the-second-mention, the-vs-zero, generic-reference, zero-article-set-phrases ] }
+  - { ref: "4.4.1.6-4.4.1.8", item: "Definite and indefinite articles and determiners: distribution", outOfScope: "corpus methodology" }
+  - { ref: "4.4.2", item: "Possessive determiners", maps: [ possessive-adjectives ] }
+  - { ref: "4.4.3", item: "Demonstrative determiners", maps: [ demonstratives, demonstrative-time ] }
+  - { ref: "4.4.4", item: "Quantifiers", maps: [ much-many, a-few-a-little, few-a-few, some-any-offers, no-none, all-both-basic, each-every-basic, either-neither ] }
+  - { ref: "4.4.5", item: "Numerals as determiners", maps: [ cardinal-numbers, ordinal-numbers ] }
+  - { ref: "4.4.6", item: "Semi-determiners (same, other, certain, various, several, numerous)", maps: [ semi-determiners ], suggest: { title: "Semi-determiners: same, other, certain, various, numerous, several", level: C1, lesson: c1-26 } }
+  - { ref: "4.4.7", item: "Wh-determiners", maps: [ what-vs-which, whose ] }
+  - { ref: "4.4.8", item: "Determiner vs pronoun", maps: [ demonstrative-pronouns, indefinite-compounds, none-of ] }
+  - { ref: "4.5.1", item: "Regular plurals, including words ending in -o", maps: [ plural-regular, plural-o, plural-f-ves ] }
+  - { ref: "4.5.2", item: "Irregular plurals", maps: [ plural-irregular ] }
+  - { ref: "4.5.3", item: "Latin and Greek plurals", maps: [ latin-greek-plurals, data-is-are ] }
+  - { ref: "4.5.4", item: "Zero plurals (sheep, fish, series)", maps: [ plural-irregular ] }
+  - { ref: "4.5.5", item: "Plural-only nouns and nouns in -s", maps: [ plural-only, singular-s-nouns ] }
+  - { ref: "4.5.6", item: "Singular vs plural nouns: distribution", outOfScope: "corpus methodology" }
+  - { ref: "4.6.1", item: "The form of the genitive", maps: [ possessive-s, s-plural-possessive, apostrophe-possession ] }
+  - { ref: "4.6.2", item: "Frequency of genitive case forms", outOfScope: "corpus methodology" }
+  - { ref: "4.6.3-4.6.4", item: "Specifying and classifying genitives", maps: [ possessive-of ] }
+  - { ref: "4.6.5-4.6.6", item: "Genitives of time and of measure", maps: [ time-possessive ] }
+  - { ref: "4.6.7-4.6.8", item: "Elliptic and other independent genitives", maps: [ possessive-places ] }
+  - { ref: "4.6.9", item: "Group genitives", maps: [ group-possessive ] }
+  - { ref: "4.6.10", item: "The double genitive (a friend of mine / of Sara's)", maps: [ double-possessive ] }
+  - { ref: "4.6.11-4.6.12", item: "Density of genitives; choice between s-genitive and of-phrase", maps: [ possessive-of ] }
+  - { ref: "4.6.13", item: "Choice between elliptic genitives and of-constructions", maps: [ possessive-places ] }
+  - { ref: "4.6.14", item: "Choice between the double genitive and related constructions", maps: [ double-possessive ] }
+  - { ref: "4.7.1", item: "Lexical expression of gender; words for masculine/feminine; dual gender reference", maps: [ gender-neutral-nouns ] }
+  - { ref: "4.7.2", item: "Gender-specific vs dual gender pronoun reference", maps: [ singular-they, generic-you-one ] }
+  - { ref: "4.7.3", item: "Personal vs non-personal reference with pronouns", maps: [ he-she-it ] }
+  - { ref: "4.8.1", item: "Derived nouns: prefixes and suffixes", maps: [ suffix-noun, academic-suffixes, prefix-meaning, nominalisation ] }
+  - { ref: "4.8.2", item: "Formation of nouns through compounding", maps: [ compound-nouns, compound-words ] }
+  - { ref: "4.9", item: "The role of pronouns in discourse", maps: [ it-this-that-reference, reference-chains ] }
+  - { ref: "4.10.1", item: "Personal pronouns with specific reference (we, you, they; problems of reference)", maps: [ subject-pronouns, you-singular-plural, ambiguous-pronouns ] }
+  - { ref: "4.10.2", item: "Referring to people in general", maps: [ generic-you-one, formal-one, singular-they ] }
+  - { ref: "4.10.3", item: "Special problems with collective nouns", maps: [ they-organisations, collective-agreement ] }
+  - { ref: "4.10.4", item: "Special uses of it", maps: [ dummy-it, it-vs-there, it-takes ] }
+  - { ref: "4.10.6", item: "Nominative vs accusative forms (after be, after as/than, in coordination)", maps: [ pronoun-case, between-you-and-i, myself-misuse, than-me ] }
+  - { ref: "4.11", item: "Possessive pronouns; the type a friend of mine", maps: [ possessive-pronouns, double-possessive ] }
+  - { ref: "4.12", item: "Reflexive pronouns; emphatic reflexives", maps: [ reflexive-pronouns, by-myself, emphatic-reflexive ] }
+  - { ref: "4.13", item: "Reciprocal pronouns", maps: [ each-other, reciprocal-verbs ] }
+  - { ref: "4.14", item: "Demonstrative pronouns (this/these in academic prose; those + postmodifier; that in conversation)", maps: [ demonstrative-pronouns, it-this-that-reference ] }
+  - { ref: "4.15", item: "Indefinite pronouns; the pronoun one", maps: [ indefinite-compounds, indefinite-singular-verb, one-ones, formal-one ] }
+  - { ref: "4.16", item: "Other pronouns (relative, interrogative)", maps: [ relative-who-which-that, question-words ] }
+  # ---------------- Chapter 5 Verbs ----------------
+  - { ref: "5.1", item: "Major verb functions and classes (lexical, modal, primary auxiliary)", maps: [ auxiliaries, parts-of-speech, modal-grammar ] }
+  - { ref: "5.2.1-5.2.3", item: "Semantic domains of lexical verbs; most common lexical verbs; animate and inanimate subjects", outOfScope: "vocabulary / semantic classification of verbs" }
+  - { ref: "5.2.4", item: "Valency patterns for single-word lexical verbs (intransitive, monotransitive, ditransitive, complex transitive)", maps: [ svo-order, two-objects, object-complement, linking-verbs, verb-to, verb-ing ] }
+  - { ref: "5.2.5", item: "Regular verb inflections; consonant doubling", maps: [ third-person-spelling, ed-spelling, ing-spelling ] }
+  - { ref: "5.2.5.2", item: "Doubling of base-final l across dialects (travelled/traveled)", maps: [ us-uk-verb-spelling ], suggest: { title: "UK/US spelling of verb forms (travelled / traveled, learnt / learned, dreamt / dreamed)", level: B1, lesson: a2-07 } }
+  - { ref: "5.2.6", item: "Irregular verb inflections: classes of irregular verbs; regular and irregular forms; got and gotten", maps: [ past-simple-irregular, irregular-verbs-2, past-participle, us-uk-verbs ] }
+  - { ref: "5.2.7", item: "Verb derivation: affixes and their productivity", maps: [ suffix-verb, productive-affixes, prefix-meaning ] }
+  - { ref: "5.3.1-5.3.2", item: "Multi-word verbs: phrasal verbs", maps: [ phrasal-verbs-intro, phrasal-pronoun-position, phrasal-separable ] }
+  - { ref: "5.3.2.1-5.3.2.4", item: "Semantic domains, register distribution, most common phrasal verbs; productivity of verbs and particles", outOfScope: "vocabulary (phrasal-verb word lists)" }
+  - { ref: "5.3.3", item: "Prepositional verbs", maps: [ prepositional-verbs, verb-prep-1 ] }
+  - { ref: "5.3.4", item: "Phrasal-prepositional verbs", maps: [ three-part-phrasal ] }
+  - { ref: "5.3.5", item: "Other multi-word verb constructions (take a look, have a go)", maps: [ delexical-verbs, make-vs-do ] }
+  - { ref: "5.4.1", item: "Main and auxiliary functions: be", maps: [ be-present-forms, be-uses-age, auxiliaries, was-were ] }
+  - { ref: "5.4.2", item: "Main and auxiliary functions: have", maps: [ have-possession, have-got, have-actions, auxiliaries ] }
+  - { ref: "5.4.3", item: "Main and auxiliary functions: do (idiomatic main verb do, pro-verb do, emphatic do, do-support)", maps: [ auxiliaries, do-so, emphatic-do, did-negative-questions, make-vs-do ] }
+  - { ref: "5.5", item: "Copular verbs: functions, complements, sensory and resulting copulas, valency of be/seem/appear", maps: [ linking-verbs, look-like, get-uses, stative-dynamic-meanings ] }
+  # ---------------- Chapter 6 Tense, aspect, voice, modality ----------------
+  - { ref: "6.1", item: "Structure and meaning distinctions in the verb phrase", maps: [ verb-forms, auxiliaries ] }
+  - { ref: "6.2.1", item: "Basic tense and time distinctions: simple present and past", maps: [ present-simple-uses, past-simple-uses ] }
+  - { ref: "6.2.1.1", item: "Simple present marking past or future time", maps: [ historic-present, headline-present, present-simple-timetable, future-time-clauses ] }
+  - { ref: "6.2.1.2", item: "Past tense in reported speech", maps: [ backshift, reported-changes ] }
+  - { ref: "6.2.1.3", item: "The marking of future time", maps: [ futures-compared, will-predictions, going-to-plans ] }
+  - { ref: "6.2.2-6.2.3", item: "Register distribution of tense and modality; lexical associations of present and past tense", outOfScope: "corpus methodology" }
+  - { ref: "6.3.1", item: "Perfect and progressive aspect across registers and dialects", outOfScope: "corpus methodology" }
+  - { ref: "6.3.2", item: "Perfect aspect: present perfect (including get and have across dialects), vs simple past; past perfect vs simple past", maps: [ present-perfect-form, pp-vs-past, past-perfect, past-perfect-sequence, us-uk-verbs ] }
+  - { ref: "6.3.3", item: "Progressive aspect", maps: [ present-continuous-form, past-continuous, ppc-form, stative-progressive ] }
+  - { ref: "6.4", item: "Active and passive voice: lexical associations; verbs common in the passive and get-passive", maps: [ passive-form, passive-why, get-passive ] }
+  - { ref: "6.5", item: "Complex combinations of aspect and voice", maps: [ passive-perfect, passive-continuous, passive-modal ] }
+  - { ref: "6.6", item: "Modals and semi-modals: individual modals, extrinsic vs intrinsic uses", maps: [ modal-grammar, can-ability, can-permission-requests, must-have-to, should-advice, may-might-possibility, deduction-present, will-predictions, have-got-to, had-better, ought-to, supposed-to ] }
+  - { ref: "6.6.4.3", item: "Volition/prediction modals and semi-modals (will, would, shall, be going to)", maps: [ will-decisions, will-predictions, going-to-plans, shall-offers, would-polite ] }
+  - { ref: "6.7", item: "Combinations of modal verbs with marked aspect or voice", maps: [ modal-continuous, modal-passive, modal-perfect-passive, modal-perfect-continuous, deduction-past ] }
+  - { ref: "6.8", item: "Sequences of modals and semi-modals", maps: [ modal-combinations, be-able-to ] }
+  # ---------------- Chapter 7 Adjectives and adverbs ----------------
+  - { ref: "7.1", item: "Overview: use of adjectives and adverbs", maps: [ adjective-position, adjective-vs-adverb ] }
+  - { ref: "7.2", item: "Defining characteristics of adjectives; attributive and predicative; central and peripheral adjectives", maps: [ adjective-position, predicative-only, attributive-only ] }
+  - { ref: "7.3-7.5", item: "Semantic grouping of adjectives; most common attributive and predicative adjectives", outOfScope: "vocabulary / semantic classification" }
+  - { ref: "7.6.1", item: "Postposed adjectives (something new, the people involved, president elect)", maps: [ postposed-adjectives ], suggest: { title: "Postposed adjectives (something interesting, the people involved, the president elect)", level: B2, lesson: b2-38 } }
+  - { ref: "7.6.2", item: "Adjectives as noun phrase heads (the rich, the French)", maps: [ the-adjective-group, the-nationality ] }
+  - { ref: "7.6.3", item: "Adjectives with a clause-linking function (More importantly, Worse still)", maps: [ adjective-adjuncts ], suggest: { title: "Adjectives as sentence adjuncts (More importantly, Worse still, Strange to say)", level: C1, lesson: c1-30 } }
+  - { ref: "7.6.4", item: "Adjectives as exclamations (Great! Terrible!)", maps: [ interjections, exclamations ] }
+  - { ref: "7.6.5", item: "Adjectives as detached predicatives", maps: [ supplementive-adjectives ], suggest: { title: "Detached predicatives and supplementive adjective phrases (Tired and hungry, they went home)", level: C1, lesson: c1-22 } }
+  - { ref: "7.7.1-7.7.4", item: "Comparative and superlative: -er/-est vs more/most; inflectional vs phrasal comparison", maps: [ comparatives-short, comparatives-long, comparatives-irregular, superlatives ] }
+  - { ref: "7.7.5", item: "Doubly marked comparatives and superlatives (more better)", maps: [ no-double-comparative ] }
+  - { ref: "7.7.6", item: "Adjectives with superlative or absolute meanings (perfect, unique)", maps: [ gradable-nongradable ] }
+  - { ref: "7.8", item: "Comparative clauses and other degree complements", maps: [ as-as, than-me, times-as, so-such, too-enough-to, comparison-ellipsis ] }
+  - { ref: "7.9.1", item: "Participial adjectives", maps: [ ed-ing-adjectives ] }
+  - { ref: "7.9.2", item: "Derived adjectives (suffixes)", maps: [ suffix-adjective, prefix-negative ] }
+  - { ref: "7.9.3", item: "Adjectival compounds", maps: [ compound-adjectives ] }
+  - { ref: "7.10.1", item: "Repeated comparative adjectives (bigger and bigger)", maps: [ more-and-more ] }
+  - { ref: "7.10.2", item: "The intensifiers good and and nice and (nice and warm)", maps: [ pseudo-coordination ], suggest: { title: "Pseudo-coordination in informal English (nice and warm, good and ready, try and come, go and see)", level: C1, lesson: c1-37 } }
+  - { ref: "7.11-7.12", item: "Overview of adverbs; the form of adverbs; adverbs and adjectives with the same form", maps: [ adverbs-manner, adverb-spelling, irregular-adverbs, hard-hardly, suffix-adverb ] }
+  - { ref: "7.12.3", item: "Comparative and superlative forms of adverbs", maps: [ adverb-comparison ], suggest: { title: "Comparative and superlative adverbs (faster, more carefully, the most quickly, best)", level: A2, lesson: a2-37 } }
+  - { ref: "7.13.1-7.13.2", item: "Adverbs modifying adjectives and other adverbs", maps: [ very-really, intensifiers, softeners, so-such ] }
+  - { ref: "7.13.3", item: "Adverbs modifying other elements (noun phrases, numerals, prepositional phrases)", maps: [ predeterminers, focus-adverbs ] }
+  - { ref: "7.13.4", item: "Adverbs as complements of prepositions (since then, from here, until recently)", maps: [ adverbs-after-prepositions ], suggest: { title: "Adverbs after prepositions (from here, until now, since then, by then)", level: B1, lesson: b1-46 } }
+  - { ref: "7.13.5", item: "Adverbs as clause elements: adverbials", maps: [ adverb-positions, adverb-order, frequency-position ] }
+  - { ref: "7.13.6", item: "Adverbs with degree complements", maps: [ too-enough-to, so-such ] }
+  - { ref: "7.13.7", item: "Adverbs standing alone (Certainly. Really?)", maps: [ response-tokens, echo-reply-questions ] }
+  - { ref: "7.14", item: "Semantic categories of adverbs (place, time, manner, degree, stance, linking)", maps: [ adverbs-manner, frequency-adverbs, comment-adverbs, viewpoint-adverbs, focus-adverbs, disjuncts-conjuncts ] }
+  - { ref: "7.14.3", item: "Semantic domains of adverbs in conversation and academic prose", outOfScope: "corpus methodology" }
+  - { ref: "7.15", item: "Discourse choices for degree adverbs: amplifiers and downtoners", maps: [ intensifiers, softeners, degree-collocations, quite-us-uk ] }
+  # ---------------- Chapter 8 Complex noun phrases ----------------
+  - { ref: "8.1", item: "Complex noun phrases: overview, register and discourse distribution", outOfScope: "corpus methodology" }
+  - { ref: "8.2", item: "Structural types of premodification", maps: [ noun-phrase-premod, compound-adjectives ] }
+  - { ref: "8.3", item: "Meaning relations in noun + noun sequences", maps: [ compound-nouns, nominalisation ] }
+  - { ref: "8.3.2", item: "Plural nouns as premodifiers (sports car, customs officer)", maps: [ plural-modifiers ], suggest: { title: "Plural nouns as modifiers (sports car, a savings account, customs officer, arms race)", level: B2, lesson: b2-34 } }
+  - { ref: "8.4", item: "Noun phrases with multiple premodifiers: length, order, coordinated premodifiers", maps: [ adjective-order-intro, adjective-order-full, comma-lists, noun-phrase-premod ] }
+  - { ref: "8.5", item: "Restrictive vs non-restrictive postmodifiers", maps: [ defining-nondefining, comma-nondefining, restrictive-commas ] }
+  - { ref: "8.6", item: "Major structural types of postmodification", maps: [ noun-phrase-postmod ] }
+  - { ref: "8.7.1", item: "Choice among relativizers: who/whom/which/that/zero; whose vs of which; non-standard variants", maps: [ relative-who-which-that, that-vs-which, omit-relative, who-whom, whose-things, relative-whose-when, other-englishes ] }
+  - { ref: "8.7.2-8.7.3", item: "Grammatical role of the relative clause gap; subject vs non-subject head nouns", maps: [ relative-who-which-that, omit-relative, preposition-relative, no-resumptive ] }
+  - { ref: "8.7.4", item: "Relative clauses with adverbial gaps (the day when, the reason why, the way)", maps: [ relative-where, relative-whose-when, reason-why-way ] }
+  - { ref: "8.8.1", item: "Participle clauses as postmodifiers", maps: [ reduced-relative ] }
+  - { ref: "8.8.2", item: "To-clauses as postmodifiers", maps: [ first-to, noun-to ] }
+  - { ref: "8.9", item: "Postmodification by prepositional phrase; choice of PP vs relative clause", maps: [ noun-phrase-postmod, noun-prep ] }
+  - { ref: "8.10", item: "Postmodification by appositive noun phrase", maps: [ apposition ] }
+  - { ref: "8.11", item: "Noun phrases with multiple postmodifiers", maps: [ noun-phrase-postmod, dense-noun-phrases ] }
+  - { ref: "8.12-8.14", item: "Noun complement clauses (that-clauses, to-clauses, of + ing, wh-clauses after head nouns) vs postmodifiers", maps: [ the-fact-that, that-clauses, noun-to, ing-after-prepositions, wh-clauses, wh-to ] }
+  # ---------------- Chapter 9 Complement clauses ----------------
+  - { ref: "9.1", item: "Complementation by clauses: structural types, grammatical positions", maps: [ that-clauses, wh-clauses, verb-to, verb-ing ] }
+  - { ref: "9.2.1-9.2.2", item: "That-clauses: discourse functions; post-predicate that-clauses controlled by verbs", maps: [ that-clauses, reporting-verbs-patterns, reported-thoughts ] }
+  - { ref: "9.2.3", item: "Verbs taking extraposed that-clauses", maps: [ extraposition, it-adj-that, impersonal-it-said ] }
+  - { ref: "9.2.4", item: "Subject noun phrases with subject predicative that-clauses (The problem is that...)", maps: [ that-clauses, thing-is ] }
+  - { ref: "9.2.5", item: "That-clauses controlled by adjectival predicates (sure that, glad that)", maps: [ adjective-prep-that-to, it-adj-that ] }
+  - { ref: "9.2.6-9.2.7", item: "Register distribution of that-clause types; pre-predicate vs extraposed that-clauses", maps: [ extraposition, clause-as-subject ] }
+  - { ref: "9.2.8", item: "Retention vs omission of that (I think (that)...)", maps: [ that-omission ], suggest: { title: "Omitting that in that-clauses (I think you're right; He said he'd come; The problem is we're late)", level: B1, lesson: b1-26 } }
+  - { ref: "9.3", item: "Wh-clauses: structural types; post-predicate wh-clauses; whether- and if-clauses", maps: [ wh-clauses, indirect-questions, if-whether-clauses, reported-if-whether ] }
+  - { ref: "9.4.2", item: "Post-predicate infinitive clauses controlled by verbs: verb + to; verb + NP + to; verb + for NP + to", maps: [ verb-to, verb-object-to, want-sb-to, for-object-to, reporting-verbs-patterns ] }
+  - { ref: "9.4.3", item: "Verbs taking extraposed to-clauses", maps: [ extraposition, it-adj-to, find-it-adj ] }
+  - { ref: "9.4.4", item: "Subject noun phrases and subject predicative to-clauses (My aim is to...)", maps: [ to-clause-complement ], suggest: { title: "Subject predicative to-clauses (My aim is to win; The best thing is to wait)", level: B1, lesson: b1-33 } }
+  - { ref: "9.4.5", item: "To-clauses controlled by adjectives (post-predicate and extraposed)", maps: [ adjective-to, it-adj-to, easy-to-please, afraid-sorry-interested, kind-of-you ] }
+  - { ref: "9.4.6-9.4.7", item: "Grammatical distribution of to-clauses; pre-predicate vs extraposed to-clauses", maps: [ infinitive-subject, extraposition ] }
+  - { ref: "9.4.8", item: "Object-to-subject raising vs extraposed to-clauses with adjectives (easy to please)", maps: [ easy-to-please ] }
+  - { ref: "9.4.9", item: "Subject-to-subject raising vs extraposed that-clauses (seem, appear, likely, unlikely)", maps: [ there-seems, be-bound-to ] }
+  - { ref: "9.4.10", item: "To-clause vs bare infinitive clause with dare and help", maps: [ dare, make-let-help ] }
+  - { ref: "9.4.10b", item: "Try + to + verb vs try + and + verb", maps: [ pseudo-coordination ], suggest: { title: "Pseudo-coordination in informal English (nice and warm, good and ready, try and come, go and see)", level: C1, lesson: c1-37 } }
+  - { ref: "9.5", item: "Ing-clauses: post-predicate; adjectival predicates controlling ing-clauses; objective vs possessive NP with ing-clauses", maps: [ verb-ing, like-ing, ing-after-prepositions, worth-ing, possessive-gerund, fixed-ing-expressions ] }
+  - { ref: "9.6", item: "Ellipsis and pro-form substitution in post-predicate complement clauses", maps: [ ellipsis-to, substitution-suppose-so, do-so ] }
+  - { ref: "9.7", item: "Choice of complement clause type (that-clause vs non-finite; infinitive vs ing-clause)", maps: [ ing-to-meaning-change, same-meaning-verbs, like-doing-vs-to, mean-go-on ] }
+  # ---------------- Chapter 10 Adverbials ----------------
+  - { ref: "10.1.1-10.1.2", item: "The three classes of adverbial; syntactic realizations of adverbials", maps: [ disjuncts-conjuncts, sentence-parts ] }
+  - { ref: "10.1.3-10.1.4", item: "Positions of adverbials in the clause; variation in relation to other elements", maps: [ adverb-positions, adverbial-order-advanced, adverbial-scope ] }
+  - { ref: "10.2.1-10.2.2", item: "Circumstance adverbials: semantic categories (place, time, process, contingency, etc.)", maps: [ place-before-time, adverb-order, adverbs-manner, how-often, past-time-expressions ] }
+  - { ref: "10.2.3-10.2.5", item: "Syntactic realizations and most common circumstance adverbials", maps: [ prep-phrases, adverb-positions ] }
+  - { ref: "10.2.6", item: "Position of circumstance adverbials", maps: [ adverb-positions, adverb-order ] }
+  - { ref: "10.2.7", item: "Circumstance adverbials in series (place/time and manner series)", maps: [ adverb-order, adverbial-order-advanced ] }
+  - { ref: "10.2.8", item: "Clauses as circumstance adverbials: semantic categories, finite and non-finite forms, positions, subordinators", maps: [ time-clauses-full, reason-clauses, purpose-clauses, result-clauses, contrast-although, place-clauses ] }
+  - { ref: "10.3", item: "Stance adverbials: semantic categories, syntactic realizations, common items, positions", maps: [ comment-adverbs, viewpoint-adverbs, hedging, boosting, probably-negative ] }
+  - { ref: "10.4", item: "Linking adverbials: semantic categories, realizations, common items, positions", maps: [ linkers-addition, linkers-contrast, linkers-result, linkers-example, linkers-summary, linkers-punctuation, discourse-writing, advanced-linkers ] }
+  # ---------------- Chapter 11 Word order and related syntactic choices ----------------
+  - { ref: "11.1", item: "Information flow; focus, emphasis, contrast and intensification; weight", maps: [ end-weight-focus, theme-rheme, emphatic-do, rhetorical-emphasis, heavy-np-shift ] }
+  - { ref: "11.2.1", item: "Grammatical principles of word order", maps: [ svo-order, adverb-order ] }
+  - { ref: "11.2.2", item: "Fronting (of objects, predicatives, ing-predicates, adverbial clauses)", maps: [ fronting ] }
+  - { ref: "11.2.3", item: "Inversion of subject and verb or operator (negative adverbials, so/nor/neither, as/than, place adverbials)", maps: [ negative-inversion, place-inversion, so-such-inversion, nor-inversion, so-neither-do-i, as-did, only-inversion, no-sooner-hardly ] }
+  - { ref: "11.2.4", item: "Word-order options at the end of the clause: direct and indirect objects, object predicatives, particles of phrasal verbs", maps: [ two-objects-to-for, phrasal-pronoun-position, phrasal-separable, heavy-np-shift, object-complement ] }
+  - { ref: "11.3", item: "The passive: types, long and short passives, discourse functions", maps: [ passive-form, passive-by, passive-why, choosing-voice, agency-news-academic ] }
+  - { ref: "11.4", item: "Existential there: status, verb phrase variation, notional subject, adverbial expansions, simple vs complex clauses, discourse functions", maps: [ there-is-are, there-tenses, there-seems, existential-variants, there-said-to-be, agreement-there ] }
+  - { ref: "11.4.8-11.4.9", item: "Existential clause vs locative inversion; existential there vs have", maps: [ place-inversion, have-possession, it-vs-there ] }
+  - { ref: "11.5", item: "Dislocation: prefaces and noun phrase tags", maps: [ heads-tails ] }
+  - { ref: "11.6", item: "Clefting: it-clefts, wh-clefts, reversed wh-clefts", maps: [ it-cleft, wh-cleft, reversed-cleft, all-cleft, thing-is ] }
+  - { ref: "11.7", item: "Syntactic choices in conversation vs academic prose", maps: [ register-grammar, spoken-ellipsis ] }
+  # ---------------- Chapter 12 Stance ----------------
+  - { ref: "12.1", item: "Stance overview: paralinguistic and non-linguistic devices; lexical marking of stance", outOfScope: "paralinguistics / vocabulary" }
+  - { ref: "12.2", item: "Major grammatical devices used to express stance", maps: [ hedging, boosting, modal-hedging, comment-adverbs, that-clauses ] }
+  - { ref: "12.3", item: "Major semantic distinctions: epistemic, attitudinal, style-of-speaking stance", maps: [ hedging, boosting, comment-adverbs, viewpoint-adverbs, stance-tense ] }
+  - { ref: "12.4", item: "Attribution of stance to the speaker or writer (explicit, implicit, ambiguous)", maps: [ attribution, passive-reporting, academic-reporting ] }
+  - { ref: "12.5", item: "Register differences in the marking of stance; stance complement constructions", maps: [ register-grammar, adjective-prep-that-to, it-adj-that, academic-impersonal ] }
+  # ---------------- Chapter 13 Lexical expressions ----------------
+  - { ref: "13.2", item: "Lexical bundles (in conversation and academic prose)", outOfScope: "vocabulary / formulaic language (corpus-derived)" }
+  - { ref: "13.3", item: "Idiomatic phrases across registers", outOfScope: "vocabulary (idioms)" }
+  - { ref: "13.3.2", item: "Verb + noun phrase combinations with have, make and take", maps: [ delexical-verbs, make-vs-do ] }
+  - { ref: "13.4", item: "Free combinations of verb + particle", maps: [ phrasal-verbs-intro, phrasal-separable ] }
+  - { ref: "13.5", item: "Coordinated binomial phrases (verb and verb, noun and noun, adjective and adjective)", outOfScope: "vocabulary (fixed binomial phrases)" }
+  # ---------------- Chapter 14 Grammar of conversation ----------------
+  - { ref: "14.1", item: "Introduction: a functional survey of conversation (spoken medium, shared context, interactive, real time, vernacular range)", outOfScope: "descriptive overview, not a teachable structure" }
+  - { ref: "14.2.1-14.2.2", item: "Performance phenomena: hesitations (pauses) and repeats", outOfScope: "fluency / performance phenomenon, not teachable grammar" }
+  - { ref: "14.2.3-14.2.5", item: "Retrace-and-repair sequences, grammatically incomplete utterances, syntactic blends", maps: [ speech-repair ], suggest: { title: "Repair, false starts and incomplete utterances in speech (I mean..., sorry, what I'm saying is...)", level: C2, lesson: c2-19 } }
+  - { ref: "14.3.1", item: "Principles of online production; C-units; non-clausal units", maps: [ spoken-ellipsis ] }
+  - { ref: "14.3.2", item: "Prefaces, bodies and tags; utterance launchers (the thing is, what I mean is)", maps: [ heads-tails, thing-is, discourse-speech ] }
+  - { ref: "14.3.3-14.3.4", item: "More on non-clausal units: inserts and syntactic non-clausal units", maps: [ response-tokens, interjections, spoken-ellipsis ] }
+  - { ref: "14.3.5", item: "Ellipsis in clausal units (initial, medial, end ellipsis; vernacular ellipsis)", maps: [ spoken-ellipsis, ellipsis-to, auxiliary-ellipsis ] }
+  - { ref: "14.4.1", item: "A closer look at vocatives", maps: [ vocatives ], suggest: { title: "Vocatives and forms of address (Come here, John; Thank you, Mr Smith) and their commas", level: A2, lesson: a2-47 } }
+  - { ref: "14.4.2", item: "Conducive yes-no interrogatives; negative yes-no interrogatives", maps: [ negative-questions-basic, negative-surprise, tags-checking-asking ] }
+  - { ref: "14.4.3", item: "First person imperatives with let's", maps: [ lets, suggestions ] }
+  - { ref: "14.4.4", item: "Direct speech reporting (quoted speech); be + like, go and other quotatives", maps: [ quotative-like, direct-speech-punctuation, historic-present ] }
+  - { ref: "14.4.5", item: "Vernacular or non-standard grammar variants", maps: [ dialect-double-negatives, other-englishes, us-uk-verbs ] }

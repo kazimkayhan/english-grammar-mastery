@@ -1,0 +1,38 @@
+pillar: nouns
+points:
+  - { id: plural-regular, title: "Regular plurals: -s, -es, -ies (cars, boxes, cities)", level: A1, lesson: a1-08, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, LEG, LALG ] }
+  - { id: plural-irregular, title: "Irregular plurals: man–men, child–children, person–people, foot–feet", level: A1, lesson: a1-08, sources: [ GSE, CI, GIU, PEU, OPG, OMEG, LGSWE, LSGSWE, LEG, LALG ] }
+  - { id: plural-f-ves, title: "Plurals in -ves (knife–knives, leaf–leaves)", level: A1, lesson: a1-08, sources: [ PEU, OPG, LGSWE, LSGSWE, LEG, LALG ] }
+  - { id: plural-o, title: "Plurals of nouns in -o (potatoes, photos)", level: A1, lesson: a1-08, sources: [ PEU, OPG, LGSWE, LSGSWE, LEG, LALG ] }
+  - { id: plural-after-numbers, title: "Plural after numbers (two books)", level: A1, lesson: a1-08, sources: [ LEG ] }
+  - { id: countable-uncountable, title: "Countable and uncountable nouns", level: A1, lesson: a1-15, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: some-any-basic, title: "some and any: first steps", level: A1, lesson: a1-15, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, LGSWE, CGEL, LEG ] }
+  - { id: how-much-many, title: "How much? / How many?", level: A1, lesson: a1-15, sources: [ GSE, PEU, OPG, LEG ] }
+  - { id: a-lot-of-basic, title: "a lot of with countable and uncountable nouns", level: A1, lesson: a1-15, sources: [ GSE, CI ] }
+  - { id: uncountable-traps, title: "Uncountable nouns: advice, information, news, furniture, luggage, equipment, research, homework, progress, knowledge, traffic, weather, accommodation", level: B1, lesson: b1-38, sources: [ GIU, PEU, OEGC, OPG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: partitives, title: "Partitives: a piece of, a slice of, a bottle of, a cup of, a loaf of, an item of", level: B1, lesson: b1-38, sources: [ GIU, PEU, OPG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: work-vs-job, title: "work vs job, travel vs trip", level: B1, lesson: b1-38, sources: [ PEU, CGEL, LEG, LALG ] }
+  - { id: compound-nouns, title: "Compound nouns: noun + noun (bus stop, coffee cup)", level: B1, lesson: b1-39, sources: [ GSE, GIU, PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: measurement-compounds, title: "Measurement compounds without -s (a ten-minute walk, a five-year-old boy)", level: B1, lesson: b1-39, sources: [ GIU, PEU, OPG, LEG, LALG ] }
+  - { id: dual-countability, title: "Nouns that are countable and uncountable with different meanings (a coffee / coffee, a glass / glass, an experience / experience, a paper / paper, a room / room)", level: B2, lesson: b2-33, sources: [ GIU, PEU, OEGC, OPG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: a-adjective-uncountable, title: "a + adjective + some uncountable nouns (a good education, a wonderful time)", level: B2, lesson: b2-33, sources: [ PEU, LEG ] }
+  - { id: plural-only, title: "Plural-only nouns (trousers, scissors, glasses, jeans, clothes, goods, belongings, outskirts, premises)", level: B2, lesson: b2-34, sources: [ GIU, PEU, OPG, LGSWE, LSGSWE, LEG, LALG ] }
+  - { id: singular-s-nouns, title: "Singular nouns ending in -s (news, math, physics, economics, athletics, means, series, species)", level: B2, lesson: b2-34, sources: [ GIU, PEU, OPG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: latin-greek-plurals, title: "Latin and Greek plurals (criterion–criteria, phenomenon–phenomena, analysis–analyses, crisis–crises, data)", level: B2, lesson: b2-34, sources: [ PEU, OMEG, LGSWE, LSGSWE, LEG, LALG ] }
+  - { id: compound-plurals, title: "Plurals of compounds (passers-by, mothers-in-law, women doctors)", level: B2, lesson: b2-34, sources: [ GIU, PEU, OMEG, LEG, LALG ] }
+  - { id: plural-verb-nouns, title: "Nouns with plural verbs (people, police, cattle, staff)", level: B2, lesson: b2-34, sources: [ GIU, PEU, OEGC, OPG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: possessive-of, title: "'s vs of vs noun + noun (Sara's car, the end of the film, the car door)", level: B2, lesson: b2-35, sources: [ GSE, GIU, PEU, OEGC, OPG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: time-possessive, title: "Time possessives (today's news, a week's vacation, two hours' drive)", level: B2, lesson: b2-35, sources: [ GSE, GIU, PEU, OEGC, OPG, LGSWE, LSGSWE, LEG, LALG ] }
+  - { id: possessive-places, title: "Possessive for places (at the doctor's, at Sara's)", level: B2, lesson: b2-35, sources: [ GIU, PEU, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: group-possessive, title: "Group and joint possessives (the King of Spain's daughter; Sara and Ali's house)", level: B2, lesson: b2-35, sources: [ GSE, PEU, OPG, LGSWE, LSGSWE, CGEL, LALG ] }
+  - { id: nominalisation, title: "Nominalisation (decide → the decision; fail → failure)", level: C1, lesson: c1-25, sources: [ GSE, PEU, LGSWE, LSGSWE, CGEL, LALG ] }
+  - { id: noun-phrase-premod, title: "Complex noun phrases: pre-modification (a rapidly growing online market)", level: C1, lesson: c1-25, sources: [ GIU, OEGC, OMEG, LGSWE, LSGSWE, CGEL ] }
+  - { id: noun-phrase-postmod, title: "Complex noun phrases: post-modification (the growth of sales in Asia since 2020)", level: C1, lesson: c1-25, sources: [ GIU, PEU, OEGC, OMEG, LGSWE, LSGSWE, CGEL ] }
+  - { id: apposition, title: "Apposition (Ali, my brother, …; the poet Hafez)", level: C2, lesson: c2-14, sources: [ GIU, LGSWE, LSGSWE ] }
+  - { id: dense-noun-phrases, title: "Dense academic noun phrases and how to unpack them", level: C2, lesson: c2-14, sources: [ PEU, OEGC, LGSWE, LSGSWE ] }
+  - { id: nominal-vs-verbal, title: "Nominal vs verbal style: when to use each", level: C2, lesson: c2-14, sources: [ LALG ] }
+  - { id: gender-neutral-nouns, title: "Gender-neutral nouns (chair, firefighter, flight attendant)", level: C2, lesson: c2-14, sources: [ PEU, OEGC, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  # added from the reference audit
+  - { id: plural-modifiers, title: "Plural nouns as modifiers (a sports car, a savings account, customs officer)", level: B2, lesson: b2-34, sources: [ LGSWE, LSGSWE ] }
+  - { id: same-singular-plural, title: "Same form in singular and plural (sheep, fish, aircraft, deer)", level: A1, lesson: a1-08, sources: [ OEGC ] }
+  - { id: measurement-adjectives, title: "Measurement: two meters tall; How tall / deep / old…?", level: B1, lesson: b1-39, sources: [ PEU ] }

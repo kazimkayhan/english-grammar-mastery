@@ -1,0 +1,62 @@
+---
+import AppLayout from "@/layouts/AppLayout.astro"
+import SyllabusList from "@/components/common/SyllabusList.astro"
+import MapEmbed from "@/components/lesson/MapEmbed.astro"
+import { getSyllabus, sizeMinutes } from "@/lib/content"
+import { isAre, plural } from "@/lib/text"
+import { LEVEL_INFO, LEVELS } from "@/lib/taxonomy"
+
+const syllabus = await getSyllabus()
+const published = syllabus.filter((s) => s.lesson).length
+const hours = Math.round(syllabus.reduce((n, s) => n + sizeMinutes(s.size), 0) / 60)
+const weeks = LEVELS.reduce((n, l) => n + LEVEL_INFO[l].weeks, 0)
+---
+
+<AppLayout title="Roadmap" description="The whole A1 → C2 grammar course on one page.">
+  <header class="flex flex-col gap-3">
+    <h1 class="font-heading text-4xl font-bold tracking-tight">The roadmap</h1>
+    <p class="max-w-2xl font-reading text-lg text-muted-foreground">
+      {syllabus.length} lessons from A1 to C2: about {hours} hours of lessons, or roughly {weeks} weeks at one hour a day
+      (including the review week at the end of each level). {plural(published, "lesson")} {isAre(published)} ready now.
+    </p>
+  </header>
+
+  <section class="flex flex-col gap-3" aria-labelledby="master-title">
+    <h2 id="master-title" class="font-heading text-2xl font-bold">All of English grammar on one page</h2>
+    <p class="text-muted-foreground">
+      Four families, small to big: Words → Verbs → Sentences → Text. Turn on Recall mode, say each branch aloud, then open
+      it to check.
+    </p>
+    <MapEmbed id="master" height={520} />
+  </section>
+
+  {
+    LEVELS.map((level) => {
+      const items = syllabus.filter((s) => s.level === level)
+      const ready = items.filter((s) => s.lesson).length
+      return (
+        <section class="flex flex-col gap-3" aria-labelledby={`level-${level}`}>
+          <div class="flex flex-wrap items-baseline justify-between gap-2">
+            <h2 id={`level-${level}`} class="font-heading text-2xl font-bold">
+              <a href={`/levels/${level.toLowerCase()}`} class="hover:underline">
+                {level} · {LEVEL_INFO[level].title}
+              </a>
+            </h2>
+            <span class="text-sm text-muted-foreground">
+              {ready}/{items.length} ready · {LEVEL_INFO[level].weeks} weeks
+            </span>
+          </div>
+          <p class="text-muted-foreground">{LEVEL_INFO[level].canDo}</p>
+          <details class="group">
+            <summary class="cursor-pointer text-sm font-bold text-primary select-none">
+              Show all {items.length} lessons
+            </summary>
+            <div class="pt-3">
+              <SyllabusList items={items} />
+            </div>
+          </details>
+        </section>
+      )
+    })
+  }
+</AppLayout>

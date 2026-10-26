@@ -1,0 +1,38 @@
+title: "a, an, the or no article?"
+pillar: determiners
+description: "Answer three quick questions to choose the right article."
+root:
+  q: "Is the noun countable and singular (one chair, one idea)?"
+  options:
+    - label: "Yes, one countable thing"
+      next:
+        q: "Does your listener know exactly which one (already mentioned, the only one, clear from the situation)?"
+        options:
+          - label: "Yes, a specific one we both know"
+            next:
+              answer: "the"
+              example: "Can you close the door? · The sun is hot today."
+          - label: "No, any one / first mention / a job"
+            next:
+              q: "Does the next word start with a vowel SOUND?"
+              options:
+                - label: "Yes (an apple, an hour)"
+                  next:
+                    answer: "an"
+                    example: "an apple · an hour · an MBA"
+                - label: "No (a car, a university)"
+                  next:
+                    answer: "a"
+                    example: "a car · a university · a European city"
+    - label: "No, plural or uncountable"
+      next:
+        q: "Do you mean specific ones your listener can identify?"
+        options:
+          - label: "Yes, specific ones"
+            next:
+              answer: "the"
+              example: "The books on the table are mine. · The water in this glass is cold."
+          - label: "No, in general"
+            next:
+              answer: "no article"
+              example: "I love books. · Water is important. · Life is short."

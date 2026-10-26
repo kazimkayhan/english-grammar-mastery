@@ -1,0 +1,93 @@
+---
+// Visual timeline for tenses: PAST ── NOW ── FUTURE.
+// Positions run from -1 (far past) through 0 (now) to 1 (far future).
+type Item =
+  | { type: "point"; at: number; label?: string }
+  | { type: "span"; from: number; to: number; label?: string }
+  | { type: "wave"; from: number; to: number; label?: string }
+  | { type: "repeat"; from: number; to: number; label?: string }
+  | { type: "arrow"; from: number; to: number; label?: string }
+
+interface Props {
+  items: Item[]
+  caption?: string
+  /** Optional second reference point, e.g. "then" for past perfect. */
+  marker?: { at: number; label: string }
+}
+
+const { items, caption, marker } = Astro.props
+const X = (v: number) => 300 + Math.max(-1, Math.min(1, v)) * 250
+const AXIS_Y = 78
+
+const wavePath = (from: number, to: number) => {
+  const x1 = X(from)
+  const x2 = X(to)
+  const steps = Math.max(2, Math.round((x2 - x1) / 14))
+  const w = (x2 - x1) / steps
+  let d = `M ${x1} ${AXIS_Y - 14}`
+  for (let i = 0; i < steps; i++) d += ` q ${w / 2} ${i % 2 ? 8 : -8} ${w} 0`
+  return d
+}
+
+const repeats = (from: number, to: number) => {
+  const n = Math.max(3, Math.round((X(to) - X(from)) / 34))
+  return Array.from({ length: n }, (_, i) => X(from) + ((X(to) - X(from)) * i) / (n - 1))
+}
+
+const labelX = (item: Item) => ("at" in item ? X(item.at) : (X(item.from) + X(item.to)) / 2)
+---
+
+<figure class="timeline not-prose flex flex-col gap-2 rounded-2xl border bg-card p-3 sm:p-4">
+  <svg viewBox="0 0 600 120" role="img" aria-label={caption ?? "Timeline"} class="h-auto w-full font-sans">
+    <defs>
+      <marker id="tl-head" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+        <path d="M0,0 L10,5 L0,10 z" fill="var(--muted-foreground)"></path>
+      </marker>
+      <marker id="tl-head-accent" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+        <path d="M0,0 L10,5 L0,10 z" fill="var(--lesson-color, var(--primary))"></path>
+      </marker>
+    </defs>
+
+    <line x1="24" y1={AXIS_Y} x2="582" y2={AXIS_Y} stroke="var(--muted-foreground)" stroke-width="2" marker-end="url(#tl-head)"></line>
+    <line x1="300" y1="28" x2="300" y2="102" stroke="var(--foreground)" stroke-width="1.5" stroke-dasharray="4 4"></line>
+    <text x="50" y="110" font-size="13" fill="var(--muted-foreground)" font-weight="700" letter-spacing="1">PAST</text>
+    <text x="300" y="118" font-size="13" fill="var(--foreground)" font-weight="700" text-anchor="middle" letter-spacing="1">NOW</text>
+    <text x="550" y="110" font-size="13" fill="var(--muted-foreground)" font-weight="700" text-anchor="end" letter-spacing="1">FUTURE</text>
+
+    {
+      marker && (
+        <g>
+          <line x1={X(marker.at)} y1="40" x2={X(marker.at)} y2="96" stroke="var(--muted-foreground)" stroke-width="1.5" stroke-dasharray="2 4" />
+          <text x={X(marker.at)} y="110" font-size="12" fill="var(--muted-foreground)" text-anchor="middle" font-weight="700">
+            {marker.label}
+          </text>
+        </g>
+      )
+    }
+
+    {
+      items.map((item) => (
+        <g fill="var(--lesson-color, var(--primary))" stroke="var(--lesson-color, var(--primary))">
+          {item.type === "point" && <circle cx={X(item.at)} cy={AXIS_Y} r="8" stroke="var(--card)" stroke-width="3" />}
+          {item.type === "span" && (
+            <rect x={X(item.from)} y={AXIS_Y - 6} width={Math.max(4, X(item.to) - X(item.from))} height="12" rx="6" opacity="0.85" stroke="none" />
+          )}
+          {item.type === "wave" && <path d={wavePath(item.from, item.to)} fill="none" stroke-width="3" stroke-linecap="round" />}
+          {item.type === "repeat" &&
+            repeats(item.from, item.to).map((x) => (
+              <path d={`M ${x - 5} ${AXIS_Y - 5} L ${x + 5} ${AXIS_Y + 5} M ${x + 5} ${AXIS_Y - 5} L ${x - 5} ${AXIS_Y + 5}`} stroke-width="3" stroke-linecap="round" />
+            ))}
+          {item.type === "arrow" && (
+            <line x1={X(item.from)} y1={AXIS_Y - 16} x2={X(item.to)} y2={AXIS_Y - 16} stroke-width="3" marker-end="url(#tl-head-accent)" />
+          )}
+          {item.label && (
+            <text x={labelX(item)} y={item.type === "arrow" || item.type === "wave" ? 34 : 50} font-size="14" text-anchor="middle" stroke="none" fill="var(--foreground)" font-weight="700">
+              {item.label}
+            </text>
+          )}
+        </g>
+      ))
+    }
+  </svg>
+  {caption && <figcaption class="font-sans text-sm text-muted-foreground">{caption}</figcaption>}
+</figure>

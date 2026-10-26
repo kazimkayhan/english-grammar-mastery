@@ -1,0 +1,70 @@
+pillar: clauses
+points:
+  - { id: relative-who-which-that, title: "Relative pronouns who, which, that", level: A2, lesson: a2-28, aliases: [ "relative clauses" ], sources: [ GSE, GIU, PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: relative-where, title: "where in relative clauses", level: A2, lesson: a2-28, sources: [ GSE, GIU, PEU, OPG, LGSWE, LSGSWE, CGEL, LALG ] }
+  - { id: defining-relative-basic, title: "Defining relative clauses (the man who lives next door)", level: A2, lesson: a2-28, sources: [ GSE, GIU, PEU, OEGC, OPG, LGSWE, LSGSWE, LEG, LALG ] }
+  - { id: time-clauses-basic, title: "Time clauses: when, before, after, while", level: A2, lesson: a2-29, sources: [ EGP, GSE, GIU, PEU, OPG, CGEL ] }
+  - { id: reason-result-basic, title: "Reason and result clauses: because, so", level: A2, lesson: a2-29, sources: [] }
+  - { id: although-basic, title: "although (basic contrast)", level: A2, lesson: a2-29, sources: [ CGEL ] }
+  - { id: defining-nondefining, title: "Defining vs non-defining relative clauses (commas)", level: B1, lesson: b1-29, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: relative-whose-when, title: "whose, when, why in relative clauses", level: B1, lesson: b1-29, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, LEG, LALG ] }
+  - { id: omit-relative, title: "Leaving out the object relative pronoun (the film I saw)", level: B1, lesson: b1-29, sources: [ EGP, GSE, GIU, PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: that-vs-which, title: "that vs which", level: B1, lesson: b1-29, sources: [ GIU, PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, CGEL, LALG ] }
+  - { id: no-resumptive, title: "No extra pronoun (the man that I saw, not saw him)", level: B1, lesson: b1-29, sources: [ GIU, OPG, LGSWE, LSGSWE, LALG ] }
+  - { id: purpose-clauses, title: "Purpose: to, in order to, so as to, so that", level: B1, lesson: b1-30, sources: [ GSE, GIU, PEU, OEGC, OPG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: reason-clauses, title: "Reason: because, as, since", level: B1, lesson: b1-30, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG ] }
+  - { id: result-clauses, title: "Result: so, so … that, such … that", level: B1, lesson: b1-30, sources: [ GSE, CI, GIU, OPG, LGSWE, LSGSWE, CGEL, LEG ] }
+  - { id: contrast-although, title: "although, though, even though", level: B1, lesson: b1-31, sources: [ GSE, CI, GIU, OEGC, OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: however-but, title: "however vs but (and their punctuation)", level: B1, lesson: b1-31, sources: [ GSE, OPG, CGEL, LEG, LALG ] }
+  - { id: despite-in-spite, title: "despite / in spite of + noun or -ing", level: B1, lesson: b1-31, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, CGEL, LEG, LALG ] }
+  - { id: although-but-trap, title: "No although … but in one sentence", level: B1, lesson: b1-31, sources: [ LALG ] }
+  - { id: time-clauses-full, title: "as soon as, until, by the time, once, since, whenever", level: B1, lesson: b1-32, sources: [ EGP, GSE, GIU, PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG ] }
+  - { id: place-clauses, title: "where, wherever", level: B1, lesson: b1-32, sources: [ GIU, OPG, LGSWE, LSGSWE, CGEL, LEG ] }
+  - { id: preposition-relative, title: "Preposition + whom / which (the person to whom I spoke)", level: B2, lesson: b2-23, sources: [ CI, GIU, PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, LALG ] }
+  - { id: quantifier-relative, title: "some of whom, most of which", level: B2, lesson: b2-23, sources: [ GIU, PEU, OEGC, LALG ] }
+  - { id: sentential-which, title: "Sentential which (He was late, which annoyed me)", level: B2, lesson: b2-23, sources: [ GSE, GIU, PEU, OEGC, LGSWE, CGEL, LALG ] }
+  - { id: first-to, title: "the first / last / only one to…", level: B2, lesson: b2-23, sources: [ GSE, PEU, OPG, OMEG, LGSWE, LSGSWE, LALG ] }
+  - { id: reduced-relative, title: "Reduced relative clauses (the man sitting there, the car stolen yesterday)", level: B2, lesson: b2-24, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, LALG ] }
+  - { id: participle-clauses, title: "Participle clauses (Feeling tired…, Built in 1900…, Having finished…)", level: B2, lesson: b2-25, sources: [ GSE, GIU, PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: conjunction-ing, title: "while / when / after / before + -ing", level: B2, lesson: b2-25, sources: [ GSE, GIU, PEU, OEGC, OPG, OMEG, CGEL, LEG, LALG ] }
+  - { id: that-clauses, title: "that-clauses (I think that…, The problem is that…)", level: B2, lesson: b2-26, aliases: [ "noun clauses" ], sources: [ GSE, GIU, PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, LEG ] }
+  - { id: wh-clauses, title: "wh-clauses (I know what you mean)", level: B2, lesson: b2-26, sources: [ GSE, GIU, PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, LEG ] }
+  - { id: if-whether-clauses, title: "if / whether clauses", level: B2, lesson: b2-26, sources: [ GSE, GIU, PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, LEG ] }
+  - { id: it-adj-that, title: "It is + adjective + that…", level: B2, lesson: b2-26, sources: [ GSE, GIU, PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, LALG ] }
+  - { id: whereas-while, title: "whereas, while for contrast", level: B2, lesson: b2-27, sources: [ GSE, GIU, OPG, CGEL, LALG ] }
+  - { id: despite-the-fact, title: "despite the fact that / in spite of the fact that", level: B2, lesson: b2-27, sources: [ LALG ] }
+  - { id: no-matter, title: "no matter how / what / who; however + adjective", level: B2, lesson: b2-27, sources: [ GSE, PEU, CGEL ] }
+  - { id: even-though-if, title: "even though vs even if", level: B2, lesson: b2-27, sources: [ GIU, CGEL, LALG ] }
+  - { id: perfect-passive-participle, title: "Having been told…, Being a doctor…", level: C1, lesson: c1-18, sources: [ GSE, GIU, PEU, OMEG, LEG, LALG ] }
+  - { id: absolute-clauses, title: "Absolute clauses (The work done, we left; Weather permitting…)", level: C1, lesson: c1-18, sources: [ GIU, OMEG, LGSWE, CGEL, LALG ] }
+  - { id: dangling-participles, title: "Dangling participles and how to fix them", level: C1, lesson: c1-18, sources: [ GIU, LALG ] }
+  - { id: the-fact-that, title: "the fact that…", level: C1, lesson: c1-19, sources: [ OEGC, OPG, OMEG, LGSWE, LSGSWE ] }
+  - { id: clause-as-subject, title: "Noun clauses as subject (Whether he comes is not important)", level: C1, lesson: c1-19, sources: [ OEGC, OPG, OMEG, LGSWE, LSGSWE ] }
+  - { id: ever-clauses, title: "-ever clauses (Whatever you decide…, Whoever wins…)", level: C1, lesson: c1-19, sources: [ GSE, PEU, OEGC, OPG, OMEG, CGEL, LALG ] }
+  - { id: infinitive-subject, title: "to-infinitive as subject (To err is human)", level: C1, lesson: c1-19, sources: [ GSE, PEU, OPG, OMEG, LGSWE, LSGSWE, LALG ] }
+  - { id: whereby-wherein, title: "whereby, wherein", level: C1, lesson: c1-20, sources: [ GIU ] }
+  - { id: which-linker, title: "in which case, at which point, by which time", level: C1, lesson: c1-20, sources: [ GIU, PEU ] }
+  - { id: nominal-what, title: "Nominal relative what (What I need is…)", level: C1, lesson: c1-20, sources: [ GSE, PEU, OEGC, OPG, OMEG, LALG ] }
+  - { id: whose-things, title: "whose for things (a house whose roof…)", level: C1, lesson: c1-20, sources: [ GIU, PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, LALG ] }
+  - { id: much-as, title: "much as", level: C1, lesson: c1-21, sources: [ GIU, PEU, LALG ] }
+  - { id: adj-as-though, title: "Adjective + as / though (Tired as I was, …)", level: C1, lesson: c1-21, sources: [ GIU, PEU, LALG ] }
+  - { id: for-all, title: "for all (= despite)", level: C1, lesson: c1-21, sources: [ CGEL, LALG ] }
+  - { id: admittedly-granted, title: "admittedly / granted …, but", level: C1, lesson: c1-21, sources: [ LALG ] }
+  - { id: infinitive-clauses, title: "Infinitive clauses (To be honest…, To cut a long story short…)", level: C1, lesson: c1-22, sources: [ PEU, OEGC, OMEG, LGSWE, LSGSWE, CGEL, LALG ] }
+  - { id: verbless-clauses, title: "Verbless clauses (When in doubt…, If possible…, Once inside…)", level: C1, lesson: c1-22, sources: [ OEGC, OPG, OMEG, LGSWE, LSGSWE, CGEL ] }
+  - { id: whereupon, title: "whereupon, whence (for recognition)", level: C2, lesson: c2-09, sources: [] }
+  - { id: reason-why-way, title: "the reason why / that; the way (that / in which)", level: C2, lesson: c2-09, sources: [ GIU, PEU, LGSWE, LSGSWE, LALG ] }
+  - { id: whoever-whatever-expert, title: "whoever / whatever / whichever as subjects and objects", level: C2, lesson: c2-09, sources: [ PEU, OPG, LALG ] }
+  - { id: albeit, title: "albeit", level: C2, lesson: c2-10, sources: [ GIU ] }
+  - { id: notwithstanding, title: "notwithstanding", level: C2, lesson: c2-10, sources: [ OMEG, LALG ] }
+  - { id: granted-that, title: "granted (that)", level: C2, lesson: c2-10, sources: [] }
+  - { id: whilst, title: "while / whilst", level: C2, lesson: c2-10, sources: [ GSE, GIU ] }
+  - { id: lest, title: "lest, for fear that", level: C2, lesson: c2-11, sources: [ PEU, CGEL ] }
+  - { id: in-the-event, title: "in the event that, inasmuch as, insofar as", level: C2, lesson: c2-11, sources: [ LGSWE, CGEL ] }
+  - { id: such-that, title: "such that, so as not to", level: C2, lesson: c2-11, sources: [ GSE, GIU, CGEL ] }
+  - { id: comparative-ellipsis-clause, title: "than was expected, as is often the case", level: C2, lesson: c2-11, sources: [ GSE, GIU, PEU, OMEG, LGSWE, LALG ] }
+  # added from the reference audit
+  - { id: as-simultaneous, title: "as for things happening at the same time or changing together (As I walked home…; As it got darker…)", level: B1, lesson: b1-32, sources: [ GIU ] }
+  - { id: with-noun-participle, title: "with + noun + participle; for meaning because (With so little time, we left; …, for it was late)", level: C1, lesson: c1-18, sources: [ GIU ] }
+  - { id: supplementive-adjectives, title: "Detached adjective phrases (Tired and hungry, they went home)", level: C1, lesson: c1-22, sources: [ LGSWE, LSGSWE, CGEL ] }
+  - { id: noun-active-passive-infinitive, title: "Active or passive infinitive after nouns (a lot to do / to be done; a house to rent)", level: C1, lesson: c1-22, sources: [ PEU ] }

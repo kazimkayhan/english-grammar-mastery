@@ -1,0 +1,152 @@
+---
+import { getCollection } from "astro:content"
+
+import AppLayout from "@/layouts/AppLayout.astro"
+import { getCoverage, getInventory, getLessons, getSyllabus } from "@/lib/content"
+import { FAMILY_INFO, LEVELS, PILLAR_INFO, PILLARS } from "@/lib/taxonomy"
+
+const [points, syllabus, lessons, coverage, sources, audits] = await Promise.all([
+  getInventory(),
+  getSyllabus(),
+  getLessons(),
+  getCoverage(),
+  getCollection("auditSources"),
+  getCollection("audits"),
+])
+const pointIds = new Set(points.map((p) => p.id))
+const auditBySource = new Map(audits.map((a) => [a.data.source, a.data]))
+
+const rows = sources.map((s) => {
+  const audit = auditBySource.get(s.data.code)
+  const items = audit?.items ?? []
+  const mapped = items.filter((i) => i.maps.length && i.maps.every((id) => pointIds.has(id))).length
+  const oos = items.filter((i) => !i.maps.length && i.outOfScope).length
+  const unmapped = items.filter((i) => !i.maps.length && !i.outOfScope)
+  return { s: s.data, audit, items: items.length, mapped, oos, unmapped }
+})
+const totalItems = rows.reduce((n, r) => n + r.items, 0)
+const totalUnmapped = rows.flatMap((r) => r.unmapped.map((u) => ({ source: r.s.code, ...u })))
+---
+
+<AppLayout title="Coverage" description="How the course makes sure no grammar point is left out.">
+  <header class="flex flex-col gap-3">
+    <h1 class="font-heading text-4xl font-bold tracking-tight">Nothing left out</h1>
+    <p class="max-w-2xl font-reading text-lg text-muted-foreground">
+      Every grammar point in English is a row in the course inventory, each one is assigned to a lesson, and the inventory is
+      checked against the major Cambridge, Oxford and Longman/Pearson reference grammars.
+    </p>
+  </header>
+
+  <section class="grid gap-3 sm:grid-cols-4">
+    {
+      [
+        [points.length, "grammar points"],
+        [syllabus.length, "planned lessons"],
+        [lessons.length, "lessons ready"],
+        [coverage.taughtCount, "points taught so far"],
+      ].map(([n, label]) => (
+        <div class="flex flex-col rounded-2xl border bg-card p-4">
+          <span class="font-heading text-3xl font-bold tabular-nums">{n}</span>
+          <span class="text-sm text-muted-foreground">{label}</span>
+        </div>
+      ))
+    }
+  </section>
+
+  <section class="flex flex-col gap-3">
+    <h2 class="font-heading text-2xl font-bold">Points per pillar and level</h2>
+    <div class="table-scroll" tabindex="0" role="region" aria-label="Table (scroll sideways if needed)">
+        <table>
+        <thead>
+          <tr><th>Pillar</th>{LEVELS.map((l) => <th class="text-right">{l}</th>)}<th class="text-right">Total</th></tr>
+        </thead>
+        <tbody>
+          {
+            PILLARS.map((p) => {
+              const info = PILLAR_INFO[p]
+              const counts = LEVELS.map((l) => points.filter((x) => x.pillar === p && x.level === l).length)
+              return (
+                <tr>
+                  <td>
+                    <a href={`/pillars/${p}`} style={`color:${FAMILY_INFO[info.family].color}`} class="font-bold no-underline">
+                      {info.number}. {info.short}
+                    </a>
+                  </td>
+                  {counts.map((c) => <td class="text-right tabular-nums">{c || "·"}</td>)}
+                  <td class="text-right font-bold tabular-nums">{counts.reduce((a, b) => a + b, 0)}</td>
+                </tr>
+              )
+            })
+          }
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="flex flex-col gap-3">
+    <h2 class="font-heading text-2xl font-bold">Checked against the reference grammars</h2>
+    <p class="text-muted-foreground">
+      Each source's contents were turned into a checklist ({totalItems} items so far) and every item was mapped to the
+      inventory or marked out of scope (for example, vocabulary). The books are used as checklists only; all lessons are
+      original.
+    </p>
+    <div class="table-scroll" tabindex="0" role="region" aria-label="Table (scroll sideways if needed)">
+        <table>
+        <thead>
+          <tr>
+            <th>Source</th><th>Edition used</th><th>Checked from</th><th class="text-right">Items</th><th class="text-right">Mapped</th><th class="text-right">Out of scope</th><th class="text-right">Missing</th>
+          </tr>
+        </thead>
+        <tbody>
+          {
+            rows.map((r) => (
+              <tr>
+                <td>
+                  <strong>{r.s.code}</strong>
+                  <br />
+                  <span class="text-sm text-muted-foreground">
+                    {r.s.publisher} · {r.s.title}
+                  </span>
+                </td>
+                <td class="text-sm">{r.s.edition}</td>
+                <td class="text-sm">
+                  {r.audit ? (
+                    r.audit.retrieved_from.length ? (
+                      <a href={r.audit.retrieved_from[0]} rel="noopener noreferrer" target="_blank">
+                        {r.audit.verified === true ? "verified" : r.audit.verified === "partial" ? "partly verified" : "not retrieved"}
+                      </a>
+                    ) : (
+                      "not retrieved"
+                    )
+                  ) : (
+                    "pending"
+                  )}
+                </td>
+                <td class="text-right tabular-nums">{r.items || "–"}</td>
+                <td class="text-right tabular-nums">{r.items ? r.mapped : "–"}</td>
+                <td class="text-right tabular-nums">{r.items ? r.oos : "–"}</td>
+                <td class="text-right font-bold tabular-nums">{r.items ? r.unmapped.length : "–"}</td>
+              </tr>
+            ))
+          }
+        </tbody>
+      </table>
+    </div>
+    {
+      totalUnmapped.length > 0 && (
+        <details class="rounded-2xl border bg-card">
+          <summary class="cursor-pointer px-5 py-3 font-bold select-none">
+            {totalUnmapped.length} source items still to add to the inventory
+          </summary>
+          <ul class="flex flex-col gap-1 px-5 pb-4 text-sm">
+            {totalUnmapped.map((u) => (
+              <li>
+                <strong>{u.source}</strong> {u.ref} · {u.item}
+              </li>
+            ))}
+          </ul>
+        </details>
+      )
+    }
+  </section>
+</AppLayout>
