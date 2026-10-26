@@ -1,0 +1,22 @@
+title: "Adjective or adverb?"
+pillar: modifiers
+description: "careful or carefully? good or well?"
+root:
+  q: "What are you describing?"
+  options:
+    - label: "A noun (a person or thing)"
+      next:
+        answer: "Adjective"
+        example: "She's a careful driver. · It's a good idea."
+    - label: "A verb (how someone does something)"
+      next:
+        answer: "Adverb (often -ly)"
+        example: "She drives carefully. · He speaks English well."
+    - label: "After be, look, feel, seem, sound, taste, smell, become"
+      next:
+        answer: "Adjective"
+        example: "You look tired. · The soup tastes good."
+    - label: "An adjective or another adverb"
+      next:
+        answer: "Adverb of degree"
+        example: "really good · very quickly · extremely cold"

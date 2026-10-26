@@ -1,0 +1,22 @@
+title: "in, on or at? (time)"
+pillar: prepositions
+description: "Small time → at, day → on, longer period → in."
+root:
+  q: "What kind of time is it?"
+  options:
+    - label: "A clock time or a short moment"
+      next:
+        answer: "at"
+        example: "at 5:30 · at noon · at night · at lunchtime"
+    - label: "A day or a date"
+      next:
+        answer: "on"
+        example: "on Monday · on May 5 · on my birthday · on the weekend (UK: at the weekend)"
+    - label: "A longer period: month, year, season, part of the day"
+      next:
+        answer: "in"
+        example: "in May · in 2024 · in summer · in the morning"
+    - label: "next, last, this, every, today, tomorrow, yesterday"
+      next:
+        answer: "no preposition"
+        example: "See you next Monday. · I called her yesterday."

@@ -1,0 +1,34 @@
+title: "some or any?"
+pillar: determiners
+description: "Positive, negative, question or offer: four quick choices."
+root:
+  q: "What kind of sentence is it?"
+  options:
+    - label: "Positive"
+      next:
+        q: "Do you mean “it doesn't matter which”?"
+        options:
+          - label: "No, just an amount"
+            next:
+              answer: "some"
+              example: "I have some money. · There are some eggs in the fridge."
+          - label: "Yes, any one at all"
+            next:
+              answer: "any"
+              example: "Call me any time. · Take any seat you like."
+    - label: "Negative"
+      next:
+        answer: "any"
+        example: "I don't have any money. · There aren't any eggs."
+    - label: "Question"
+      next:
+        q: "Is it an offer or a request (Would you like…? Can I have…?)"
+        options:
+          - label: "Yes, an offer or a request"
+            next:
+              answer: "some"
+              example: "Would you like some tea? · Can I have some water, please?"
+          - label: "No, a real question"
+            next:
+              answer: "any"
+              example: "Do you have any questions? · Is there any milk?"

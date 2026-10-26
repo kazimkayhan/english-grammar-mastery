@@ -1,0 +1,18 @@
+title: "for, since or ago?"
+pillar: tenses
+description: "A length of time, a starting point, or a point in the past."
+root:
+  q: "What comes after the word?"
+  options:
+    - label: "A length of time (three years, two hours)"
+      next:
+        answer: "for"
+        example: "I've lived here for three years."
+    - label: "A starting point (2020, Monday, I was a child)"
+      next:
+        answer: "since"
+        example: "I've lived here since 2020."
+    - label: "How far back something happened"
+      next:
+        answer: "… ago (with the past simple)"
+        example: "I moved here three years ago."

@@ -1,114 +1,114 @@
 pillar: tenses
 points:
-  - { id: be-present-forms, title: "be: am / is / are", level: A1, lesson: a1-05, aliases: [ "to be", "am is are" ], sources: [ GSE, CI, GIU, PEU, OEGC, OPG, LGSWE, LSGSWE, CGEL, LEG ] }
-  - { id: be-contractions, title: "be: short forms (I'm, she's, they're)", level: A1, lesson: a1-05, sources: [ GIU, PEU, OPG, CGEL, LEG, LALG ] }
-  - { id: be-negative, title: "be: negative (isn't, aren't, I'm not)", level: A1, lesson: a1-05, sources: [ CI, GIU, PEU, OPG, LGSWE, LSGSWE, CGEL, LEG ] }
-  - { id: be-uses-age, title: "be for name, job, age, feelings, place and nationality (I'm 20)", level: A1, lesson: a1-05, aliases: [ "age with be" ], sources: [ GSE, PEU, LGSWE, LSGSWE, LEG ] }
-  - { id: have-possession, title: "have for possession, family and illness (I have two sisters; I have a cold)", level: A1, lesson: a1-16, sources: [ GSE, GIU, PEU, OEGC, OPG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: have-got, title: "have got / has got", level: A1, lesson: a1-16, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: have-questions, title: "Do you have…? / Have you got…?", level: A1, lesson: a1-16, sources: [ PEU, OEGC, OPG, LGSWE, LEG, LALG ] }
-  - { id: have-actions, title: "have for actions (have breakfast, have a shower)", level: A1, lesson: a1-16, sources: [ GIU, PEU, OEGC, OPG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: be-present-forms, title: "be: am / is / are", level: A1, lesson: a1-05, aliases: [ "to be", "am is are" ], sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OGEG, LGSWE, LSGSWE, CGEL, LEG ] }
+  - { id: be-contractions, title: "be: short forms (I'm, she's, they're)", level: A1, lesson: a1-05, sources: [ GIU, PEU, OPG, OGEG, CGEL, LEG, LALG ] }
+  - { id: be-negative, title: "be: negative (isn't, aren't, I'm not)", level: A1, lesson: a1-05, sources: [ CI, GIU, PEU, OPG, OGEG, LGSWE, LSGSWE, CGEL, LEG ] }
+  - { id: be-uses-age, title: "be for name, job, age, feelings, place and nationality (I'm 20)", level: A1, lesson: a1-05, aliases: [ "age with be" ], sources: [ GSE, PEU, OGEG, LGSWE, LSGSWE, LEG ] }
+  - { id: have-possession, title: "have for possession, family and illness (I have two sisters; I have a cold)", level: A1, lesson: a1-16, sources: [ GSE, GIU, PEU, OEGC, OPG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: have-got, title: "have got / has got", level: A1, lesson: a1-16, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: have-questions, title: "Do you have…? / Have you got…?", level: A1, lesson: a1-16, sources: [ PEU, OEGC, OPG, OGEG, LGSWE, LEG, LALG ] }
+  - { id: have-actions, title: "have for actions (have breakfast, have a shower)", level: A1, lesson: a1-16, sources: [ GIU, PEU, OEGC, OPG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
   - { id: present-simple-positive, title: "Present simple: positive (I work, she works)", level: A1, lesson: a1-17, aliases: [ "simple present" ], sources: [ GSE, CI, GIU, PEU, OPG, LEG, LALG ] }
-  - { id: third-person-s, title: "he / she / it + -s", level: A1, lesson: a1-17, sources: [ GIU, PEU, OPG, OMEG, CGEL, LALG ] }
-  - { id: third-person-spelling, title: "-s spelling: goes, watches, studies, has, does", level: A1, lesson: a1-17, sources: [ GIU, PEU, OEGC, OPG, LGSWE, LSGSWE, CGEL ] }
-  - { id: present-simple-uses, title: "Present simple uses: habits, routines, facts, permanent situations", level: A1, lesson: a1-17, sources: [ GSE, GIU, PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: present-simple-negative, title: "Present simple negative: don't / doesn't + base form", level: A1, lesson: a1-18, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG ] }
+  - { id: third-person-s, title: "he / she / it + -s", level: A1, lesson: a1-17, sources: [ GIU, PEU, OPG, OMEG, OGEG, CGEL, LALG ] }
+  - { id: third-person-spelling, title: "-s spelling: goes, watches, studies, has, does", level: A1, lesson: a1-17, sources: [ GIU, PEU, OEGC, OPG, OGEG, LGSWE, LSGSWE, CGEL ] }
+  - { id: present-simple-uses, title: "Present simple uses: habits, routines, facts, permanent situations", level: A1, lesson: a1-17, sources: [ GSE, GIU, PEU, OEGC, OPG, OMEG, OGEG, OGEAP, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: present-simple-negative, title: "Present simple negative: don't / doesn't + base form", level: A1, lesson: a1-18, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LEG ] }
   - { id: present-simple-questions, title: "Present simple questions: Do / Does + subject + base form? and short answers", level: A1, lesson: a1-18, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
   - { id: wh-present-simple, title: "Wh- questions in the present simple (Where do you work?)", level: A1, lesson: a1-18, sources: [ GSE, OPG ] }
   - { id: present-continuous-form, title: "Present continuous: am / is / are + -ing", level: A1, lesson: a1-22, aliases: [ "present progressive" ], sources: [ CI, GIU, PEU, OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: ing-spelling, title: "-ing spelling (making, running, lying)", level: A1, lesson: a1-22, sources: [ GIU, PEU, OEGC, OPG, LGSWE, LSGSWE, CGEL ] }
-  - { id: present-continuous-now, title: "Present continuous for now and around now", level: A1, lesson: a1-22, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, CGEL, LEG, LALG ] }
-  - { id: simple-vs-continuous, title: "Present simple vs present continuous", level: A1, lesson: a1-23, sources: [ GSE, GIU, OEGC, OPG, CGEL, LEG ] }
-  - { id: temporary-permanent, title: "Temporary vs permanent (I live in Shiraz / I'm living in Tehran this year)", level: A1, lesson: a1-23, sources: [ GSE, GIU, PEU, OPG, LEG ] }
+  - { id: ing-spelling, title: "-ing spelling (making, running, lying)", level: A1, lesson: a1-22, sources: [ GIU, PEU, OEGC, OPG, OGEG, LGSWE, LSGSWE, CGEL ] }
+  - { id: present-continuous-now, title: "Present continuous for now and around now", level: A1, lesson: a1-22, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OGEG, CGEL, LEG, LALG ] }
+  - { id: simple-vs-continuous, title: "Present simple vs present continuous", level: A1, lesson: a1-23, sources: [ GSE, GIU, OEGC, OPG, OGEG, OGEAP, CGEL, LEG ] }
+  - { id: temporary-permanent, title: "Temporary vs permanent (I live in Shiraz / I'm living in Tehran this year)", level: A1, lesson: a1-23, sources: [ GSE, GIU, PEU, OPG, OGEG, LEG ] }
   - { id: changing-situations, title: "Changing situations (It's getting colder)", level: A1, lesson: a1-23, sources: [ GSE, GIU, PEU, OEGC, OPG, LEG, LALG ] }
-  - { id: was-were, title: "was / were (+, −, ?)", level: A1, lesson: a1-25, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, LGSWE, LEG ] }
+  - { id: was-were, title: "was / were (+, −, ?)", level: A1, lesson: a1-25, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OGEG, LGSWE, LEG ] }
   - { id: there-was-were, title: "there was / there were", level: A1, lesson: a1-25, sources: [ GIU, OEGC, OPG ] }
-  - { id: was-born, title: "be born (I was born in…)", level: A1, lesson: a1-25, sources: [ OPG, LEG ] }
+  - { id: was-born, title: "be born (I was born in…)", level: A1, lesson: a1-25, sources: [ OPG, OGEG, LEG ] }
   - { id: past-simple-regular, title: "Past simple: regular verbs (-ed)", level: A1, lesson: a1-26, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, CGEL, LEG, LALG ] }
-  - { id: ed-spelling, title: "-ed spelling (liked, stopped, studied, played)", level: A1, lesson: a1-26, sources: [ GIU, PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, CGEL ] }
+  - { id: ed-spelling, title: "-ed spelling (liked, stopped, studied, played)", level: A1, lesson: a1-26, sources: [ GIU, PEU, OEGC, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL ] }
   - { id: past-simple-uses, title: "Past simple for finished actions at a finished time", level: A1, lesson: a1-26, sources: [ GIU, PEU, OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: past-simple-irregular, title: "Past simple: common irregular verbs (went, saw, had)", level: A1, lesson: a1-27, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: did-negative-questions, title: "didn't + base form; Did…? (I didn't see, not didn't saw)", level: A1, lesson: a1-27, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, LGSWE, CGEL, LEG ] }
+  - { id: past-simple-irregular, title: "Past simple: common irregular verbs (went, saw, had)", level: A1, lesson: a1-27, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: did-negative-questions, title: "didn't + base form; Did…? (I didn't see, not didn't saw)", level: A1, lesson: a1-27, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, OGEG, LGSWE, CGEL, LEG ] }
   - { id: past-simple-wh, title: "Wh- questions in the past (What did you do?)", level: A1, lesson: a1-27, sources: [ GSE, CI, GIU, OPG ] }
   - { id: past-time-expressions, title: "yesterday, last night / week / year, in 2019", level: A1, lesson: a1-28, sources: [ GSE, CI, OEGC, LGSWE, LSGSWE, CGEL, LEG ] }
   - { id: ago, title: "ago (three days ago)", level: A1, lesson: a1-28, sources: [ CI, PEU, OPG, OMEG, CGEL ] }
-  - { id: irregular-verbs-2, title: "More irregular verbs and their patterns (buy–bought, think–thought)", level: A2, lesson: a2-07, sources: [ GIU, PEU, OPG, OMEG, LGSWE, LSGSWE, CGEL ] }
+  - { id: irregular-verbs-2, title: "More irregular verbs and their patterns (buy–bought, think–thought)", level: A2, lesson: a2-07, sources: [ GIU, PEU, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL ] }
   - { id: past-simple-sequence, title: "Past simple for a sequence of actions", level: A2, lesson: a2-07, sources: [ GSE, LALG ] }
-  - { id: past-continuous, title: "Past continuous: was / were + -ing", level: A2, lesson: a2-08, aliases: [ "past progressive" ], sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: when-while, title: "when and while", level: A2, lesson: a2-08, sources: [ GSE, GIU, PEU, OPG, CGEL, LEG ] }
-  - { id: past-continuous-background, title: "Past continuous for background, past simple for events", level: A2, lesson: a2-08, sources: [ GIU, PEU, OEGC, OPG, LALG ] }
-  - { id: past-simple-vs-continuous, title: "Past simple vs past continuous (interrupted actions)", level: A2, lesson: a2-09, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, LEG, LALG ] }
+  - { id: past-continuous, title: "Past continuous: was / were + -ing", level: A2, lesson: a2-08, aliases: [ "past progressive" ], sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: when-while, title: "when and while", level: A2, lesson: a2-08, sources: [ GSE, GIU, PEU, OPG, OGEG, CGEL, LEG ] }
+  - { id: past-continuous-background, title: "Past continuous for background, past simple for events", level: A2, lesson: a2-08, sources: [ GIU, PEU, OEGC, OPG, OGEG, LALG ] }
+  - { id: past-simple-vs-continuous, title: "Past simple vs past continuous (interrupted actions)", level: A2, lesson: a2-09, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OGEG, LEG, LALG ] }
   - { id: storytelling-past, title: "Telling a story in the past", level: A2, lesson: a2-09, sources: [ OEGC ] }
-  - { id: used-to, title: "used to for past habits and states", level: A2, lesson: a2-10, sources: [ EGP, GSE, CI, GIU, PEU, OEGC, OPG, OMEG, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: didnt-use-to, title: "didn't use to / Did you use to…?", level: A2, lesson: a2-10, sources: [ EGP, CI, GIU, OEGC, OPG, LGSWE, LSGSWE, LEG ] }
-  - { id: going-to-plans, title: "going to for plans and intentions", level: A2, lesson: a2-11, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: going-to-evidence, title: "going to for predictions from evidence (Look at those clouds!)", level: A2, lesson: a2-11, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, LSGSWE, LEG, LALG ] }
-  - { id: will-decisions, title: "will for instant decisions, offers and promises", level: A2, lesson: a2-12, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, LGSWE, CGEL, LEG, LALG ] }
-  - { id: will-predictions, title: "will for predictions and opinions (I think it will…)", level: A2, lesson: a2-12, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: shall-offers, title: "Shall I…? / Shall we…? for offers and suggestions", level: A2, lesson: a2-12, sources: [ GSE, GIU, PEU, OEGC, OPG, OMEG, LGSWE, LEG, LALG ] }
-  - { id: probably-will, title: "probably / definitely with will (He'll probably… / He probably won't…)", level: A2, lesson: a2-12, sources: [ CI, GIU, PEU, LEG, LALG ] }
-  - { id: present-continuous-future, title: "Present continuous for arrangements (I'm meeting Ali at 6)", level: A2, lesson: a2-13, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, LEG, LALG ] }
-  - { id: which-future-intro, title: "will, going to or present continuous? (first look)", level: A2, lesson: a2-13, sources: [ GSE, GIU, PEU, OEGC, OPG, LALG ] }
-  - { id: verb-forms, title: "The five verb forms: base, -s, -ing, past, past participle", level: A2, lesson: a2-14, sources: [ GIU, PEU, OPG, OMEG, LGSWE, LSGSWE, CGEL ] }
-  - { id: auxiliaries, title: "Auxiliary verbs be, do, have vs main verbs", level: A2, lesson: a2-14, sources: [ GIU, PEU, OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: past-participle, title: "The past participle (third form)", level: A2, lesson: a2-14, sources: [ GIU, PEU, OPG, OMEG, LGSWE, LSGSWE, CGEL ] }
-  - { id: present-perfect-form, title: "Present perfect: have / has + past participle", level: A2, lesson: a2-15, sources: [ CI, GIU, PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: present-perfect-experience, title: "Present perfect for experience (Have you ever…? I've never…)", level: A2, lesson: a2-15, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, CGEL, LEG, LALG ] }
+  - { id: used-to, title: "used to for past habits and states", level: A2, lesson: a2-10, sources: [ EGP, GSE, CI, GIU, PEU, OEGC, OPG, OMEG, OGEG, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: didnt-use-to, title: "didn't use to / Did you use to…?", level: A2, lesson: a2-10, sources: [ EGP, CI, GIU, OEGC, OPG, OGEG, LGSWE, LSGSWE, LEG ] }
+  - { id: going-to-plans, title: "going to for plans and intentions", level: A2, lesson: a2-11, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: going-to-evidence, title: "going to for predictions from evidence (Look at those clouds!)", level: A2, lesson: a2-11, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OGEG, LSGSWE, LEG, LALG ] }
+  - { id: will-decisions, title: "will for instant decisions, offers and promises", level: A2, lesson: a2-12, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, OGEG, LGSWE, CGEL, LEG, LALG ] }
+  - { id: will-predictions, title: "will for predictions and opinions (I think it will…)", level: A2, lesson: a2-12, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: shall-offers, title: "Shall I…? / Shall we…? for offers and suggestions", level: A2, lesson: a2-12, sources: [ GSE, GIU, PEU, OEGC, OPG, OMEG, OGEG, LGSWE, LEG, LALG ] }
+  - { id: probably-will, title: "probably / definitely with will (He'll probably… / He probably won't…)", level: A2, lesson: a2-12, sources: [ CI, GIU, PEU, OGEG, LEG, LALG ] }
+  - { id: present-continuous-future, title: "Present continuous for arrangements (I'm meeting Ali at 6)", level: A2, lesson: a2-13, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, OGEG, LEG, LALG ] }
+  - { id: which-future-intro, title: "will, going to or present continuous? (first look)", level: A2, lesson: a2-13, sources: [ GSE, GIU, PEU, OEGC, OPG, OGEG, LALG ] }
+  - { id: verb-forms, title: "The five verb forms: base, -s, -ing, past, past participle", level: A2, lesson: a2-14, sources: [ GIU, PEU, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL ] }
+  - { id: auxiliaries, title: "Auxiliary verbs be, do, have vs main verbs", level: A2, lesson: a2-14, sources: [ GIU, PEU, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: past-participle, title: "The past participle (third form)", level: A2, lesson: a2-14, sources: [ GIU, PEU, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL ] }
+  - { id: present-perfect-form, title: "Present perfect: have / has + past participle", level: A2, lesson: a2-15, sources: [ CI, GIU, PEU, OEGC, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: present-perfect-experience, title: "Present perfect for experience (Have you ever…? I've never…)", level: A2, lesson: a2-15, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OGEG, CGEL, LEG, LALG ] }
   - { id: been-gone, title: "been vs gone", level: A2, lesson: a2-15, sources: [ GSE, GIU, PEU, OPG, LALG ] }
   - { id: present-perfect-recent, title: "Present perfect for news and recent events (I've lost my keys!)", level: A2, lesson: a2-16, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, CGEL, LALG ] }
   - { id: just-already-yet, title: "just, already, yet with the present perfect", level: A2, lesson: a2-16, sources: [ GSE, GIU, PEU, OEGC, OPG, LEG, LALG ] }
-  - { id: pp-vs-past, title: "Present perfect vs past simple (unfinished vs finished time)", level: B1, lesson: b1-06, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: pp-vs-past, title: "Present perfect vs past simple (unfinished vs finished time)", level: B1, lesson: b1-06, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OGEG, OGEAP, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
   - { id: first-time, title: "This is the first time I've…", level: B1, lesson: b1-06, sources: [ GIU, PEU, OEGC, LALG ] }
   - { id: since-past-simple, title: "since + past simple (since I was a child)", level: B1, lesson: b1-06, sources: [ GIU, PEU, OEGC, CGEL ] }
-  - { id: finished-time-trap, title: "No present perfect with finished time (yesterday, in 2019)", level: B1, lesson: b1-06, sources: [ GIU, PEU, OEGC, OPG, CGEL, LALG ] }
+  - { id: finished-time-trap, title: "No present perfect with finished time (yesterday, in 2019)", level: B1, lesson: b1-06, sources: [ GIU, PEU, OEGC, OPG, OGEG, CGEL, LALG ] }
   - { id: for-since, title: "for + period, since + starting point", level: B1, lesson: b1-07, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, CGEL, LEG, LALG ] }
   - { id: how-long, title: "How long have you…?", level: B1, lesson: b1-07, sources: [ GSE, GIU, PEU, OPG, LEG ] }
   - { id: its-years-since, title: "It's two years since…", level: B1, lesson: b1-07, sources: [ GIU, PEU, CGEL ] }
-  - { id: during-vs-for, title: "during vs for", level: B1, lesson: b1-07, sources: [ GSE, GIU, PEU, OPG, CGEL, LEG, LALG ] }
-  - { id: by-until, title: "by vs until", level: B1, lesson: b1-07, sources: [ GSE, GIU, PEU, OPG, CGEL, LEG, LALG ] }
-  - { id: ppc-form, title: "Present perfect continuous: have been + -ing", level: B1, lesson: b1-08, sources: [ CI, GIU, PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: ppc-duration, title: "Duration up to now (I've been waiting for an hour)", level: B1, lesson: b1-08, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, LALG ] }
-  - { id: ppc-recent-results, title: "Recent activity with visible results (I've been running)", level: B1, lesson: b1-08, sources: [ GSE, GIU, PEU, OPG, LALG ] }
-  - { id: ppc-vs-pp, title: "Present perfect continuous vs simple (activity vs result; how long vs how many)", level: B1, lesson: b1-08, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, LEG, LALG ] }
-  - { id: past-perfect, title: "Past perfect: had + past participle", level: B1, lesson: b1-09, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: past-perfect-sequence, title: "Past perfect for the earlier of two past events; by the time", level: B1, lesson: b1-09, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: past-perfect-adverbs, title: "already, just, never with the past perfect", level: B1, lesson: b1-09, sources: [ GIU, PEU, OEGC, LALG ] }
-  - { id: stative-verbs, title: "State verbs (know, like, want, belong, need, seem, contain)", level: B1, lesson: b1-10, sources: [ GIU, PEU, OEGC, OPG, OMEG, CGEL, LEG, LALG ] }
-  - { id: stative-dynamic-meanings, title: "Verbs with two meanings (think, have, see, taste, smell, be)", level: B1, lesson: b1-10, sources: [ GIU, PEU, OEGC, OPG, OMEG, LGSWE, CGEL, LEG, LALG ] }
-  - { id: futures-compared, title: "will vs going to vs present continuous vs present simple", level: B1, lesson: b1-11, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, LGSWE, LEG, LALG ] }
-  - { id: present-simple-timetable, title: "Present simple for timetables (The train leaves at 8)", level: B1, lesson: b1-11, sources: [ GSE, GIU, PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: future-continuous-intro, title: "Future continuous (I'll be working at 10)", level: B1, lesson: b1-12, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, LEG, LALG ] }
-  - { id: future-time-clauses, title: "Future time clauses: when / as soon as / until + present (perfect)", level: B1, lesson: b1-12, sources: [ GSE, GIU, PEU, OEGC, OPG, LGSWE, CGEL, LEG, LALG ] }
+  - { id: during-vs-for, title: "during vs for", level: B1, lesson: b1-07, sources: [ GSE, GIU, PEU, OPG, OGEG, CGEL, LEG, LALG ] }
+  - { id: by-until, title: "by vs until", level: B1, lesson: b1-07, sources: [ GSE, GIU, PEU, OPG, OGEG, CGEL, LEG, LALG ] }
+  - { id: ppc-form, title: "Present perfect continuous: have been + -ing", level: B1, lesson: b1-08, sources: [ CI, GIU, PEU, OEGC, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: ppc-duration, title: "Duration up to now (I've been waiting for an hour)", level: B1, lesson: b1-08, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OGEG, LALG ] }
+  - { id: ppc-recent-results, title: "Recent activity with visible results (I've been running)", level: B1, lesson: b1-08, sources: [ GSE, GIU, PEU, OPG, OGEG, LALG ] }
+  - { id: ppc-vs-pp, title: "Present perfect continuous vs simple (activity vs result; how long vs how many)", level: B1, lesson: b1-08, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OGEG, OGEAP, LEG, LALG ] }
+  - { id: past-perfect, title: "Past perfect: had + past participle", level: B1, lesson: b1-09, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, OGEG, OGEAP, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: past-perfect-sequence, title: "Past perfect for the earlier of two past events; by the time", level: B1, lesson: b1-09, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: past-perfect-adverbs, title: "already, just, never with the past perfect", level: B1, lesson: b1-09, sources: [ GIU, PEU, OEGC, OGEG, LALG ] }
+  - { id: stative-verbs, title: "State verbs (know, like, want, belong, need, seem, contain)", level: B1, lesson: b1-10, sources: [ GIU, PEU, OEGC, OPG, OMEG, OGEG, OGEAP, CGEL, LEG, LALG ] }
+  - { id: stative-dynamic-meanings, title: "Verbs with two meanings (think, have, see, taste, smell, be)", level: B1, lesson: b1-10, sources: [ GIU, PEU, OEGC, OPG, OMEG, OGEG, LGSWE, CGEL, LEG, LALG ] }
+  - { id: futures-compared, title: "will vs going to vs present continuous vs present simple", level: B1, lesson: b1-11, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, OGEG, OGEAP, LGSWE, LEG, LALG ] }
+  - { id: present-simple-timetable, title: "Present simple for timetables (The train leaves at 8)", level: B1, lesson: b1-11, sources: [ GSE, GIU, PEU, OEGC, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: future-continuous-intro, title: "Future continuous (I'll be working at 10)", level: B1, lesson: b1-12, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, OGEG, LEG, LALG ] }
+  - { id: future-time-clauses, title: "Future time clauses: when / as soon as / until + present (perfect)", level: B1, lesson: b1-12, sources: [ GSE, GIU, PEU, OEGC, OPG, OGEG, LGSWE, CGEL, LEG, LALG ] }
   - { id: be-used-to, title: "be used to + -ing (familiar with)", level: B1, lesson: b1-13, sources: [ GIU, PEU, OPG ] }
   - { id: get-used-to, title: "get used to + -ing (become familiar with)", level: B1, lesson: b1-13, sources: [ GIU, PEU, OPG ] }
   - { id: used-to-vs-be-used-to, title: "used to vs be / get used to", level: B1, lesson: b1-13, sources: [ GIU, PEU, OPG ] }
-  - { id: would-habits-intro, title: "would for past habits (first look)", level: B1, lesson: b1-13, sources: [ GSE, CI, GIU, LEG, LALG ] }
-  - { id: narrative-tenses, title: "Narrative tenses together (past simple, continuous, perfect)", level: B2, lesson: b2-03, sources: [ CI, GIU, OEGC, OPG, CGEL, LEG ] }
-  - { id: past-perfect-continuous, title: "Past perfect continuous", level: B2, lesson: b2-03, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, LEG, LALG ] }
-  - { id: future-perfect, title: "Future perfect (will have done; by + time)", level: B2, lesson: b2-04, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, LEG ] }
-  - { id: future-continuous-full, title: "Future continuous for actions in progress and polite questions (Will you be using the car?)", level: B2, lesson: b2-04, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, LEG, LALG ] }
-  - { id: future-perfect-continuous, title: "Future perfect continuous (By June I'll have been working here for ten years)", level: B2, lesson: b2-04, sources: [ CI, GIU, PEU, OMEG, LEG ] }
-  - { id: be-about-to, title: "be about to, be on the point of", level: B2, lesson: b2-05, sources: [ GSE, GIU, PEU, OMEG, CGEL, LEG, LALG ] }
-  - { id: be-due-to, title: "be due to", level: B2, lesson: b2-05, sources: [ GIU, LALG ] }
-  - { id: was-going-to, title: "was going to (plans that didn't happen)", level: B2, lesson: b2-05, sources: [ EGP, GSE, GIU, PEU, OEGC, OPG, LEG, LALG ] }
-  - { id: would-vs-used-to, title: "would vs used to (actions vs states)", level: B2, lesson: b2-06, sources: [ GSE, CI, GIU, PEU, OEGC, LEG, LALG ] }
-  - { id: will-habits, title: "will for present habits (He'll sit there for hours)", level: B2, lesson: b2-06, sources: [ GIU, PEU, OEGC, OPG, OMEG, LEG, LALG ] }
+  - { id: would-habits-intro, title: "would for past habits (first look)", level: B1, lesson: b1-13, sources: [ GSE, CI, GIU, OGEG, LEG, LALG ] }
+  - { id: narrative-tenses, title: "Narrative tenses together (past simple, continuous, perfect)", level: B2, lesson: b2-03, sources: [ CI, GIU, OEGC, OPG, OGEG, OGEAP, CGEL, LEG ] }
+  - { id: past-perfect-continuous, title: "Past perfect continuous", level: B2, lesson: b2-03, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, OGEG, LEG, LALG ] }
+  - { id: future-perfect, title: "Future perfect (will have done; by + time)", level: B2, lesson: b2-04, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, OGEG, OGEAP, LEG ] }
+  - { id: future-continuous-full, title: "Future continuous for actions in progress and polite questions (Will you be using the car?)", level: B2, lesson: b2-04, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OGEG, LEG, LALG ] }
+  - { id: future-perfect-continuous, title: "Future perfect continuous (By June I'll have been working here for ten years)", level: B2, lesson: b2-04, sources: [ CI, GIU, PEU, OMEG, OGEG, LEG ] }
+  - { id: be-about-to, title: "be about to, be on the point of", level: B2, lesson: b2-05, sources: [ GSE, GIU, PEU, OMEG, OGEG, CGEL, LEG, LALG ] }
+  - { id: be-due-to, title: "be due to", level: B2, lesson: b2-05, sources: [ GIU, OGEG, LALG ] }
+  - { id: was-going-to, title: "was going to (plans that didn't happen)", level: B2, lesson: b2-05, sources: [ EGP, GSE, GIU, PEU, OEGC, OPG, OGEG, LEG, LALG ] }
+  - { id: would-vs-used-to, title: "would vs used to (actions vs states)", level: B2, lesson: b2-06, sources: [ GSE, CI, GIU, PEU, OEGC, OGEG, LEG, LALG ] }
+  - { id: will-habits, title: "will for present habits (He'll sit there for hours)", level: B2, lesson: b2-06, sources: [ GIU, PEU, OEGC, OPG, OMEG, OGEG, LEG, LALG ] }
   - { id: always-ing, title: "be always / forever + -ing (annoying habits)", level: B2, lesson: b2-06, sources: [ GSE, GIU, PEU, OEGC, CGEL, LEG, LALG ] }
-  - { id: be-being, title: "be being + adjective (You're being silly)", level: B2, lesson: b2-07, sources: [ PEU, OEGC, CGEL, LEG ] }
-  - { id: stative-progressive, title: "State verbs in the continuous for effect (I'm loving it; I'm thinking of…)", level: B2, lesson: b2-07, sources: [ GIU, PEU, OEGC, OMEG, LGSWE, LSGSWE, CGEL, LALG ] }
-  - { id: future-in-past, title: "Future in the past: was going to, was about to, would", level: C1, lesson: c1-06, sources: [ EGP, GSE, CI, GIU, PEU, OEGC, OPG, LALG ] }
-  - { id: was-to, title: "was to / was to have done (fate and unfulfilled plans)", level: C1, lesson: c1-06, sources: [ GSE, GIU, PEU, OEGC, LALG ] }
-  - { id: be-to-infinitive, title: "be to + infinitive (orders, plans, rules: You are to report at 9)", level: C1, lesson: c1-07, sources: [ GIU, PEU, OEGC, OMEG, LEG, LALG ] }
-  - { id: be-bound-to, title: "be bound / sure / certain / likely / set to", level: C1, lesson: c1-07, sources: [ GSE, GIU, OMEG, LGSWE, LSGSWE, LALG ] }
-  - { id: distancing-past, title: "Past tenses for politeness (I was wondering, I wanted to ask)", level: C1, lesson: c1-08, sources: [ EGP, GSE, PEU, OEGC, OMEG, CGEL, LALG ] }
-  - { id: tentative-forms, title: "Tentative forms (I was hoping, I'd hoped)", level: C1, lesson: c1-08, sources: [ PEU, OEGC, CGEL ] }
-  - { id: historic-present, title: "Present tenses in stories, jokes and commentaries", level: C1, lesson: c1-09, sources: [ GSE, GIU, PEU, OEGC, OMEG, LGSWE, LSGSWE, CGEL, LALG ] }
+  - { id: be-being, title: "be being + adjective (You're being silly)", level: B2, lesson: b2-07, sources: [ PEU, OEGC, OGEG, CGEL, LEG ] }
+  - { id: stative-progressive, title: "State verbs in the continuous for effect (I'm loving it; I'm thinking of…)", level: B2, lesson: b2-07, sources: [ GIU, PEU, OEGC, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LALG ] }
+  - { id: future-in-past, title: "Future in the past: was going to, was about to, would", level: C1, lesson: c1-06, sources: [ EGP, GSE, CI, GIU, PEU, OEGC, OPG, OGEG, LALG ] }
+  - { id: was-to, title: "was to / was to have done (fate and unfulfilled plans)", level: C1, lesson: c1-06, sources: [ GSE, GIU, PEU, OEGC, OGEG, LALG ] }
+  - { id: be-to-infinitive, title: "be to + infinitive (orders, plans, rules: You are to report at 9)", level: C1, lesson: c1-07, sources: [ GIU, PEU, OEGC, OMEG, OGEG, LEG, LALG ] }
+  - { id: be-bound-to, title: "be bound / sure / certain / likely / set to", level: C1, lesson: c1-07, sources: [ GSE, GIU, OMEG, OGEG, LGSWE, LSGSWE, LALG ] }
+  - { id: distancing-past, title: "Past tenses for politeness (I was wondering, I wanted to ask)", level: C1, lesson: c1-08, sources: [ EGP, GSE, PEU, OEGC, OMEG, OGEG, CGEL, LALG ] }
+  - { id: tentative-forms, title: "Tentative forms (I was hoping, I'd hoped)", level: C1, lesson: c1-08, sources: [ PEU, OEGC, OGEG, CGEL ] }
+  - { id: historic-present, title: "Present tenses in stories, jokes and commentaries", level: C1, lesson: c1-09, sources: [ GSE, GIU, PEU, OEGC, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LALG ] }
   - { id: headline-present, title: "Present simple in headlines for past events", level: C1, lesson: c1-09, sources: [ PEU, LGSWE, LSGSWE, CGEL ] }
   - { id: i-hear-that, title: "I hear / I gather / I understand that…", level: C1, lesson: c1-09, sources: [ GSE, PEU, OEGC ] }
   - { id: stance-tense, title: "Tense and aspect to show attitude (I've been meaning to…; I'm hoping you could…)", level: C2, lesson: c2-04, sources: [ LGSWE ] }
   - { id: news-perfect-past, title: "Present perfect for news, past simple for the details", level: C2, lesson: c2-04, sources: [ GIU, PEU, OEGC, OPG, LALG ] }
-  - { id: perfect-progressive-nuance, title: "Fine aspect choices (have been having; perfect for current relevance)", level: C2, lesson: c2-05, sources: [ GIU, OEGC, OMEG, LALG ] }
-  - { id: aspect-in-narrative, title: "Choosing aspect for effect in narrative", level: C2, lesson: c2-05, sources: [ CI, GIU, CGEL ] }
+  - { id: perfect-progressive-nuance, title: "Fine aspect choices (have been having; perfect for current relevance)", level: C2, lesson: c2-05, sources: [ GIU, OEGC, OMEG, OGEG, LALG ] }
+  - { id: aspect-in-narrative, title: "Choosing aspect for effect in narrative", level: C2, lesson: c2-05, sources: [ CI, GIU, OGEG, CGEL ] }
   # added from the reference audit
-  - { id: in-period-future, title: "in + period of time for the future (in two weeks, in a few minutes)", level: A2, lesson: a2-11, sources: [ GSE ] }
-  - { id: us-uk-verb-spelling, title: "US and UK spelling of verb forms (traveled / travelled, learned / learnt, dreamed / dreamt)", level: A2, lesson: a2-07, sources: [ LGSWE, LSGSWE ] }
+  - { id: in-period-future, title: "in + period of time for the future (in two weeks, in a few minutes)", level: A2, lesson: a2-11, sources: [ GSE, OGEG ] }
+  - { id: us-uk-verb-spelling, title: "US and UK spelling of verb forms (traveled / travelled, learned / learnt, dreamed / dreamt)", level: A2, lesson: a2-07, sources: [ OGEG, LGSWE, LSGSWE ] }

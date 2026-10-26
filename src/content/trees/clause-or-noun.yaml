@@ -1,0 +1,14 @@
+title: "because or because of? although or despite? while or during?"
+pillar: prepositions
+description: "A conjunction before a clause, a preposition before a noun."
+root:
+  q: "What comes next?"
+  options:
+    - label: "A clause: subject + verb (it was raining)"
+      next:
+        answer: "because / although / while"
+        example: "We stayed home because it was raining. · Although it rained, we went out. · I read while I was waiting."
+    - label: "A noun or an -ing form (the rain, waiting)"
+      next:
+        answer: "because of / despite (in spite of) / during"
+        example: "We stayed home because of the rain. · Despite the rain, we went out. · I read during the flight."

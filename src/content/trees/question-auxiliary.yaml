@@ -1,0 +1,34 @@
+title: "Which helper verb do I need for a question?"
+pillar: sentence-structure
+description: "English questions put a helper verb before the subject."
+root:
+  q: "What is in the sentence now?"
+  options:
+    - label: "be (am, is, are, was, were)"
+      next:
+        answer: "Move be before the subject"
+        example: "She is tired. → Is she tired?"
+    - label: "A modal (can, will, should…) or have + past participle"
+      next:
+        answer: "Move it before the subject"
+        example: "You can swim. → Can you swim? · You have finished. → Have you finished?"
+    - label: "Another verb in the present simple"
+      next:
+        q: "Is the subject he, she or it?"
+        options:
+          - label: "Yes: he, she, it"
+            next:
+              answer: "Does + subject + base form"
+              example: "She works here. → Does she work here?"
+          - label: "No: I, you, we, they"
+            next:
+              answer: "Do + subject + base form"
+              example: "You work here. → Do you work here?"
+    - label: "Another verb in the past simple"
+      next:
+        answer: "Did + subject + base form"
+        example: "You saw it. → Did you see it?"
+    - label: "I'm asking who or what did it (the subject)"
+      next:
+        answer: "No helper: Who / What + verb"
+        example: "Who called you? · What happened?"

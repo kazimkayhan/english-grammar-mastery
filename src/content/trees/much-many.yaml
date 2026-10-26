@@ -1,0 +1,30 @@
+title: "much, many or a lot of?"
+pillar: determiners
+description: "Countable or not, positive or not."
+root:
+  q: "Can you count the noun (one book, two books)?"
+  options:
+    - label: "Yes, it's countable"
+      next:
+        q: "Is the sentence positive?"
+        options:
+          - label: "Positive"
+            next:
+              answer: "a lot of (many in formal writing)"
+              example: "She has a lot of friends. · Many students study online."
+          - label: "Negative or a question"
+            next:
+              answer: "many"
+              example: "I don't have many friends. · How many books do you have?"
+    - label: "No, it's uncountable"
+      next:
+        q: "Is the sentence positive?"
+        options:
+          - label: "Positive"
+            next:
+              answer: "a lot of"
+              example: "We have a lot of time. · She drinks a lot of water."
+          - label: "Negative or a question"
+            next:
+              answer: "much"
+              example: "I don't have much time. · How much money do you need?"

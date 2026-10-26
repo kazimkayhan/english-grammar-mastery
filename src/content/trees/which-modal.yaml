@@ -1,0 +1,50 @@
+title: "Which modal verb?"
+pillar: modals
+description: "must, have to, should, can, might… by what you want to say."
+root:
+  q: "What do you want to say?"
+  options:
+    - label: "It is necessary"
+      next:
+        q: "Whose rule is it?"
+        options:
+          - label: "My own feeling or decision"
+            next:
+              answer: "must"
+              example: "I must call my mum tonight."
+          - label: "An outside rule or situation"
+            next:
+              answer: "have to"
+              example: "In Iran, you have to drive on the right."
+    - label: "It is not allowed"
+      next:
+        answer: "mustn't / can't"
+        example: "You mustn't smoke here. · You can't park there."
+    - label: "It is not necessary"
+      next:
+        answer: "don't have to / needn't"
+        example: "You don't have to come. It's optional."
+    - label: "It's a good idea (advice)"
+      next:
+        answer: "should (had better for a warning)"
+        example: "You should see a doctor. · You'd better hurry, or you'll miss the bus."
+    - label: "Ability or permission"
+      next:
+        answer: "can / could / be able to"
+        example: "She can swim. · Can I sit here? · Could you help me?"
+    - label: "I'm guessing about now"
+      next:
+        q: "How sure are you?"
+        options:
+          - label: "Sure it's true"
+            next:
+              answer: "must"
+              example: "The lights are on. He must be home."
+          - label: "Sure it's not true"
+            next:
+              answer: "can't"
+              example: "She can't be 50! She looks 30."
+          - label: "It's possible"
+            next:
+              answer: "may / might / could"
+              example: "She might be at work. · It could rain later."

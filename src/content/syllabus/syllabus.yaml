@@ -4,7 +4,7 @@
 
 # ------------------------------------------------------------------ A1 (35)
 - { id: a1-01, level: A1, number: 1, title: "Parts of speech & sentence parts", pillar: word-classes, size: core }
-- { id: a1-02, level: A1, number: 2, title: "Capital letters, full stops & question marks", pillar: style, size: mini }
+- { id: a1-02, level: A1, number: 2, title: "Capital letters, periods & question marks", pillar: style, size: mini }
 - { id: a1-03, level: A1, number: 3, title: "Every sentence needs a subject: SVO order", pillar: sentence-structure, size: core }
 - { id: a1-04, level: A1, number: 4, title: "Subject pronouns: I, you, he, she, it, we, they", pillar: pronouns, size: core }
 - { id: a1-05, level: A1, number: 5, title: "be: am, is, are", pillar: tenses, size: core }

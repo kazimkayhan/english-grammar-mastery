@@ -1,0 +1,18 @@
+title: "Active or passive?"
+pillar: voice
+description: "Who do you want to talk about: the doer or what happened?"
+root:
+  q: "Is the person or thing that does the action important here?"
+  options:
+    - label: "Yes, the doer is the topic"
+      next:
+        answer: "Active"
+        example: "Ali wrote this letter."
+    - label: "No: unknown, obvious or unimportant"
+      next:
+        answer: "Passive: be + past participle"
+        example: "My phone was stolen. · English is spoken all over the world."
+    - label: "The action or result is the topic (news, science, processes)"
+      next:
+        answer: "Passive (add by + doer only if it matters)"
+        example: "The bridge was built in 1990 by a Chinese company."

@@ -1,0 +1,30 @@
+title: "Present simple or present continuous?"
+pillar: tenses
+description: "Habit or now? Permanent or temporary? State or action?"
+root:
+  q: "Is the verb a state (know, like, want, need, believe, belong)?"
+  options:
+    - label: "Yes, a state"
+      next:
+        answer: "Present simple (states are not usually continuous)"
+        example: "I know the answer. (not I'm knowing) · She wants a new phone."
+    - label: "No, an action"
+      next:
+        q: "When does it happen?"
+        options:
+          - label: "Now, or around now"
+            next:
+              answer: "Present continuous"
+              example: "She's cooking right now. · I'm reading a great book this week."
+          - label: "Temporary: only for a period"
+            next:
+              answer: "Present continuous"
+              example: "I'm living with my aunt this month."
+          - label: "Habit, routine, fact, permanent"
+            next:
+              answer: "Present simple"
+              example: "She cooks every day. · Water boils at 100°C. · I live in Shiraz."
+          - label: "A fixed plan for the future"
+            next:
+              answer: "Present continuous"
+              example: "I'm meeting Ali tomorrow at six."

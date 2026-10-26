@@ -1,49 +1,49 @@
 pillar: conditionals
 points:
-  - { id: zero-conditional, title: "Zero conditional (If you heat ice, it melts)", level: A2, lesson: a2-26, sources: [ EGP, GSE, CI, PEU, OEGC, OPG, CGEL, LALG ] }
+  - { id: zero-conditional, title: "Zero conditional (If you heat ice, it melts)", level: A2, lesson: a2-26, sources: [ EGP, GSE, CI, PEU, OEGC, OPG, OGEG, OGEAP, CGEL, LALG ] }
   - { id: if-vs-when-facts, title: "if vs when for facts", level: A2, lesson: a2-26, sources: [ LALG ] }
-  - { id: first-conditional, title: "First conditional (If it rains, I'll stay home)", level: A2, lesson: a2-27, sources: [ EGP, GSE, CI, GIU, PEU, OEGC, OPG, OMEG, CGEL, LEG, LALG ] }
-  - { id: future-time-clauses-basic, title: "when / as soon as / before / until + present for the future", level: A2, lesson: a2-27, sources: [ GIU, PEU, OPG, CGEL, LEG ] }
-  - { id: second-conditional, title: "Second conditional (If I had more time, I'd…)", level: B1, lesson: b1-23, sources: [ EGP, GSE, CI, GIU, PEU, OEGC, OPG, OMEG, CGEL, LEG, LALG ] }
+  - { id: first-conditional, title: "First conditional (If it rains, I'll stay home)", level: A2, lesson: a2-27, sources: [ EGP, GSE, CI, GIU, PEU, OEGC, OPG, OMEG, OGEG, OGEAP, CGEL, LEG, LALG ] }
+  - { id: future-time-clauses-basic, title: "when / as soon as / before / until + present for the future", level: A2, lesson: a2-27, sources: [ GIU, PEU, OPG, OGEG, CGEL, LEG ] }
+  - { id: second-conditional, title: "Second conditional (If I had more time, I'd…)", level: B1, lesson: b1-23, sources: [ EGP, GSE, CI, GIU, PEU, OEGC, OPG, OMEG, OGEG, OGEAP, CGEL, LEG, LALG ] }
   - { id: if-i-were-you, title: "If I were you (were for all persons; was in informal speech)", level: B1, lesson: b1-23, sources: [ GSE, GIU, PEU, OPG, CGEL, LEG, LALG ] }
   - { id: first-vs-second, title: "First vs second conditional (real vs unreal)", level: B1, lesson: b1-23, sources: [ GIU, OEGC, OPG, LEG, LALG ] }
-  - { id: unless, title: "unless = if … not", level: B1, lesson: b1-24, sources: [ EGP, GSE, GIU, PEU, OEGC, OPG, CGEL, LEG, LALG ] }
-  - { id: as-long-as, title: "as long as / so long as", level: B1, lesson: b1-24, sources: [ GSE, GIU, PEU, OEGC, OPG, CGEL, LEG, LALG ] }
-  - { id: in-case, title: "in case vs if", level: B1, lesson: b1-24, sources: [ GSE, GIU, PEU, OEGC, OPG, CGEL, LEG, LALG ] }
+  - { id: unless, title: "unless = if … not", level: B1, lesson: b1-24, sources: [ EGP, GSE, GIU, PEU, OEGC, OPG, OGEG, OGEAP, CGEL, LEG, LALG ] }
+  - { id: as-long-as, title: "as long as / so long as", level: B1, lesson: b1-24, sources: [ GSE, GIU, PEU, OEGC, OPG, OGEG, CGEL, LEG, LALG ] }
+  - { id: in-case, title: "in case vs if", level: B1, lesson: b1-24, sources: [ GSE, GIU, PEU, OEGC, OPG, OGEG, CGEL, LEG, LALG ] }
   - { id: when-vs-if, title: "when vs if", level: B1, lesson: b1-24, sources: [ GIU, PEU, OPG, LALG ] }
-  - { id: wish-past, title: "wish + past simple (I wish I had a car)", level: B1, lesson: b1-25, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: wish-past, title: "wish + past simple (I wish I had a car)", level: B1, lesson: b1-25, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
   - { id: wish-vs-hope, title: "wish vs hope", level: B1, lesson: b1-25, sources: [ GSE, GIU, PEU, LEG, LALG ] }
   - { id: if-only-intro, title: "if only", level: B1, lesson: b1-25, sources: [ GSE, CI, PEU, OEGC, OPG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: third-conditional, title: "Third conditional (If I had known, I would have…)", level: B2, lesson: b2-17, sources: [ EGP, GSE, CI, GIU, PEU, OEGC, OPG, CGEL, LEG, LALG ] }
+  - { id: third-conditional, title: "Third conditional (If I had known, I would have…)", level: B2, lesson: b2-17, sources: [ EGP, GSE, CI, GIU, PEU, OEGC, OPG, OGEG, OGEAP, CGEL, LEG, LALG ] }
   - { id: no-would-in-if, title: "No would in the if-clause", level: B2, lesson: b2-17, sources: [ PEU, LEG, LALG ] }
-  - { id: mixed-past-present, title: "Mixed conditional: past condition, present result", level: B2, lesson: b2-18, sources: [ GSE, CI, PEU, OEGC, OPG, CGEL, LEG, LALG ] }
-  - { id: mixed-present-past, title: "Mixed conditional: present condition, past result", level: B2, lesson: b2-18, sources: [ CI, PEU, OPG, LEG, LALG ] }
-  - { id: provided-providing, title: "provided / providing (that), on condition that", level: B2, lesson: b2-19, sources: [ EGP, GSE, GIU, PEU, CGEL, LEG, LALG ] }
-  - { id: even-if, title: "even if", level: B2, lesson: b2-19, sources: [ GSE, PEU, OPG, LALG ] }
-  - { id: only-if, title: "only if", level: B2, lesson: b2-19, sources: [ GSE, GIU, PEU, OPG, CGEL, LALG ] }
-  - { id: suppose-what-if, title: "suppose / supposing, what if, assuming", level: B2, lesson: b2-19, sources: [ GSE, PEU, LALG ] }
-  - { id: otherwise, title: "otherwise", level: B2, lesson: b2-19, sources: [ GSE, PEU, CGEL, LEG, LALG ] }
+  - { id: mixed-past-present, title: "Mixed conditional: past condition, present result", level: B2, lesson: b2-18, sources: [ GSE, CI, PEU, OEGC, OPG, OGEG, OGEAP, CGEL, LEG, LALG ] }
+  - { id: mixed-present-past, title: "Mixed conditional: present condition, past result", level: B2, lesson: b2-18, sources: [ CI, PEU, OPG, OGEG, LEG, LALG ] }
+  - { id: provided-providing, title: "provided / providing (that), on condition that", level: B2, lesson: b2-19, sources: [ EGP, GSE, GIU, PEU, OGEG, OGEAP, CGEL, LEG, LALG ] }
+  - { id: even-if, title: "even if", level: B2, lesson: b2-19, sources: [ GSE, PEU, OPG, OGEG, LALG ] }
+  - { id: only-if, title: "only if", level: B2, lesson: b2-19, sources: [ GSE, GIU, PEU, OPG, OGEG, CGEL, LALG ] }
+  - { id: suppose-what-if, title: "suppose / supposing, what if, assuming", level: B2, lesson: b2-19, sources: [ GSE, PEU, OGEG, LALG ] }
+  - { id: otherwise, title: "otherwise", level: B2, lesson: b2-19, sources: [ GSE, PEU, OGEG, CGEL, LEG, LALG ] }
   - { id: whether-or-not, title: "whether or not", level: B2, lesson: b2-19, sources: [ GSE, GIU, PEU, OPG ] }
-  - { id: wish-past-perfect, title: "wish / if only + past perfect (past regrets)", level: B2, lesson: b2-20, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, LEG, LALG ] }
+  - { id: wish-past-perfect, title: "wish / if only + past perfect (past regrets)", level: B2, lesson: b2-20, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OGEG, LEG, LALG ] }
   - { id: wish-would, title: "wish + would (annoyance)", level: B2, lesson: b2-20, sources: [ CI, GIU, PEU, OPG, LEG, LALG ] }
   - { id: would-rather-past, title: "would rather + subject + past", level: B2, lesson: b2-20, sources: [ GSE, GIU, PEU, OEGC, CGEL, LEG, LALG ] }
   - { id: its-time-past, title: "it's time + past", level: B2, lesson: b2-20, sources: [ GSE, GIU, PEU, OEGC, OMEG, LEG, LALG ] }
   - { id: rather-better-prefer, title: "would rather vs had better vs prefer (prefer X to Y; prefer somebody to)", level: B2, lesson: b2-20, sources: [ GSE, GIU, PEU, OPG, OMEG, CGEL, LEG ] }
-  - { id: inverted-had, title: "Inverted conditional: Had I known…", level: C1, lesson: c1-14, sources: [ GIU, PEU, OMEG, CGEL, LALG ] }
-  - { id: inverted-should, title: "Inverted conditional: Should you need…", level: C1, lesson: c1-14, sources: [ GSE, GIU, PEU ] }
-  - { id: inverted-were, title: "Inverted conditional: Were I to…, Were it not for…", level: C1, lesson: c1-14, sources: [ GIU, PEU, OEGC ] }
+  - { id: inverted-had, title: "Inverted conditional: Had I known…", level: C1, lesson: c1-14, sources: [ GIU, PEU, OMEG, OGEG, OGEAP, CGEL, LALG ] }
+  - { id: inverted-should, title: "Inverted conditional: Should you need…", level: C1, lesson: c1-14, sources: [ GSE, GIU, PEU, OGEG ] }
+  - { id: inverted-were, title: "Inverted conditional: Were I to…, Were it not for…", level: C1, lesson: c1-14, sources: [ GIU, PEU, OEGC, OGEG ] }
   - { id: if-should, title: "if + should (If you should see him…)", level: C1, lesson: c1-15, sources: [ GIU, PEU, OEGC, CGEL ] }
-  - { id: if-were-to, title: "if + were to", level: C1, lesson: c1-15, sources: [ GIU, PEU, OEGC ] }
+  - { id: if-were-to, title: "if + were to", level: C1, lesson: c1-15, sources: [ GIU, PEU, OEGC, OGEG ] }
   - { id: if-happen-to, title: "if + happen to", level: C1, lesson: c1-15, sources: [ GIU, PEU ] }
   - { id: if-will-would, title: "if + will / would for willingness and politeness", level: C1, lesson: c1-15, sources: [ GIU, PEU, OEGC, OPG, LALG ] }
-  - { id: reduced-conditionals, title: "if so, if not, if necessary, if possible, if any, if anything", level: C1, lesson: c1-15, sources: [ GSE, GIU, PEU, OEGC, CGEL ] }
+  - { id: reduced-conditionals, title: "if so, if not, if necessary, if possible, if any, if anything", level: C1, lesson: c1-15, sources: [ GSE, GIU, PEU, OEGC, OGEAP, CGEL ] }
   - { id: but-for, title: "but for; if it weren't for / if it hadn't been for", level: C1, lesson: c1-15, sources: [ GSE, GIU, PEU, CGEL, LALG ] }
-  - { id: as-if, title: "as if / as though (real vs unreal)", level: C1, lesson: c1-16, sources: [ GSE, GIU, PEU, OEGC, OPG, OMEG, CGEL, LEG, LALG ] }
+  - { id: as-if, title: "as if / as though (real vs unreal)", level: C1, lesson: c1-16, sources: [ GSE, GIU, PEU, OEGC, OPG, OMEG, OGEG, CGEL, LEG, LALG ] }
   - { id: would-sooner, title: "would rather / would sooner + subject", level: C1, lesson: c1-16, sources: [ PEU, OMEG, LEG ] }
   - { id: high-time, title: "it's high time / about time", level: C1, lesson: c1-16, sources: [ PEU, LEG, LALG ] }
   - { id: suppose-imagine, title: "suppose / imagine + past", level: C1, lesson: c1-16, sources: [ PEU, LALG ] }
   - { id: without-given-assuming, title: "without, otherwise, given, assuming as conditions", level: C2, lesson: c2-03, sources: [ PEU, OPG, OMEG, CGEL, LALG ] }
   - { id: or-and-conditionals, title: "Hurry, or you'll miss it; One more step and I'll scream", level: C2, lesson: c2-03, sources: [ PEU ] }
-  - { id: implied-conditionals, title: "Implied conditionals (I wouldn't do that.)", level: C2, lesson: c2-03, sources: [ PEU, OEGC, OPG, LALG ] }
+  - { id: implied-conditionals, title: "Implied conditionals (I wouldn't do that.)", level: C2, lesson: c2-03, sources: [ PEU, OEGC, OPG, OGEG, LALG ] }
   # added from the reference audit
-  - { id: modals-conditional-main, title: "Modals in conditional main clauses (If it rains, we could / might / should…)", level: B1, lesson: b1-23, sources: [ OEGC ] }
+  - { id: modals-conditional-main, title: "Modals in conditional main clauses (If it rains, we could / might / should…)", level: B1, lesson: b1-23, sources: [ OEGC, OGEG ] }

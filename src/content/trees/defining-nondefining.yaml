@@ -1,0 +1,14 @@
+title: "Defining or non-defining relative clause?"
+pillar: clauses
+description: "Decides commas, that, and whether you can leave the pronoun out."
+root:
+  q: "Do we need the clause to know which person or thing you mean?"
+  options:
+    - label: "Yes, without it we don't know which one"
+      next:
+        answer: "Defining: no commas; that is fine; you can leave out the pronoun when it's the object"
+        example: "The man (that) I met yesterday is a doctor."
+    - label: "No, it's extra information"
+      next:
+        answer: "Non-defining: commas; never that; never leave the pronoun out"
+        example: "My father, who is 60, still works."

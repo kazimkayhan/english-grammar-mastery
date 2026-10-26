@@ -1,0 +1,30 @@
+title: "in, on or at? (place)"
+pillar: prepositions
+description: "Inside, on a surface, or at a point."
+root:
+  q: "How do you see the place?"
+  options:
+    - label: "Inside something with limits (room, box, city, country)"
+      next:
+        answer: "in"
+        example: "in the kitchen · in Tehran · in Iran"
+    - label: "On a surface or a line (table, wall, floor, street)"
+      next:
+        answer: "on"
+        example: "on the table · on the wall · on Ferdowsi Street"
+    - label: "A point, or a place for an activity (door, bus stop, work, an address)"
+      next:
+        answer: "at"
+        example: "at the door · at work · at 12 Azadi Street"
+    - label: "Transport"
+      next:
+        q: "Can you stand up and walk around in it?"
+        options:
+          - label: "Yes: bus, train, plane, ship"
+            next:
+              answer: "on"
+              example: "on the bus · on a plane"
+          - label: "No: car, taxi"
+            next:
+              answer: "in"
+              example: "in the car · in a taxi"

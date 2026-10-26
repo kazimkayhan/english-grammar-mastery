@@ -1,0 +1,42 @@
+title: "who, which, that, whose, where or when?"
+pillar: clauses
+description: "Choose the word that starts a relative clause."
+root:
+  q: "What does the clause describe?"
+  options:
+    - label: "A person"
+      next:
+        q: "Is it about possession (his, her, their)?"
+        options:
+          - label: "Yes"
+            next:
+              answer: "whose"
+              example: "the woman whose car was stolen"
+          - label: "No"
+            next:
+              answer: "who (or that)"
+              example: "the man who lives next door"
+    - label: "A thing or an animal"
+      next:
+        q: "Is it about possession (its)?"
+        options:
+          - label: "Yes"
+            next:
+              answer: "whose"
+              example: "a house whose roof is red"
+          - label: "No"
+            next:
+              answer: "which (or that)"
+              example: "the book which I bought · the book that I bought"
+    - label: "A place"
+      next:
+        answer: "where"
+        example: "the café where we met"
+    - label: "A time"
+      next:
+        answer: "when"
+        example: "the day when we met"
+    - label: "A reason"
+      next:
+        answer: "why"
+        example: "the reason why I'm late"

@@ -1,0 +1,30 @@
+title: "this, that, these or those?"
+pillar: determiners
+description: "Near or far, one or more."
+root:
+  q: "Is it near you or far from you?"
+  options:
+    - label: "Near (here)"
+      next:
+        q: "One thing, or more than one?"
+        options:
+          - label: "One (or uncountable)"
+            next:
+              answer: "this"
+              example: "This book is great. · This water is cold."
+          - label: "More than one"
+            next:
+              answer: "these"
+              example: "These shoes are new."
+    - label: "Far (there)"
+      next:
+        q: "One thing, or more than one?"
+        options:
+          - label: "One (or uncountable)"
+            next:
+              answer: "that"
+              example: "That house over there is ours."
+          - label: "More than one"
+            next:
+              answer: "those"
+              example: "Who are those people?"

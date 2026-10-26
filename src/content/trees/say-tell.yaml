@@ -1,0 +1,26 @@
+title: "say or tell?"
+pillar: reported-speech
+description: "tell needs a person; say doesn't."
+root:
+  q: "Is there a person (the listener) right after the verb?"
+  options:
+    - label: "Yes: me, him, Sara…"
+      next:
+        answer: "tell + person"
+        example: "She told me (that) she was busy. (not She said me)"
+    - label: "No"
+      next:
+        q: "Do you add the listener with to?"
+        options:
+          - label: "Yes"
+            next:
+              answer: "say + to + person"
+              example: "She said to me that she was busy."
+          - label: "No listener"
+            next:
+              answer: "say"
+              example: "She said (that) she was busy."
+    - label: "It's a fixed phrase"
+      next:
+        answer: "tell the truth / a lie / a story / a joke / the time; say hello / goodbye / sorry"
+        example: "Tell me the truth. · Say sorry to your sister."

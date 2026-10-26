@@ -1,0 +1,14 @@
+title: "-ed or -ing adjective?"
+pillar: modifiers
+description: "bored or boring? interested or interesting?"
+root:
+  q: "What are you describing?"
+  options:
+    - label: "How a person feels"
+      next:
+        answer: "-ed"
+        example: "I'm bored. · She's interested in art. · We were tired."
+    - label: "The thing or situation that causes the feeling"
+      next:
+        answer: "-ing"
+        example: "The film is boring. · Art is interesting. · It was a tiring day."

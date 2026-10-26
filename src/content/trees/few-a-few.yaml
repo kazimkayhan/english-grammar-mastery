@@ -1,0 +1,30 @@
+title: "few or a few? little or a little?"
+pillar: determiners
+description: "The small word a changes the feeling from negative to positive."
+root:
+  q: "Is the noun countable (plural) or uncountable?"
+  options:
+    - label: "Countable (friends, people, days)"
+      next:
+        q: "Is the feeling positive (“some, enough”) or negative (“not enough, almost none”)?"
+        options:
+          - label: "Positive: some, enough"
+            next:
+              answer: "a few"
+              example: "I have a few friends here, so I'm happy."
+          - label: "Negative: almost none"
+            next:
+              answer: "few"
+              example: "Few people came to the party. It was disappointing."
+    - label: "Uncountable (time, milk, money)"
+      next:
+        q: "Is the feeling positive (“some, enough”) or negative (“not enough”)?"
+        options:
+          - label: "Positive: some, enough"
+            next:
+              answer: "a little"
+              example: "There's a little milk left, enough for one coffee."
+          - label: "Negative: not enough"
+            next:
+              answer: "little"
+              example: "We have little time. Hurry up!"

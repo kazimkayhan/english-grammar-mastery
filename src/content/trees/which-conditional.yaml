@@ -1,0 +1,34 @@
+title: "Which conditional?"
+pillar: conditionals
+description: "Real or imaginary? Past, present or future?"
+root:
+  q: "What kind of situation is it?"
+  options:
+    - label: "Always true: facts and general truths"
+      next:
+        answer: "Zero: If + present, present"
+        example: "If you heat ice, it melts."
+    - label: "A real possibility in the future"
+      next:
+        answer: "First: If + present, will + verb"
+        example: "If it rains, I'll stay home."
+    - label: "Imaginary or unlikely, now or in the future"
+      next:
+        answer: "Second: If + past, would + verb"
+        example: "If I had more money, I'd travel the world."
+    - label: "Imaginary past: it didn't happen"
+      next:
+        q: "Is the result in the past or now?"
+        options:
+          - label: "In the past"
+            next:
+              answer: "Third: If + had + past participle, would have + past participle"
+              example: "If I had studied, I would have passed."
+          - label: "Now"
+            next:
+              answer: "Mixed: If + had + past participle, would + verb"
+              example: "If I had taken that job, I would be rich now."
+    - label: "A present fact with an imaginary past result"
+      next:
+        answer: "Mixed: If + past, would have + past participle"
+        example: "If I weren't so shy, I would have spoken to her."

@@ -1,0 +1,42 @@
+title: "-ing or to?"
+pillar: verb-patterns
+description: "Choose the verb form after another word."
+root:
+  q: "What comes just before the second verb?"
+  options:
+    - label: "A preposition (at, in, of, about, before, without… look forward to)"
+      next:
+        answer: "-ing"
+        example: "I'm good at cooking. · I look forward to seeing you."
+    - label: "Nothing: the verb is the subject"
+      next:
+        answer: "-ing (usually)"
+        example: "Swimming is good for you."
+    - label: "It explains why (purpose)"
+      next:
+        answer: "to + verb"
+        example: "I came here to study. (not for study)"
+    - label: "A modal, make or let"
+      next:
+        answer: "base form, no to"
+        example: "You must go. · Let me help. · She made me laugh."
+    - label: "Another verb"
+      next:
+        q: "Which verb?"
+        options:
+          - label: "enjoy, finish, mind, avoid, keep, suggest, practice, can't stand"
+            next:
+              answer: "-ing"
+              example: "I enjoy reading. · Do you mind waiting?"
+          - label: "want, need, decide, hope, plan, agree, refuse, promise, would like"
+            next:
+              answer: "to + verb"
+              example: "I want to learn English. · She decided to stay."
+          - label: "like, love, hate, begin, start, continue"
+            next:
+              answer: "Both, with little change in meaning"
+              example: "I like swimming. / I like to swim."
+          - label: "remember, forget, stop, try, regret"
+            next:
+              answer: "Both, but the meaning changes"
+              example: "I stopped smoking (I don't smoke now). · I stopped to smoke (I stopped walking so I could smoke)."

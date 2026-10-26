@@ -1,0 +1,22 @@
+title: "-er / -est or more / most?"
+pillar: modifiers
+description: "Count the syllables of the adjective."
+root:
+  q: "What kind of adjective is it?"
+  options:
+    - label: "One syllable (big, cheap, old)"
+      next:
+        answer: "-er / the -est"
+        example: "cheaper, the cheapest · bigger, the biggest"
+    - label: "Two syllables ending in -y (happy, easy)"
+      next:
+        answer: "-ier / the -iest"
+        example: "happier, the happiest · easier, the easiest"
+    - label: "Two or more syllables (modern, expensive)"
+      next:
+        answer: "more / the most"
+        example: "more expensive, the most interesting"
+    - label: "good, bad, far"
+      next:
+        answer: "Irregular"
+        example: "good → better → best · bad → worse → worst · far → farther / further → farthest / furthest"

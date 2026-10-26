@@ -1,0 +1,26 @@
+title: "although, but, however or despite?"
+pillar: clauses
+description: "Four ways to show contrast, and where each one goes."
+root:
+  q: "Where does the contrast word go?"
+  options:
+    - label: "At the start of a clause, inside one sentence"
+      next:
+        q: "What follows it?"
+        options:
+          - label: "A clause (subject + verb)"
+            next:
+              answer: "although / even though / though"
+              example: "Although it was late, we went out. (never although… but)"
+          - label: "A noun or -ing"
+            next:
+              answer: "despite / in spite of"
+              example: "Despite the rain, we went out."
+    - label: "Between two clauses in one sentence"
+      next:
+        answer: "but"
+        example: "It was late, but we went out."
+    - label: "At the start of a new sentence"
+      next:
+        answer: "However,"
+        example: "It was late. However, we went out."

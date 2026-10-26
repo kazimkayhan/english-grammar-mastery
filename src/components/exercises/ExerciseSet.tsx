@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { Field, FieldContent, FieldDescription, FieldLabel, FieldTitle } from "@/components/ui/field"
 import { Input } from "@/components/ui/input"
-import { NativeSelect, NativeSelectOption } from "@/components/ui/native-select"
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Progress } from "@/components/ui/progress"
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import { Textarea } from "@/components/ui/textarea"
@@ -451,26 +451,27 @@ function MatchBody({
           <FieldLabel htmlFor={`${id}-${i}`} className="text-base font-normal">
             {left}
           </FieldLabel>
-          <NativeSelect
+          <Select
             id={`${id}-${i}`}
             disabled={locked}
-            className="w-full sm:max-w-xs"
-            defaultValue=""
-            onChange={(e) => {
-              const next = { ...chosen, [left]: e.target.value }
+            value={chosen[left] ?? null}
+            onValueChange={(value) => {
+              const next = { ...chosen, [left]: value ?? "" }
               setChosen(next)
               onChange(next)
             }}
           >
-            <NativeSelectOption value="" disabled>
-              Choose…
-            </NativeSelectOption>
-            {rights.map((r) => (
-              <NativeSelectOption key={r} value={r}>
-                {r}
-              </NativeSelectOption>
-            ))}
-          </NativeSelect>
+            <SelectTrigger className="h-10 w-full text-base sm:max-w-xs">
+              <SelectValue placeholder="Choose…" />
+            </SelectTrigger>
+            <SelectContent>
+              {rights.map((r) => (
+                <SelectItem key={r} value={r} className="text-base">
+                  {r}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
         </Field>
       ))}
     </div>

@@ -1,0 +1,18 @@
+title: "Countable or uncountable?"
+pillar: nouns
+description: "Decides a/an, plural -s, many or much."
+root:
+  q: "Can you put a number before it (one ___, two ___s)?"
+  options:
+    - label: "Yes: one chair, two chairs"
+      next:
+        answer: "Countable: a/an, plural -s, many, a few"
+        example: "a chair · two chairs · many chairs · a few chairs"
+    - label: "No, it sounds wrong"
+      next:
+        answer: "Uncountable: no a/an, no -s; much, a little, some"
+        example: "some water · much information · a little advice · a piece of furniture"
+    - label: "Both seem possible"
+      next:
+        answer: "It has two meanings: check which one you mean"
+        example: "a coffee (one cup) / coffee (the drink) · a paper (a newspaper) / paper (the material)"

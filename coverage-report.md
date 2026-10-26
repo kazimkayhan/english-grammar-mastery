@@ -1,6 +1,6 @@
 # Grammar coverage report
 
-Inventory: **879 points** · Syllabus: **250 lessons** · Published: **1** · Points taught so far: **4**
+Inventory: **879 points** · Syllabus: **250 lessons** · Published: **35** · Points taught so far: **108**
 
 ## Points per pillar × level
 
@@ -44,8 +44,8 @@ Inventory: **879 points** · Syllabus: **250 lessons** · Published: **1** · Po
 | OEGC | Oxford | Updated Edition 2019 per retailers (Basic 9780194414814, Intermediate 9780194414876, Advanced 9780194414937); contents actually read are the earlier 2011 Advanced list of topics and a 2020 Intermediate sample | partial | 341 | 340 | 1 | 0 | 100% |
 | OPG | Oxford | Revised edition 2019 is the newest (Basic ISBN 9780194214728, Intermediate 9780194214742, Advanced 9780194214766). Contents actually read: Basic and Intermediate = 2006 'new series' edition contents pages; Advanced = with-key edition (2006, reprinted 2009). | partial | 389 | 387 | 2 | 0 | 100% |
 | OMEG | Oxford | 1st edition, Oxford University Press, 2011 (Bas Aarts); no later edition found | yes | 161 | 150 | 11 | 0 | 100% |
-| OGEG | Oxford | verify latest | – | – | – | – | – | not collected yet |
-| OGEAP | Oxford | verify latest | – | – | – | – | – | not collected yet |
+| OGEG | Oxford | John Eastwood, Oxford Guide to English Grammar, Oxford University Press, first published 1994 (paperback ISBN 0 19 431351 4 = 9780194313513; hardback 0 19 431334 4), seventh impression 2002; 446 pages, 40 chapters, 308 numbered sections. No newer edition was found; the book has not been revised since 1994. | yes | 267 | 266 | 1 | 0 | 100% |
+| OGEAP | Oxford | Oxford Grammar for EAP, Ken Paterson with Roberta Wedge, Oxford University Press, 1st edition 2013, ISBN 9780194329996 (no newer edition confirmed) | partial | 23 | 21 | 2 | 0 | 100% |
 | LGSWE | Longman / John Benjamins | 2021, John Benjamins (redesign of the 1999 Longman edition). TOC actually read: 1999 Longman first edition (scan on archive.org). The 2021 TOC could not be retrieved. | partial | 303 | 281 | 22 | 0 | 100% |
 | LSGSWE | Longman | 2002, Longman (Biber, Conrad, Leech). This is the only edition found; no later edition or revision located in catalogue records (companion Workbook exists). | yes | 116 | 111 | 5 | 0 | 100% |
 | CGEL | Longman | 1985, Longman (Quirk, Greenbaum, Leech, Svartvik; index by David Crystal), 1779 pp. Only edition; no later Longman edition exists (Wikipedia/catalogue listings). | partial | 127 | 123 | 4 | 0 | 100% |

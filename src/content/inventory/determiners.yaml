@@ -1,75 +1,75 @@
 pillar: determiners
 points:
-  - { id: a-an-sound, title: "a or an: decided by the sound (an hour, a university, an MBA)", level: A1, lesson: a1-09, aliases: [ "indefinite article" ], sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, LEG, LALG ] }
-  - { id: a-jobs, title: "a / an with jobs (She's a doctor)", level: A1, lesson: a1-09, sources: [ GSE, PEU, OEGC, OPG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: a-vs-one, title: "a vs one (a coffee, please / one coffee, not two)", level: A1, lesson: a1-09, sources: [ GIU, PEU, OEGC, OPG, LGSWE, LSGSWE, CGEL, LEG ] }
-  - { id: the-specific, title: "the for specific things the listener knows", level: A1, lesson: a1-10, aliases: [ "definite article" ], sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: the-unique, title: "the with unique things (the sun, the internet)", level: A1, lesson: a1-10, sources: [ GIU, PEU, OEGC, OPG, LGSWE, LSGSWE, CGEL, LEG ] }
-  - { id: the-second-mention, title: "a first, the second time (I saw a dog. The dog…)", level: A1, lesson: a1-10, sources: [ GSE, GIU, PEU, OEGC, OPG, LGSWE, LSGSWE, CGEL, LEG ] }
-  - { id: demonstratives, title: "this, that, these, those (near and far)", level: A1, lesson: a1-11, sources: [ GSE, CI, PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: demonstrative-pronouns, title: "this / that as pronouns (This is Ali. What's that?)", level: A1, lesson: a1-11, sources: [ GSE, PEU, OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: demonstrative-time, title: "this / that for time (this morning, that day)", level: A1, lesson: a1-11, sources: [ GSE, PEU, LGSWE, LALG ] }
-  - { id: cardinal-numbers, title: "Cardinal numbers and how to write them (twenty-one, a hundred)", level: A1, lesson: a1-35, sources: [ PEU, OPG, OMEG, LGSWE, LSGSWE, CGEL ] }
-  - { id: ordinal-numbers, title: "Ordinal numbers (first, second, twenty-first)", level: A1, lesson: a1-35, sources: [ GSE, PEU, OPG, OMEG, LGSWE, LSGSWE, CGEL ] }
-  - { id: dates, title: "Saying and writing dates (May 5, the fifth of May, in 2024)", level: A1, lesson: a1-35, sources: [ GSE, PEU, CGEL ] }
-  - { id: telling-time, title: "Telling the time (half past six, a quarter to nine, 6:30)", level: A1, lesson: a1-35, sources: [ GSE, PEU ] }
-  - { id: prices, title: "Prices and amounts ($3.50 = three fifty)", level: A1, lesson: a1-35, sources: [ GSE, CGEL ] }
-  - { id: the-vs-zero, title: "the vs no article: specific vs general (I like music / the music in this film)", level: A2, lesson: a2-30, aliases: [ "zero article" ], sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, LEG, LALG ] }
-  - { id: zero-article-set-phrases, title: "No article in set phrases (at home, go to bed, go to work, by bus, have breakfast)", level: A2, lesson: a2-30, sources: [ PEU, OPG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: articles-meals-days, title: "No article with meals, days, months, sports, languages and school subjects", level: A2, lesson: a2-30, sources: [ PEU, OPG, CGEL, LEG ] }
-  - { id: much-many, title: "much and many", level: A2, lesson: a2-31, sources: [ GSE, GIU, PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG ] }
-  - { id: a-lot-of, title: "a lot of / lots of in positive sentences", level: A2, lesson: a2-31, sources: [ GSE, GIU, PEU, OEGC, OPG, LGSWE, LSGSWE, CGEL, LEG ] }
-  - { id: a-few-a-little, title: "a few (countable) and a little (uncountable)", level: A2, lesson: a2-31, sources: [ GSE, GIU, PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, LEG ] }
-  - { id: too-much-many, title: "too much / too many", level: A2, lesson: a2-31, sources: [ GIU, PEU, OEGC, LEG ] }
-  - { id: some-any-offers, title: "some in offers and requests (Would you like some tea?)", level: A2, lesson: a2-32, sources: [ GIU, PEU, OEGC, OPG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: any-whichever, title: "any meaning 'it doesn't matter which' (Call me any time)", level: A2, lesson: a2-32, sources: [ GIU, PEU, OEGC, OPG, CGEL, LEG ] }
-  - { id: no-none, title: "no + noun and none (There's no milk. None left.)", level: A2, lesson: a2-32, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: indefinite-compounds, title: "something, anyone, nobody, everywhere…", level: A2, lesson: a2-32, aliases: [ "indefinite pronouns" ], sources: [ EGP, GSE, CI, GIU, PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: indefinite-singular-verb, title: "everyone / somebody + singular verb (Everyone is here)", level: A2, lesson: a2-32, sources: [ EGP, GSE, PEU, OPG, LGSWE, LSGSWE, LEG, LALG ] }
-  - { id: one-ones, title: "one / ones to avoid repeating a noun (the red one)", level: A2, lesson: a2-35, sources: [ GSE, GIU, PEU, OEGC, OPG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: another-other, title: "another, other, others, the other(s)", level: A2, lesson: a2-35, sources: [ EGP, GSE, PEU, OEGC, OPG, CGEL, LEG ] }
-  - { id: all-both-basic, title: "all and both (all the students, both of them)", level: A2, lesson: a2-36, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, LGSWE, LSGSWE, LEG, LALG ] }
+  - { id: a-an-sound, title: "a or an: decided by the sound (an hour, a university, an MBA)", level: A1, lesson: a1-09, aliases: [ "indefinite article" ], sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, OGEG, LGSWE, LSGSWE, LEG, LALG ] }
+  - { id: a-jobs, title: "a / an with jobs (She's a doctor)", level: A1, lesson: a1-09, sources: [ GSE, PEU, OEGC, OPG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: a-vs-one, title: "a vs one (a coffee, please / one coffee, not two)", level: A1, lesson: a1-09, sources: [ GIU, PEU, OEGC, OPG, OGEG, LGSWE, LSGSWE, CGEL, LEG ] }
+  - { id: the-specific, title: "the for specific things the listener knows", level: A1, lesson: a1-10, aliases: [ "definite article" ], sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: the-unique, title: "the with unique things (the sun, the internet)", level: A1, lesson: a1-10, sources: [ GIU, PEU, OEGC, OPG, OGEG, LGSWE, LSGSWE, CGEL, LEG ] }
+  - { id: the-second-mention, title: "a first, the second time (I saw a dog. The dog…)", level: A1, lesson: a1-10, sources: [ GSE, GIU, PEU, OEGC, OPG, OGEG, LGSWE, LSGSWE, CGEL, LEG ] }
+  - { id: demonstratives, title: "this, that, these, those (near and far)", level: A1, lesson: a1-11, sources: [ GSE, CI, PEU, OEGC, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: demonstrative-pronouns, title: "this / that as pronouns (This is Ali. What's that?)", level: A1, lesson: a1-11, sources: [ GSE, PEU, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: demonstrative-time, title: "this / that for time (this morning, that day)", level: A1, lesson: a1-11, sources: [ GSE, PEU, OGEG, LGSWE, LALG ] }
+  - { id: cardinal-numbers, title: "Cardinal numbers and how to write them (twenty-one, a hundred)", level: A1, lesson: a1-35, sources: [ PEU, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL ] }
+  - { id: ordinal-numbers, title: "Ordinal numbers (first, second, twenty-first)", level: A1, lesson: a1-35, sources: [ GSE, PEU, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL ] }
+  - { id: dates, title: "Saying and writing dates (May 5, the fifth of May, in 2024)", level: A1, lesson: a1-35, sources: [ GSE, PEU, OGEG, CGEL ] }
+  - { id: telling-time, title: "Telling the time (half past six, a quarter to nine, 6:30)", level: A1, lesson: a1-35, sources: [ GSE, PEU, OGEG ] }
+  - { id: prices, title: "Prices and amounts ($3.50 = three fifty)", level: A1, lesson: a1-35, sources: [ GSE, OGEG, CGEL ] }
+  - { id: the-vs-zero, title: "the vs no article: specific vs general (I like music / the music in this film)", level: A2, lesson: a2-30, aliases: [ "zero article" ], sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, OGEG, LGSWE, LSGSWE, LEG, LALG ] }
+  - { id: zero-article-set-phrases, title: "No article in set phrases (at home, go to bed, go to work, by bus, have breakfast)", level: A2, lesson: a2-30, sources: [ PEU, OPG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: articles-meals-days, title: "No article with meals, days, months, sports, languages and school subjects", level: A2, lesson: a2-30, sources: [ PEU, OPG, OGEG, CGEL, LEG ] }
+  - { id: much-many, title: "much and many", level: A2, lesson: a2-31, sources: [ GSE, GIU, PEU, OEGC, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LEG ] }
+  - { id: a-lot-of, title: "a lot of / lots of in positive sentences", level: A2, lesson: a2-31, sources: [ GSE, GIU, PEU, OEGC, OPG, OGEG, LGSWE, LSGSWE, CGEL, LEG ] }
+  - { id: a-few-a-little, title: "a few (countable) and a little (uncountable)", level: A2, lesson: a2-31, sources: [ GSE, GIU, PEU, OEGC, OPG, OMEG, OGEG, LGSWE, LSGSWE, LEG ] }
+  - { id: too-much-many, title: "too much / too many", level: A2, lesson: a2-31, sources: [ GIU, PEU, OEGC, OGEG, LEG ] }
+  - { id: some-any-offers, title: "some in offers and requests (Would you like some tea?)", level: A2, lesson: a2-32, sources: [ GIU, PEU, OEGC, OPG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: any-whichever, title: "any meaning 'it doesn't matter which' (Call me any time)", level: A2, lesson: a2-32, sources: [ GIU, PEU, OEGC, OPG, OGEG, CGEL, LEG ] }
+  - { id: no-none, title: "no + noun and none (There's no milk. None left.)", level: A2, lesson: a2-32, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: indefinite-compounds, title: "something, anyone, nobody, everywhere…", level: A2, lesson: a2-32, aliases: [ "indefinite pronouns" ], sources: [ EGP, GSE, CI, GIU, PEU, OEGC, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: indefinite-singular-verb, title: "everyone / somebody + singular verb (Everyone is here)", level: A2, lesson: a2-32, sources: [ EGP, GSE, PEU, OPG, OGEG, LGSWE, LSGSWE, LEG, LALG ] }
+  - { id: one-ones, title: "one / ones to avoid repeating a noun (the red one)", level: A2, lesson: a2-35, sources: [ GSE, GIU, PEU, OEGC, OPG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: another-other, title: "another, other, others, the other(s)", level: A2, lesson: a2-35, sources: [ EGP, GSE, PEU, OEGC, OPG, OGEG, CGEL, LEG ] }
+  - { id: all-both-basic, title: "all and both (all the students, both of them)", level: A2, lesson: a2-36, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OGEG, LGSWE, LSGSWE, LEG, LALG ] }
   - { id: each-every-basic, title: "each and every + singular noun", level: A2, lesson: a2-36, sources: [ GIU, PEU, OEGC, OPG, LGSWE, LSGSWE, LEG ] }
   - { id: every-day-all-day, title: "every day vs all day", level: A2, lesson: a2-36, sources: [ GIU, PEU, LEG ] }
-  - { id: the-geography, title: "Articles with places: the Nile, the Alps, the UK; no article for most countries, cities, lakes, single mountains", level: B1, lesson: b1-37, sources: [ GSE, GIU, PEU, OEGC, OPG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: institutions, title: "go to school / hospital / prison (purpose) vs the school (the building)", level: B1, lesson: b1-37, sources: [ GIU, PEU, OEGC, OPG, CGEL, LEG ] }
-  - { id: the-adjective-group, title: "the + adjective for groups (the rich, the elderly)", level: B1, lesson: b1-37, sources: [ GSE, GIU, PEU, OEGC, OPG, LGSWE, LSGSWE, CGEL, LEG ] }
-  - { id: the-nationality, title: "the + nationality (the French, the Japanese)", level: B1, lesson: b1-37, sources: [ GSE, GIU, PEU, OPG, LGSWE, LSGSWE, CGEL, LEG ] }
+  - { id: the-geography, title: "Articles with places: the Nile, the Alps, the UK; no article for most countries, cities, lakes, single mountains", level: B1, lesson: b1-37, sources: [ GSE, GIU, PEU, OEGC, OPG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: institutions, title: "go to school / hospital / prison (purpose) vs the school (the building)", level: B1, lesson: b1-37, sources: [ GIU, PEU, OEGC, OPG, OGEG, CGEL, LEG ] }
+  - { id: the-adjective-group, title: "the + adjective for groups (the rich, the elderly)", level: B1, lesson: b1-37, sources: [ GSE, GIU, PEU, OEGC, OPG, OGEG, LGSWE, LSGSWE, CGEL, LEG ] }
+  - { id: the-nationality, title: "the + nationality (the French, the Japanese)", level: B1, lesson: b1-37, sources: [ GSE, GIU, PEU, OPG, OGEG, LGSWE, LSGSWE, CGEL, LEG ] }
   - { id: the-instruments, title: "the with musical instruments and inventions (play the piano, the phone)", level: B1, lesson: b1-37, sources: [ GIU, PEU, LEG ] }
   - { id: the-superlative-ordinal, title: "the with superlatives, ordinals, same, only, next, last", level: B1, lesson: b1-37, sources: [ GIU, PEU, CGEL, LEG ] }
-  - { id: each-every-full, title: "each vs every (each of, every one of)", level: B1, lesson: b1-40, sources: [ GSE, GIU, PEU, OEGC, OPG, LEG ] }
-  - { id: either-neither, title: "either and neither (+ of; + singular verb)", level: B1, lesson: b1-40, sources: [ GSE, GIU, PEU, OEGC, OPG, LGSWE, LSGSWE, CGEL, LEG ] }
-  - { id: both-all-whole, title: "both, all, whole (all of us, the whole day)", level: B1, lesson: b1-40, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, CGEL, LEG, LALG ] }
-  - { id: none-of, title: "none of + noun", level: B1, lesson: b1-40, sources: [ GSE, GIU, PEU, OPG, LGSWE, LEG, LALG ] }
-  - { id: large-numbers, title: "a hundred vs hundreds of; two thousand (no -s); millions of", level: B1, lesson: b1-42, sources: [ PEU, OPG, LGSWE, CGEL ] }
-  - { id: fractions-decimals, title: "Fractions, decimals and percentages (two-thirds, 2.5 = two point five, 40%)", level: B1, lesson: b1-42, sources: [ PEU, OPG, LGSWE, CGEL ] }
-  - { id: quantity-agreement, title: "Verb agreement with quantities (Half of the cake is… / Half of the students are…)", level: B1, lesson: b1-42, sources: [ GIU, PEU, LGSWE, LSGSWE, CGEL, LALG ] }
-  - { id: generic-reference, title: "Generic reference: The tiger is… / A tiger is… / Tigers are…", level: B2, lesson: b2-32, sources: [ GIU, PEU, OEGC, OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: each-every-full, title: "each vs every (each of, every one of)", level: B1, lesson: b1-40, sources: [ GSE, GIU, PEU, OEGC, OPG, OGEG, LEG ] }
+  - { id: either-neither, title: "either and neither (+ of; + singular verb)", level: B1, lesson: b1-40, sources: [ GSE, GIU, PEU, OEGC, OPG, OGEG, LGSWE, LSGSWE, CGEL, LEG ] }
+  - { id: both-all-whole, title: "both, all, whole (all of us, the whole day)", level: B1, lesson: b1-40, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OGEG, CGEL, LEG, LALG ] }
+  - { id: none-of, title: "none of + noun", level: B1, lesson: b1-40, sources: [ GSE, GIU, PEU, OPG, OGEG, LGSWE, LEG, LALG ] }
+  - { id: large-numbers, title: "a hundred vs hundreds of; two thousand (no -s); millions of", level: B1, lesson: b1-42, sources: [ PEU, OPG, OGEG, LGSWE, CGEL ] }
+  - { id: fractions-decimals, title: "Fractions, decimals and percentages (two-thirds, 2.5 = two point five, 40%)", level: B1, lesson: b1-42, sources: [ PEU, OPG, OGEG, LGSWE, CGEL ] }
+  - { id: quantity-agreement, title: "Verb agreement with quantities (Half of the cake is… / Half of the students are…)", level: B1, lesson: b1-42, sources: [ GIU, PEU, OGEG, LGSWE, LSGSWE, CGEL, LALG ] }
+  - { id: generic-reference, title: "Generic reference: The tiger is… / A tiger is… / Tigers are…", level: B2, lesson: b2-32, sources: [ GIU, PEU, OEGC, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
   - { id: abstract-articles, title: "Articles with abstract nouns (Life is short / the life of Mozart)", level: B2, lesson: b2-32, sources: [ GSE, CI, GIU, PEU, OEGC, CGEL, LEG, LALG ] }
-  - { id: the-comparative-the, title: "the + comparative, the + comparative (the sooner, the better)", level: B2, lesson: b2-32, sources: [ GIU ] }
+  - { id: the-comparative-the, title: "the + comparative, the + comparative (the sooner, the better)", level: B2, lesson: b2-32, sources: [ GIU, OGEG ] }
   - { id: next-last-the, title: "next / last with and without the (next week / the next week)", level: B2, lesson: b2-32, sources: [ PEU, CGEL ] }
   - { id: the-body-parts, title: "the with parts of the body after a preposition (hit him on the head)", level: B2, lesson: b2-32, sources: [ PEU, OEGC, CGEL ] }
-  - { id: few-a-few, title: "few vs a few, little vs a little", level: B2, lesson: b2-36, sources: [ GSE, GIU, PEU, OEGC, OPG, LGSWE, LSGSWE, CGEL, LEG ] }
-  - { id: quite-a-few, title: "quite a few, quite a lot, plenty of", level: B2, lesson: b2-36, sources: [ GIU, PEU, OEGC, OPG, LGSWE, CGEL, LEG ] }
-  - { id: great-deal, title: "a great deal of, a large amount of, a large number of", level: B2, lesson: b2-36, sources: [ GIU, PEU, OEGC, OPG, LGSWE, LSGSWE, CGEL ] }
-  - { id: hardly-any, title: "hardly any, scarcely any", level: B2, lesson: b2-36, sources: [ GSE, GIU, LEG, LALG ] }
-  - { id: most-of, title: "most / most of / the most", level: B2, lesson: b2-36, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, LEG, LALG ] }
-  - { id: half, title: "half (of) + noun", level: B2, lesson: b2-36, sources: [ PEU, OPG, CGEL, LEG, LALG ] }
-  - { id: determiner-order, title: "Determiner order: pre-, central and post-determiners (all the six big…)", level: C1, lesson: c1-26, sources: [ OPG, OMEG, LGSWE, LSGSWE, CGEL ] }
-  - { id: predeterminers, title: "Pre-determiners: half, all, both, double, twice, such a, quite a, what a", level: C1, lesson: c1-26, sources: [ GIU, PEU, OPG, OMEG, LGSWE, CGEL, LALG ] }
-  - { id: floating-quantifiers, title: "Floating quantifiers (We all agreed / We have all agreed / all of us)", level: C1, lesson: c1-26, sources: [ GIU, PEU, OMEG, LALG ] }
-  - { id: zero-article-fixed, title: "Zero article in fixed phrases (at night, by car, in prison, on foot, from top to bottom)", level: C1, lesson: c1-27, sources: [ GIU, PEU, OEGC, CGEL, LEG ] }
-  - { id: a-knowledge-of, title: "a / an with abstract nouns + of (a good knowledge of, a fear of heights)", level: C1, lesson: c1-27, sources: [ GIU, PEU, LEG ] }
-  - { id: articles-names, title: "Articles with names (the Smiths, the late Mr. Hosseini, a Mr. Brown called)", level: C1, lesson: c1-27, sources: [ GIU, PEU, OEGC, OMEG, LGSWE, LSGSWE, CGEL, LALG ] }
-  - { id: roles-zero-article, title: "No article with unique roles (He was elected President)", level: C1, lesson: c1-27, sources: [ GIU, PEU, OEGC, CGEL, LALG ] }
+  - { id: few-a-few, title: "few vs a few, little vs a little", level: B2, lesson: b2-36, sources: [ GSE, GIU, PEU, OEGC, OPG, OGEG, LGSWE, LSGSWE, CGEL, LEG ] }
+  - { id: quite-a-few, title: "quite a few, quite a lot, plenty of", level: B2, lesson: b2-36, sources: [ GIU, PEU, OEGC, OPG, OGEG, LGSWE, CGEL, LEG ] }
+  - { id: great-deal, title: "a great deal of, a large amount of, a large number of", level: B2, lesson: b2-36, sources: [ GIU, PEU, OEGC, OPG, OGEG, LGSWE, LSGSWE, CGEL ] }
+  - { id: hardly-any, title: "hardly any, scarcely any", level: B2, lesson: b2-36, sources: [ GSE, GIU, OGEG, LEG, LALG ] }
+  - { id: most-of, title: "most / most of / the most", level: B2, lesson: b2-36, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OGEG, LEG, LALG ] }
+  - { id: half, title: "half (of) + noun", level: B2, lesson: b2-36, sources: [ PEU, OPG, OGEG, CGEL, LEG, LALG ] }
+  - { id: determiner-order, title: "Determiner order: pre-, central and post-determiners (all the six big…)", level: C1, lesson: c1-26, sources: [ OPG, OMEG, OGEG, OGEAP, LGSWE, LSGSWE, CGEL ] }
+  - { id: predeterminers, title: "Pre-determiners: half, all, both, double, twice, such a, quite a, what a", level: C1, lesson: c1-26, sources: [ GIU, PEU, OPG, OMEG, OGEG, LGSWE, CGEL, LALG ] }
+  - { id: floating-quantifiers, title: "Floating quantifiers (We all agreed / We have all agreed / all of us)", level: C1, lesson: c1-26, sources: [ GIU, PEU, OMEG, OGEG, LALG ] }
+  - { id: zero-article-fixed, title: "Zero article in fixed phrases (at night, by car, in prison, on foot, from top to bottom)", level: C1, lesson: c1-27, sources: [ GIU, PEU, OEGC, OGEG, CGEL, LEG ] }
+  - { id: a-knowledge-of, title: "a / an with abstract nouns + of (a good knowledge of, a fear of heights)", level: C1, lesson: c1-27, sources: [ GIU, PEU, OGEG, LEG ] }
+  - { id: articles-names, title: "Articles with names (the Smiths, the late Mr. Hosseini, a Mr. Brown called)", level: C1, lesson: c1-27, sources: [ GIU, PEU, OEGC, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LALG ] }
+  - { id: roles-zero-article, title: "No article with unique roles (He was elected President)", level: C1, lesson: c1-27, sources: [ GIU, PEU, OEGC, OGEG, CGEL, LALG ] }
   - { id: any-whatever, title: "any = whichever you choose (Any doctor will tell you…)", level: C2, lesson: c2-13, sources: [ GIU, PEU, OEGC ] }
-  - { id: no-vs-not-a, title: "no vs not a (He's no expert / He's not an expert)", level: C2, lesson: c2-13, sources: [ GIU, PEU, OEGC ] }
+  - { id: no-vs-not-a, title: "no vs not a (He's no expert / He's not an expert)", level: C2, lesson: c2-13, sources: [ GIU, PEU, OEGC, OGEG ] }
   - { id: stressed-the, title: "Stressed the /ðiː/ = the best or most famous (the place to eat)", level: C2, lesson: c2-13, sources: [ GIU ] }
-  - { id: none-agreement, title: "none of + singular or plural verb", level: C2, lesson: c2-13, sources: [ GIU, PEU, OPG, LALG ] }
+  - { id: none-agreement, title: "none of + singular or plural verb", level: C2, lesson: c2-13, sources: [ GIU, PEU, OPG, OGEG, LALG ] }
   # added from the reference audit
-  - { id: something-to-adjective, title: "something / anything / nothing + to-infinitive or adjective (something to eat; nothing interesting)", level: A2, lesson: a2-32, sources: [ GSE ] }
-  - { id: approximating-numbers, title: "Approximate numbers and amounts (about, roughly, -odd, a dozen, a couple of)", level: B1, lesson: b1-42, sources: [ LGSWE, LSGSWE ] }
-  - { id: kind-of-agreement, title: "kind of / sort of / type of + noun and agreement (these kinds of problem)", level: B2, lesson: b2-36, sources: [ LGSWE, LSGSWE ] }
-  - { id: semi-determiners, title: "Semi-determiners: same, other, certain, various, numerous, several", level: C1, lesson: c1-26, sources: [ LGSWE, LSGSWE ] }
-  - { id: more-determiner, title: "more as a determiner and pronoun (more coffee; more of the book)", level: A2, lesson: a2-31, sources: [ PEU ] }
+  - { id: something-to-adjective, title: "something / anything / nothing + to-infinitive or adjective (something to eat; nothing interesting)", level: A2, lesson: a2-32, sources: [ GSE, OGEG ] }
+  - { id: approximating-numbers, title: "Approximate numbers and amounts (about, roughly, -odd, a dozen, a couple of)", level: B1, lesson: b1-42, sources: [ OGEG, LGSWE, LSGSWE ] }
+  - { id: kind-of-agreement, title: "kind of / sort of / type of + noun and agreement (these kinds of problem)", level: B2, lesson: b2-36, sources: [ OGEG, LGSWE, LSGSWE ] }
+  - { id: semi-determiners, title: "Semi-determiners: same, other, certain, various, numerous, several", level: C1, lesson: c1-26, sources: [ OGEG, LGSWE, LSGSWE ] }
+  - { id: more-determiner, title: "more as a determiner and pronoun (more coffee; more of the book)", level: A2, lesson: a2-31, sources: [ PEU, OGEG ] }
   - { id: too-good-a-chance, title: "so / too / how / as + adjective + a + noun (too good a chance; as big a problem as)", level: C1, lesson: c1-26, sources: [ PEU ] }

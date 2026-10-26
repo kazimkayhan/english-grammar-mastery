@@ -1,0 +1,22 @@
+title: "make or do?"
+pillar: verb-patterns
+description: "Both are «کردن» in Persian, so learn them by type."
+root:
+  q: "What kind of action is it?"
+  options:
+    - label: "Creating or producing something"
+      next:
+        answer: "make"
+        example: "make dinner · make a cake · make a noise · make a mistake"
+    - label: "Work, tasks, jobs, activities"
+      next:
+        answer: "do"
+        example: "do homework · do the dishes · do exercise · do business"
+    - label: "Decisions, plans, calls, progress, friends"
+      next:
+        answer: "make"
+        example: "make a decision · make a phone call · make progress · make friends"
+    - label: "Something general (something, nothing, anything, your best)"
+      next:
+        answer: "do"
+        example: "Do something! · I did nothing all day. · Do your best."

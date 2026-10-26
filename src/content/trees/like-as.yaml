@@ -1,0 +1,22 @@
+title: "like or as?"
+pillar: modifiers
+description: "Similar to, or really in that role?"
+root:
+  q: "What do you mean?"
+  options:
+    - label: "Similar to (a comparison)"
+      next:
+        q: "What comes next?"
+        options:
+          - label: "A noun or pronoun"
+            next:
+              answer: "like"
+              example: "She sings like an angel. · He looks like his father."
+          - label: "A clause (subject + verb)"
+            next:
+              answer: "as (like in informal speech)"
+              example: "Do it as I showed you."
+    - label: "In the role of: it really is that"
+      next:
+        answer: "as"
+        example: "She works as a nurse. · We used the box as a table."

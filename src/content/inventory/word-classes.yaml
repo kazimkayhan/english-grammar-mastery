@@ -1,20 +1,20 @@
 pillar: word-classes
 points:
-  - { id: parts-of-speech, title: "Parts of speech: noun, verb, adjective, adverb, pronoun, preposition, conjunction, determiner", level: A1, lesson: a1-01, aliases: [ "word classes" ], sources: [ OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: sentence-parts, title: "Sentence parts: subject, verb, object, complement, adverbial", level: A1, lesson: a1-01, sources: [ GIU, PEU, OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG ] }
+  - { id: parts-of-speech, title: "Parts of speech: noun, verb, adjective, adverb, pronoun, preposition, conjunction, determiner", level: A1, lesson: a1-01, aliases: [ "word classes" ], sources: [ OPG, OMEG, OGEG, OGEAP, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: sentence-parts, title: "Sentence parts: subject, verb, object, complement, adverbial", level: A1, lesson: a1-01, sources: [ GIU, PEU, OPG, OMEG, OGEG, OGEAP, LGSWE, LSGSWE, CGEL, LEG ] }
   - { id: interjections, title: "Interjections (Oh! Wow! Ouch!)", level: A1, lesson: a1-01, sources: [ OMEG, LGSWE, LSGSWE, CGEL ] }
-  - { id: suffix-noun, title: "Noun suffixes: -tion, -ment, -ness, -ity, -er/-or, -ance/-ence", level: B1, lesson: b1-49, sources: [ GSE, PEU, OPG, OMEG, LGSWE, LSGSWE, CGEL ] }
-  - { id: suffix-adjective, title: "Adjective suffixes: -ful, -less, -able, -ive, -al, -ous, -y", level: B1, lesson: b1-49, sources: [ GSE, PEU, OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG ] }
-  - { id: suffix-verb, title: "Verb suffixes: -ise/-ize, -en, -ify", level: B1, lesson: b1-49, sources: [ GSE, PEU, OPG, OMEG, LGSWE, LSGSWE, CGEL ] }
-  - { id: suffix-adverb, title: "Adverb suffix -ly (and adjectives ending in -ly: friendly, lovely)", level: B1, lesson: b1-49, sources: [ PEU, OMEG, LGSWE, LSGSWE, CGEL, LALG ] }
+  - { id: suffix-noun, title: "Noun suffixes: -tion, -ment, -ness, -ity, -er/-or, -ance/-ence", level: B1, lesson: b1-49, sources: [ GSE, PEU, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL ] }
+  - { id: suffix-adjective, title: "Adjective suffixes: -ful, -less, -able, -ive, -al, -ous, -y", level: B1, lesson: b1-49, sources: [ GSE, PEU, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LEG ] }
+  - { id: suffix-verb, title: "Verb suffixes: -ise/-ize, -en, -ify", level: B1, lesson: b1-49, sources: [ GSE, PEU, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL ] }
+  - { id: suffix-adverb, title: "Adverb suffix -ly (and adjectives ending in -ly: friendly, lovely)", level: B1, lesson: b1-49, sources: [ PEU, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LALG ] }
   - { id: word-families, title: "Word families (act, action, active, actively)", level: B1, lesson: b1-49, sources: [ LGSWE, LSGSWE, CGEL ] }
-  - { id: prefix-negative, title: "Negative prefixes: un-, in-, im-, il-, ir-, dis-, non-", level: B2, lesson: b2-48, sources: [ GSE, PEU, OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: prefix-meaning, title: "Prefixes of meaning: re-, mis-, over-, under-, pre-, post-, co-, anti-, inter-, sub-, ex-, multi-", level: B2, lesson: b2-48, sources: [ GSE, PEU, OMEG, LGSWE, LSGSWE, CGEL ] }
-  - { id: prefix-spelling, title: "Prefix spelling: im- before m/p, il- before l, ir- before r", level: B2, lesson: b2-48, sources: [ PEU, CGEL ] }
-  - { id: conversion, title: "Conversion: same word, new class (to email, a must, the dos and don'ts)", level: C1, lesson: c1-38, sources: [ OMEG, LGSWE, LSGSWE, CGEL ] }
-  - { id: compound-words, title: "Compound nouns, adjectives and verbs: open, closed, hyphenated", level: C1, lesson: c1-38, sources: [ OMEG, LGSWE, LSGSWE, CGEL ] }
+  - { id: prefix-negative, title: "Negative prefixes: un-, in-, im-, il-, ir-, dis-, non-", level: B2, lesson: b2-48, sources: [ GSE, PEU, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: prefix-meaning, title: "Prefixes of meaning: re-, mis-, over-, under-, pre-, post-, co-, anti-, inter-, sub-, ex-, multi-", level: B2, lesson: b2-48, sources: [ GSE, PEU, OMEG, OGEG, LGSWE, LSGSWE, CGEL ] }
+  - { id: prefix-spelling, title: "Prefix spelling: im- before m/p, il- before l, ir- before r", level: B2, lesson: b2-48, sources: [ PEU, OGEG, CGEL ] }
+  - { id: conversion, title: "Conversion: same word, new class (to email, a must, the dos and don'ts)", level: C1, lesson: c1-38, sources: [ OMEG, OGEG, LGSWE, LSGSWE, CGEL ] }
+  - { id: compound-words, title: "Compound nouns, adjectives and verbs: open, closed, hyphenated", level: C1, lesson: c1-38, sources: [ OMEG, OGEG, LGSWE, LSGSWE, CGEL ] }
   - { id: academic-suffixes, title: "Suffixes -ism, -ist, -hood, -ship, -dom, -ee", level: C1, lesson: c1-38, sources: [ OMEG, LGSWE, LSGSWE, CGEL ] }
   - { id: back-formation, title: "Back-formation (edit ← editor, babysit ← babysitter)", level: C2, lesson: c2-18, sources: [ OMEG ] }
   - { id: blends-clipping, title: "Blends and clipping (brunch, smog; phone, exam)", level: C2, lesson: c2-18, sources: [ OMEG ] }
-  - { id: productive-affixes, title: "Productive affixes in new words (-ify, de-, -friendly, -proof)", level: C2, lesson: c2-18, sources: [ LGSWE, LSGSWE, CGEL ] }
+  - { id: productive-affixes, title: "Productive affixes in new words (-ify, de-, -friendly, -proof)", level: C2, lesson: c2-18, sources: [ OGEG, LGSWE, LSGSWE, CGEL ] }
   - { id: acronyms, title: "Acronyms and initialisms (NASA, the UN, an FBI agent)", level: C2, lesson: c2-18, sources: [ PEU, OMEG ] }

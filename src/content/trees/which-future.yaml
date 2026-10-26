@@ -1,0 +1,34 @@
+title: "Which future form?"
+pillar: tenses
+description: "will, going to, present continuous or present simple?"
+root:
+  q: "What kind of future are you talking about?"
+  options:
+    - label: "A timetable (trains, classes, films)"
+      next:
+        answer: "Present simple"
+        example: "The train leaves at 7:15. · The class starts on Monday."
+    - label: "An arrangement: time and place are fixed"
+      next:
+        answer: "Present continuous"
+        example: "I'm meeting Sara at six. · We're flying to Mashhad on Friday."
+    - label: "A plan I decided before now"
+      next:
+        answer: "going to"
+        example: "I'm going to study medicine. · We're going to paint the kitchen."
+    - label: "A decision, offer or promise made right now"
+      next:
+        answer: "will"
+        example: "It's cold. I'll close the window. · I'll help you, I promise."
+    - label: "A prediction"
+      next:
+        q: "Can you see evidence now?"
+        options:
+          - label: "Yes, I can see it coming"
+            next:
+              answer: "going to"
+              example: "Look at those clouds! It's going to rain."
+          - label: "No, it's my opinion"
+            next:
+              answer: "will"
+              example: "I think you'll pass the exam."

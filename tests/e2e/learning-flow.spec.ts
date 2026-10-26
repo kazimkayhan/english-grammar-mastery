@@ -50,6 +50,23 @@ test("exercises give instant feedback", async ({ page }) => {
   await expect(third.getByText("Correct!")).toBeVisible()
 })
 
+test("match exercises use labelled dropdowns", async ({ page }) => {
+  await page.goto("/lessons/a1/01-parts-of-speech")
+  const practice = page.getByRole("region", { name: "Practice" })
+  await practice.scrollIntoViewIfNeeded()
+  const match = practice.locator("ol > li").filter({ hasText: "Match each word with its part of speech." })
+  await match.scrollIntoViewIfNeeded()
+  await expect(match.locator("xpath=ancestor::astro-island[1]")).not.toHaveAttribute("ssr", { timeout: 30_000 })
+
+  for (const [word, job] of [["Tehran", "noun"], ["and", "conjunction"], ["in", "preposition"], ["the", "determiner"]]) {
+    await match.getByLabel(word, { exact: true }).click()
+    await page.getByRole("option", { name: job }).click()
+    await expect(match.getByLabel(word, { exact: true })).toHaveText(job)
+  }
+  await match.getByRole("button", { name: "Check" }).click()
+  await expect(match.getByText("Correct!")).toBeVisible()
+})
+
 test("flashcards: add from a lesson, review, and the due date moves", async ({ page }) => {
   await addCards(page)
 
