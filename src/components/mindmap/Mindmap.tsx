@@ -12,6 +12,7 @@ import { Button } from "@/components/ui/button"
 import { ButtonGroup } from "@/components/ui/button-group"
 import { Label } from "@/components/ui/label"
 import { Switch } from "@/components/ui/switch"
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip"
 import { parseOutline } from "@/lib/outline"
 import { cn } from "@/lib/utils"
 
@@ -40,6 +41,28 @@ interface MindmapProps {
 
 const FAMILY_VARS = ["--fam-words", "--fam-verbs", "--fam-sentences", "--fam-text"]
 const BRANCH_VARS = ["--fam-verbs", "--fam-sentences", "--fam-words", "--fam-text", "--persian", "--primary"]
+
+/** An icon button with a visible name on hover and focus, so its purpose is clear before clicking. */
+function ToolButton({
+  label,
+  icon,
+  onClick,
+}: {
+  label: string
+  icon: React.ComponentProps<typeof HugeiconsIcon>["icon"]
+  onClick: () => void
+}) {
+  return (
+    <Tooltip>
+      <TooltipTrigger
+        render={<Button variant="outline" size="icon-sm" aria-label={label} onClick={onClick} />}
+      >
+        <HugeiconsIcon icon={icon} strokeWidth={2} />
+      </TooltipTrigger>
+      <TooltipContent>{label}</TooltipContent>
+    </Tooltip>
+  )
+}
 
 function cssVar(name: string) {
   return getComputedStyle(document.documentElement).getPropertyValue(name).trim() || "currentColor"
@@ -75,6 +98,7 @@ export function Mindmap({
   const mmRef = React.useRef<Markmap | null>(null)
   const [recall, setRecall] = React.useState(recallDefault)
   const [ready, setReady] = React.useState(false)
+  const [fullscreen, setFullscreen] = React.useState(false)
 
   const colorFn = React.useCallback(
     (node: MapNode) => {
@@ -96,17 +120,19 @@ export function Mindmap({
       setFold(data, foldMode === "recall" ? (d) => d >= 2 : () => false)
       mmRef.current?.destroy()
       svgRef.current.innerHTML = ""
+      // On a phone the map is limited by width, so narrower labels and gaps keep the text readable.
+      const narrow = matchMedia("(max-width: 639px)").matches
       mmRef.current = Markmap.create(
         svgRef.current,
         {
           autoFit: true,
           duration: matchMedia("(prefers-reduced-motion: reduce)").matches ? 0 : 300,
           initialExpandLevel: -1,
-          maxWidth: 260,
+          maxWidth: narrow ? 150 : 260,
           fitRatio: 0.9,
           paddingX: 12,
           spacingVertical: 10,
-          spacingHorizontal: 90,
+          spacingHorizontal: narrow ? 40 : 90,
           color: colorFn as never,
           zoom: true,
           pan: true,
@@ -136,6 +162,18 @@ export function Mindmap({
     }
   }, [render, recall])
 
+  // Track full screen (the Escape key also leaves it), and refit the map once its new size is laid out.
+  React.useEffect(() => {
+    const onChange = () => setFullscreen(document.fullscreenElement === wrapRef.current)
+    document.addEventListener("fullscreenchange", onChange)
+    return () => document.removeEventListener("fullscreenchange", onChange)
+  }, [])
+
+  React.useEffect(() => {
+    const t = setTimeout(() => mmRef.current?.fit(), 100)
+    return () => clearTimeout(t)
+  }, [fullscreen])
+
   const downloadSvg = () => {
     const svg = svgRef.current
     if (!svg) return
@@ -153,7 +191,11 @@ export function Mindmap({
   const id = React.useId()
 
   return (
-    <div ref={wrapRef} className={cn("flex min-w-0 flex-col gap-3 overflow-hidden rounded-2xl border bg-card p-3 not-prose", className)}>
+    <div
+      ref={wrapRef}
+      className={cn("flex min-w-0 flex-col gap-3 overflow-hidden rounded-2xl border bg-card p-3 not-prose", fullscreen && "rounded-none border-0 p-4", className)}
+      style={fullscreen ? { height: "100dvh" } : undefined}
+    >
       <div className="flex flex-wrap items-center justify-between gap-2">
         <div className="flex items-center gap-2">
           <Switch id={`${id}-recall`} checked={recall} onCheckedChange={setRecall} aria-label="Recall mode" />
@@ -164,36 +206,27 @@ export function Mindmap({
             {recall ? "Say each branch aloud, then click it to check." : "Everything is open."}
           </span>
         </div>
-        <ButtonGroup>
-          <Button variant="outline" size="icon-sm" aria-label="Open all branches" onClick={() => render("none")}>
-            <HugeiconsIcon icon={ArrowExpand01Icon} strokeWidth={2} />
-          </Button>
-          <Button variant="outline" size="icon-sm" aria-label="Fold all branches" onClick={() => render("recall")}>
-            <HugeiconsIcon icon={ArrowShrink01Icon} strokeWidth={2} />
-          </Button>
-          <Button variant="outline" size="icon-sm" aria-label="Fit to screen" onClick={() => mmRef.current?.fit()}>
-            <HugeiconsIcon icon={FitToScreenIcon} strokeWidth={2} />
-          </Button>
-          <Button
-            variant="outline"
-            size="icon-sm"
-            aria-label="Full screen"
-            onClick={() => {
-              if (document.fullscreenElement) document.exitFullscreen()
-              else wrapRef.current?.requestFullscreen().then(() => setTimeout(() => mmRef.current?.fit(), 150))
-            }}
-          >
-            <HugeiconsIcon icon={FullScreenIcon} strokeWidth={2} />
-          </Button>
-          <Button variant="outline" size="icon-sm" aria-label="Download as SVG" onClick={downloadSvg}>
-            <HugeiconsIcon icon={Download01Icon} strokeWidth={2} />
-          </Button>
-        </ButtonGroup>
+        <TooltipProvider>
+          <ButtonGroup>
+            <ToolButton label="Open all branches" icon={ArrowExpand01Icon} onClick={() => render("none")} />
+            <ToolButton label="Fold all branches" icon={ArrowShrink01Icon} onClick={() => render("recall")} />
+            <ToolButton label="Fit to screen" icon={FitToScreenIcon} onClick={() => mmRef.current?.fit()} />
+            <ToolButton
+              label="Full screen"
+              icon={FullScreenIcon}
+              onClick={() => {
+                if (document.fullscreenElement) document.exitFullscreen()
+                else wrapRef.current?.requestFullscreen()
+              }}
+            />
+            <ToolButton label="Download as SVG" icon={Download01Icon} onClick={downloadSvg} />
+          </ButtonGroup>
+        </TooltipProvider>
       </div>
       <svg
         ref={svgRef}
-        className="markmap w-full flex-1 overflow-hidden rounded-xl bg-background"
-        style={{ height: `min(${height}px, 72svh)`, minHeight: 260 }}
+        className={cn("markmap w-full overflow-hidden rounded-xl bg-background", fullscreen && "flex-1")}
+        style={fullscreen ? { minHeight: 0 } : { height: `min(${height}px, 72svh)`, minHeight: 260 }}
         role="img"
         aria-label={title}
       />
