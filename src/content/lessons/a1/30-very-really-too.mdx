@@ -4,28 +4,38 @@ level: A1
 number: 30
 pillar: modifiers
 size: mini
-hook: "“This tea is very hot.” (OK, I'll drink it slowly.) “This tea is too hot.” (I can't drink it!)"
-rule: "very and really make an adjective stronger. too means more than is good or possible, so it has a negative result."
+hook: "“This tea is very hot.” (OK, I'll drink it slowly.) “This tea is too hot.” (I can't drink it!) One small word changes everything."
+rule: "very and really go before an adjective or adverb and make it stronger. With a verb, use really before it or very much after it. too means more than is good, so it usually brings a problem."
 points:
-  - "<b>very</b> / <b>really</b> + adjective = stronger: It's <b>very</b> cold. She's <b>really</b> nice."
-  - "<b>too</b> + adjective = more than is good: It's <b>too</b> expensive. (I can't buy it.)"
-  - "too has a <b>negative result</b>; very doesn't."
-  - "really is common in speech; very is good everywhere."
-  - "Persian «خیلی» can mean <b>very</b> or <b>too</b>: think about the result!"
+  - "<b>very</b> / <b>really</b> + adjective or adverb = stronger: It's <b>very</b> cold. She's <b>really</b> nice. He drives <b>very</b> slowly."
+  - "<b>a</b> + very + adjective + noun: a <b>very good</b> teacher. <b>not very</b> makes it weaker: It isn't <b>very</b> big."
+  - "With verbs: <b>I really like it</b> or <b>I like it very much</b>. Never “I very like it”."
+  - "<b>really</b> is very common in speech. In writing, <b>very</b> is safer."
+  - "<b>too</b> + adjective or adverb = more than is good: It's <b>too</b> expensive. (I can't buy it.) too usually means a <b>problem</b>; very doesn't."
+  - "Say <b>too expensive</b>, not “too much expensive”. Say <b>I like it very much</b>, not “I like it too much”."
+  - "Persian «خیلی» can mean <b>very</b> or <b>too</b>: ask yourself, is there a problem?"
 mindmap: |
   # very, really, too
   ## very / really
-  - stronger
-  - very cold
-  - really nice
+  - + adjective: very cold, really nice
+  - + adverb: very slowly
+  - a very good teacher
+  - not very = weaker
+  ## With verbs
+  - I really like it
+  - I like it very much
+  - not: I very like it
   ## too
   - more than is good
   - too expensive → I can't buy it
-  ## Result
+  - too fast → a problem
+  - not: too much expensive
+  ## very or too?
   - very: OK
   - too: a problem
   ## Persian «خیلی»
   - very or too?
+  - is there a problem?
 covers:
   - very-really
   - too-basic
@@ -46,6 +56,11 @@ exercises:
     options: ["very", "too"]
     answer: 1
     explain: "I can't drink it yet → too hot."
+  - type: mcq
+    prompt: "Can you speak more slowly, please? You speak ___ fast for me."
+    options: ["very", "too"]
+    answer: 1
+    explain: "There's a problem (I can't understand) → too fast. too also goes before adverbs."
   - type: gap
     prompt: "Your English is ___ good! Where did you learn it?"
     answers: ["very", "really", "so"]
@@ -62,20 +77,42 @@ exercises:
     prompt: "She is very young to drive. She's only 15."
     answers: ["She is too young to drive. She's only 15.", "She's too young to drive. She's only 15."]
     explain: "She can't drive → too young."
+  - type: correct
+    prompt: "I very like pizza."
+    answers: ["I really like pizza.", "I like pizza very much.", "I like pizza a lot."]
+    explain: "very can't go before a verb. Use really + verb, or very much after the object."
+  - type: correct
+    prompt: "I like very much this song."
+    answers: ["I like this song very much.", "I really like this song.", "I like this song a lot."]
+    explain: "very much goes after the object, not between the verb and the object."
+  - type: correct
+    prompt: "This bag is too much expensive."
+    answers: ["This bag is too expensive."]
+    explain: "too + adjective. Don't put much before an adjective."
+  - type: reorder
+    chunks: ["She", "is", "a", "very", "good", "teacher."]
+    explain: "a + very + adjective + noun."
+  - type: transform
+    prompt: "Say it more politely with not very: The film was bad."
+    answers: ["The film wasn't very good.", "The film was not very good."]
+    explain: "not very + a positive adjective sounds softer: wasn't very good."
   - type: match
     prompt: "Match each sentence with its meaning."
     pairs:
       - ["The soup is very hot.", "Eat it carefully."]
       - ["The soup is too hot.", "You can't eat it now."]
       - ["The test was really easy.", "Everyone passed."]
-    explain: "very / really = stronger; too = a problem."
+      - ["I'm hungry too.", "I'm also hungry."]
+    explain: "very / really = stronger; too + adjective = a problem; too at the end = also."
 recall:
   - q: "What's the difference between very hot and too hot?"
     a: "<b>very hot</b> = hotter than usual (OK). <b>too hot</b> = more than is good: you can't eat or drink it."
   - q: "«خیلی گران است، نمی‌توانم بخرم»: very or too?"
     a: "<b>too</b>: It's too expensive (there's a problem)."
+  - q: "How do you say «پیتزا را خیلی دوست دارم»?"
+    a: "<b>I really like pizza.</b> or <b>I like pizza very much.</b> Never “I very like”."
   - q: "Which word is more common in speech: very or really?"
-    a: "<b>really</b> (very is fine everywhere)."
+    a: "<b>really</b>. In writing, <b>very</b> is safer."
 cards:
   - front: "very / really vs too"
     back: "stronger (OK) vs more than is good (a problem)"
@@ -83,21 +120,63 @@ cards:
     back: "It's too expensive."
   - front: "«خیلی قشنگ است!»"
     back: "It's very / really beautiful!"
+  - front: "✗ I very like it. ✓ ?"
+    back: "I really like it. / I like it very much."
   - front: "too + adjective = ?"
-    back: "a negative result: too small, too late, too hot"
+    back: "a problem: too small, too late, too hot (not too much expensive)"
 ---
 
 ## very and really: stronger
 
+**very** and **really** make an adjective or an adverb **stronger**. They go **before** it.
+
+<FormTable caption="very and really">
+
+| Pattern | Example |
+|---|---|
+| **very / really** + adjective | It's **very cold**. · She's **really nice**. |
+| **very / really** + adverb | He drives **very slowly**. · You speak English **really well**. |
+| a / an + **very** + adjective + noun | She's **a very good** teacher. |
+| **not very** + adjective (weaker) | The hotel **wasn't very** clean. |
+
+</FormTable>
+
 <Example context="social" fa="او خیلی مهربان است.">She's <mark>very</mark> kind.</Example>
 <Example context="travel" fa="اصفهان واقعاً زیباست.">Isfahan is <mark>really</mark> beautiful.</Example>
+<Example context="work" fa="او خیلی سریع کار می‌کند.">He works <mark>very</mark> quickly.</Example>
+
+- **really** is very common in **speech**. **very** is good everywhere, and in **writing** it is the safer choice.
+- **not very** makes the meaning **weaker**, and it sounds polite: *The film wasn't very good* is softer than *The film was bad*.
+- Some adjectives already mean "very" (*wonderful, terrible*). With these, use **really**, not *very*: *It was really terrible.* B2 lesson 37 (Gradable & non-gradable adjectives) teaches these strong adjectives.
+
+## With verbs: really or very much
+
+**very** can't go before a verb. Use **really** before the verb, or **very much** after the verb and its object.
+
+- *I **really like** this song.* ✓
+- *I like this song **very much**.* ✓
+- ~~I very like this song.~~ ✗ ~~I like very much this song.~~ ✗
+
+<Example context="home" fa="من این آهنگ را خیلی دوست دارم.">I <mark>really like</mark> this song.</Example>
+<Example context="social" fa="از مهمانی خیلی لذت بردیم.">We enjoyed the party <mark>very much</mark>.</Example>
 
 ## too: more than is good
 
-**too** means *more than is good, possible or needed*. There is always a **problem**:
+**too** means *more than is good, possible or needed*. It usually brings a **problem**: something is wrong, or you can't do something.
 
 <Example context="shopping" fa="این ماشین خیلی گران است؛ نمی‌توانم بخرمش.">This car is <mark>too</mark> expensive. I can't buy it.</Example>
 <Example context="health" fa="چای خیلی داغ است؛ صبر کن.">The tea is <mark>too</mark> hot. Wait a minute.</Example>
+<Example context="travel" fa="آهسته‌تر! خیلی تند رانندگی می‌کنی.">Slow down! You're driving <mark>too</mark> fast.</Example>
+
+Three things to remember:
+
+- **too** + adjective usually comes after **be**: *The house is too expensive*, not ~~a too expensive house~~.
+- Don't add *much*: *too expensive*, not ~~too much expensive~~.
+- *I like it very much* = I like it a lot. But *I like it too much* means more than is good: it sounds like a problem.
+
+More patterns come later: *too young to drive* and *big enough* in A2 lesson 40 (too, enough, very); **too much / too many** + noun (*too many cars*) in A2 lesson 31 (much, many, a lot of, a few, a little). And **too** at the **end** of a sentence means *also*: *I'm hungry **too**.* That is A2 lesson 43 (already, yet, still, just; also, too, either).
+
+## very or too?
 
 <FormTable caption="very or too?">
 
@@ -105,21 +184,37 @@ cards:
 |---|---|---|
 | The tea is **very** hot. | hotter than usual | Drink it carefully. (OK) |
 | The tea is **too** hot. | more than is good | You can't drink it. (a problem) |
+| The bag is **very** big. | bigger than usual | Good, everything fits. (OK) |
+| The bag is **too** big. | bigger than I want | I can't carry it. (a problem) |
 
 </FormTable>
 
 <Persian>
 
-**very / really = خیلی (مثبت یا خنثی):** It's very cold (خیلی سرد است). really بیشتر در گفتار می‌آید.
+**very / really = خیلی (معمولاً بدون مشکل):** قبل از صفت یا قید می‌آیند و آن را قوی‌تر می‌کنند:
+
+- It's very cold. (خیلی سرد است.) / She's really nice. (واقعاً مهربان است.)
+- He drives very slowly. (خیلی آهسته رانندگی می‌کند.)
+- a very good teacher (یک معلمِ خیلی خوب). دقت کنید: در فارسی «خیلی خوب» بعد از اسم می‌آید، ولی در انگلیسی very و صفت هر دو **قبل از اسم** هستند.
+- really بیشتر در **گفتار** می‌آید. در نوشتن، very بهتر است.
+- **not very** معنی را ضعیف‌تر و مؤدبانه‌تر می‌کند: The film wasn't very good. (فیلم خیلی خوب نبود.)
+
+**خیلی + فعل:** در فارسی می‌گوییم «خیلی دوستش دارم» و «خیلی» را قبل از فعل می‌گذاریم. در انگلیسی very قبل از فعل **نمی‌آید**:
+
+- I **really** like it. یا I like it **very much**. (نه I very like it)
+- very much بعد از مفعول می‌آید: I like this song very much. (نه I like very much this song)
+- I like it too much یعنی «بیش از حد دوستش دارم» و مشکل دارد. برای «خیلی دوست دارم» بگویید very much.
 
 **too = بیش از حد:** وقتی «خیلی» یک **مشکل** ایجاد می‌کند، از too استفاده کنید:
 
 - It's too expensive. (خیلی گران است ← نمی‌توانم بخرم.)
 - She's too young to drive. (برای رانندگی خیلی جوان است.)
+- You're driving too fast. (خیلی تند می‌رانی ← خطرناک است.)
+- بگویید too expensive، نه too much expensive.
 
-**نکته‌ی مهم:** «خیلی» فارسی هم very است و هم too. از خودتان بپرسید: «آیا مشکلی هست؟» اگر بله ← too. اگر نه ← very.
+**نکته‌ی مهم:** «خیلی» فارسی هم very است و هم too. از خودتان بپرسید: «آیا مشکلی هست؟» اگر بله ← too. اگر نه ← very. مثلاً «اینجا خیلی قشنگ است!» = It's very beautiful here (نه too beautiful، چون مشکلی نیست).
 
-مثلاً «اینجا خیلی قشنگ است!» = It's very beautiful here (نه too beautiful، چون مشکلی نیست).
+**too در آخر جمله** معنی دیگری دارد: «هم». I'm hungry too. (من هم گرسنه‌ام.)
 
 </Persian>
 
@@ -127,7 +222,11 @@ cards:
 
 <WrongRight wrong="I love this city. It's too beautiful." right="I love this city. It's very beautiful." why="A positive feeling, no problem → very. too means a problem." />
 <WrongRight wrong="It's very late. We can't catch the bus." right="It's too late. We can't catch the bus." why="There's a problem → too." />
+<WrongRight wrong="I very like Persian music." right="I really like Persian music." why="very can't go before a verb. Use really, or like it very much." />
+<WrongRight wrong="I like very much my job." right="I like my job very much." why="very much goes after the object." />
+<WrongRight wrong="This phone is too much expensive." right="This phone is too expensive." why="too + adjective, no much." />
+<WrongRight wrong="She is a teacher very good." right="She is a very good teacher." why="a + very + adjective + noun." />
 
 <MemoryHook title="Too = trouble">
-**Too** and **trouble** both start with **t**: if there's trouble, say **too**. No trouble? Say **very**.
+**Too** and **trouble** both start with **t**: if there's trouble, say **too**. No trouble? Say **very** (or **really**). And for verbs: **really like**, or like it **very much**.
 </MemoryHook>

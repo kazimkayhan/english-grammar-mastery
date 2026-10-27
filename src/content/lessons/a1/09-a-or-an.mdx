@@ -5,29 +5,41 @@ number: 9
 pillar: determiners
 size: mini
 hook: "A job interview: “I'm an engineer, and my wife is a teacher.” Persian says «مهندس هستم» with no little word. English needs a or an."
-rule: "Use a or an before one countable thing: a before a consonant sound, an before a vowel sound."
+rule: "Use a or an before one countable thing: a before a consonant sound, an before a vowel sound. Jobs need a or an too."
 points:
   - "<b>a</b> + consonant <b>sound</b>: a car, a doctor, <b>a university</b> (sounds like “you”)"
   - "<b>an</b> + vowel <b>sound</b>: an apple, an engineer, <b>an hour</b> (the h is silent)"
-  - "It's the <b>sound</b>, not the letter: a European city, an MBA"
-  - "Jobs need a / an: She's <b>a</b> doctor. (not She's doctor)"
-  - "<b>a</b> = any one; <b>one</b> = exactly one, not two: I'd like <b>one</b> coffee and two teas."
+  - "The <b>next word</b> decides: <b>an</b> old car, <b>a</b> big apple"
+  - "Only with <b>one</b> countable thing: a book (not a books, not a water)"
+  - "Jobs need a / an: She's <b>a</b> doctor. Plural: They're doctors (no a)."
+  - "<b>a</b> = any one; <b>one</b> = exactly one, not two: <b>one</b> coffee and two teas"
+  - "a / an can mean <b>each</b>: three times <b>a</b> day · $15 <b>an</b> hour"
 mindmap: |
   # a or an?
   ## a + consonant sound
-  - a car
-  - a doctor
+  - a car · a doctor
   - a university (you-)
+  - a useful book
   ## an + vowel sound
-  - an apple
-  - an engineer
+  - an apple · an engineer
   - an hour (silent h)
-  ## Use it for
-  - one countable thing
-  - jobs: She's a nurse
+  - an X-ray (ex-)
+  ## The next word decides
+  - an old car
+  - a big apple
+  ## Only one countable thing
+  - a book
+  - books (no a)
+  - water (no a)
+  ## Jobs
+  - She's a nurse
+  - They're nurses
   ## a or one?
   - a = any one
   - one = exactly one
+  ## a = each
+  - twice a week
+  - $15 an hour
 covers:
   - a-an-sound
   - a-jobs
@@ -50,7 +62,7 @@ exercises:
     answer: 0
     explain: "The next word, new, starts with a consonant sound → a."
   - type: mcq
-    prompt: "We waited for ___ hour."
+    prompt: "The bus is ___ hour late."
     options: ["a", "an"]
     answer: 1
     explain: "The h in hour is silent, so it starts with a vowel sound → an."
@@ -59,6 +71,11 @@ exercises:
     options: ["a", "an"]
     answer: 0
     explain: "university starts with the sound “you” (a consonant sound) → a."
+  - type: mcq
+    prompt: "They live in ___ old house."
+    options: ["a", "an"]
+    answer: 1
+    explain: "Look at the next word: old starts with a vowel sound → an."
   - type: gap
     prompt: "My brother is ___ doctor."
     answers: ["a"]
@@ -67,25 +84,51 @@ exercises:
     prompt: "Can I have ___ orange, please?"
     answers: ["an"]
     explain: "orange starts with a vowel sound → an."
+  - type: gap
+    prompt: "My arm hurts. I need ___ X-ray."
+    answers: ["an"]
+    explain: "X is said “ex”, a vowel sound → an X-ray."
+  - type: gap
+    prompt: "I'd like ___ coffee and two teas, please."
+    answers: ["one"]
+    explain: "When the number matters (one, not two), say one."
+  - type: gap
+    prompt: "I go to the gym three times ___ week."
+    answers: ["a"]
+    explain: "a / an can mean each: three times a week."
   - type: correct
     prompt: "My father is teacher."
     answers: ["My father is a teacher."]
     explain: "Jobs need a / an."
   - type: correct
-    prompt: "I bought an new phone."
-    answers: ["I bought a new phone."]
+    prompt: "I need an new phone."
+    answers: ["I need a new phone."]
     explain: "Look at the very next word: new starts with a consonant sound → a."
-  - type: gap
-    prompt: "I'd like ___ coffee and two teas, please."
-    answers: ["one"]
-    explain: "When you mean exactly one (not two), say one."
+  - type: correct
+    prompt: "They are a doctors."
+    answers: ["They are doctors.", "They're doctors."]
+    explain: "a / an is only for one thing. Plural jobs have no a: They are doctors."
+  - type: correct
+    prompt: "It's a interesting book."
+    answers: ["It's an interesting book.", "It is an interesting book."]
+    explain: "interesting starts with a vowel sound → an."
+  - type: reorder
+    chunks: ["She", "is", "an", "English", "teacher."]
+    explain: "an comes before the next word, English, which starts with a vowel sound."
+  - type: transform
+    prompt: "Make it plural: She is a nurse."
+    start: "They"
+    answers: ["They are nurses.", "They're nurses."]
+    explain: "No a with a plural noun: They are nurses."
 recall:
   - q: "How do you choose between a and an?"
     a: "By the <b>sound</b> of the next word: <b>a</b> + consonant sound, <b>an</b> + vowel sound."
   - q: "Why do we say “a university” but “an hour”?"
     a: "university starts with a “you” sound (consonant); the h in hour is silent (vowel sound)."
-  - q: "How do you say «من معلم هستم»?"
-    a: "<b>I'm a teacher.</b> Jobs need a / an."
+  - q: "How do you say «من معلم هستم» and «آن‌ها معلم هستند»?"
+    a: "<b>I'm a teacher.</b> · <b>They're teachers.</b> (no a with a plural)"
+  - q: "When do you say one instead of a?"
+    a: "When the <b>number</b> matters: <b>one</b> coffee and two teas (exactly one, not two)."
 cards:
   - front: "a or an? ___ hour · ___ university · ___ egg"
     back: "an hour · a university · an egg (it's the sound!)"
@@ -93,52 +136,104 @@ cards:
     back: "He's an engineer. (jobs need a / an)"
   - front: "a coffee or one coffee?"
     back: "a = any one; one = exactly one, not two"
-  - front: "✗ I bought an new car ✓ ?"
-    back: "I bought a new car. (look at the next word: new)"
+  - front: "✗ I need an new car ✓ ?"
+    back: "I need a new car. (look at the next word: new)"
+  - front: "She's a nurse. → plural?"
+    back: "They're nurses. (no a)"
+  - front: "$15 ___ hour · twice ___ week"
+    back: "an hour · a week (a / an = each)"
 ---
 
 ## a or an? Listen to the sound
 
-Use **a** or **an** with **one** countable thing. The choice depends on the **sound** at the start of the next word:
+Use **a** or **an** with **one** countable thing. The choice depends on the **sound** at the start of the next word, not the letter.
 
 <FormTable caption="a or an?">
 
 | | Next sound | Examples |
 |---|---|---|
-| **a** | consonant sound | a book · a doctor · a big apple · **a u**niversity · **a E**uropean city |
-| **an** | vowel sound (a, e, i, o, u) | an apple · an engineer · an old car · **an h**our · **an** MBA |
+| **a** | consonant sound | a book · a doctor · a taxi · **a u**niversity · **a u**seful book |
+| **an** | vowel sound | an apple · an egg · an idea · an orange · an umbrella · **an h**our · **an X**-ray |
 
 </FormTable>
 
-Note the surprises: **a university** (it starts with a “you” sound) and **an hour** (the h is silent).
+Note the surprises:
 
-<Example context="travel" fa="یک تاکسی می‌خواهم.">I need <mark>a</mark> taxi.</Example>
-<Example context="shopping" fa="یک چتر و یک کیف خریدم.">I bought <mark>an</mark> umbrella and <mark>a</mark> bag.</Example>
+- **a university**, **a useful book**: the *u* sounds like “you”, a consonant sound.
+- **an hour**, **an honest man**: the *h* is silent, so the word starts with a vowel sound.
+- **an X-ray**: we say the letter *X* as “ex”, a vowel sound.
+
+<Example context="travel" fa="یک تاکسی لازم دارم.">I need <mark>a</mark> taxi.</Example>
+<Example context="shopping" fa="یک چتر و یک کیف لازم دارم.">I need <mark>an</mark> umbrella and <mark>a</mark> bag.</Example>
+<Example context="travel" fa="قطار یک ساعت تأخیر دارد.">The train is <mark>an hour</mark> late.</Example>
+
+## The next word decides
+
+When an adjective comes before the noun, look at the **adjective**. It is the next word.
+
+- **an** apple → **a** big apple
+- **a** car → **an** old car
+- **a** book → **an** interesting book
+
+<Example context="home" fa="آن‌ها در یک خانه‌ی قدیمی زندگی می‌کنند.">They live in <mark>an old</mark> house.</Example>
+
+## Only one countable thing
+
+**a / an** means *one*. So we use it only with **one** thing we can count.
+
+- One thing: **a** book, **an** egg
+- Two or more: **books**, **eggs** (no *a*): ~~a books~~
+- Things we don't count, like *water, money, rice*: no *a*: ~~a water~~. Lesson 15 (Countable & uncountable nouns; some, any, how much, how many) explains these.
+
+A single countable noun can't stand alone. It needs **a / an**, or another word like **the** (lesson 10) or **my** (lesson 12): *I have **a** car.* (not ~~I have car.~~)
 
 ## Jobs need a / an
 
+When you say someone's **job** with **be**, use **a / an**:
+
 <Example context="work" fa="من مهندس هستم و همسرم معلم است.">I'm <mark>an</mark> engineer, and my wife is <mark>a</mark> teacher.</Example>
+<Example context="health" fa="خواهرم پرستار است.">My sister is <mark>a</mark> nurse.</Example>
+
+For two or more people, use the plural with **no** *a*: *They're **doctors**.* (not ~~They're a doctors.~~)
+
+We also use **a / an** to say what kind of thing something is: *Tehran is **a** big city.* · *She's **a** good teacher.*
 
 ## a or one?
 
-**a** means *one, any one*. **one** means *exactly one, not two*:
+**a** means *one, any one*. **one** means *exactly one, not two*. Use **one** when the **number** matters.
 
-<Example context="social" fa="یک قهوه و دو چای، لطفاً."><mark>One</mark> coffee and two teas, please.</Example>
+<Example context="shopping" fa="یک قهوه و دو چای، لطفاً."><mark>One</mark> coffee and two teas, please.</Example>
+<Example context="home" fa="من یک برادر دارم، نه دو تا.">I have <mark>one</mark> brother, not two.</Example>
+
+Usually, **a** is the normal word: *I have **a** car.* Use *one* only when you want to show the number.
+
+## a / an = each
+
+**a / an** can also mean *each* or *every*, for prices and how often:
+
+<Example context="work" fa="ساعتی ۱۵ دلار می‌گیرم.">I get $15 <mark>an hour</mark>.</Example>
+<Example context="health" fa="روزی سه بار این قرص را بخور.">Take this pill three times <mark>a day</mark>.</Example>
 
 <DecisionTree id="articles" />
 
 <Persian>
 
-**a و an:** فارسی حرف تعریف ندارد، ولی در انگلیسی قبل از **یک** چیز قابل‌شمارش باید a یا an بیاید (یا the، my و…).
+**a و an:** فارسی حرف تعریفی مثل a ندارد، ولی در انگلیسی قبل از **یک** چیز قابل‌شمارش باید a یا an بیاید (یا the، my و…).
 
 - **a** قبل از کلمه‌ای که با **صدای** بی‌صدا شروع می‌شود: a car، a doctor
 - **an** قبل از کلمه‌ای که با **صدای** صدادار شروع می‌شود: an apple، an engineer
 
-مهم **صدا** است، نه حرف: a university (چون «یو» تلفظ می‌شود) و an hour (چون h خوانده نمی‌شود).
+مهم **صدا** است، نه حرف: a university (چون «یو» تلفظ می‌شود) و an hour (چون h خوانده نمی‌شود). همیشه به **کلمه‌ی بعدی** نگاه کنید: an old car، a big apple.
 
-**شغل:** «من مهندس هستم» = I'm an engineer. بدون a / an غلط است.
+**فقط برای یک چیز قابل‌شمارش:** a book درست است، اما a books و a water غلط است.
 
-**«ـی» فارسی:** «یک ماشینی خریدم» یا «ماشینی خریدم» معمولاً = I bought a car.
+**شغل:** در فارسی می‌گوییم «من مهندسم» و کلمه‌ای قبل از «مهندس» نمی‌آید. در انگلیسی باید a / an بیاید: I'm an engineer. بدون a غلط است: I'm engineer. برای جمع، a نمی‌آید: They're engineers.
+
+**a یا one؟** در فارسی «یک» هم به معنی a است و هم به معنی one. در انگلیسی معمولاً a می‌گوییم: I have a car (یک ماشین دارم). one را فقط وقتی می‌گوییم که **تعداد** مهم است: One coffee and two teas (یک قهوه و دو چای).
+
+**«ـی» فارسی:** «ماشینی خریدم» یا «یک ماشین خریدم» معمولاً در انگلیسی با a گفته می‌شود: I bought a car.
+
+**a به معنی «هر»:** three times a day (روزی سه بار)، $15 an hour (ساعتی ۱۵ دلار).
 
 </Persian>
 
@@ -146,6 +241,9 @@ Note the surprises: **a university** (it starts with a “you” sound) and **an
 
 <WrongRight wrong="She is nurse." right="She is a nurse." why="Jobs need a / an." />
 <WrongRight wrong="It's a interesting book." right="It's an interesting book." why="interesting starts with a vowel sound." />
+<WrongRight wrong="He studies at an university." right="He studies at a university." why="university starts with a “you” sound, a consonant sound." />
+<WrongRight wrong="They are a teachers." right="They are teachers." why="No a / an with a plural noun." />
+<WrongRight wrong="I have car." right="I have a car." why="One countable thing can't stand alone. It needs a / an (or the, my…)." />
 
 <MemoryHook title="Say it out loud">
 Say the next word **out loud**. If your mouth opens on a vowel sound, add an **n**: **an** apple, **an** hour.

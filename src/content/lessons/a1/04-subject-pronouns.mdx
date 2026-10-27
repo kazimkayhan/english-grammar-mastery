@@ -4,14 +4,16 @@ level: A1
 number: 4
 pillar: pronouns
 size: core
-hook: "Your friend says: “My sister is a doctor. He works at night.” He? In English a woman is always she."
-rule: "Use I, you, he, she, it, we, they as the subject: he for a man, she for a woman, it for a thing or an animal."
+hook: "Your friend says: “My sister is a doctor. He works at night.” He? In English a woman is always she. One small word, and the whole story changes."
+rule: "Use I, you, he, she, it, we, they as the subject, before the verb: he for a man, she for a woman, it for a thing or an animal, they for more than one, and you for one person or many."
 points:
   - "<b>I</b> · <b>you</b> · <b>he</b> (a man, a boy) · <b>she</b> (a woman, a girl) · <b>it</b> (a thing, an animal) · <b>we</b> · <b>they</b>"
-  - "Persian «او» is <b>he or she</b>: choose by the person!"
-  - "<b>it</b> for things and animals: The car is new. <b>It</b> is red."
-  - "<b>they</b> for more than one person or thing: My parents? <b>They</b>'re at home."
-  - "<b>you</b> is the same for one person and for many."
+  - "Persian «او» is <b>he or she</b>: choose by the person! Job words like <b>doctor</b> and <b>teacher</b> can be a man or a woman."
+  - "<b>it</b> for one thing or animal; <b>they</b> for more than one person or thing. Many people say <b>he</b> or <b>she</b> for their own pet."
+  - "<b>you</b> is the same for one person and for many, and for a friend and your boss."
+  - "Two or more: <b>Ali and I</b> → <b>we</b> · <b>Ali and Sara</b> → <b>they</b>. Put <b>I</b> last: Ali and I (not “I and Ali”)."
+  - "One respected person is still <b>he</b> or <b>she</b>, never <b>they</b> (Persian «ایشان»)."
+  - "A pronoun replaces a noun we already know: <b>Sara</b> is my friend. <b>She</b> is a nurse."
 mindmap: |
   # Subject pronouns
   ## One (singular)
@@ -21,12 +23,25 @@ mindmap: |
   - she: a woman, a girl
   - it: a thing, an animal
   ## More than one (plural)
-  - we
-  - you
-  - they: people or things
+  - we = I + other people
+  - you = the people I talk to
+  - they = people or things
   ## Persian «او»
-  - he or she?
-  - look at the person!
+  - he or she? look at the person
+  - doctor, teacher: a man or a woman
+  - «ایشان» (respect) → he / she
+  ## Two or more people
+  - Ali and I → we
+  - Ali and Sara → they
+  - you and Ali → you
+  - I goes last: Ali and I
+  ## you
+  - one person or many
+  - a friend or your boss: same you
+  - you guys (US, spoken)
+  ## Coming later
+  - me, him, her: lesson 13
+  - my, his, her: lesson 12
 covers:
   - subject-pronouns
   - he-she-it
@@ -83,6 +98,34 @@ exercises:
     options: ["you", "they", "we"]
     answer: 0
     explain: "you is the same for one person and for many people."
+  - type: gap
+    prompt: "“Where are you and Ali?” “___ are at the station.”"
+    answers: ["We"]
+    explain: "The speaker + Ali = we."
+  - type: correct
+    prompt: "I and Ali are classmates."
+    answers: ["Ali and I are classmates."]
+    explain: "Put I last: Ali and I."
+  - type: reorder
+    chunks: ["My brother", "and", "I", "are", "students."]
+    explain: "Other person first, I last: My brother and I."
+  - type: mcq
+    prompt: "Dr. Karimi (a man) is our teacher. ___ is very kind."
+    options: ["They", "He", "It"]
+    answer: 1
+    explain: "One man → he. English has no plural of respect like «ایشان»."
+  - type: transform
+    prompt: "Use a pronoun: Sara and Mina are at school."
+    answers: ["They are at school.", "They're at school."]
+    explain: "Sara and Mina = two people → they."
+  - type: transform
+    prompt: "Use a pronoun: The bus is late."
+    answers: ["It is late.", "It's late."]
+    explain: "The bus is a thing → it."
+  - type: correct
+    prompt: "My grandmother is 80. Is very active."
+    answers: ["My grandmother is 80. She is very active.", "My grandmother is 80. She's very active."]
+    explain: "Every sentence needs a subject. My grandmother → she."
 recall:
   - q: "What are the seven subject pronouns?"
     a: "<b>I, you, he, she, it, we, they</b>."
@@ -90,70 +133,149 @@ recall:
     a: "<b>he</b> for a man or boy, <b>she</b> for a woman or girl (and <b>it</b> for a thing or animal)."
   - q: "Which pronoun do we use for things?"
     a: "<b>it</b> for one thing, <b>they</b> for more than one."
+  - q: "How do you say «من و علی دوست هستیم»?"
+    a: "<b>Ali and I</b> are friends. Put <b>I</b> last."
 cards:
   - front: "Seven subject pronouns"
     back: "I · you · he · she · it · we · they"
   - front: "«او» (a woman) / «او» (a man)"
     back: "she / he"
   - front: "Pronoun for a thing or an animal"
-    back: "it (plural: they)"
+    back: "it (plural: they). For your own pet, he or she is common."
   - front: "you: one person or many?"
-    back: "Both: you is the same for one and for many."
+    back: "Both: you is the same for one and for many, for a friend and for your boss."
+  - front: "«من و علی» in English"
+    back: "Ali and I (I goes last)"
+  - front: "«ایشان» for one respected man"
+    back: "he (never they for one person you know)"
 ---
 
 ## The subject pronouns
 
-A **pronoun** takes the place of a noun, so we don't repeat it. These are the **subject** pronouns: they come before the verb.
+A **pronoun** takes the place of a noun, so we don't repeat it. These are the **subject** pronouns: they come **before** the verb.
 
 <FormTable caption="Subject pronouns">
 
 | | One (singular) | More than one (plural) |
 |---|---|---|
-| me / us | **I** | **we** |
+| the speaker | **I** | **we** (I + other people) |
 | the listener | **you** | **you** |
-| others | **he** (man) · **she** (woman) · **it** (thing, animal) | **they** |
+| other people or things | **he** (man) · **she** (woman) · **it** (thing, animal) | **they** |
 
 </FormTable>
 
 <Example context="social" fa="این برادرم است. او مهندس است.">This is my brother. <mark>He</mark> is an engineer.</Example>
 <Example context="work" fa="این همکارم، نگار است. او از اصفهان است.">This is my colleague, Negar. <mark>She</mark> is from Isfahan.</Example>
 <Example context="home" fa="گربه‌مان پیر است. هفت ساله است.">Our cat is old. <mark>It</mark> is seven.</Example>
-<Example context="travel" fa="ما در هتل هستیم. آن‌ها در فرودگاه هستند.">We're at the hotel. <mark>They</mark>'re at the airport.</Example>
+<Example context="travel" fa="ما در هتل هستیم. آن‌ها در فرودگاه هستند."><mark>We</mark>'re at the hotel. <mark>They</mark>'re at the airport.</Example>
 
-## he or she? Look at the person
+### A pronoun replaces a noun
 
-Persian has one word, «او», for a man **and** a woman. English has two:
+First say the noun. After that, use the pronoun.
+
+<Example context="health" fa="سارا دوست من است. او پرستار است.">Sara is my friend. <mark>She</mark> is a nurse. <span class="text-muted-foreground">(not: Sara is a nurse. Sara works…)</span></Example>
+
+Remember lesson 3: English always needs a subject. In Persian, «پرستار است» is a full sentence. In English you must say ***She** is a nurse.*
+
+### Two or more people
+
+When you join people with **and**, choose the pronoun for the whole group:
+
+- *Ali and Sara* → **they**
+- *Ali and I* → **we**
+- *you and Ali* → **you** (more than one person)
+
+When *I* is in the group, put **I last**: ***Ali and I** are friends.* Don't say ~~I and Ali~~. In Persian, «من و علی» puts *من* first, so this needs practice.
+
+<Example context="school" fa="من و برادرم دانشجو هستیم.">My brother <mark>and I</mark> are students.</Example>
+<Example context="travel" fa="«تو و علی کجا هستید؟» «ما در ایستگاه هستیم.»">“Where are you and Ali?” “<mark>We</mark>'re at the station.”</Example>
+
+## he, she or it?
+
+Persian has one word, «او», for a man **and** a woman. English has two, and you must **choose** every time:
 
 - a man, a boy, a father, a brother → **he**
 - a woman, a girl, a mother, a sister → **she**
+- a thing, an animal, an idea → **it**
 
-Practice saying them out loud. Your brain needs to **choose** every time.
+Many job words, like *doctor, teacher, nurse, engineer*, can be a man or a woman. Look at the **person**, not the word:
 
-## it and they
+<Example context="health" fa="دکتر من زن است. او خیلی مهربان است.">My doctor is a woman. <mark>She</mark> is very kind.</Example>
 
-- **it** = one thing or one animal: *The bus is late. <mark>It</mark>'s always late!*
-- **they** = more than one person **or** thing: *The shoes are cheap. <mark>They</mark>'re on sale.*
+### Animals and pets
+
+For an animal we usually say **it**. But for our own pet, or an animal we know well, many people say **he** or **she**:
+
+<Example context="home" fa="اسم سگ ما مکس است. خیلی مهربان است.">Our dog is called Max. <mark>He</mark>'s very friendly.</Example>
+
+Things are always **it**: *The car is old. **It**'s slow.* (Old books sometimes say *she* for a ship or a country. You don't need this.)
+
+### One person is never they
+
+In polite Persian we say «ایشان» or use a plural verb for one respected person: «استادمان تشریف آوردند». English does **not** do this. One man is **he**, one woman is **she**, even your boss or your grandfather:
+
+<Example context="school" fa="دکتر کریمی استاد ماست. ایشان خیلی مهربان هستند.">Dr. Karimi is our teacher. <mark>He</mark> is very kind.</Example>
+
+Sometimes people use *they* for one person when they don't know if it is a man or a woman: *Someone is at the door. What do **they** want?* That comes at level B1, lesson 43 (Generic you, one, they; each other).
+
+## you: one person or many
+
+**you** is the same word for one person and for many people. The verb is the same, too: *you **are***.
+
+<Example context="social" fa="سارا، تو خیلی بامزه‌ای!">Sara, <mark>you</mark>'re very funny!</Example>
+<Example context="school" fa="بچه‌ها، شما خیلی ساکت هستید!">Class, <mark>you</mark>'re very quiet today!</Example>
+
+English has no polite *you* like Persian «شما». You say **you** to a child, a friend and your boss. To be polite, use *please* and a title: *Mr. Karimi, are **you** ready?*
+
+In American English, people often say **you guys** when they talk to a group, in speech: *Hey, you guys! Where are you going?*
+
+## we and they
+
+- **we** = I + other people. The listener can be in the group or not: *Come on, **we**'re late!* (you and I) · *“Are you hungry?” “No, **we** aren't.”* (my family and I)
+- **they** = other people **or** things, more than one: *My parents? **They**'re at home.* · *The shoes are cheap. **They**'re on sale.*
+
+## Pronouns and the verb
+
+Each pronoun takes the right form of the verb: I **am**, he **is**, they **are** (lesson 5, be: am, is, are), and he **works**, they **work** (lesson 17, Present simple: positive).
+
+## Coming later
+
+- After a verb or a preposition we use **me, him, her, us, them**: *I know **him**. Come with **me**.* That is lesson 13 (Object pronouns: me, him, her, us, them).
+- **my, your, his, her**: lesson 12 (my, your, his, her… and 's).
+- *It's raining. It's five o'clock.*: lesson 34 (it for time, weather & distance).
 
 <Persian>
 
-**ضمیرهای فاعلی:** I (من)، you (تو / شما)، he (او: مرد)، she (او: زن)، it (آن: شیء یا حیوان)، we (ما)، they (آن‌ها / ایشان).
+**ضمیرهای فاعلی:** I (من)، you (تو / شما)، he (او: مرد)، she (او: زن)، it (آن: شیء یا حیوان)، we (ما)، they (آن‌ها). این ضمیرها قبل از فعل می‌آیند و جای اسم را می‌گیرند تا اسم را تکرار نکنیم: Sara is my friend. She is a nurse.
 
 **مهم‌ترین نکته:** در فارسی «او» هم برای زن است و هم برای مرد، اما در انگلیسی باید انتخاب کنید:
 
 - مرد یا پسر ← **he**
 - زن یا دختر ← **she**
+- شیء، حیوان یا مفهوم ← **it**
 
-یک اشتباه بسیار رایج در گفتار فارسی‌زبان‌ها این است که درباره‌ی مادر یا خواهرشان می‌گویند he. هر بار قبل از گفتن، به جنسیت آن شخص فکر کنید.
+یک اشتباه بسیار رایج در گفتار فارسی‌زبان‌ها این است که درباره‌ی مادر یا خواهرشان می‌گویند he. هر بار قبل از گفتن، به جنسیت آن شخص فکر کنید. کلمه‌هایی مثل doctor، teacher و nurse می‌توانند زن یا مرد باشند؛ به خودِ آن شخص نگاه کنید.
 
-**it** برای اشیا و حیوانات است، و **they** برای بیش از یک نفر یا یک چیز. **you** برای یک نفر و چند نفر یکسان است (برخلاف «تو» و «شما» در فارسی).
+**حیوان خانگی:** برای حیوان معمولاً it می‌گوییم، اما برای حیوان خانگی خودمان معمولاً he یا she می‌گوییم: Our dog is called Max. He's very friendly. برای اشیا همیشه it.
+
+**احترام:** در فارسی برای احترام به یک نفر «ایشان» می‌گوییم یا فعل جمع به کار می‌بریم («تشریف آوردند»). در انگلیسی این کار را نمی‌کنیم. برای یک مرد، حتی استاد یا پدربزرگ، **he** و برای یک زن **she**: Dr. Karimi is our teacher. He is very kind. (نه They are very kind.)
+
+**you:** برای یک نفر و چند نفر یکسان است. انگلیسی مثل فارسی «تو» و «شما» ندارد؛ با دوست و رئیس هر دو you می‌گوییم. برای مؤدب بودن از please و عنوان (Mr.، Dr.) استفاده می‌کنیم. در انگلیسی آمریکایی محاوره‌ای برای چند نفر you guys هم می‌گویند.
+
+**چند نفر با and:** Ali and Sara ← they، Ali and I ← we، you and Ali ← you. در فارسی می‌گوییم «من و علی»، اما در انگلیسی I را **آخر** می‌گذاریم: Ali and I are friends (نه I and Ali).
+
+**فاعل را حذف نکنید:** در فارسی «پرستار است» یک جمله‌ی کامل است، اما در انگلیسی باید ضمیر را بگویید: She is a nurse. (درس ۳)
 
 </Persian>
 
 ## Common mistakes
 
 <WrongRight wrong="My mother is at work. He is a nurse." right="My mother is at work. She is a nurse." why="A woman → she." />
-<WrongRight wrong="The car is old. He doesn't start." right="The car is old. It doesn't start." why="A thing → it, never he or she." />
+<WrongRight wrong="This phone is new. He is very fast." right="This phone is new. It is very fast." why="A thing → it, never he or she." />
+<WrongRight wrong="I and Ali are friends." right="Ali and I are friends." why="Put I last." />
+<WrongRight wrong="Dr. Karimi is our teacher. They are very kind." right="Dr. Karimi is our teacher. He is very kind." why="One person → he or she. English has no plural of respect." />
+<WrongRight wrong="My grandmother is 80. Is very active." right="My grandmother is 80. She is very active." why="English needs the subject pronoun." />
 
 <MemoryHook title="Picture the person">
-Before you say «او», **picture the person**: a man → **he**, a woman → **she**. A thing has no picture of a person → **it**.
+Before you say «او», **picture the person**: a man → **he**, a woman → **she**. A thing has no picture of a person → **it**. More than one → **they**. And **you** is everyone you talk to.
 </MemoryHook>

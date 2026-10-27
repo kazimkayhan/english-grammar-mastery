@@ -4,26 +4,37 @@ level: A1
 number: 2
 pillar: style
 size: mini
-hook: "A text from a new friend: “i live in tabriz. where do you live” Two small problems: capital letters and the end of the question."
-rule: "Start every sentence with a capital letter, write I and names with capitals, and end with a period (.) or a question mark (?)."
+hook: "A text from a new friend: “hi! i'm sara. i live in tabriz. where do you live” The words are fine, but the capital letters and the end of the question are missing."
+rule: "Start every sentence with a capital letter, write I and names with capitals, and end each sentence with a period (.), a question mark (?) or, for a strong feeling, an exclamation point (!)."
 points:
-  - "Every sentence starts with a <b>capital letter</b>: <b>M</b>y name is Reza."
-  - "<b>I</b> is always a capital: Sara and <b>I</b> are friends."
-  - "Names of people, cities, countries and languages have capitals: <b>A</b>li, <b>T</b>ehran, <b>I</b>ran, <b>E</b>nglish."
-  - "A statement ends with a <b>period (.)</b>; a question ends with a <b>question mark (?)</b>."
-  - "Persian has no capital letters, so practice this until it's automatic."
+  - "Start every sentence with a <b>capital letter</b>: <b>M</b>y name is Reza. <b>W</b>here do you live?"
+  - "<b>I</b> is always a capital, even in the middle of a sentence: Sara and <b>I</b> are friends. (But <b>me</b> and <b>my</b> are small.)"
+  - "Names take capitals: people (<b>A</b>li), cities (<b>T</b>ehran), countries (<b>I</b>ran), streets (<b>V</b>aliasr <b>S</b>treet), languages (<b>E</b>nglish)."
+  - "Days and months take capitals (<b>M</b>onday, <b>J</b>une), but seasons don't (summer). Ordinary nouns are small: city, street, teacher."
+  - "A statement ends with a <b>period (.)</b>. A question ends with a <b>question mark (?)</b>. A strong feeling can end with an <b>exclamation point (!)</b>."
+  - "In American English, a short title before a name has a period: <b>Mr.</b> Karimi, <b>Dr.</b> Ahmadi."
+  - "Persian has no capital letters, and its question mark is ؟. In English, always write <b>?</b>."
 mindmap: |
   # Capitals & end marks
   ## Capital letters
   - start of a sentence
-  - I (always)
-  - people: Ali, Sara
-  - places: Tehran, Iran
+  - I (always), but me, my
+  - people: Ali, Sara Ahmadi
+  - places: Tehran, Iran, Valiasr Street
   - languages: English, Persian
+  - days & months: Monday, June
+  - titles: Mr. Karimi, Dr. Ahmadi
+  ## Small letters
+  - ordinary nouns: city, street
+  - seasons: spring, summer
   ## End of a sentence
   - statement → . (period)
-  - question → ?
-  - strong feeling → !
+  - question → ? (not ؟)
+  - strong feeling → ! (exclamation point)
+  - next sentence → capital letter
+  ## UK names
+  - full stop · exclamation mark
+  - Mr · Dr (often no period)
 covers:
   - capital-start
   - capital-names
@@ -54,23 +65,52 @@ exercises:
     prompt: "Which sentence is correct?"
     options: ["i am a student.", "I am a student.", "I am a student"]
     answer: 1
-    explain: "Capital I, and a period at the end."
+    explain: "Capital I at the start, and a period at the end."
   - type: mcq
     prompt: "Which word needs a capital letter?"
     options: ["city", "tehran", "street"]
     answer: 1
-    explain: "Tehran is the name of a city."
+    explain: "Tehran is the name of a city. city and street are ordinary nouns."
   - type: mcq
     prompt: "How old are you___ Which mark ends this sentence?"
     options: [".", "?", "!"]
     answer: 1
-    explain: "It's a question, so it ends with ?"
+    explain: "It's a question, so it ends with a question mark (?)."
   - type: gap
     prompt: "My brother lives in ___."
     base: "london"
     answers: ["London"]
     strict: true
     explain: "London is the name of a city, so it starts with a capital letter."
+  - type: gap
+    prompt: "My birthday is in ___."
+    base: "june"
+    answers: ["June"]
+    strict: true
+    explain: "Months take a capital letter: January, June, December."
+  - type: mcq
+    prompt: "Which word does NOT take a capital letter?"
+    options: ["Monday", "summer", "Iran"]
+    answer: 1
+    explain: "Days (Monday) and countries (Iran) take capitals. Seasons (spring, summer) don't."
+  - type: correct
+    prompt: "We live on valiasr street in tehran."
+    answers: ["We live on Valiasr Street in Tehran."]
+    strict: true
+    explain: "Valiasr Street is the name of a street, and Tehran is a city: all three words take capitals."
+  - type: correct
+    prompt: "is your sister a doctor"
+    answers: ["Is your sister a doctor?"]
+    strict: true
+    explain: "Capital letter at the start, question mark at the end."
+  - type: correct
+    prompt: "Hi, i'm Sara. i'm from Iran."
+    answers: ["Hi, I'm Sara. I'm from Iran."]
+    strict: true
+    explain: "I is always a capital, also in the short form I'm."
+  - type: reorder
+    chunks: ["My", "friend", "and", "I", "live", "in", "Mashhad."]
+    explain: "Capital M at the start, capital I, capital M for the city, and a period at the end."
   - type: match
     prompt: "Match each sentence with its end mark."
     pairs:
@@ -78,54 +118,127 @@ exercises:
       - ["My name is Ali", "."]
       - ["Wow, that's amazing", "!"]
     explain: "Questions take ?, statements take a period, strong feelings take !"
+  - type: mcq
+    prompt: "In American English, which is correct?"
+    options: ["Dr. Ahmadi", "dr Ahmadi", "DR Ahmadi"]
+    answer: 0
+    explain: "A title before a name takes a capital letter. In American English it also takes a period: Dr., Mr., Mrs."
 recall:
   - q: "Which words always start with a capital letter?"
-    a: "The <b>first word</b> of a sentence, <b>I</b>, and <b>names</b> of people, places and languages."
-  - q: "How does a question end?"
-    a: "With a <b>question mark (?)</b>."
+    a: "The <b>first word</b> of a sentence, <b>I</b>, and <b>names</b>: people, cities, countries, streets, languages, days and months."
+  - q: "How does a question end in English?"
+    a: "With a <b>question mark (?)</b>. Don't use the Persian mark ؟."
+  - q: "Do seasons take a capital letter?"
+    a: "No: <b>spring, summer, fall, winter</b>. But days and months do: <b>Monday, June</b>."
   - q: "Is the word I ever small?"
-    a: "Never. The pronoun <b>I</b> is always a capital letter."
+    a: "Never. The pronoun <b>I</b> is always a capital letter. But <b>me</b> and <b>my</b> are small."
 cards:
   - front: "Which words take a capital letter?"
-    back: "The start of a sentence · I · names of people, places and languages"
+    back: "The start of a sentence · I · names of people, places and languages · days and months"
   - front: "A statement ends with…"
     back: ". (period; British English: full stop)"
   - front: "A question ends with…"
-    back: "? (question mark)"
+    back: "? (question mark, not the Persian ؟)"
   - front: "✗ i live in tehran. ✓ ?"
     back: "I live in Tehran."
+  - front: "summer or Summer? monday or Monday?"
+    back: "summer (seasons are small) · Monday (days are capital)"
 ---
 
 ## Capital letters
 
-English has big letters (**A, B, C**) and small letters (**a, b, c**). Use a capital letter:
+English has two sizes of letter: **capital letters** (A, B, C) and **small letters** (a, b, c). Persian has only one size, so this is new for you. Use a capital letter:
 
-- at the **start of every sentence**: *<mark>T</mark>he coffee is hot.*
-- for **I**: *My friend and <mark>I</mark> study together.*
-- for **names**: people (*<mark>R</mark>eza*), cities (*<mark>M</mark>ashhad*), countries (*<mark>I</mark>ran*), languages (*<mark>P</mark>ersian*).
+<FormTable caption="When to use a capital letter">
+
+| Use a capital for… | Examples |
+|---|---|
+| the first word of a sentence | **T**he coffee is hot. **I**s it ready? |
+| the pronoun **I** | My friend and **I** study together. |
+| names of people | **R**eza, **S**ara **A**hmadi |
+| cities and countries | **M**ashhad, **I**ran, **C**anada |
+| streets, rivers and mountains | **V**aliasr **S**treet, the **K**arun **R**iver, **M**ount **D**amavand |
+| languages | **E**nglish, **P**ersian, **A**rabic |
+| days and months | **M**onday, **J**une |
+| a title before a name | **M**r. **K**arimi, **D**r. **A**hmadi |
+
+</FormTable>
 
 <Example context="social" fa="اسم من مریم است. من اهل کرج هستم.">My name is Maryam. I'm from Karaj.</Example>
 <Example context="school" fa="ما در دانشگاه انگلیسی و فرانسوی می‌خوانیم.">We study English and French at university.</Example>
+<Example context="travel" fa="هتل ما در خیابان ولیعصر است.">Our hotel is on Valiasr Street.</Example>
 
-## Periods and question marks
+### Only I is always a capital
 
-- A normal sentence (a **statement**) ends with a **period**: *I'm hungry.*
-- A **question** ends with a **question mark**: *Are you hungry?*
-- A strong feeling can end with **!**: *Great!* (Use it rarely in writing.)
+The pronoun **I** is always a capital letter, also in the short form **I'm**. Other words for *me* are small: *Can you help **me**? This is **my** bag.*
+
+<Example context="home" fa="من و خواهرم با هم آشپزی می‌کنیم.">My sister and <mark>I</mark> cook together.</Example>
+
+### Small letters
+
+Ordinary words are small, also in the middle of a sentence. Use a capital letter only for a name (or for *I*).
+
+- ordinary nouns: *I live in a big **city**. Our **teacher** is nice.*
+- seasons: ***spring, summer, fall, winter*** (but days and months take capitals)
+- words after a comma: *Hi, **how** are you?*
+
+<Example context="travel" fa="تابستان در شیراز گرم است.">Shiraz is hot in <mark>summer</mark>.</Example>
+<Example context="work" fa="جلسه دوشنبه است، نه سه‌شنبه.">The meeting is on <mark>Monday</mark>, not <mark>Tuesday</mark>.</Example>
+
+## Periods, question marks and exclamation points
+
+Every sentence ends with a mark. The mark tells the reader what kind of sentence it is.
+
+<FormTable caption="End marks">
+
+| Mark | Name | Use it for | Example |
+|---|---|---|---|
+| **.** | period | a statement or an instruction | I'm hungry. Sit down, please. |
+| **?** | question mark | a question | Are you hungry? Where is the station? |
+| **!** | exclamation point | a strong feeling: surprise, anger, excitement | Great! Stop! What a nice day! |
+
+</FormTable>
+
+- After the end mark, the **next sentence** starts with a capital letter: *I'm tired. **I**s it late?*
+- Every question ends with **?**, even a very short one: *Really? Ready?*
+- Use **!** only for strong feelings. In formal writing, like an email to your boss, use it very rarely.
+- In American English, short titles take a period, too: *Mr. Karimi, Mrs. Hosseini, Dr. Ahmadi.*
 
 <Example context="work" fa="جلسه ساعت ده است. می‌توانی بیایی؟">The meeting is at ten. Can you come?</Example>
+<Example context="health" fa="دکتر احمدی امروز اینجاست؟">Is Dr. Ahmadi here today?</Example>
+<Example context="social" fa="وای! تولدت مبارک!">Wow! Happy birthday!</Example>
 
-<UkNote>In British English the period is called a **full stop**.</UkNote>
+<UkNote>In British English the period is called a **full stop**, and the exclamation point is an **exclamation mark**. British English often writes titles with no period: **Mr** Karimi, **Dr** Ahmadi.</UkNote>
+
+## Coming later
+
+- Capitals for nationalities (*Iranian*) and more titles: level A2, lesson 47 (Commas in lists & capital letters).
+- Apostrophes in short forms (*I'm, don't*): level A2, lesson 6 (Contractions & apostrophes).
+- A question inside a statement ends with a period (*I don't know where she lives.*): level B1, lesson 3 (Indirect questions).
 
 <Persian>
 
-**حروف بزرگ (capital letters):** فارسی حرف بزرگ و کوچک ندارد، ولی انگلیسی دارد. در این جاها حرف اول را **بزرگ** بنویسید:
+**حروف بزرگ (capital letters):** فارسی حرف بزرگ و کوچک ندارد، ولی انگلیسی دارد. برای همین فارسی‌زبان‌ها اغلب همه‌چیز را با حرف کوچک می‌نویسند: i live in tehran. در این جاها حرف اول را **بزرگ** بنویسید:
 
 - اول هر جمله: The coffee is hot.
-- ضمیر **I** (من) همیشه بزرگ است، حتی وسط جمله: My friend and I…
-- اسم‌ها: اسم آدم‌ها (Reza)، شهرها (Mashhad)، کشورها (Iran) و زبان‌ها (English, Persian).
+- ضمیر **I** (من) همیشه بزرگ است، حتی وسط جمله و در I'm. اما me و my کوچک هستند.
+- اسم آدم‌ها: Reza، Sara Ahmadi
+- اسم شهرها و کشورها: Mashhad، Iran
+- اسم خیابان‌ها، رودها و کوه‌ها: Valiasr Street، Mount Damavand
+- اسم زبان‌ها: English، Persian
+- روزهای هفته و ماه‌ها: Monday، June
+- عنوان قبل از اسم: Mr. Karimi، Dr. Ahmadi
 
-**آخر جمله:** جمله‌ی خبری با **نقطه (.)** تمام می‌شود و جمله‌ی سؤالی با **علامت سؤال (?)**. توجه کنید که علامت سؤال انگلیسی (?) با علامت سؤال فارسی (؟) فرق دارد.
+**حروف کوچک:** کلمه‌های معمولی را وسط جمله با حرف کوچک بنویسید: city، street، teacher. فصل‌ها هم با حرف کوچک نوشته می‌شوند: spring، summer، fall، winter. یک قاعده‌ی ساده: وسط جمله، حرف بزرگ یعنی «اسم» (یا I).
+
+**آخر جمله:**
+
+- جمله‌ی خبری (و دستوری) با **نقطه (.)** تمام می‌شود. در انگلیسی آمریکایی به آن period می‌گویند و در انگلیسی بریتانیایی full stop.
+- جمله‌ی سؤالی با **علامت سؤال (?)** تمام می‌شود. دقت کنید: علامت سؤال انگلیسی (?) با علامت سؤال فارسی (؟) فرق دارد. در متن انگلیسی همیشه ? بنویسید.
+- برای احساس قوی (تعجب، خشم، هیجان) از **علامت تعجب (!)** استفاده می‌کنیم: Great! در نوشته‌ی رسمی کمتر از آن استفاده کنید.
+- بعد از علامت پایان جمله، جمله‌ی بعدی با حرف بزرگ شروع می‌شود.
+
+**عنوان‌ها:** در انگلیسی آمریکایی بعد از Mr.، Mrs. و Dr. نقطه می‌گذاریم. در انگلیسی بریتانیایی معمولاً بدون نقطه: Mr، Dr.
 
 </Persian>
 
@@ -133,7 +246,11 @@ English has big letters (**A, B, C**) and small letters (**a, b, c**). Use a cap
 
 <WrongRight wrong="my friend and i live in shiraz." right="My friend and I live in Shiraz." why="Capital at the start, capital I, capital for the city name." />
 <WrongRight wrong="Are you from iran." right="Are you from Iran?" why="Country names take a capital; a question ends with ?" />
+<WrongRight wrong="Where is the station؟" right="Where is the station?" why="Use the English question mark (?), not the Persian one (؟)." />
+<WrongRight wrong="I live in a big City." right="I live in a big city." why="city is an ordinary noun, not a name. Use a capital only for names: I live in Tehran." />
+<WrongRight wrong="I love Summer in Shiraz." right="I love summer in Shiraz." why="Seasons don't take capitals." />
+<WrongRight wrong="See you on monday!" right="See you on Monday!" why="Days of the week take capitals." />
 
 <MemoryHook title="Big start, big I, big names">
-Start **big**, write **I** big, give every **name** a big letter, and finish with a **dot** or a **question mark**.
+Start **big**, write **I** big, give every **name** a big letter, and finish with a **dot**, a **question mark** or, for a strong feeling, an **exclamation point**.
 </MemoryHook>

@@ -5,29 +5,39 @@ number: 18
 pillar: tenses
 size: core
 hook: "“Do you speak English?” “Yes, I do. But my brother doesn't speak it.” Questions and negatives need a helper: do or does."
-rule: "Make negatives with don't / doesn't + base form, and questions with Do / Does + subject + base form. does already has the -s, so the main verb doesn't."
+rule: "Make negatives with don't / doesn't + base form, and questions with Do / Does + subject + base form. With a question word: Where do you live? does already has the -s, so the main verb doesn't."
 points:
   - "Negative: I / you / we / they <b>don't</b> + verb · he / she / it <b>doesn't</b> + verb"
   - "Question: <b>Do</b> you work…? · <b>Does</b> she work…?"
   - "After does / doesn't the verb has <b>no -s</b>: Does she <b>work</b>? She doesn't <b>work</b>."
-  - "Short answers: Yes, I <b>do</b>. / No, she <b>doesn't</b>."
-  - "Wh- questions: question word + <b>do / does</b> + subject + verb: Where <b>do</b> you live?"
+  - "Short answers: Yes, I <b>do</b>. / No, she <b>doesn't</b>. (not “Yes, I work.”)"
+  - "Wh- questions: question word + <b>do / does</b> + subject + verb: Where <b>do</b> you live? What <b>does</b> he do?"
+  - "No do with <b>be</b>: <b>Are</b> you tired? (not Do you are…) · She <b>isn't</b> here."
+  - "One negative only: I <b>don't</b> know <b>anything</b> (not “I don't know nothing”)."
 mindmap: |
   # Present simple − and ?
   ## Negative
   - I don't work
   - She doesn't work
+  - do not / does not (full)
   ## Question
   - Do you work?
   - Does she work?
   ## No -s after does
   - Does she work? (not works)
+  - She doesn't work (not works)
   ## Short answers
   - Yes, I do / No, I don't
   - Yes, she does / No, she doesn't
   ## Wh- questions
   - Where do you live?
-  - What does he do?
+  - What does he do? (job)
+  - What time does it open?
+  ## Not with do
+  - be: Are you tired?
+  - can: Can you swim?
+  ## One negative
+  - I don't know anything
 covers:
   - present-simple-negative
   - present-simple-questions
@@ -49,6 +59,11 @@ exercises:
     options: ["don't", "doesn't", "not"]
     answer: 0
     explain: "I → don't."
+  - type: mcq
+    prompt: "“___ you tired?” “Yes, a little.”"
+    options: ["Are", "Do", "Does"]
+    answer: 0
+    explain: "tired goes with be: Are you tired? No do with be."
   - type: gap
     prompt: "She ___ eat meat. She's a vegetarian."
     answers: ["doesn't", "does not"]
@@ -57,6 +72,14 @@ exercises:
     prompt: "Where ___ you work?"
     answers: ["do"]
     explain: "Question word + do + you + verb."
+  - type: gap
+    prompt: "What time ___ the bank open?"
+    answers: ["does"]
+    explain: "the bank = it → does + base form open."
+  - type: gap
+    prompt: "“Do you speak French?” “No, I ___.”"
+    answers: ["don't", "do not"]
+    explain: "Short answer: No, I don't. Don't repeat speak."
   - type: correct
     prompt: "Does she works here?"
     answers: ["Does she work here?"]
@@ -69,27 +92,42 @@ exercises:
     prompt: "He don't speak French."
     answers: ["He doesn't speak French.", "He does not speak French."]
     explain: "he → doesn't."
+  - type: correct
+    prompt: "She doesn't likes coffee."
+    answers: ["She doesn't like coffee.", "She does not like coffee."]
+    explain: "After doesn't, the verb has no -s."
+  - type: correct
+    prompt: "I don't know nothing about it."
+    answers: ["I don't know anything about it.", "I do not know anything about it.", "I know nothing about it."]
+    explain: "One negative only: don't … anything, or just nothing."
   - type: transform
     prompt: "Make a question: They play tennis on Fridays."
     answers: ["Do they play tennis on Fridays?"]
     explain: "Do + they + play…?"
+  - type: transform
+    prompt: "Make it negative: My sister drives to work."
+    answers: ["My sister doesn't drive to work.", "My sister does not drive to work."]
+    explain: "doesn't + base form: drives → doesn't drive."
   - type: match
     prompt: "Match each question with its short answer."
     pairs:
       - ["Do you like tea?", "Yes, I do."]
       - ["Does he drive?", "No, he doesn't."]
       - ["Do they live here?", "Yes, they do."]
+      - ["Does she work here?", "Yes, she does."]
     explain: "Short answers repeat do / does, not the main verb."
   - type: reorder
-    chunks: ["What time", "does", "the shop", "open?"]
-    explain: "Question word + does + subject + base form."
+    chunks: ["What", "does", "your father", "do?"]
+    explain: "Question word + does + subject + base form. What does he do? = What is his job?"
 recall:
   - q: "How do you make the present simple negative?"
     a: "<b>don't</b> / <b>doesn't</b> + base form: I don't work, she doesn't work."
   - q: "Why is “Does she works?” wrong?"
     a: "<b>does</b> already shows he / she / it, so the main verb has <b>no -s</b>: Does she work?"
   - q: "How do you ask «کجا کار می‌کنی؟»"
-    a: "<b>Where do you work?</b>"
+    a: "<b>Where do you work?</b> (question word + do + subject + verb)"
+  - q: "“Do you like tea?” What are the short answers?"
+    a: "<b>Yes, I do.</b> / <b>No, I don't.</b> (not “Yes, I like.”)"
 cards:
   - front: "Negative: I / she + work"
     back: "I don't work · She doesn't work"
@@ -99,14 +137,19 @@ cards:
     back: "Does she like it? (no -s after does)"
   - front: "«کجا زندگی می‌کنی؟»"
     back: "Where do you live?"
+  - front: "✗ Do you are tired? ✓ ?"
+    back: "Are you tired? (no do with be)"
 ---
 
 ## Negatives and questions need do / does
+
+The present simple has no helper verb in positive sentences (*I work*). For negatives and questions, we add one: **do** or **does**.
 
 <FormTable caption="Present simple: negative and question">
 
 | | I / you / we / they | he / she / it |
 |---|---|---|
+| **+** | I work. | She work**s**. |
 | **−** | I **don't** work. | She **doesn't** work. |
 | **?** | **Do** you work? | **Does** she work? |
 | **Short answers** | Yes, I **do**. / No, I **don't**. | Yes, she **does**. / No, she **doesn't**. |
@@ -115,9 +158,25 @@ cards:
 
 The **-s** moves to **does**, so the main verb goes back to its base form: *She work**s**. → She **does**n't work. → **Does** she work?*
 
-<Example context="social" fa="انگلیسی صحبت می‌کنی؟ بله.">“Do you speak English?” “Yes, I <mark>do</mark>.”</Example>
+## Negatives
+
+**don't** = do not. **doesn't** = does not. The short forms are normal in speech. The full forms sound more formal or stronger.
+
 <Example context="home" fa="برادرم گوشت نمی‌خورد.">My brother <mark>doesn't eat</mark> meat.</Example>
-<Example context="shopping" fa="این مغازه جمعه‌ها باز است؟"><mark>Does</mark> this shop <mark>open</mark> on Fridays?</Example>
+<Example context="work" fa="ما شنبه‌ها کار نمی‌کنیم.">We <mark>don't work</mark> on Saturdays.</Example>
+<Example context="health" fa="او سیگار نمی‌کشد.">She <mark>doesn't smoke</mark>.</Example>
+
+**One negative only.** In English, one negative word is enough. After *don't / doesn't*, use **anything, anyone, any**: *I **don't** know **anything**.* Not ~~I don't know nothing~~. (More in A2 lesson 2, Negatives & answering negative questions.)
+
+## Yes/no questions
+
+Put **Do / Does** before the subject. The main verb stays in its base form.
+
+<Example context="social" fa="انگلیسی صحبت می‌کنی؟ بله.">“<mark>Do</mark> you speak English?” “Yes, I <mark>do</mark>.”</Example>
+<Example context="shopping" fa="این مغازه جمعه‌ها باز است؟"><mark>Does</mark> this store <mark>open</mark> on Fridays?</Example>
+<Example context="travel" fa="این اتوبوس به فرودگاه می‌رود؟ نه، نمی‌رود.">“<mark>Does</mark> this bus <mark>go</mark> to the airport?” “No, it <mark>doesn't</mark>.”</Example>
+
+**Short answers** use *do / does / don't / doesn't*. Don't use the main verb alone: *Yes, I **do**.* not ~~Yes, I like.~~ (A full answer is fine too: *Yes, I like it.*)
 
 ## Wh- questions
 
@@ -129,24 +188,53 @@ Put the question word first, then **do / does**, then the subject and the verb:
 |---|---|---|---|
 | Where | **do** | you | live? |
 | What | **does** | he | do? |
-| When | **does** | the class | start? |
+| What time | **does** | the class | start? |
+| How | **do** | you | get to work? |
+| How much | **does** | it | cost? |
 
 </FormTable>
 
 <Example context="work" fa="شغل پدرت چیست؟">What <mark>does</mark> your father <mark>do</mark>?</Example>
+<Example context="school" fa="کلاس ساعت چند شروع می‌شود؟">What time <mark>does</mark> the class <mark>start</mark>?</Example>
+<Example context="shopping" fa="این چقدر قیمت دارد؟">How much <mark>does</mark> it <mark>cost</mark>?</Example>
+
+**do** can be the helper **and** the main verb: *What **do** you **do**?* = What is your job? *She **doesn't do** her homework.*
+
+**Who** as the subject (the person who does the action) needs no *do*: ***Who lives** here?* not ~~Who does live here?~~ That comes in B1 lesson 1 (Subject & object questions). Questions with a preposition at the end (*Who do you work **with**?*) come in A2 lesson 1 (Wh- questions: which, whose, how long, what … like).
 
 <DecisionTree id="question-auxiliary" />
+
+## No do with be (and can)
+
+**be** makes its own negatives and questions (lesson 5 and lesson 6). Don't add *do*:
+
+- ***Are** you tired?* not ~~Do you are tired?~~
+- *She **isn't** a doctor.* not ~~She doesn't be a doctor.~~
+
+**can** works the same way: *Can you swim? I can't drive.* (lesson 21). But **have** uses *do*: *Do you have a car?* (lesson 16).
+
+<Example context="health" fa="خسته‌ای؟"><mark>Are</mark> you tired?</Example>
+<Example context="work" fa="آیا در اداره کار می‌کنی؟"><mark>Do</mark> you <mark>work</mark> in an office?</Example>
+
+Negative questions (*Don't you like it?*) come in A2 lesson 2 (Negatives & answering negative questions).
 
 <Persian>
 
 **منفی و سؤالی در حال ساده:** به یک فعل کمکی نیاز داریم: **do** (برای I / you / we / they) و **does** (برای he / she / it).
 
-- منفی: I **don't** work. / She **doesn't** work.
+- منفی: I **don't** work. / She **doesn't** work. (don't = do not، doesn't = does not)
 - سؤالی: **Do** you work? / **Does** she work?
+- جواب کوتاه: Yes, I **do**. / No, she **doesn't**. فعل اصلی را تکرار نمی‌کنیم: نه Yes, I like.
 
-**مهم:** s فعل به does منتقل می‌شود، پس بعد از does / doesn't فعل اصلی **بدون s** است: Does she **work**? (نه works)
+**مهم:** s فعل به does منتقل می‌شود، پس بعد از does / doesn't فعل اصلی **بدون s** است: Does she **work**? (نه works) / She doesn't **work**. (نه works)
 
-**اشتباه رایج فارسی‌زبان‌ها:** در فارسی فقط با لحن سؤال می‌پرسیم («کجا کار می‌کنی؟»)، پس «Where you work?» می‌گوییم. در انگلیسی do لازم است: **Where do you work?**
+**سؤال با کلمه‌ی پرسشی:** کلمه‌ی پرسشی + do / does + فاعل + فعل: **Where do you work?** (کجا کار می‌کنی؟) / **What does he do?** (شغلش چیست؟)
+
+**اشتباه رایج فارسی‌زبان‌ها ۱:** در فارسی فقط با لحن سؤال می‌پرسیم («کجا کار می‌کنی؟») و ترتیب کلمه‌ها عوض نمی‌شود، پس «Where you work?» می‌گوییم. در انگلیسی do لازم است: **Where do you work?**
+
+**اشتباه رایج ۲:** در فارسی دو منفی با هم می‌آیند: «**هیچ** چیز **نمی**‌دانم». در انگلیسی فقط یک منفی: I **don't** know **anything**. (نه I don't know nothing)
+
+**با be از do استفاده نمی‌کنیم:** Are you tired? (خسته‌ای؟)، نه Do you are tired. همین‌طور با can: Can you swim?
 
 </Persian>
 
@@ -154,6 +242,10 @@ Put the question word first, then **do / does**, then the subject and the verb:
 
 <WrongRight wrong="She doesn't likes coffee." right="She doesn't like coffee." why="No -s after doesn't." />
 <WrongRight wrong="What your brother does?" right="What does your brother do?" why="Question word + does + subject + base form." />
+<WrongRight wrong="He don't live here." right="He doesn't live here." why="he / she / it → doesn't." />
+<WrongRight wrong="Do you are a student?" right="Are you a student?" why="No do with be." />
+<WrongRight wrong="“Do you like tea?” “Yes, I like.”" right="“Yes, I do.”" why="Short answers use do / does." />
+<WrongRight wrong="I don't know nothing." right="I don't know anything." why="One negative only." />
 
 <MemoryHook title="The -s jumps to does">
 In questions and negatives, the **-s jumps** from the verb to **do**: she work**s** → **does** she work? → she **does**n't work.

@@ -4,33 +4,47 @@ level: A1
 number: 5
 pillar: tenses
 size: core
-hook: "You meet a new colleague: “Hi, I'm Sara. I'm from Shiraz. I'm a nurse.” Three sentences, one little verb: be."
-rule: "The verb be has three present forms: I am, he/she/it is, and you/we/they are."
+hook: "You meet a new colleague: “Hi, I'm Sara. I'm from Shiraz. I'm a nurse, and I'm 29.” Four short sentences, one small verb: be."
+rule: "The verb be has three present forms: I am, he/she/it is, you/we/they are. Use it for name, job, age, feelings, place and description. Put not after it for a negative, and swap subject and verb for a question."
 points:
-  - "<b>I</b> → <b>am</b> · <b>he / she / it</b> → <b>is</b> · <b>you / we / they</b> → <b>are</b>"
-  - "Short forms are normal in speech: I'm, he's, she's, it's, you're, we're, they're."
-  - "Negative: put <b>not</b> after the verb: I'm not, isn't, aren't."
+  - "<b>I</b> → <b>am</b> · <b>he / she / it</b> → <b>is</b> · <b>you / we / they</b> → <b>are</b>. Plural nouns take <b>are</b>: <b>My brothers are</b> teachers."
+  - "Short forms are normal in speech: <b>I'm</b>, <b>he's</b>, <b>she's</b>, <b>it's</b>, <b>you're</b>, <b>we're</b>, <b>they're</b>."
+  - "Negative: put <b>not</b> after the verb: <b>I'm not</b>, <b>isn't</b>, <b>aren't</b>. There is no short form “amn't”."
+  - "Use be for name, job, nationality, feelings, place and description: <b>I'm a nurse</b> · <b>She's tired</b> · <b>They're at home</b>."
+  - "Age uses be: <b>I'm 20</b> (not “I have 20 years”)."
   - "Every English sentence needs a verb: <b>I am tired</b>, never “I tired”."
-  - "Use be for name, job, age, feelings, place and nationality: <b>I'm 20</b> (not “I have 20 years”)."
+  - "<b>am</b> is also a helper in the present continuous (<b>I'm working</b>). That comes in lesson 22."
 mindmap: |
   # be: am · is · are
   ## Forms
   - I → am
   - he / she / it → is
   - you / we / they → are
+  - you always → are
+  ## Plural
+  - one → is: the car is new
+  - two or more → are: the cars are new
   ## Short forms
   - I'm · he's · she's · it's
   - you're · we're · they're
+  - 's = is (or has, lesson 16)
   ## Negative
-  - I'm not
-  - is not → isn't
-  - are not → aren't
+  - I'm not (only short form for I)
+  - is not → isn't · are not → aren't
+  - she's not / she isn't
+  - amn't: not standard
+  ## Questions
+  - Are you a nurse?
+  - Is she at home?
+  - Where is she?
+  - swap subject and verb, no do
   ## Uses
   - name & job: I'm a nurse
+  - nationality: We're Iranian
   - age: I'm 20
   - feelings: She's tired
   - place: They're at home
-  - nationality: We're Iranian
+  - description: The house is big
 covers:
   - be-present-forms
   - be-contractions
@@ -43,9 +57,9 @@ traps:
     why: "English always needs a verb. Persian can put the verb inside the word (خسته‌ام); English can't."
     fa: "در فارسی «ـَم» در «خسته‌ام» همان فعل است. در انگلیسی باید am را جدا بنویسیم."
   - wrong: "I have 20 years."
-    right: "I am 20. / I'm 20 years old."
+    right: "I'm 20. / I'm 20 years old."
     why: "Age uses be in English, not have."
-    fa: "ما می‌گوییم «۲۰ سال دارم»، اما انگلیسی‌زبان‌ها می‌گویند «۲۰ هستم»: I'm 20."
+    fa: "«۲۰ سال دارم» در انگلیسی با be گفته می‌شود: I'm 20."
   - wrong: "She are my sister."
     right: "She is my sister."
     why: "he, she and it always take is."
@@ -75,6 +89,16 @@ exercises:
     prompt: "Ali and Reza ___ at work today."
     answers: ["are", "'re"]
     explain: "Ali and Reza = they → are."
+  - type: mcq
+    prompt: "The students ___ in the library now."
+    options: ["is", "are", "am"]
+    answer: 1
+    explain: "students is plural (more than one) → are."
+  - type: mcq
+    prompt: "Sara and I ___ students at the same school."
+    options: ["am", "is", "are"]
+    answer: 2
+    explain: "Sara and I = we → are."
   - type: gap
     prompt: "She ___ (not) happy today."
     base: "not"
@@ -92,9 +116,24 @@ exercises:
     prompt: "I tired today."
     answers: ["I am tired today.", "I'm tired today."]
     explain: "Every sentence needs a verb: I am tired."
+  - type: correct
+    prompt: "She are a nurse."
+    answers: ["She is a nurse.", "She's a nurse."]
+    explain: "she → is."
+  - type: transform
+    prompt: "Make it negative: They are at home."
+    answers: ["They aren't at home.", "They are not at home.", "They're not at home."]
+    explain: "are + not → aren't (or they're not)."
   - type: reorder
     chunks: ["We", "aren't", "late", "today."]
     explain: "Subject + be (+ not) + the rest: We aren't late today."
+  - type: correct
+    prompt: "Is you a student?"
+    answers: ["Are you a student?"]
+    explain: "you → are. Swap the subject and the verb: Are you…?"
+  - type: reorder
+    chunks: ["Are", "they", "at", "home?"]
+    explain: "Swap the subject and the verb: they are at home → Are they at home?"
   - type: match
     prompt: "Match the full form with the short form."
     pairs:
@@ -105,14 +144,20 @@ exercises:
     explain: "The apostrophe (') shows the missing letter(s)."
 recall:
   - q: "Which form of be goes with he, she and it?"
-    a: "<b>is</b>: he is, she is, it is."
+    a: "<b>is</b>: he is, she is, it is. A plural noun (my brothers) also takes <b>are</b>."
   - q: "How do you say your age in English?"
     a: "With be: <b>I'm 20</b> or <b>I'm 20 years old</b>, never “I have 20 years”."
+  - q: "How do you ask a question with be?"
+    a: "<b>Swap</b> the subject and the verb: <b>Are you</b> ready? <b>Is she</b> at home? No <b>do</b>."
+  - q: "Is there a short form for I am not?"
+    a: "Only <b>I'm not</b>. “Amn't” is not standard English."
   - q: "What are the short negative forms of is not and are not?"
-    a: "<b>isn't</b> and <b>aren't</b>. (For I am not: <b>I'm not</b>.)"
+    a: "<b>isn't</b> and <b>aren't</b>. (For he, she, it: <b>he's not</b> is also correct.)"
 cards:
   - front: "be with I / he-she-it / you-we-they"
     back: "I am · he/she/it is · you/we/they are"
+  - front: "My brothers ___ teachers."
+    back: "are (plural → are)"
   - front: "How do you say your age? (۲۰ سال دارم)"
     back: "I'm 20. / I'm 20 years old. (be, not have)"
   - front: "Negative short forms of is not / are not"
@@ -133,47 +178,117 @@ cards:
 
 </FormTable>
 
-Notice: **you** always takes **are**, even when you talk to one person: *You are my best friend.*
+Three things to remember:
 
-In speech and friendly writing we almost always use the **short forms** (*I'm, she's, they're*). In very formal writing, use the full forms.
+- **You** always takes **are**, even when you talk to one person: *You are my best friend.*
+- **We** and **they** take **are**. So do *you* and any plural noun (see below).
+- The **full** and **short** forms mean the same thing. In speech we usually use the short forms (*I'm, she's, they're*). Full forms sound slower or more formal, and we use them when we want to stress a word: *I am not a liar!*
 
-## When do we use be?
+## Singular or plural?
 
-Use **be** to say who or what something is, and to describe it.
+One person or thing takes **is**. Two or more take **are**.
+
+<Example context="home" fa="برادرم معلم است.">My brother <mark>is</mark> a teacher.</Example>
+<Example context="home" fa="برادرهایم معلم هستند.">My brothers <mark>are</mark> teachers.</Example>
+<Example context="shopping" fa="ماشین جدید است.">The car <mark>is</mark> new.</Example>
+<Example context="shopping" fa="ماشین‌ها جدید هستند.">The cars <mark>are</mark> new.</Example>
+
+Many learners say *"My brothers is teachers."* Say **are** with every plural noun.
+
+## Short forms
 
 <Example context="work" fa="من پرستار هستم."><mark>I'm</mark> a nurse.</Example>
 <Example context="social" fa="او ۲۰ ساله است."><mark>She's</mark> 20 years old.</Example>
 <Example context="home" fa="بچه‌ها خانه هستند.">The children <mark>are</mark> at home.</Example>
 <Example context="travel" fa="ما ایرانی هستیم."><mark>We're</mark> Iranian. <mark>We're</mark> from Isfahan.</Example>
+
+Watch the **'s**. It can mean three things, and context tells you which:
+
+- **'s = is**: *She's a nurse.* (she is)
+- **'s = has**: *She's got a car.* (she has, lesson 16)
+- **'s = possessive**: *Sara's car.* (Sara's, lesson 12)
+
+## Negatives
+
+Put **not** after the verb. For a short negative, join the verb and *not* with an apostrophe.
+
+<FormTable caption="be: negative">
+
+| Full negative | Short negative |
+|---|---|
+| I am not | **I'm not** (the only short form for *I*) |
+| he / she / it is not | he / she / it **isn't** or **'s not** |
+| you / we / they are not | you / we / they **aren't** or **'re not** |
+
+</FormTable>
+
+**There is no short form “amn't”.** Standard English does not contract *am not*, so the short form for *I* is always **I'm not**. (In questions, people say *Aren't I…?* instead. That is lesson 6.)
+
 <Example context="health" fa="خسته نیستم، فقط گرسنه‌ام."><mark>I'm not</mark> tired. <mark>I'm</mark> just hungry.</Example>
 <Example context="shopping" fa="این کفش‌ها گران نیستند.">These shoes <mark>aren't</mark> expensive.</Example>
 
-So **be** is used for:
+## Questions with be
 
-- **name and job**: *I'm Sara. I'm a teacher.*
-- **age**: *He's 35.*
-- **feelings and states**: *We're happy. They're cold.*
-- **place**: *The keys are on the table.*
-- **nationality and origin**: *She's Canadian. She's from Toronto.*
-- **descriptions**: *The house is big. It isn't new.*
+To ask a yes/no question, **swap** the subject and the verb: *You are ready* → *Are you ready?* With **be** we never add *do*.
 
-## Questions come in the next lesson
+<FormTable caption="Questions with be">
 
-To make a question, we simply swap the subject and the verb: *You are ready* → ***Are you** ready?* You'll practise this in lesson A1.6.
+| Form | Example |
+|---|---|
+| **Am** I …? | Am I late? |
+| **Is** he / she / it …? | Is she at home? |
+| **Are** you / we / they …? | Are they students? |
+| Question word + **be** + subject | **Where is** she? · **What are** they? |
+
+</FormTable>
+
+<Example context="work" fa="شما پرستار هستید؟">Are <mark>you</mark> a nurse?</Example>
+<Example context="home" fa="او خانه است؟">Is <mark>she</mark> at home?</Example>
+<Example context="travel" fa="کجا هستی؟">Where <mark>are</mark> you?</Example>
+
+Short answers (*Yes, I am. / No, I'm not.*) and more practice come in lesson 6.
+
+## Uses of be
+
+Use **be** to say who or what something is, how old, where, how someone feels, and what something is like.
+
+- **Name and job**: *I'm Sara. I'm a teacher.*
+- **Nationality and origin**: *She's Canadian. She's from Toronto.*
+- **Age**: *He's 35.* Say the age with **be**, never with *have*: **I'm 20**, not ~~I have 20 years~~. Both *I'm 20* and *I'm 20 years old* are correct.
+- **Feelings and states**: *We're happy. They're cold.*
+- **Place**: *They're at home. The keys are on the table.*
+- **Description** (with an adjective): *The house is big. It isn't new.*
+
+<Example context="social" fa="او ۳۵ ساله است.">He's <mark>35</mark>. (be, not have)</Example>
+<Example context="travel" fa="هتل ما نزدیک ایستگاه است.">Our hotel <mark>is</mark> near the station.</Example>
+
+## Be is also a helper
+
+In this lesson **be** is the main verb. *Am, is* and *are* also work as helpers with **-ing** verbs: *I'm working.* That is the present continuous, in lesson 22. You don't need it yet.
 
 <Persian>
 
-**فعل be (بودن) در زمان حال سه شکل دارد:**
+**فعل be (بودن) در زمان حال ساده سه شکل دارد:**
 
-- با **I** (من) ← **am**: ‏I am a student. (من دانشجو هستم.)
-- با **he / she / it** (او / آن) ← **is**: ‏She is a doctor. (او پزشک است.)
-- با **you / we / they** (تو، شما، ما، آن‌ها) ← **are**: ‏They are at home. (آن‌ها خانه هستند.)
+- با **I** (من) ← **am**: I am a student. (من دانشجو هستم.)
+- با **he / she / it** (او / آن) ← **is**: She is a doctor. (او پزشک است.)
+- با **you / we / they** (تو، شما، ما، آن‌ها) ← **are**: We are at home. (ما خانه هستیم.)
+
+**جمع:** هر اسم جمع (بیش از یکی) با **are** می‌آید: My brothers are teachers. (برادرهایم معلم هستند.) نه My brothers is teachers.
+
+**you** همیشه با **are** می‌آید، حتی وقتی با یک نفر صحبت می‌کنیم: You are kind. (تو مهربانی.)
 
 **مهم‌ترین نکته برای فارسی‌زبان‌ها:** در فارسی گاهی فعل را به کلمه می‌چسبانیم («خسته‌ام») یا اصلاً نمی‌گوییم. اما در انگلیسی **هر جمله باید فعل داشته باشد**. پس باید بگوییم I am tired، نه I tired.
 
-**سن:** در فارسی می‌گوییم «بیست سال دارم»، ولی در انگلیسی از be استفاده می‌کنیم: I'm 20. (نه I have 20 years.)
+**حالت کوتاه (short form):** I'm، he's، she's، it's، you're، we're، they're. در گفتار معمولاً از حالت کوتاه استفاده می‌کنیم. دقت کنید: «'s» می‌تواند is (او هست) یا has یا نشان‌دهنده‌ی مالکیت باشد؛ از جمله معنی‌اش را تشخیص می‌دهیم.
 
-**منفی:** کلمه‌ی not را بعد از am / is / are می‌گذاریم: I'm not ، she isn't ، they aren't.
+**منفی:** not را بعد از am / is / are می‌گذاریم: I'm not، she isn't، they aren't. برای I فقط **I'm not** داریم. «amn't» در انگلیسی معیار وجود ندارد.
+
+**سن:** در فارسی می‌گوییم «بیست سال دارم»، اما در انگلیسی از be استفاده می‌کنیم: I'm 20. (نه I have 20 years.)
+
+**نام، شغل، ملیت، احساس، مکان و توصیف** هم با be می‌آیند: I'm Sara. / I'm a nurse. / We're Iranian. / She's tired. / They're at home. / The house is big.
+
+**سؤالی:** فعل be با فاعل جابه‌جا می‌شود: You are ready ← Are you ready? (آیا تو آماده‌ای؟) برای be از do استفاده نمی‌کنیم: نه Do you are… . جمله‌های پرسشی با کلمه‌ی پرسشی: Where is she؟ (او کجاست؟) · What are they؟ (آن‌ها چه هستند؟)
 
 </Persian>
 
@@ -181,8 +296,10 @@ To make a question, we simply swap the subject and the verb: *You are ready* →
 
 <WrongRight wrong="He are my teacher." right="He is my teacher." why="he / she / it → is." />
 <WrongRight wrong="You is late." right="You are late." why="you → are, even for one person." />
+<WrongRight wrong="My sisters is nurses." right="My sisters are nurses." why="A plural noun → are." />
 <WrongRight wrong="I amn't ready." right="I'm not ready." why="There is no short form “amn't”. Use I'm not." />
+<WrongRight wrong="I have 25 years old." right="I'm 25 (years old)." why="Age uses be, not have." />
 
 <MemoryHook title="One, one, many">
-**I** am alone → **am**. **One** other person or thing → **is**. **You** and everyone in a group → **are**.
+**I** → **am**. **One** person or thing (he, she, it, a name, a job) → **is**. **You**, **we**, **they** and anything in a group (plural) → **are**.
 </MemoryHook>

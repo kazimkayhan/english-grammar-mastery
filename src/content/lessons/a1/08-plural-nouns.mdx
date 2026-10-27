@@ -7,34 +7,38 @@ size: core
 hook: "At the bazaar: “Two kilos of tomatoes and three melons, please.” In English the noun shows the plural, even after a number."
 rule: "Make most nouns plural with -s. Some take -es, -ies or -ves, and a few are irregular (man → men). After two, three… the noun is always plural."
 points:
-  - "Most nouns + <b>s</b>: book → book<b>s</b>, car → car<b>s</b>"
+  - "Most nouns + <b>s</b>: book → book<b>s</b>, key → key<b>s</b>"
   - "-s, -ss, -sh, -ch, -x + <b>es</b>: bus → bus<b>es</b>, box → box<b>es</b> · consonant + y → <b>ies</b>: city → cit<b>ies</b>"
-  - "-f / -fe → <b>ves</b>: knife → kni<b>ves</b> · some -o + <b>es</b>: potato → potato<b>es</b> (but photo<b>s</b>)"
-  - "Irregular: man → <b>men</b>, woman → <b>women</b>, child → <b>children</b>, person → <b>people</b>, foot → <b>feet</b>"
-  - "Same form: one sheep, two <b>sheep</b> (also fish, deer, aircraft)"
-  - "After a number the noun is plural: two book<b>s</b> (not two book)"
+  - "Many -f / -fe nouns → <b>ves</b>: knife → kni<b>ves</b>, leaf → lea<b>ves</b> (but roof → roof<b>s</b>)"
+  - "-o: most add <b>s</b> (photo<b>s</b>, kilo<b>s</b>); a few add <b>es</b>: potato<b>es</b>, tomato<b>es</b>, hero<b>es</b>"
+  - "Irregular: <b>men, women, children, people, feet, teeth, mice</b>"
+  - "Same form: one sheep, two <b>sheep</b> (also <b>fish, deer, aircraft</b>)"
+  - "After two, three… the noun is <b>always plural</b>: two book<b>s</b> (not two book)"
 mindmap: |
   # Plural nouns
   ## Add -s
   - book → books
-  - car → cars
+  - key → keys (vowel + y)
+  - photo → photos
   ## Add -es
-  - bus → buses
-  - box → boxes
-  - watch → watches
+  - bus → buses · class → classes
+  - dish → dishes · watch → watches
+  - box → boxes · quiz → quizzes
+  - potato → potatoes · tomato → tomatoes
   ## Change the ending
-  - city → cities
-  - knife → knives
-  - potato → potatoes
+  - consonant + y → ies: city → cities
+  - f / fe → ves: knife → knives
+  - but roof → roofs, chief → chiefs
   ## Irregular
-  - man → men
-  - child → children
-  - person → people
-  - foot → feet
+  - man → men · woman → women
+  - child → children · person → people
+  - foot → feet · tooth → teeth
+  - mouse → mice
   ## No change
-  - sheep, fish, deer
+  - sheep, fish, deer, aircraft
   ## After numbers
   - two books (not two book)
+  - plural noun → are
 covers:
   - plural-regular
   - plural-irregular
@@ -65,29 +69,61 @@ exercises:
     answers: ["cities"]
     explain: "Consonant + y → -ies: cities."
   - type: gap
-    prompt: "Be careful with those ___!"
+    prompt: "Where are my ___? I can't find them."
+    base: "key"
+    answers: ["keys"]
+    explain: "Vowel + y → just add -s: keys."
+  - type: gap
+    prompt: "Be careful! The ___ are very sharp."
     base: "knife"
     answers: ["knives"]
     explain: "-fe → -ves: knives."
-  - type: gap
-    prompt: "Ten ___ came to the meeting."
-    base: "person"
-    answers: ["people"]
-    explain: "The plural of person is people."
   - type: mcq
-    prompt: "Which is correct?"
-    options: ["three child", "three childs", "three children"]
-    answer: 2
-    explain: "child → children (irregular)."
+    prompt: "Which plural is correct?"
+    options: ["two roofs", "two roofves", "two roofes"]
+    answer: 0
+    explain: "Not every -f noun changes. roof just adds -s: roofs."
+  - type: gap
+    prompt: "Two kilos of ___, please."
+    base: "tomato"
+    answers: ["tomatoes"]
+    explain: "tomato is one of the few -o nouns that add -es: tomatoes."
   - type: mcq
     prompt: "What is the plural of photo?"
     options: ["photoes", "photos", "photo"]
     answer: 1
-    explain: "photo just adds -s (like radio, piano). potato and tomato add -es."
+    explain: "Most -o nouns just add -s: photos, kilos. potato and tomato add -es."
+  - type: gap
+    prompt: "Ten ___ came to the meeting."
+    base: "person"
+    answers: ["people"]
+    explain: "The normal plural of person is people."
+  - type: mcq
+    prompt: "Which is correct?"
+    options: ["three child", "three childs", "three children"]
+    answer: 2
+    explain: "child → children (irregular), and the noun is plural after three."
+  - type: mcq
+    prompt: "One sheep, two ___."
+    options: ["sheeps", "sheep", "sheepes"]
+    answer: 1
+    explain: "sheep is the same in singular and plural."
   - type: correct
-    prompt: "I bought two book yesterday."
-    answers: ["I bought two books yesterday."]
-    explain: "After a number, the noun is plural."
+    prompt: "I have two brother and one sister."
+    answers: ["I have two brothers and one sister."]
+    explain: "After two, the noun is plural: two brothers. After one, it is singular: one sister."
+  - type: correct
+    prompt: "There are many peoples in the park."
+    answers: ["There are many people in the park."]
+    explain: "people is already plural. Don't add -s."
+  - type: correct
+    prompt: "My foots are cold."
+    answers: ["My feet are cold."]
+    explain: "foot → feet (irregular)."
+  - type: transform
+    prompt: "Use three: I have one dish."
+    answers: ["I have three dishes."]
+    explain: "-sh + es: dishes. After three, the noun is plural."
   - type: match
     prompt: "Match each noun with its irregular plural."
     pairs:
@@ -95,22 +131,24 @@ exercises:
       - ["foot", "feet"]
       - ["woman", "women"]
       - ["tooth", "teeth"]
+      - ["mouse", "mice"]
     explain: "These plurals change the vowel instead of adding -s."
-  - type: mcq
-    prompt: "One sheep, two ___."
-    options: ["sheeps", "sheep", "sheepes"]
-    answer: 1
-    explain: "sheep is the same in singular and plural."
 recall:
   - q: "When do we add -es instead of -s?"
-    a: "After <b>-s, -ss, -sh, -ch, -x</b> (buses, dishes, watches, boxes) and some <b>-o</b> words (potatoes)."
-  - q: "What are the plurals of man, child and person?"
-    a: "<b>men, children, people</b>."
+    a: "After <b>-s, -ss, -sh, -ch, -x</b> (buses, classes, dishes, watches, boxes) and a few <b>-o</b> words (potatoes, tomatoes, heroes)."
+  - q: "Why is it cities but keys?"
+    a: "<b>consonant + y</b> → ies (city → cities). <b>vowel + y</b> → just s (key → keys)."
+  - q: "What are the plurals of man, child, person and foot?"
+    a: "<b>men, children, people, feet</b>."
   - q: "Persian says «دو کتاب». What does English say?"
     a: "<b>two books</b>: after a number the noun is plural."
 cards:
-  - front: "city / knife / box → plural"
-    back: "cities · knives · boxes"
+  - front: "city / key / box → plural"
+    back: "cities · keys · boxes"
+  - front: "knife / leaf / roof → plural"
+    back: "knives · leaves · roofs"
+  - front: "potato / photo → plural"
+    back: "potatoes · photos"
   - front: "man / child / person / foot → plural"
     back: "men · children · people · feet"
   - front: "«سه بچه» in English"
@@ -119,23 +157,51 @@ cards:
     back: "sheep · fish · deer · aircraft"
 ---
 
-## Regular plurals: -s, -es, -ies
+## One or more than one?
+
+A **singular** noun is one thing: *a book*. A **plural** noun is two or more: *books*. In English the noun itself changes. Most nouns just add **-s**.
+
+<Example context="school" fa="یک کتاب، سه کتاب">one <mark>book</mark>, three <mark>books</mark></Example>
+
+A plural noun takes **are** (lesson 5): *The books **are** on the desk.*
+
+## Spelling the plural
 
 <FormTable caption="Spelling the plural">
 
 | Ending | Rule | Examples |
 |---|---|---|
-| most nouns | + **s** | book → book**s** · car → car**s** · day → day**s** |
-| -s, -ss, -sh, -ch, -x | + **es** | bus → bus**es** · dish → dish**es** · watch → watch**es** · box → box**es** |
-| consonant + **y** | y → **ies** | city → cit**ies** · baby → bab**ies** |
-| vowel + **y** | + **s** | key → key**s** · boy → boy**s** |
-| -f / -fe | → **ves** | knife → kni**ves** · leaf → lea**ves** · wife → wi**ves** |
-| some -o | + **es** | potato → potato**es** · tomato → tomato**es** (but photo**s**, piano**s**) |
+| most nouns | + **s** | book → book**s** · car → car**s** · pen → pen**s** |
+| -s, -ss, -sh, -ch, -x | + **es** | bus → bus**es** · class → class**es** · dish → dish**es** · watch → watch**es** · box → box**es** |
+| consonant + **y** | y → **ies** | city → cit**ies** · baby → bab**ies** · party → part**ies** |
+| vowel + **y** | + **s** | key → key**s** · boy → boy**s** · day → day**s** |
 
 </FormTable>
 
-<Example context="shopping" fa="دو کیلو گوجه و سه تا هندوانه، لطفاً.">Two kilos of <mark>tomatoes</mark> and three <mark>watermelons</mark>, please.</Example>
-<Example context="home" fa="بشقاب‌ها و چاقوها توی آشپزخانه‌اند.">The <mark>dishes</mark> and <mark>knives</mark> are in the kitchen.</Example>
+Why **-es**? After *s, sh, ch* and *x*, the plural adds an extra sound: *bus-es, box-es, watch-es*. The **e** helps us say it. (One common word ends in *z*: quiz → **quizzes**, with a double z.)
+
+<Example context="travel" fa="اتوبوس‌ها هر ده دقیقه می‌آیند.">The <mark>buses</mark> come every ten minutes.</Example>
+<Example context="home" fa="بشقاب‌ها توی آشپزخانه‌اند.">The <mark>dishes</mark> are in the kitchen.</Example>
+<Example context="travel" fa="تهران و اصفهان شهرهای بزرگی هستند.">Tehran and Isfahan are big <mark>cities</mark>.</Example>
+
+## Nouns ending in -f or -fe
+
+Many nouns ending in **-f** or **-fe** change to **-ves**:
+
+- knife → kni**ves** · wife → wi**ves** · leaf → lea**ves**
+
+But some just add **-s**: roof → roof**s**, chief → chief**s**. If you're not sure, check a dictionary.
+
+<Example context="home" fa="چاقوها توی کشو هستند.">The <mark>knives</mark> are in the drawer.</Example>
+
+## Nouns ending in -o
+
+Most nouns ending in **-o** just add **-s**: photo → photo**s**, kilo → kilo**s**. A few common ones add **-es**:
+
+- potato → potato**es** · tomato → tomato**es** · hero → hero**es**
+
+<Example context="shopping" fa="دو کیلو گوجه و سه کیلو سیب‌زمینی، لطفاً.">Two <mark>kilos</mark> of <mark>tomatoes</mark> and three <mark>kilos</mark> of <mark>potatoes</mark>, please.</Example>
+<Example context="social" fa="عکس‌ها مال سفرمان است.">The <mark>photos</mark> are from our trip.</Example>
 
 ## Irregular plurals
 
@@ -149,30 +215,58 @@ A few very common nouns don't add -s. Learn them as pairs:
 | child | **children** |
 | person | **people** |
 | foot / tooth | **feet** / **teeth** |
-| mouse | **mice** |
-| sheep · fish · deer | **sheep · fish · deer** (no change) |
+| mouse (the animal) | **mice** |
 
 </FormTable>
 
+- **people** is already plural. It takes **are**: *The people here **are** very friendly.* Don't add -s. (*peoples* is a different word: it means nations.)
+- **persons** is only for very formal notices. In everyday English, say **people**.
+
 <Example context="social" fa="آن‌ها سه بچه دارند.">They have three <mark>children</mark>.</Example>
 <Example context="work" fa="بیست نفر در این شرکت کار می‌کنند.">Twenty <mark>people</mark> work in this company.</Example>
+<Example context="health" fa="پاهایم درد می‌کند.">My <mark>feet</mark> hurt.</Example>
+
+## Same form for one and many
+
+A few nouns are the **same** in the singular and the plural:
+
+- one **sheep**, two **sheep** · one **deer**, ten **deer** · one **aircraft**, five **aircraft**
+- one **fish**, three **fish** (*fishes* exists, but *fish* is the usual plural)
+
+<Example context="travel" fa="ماهی‌های این دریاچه خیلی بزرگ‌اند.">The <mark>fish</mark> in this lake are very big.</Example>
 
 ## After a number: always plural
 
-<Example context="school" fa="من دو برادر و یک خواهر دارم.">I have two <mark>brothers</mark> and one sister.</Example>
+After **two, three, four…**, the noun is **always plural**. After **one**, it is singular.
+
+<Example context="home" fa="من دو برادر و یک خواهر دارم.">I have two <mark>brothers</mark> and one <mark>sister</mark>.</Example>
+<Example context="shopping" fa="سه بلیت، لطفاً.">Three <mark>tickets</mark>, please.</Example>
+
+The same is true after **many** and **How many…?**: *How **many** brothers do you have?* (lesson 7).
+
+## Coming later
+
+- Nouns we don't count, like *water* and *money*, have no plural. That is lesson 15 (Countable & uncountable nouns; some, any, how much, how many).
+- Adjectives never take -s: *two **red** cars*. More in lesson 29 (Adjectives: before nouns and after be).
+- Words that are always plural (*jeans, glasses*) and words like *news* are in B2 lesson 34 (Special plurals: trousers, news, criteria).
 
 <Persian>
 
-**جمع بستن اسم:** بیشتر اسم‌ها با **s** جمع بسته می‌شوند: book ← books.
+**جمع بستن اسم:** بیشتر اسم‌ها با **s** جمع بسته می‌شوند: book ← books، key ← keys.
 
-- بعد از s، sh، ch، x ← **es**: buses، watches، boxes
-- حرف بی‌صدا + y ← **ies**: city ← cities
-- f یا fe ← **ves**: knife ← knives
-- بعضی کلمه‌های o دار ← **es**: potatoes (ولی photos)
+- بعد از s، ss، sh، ch و x ← **es**: buses، classes، dishes، watches، boxes
+- حرف بی‌صدا + y ← y حذف می‌شود و **ies** می‌آید: city ← cities، baby ← babies
+- حرف صدادار + y ← فقط **s**: key ← keys، boy ← boys
+- بسیاری از اسم‌هایی که به f یا fe ختم می‌شوند ← **ves**: knife ← knives، leaf ← leaves (ولی roof ← roofs)
+- بیشتر اسم‌هایی که به o ختم می‌شوند فقط **s** می‌گیرند: photos، kilos. چند کلمه‌ی پرکاربرد **es** می‌گیرند: potatoes، tomatoes، heroes
 
-**جمع‌های بی‌قاعده:** man ← men، woman ← women، child ← children، person ← people، foot ← feet، tooth ← teeth. کلمه‌های sheep و fish جمع و مفردشان یکی است.
+**جمع‌های بی‌قاعده:** man ← men، woman ← women، child ← children، person ← people، foot ← feet، tooth ← teeth، mouse ← mice. این‌ها را باید حفظ کرد؛ مثل جمع‌های عربی در فارسی (شخص ← اشخاص) که از قاعده‌ی «ها» پیروی نمی‌کنند.
 
-**مهم‌ترین نکته برای فارسی‌زبان‌ها:** در فارسی بعد از عدد اسم را **مفرد** می‌آوریم («دو کتاب»، «سه بچه»). در انگلیسی بعد از عدد اسم **حتماً جمع** است: two books، three children.
+**people** خودش جمع است و با are می‌آید: The people are friendly. به آن s اضافه نکنید.
+
+**مفرد و جمع یکسان:** sheep، fish، deer و aircraft در جمع تغییر نمی‌کنند: two sheep (دو گوسفند).
+
+**مهم‌ترین نکته برای فارسی‌زبان‌ها:** در فارسی بعد از عدد و بعد از «چند» اسم را **مفرد** می‌آوریم: «دو کتاب»، «سه بچه»، «چند تا برادر داری؟». در انگلیسی بعد از عدد (به جز one) و بعد از many اسم **حتماً جمع** است: two books، three children، How many brothers do you have?
 
 </Persian>
 
@@ -181,6 +275,9 @@ A few very common nouns don't add -s. Learn them as pairs:
 <WrongRight wrong="We have three child." right="We have three children." why="child → children; and after three the noun is plural." />
 <WrongRight wrong="There are many peoples here." right="There are many people here." why="people is already plural." />
 <WrongRight wrong="I need two box." right="I need two boxes." why="-x → -es, and plural after a number." />
+<WrongRight wrong="Tehran and Tabriz are big citys." right="Tehran and Tabriz are big cities." why="consonant + y → -ies." />
+<WrongRight wrong="My tooths hurt." right="My teeth hurt." why="tooth → teeth (irregular)." />
+<WrongRight wrong="We have ten sheeps." right="We have ten sheep." why="sheep doesn't change in the plural." />
 
 <MemoryHook title="Count it, add it">
 If you **count** more than one, **add** the plural, every time. Your Persian ear says «دو کتاب»; your English mouth says **two books**.

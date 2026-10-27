@@ -29,6 +29,8 @@ test("exercises give instant feedback", async ({ page }) => {
   await page.goto(LESSON)
   const practice = page.getByRole("region", { name: "Practice" })
   await practice.scrollIntoViewIfNeeded()
+  // Clicks before hydration are lost, so wait until the practice island is interactive.
+  await expect(practice.locator("xpath=ancestor::astro-island[1]")).not.toHaveAttribute("ssr", { timeout: 30_000 })
 
   // 1 · multiple choice, correct answer ("is")
   const first = practice.locator("ol > li").nth(0)
@@ -58,9 +60,9 @@ test("match exercises use labelled dropdowns", async ({ page }) => {
   await match.scrollIntoViewIfNeeded()
   await expect(match.locator("xpath=ancestor::astro-island[1]")).not.toHaveAttribute("ssr", { timeout: 30_000 })
 
-  for (const [word, job] of [["Tehran", "noun"], ["and", "conjunction"], ["in", "preposition"], ["the", "determiner"]]) {
+  for (const [word, job] of [["Tehran", "noun"], ["she", "pronoun"], ["and", "conjunction"], ["in", "preposition"], ["the", "determiner"]]) {
     await match.getByLabel(word, { exact: true }).click()
-    await page.getByRole("option", { name: job }).click()
+    await page.getByRole("option", { name: job, exact: true }).click()
     await expect(match.getByLabel(word, { exact: true })).toHaveText(job)
   }
   await match.getByRole("button", { name: "Check" }).click()
@@ -72,11 +74,11 @@ test("flashcards: add from a lesson, review, and the due date moves", async ({ p
 
   await page.goto("/flashcards")
   await hydrated(page)
-  await expect(page.getByText("4 left")).toBeVisible()
+  await expect(page.getByText("5 left")).toBeVisible()
   await page.getByRole("button", { name: /Show answer/ }).click()
   await page.getByRole("button", { name: /^Good/ }).click()
   // A new card rated Good comes back within minutes, so it stays in today's queue at the back.
-  await expect(page.getByText(/[34] left/)).toBeVisible()
+  await expect(page.getByText(/[45] left/)).toBeVisible()
 
   const due = await page.evaluate(async () => {
     const req = indexedDB.open("english-grammar-mastery")
@@ -110,7 +112,7 @@ test("backup export → import round-trip restores flashcards", async ({ page })
   await page.goto("/settings")
   await hydrated(page)
   await page.getByLabel("Backup file").setInputFiles(path!)
-  await expect(page.getByText("4 flashcards imported.")).toBeVisible()
+  await expect(page.getByText("5 flashcards imported.")).toBeVisible()
   await page.goto(LESSON)
   await page.getByText("Keep it: flashcards").scrollIntoViewIfNeeded()
   await expect(page.getByRole("button", { name: "In your flashcards" })).toBeVisible()

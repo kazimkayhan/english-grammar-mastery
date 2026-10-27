@@ -4,30 +4,48 @@ level: A1
 number: 25
 pillar: tenses
 size: core
-hook: "“Where were you yesterday?” “I was at home. I was sick.” The past of am / is / are is was and were."
-rule: "The past of be is was (I / he / she / it) and were (you / we / they). Negatives are wasn't / weren't; questions are Was he…? Were you…?"
+hook: "Monday morning at work: “How was your weekend?” “It was great! We were in Kish, and the weather was perfect.” In the past, am, is and are become was and were."
+rule: "The past of be is was (I / he / she / it) and were (you / we / they). Put not after it for a negative (wasn't, weren't) and swap the subject and the verb for a question (Were you…?). Use there was / there were for things that existed in the past, and was / were born for birth."
 points:
-  - "I / he / she / it <b>was</b> · you / we / they <b>were</b>"
-  - "Negative: <b>wasn't</b> / <b>weren't</b> · Question: <b>Was</b> she…? <b>Were</b> they…?"
-  - "Short answers: Yes, I <b>was</b>. / No, they <b>weren't</b>."
-  - "<b>there was</b> + singular · <b>there were</b> + plural"
-  - "Birth: I <b>was born</b> in 1995 (not I am born)."
+  - "<b>I / he / she / it</b> → <b>was</b> · <b>you / we / they</b> → <b>were</b>. Plural nouns take <b>were</b>: <b>The rooms were</b> clean."
+  - "Use was / were for place, feelings, job, age and description in the past: <b>I was at home</b> · <b>I was ten</b> in 2010."
+  - "Negative: <b>wasn't</b> (was not) · <b>weren't</b> (were not). Never use <b>did</b> with be: <b>I wasn't</b>, not “I didn't be”."
+  - "Questions: swap the subject and the verb: <b>Were you</b> at home? <b>Where was</b> she? Short answers: <b>Yes, I was.</b> / <b>No, they weren't.</b>"
+  - "<b>there was</b> + one thing (or an uncountable noun) · <b>there were</b> + two or more: <b>There were</b> two accidents."
+  - "Birth is always past: <b>I was born</b> in 1995, not “I am born” or “I born”."
+  - "<b>was / were</b> is also a helper with -ing verbs (<b>I was working</b>). That comes in A2 lesson 8."
 mindmap: |
   # was / were
   ## Forms
-  - I / he / she / it was
-  - you / we / they were
-  ## − and ?
-  - wasn't / weren't
-  - Was she…? Were they…?
+  - I / he / she / it → was
+  - you / we / they → were
+  - plural noun → were
+  - no short form: I was, they were
+  ## Uses
+  - place: I was at home
+  - feelings: We were tired
+  - job: He was a teacher
+  - age: I was ten
+  - description: The film was boring
+  ## Negative
+  - was not → wasn't
+  - were not → weren't
+  - no did: I wasn't (not I didn't be)
+  ## Questions
+  - Was she…? · Were they…?
+  - Where were you?
+  - How was your trip?
   ## Short answers
-  - Yes, I was
-  - No, they weren't
+  - Yes, I was · No, I wasn't
+  - Yes, they were · No, they weren't
   ## there was / were
-  - there was a park
-  - there were two parks
-  ## Birth
+  - there was + one / uncountable
+  - there were + plural
+  - Was there…? · Were there…?
+  ## be born
   - I was born in 1995
+  - on May 15 · in Shiraz
+  - Where were you born?
 covers:
   - was-were
   - there-was-were
@@ -40,117 +58,261 @@ traps:
     fa: "«متولد ۱۹۹۵ هستم» را با گذشته می‌گوییم: I was born in 1995."
 exercises:
   - type: mcq
-    prompt: "I ___ at home yesterday."
+    prompt: "I ___ at home yesterday. I was sick."
     options: ["was", "were", "am"]
     answer: 0
     explain: "Past + I → was."
   - type: mcq
-    prompt: "We ___ very tired after the trip."
+    prompt: "The rooms in our hotel ___ very clean."
     options: ["was", "were"]
     answer: 1
+    explain: "The rooms is plural (they) → were."
+  - type: gap
+    prompt: "We ___ in Kish last week. It was great!"
+    answers: ["were"]
     explain: "we → were."
   - type: gap
-    prompt: "___ you at the party last night?"
-    answers: ["Were"]
-    explain: "Question with you → Were you…?"
-  - type: gap
-    prompt: "The film ___ good. It was boring."
+    prompt: "The film ___ (not) good. It was boring."
+    base: "not"
     answers: ["wasn't", "was not"]
-    explain: "The film = it → wasn't."
+    explain: "The film = it → was not → wasn't."
   - type: gap
-    prompt: "There ___ a lot of people at the concert."
-    answers: ["were"]
-    explain: "a lot of people = plural → there were."
+    prompt: "My parents ___ (not) at the party. They were at work."
+    base: "not"
+    answers: ["weren't", "were not"]
+    explain: "My parents = they → were not → weren't."
   - type: gap
-    prompt: "My grandfather ___ born in Kerman."
-    answers: ["was"]
-    explain: "Birth → was born."
-  - type: correct
-    prompt: "I am born in 1998."
-    answers: ["I was born in 1998."]
-    explain: "Birth is in the past: was born."
-  - type: correct
-    prompt: "They was at work."
-    answers: ["They were at work."]
-    explain: "they → were."
+    prompt: "“___ you at work on Monday?” “Yes, I was.”"
+    answers: ["Were"]
+    explain: "Question with you → Were you…? The short answer uses was because it is about I."
   - type: match
     prompt: "Match each question with its short answer."
     pairs:
       - ["Was she at school?", "Yes, she was."]
       - ["Were they late?", "No, they weren't."]
-      - ["Was it expensive?", "No, it wasn't."]
-    explain: "Short answers repeat was / were."
+      - ["Were you tired?", "Yes, I was."]
+      - ["Was there a bank near the hotel?", "No, there wasn't."]
+    explain: "Short answers repeat was / were. A question with you gets an answer with I."
+  - type: reorder
+    chunks: ["Where", "were", "you", "born?"]
+    explain: "Question word + were + subject + born: Where were you born?"
+  - type: transform
+    prompt: "Make a question: She was at school yesterday."
+    answers: ["Was she at school yesterday?"]
+    explain: "Swap the subject and the verb: she was → Was she…? No did."
+  - type: gap
+    prompt: "There ___ a lot of traffic this morning."
+    answers: ["was"]
+    explain: "traffic is uncountable → there was."
+  - type: mcq
+    prompt: "___ any good restaurants near your hotel?"
+    options: ["Was there", "Were there", "There were"]
+    answer: 1
+    explain: "restaurants is plural → there were. In a question, swap: Were there…?"
   - type: transform
     prompt: "Put into the past: There is a bakery on my street."
     answers: ["There was a bakery on my street."]
     explain: "there is → there was."
+  - type: correct
+    prompt: "There was two accidents on the highway."
+    answers: ["There were two accidents on the highway."]
+    explain: "two accidents is plural → there were."
+  - type: correct
+    prompt: "I am born in 1998."
+    answers: ["I was born in 1998."]
+    explain: "Birth is in the past: was born."
+  - type: correct
+    prompt: "They was at work all day."
+    answers: ["They were at work all day."]
+    explain: "they → were."
+  - type: correct
+    prompt: "I didn't be at home yesterday."
+    answers: ["I wasn't at home yesterday.", "I was not at home yesterday."]
+    explain: "No did with be. The negative is wasn't."
 recall:
   - q: "was or were with I, he, she, it? With you, we, they?"
-    a: "<b>was</b> with I / he / she / it; <b>were</b> with you / we / they."
-  - q: "How do you say «متولد ۱۳۷۰ هستم»?"
-    a: "<b>I was born in 1991.</b> (born is always with the past)"
+    a: "<b>was</b> with I / he / she / it; <b>were</b> with you / we / they and with plural nouns."
+  - q: "How do you make negatives and questions with was / were?"
+    a: "Negative: add <b>not</b> (<b>wasn't</b>, <b>weren't</b>). Question: <b>swap</b> the subject and the verb (<b>Were you</b>…?). No <b>did</b>."
   - q: "What's the past of there is / there are?"
-    a: "<b>there was</b> / <b>there were</b>."
+    a: "<b>there was</b> (one thing or uncountable) / <b>there were</b> (plural)."
+  - q: "How do you say «متولد ۱۳۷۰ هستم»?"
+    a: "<b>I was born in 1991.</b> Birth is always past: was / were born."
 cards:
   - front: "Past of am / is / are"
-    back: "was (I / he / she / it) · were (you / we / they)"
-  - front: "Negative short forms"
+    back: "am, is → was · are → were"
+  - front: "Negative short forms of was not / were not"
     back: "wasn't · weren't"
-  - front: "«متولد ۱۹۹۵ هستم»"
-    back: "I was born in 1995."
+  - front: "✗ I didn't be at home. ✓ ?"
+    back: "I wasn't at home. (no did with be)"
   - front: "there is / there are → past"
     back: "there was / there were"
+  - front: "«متولد ۱۹۹۵ هستم»"
+    back: "I was born in 1995."
 ---
 
 ## The past of be
 
-<FormTable caption="was / were">
+In the present, **be** has three forms (*am, is, are*, lesson 5). In the past it has only two: **was** and **were**.
 
-| | Positive | Negative | Question |
+<FormTable caption="be: past simple">
+
+| Subject | Present | Past | Example |
 |---|---|---|---|
-| I / he / she / it | I **was** tired. | She **wasn't** tired. | **Was** he tired? |
-| you / we / they | They **were** late. | We **weren't** late. | **Were** you late? |
+| I | am | **was** | I **was** at home. |
+| he / she / it | is | **was** | She **was** tired. |
+| you / we / they | are | **were** | They **were** late. |
 
 </FormTable>
 
-Short answers: *Yes, I **was**. / No, they **weren't**.*
+Three things to remember:
+
+- **You** always takes **were**, even for one person: *You were right, Sam.*
+- A **plural noun** takes **were**: *The rooms were clean.* Two names are plural too: *Ali and Reza were at work.*
+- Positive **was** and **were** have no short form. Write *I was*, *they were*. (Short forms are only for the negative: *wasn't, weren't*.)
 
 <Timeline items={[{ type: "point", at: -0.55, label: "was / were" }]} caption="A state at a finished time in the past." />
 
 <Example context="health" fa="دیروز خانه بودم. مریض بودم.">I <mark>was</mark> at home yesterday. I <mark>was</mark> sick.</Example>
-<Example context="social" fa="دیشب کجا بودی؟">Where <mark>were</mark> you last night?</Example>
 <Example context="travel" fa="هتل گران نبود و اتاق‌ها تمیز بودند.">The hotel <mark>wasn't</mark> expensive, and the rooms <mark>were</mark> clean.</Example>
+
+## What we use was / were for
+
+Use **was / were** for the same things as *am / is / are*, but in the past:
+
+- **Place**: *I was at home. The keys were on the table.*
+- **Feelings and states**: *We were hungry. She was sick.*
+- **Name and job**: *My grandfather was a teacher.*
+- **Age**: *I was ten in 2010.* Age uses **be**, never *have*.
+- **Description**: *The film was boring. The questions were easy.*
+- **Time and weather** (with *it*): *It was Monday. It was very cold.* (More in lesson 34, *it for time, weather & distance*.)
+
+<Example context="home" fa="پدربزرگم معلم بود.">My grandfather <mark>was</mark> a teacher.</Example>
+<Example context="school" fa="سؤال‌های امتحان آسان بودند.">The exam questions <mark>were</mark> easy.</Example>
+<Example context="social" fa="سال ۲۰۱۰ ده ساله بودم.">I <mark>was</mark> ten in 2010.</Example>
+
+## Negatives
+
+Put **not** after *was* or *were*. In speech we usually use the short forms.
+
+<FormTable caption="was / were: negative">
+
+| Full negative | Short negative |
+|---|---|
+| I / he / she / it **was not** | **wasn't** |
+| you / we / they **were not** | **weren't** |
+
+</FormTable>
+
+**Never use *did* with be.** Say **I wasn't at home**, not ~~I didn't be at home~~. (*Did* is for other verbs: *I didn't go*. That is lesson 27, *Past simple: irregular verbs & did*.)
+
+<Example context="work" fa="دیروز سر کار نبودم.">I <mark>wasn't</mark> at work yesterday.</Example>
+<Example context="shopping" fa="کفش‌ها گران نبودند.">The shoes <mark>weren't</mark> expensive.</Example>
+
+## Questions and short answers
+
+To ask a yes/no question, **swap** the subject and the verb: *You were at home* → **Were you at home?** Again, no *did*.
+
+<FormTable caption="was / were: questions and short answers">
+
+| Question | Yes | No |
+|---|---|---|
+| **Was** I late? | Yes, you **were**. | No, you **weren't**. |
+| **Was** she at school? | Yes, she **was**. | No, she **wasn't**. |
+| **Were** you at home? | Yes, I **was**. | No, I **wasn't**. |
+| **Were** they tired? | Yes, they **were**. | No, they **weren't**. |
+
+</FormTable>
+
+Look at the third line: a question with **you** often gets an answer with **I** (or **we**), so *Were you…?* → *Yes, I **was**.*
+
+For a question with a question word, use **question word + was / were + subject**:
+
+<Example context="social" fa="دیشب کجا بودی؟">Where <mark>were you</mark> last night?</Example>
+<Example context="travel" fa="سفرت چطور بود؟">How <mark>was your trip</mark>?</Example>
+<Example context="school" fa="چرا امروز دیر کردی؟">Why <mark>were you</mark> late today?</Example>
 
 ## there was / there were
 
+**there was / there were** is the past of *there is / there are* (lesson 14). Use it to say that something existed in the past.
+
+- **there was** + one thing or an uncountable noun: *There was a bank. There was a lot of traffic.*
+- **there were** + two or more things: *There were two banks.*
+
+<FormTable caption="there was / there were">
+
+| | One thing / uncountable | Two or more |
+|---|---|---|
+| Positive | There **was** a bank. | There **were** two banks. |
+| Negative | There **wasn't** a bank. | There **weren't** any banks. |
+| Question | **Was there** a bank? | **Were there** any banks? |
+| Short answer | Yes, there **was**. / No, there **wasn't**. | Yes, there **were**. / No, there **weren't**. |
+
+</FormTable>
+
+Don't leave out **there**: say **There was a lot of traffic**, not ~~Was a lot of traffic~~.
+
 <Example context="news" fa="دیروز ترافیک زیادی بود و دو تصادف رخ داد.">There <mark>was</mark> a lot of traffic yesterday, and there <mark>were</mark> two accidents.</Example>
+<Example context="travel" fa="نزدیک هتل رستوران‌های خوبی بود؟"><mark>Were there</mark> any good restaurants near the hotel?</Example>
 
 ## be born
 
-We always say **was / were born**, because birth is in the past:
+Birth is always in the past, so we say **was / were born**. Not ~~I am born~~ and not ~~I born~~.
 
-<Example context="social" fa="من در سال ۱۹۹۵ در اصفهان به دنیا آمدم.">I <mark>was born</mark> in Isfahan in 1995.</Example>
+- **in** + a year or a place: *I was born **in** 1995. I was born **in** Shiraz.*
+- **on** + a date: *I was born **on** May 15, 1995.* (More about *in* and *on* in lesson 32, *Prepositions of time: at, on, in*.)
+
+To ask, use **Where / When + was / were + subject + born?**
+
+<Example context="social" fa="من سال ۱۹۹۵ در اصفهان به دنیا آمدم.">I <mark>was born</mark> in Isfahan in 1995.</Example>
+<Example context="social" fa="کجا به دنیا آمدی؟">Where <mark>were you born</mark>?</Example>
+<Example context="health" fa="پسرشان هفته‌ی پیش به دنیا آمد.">Their son <mark>was born</mark> last week.</Example>
+
+## Other past forms
+
+In this lesson **was / were** is the main verb. Other verbs have their own past forms: *I worked, I went.* You learn them in lesson 26 (Past simple: regular verbs) and lesson 27 (Past simple: irregular verbs & did). *Was* and *were* are also helpers with **-ing** verbs: *I was working.* That is the past continuous, in A2 lesson 8 (Past continuous; when & while).
 
 <Persian>
 
-**گذشته‌ی be:** am و is ← **was**، are ← **were**.
+**گذشته‌ی فعل be (بودن):** در زمان حال، be سه شکل داشت (am / is / are). در گذشته فقط **دو شکل** دارد:
 
-- I / he / she / it ← was: I was tired (خسته بودم).
-- you / we / they ← were: They were late (دیر کردند / دیر آمده بودند).
+- با **I / he / she / it** ← **was**: I was tired. (خسته بودم.) / She was at home. (او خانه بود.)
+- با **you / we / they** ← **were**: We were in Kish. (ما کیش بودیم.)
+- هر **اسم جمع** هم با **were** می‌آید: The rooms were clean. (اتاق‌ها تمیز بودند.)
 
-**منفی:** wasn't / weren't — **سؤالی:** Was he…? / Were you…?
+**چرا اشتباه می‌کنیم؟** در فارسی «بودن» شش شکل دارد (بودم، بودی، بود، بودیم، بودید، بودند). در انگلیسی فقط دو شکل داریم. ساده به خاطر بسپارید: am و is ← **was**، و are ← **were**. پس They was و You was غلط است.
 
-**there was / there were:** گذشته‌ی there is / there are (… بود / … بودند).
+**کاربرد:** هر جا در حال am / is / are می‌گوییم، در گذشته was / were می‌گوییم: برای مکان (I was at home)، احساس (We were hungry)، شغل (He was a teacher)، سن (I was ten) و توصیف (The film was boring). در حالت مثبت، was و were حالت کوتاه ندارند.
 
-**تولد:** در فارسی می‌گوییم «متولد ۱۹۹۵ هستم»، ولی در انگلیسی همیشه گذشته است: **I was born** in 1995 (نه I am born).
+**منفی:** not را بعد از was / were می‌گذاریم: wasn't (was not) و weren't (were not). برای be **هرگز did نمی‌آوریم**: I wasn't at home. (خانه نبودم.) نه I didn't be at home.
+
+**سؤالی:** در فارسی سؤال را فقط با لحن می‌سازیم («دیروز خانه بودی؟») و ترتیب کلمه‌ها عوض نمی‌شود. در انگلیسی was / were را **قبل از فاعل** می‌آوریم: Were you at home yesterday? با کلمه‌ی پرسشی هم همین‌طور: Where were you? (کجا بودی؟) نه Where you were?
+
+**جواب کوتاه:** Yes, I was. / No, I wasn't. — Yes, they were. / No, they weren't. دقت کنید: سؤال با you است، ولی جواب با I: Were you tired? ← Yes, I was.
+
+**there was / there were:** گذشته‌ی there is / there are است و یعنی «… بود / … وجود داشت». there was برای یک چیز (یا اسم غیرقابل‌شمارش مثل traffic)، و there were برای دو یا چند چیز. دو اشتباه رایج:
+
+- در فارسی می‌گوییم «ترافیک زیادی بود» و کلمه‌ای مثل there نداریم. در انگلیسی there لازم است: There was a lot of traffic. نه Was a lot of traffic.
+- در فارسی برای چیزهای جمع گاهی فعل مفرد می‌آوریم («دو تا تصادف بود»). در انگلیسی برای جمع حتماً were لازم است: There were two accidents.
+
+**تولد:** در فارسی می‌گوییم «متولد ۱۹۹۵ هستم» یا «سال ۱۹۹۵ به دنیا آمدم». در انگلیسی همیشه **was / were born** می‌گوییم: I was born in 1995. نه I am born و نه I born.
+
+- **in** + سال یا شهر: I was born in 1995. / I was born in Shiraz.
+- **on** + تاریخ کامل: I was born on May 15, 1995.
+- سؤال: Where were you born? (کجا به دنیا آمدی؟) / When were you born? (کی به دنیا آمدی؟)
 
 </Persian>
 
 ## Common mistakes
 
-<WrongRight wrong="You was right." right="You were right." why="you always takes were." />
-<WrongRight wrong="Where you were yesterday?" right="Where were you yesterday?" why="Question: were before the subject." />
+<WrongRight wrong="You was right." right="You were right." why="you always takes were, even for one person." />
+<WrongRight wrong="My parents was at home." right="My parents were at home." why="A plural noun → were." />
+<WrongRight wrong="I didn't be at work yesterday." right="I wasn't at work yesterday." why="No did with be. Use wasn't / weren't." />
+<WrongRight wrong="Where you were yesterday?" right="Where were you yesterday?" why="Question: was / were comes before the subject." />
+<WrongRight wrong="Was a lot of traffic." right="There was a lot of traffic." why="Don't leave out there." />
+<WrongRight wrong="There was two accidents." right="There were two accidents." why="Two or more → there were." />
+<WrongRight wrong="I born in Tabriz." right="I was born in Tabriz." why="born always needs was / were." />
 
 <MemoryHook title="One was, many were">
-**One** person (I, he, she, it) → **was**. You and **many** people → **were**.
+**One** person or thing (I, he, she, it) → **was**. **You** and **many** (we, they, plural nouns) → **were**. And no *did*: just swap for a question and add *not* for a negative.
 </MemoryHook>

@@ -4,31 +4,42 @@ level: A1
 number: 16
 pillar: tenses
 size: core
-hook: "“I have two sisters and a brother. My brother has a cold today.” have is for family, things you own, and even illnesses."
-rule: "Use have (has with he / she / it) for possession, family and illness. have got means the same, especially in British English. Questions use Do you have…?"
+hook: "“I have two sisters and a brother. My brother has a cold today, so he's at home.” One verb, have, for family, things you own, and even illnesses."
+rule: "Use have (has with he / she / it) for things you own, family, looks, illness and plans. Make negatives and questions with do / does: I don't have…, Does she have…? have got means the same and is common in British speech: I've got…, Have you got…?"
 points:
   - "I / you / we / they <b>have</b> · he / she / it <b>has</b>"
-  - "Possession and family: I <b>have</b> a car. She <b>has</b> two brothers."
-  - "Illness: I <b>have</b> a headache. He <b>has</b> a cold."
-  - "Negatives and questions: I <b>don't have</b>… · She <b>doesn't have</b>… · <b>Do</b> you <b>have</b>…?"
-  - "<b>have got</b> = have (more British): I<b>'ve got</b> a car. <b>Have</b> you <b>got</b> a pen?"
-  - "have for actions: <b>have</b> breakfast, <b>have</b> a shower, <b>have</b> a good time"
+  - "Uses: things you own, family, looks, illness, plans: I <b>have</b> a car. She <b>has</b> blue eyes. He <b>has</b> a cold."
+  - "Negatives and questions with do: I <b>don't have</b>… · She <b>doesn't have</b>… · <b>Does</b> she <b>have</b>…? (never “does she has”)"
+  - "<b>have got</b> = have (more British, more spoken): I<b>'ve got</b> a car. <b>Have</b> you <b>got</b> a pen? I <b>haven't got</b> time."
+  - "Short answers: Yes, I <b>do</b>. / No, she <b>doesn't</b>. With have got: Yes, I <b>have</b>. / No, I <b>haven't</b>."
+  - "have for actions: <b>have</b> breakfast, <b>have</b> a party, <b>have</b> a good time. Not have got."
+  - "Age is not have: <b>I'm 20</b>, not “I have 20 years” (lesson 5)."
 mindmap: |
-  # have
+  # have / have got
   ## Forms
   - I / you / we / they have
   - he / she / it has
   ## Uses
-  - possession: I have a car
+  - things: I have a car
   - family: She has two brothers
+  - looks: He has blue eyes
   - illness: I have a cold
-  - actions: have breakfast
+  - plans: I have a meeting at 10
   ## Negative & question
-  - I don't have…
-  - Does she have…?
-  ## have got (UK)
-  - I've got a car
-  - Have you got…?
+  - I don't have · she doesn't have
+  - Do you have…? Does she have…?
+  - Yes, I do · No, she doesn't
+  ## have got
+  - I've got · she's got
+  - I haven't got · she hasn't got
+  - Have you got…? Yes, I have.
+  - more British, only present
+  ## Actions (not have got)
+  - have breakfast / lunch
+  - have a party / a good time
+  - have a shower (US: take)
+  ## Not have
+  - age: I'm 20
 covers:
   - have-possession
   - have-got
@@ -42,10 +53,20 @@ exercises:
     answer: 1
     explain: "My sister = she → has."
   - type: mcq
-    prompt: "We ___ a new car."
-    options: ["has", "have"]
+    prompt: "My grandfather ___ got white hair."
+    options: ["have", "has", "is"]
     answer: 1
-    explain: "we → have."
+    explain: "My grandfather = he → has got."
+  - type: mcq
+    prompt: "I usually ___ breakfast at seven."
+    options: ["have", "have got", "'ve got"]
+    answer: 0
+    explain: "have breakfast is an action. Don't use have got for actions."
+  - type: mcq
+    prompt: "We always ___ a good time with our cousins."
+    options: ["have", "make", "do"]
+    answer: 0
+    explain: "have a good time is a fixed expression."
   - type: gap
     prompt: "___ you have any brothers or sisters?"
     answers: ["Do"]
@@ -54,27 +75,41 @@ exercises:
     prompt: "She ___ have a car. She takes the bus."
     answers: ["doesn't", "does not"]
     explain: "Negative with she: doesn't have."
+  - type: gap
+    prompt: "“Have you got a pen?” “Yes, I ___.”"
+    answers: ["have"]
+    explain: "Short answer for have got: Yes, I have. (No got in the short answer.)"
+  - type: gap
+    prompt: "“Does your brother have a job?” “No, he ___.”"
+    answers: ["doesn't", "does not"]
+    explain: "Short answer for does: No, he doesn't."
   - type: correct
     prompt: "He have a headache."
-    answers: ["He has a headache."]
-    explain: "he → has."
+    answers: ["He has a headache.", "He's got a headache.", "He has got a headache."]
+    explain: "he → has (or has got)."
   - type: correct
     prompt: "Does she has a laptop?"
-    answers: ["Does she have a laptop?"]
+    answers: ["Does she have a laptop?", "Has she got a laptop?"]
     explain: "After does, use have (not has)."
+  - type: correct
+    prompt: "Do you have got a pen?"
+    answers: ["Do you have a pen?", "Have you got a pen?"]
+    explain: "Don't mix the two forms: Do you have…? or Have you got…?"
   - type: correct
     prompt: "I have 25 years."
     answers: ["I am 25.", "I'm 25.", "I am 25 years old.", "I'm 25 years old."]
-    explain: "Age uses be, not have (lesson A1.5)."
-  - type: mcq
-    prompt: "We always ___ a good time with our cousins."
-    options: ["have", "make", "do"]
-    answer: 0
-    explain: "have a good time is a fixed expression."
+    explain: "Age uses be, not have (lesson 5)."
   - type: transform
     prompt: "Rewrite with have got: I have a new phone."
     answers: ["I have got a new phone.", "I've got a new phone."]
     explain: "have = have got: I've got a new phone."
+  - type: transform
+    prompt: "Make it negative: Ali has a car."
+    answers: ["Ali doesn't have a car.", "Ali does not have a car.", "Ali hasn't got a car.", "Ali has not got a car."]
+    explain: "Negative: doesn't have (or hasn't got). After doesn't, use have, not has."
+  - type: reorder
+    chunks: ["Does", "your sister", "have", "a car?"]
+    explain: "Does + subject + have + the rest?"
   - type: match
     prompt: "Match each sentence with its use of have."
     pairs:
@@ -85,85 +120,155 @@ exercises:
     explain: "have is used for things we own, family, illnesses and some actions."
 recall:
   - q: "have or has with he, she and it?"
-    a: "<b>has</b>: she has, he has, it has."
+    a: "<b>has</b>: she has, he has, it has. But after <b>does</b>, always <b>have</b>: Does she have…?"
   - q: "How do you ask «برادر داری؟»"
     a: "<b>Do you have a brother?</b> (British: Have you got a brother?)"
   - q: "How do you say «سرما خورده‌ام» and «صبحانه می‌خورم»?"
-    a: "<b>I have a cold.</b> · <b>I have breakfast.</b>"
+    a: "<b>I have a cold.</b> (or I've got a cold) · <b>I have breakfast.</b> (not have got)"
+  - q: "What are the short answers to “Have you got a car?”"
+    a: "<b>Yes, I have.</b> / <b>No, I haven't.</b> (no got)"
 cards:
   - front: "have or has?"
     back: "I / you / we / they have · he / she / it has"
   - front: "Does she ___ a car? (have / has)"
     back: "have (after does, no -s)"
   - front: "«سرما خورده‌ام»"
-    back: "I have a cold."
+    back: "I have a cold. / I've got a cold."
   - front: "have got = ?"
-    back: "have: I've got a car = I have a car (more British)"
+    back: "have: I've got a car = I have a car (more British, only present)"
+  - front: "have breakfast or have got breakfast?"
+    back: "have breakfast (actions: never have got)"
 ---
 
 ## have and has
 
 <FormTable caption="have: present">
 
-| | Positive | Negative | Question |
-|---|---|---|---|
-| I / you / we / they | I **have** a car. | I **don't have** a car. | **Do** you **have** a car? |
-| he / she / it | She **has** a car. | She **doesn't have** a car. | **Does** she **have** a car? |
+| | Positive | Negative | Question | Short answers |
+|---|---|---|---|---|
+| I / you / we / they | I **have** a car. | I **don't have** a car. | **Do** you **have** a car? | Yes, I **do**. / No, I **don't**. |
+| he / she / it | She **has** a car. | She **doesn't have** a car. | **Does** she **have** a car? | Yes, she **does**. / No, she **doesn't**. |
 
 </FormTable>
 
-Short answers: *Yes, I **do**. / No, she **doesn't**.*
+Two things to remember:
+
+- **he, she, it** → **has**. Everyone else → **have**.
+- After **do / does / don't / doesn't**, always use **have**: *Does she **have**…?* *She doesn't **have**…* (never ~~does she has~~).
 
 ## What do we use have for?
+
+<FormTable caption="Uses of have">
+
+| Use | Example |
+|---|---|
+| Things you own | I **have** a car. We **have** a big apartment. |
+| Family and friends | She **has** two brothers. I **have** a lot of friends. |
+| Body and looks | He **has** blue eyes. My sister **has** long hair. |
+| Illness and pain | I **have** a headache. He **has** a cold. |
+| Plans and events | I **have** a meeting at ten. We **have** an English class today. |
+
+</FormTable>
 
 <Example context="home" fa="دو خواهر و یک برادر دارم.">I <mark>have</mark> two sisters and a brother.</Example>
 <Example context="work" fa="او یک دفتر بزرگ دارد.">She <mark>has</mark> a big office.</Example>
 <Example context="health" fa="امروز سرم درد می‌کند.">I <mark>have</mark> a headache today.</Example>
-<Example context="shopping" fa="کیسه داری؟">Do you <mark>have</mark> a bag?</Example>
+<Example context="school" fa="ساعت ده امتحان داریم.">We <mark>have</mark> an exam at ten.</Example>
 
-We also use **have** in fixed expressions for **actions**:
+**have or there is?** Both can say what a place has: *My city **has** a big park.* = ***There's** a big park in my city.* (lesson 14)
 
-- **have** breakfast / lunch / dinner
-- **have** a shower / a bath
-- **have** a good time / a party / a break
+## Negatives and questions
 
-<Example context="social" fa="بیا با هم ناهار بخوریم.">Let's <mark>have</mark> lunch together.</Example>
+Make the negative with **don't / doesn't + have**. Make questions with **Do / Does + subject + have**.
+
+<Example context="shopping" fa="کیسه داری؟"><mark>Do</mark> you <mark>have</mark> a bag?</Example>
+<Example context="work" fa="او ماشین ندارد. با اتوبوس می‌آید.">She <mark>doesn't have</mark> a car. She takes the bus.</Example>
+<Example context="travel" fa="اتاق خالی دارید؟ بله، داریم.">“<mark>Do</mark> you <mark>have</mark> a free room?” “Yes, we <mark>do</mark>.”</Example>
+
+With a question word: *How many children **do** they **have**?* · *What **does** she **have** in her bag?*
 
 ## have got
 
-**have got** means the same as **have** (possession, family, illness). It's common in British English and in speech:
+**have got** means the same as **have** for things you own, family, looks, illness and plans. It is very common in British speech. In American English, *have* is more common, but you will hear *I've got* too.
 
-- *I've got a car.* = *I have a car.*
-- *Have you got a pen?* = *Do you have a pen?*
-- *She hasn't got time.* = *She doesn't have time.*
+<FormTable caption="have got: present">
 
-Don't use **have got** for actions: *I have breakfast* (not *I've got breakfast*).
+| | Positive | Negative | Question | Short answers |
+|---|---|---|---|---|
+| I / you / we / they | I**'ve got** a car. | I **haven't got** a car. | **Have** you **got** a car? | Yes, I **have**. / No, I **haven't**. |
+| he / she / it | She**'s got** a car. | She **hasn't got** a car. | **Has** she **got** a car? | Yes, she **has**. / No, she **hasn't**. |
 
-<UkNote>British speakers often say **have got**: *I've got two brothers. Have you got a minute?* Americans usually say **have** (*Do you have a minute?*).</UkNote>
+</FormTable>
+
+<Example context="social" fa="یک گربه‌ی جدید دارم.">I<mark>'ve got</mark> a new cat.</Example>
+<Example context="health" fa="سرما خورده. امروز نمی‌آید.">He<mark>'s got</mark> a cold. He isn't coming today.</Example>
+
+Rules for **have got**:
+
+- Here **'s = has**: *She's got a car* = *She **has** got a car.* (In *She's a nurse*, 's = is. See lesson 5.)
+- Questions and negatives **don't use do**: ***Have** you got…?* not ~~Do you have got…?~~
+- Short answers have **no got**: *Yes, I **have**.* not ~~Yes, I have got.~~
+- **have got** is only for the **present**. For the past, use **had**: *I had a red bike.* (lesson 27)
+- In everyday English, use the short form with *got*: *I've got a car.* With *have* alone, say the full form: *I have a car.*
+- For things that happen often, *have* is more usual: *I often **have** headaches.*
+
+<UkNote>British speakers often say **have got**: *I've got two brothers. Have you got a minute? I haven't got time.* Americans usually say **have**: *Do you have a minute? I don't have time.*</UkNote>
+
+## have for actions
+
+**have** also means *eat, drink, take* or *enjoy* in many fixed expressions. These are **actions**, not things you own.
+
+- **have** breakfast / lunch / dinner / a coffee
+- **have** a shower / a bath / a break / a rest
+- **have** a party / a meeting / a good time
+
+<Example context="social" fa="بیا با هم ناهار بخوریم.">Let's <mark>have</mark> lunch together.</Example>
+<Example context="home" fa="معمولاً ساعت هفت صبحانه می‌خورم.">I usually <mark>have</mark> breakfast at seven.</Example>
+<Example context="work" fa="ساعت یازده استراحت می‌کنیم و قهوه می‌خوریم.">We <mark>have</mark> a break and a coffee at eleven.</Example>
+
+For actions:
+
+- **Never** use *have got*: *I have breakfast*, not ~~I've got breakfast~~.
+- Questions and negatives use **do**: ***Do** you **have** lunch at work?*
+- You can say *I'm having lunch* (happening now, lesson 22). But for things you own, don't use *-ing*: *I **have** a car*, not ~~I'm having a car~~. (More in B1 lesson 10, State verbs & action verbs.)
+
+In American English, people usually **take** a shower. *Have a shower* is more British.
+
+## Coming later
+
+**have** is also a helper verb in the present perfect (*I have seen it*), in A2 lesson 15, “Present perfect: experience (ever, never, been, gone)”. **have to** (*I have to go*) comes in A2 lesson 19 (must, mustn't, have to, don't have to). More expressions with *have, make, do, take* come in B1 lesson 16 (make, do, have, take, give + noun).
 
 <Persian>
 
-**have = داشتن.** با he / she / it می‌شود **has**: She has a car.
+**have = داشتن.** با he / she / it می‌شود **has**: She has a car. (او ماشین دارد.)
 
 **کاربردها:**
 
-- مالکیت و خانواده: I have a car. / She has two brothers.
-- بیماری: I have a headache (سرم درد می‌کند)، He has a cold (سرما خورده).
-- بعضی کارها: have breakfast (صبحانه خوردن)، have a shower (دوش گرفتن)، have a good time (خوش گذراندن).
+- مالکیت: I have a car. (ماشین دارم.)
+- خانواده و دوستان: She has two brothers. (دو برادر دارد.)
+- ظاهر: He has blue eyes. (چشم‌های آبی دارد.)
+- بیماری و درد: I have a headache (سرم درد می‌کند)، He has a cold (سرما خورده).
+- برنامه: I have a meeting at ten. (ساعت ده جلسه دارم.)
 
-**منفی و سؤالی:** با do / does: I don't have… / Does she have…? بعد از does فعل has نمی‌شود: Does she **have** (نه has).
+**منفی و سؤالی:** با do / does: I don't have… / Does she have…? بعد از does و doesn't فعل has نمی‌شود: Does she **have** (نه has). جواب کوتاه: Yes, I do. / No, she doesn't.
 
-**یادآوری:** سن را با have نمی‌گوییم: I'm 25 (نه I have 25 years).
+**have got** همان معنی have را دارد و بیشتر در انگلیسی بریتانیایی و در گفتار به کار می‌رود: I've got a car. / Have you got a pen? / I haven't got time. با have got از do استفاده نمی‌کنیم: نه Do you have got. جواب کوتاه: Yes, I have. / No, I haven't. (بدون got). have got فقط برای زمان حال است.
 
-**have got** همان معنی have را دارد (بیشتر انگلیسی بریتانیایی): I've got a car.
+**کارها با have:** در فارسی برای هر کار فعل جدایی داریم: صبحانه **خوردن**، دوش **گرفتن**، خوش **گذشتن**، سرما **خوردن**. در انگلیسی همه با have می‌آیند: have breakfast، have a shower (آمریکایی‌ها بیشتر می‌گویند take a shower)، have a good time، have a cold. برای این کارها have got به کار نمی‌رود.
+
+**یادآوری:** در فارسی سن را با «داشتن» می‌گوییم («۲۰ سال دارم»)، ولی در انگلیسی با be: I'm 20 (نه I have 20 years).
 
 </Persian>
 
 ## Common mistakes
 
 <WrongRight wrong="She have a new job." right="She has a new job." why="she → has." />
+<WrongRight wrong="Does he has a car?" right="Does he have a car?" why="After does, use have." />
 <WrongRight wrong="Do you have got a pen?" right="Do you have a pen? / Have you got a pen?" why="Don't mix the two forms." />
+<WrongRight wrong="“Have you got a car?” “Yes, I've got.”" right="“Yes, I have.”" why="Short answers have no got and no short form at the end." />
+<WrongRight wrong="I've got breakfast at seven." right="I have breakfast at seven." why="Actions use have, not have got." />
+<WrongRight wrong="I have 20 years." right="I'm 20. / I'm 20 years old." why="Age uses be, not have." />
 
-<MemoryHook title="Has for one other person">
-**He, she, it** → **has**. Everyone else → **have**. After **do / does**, always **have**.
+<MemoryHook title="Has for he, she, it">
+**He, she, it** → **has**. Everyone else → **have**. After **do / does**, always **have**. **have got** for things, never for actions.
 </MemoryHook>

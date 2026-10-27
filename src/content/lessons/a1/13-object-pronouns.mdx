@@ -4,13 +4,16 @@ level: A1
 number: 13
 pillar: pronouns
 size: mini
-hook: "“Do you know Ali?” “Yes, I know him. I work with him.” After a verb or a preposition, he becomes him."
-rule: "After a verb or a preposition, use the object pronouns: me, you, him, her, it, us, them."
+hook: "“Do you know Ali?” “Yes, I know him. I work with him.” Before the verb he is he. After the verb or after with, he becomes him."
+rule: "Before the verb, use a subject pronoun (I, he, she, we, they). After a verb or a preposition, use an object pronoun: me, you, him, her, it, us, them."
 points:
   - "I → <b>me</b> · you → <b>you</b> · he → <b>him</b> · she → <b>her</b> · it → <b>it</b> · we → <b>us</b> · they → <b>them</b>"
   - "Subject <b>before</b> the verb: <b>She</b> calls me. · Object <b>after</b> the verb: I call <b>her</b>."
-  - "After prepositions: with <b>me</b>, for <b>him</b>, to <b>them</b>, about <b>us</b>"
-  - "Short answers: “Who's there?” “It's <b>me</b>.”"
+  - "After prepositions, always the object form: with <b>me</b>, for <b>him</b>, to <b>them</b>, about <b>us</b>."
+  - "One thing → <b>it</b>. Two or more people or things → <b>them</b>: My keys? I can't find <b>them</b>."
+  - "Don't leave the object out: “Do you like this song?” “Yes, I like <b>it</b>.” (not “I like.”)"
+  - "Alone or after it's, use the object form: “Who's there?” “It's <b>me</b>.” · “I'm hungry.” “<b>Me</b> too.”"
+  - "<b>her</b> has two jobs: object (I know <b>her</b>) and possessive (<b>her</b> bag, lesson 12)."
 mindmap: |
   # Object pronouns
   ## Subject → object
@@ -22,11 +25,20 @@ mindmap: |
   - you, it → no change
   ## After a verb
   - I call her
-  - She loves them
+  - Help me!
   ## After a preposition
-  - with me
-  - for him
-  - to them
+  - with me · for him
+  - to them · about us
+  - with Ali and me
+  ## it or them?
+  - one thing → it
+  - two or more → them
+  ## Don't drop it
+  - I like it (not: I like)
+  - Ali? I know him.
+  ## Alone
+  - It's me.
+  - Me too.
 covers:
   - object-pronouns
   - pronoun-after-preposition
@@ -35,15 +47,19 @@ exercises:
   - type: gap
     prompt: "I like Sara. I often call ___."
     answers: ["her"]
-    explain: "Sara is a woman, after the verb call → her."
+    explain: "Sara is a woman. After the verb call → her."
   - type: gap
     prompt: "My parents live in Rasht. I visit ___ every month."
     answers: ["them"]
-    explain: "my parents = they → object them."
+    explain: "my parents = they → object form them."
   - type: gap
     prompt: "Can you help ___? I can't open this door."
     answers: ["me"]
     explain: "I → me after the verb help."
+  - type: gap
+    prompt: "“Do you like this song?” “Yes, I love ___!”"
+    answers: ["it"]
+    explain: "this song = one thing → it. love needs an object, so don't leave it out."
   - type: mcq
     prompt: "This present is for ___. (Reza)"
     options: ["he", "him", "his"]
@@ -54,86 +70,205 @@ exercises:
     options: ["we", "us", "our"]
     answer: 1
     explain: "After with → us."
+  - type: mcq
+    prompt: "“Where are my glasses?” “Sorry, I can't see ___.”"
+    options: ["it", "them", "they"]
+    answer: 1
+    explain: "glasses is plural (more than one) → them, after the verb see."
+  - type: mcq
+    prompt: "“Who's there?” “It's ___, Sara!”"
+    options: ["I", "me", "my"]
+    answer: 1
+    explain: "In everyday English we say It's me."
   - type: correct
     prompt: "Can you help I?"
     answers: ["Can you help me?"]
     explain: "After a verb, I becomes me."
   - type: correct
-    prompt: "She went to the cinema with they."
-    answers: ["She went to the cinema with them."]
-    explain: "After a preposition, they becomes them."
+    prompt: "She goes to the cinema with they."
+    answers: ["She goes to the cinema with them."]
+    explain: "After the preposition with, they becomes them."
+  - type: correct
+    prompt: "Him is my brother."
+    answers: ["He is my brother.", "He's my brother."]
+    explain: "Before the verb, use the subject form: He is…"
+  - type: correct
+    prompt: "My new bag is great. I love."
+    answers: ["My new bag is great. I love it."]
+    explain: "love needs an object. my new bag = it → I love it."
+  - type: transform
+    prompt: "Use one pronoun for “Sara and me”: Ali works with Sara and me."
+    answers: ["Ali works with us."]
+    explain: "Sara and me = us. After with, use the object form."
+  - type: transform
+    prompt: "Use a pronoun for “the tickets”: I have the tickets in my bag."
+    answers: ["I have them in my bag."]
+    explain: "the tickets = more than one thing → them."
+  - type: reorder
+    chunks: ["My mother", "calls", "me", "every day."]
+    explain: "Subject (My mother) + verb (calls) + object (me) + time."
   - type: match
     prompt: "Match each subject pronoun with its object form."
     pairs:
       - ["I", "me"]
       - ["he", "him"]
+      - ["she", "her"]
       - ["we", "us"]
       - ["they", "them"]
-    explain: "you and it don't change; the others do."
-  - type: reorder
-    chunks: ["She", "loves", "him", "very much."]
-    explain: "Subject She + verb loves + object him."
+    explain: "you and it don't change. The other five do."
 recall:
   - q: "What are the object forms of I, he, she, we, they?"
-    a: "<b>me, him, her, us, them</b>."
-  - q: "Which pronouns are the same as subject and object?"
-    a: "<b>you</b> and <b>it</b>."
+    a: "<b>me, him, her, us, them</b>. <b>you</b> and <b>it</b> don't change."
   - q: "Where do object pronouns go?"
-    a: "<b>After a verb</b> (I call her) or <b>after a preposition</b> (with me)."
+    a: "<b>After a verb</b> (I call her) or <b>after a preposition</b> (with me, for them)."
+  - q: "“Do you like this cake?” Why is “Yes, I like.” wrong?"
+    a: "like needs an object. Say <b>Yes, I like it.</b>"
+  - q: "Someone knocks. You answer: “Who's there?” What do they say?"
+    a: "<b>It's me.</b> Alone or after it's, we use the object form."
 cards:
   - front: "I · he · she · we · they → object"
     back: "me · him · her · us · them"
   - front: "Can you help ___? (I)"
     back: "Can you help me?"
   - front: "This is for ___. (he)"
-    back: "This is for him."
+    back: "This is for him. (after a preposition → object)"
+  - front: "My keys? I can't find ___."
+    back: "them (two or more things → them)"
+  - front: "✗ I like. ✓ ?"
+    back: "I like it. Don't drop the object."
   - front: "“Who's there?”"
     back: "“It's me.”"
 ---
 
 ## Subject or object?
 
-A pronoun changes form depending on where it is in the sentence:
+A pronoun changes its form. The form depends on its place in the sentence:
+
+- **Before the verb**, the pronoun is the **subject** (the one who does the action): **She** calls Ali.
+- **After the verb**, the pronoun is the **object** (the one who gets the action): Ali calls **her**.
 
 <FormTable caption="Subject and object pronouns">
 
-| Subject (before the verb) | Object (after a verb or preposition) |
-|---|---|
-| **I** call Ali. | Ali calls **me**. |
-| **He** is my teacher. | I like **him**. |
-| **She** works here. | I know **her**. |
-| **We** are late. | Wait for **us**! |
-| **They** live in Yazd. | I visit **them**. |
-| **You** / **It** | **you** / **it** (no change) |
+| Subject (before the verb) | Object (after a verb or preposition) | Example |
+|---|---|---|
+| **I** | **me** | Ali calls **me**. |
+| **you** | **you** | I can see **you**. |
+| **he** | **him** | I like **him**. |
+| **she** | **her** | I know **her**. |
+| **it** | **it** | I love **it**. |
+| **we** | **us** | Wait for **us**! |
+| **they** | **them** | I visit **them**. |
 
 </FormTable>
 
-<Example context="social" fa="علی را می‌شناسی؟ آره، با او کار می‌کنم.">Do you know Ali? Yes, I work with <mark>him</mark>.</Example>
+Only **five** pronouns change: *me, him, her, us, them*. **You** and **it** are the same in both places. And *you* is the same for one person or for many people: *I can see you* (one friend or the whole class).
+
+## After a verb
+
+The object pronoun comes straight after the verb.
+
 <Example context="home" fa="مادرم هر روز به من زنگ می‌زند.">My mother calls <mark>me</mark> every day.</Example>
+<Example context="social" fa="علی را می‌شناسی؟ آره، می‌شناسمش.">Do you know Ali? Yes, I know <mark>him</mark>.</Example>
+<Example context="work" fa="مریم مدیر جدید ماست. او را دوست داریم.">Maryam is our new manager. We like <mark>her</mark>.</Example>
+<Example context="health" fa="لطفاً کمکم کن! پایم درد می‌کند.">Please help <mark>me</mark>! My leg hurts.</Example>
+
+## After a preposition
+
+Prepositions are small words like *with, for, to, about, at, from, without, near*. After a preposition, always use the **object** form.
+
+<FormTable caption="Preposition + object pronoun">
+
+| Preposition | Example |
+|---|---|
+| with | Come with **me**. |
+| for | This coffee is for **him**. |
+| to | Give it to **her**. |
+| about | Tell me about **them**. |
+| at | Look at **us**! |
+| without | Don't go without **me**. |
+
+</FormTable>
+
 <Example context="shopping" fa="این گل‌ها برای آن‌هاست.">These flowers are for <mark>them</mark>.</Example>
+<Example context="travel" fa="با ما بیا! به ساحل می‌رویم.">Come with <mark>us</mark>! We're going to the beach.</Example>
+<Example context="school" fa="معلم به من نگاه می‌کند.">The teacher is looking at <mark>me</mark>.</Example>
+
+**Two people joined with *and*?** The rule is the same. Take away the other person and check: *Come with Ali and **me*** (Come with me). *Ali and **I** are friends* (I am a friend). Harder cases like *between you and me* and *taller than me* come in C1 lesson 29 (Pronouns: advanced).
+
+## People and things: it or them?
+
+Object pronouns are for things, too, not only people.
+
+- **One thing** → **it**: *I like this shirt. I want **it**.*
+- **Two or more** people or things → **them**: *Where are my keys? I can't find **them**.*
+
+<Example context="home" fa="کلیدهایم کجاست؟ پیدایشان نمی‌کنم.">Where are my keys? I can't find <mark>them</mark>.</Example>
+<Example context="shopping" fa="این کفش‌ها قشنگ‌اند. می‌خرمشان.">These shoes are nice. I'm buying <mark>them</mark>.</Example>
+
+## Don't leave out the object
+
+Verbs like *like, love, know, want, need, see* need an object. If the person or thing is already clear, use a pronoun. Don't drop it.
+
+<Example context="social" fa="این آهنگ را دوست داری؟ آره، دوستش دارم.">Do you like this song? Yes, I like <mark>it</mark>.</Example>
+<Example context="work" fa="گزارش را می‌خواهی؟ آره، الان لازمش دارم.">Do you want the report? Yes, I need <mark>it</mark> now.</Example>
+
+Not ~~Yes, I like.~~ and not ~~Yes, I need now.~~
+
+## Alone, or after it's
+
+When a pronoun stands alone (with no verb after it), or after *it's*, we use the **object** form in everyday English.
+
+<Example context="home" fa="کیه؟ منم!">“Who's there?” “It's <mark>me</mark>!”</Example>
+<Example context="social" fa="گرسنه‌ام. من هم همین‌طور.">“I'm hungry.” “<mark>Me</mark> too.”</Example>
+<Example context="work" fa="چه کسی قهوه می‌خواهد؟ من!">“Who wants coffee?” “<mark>Me</mark>!”</Example>
+
+## Watch out: her
+
+**her** has two jobs. It is the object form of *she*, and it is also the possessive word (lesson 12).
+
+- Object: *I know **her**.* (her = she, after the verb)
+- Possessive: *This is **her** bag.* (her + a noun)
+
+## Coming later
+
+Other pronoun forms come in later lessons: *mine, yours, his…* in A2 lesson 33 (mine, yours… and whose), *myself, yourself…* in A2 lesson 34 (Reflexive pronouns: myself, yourself), and *one / ones* in A2 lesson 35 (one, ones; another, other, the other). Sentences with two objects (*Give me the key. Give it to me.*) come in A2 lesson 5 (Verbs with two objects: give me it / give it to me).
 
 <Persian>
 
-**ضمیرهای مفعولی:** وقتی ضمیر **بعد از فعل** یا **بعد از حرف اضافه** می‌آید، شکلش عوض می‌شود:
+**ضمیرهای مفعولی:** وقتی ضمیر **بعد از فعل** یا **بعد از حرف اضافه** (with, for, to, about, at…) می‌آید، شکلش عوض می‌شود:
 
-- I ← me (مرا / به من)
-- he ← him (او را)
-- she ← her (او را)
-- we ← us (ما را)
-- they ← them (آن‌ها را)
-- you و it عوض نمی‌شوند.
+- I ← **me** (مرا، به من)
+- he ← **him** (او را؛ برای مرد)
+- she ← **her** (او را؛ برای زن)
+- we ← **us** (ما را)
+- they ← **them** (آن‌ها را)
+- **you** و **it** عوض نمی‌شوند.
 
-مثال: «او را دوست دارم» = I love **him** / **her**. «با من بیا» = Come with **me**.
+**جای ضمیر:** قبل از فعل شکل فاعلی (She calls me) و بعد از فعل شکل مفعولی (I call her). در فارسی «را» نشان می‌دهد که کلمه مفعول است؛ در انگلیسی «را» نداریم و **جای کلمه** و **شکل ضمیر** این کار را می‌کند.
 
-در فارسی ضمیر مفعولی گاهی به فعل می‌چسبد («دیدمش»)، ولی در انگلیسی جدا و بعد از فعل می‌آید: I saw **him**.
+**ضمیر چسبان:** در فارسی ضمیر مفعولی را به فعل می‌چسبانیم: «دیدمش»، «دوستش دارم». در انگلیسی ضمیر جداست و بعد از فعل می‌آید: I saw **him**. / I love **it**.
+
+**مفعول را حذف نکنید:** در فارسی می‌گوییم «این آهنگ را دوست داری؟ آره، دوست دارم» و مفعول را نمی‌گوییم. در انگلیسی فعل‌هایی مثل like، love، want و need مفعول لازم دارند: Yes, I like **it**. (نه Yes, I like.)
+
+**it یا them:** برای یک چیز **it** و برای دو یا چند چیز یا آدم **them**: کلیدهایم کجاست؟ ← I can't find **them**.
+
+**او = him یا her؟** در فارسی «او» برای زن و مرد یکی است. در انگلیسی برای مرد **him** و برای زن **her**: I know **him** (علی) / I know **her** (سارا).
+
+**«منم!»:** وقتی کسی در می‌زند و می‌پرسید Who's there، جواب می‌دهیم **It's me**. همین‌طور «من هم همین‌طور» = **Me too**.
+
+**با and:** قاعده همان است. بعد از حرف اضافه شکل مفعولی: Come with Ali and **me**. قبل از فعل شکل فاعلی: Ali and **I** are friends.
 
 </Persian>
 
 ## Common mistakes
 
-<WrongRight wrong="Give it to I." right="Give it to me." why="After a preposition → me." />
-<WrongRight wrong="Him is my brother." right="He is my brother." why="Before the verb, use the subject form." />
+<WrongRight wrong="Give it to I." right="Give it to me." why="After a preposition, use the object form → me." />
+<WrongRight wrong="Him is my brother." right="He is my brother." why="Before the verb, use the subject form → he." />
+<WrongRight wrong="I like she." right="I like her." why="After a verb, she becomes her." />
+<WrongRight wrong="Do you like it? Yes, I like." right="Yes, I like it." why="like needs an object. Don't drop it." />
+<WrongRight wrong="Where are my keys? I can't find it." right="I can't find them." why="keys = more than one → them." />
+<WrongRight wrong="Ali eats lunch with Sara and I." right="Ali eats lunch with Sara and me." why="After with, use me. Check: with me, not with I." />
 
 <MemoryHook title="M-H-H-U-T">
-**me, him, her, us, them**: the five that change. You and it stay the same.
+**me, him, her, us, them**: the five that change. *You* and *it* stay the same. Before the verb → subject. After the verb or a preposition → object.
 </MemoryHook>

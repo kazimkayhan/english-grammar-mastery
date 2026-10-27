@@ -14,7 +14,13 @@ interface Props {
 const { title, description = "A complete, easy-to-follow English grammar course from A1 to C2." } = Astro.props
 const byLevel = await getLessonsByLevel()
 
-const levels = LEVELS.map((id) => ({ id, title: LEVEL_INFO[id].title, count: byLevel[id].length }))
+const levels = LEVELS.map((id) => ({
+  id,
+  title: LEVEL_INFO[id].title,
+  lessons: byLevel[id]
+    .toSorted((a, b) => a.data.number - b.data.number)
+    .map((l) => ({ href: `/lessons/${l.id}`, number: l.data.number, title: l.data.title })),
+}))
 const pillars = PILLARS.map((id) => {
   const p = PILLAR_INFO[id]
   return { id, number: p.number, short: p.short, family: p.family }

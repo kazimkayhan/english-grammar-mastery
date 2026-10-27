@@ -4,31 +4,40 @@ level: A1
 number: 29
 pillar: modifiers
 size: core
-hook: "In Persian it's «ماشینِ قرمز». In English the order flips: a red car."
-rule: "Put adjectives before the noun (a red car) or after be (The car is red). Adjectives never take a plural -s."
+hook: "In Persian it's «ماشینِ قرمز». In English the order flips: a red car. Or you can put the adjective after be: The car is red."
+rule: "An adjective goes before the noun (a red car) or after be and verbs like look and feel (The car is red. You look tired.). Adjectives never change: no plural -s, no male or female form."
 points:
-  - "Adjective <b>before</b> the noun: a <b>red</b> car, an <b>old</b> house"
-  - "Or <b>after be</b> (and look, feel, seem): The car <b>is red</b>. You <b>look tired</b>."
-  - "No plural: two <b>red</b> cars (not reds cars)"
-  - "a / an goes before the adjective: <b>an</b> old car, <b>a</b> big apple"
-  - "Persian «ماشینِ قرمز» → English <b>red car</b>: flip the order!"
+  - "Adjective <b>before</b> the noun: a <b>red</b> car, an <b>old</b> house, <b>cold</b> water. Persian «ماشینِ قرمز» → English <b>red car</b>: flip the order!"
+  - "Or <b>after be</b>: The car <b>is red</b>. The rooms <b>were clean</b>. Also after <b>look</b> and <b>feel</b>: You <b>look tired</b>."
+  - "Adjectives <b>never change</b>: two <b>red</b> cars (not “reds cars”), The shoes are <b>expensive</b> (not “expensives”)."
+  - "<b>a / an</b> goes before the adjective, and the adjective decides which: <b>an</b> old car, <b>a</b> big apple."
+  - "Two adjectives after be: join them with <b>and</b>: The room was <b>small and dark</b>."
+  - "An adjective usually needs a noun: I want <b>the red one</b> (not “I want the red”)."
 mindmap: |
-  # Adjectives
+  # Adjectives: position
   ## Before the noun
   - a red car
   - an old house
+  - cold water · big houses
+  - my new phone · the old city
   ## After be
   - The car is red
-  - You look tired
-  ## Never plural
-  - two red cars
-  - not reds cars
-  ## a / an first
+  - The rooms were clean
+  - Is it big? · It isn't big
+  - also: look, feel
+  ## Never change
+  - two red cars (not reds)
+  - a tall man · a tall woman
+  ## a / an
   - an old car
   - a big apple
+  ## Two adjectives
+  - small and dark (after be)
+  - a nice new house (B1 lesson 47)
+  ## Needs a noun
+  - the red one (not the red)
   ## Persian vs English
-  - ماشینِ قرمز
-  - red car
+  - ماشینِ قرمز → red car
 covers:
   - adjective-position
   - adjective-no-plural
@@ -54,14 +63,22 @@ exercises:
     answers: ["We have two big bedrooms."]
     explain: "Adjectives never take -s."
   - type: correct
+    prompt: "The shoes are expensives."
+    answers: ["The shoes are expensive."]
+    explain: "Adjectives never take -s, even after a plural noun."
+  - type: correct
     prompt: "It's a old house."
     answers: ["It's an old house.", "It is an old house."]
     explain: "a / an depends on the next word: old starts with a vowel sound → an."
+  - type: correct
+    prompt: "I like food Iranian."
+    answers: ["I like Iranian food."]
+    explain: "Adjectives (and nationalities) go before the noun."
   - type: mcq
     prompt: "Which sentence is correct?"
-    options: ["The tea is hot.", "The tea hot is.", "The hot is tea."]
+    options: ["The tea is hot.", "The tea hot is.", "The tea hot."]
     answer: 0
-    explain: "After be: The tea is hot."
+    explain: "After be: The tea is hot. English needs the verb is."
   - type: mcq
     prompt: "Which sentence is correct?"
     options: ["She has eyes brown.", "She has brown eyes.", "She has browns eyes."]
@@ -75,13 +92,35 @@ exercises:
     prompt: "Make one sentence: The car is fast. It's a car."
     answers: ["It's a fast car.", "It is a fast car."]
     explain: "a + adjective + noun."
+  - type: transform
+    prompt: "Put the adjective after be: This is an expensive phone."
+    answers: ["This phone is expensive."]
+    explain: "noun + be + adjective: This phone is expensive."
+  - type: reorder
+    chunks: ["Was", "the", "hotel", "clean?"]
+    explain: "Question with be: Was + subject + adjective?"
+  - type: mcq
+    prompt: "“Do you want the black bag?” “No, I want the ___.”"
+    options: ["red", "red one", "reds"]
+    answer: 1
+    explain: "An adjective needs a noun. Use one instead of repeating bag: the red one."
+  - type: match
+    prompt: "Match the Persian with the English."
+    pairs:
+      - ["غذای ایرانی", "Iranian food"]
+      - ["خانه‌ی قدیمی", "an old house"]
+      - ["کفش‌های گران", "expensive shoes"]
+      - ["آبِ سرد", "cold water"]
+    explain: "Flip the Persian order: adjective first, and the adjective never takes -s."
 recall:
   - q: "Where do adjectives go in English?"
-    a: "<b>Before the noun</b> (a red car) or <b>after be</b> (The car is red)."
+    a: "<b>Before the noun</b> (a red car) or <b>after be</b> (The car is red). Also after look and feel."
   - q: "How do you say «دو ماشینِ قرمز»?"
     a: "<b>two red cars</b>: adjective first, and no -s on the adjective."
   - q: "a or an: ___ old house?"
     a: "<b>an</b> old house: a / an depends on the next word (old)."
+  - q: "How do you say «قرمزه را می‌خواهم»?"
+    a: "<b>I want the red one.</b> An adjective usually needs a noun (or one) after it."
 cards:
   - front: "«ماشینِ قرمز»"
     back: "a red car (adjective before the noun)"
@@ -91,7 +130,22 @@ cards:
     back: "big houses (adjectives never take -s)"
   - front: "a / an + adjective + noun"
     back: "an old car · a big apple"
+  - front: "✗ I want the red. ✓ ?"
+    back: "I want the red one."
 ---
+
+## Two places for an adjective
+
+An **adjective** describes a noun: *red, big, old, tired, Iranian*. In English it has two normal places.
+
+<FormTable caption="Where adjectives go">
+
+| Position | Pattern | Example |
+|---|---|---|
+| **Before the noun** | (a / the / my…) + **adjective** + noun | a **red** car · my **new** phone |
+| **After be** | noun + **be** + **adjective** | The car **is red**. · The phone **was new**. |
+
+</FormTable>
 
 ## Before the noun
 
@@ -99,49 +153,105 @@ In English the adjective comes **before** the noun. Persian does the opposite (�
 
 <FormTable caption="Adjective + noun">
 
-| a / an | Adjective | Noun |
+| Word before | Adjective | Noun |
 |---|---|---|
 | a | **red** | car |
 | an | **old** | house |
-| a | **beautiful** | garden |
+| the | **new** | teacher |
+| my | **little** | sister |
 | — | **cold** | water |
+| two | **big** | bedrooms |
 
 </FormTable>
+
+- **a / an** goes **before** the adjective, and the adjective's first sound decides: **an** old car, **a** big apple, **an** expensive bag. (More in lesson 9.)
+- *the, my, this* and numbers also go first: *the new teacher, my old phone, two big bedrooms*.
+- Plural and uncountable nouns can take an adjective with no article: *cold water, big houses*.
 
 <Example context="shopping" fa="یک پیراهن آبی خریدم.">I bought a <mark>blue</mark> shirt.</Example>
 <Example context="home" fa="ما در یک آپارتمان کوچک زندگی می‌کنیم.">We live in a <mark>small</mark> apartment.</Example>
 <Example context="travel" fa="هتل منظره‌ی زیبایی داشت.">The hotel had a <mark>beautiful</mark> view.</Example>
+<Example context="social" fa="من غذای ایرانی دوست دارم.">I love <mark>Iranian</mark> food.</Example>
 
-## After be (and look, feel, seem)
+Words like **very** and **really** go before the adjective: *a **very good** teacher*. That is lesson 30 (very, really, too).
+
+## After be
+
+The adjective can also come **after be** (*am, is, are, was, were*). The adjective describes the subject.
+
+<Example context="work" fa="جلسه طولانی بود.">The meeting was <mark>long</mark>.</Example>
+<Example context="health" fa="آب خیلی سرد است.">The water is <mark>cold</mark>.</Example>
+<Example context="travel" fa="اتاق‌ها تمیز و آرام بودند.">The rooms were <mark>clean</mark> and <mark>quiet</mark>.</Example>
+
+Negatives and questions follow the rules for **be** (lessons 5, 6 and 25):
+
+- *The room **isn't big**. The film **wasn't good**.*
+- **Is** the soup hot? **Was** the hotel clean?
+
+Don't forget the verb: say *The tea **is** hot*, not ~~The tea hot~~.
+
+Adjectives also come after **look** and **feel**: *You **look tired**. I **feel cold**.* A2 lesson 17 (Linking verbs: look, feel, sound, seem + adjective) teaches these verbs.
 
 <Example context="health" fa="خسته به نظر می‌رسی.">You look <mark>tired</mark>.</Example>
-<Example context="work" fa="جلسه طولانی بود.">The meeting was <mark>long</mark>.</Example>
 
 ## Adjectives never change
 
-Adjectives have **one form**: no plural, no male / female:
+An adjective has **one form**. It doesn't change for plural, and it doesn't change for male or female.
 
-- one **red** car → two **red** cars (not *reds*)
+- one **red** car → two **red** cars (not ~~reds~~)
+- The shoe is **expensive**. → The shoes are **expensive**. (not ~~expensives~~)
 - a **tall** man → a **tall** woman
+
+<Example context="shopping" fa="این کفش‌ها خیلی گران هستند.">These shoes are very <mark>expensive</mark>.</Example>
+
+## Two adjectives
+
+- **After be**, join two adjectives with **and**: *The room was **small and dark**.*
+- **Before a noun**, we usually don't use *and*: *a **nice new** house*. The order of two or more adjectives before a noun is in B1 lesson 47 (Adjective order: first steps).
+
+## An adjective needs a noun
+
+In English we don't usually use an adjective alone, as a noun. Add the noun, or use **one**:
+
+- *I don't want the black bag. I want the **red one**.* (not ~~I want the red~~)
+
+A2 lesson 35 (one, ones; another, other, the other) teaches **one / ones**. Phrases like *something nice* (the adjective after *something*) come in A2 lesson 32 (some, any, no; something, anyone, nowhere).
+
+## Coming later
+
+- Adjective or adverb? *a quick answer* but *answer quickly*: A2 lesson 41 (Adverbs of manner: quickly, well).
+- *bored* or *boring*?: A2 lesson 42 (-ed or -ing adjectives: bored or boring?).
+- A few adjectives only go after be (*The baby is asleep.*), and a few only go before a noun (*the main reason*). They are in B2 lesson 38 (Adjective order & compound adjectives).
 
 <Persian>
 
-**جای صفت در انگلیسی:**
+**جای صفت در انگلیسی:** صفت (adjective) دو جای اصلی دارد:
 
-- **قبل از اسم:** a red car (ماشینِ قرمز). در فارسی صفت **بعد** از اسم می‌آید (با کسره‌ی اضافه)، ولی در انگلیسی **قبل** از اسم. این مهم‌ترین تفاوت است!
-- **بعد از be** و فعل‌هایی مثل look، feel، seem: The car is red. / You look tired.
+- **قبل از اسم:** a red car (ماشینِ قرمز). در فارسی صفت **بعد** از اسم می‌آید و با کسره‌ی اضافه به آن وصل می‌شود («ماشینِ قرمز»). در انگلیسی کسره نداریم و صفت **قبل** از اسم می‌آید. برای همین فارسی‌زبان‌ها می‌گویند a car red. یادتان باشد: ترتیب فارسی را **برعکس** کنید: غذای ایرانی ← Iranian food.
+- **بعد از be:** The car is red. (ماشین قرمز است.) / The rooms were clean. (اتاق‌ها تمیز بودند.) فعل را جا نیندازید: The tea is hot، نه The tea hot.
+- بعد از فعل‌هایی مثل **look** و **feel** هم صفت می‌آید: You look tired. (خسته به نظر می‌رسی.) / I feel cold. (سردم است.)
 
-**صفت جمع نمی‌شود:** two red cars (نه reds cars). در فارسی هم صفت جمع نمی‌شود («ماشین‌های قرمز»)، پس این قسمت آسان است.
+**a / an، the، my و عدد** قبل از صفت می‌آیند: an old car، the new teacher، my little sister، two big bedrooms. انتخاب a یا an به صدای اول **صفت** بستگی دارد: an old car، a big apple.
 
-**a / an** قبل از صفت می‌آید و با صدای صفت انتخاب می‌شود: an old car، a big apple.
+**صفت هیچ‌وقت عوض نمی‌شود:** نه جمع می‌شود، نه مذکر و مؤنث دارد. two red cars (نه reds cars) / The shoes are expensive (نه expensives). در فارسی هم صفت جمع نمی‌شود («ماشین‌های قرمز»)، پس این قانون آشناست. فقط اسم s می‌گیرد، نه صفت.
+
+**صفت با very:** در فارسی می‌گوییم «یک معلمِ خیلی خوب» (اسم + خیلی + صفت). در انگلیسی very و صفت هر دو **قبل از اسم** می‌آیند: a very good teacher، نه a teacher very good. (درس ۳۰)
+
+**صفت تنها:** در فارسی می‌توانیم صفت را به‌جای اسم به کار ببریم («قرمزه را می‌خواهم»). در انگلیسی معمولاً نه. باید اسم یا **one** را بیاوریم: I want the red one.
+
+**دو صفت بعد از be:** با and وصل می‌شوند: The room was small and dark. (اتاق کوچک و تاریک بود.)
 
 </Persian>
 
 ## Common mistakes
 
-<WrongRight wrong="She is a teacher very good." right="She is a very good teacher." why="very + adjective + noun." />
+<WrongRight wrong="I have a car red." right="I have a red car." why="Adjectives go before the noun." />
 <WrongRight wrong="I like food Iranian." right="I like Iranian food." why="Adjectives (including nationalities) go before the noun." />
+<WrongRight wrong="She is a teacher very good." right="She is a very good teacher." why="very + adjective + noun." />
+<WrongRight wrong="We have two bigs bedrooms." right="We have two big bedrooms." why="Adjectives never take -s." />
+<WrongRight wrong="The hotel very nice." right="The hotel is very nice." why="After the subject you need be." />
+<WrongRight wrong="I want the red." right="I want the red one." why="An adjective needs a noun or one." />
 
 <MemoryHook title="Flip the Persian">
-Take the Persian order and **flip** it: ماشینِ **قرمز** → **red** car; غذای **ایرانی** → **Iranian** food.
+Take the Persian order and **flip** it: ماشینِ **قرمز** → **red** car; غذای **ایرانی** → **Iranian** food. The adjective stands still: no -s, ever.
 </MemoryHook>

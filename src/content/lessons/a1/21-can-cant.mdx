@@ -4,30 +4,43 @@ level: A1
 number: 21
 pillar: modals
 size: core
-hook: "“Can you swim?” “Yes, I can, but I can't dive.” can is one small word for ability, permission and requests."
-rule: "Use can + base form for ability, permission and requests. Modal verbs never take -s, to or do."
+hook: "At a job interview: “Can you speak English?” “Yes, I can. I can speak Persian and English, but I can't speak French.” One small word, can, for what you are able to do."
+rule: "Use can + base form for ability, permission, requests and offers. can is a modal verb: it is the same for every subject (no -s), it takes no to after it, and it makes its own negative (can't) and questions (Can you…?) without do."
 points:
-  - "Ability: I <b>can</b> speak three languages. She <b>can't</b> drive."
-  - "Permission: <b>Can</b> I sit here? You <b>can</b> use my phone."
-  - "Requests: <b>Can</b> you help me, please?"
-  - "Modal rules: <b>no -s</b> (she can), <b>no to</b> (can swim), <b>no do</b> in questions (Can you…?)"
-  - "Negative: <b>can't</b> = cannot"
+  - "Ability: I <b>can</b> swim. She <b>can't</b> drive. With see and hear: I <b>can see</b> the sea."
+  - "Permission: <b>Can I</b> sit here? You <b>can</b> use my phone. You <b>can't</b> park here (= it's not allowed)."
+  - "Requests and offers: <b>Can you</b> help me, please? <b>Can I</b> help you?"
+  - "Same form for all subjects: <b>he can</b>, not “he cans”. Then the <b>base form</b>, no to: can <b>swim</b>, not “can to swim”."
+  - "Negative: <b>can't</b> (speech) / <b>cannot</b> (writing, one word). Question: <b>Can</b> you…? Short answers: Yes, I <b>can</b>. / No, I <b>can't</b>."
+  - "No <b>do</b> with can: <b>Can you</b> swim? (not “Do you can”) · I <b>can't</b> swim (not “I don't can”)."
+  - "Other <b>modal verbs</b> (could, will, would, should, must, may, might) follow the same rules."
 mindmap: |
   # can
   ## Ability
   - I can swim
   - She can't drive
+  - I can see / hear
   ## Permission
   - Can I sit here?
   - You can use my phone
-  ## Requests
-  - Can you help me?
+  - You can't park here
+  ## Requests & offers
+  - Can you help me, please?
+  - Can I help you?
+  ## Form
+  - + She can swim
+  - − She can't / cannot swim
+  - ? Can she swim?
+  - Yes, she can · No, she can't
+  - What can you see?
   ## Modal rules
   - no -s: she can
   - no to: can swim
-  - no do: Can you…?
-  ## Negative
-  - can't = cannot
+  - no do: Can you…? / I can't
+  - no will can → be able to (later)
+  ## Other modals
+  - could · will · would · should
+  - must · may · might · shall
 covers:
   - can-ability
   - can-permission-requests
@@ -51,23 +64,39 @@ exercises:
   - type: correct
     prompt: "Can you to help me?"
     answers: ["Can you help me?"]
-    explain: "No to after can."
+    explain: "No to after can: Can you help me?"
   - type: correct
     prompt: "He cans play the piano."
     answers: ["He can play the piano."]
-    explain: "No -s on modal verbs."
+    explain: "can is the same for every subject: no -s."
+  - type: correct
+    prompt: "She can sings very well."
+    answers: ["She can sing very well."]
+    explain: "After can, use the base form: sing (not sings)."
   - type: correct
     prompt: "Do you can swim?"
     answers: ["Can you swim?"]
-    explain: "No do: can goes before the subject."
+    explain: "No do with can. Put can before the subject: Can you swim?"
+  - type: correct
+    prompt: "I don't can come tomorrow."
+    answers: ["I can't come tomorrow.", "I cannot come tomorrow."]
+    explain: "can makes its own negative: can't / cannot."
   - type: gap
     prompt: "Sorry, I ___ come to the party. I'm busy."
     answers: ["can't", "cannot"]
-    explain: "Negative of can: can't (cannot)."
+    explain: "Negative of can: can't (cannot). We often use it to say no to an invitation."
   - type: gap
     prompt: "“Can your brother drive?” “Yes, he ___.”"
     answers: ["can"]
     explain: "Short answer: Yes, he can."
+  - type: gap
+    prompt: "“Can you speak Arabic?” “No, I ___.”"
+    answers: ["can't", "cannot"]
+    explain: "Short answer: No, I can't."
+  - type: gap
+    prompt: "“Excuse me, ___ I sit here?” “Yes, of course.”"
+    answers: ["can"]
+    explain: "Can I…? asks for permission."
   - type: mcq
     prompt: "Which sentence is a polite request?"
     options: ["Can you open the window, please?", "I can open the window.", "He can't open the window."]
@@ -79,68 +108,158 @@ exercises:
       - ["I can speak three languages.", "ability"]
       - ["Can I use your phone?", "asking for permission"]
       - ["Can you help me, please?", "a request"]
-    explain: "can expresses ability, permission and requests."
+      - ["Can I help you?", "an offer"]
+    explain: "can expresses ability, permission, requests and offers."
   - type: transform
     prompt: "Make a question: She can ride a bike."
     answers: ["Can she ride a bike?"]
-    explain: "Move can before the subject."
+    explain: "Move can before the subject. No do."
+  - type: transform
+    prompt: "Make it negative: You can park here."
+    answers: ["You can't park here.", "You cannot park here."]
+    explain: "can + not → can't (cannot). Here it means it's not allowed."
+  - type: reorder
+    chunks: ["What", "languages", "can", "you", "speak?"]
+    explain: "Question word + can + subject + base form: What languages can you speak?"
+  - type: mcq
+    prompt: "Which sentence is correct?"
+    options: ["I will can help you tomorrow.", "I can help you tomorrow.", "I can to help you tomorrow."]
+    answer: 1
+    explain: "can has no will form and no to after it: I can help you tomorrow."
 recall:
-  - q: "What are three uses of can?"
-    a: "<b>Ability</b> (I can swim), <b>permission</b> (Can I sit here?), <b>requests</b> (Can you help me?)."
+  - q: "What are four uses of can?"
+    a: "<b>Ability</b> (I can swim), <b>permission</b> (Can I sit here?), <b>requests</b> (Can you help me?), <b>offers</b> (Can I help you?)."
   - q: "What are the three rules of modal verbs?"
-    a: "<b>No -s</b>, <b>no to</b> after them, <b>no do</b> in questions and negatives."
+    a: "<b>No -s</b> (she can), <b>no to</b> after them (can swim), <b>no do</b> in questions and negatives (Can you…? I can't)."
+  - q: "How do you write the negative of can?"
+    a: "<b>can't</b> in speech and informal writing, <b>cannot</b> (one word) in formal writing."
   - q: "How do you say «می‌توانی کمکم کنی؟»"
     a: "<b>Can you help me?</b>"
 cards:
-  - front: "Three uses of can"
-    back: "ability · permission · requests"
+  - front: "Four uses of can"
+    back: "ability · permission · requests · offers"
   - front: "Modal verb rules"
-    back: "no -s · no to · no do (she can swim / Can you…?)"
+    back: "no -s · no to · no do (she can swim / Can you…? / I can't)"
   - front: "✗ Do you can…? ✓ ?"
     back: "Can you…?"
   - front: "Negative of can"
-    back: "can't = cannot"
+    back: "can't = cannot (one word)"
+  - front: "Short answers: Can you drive?"
+    back: "Yes, I can. / No, I can't."
+  - front: "You can't park here. = ?"
+    back: "It's not allowed to park here."
 ---
 
 ## The form of can
 
-<FormTable caption="can">
+**can** is the same for every subject. After it, use the **base form** of the verb (*swim, drive, speak*).
 
-| | All subjects (I, you, he, she, it, we, they) |
-|---|---|
-| **+** | She **can** swim. |
-| **−** | She **can't** (cannot) swim. |
-| **?** | **Can** she swim? |
-| **Short answers** | Yes, she **can**. / No, she **can't**. |
+<FormTable caption="can: all subjects (I, you, he, she, it, we, they)">
+
+| | Form | Example |
+|---|---|---|
+| **+** | subject + **can** + verb | She **can** swim. |
+| **−** | subject + **can't** / **cannot** + verb | She **can't** swim. |
+| **?** | **Can** + subject + verb? | **Can** she swim? |
+| **short answers** | Yes, + subject + **can**. / No, + subject + **can't**. | Yes, she **can**. / No, she **can't**. |
+| **wh- question** | question word + **can** + subject + verb? | What **can** you see? |
 
 </FormTable>
 
-**can** is a **modal verb**. Modal verbs follow three rules:
+- **can't** is the normal negative in speech. **cannot** is the full form, written as **one word**.
+- In a question, **can** moves before the subject. There is no *do*.
 
-1. **no -s**: *she can* (not *she cans*)
-2. **no to** after them: *can swim* (not *can to swim*)
-3. **no do** in questions and negatives: *Can you…?* (not *Do you can…?*)
+<Example context="travel" fa="کجا می‌توانم بلیت بخرم؟">Where <mark>can</mark> I buy a ticket?</Example>
+<Example context="home" fa="«می‌توانی آشپزی کنی؟» «بله، می‌توانم.»">“<mark>Can</mark> you cook?” “Yes, I <mark>can</mark>.”</Example>
 
-## Ability, permission, requests
+**Saying it:** in a normal sentence, *can* is short and weak: *I can swim* sounds like "I k'n swim". *can't* is strong and clear: /kænt/. In a short answer (*Yes, I can.*), *can* is strong too.
+
+<UkNote>In British English, **can't** is said /kɑːnt/, with the vowel of *car*.</UkNote>
+
+## Ability: what you are able to do
+
+Use **can** for skills and things you are able to do now.
 
 <Example context="work" fa="می‌توانم به سه زبان صحبت کنم.">I <mark>can</mark> speak three languages.</Example>
-<Example context="social" fa="خواهرم رانندگی بلد نیست.">My sister <mark>can't</mark> drive.</Example>
-<Example context="travel" fa="ببخشید، می‌توانم اینجا بنشینم؟">Excuse me, <mark>can</mark> I sit here?</Example>
-<Example context="shopping" fa="می‌شود کمکم کنید، لطفاً؟"><mark>Can</mark> you help me, please?</Example>
+<Example context="home" fa="خواهرم رانندگی بلد نیست.">My sister <mark>can't</mark> drive.</Example>
+<Example context="school" fa="«می‌توانی شنا کنی؟» «نه، نمی‌توانم.»">“<mark>Can</mark> you swim?” “No, I <mark>can't</mark>.”</Example>
+
+We often use **can** with *see, hear, smell*:
+
+<Example context="travel" fa="از اینجا دریا را می‌بینم!">I <mark>can see</mark> the sea from here!</Example>
+<Example context="home" fa="صدایم را می‌شنوی؟"><mark>Can</mark> you <mark>hear</mark> me?</Example>
+
+**can't** is also a polite way to say no to an invitation: *Sorry, I <mark>can't</mark> come on Friday. I'm working.*
+
+## Permission: is it OK?
+
+- **Ask** for permission: **Can I** …?
+- **Give** permission: You **can** …
+- **Say no**: You **can't** … (= it is not allowed)
+
+<Example context="travel" fa="ببخشید، می‌توانم اینجا بنشینم؟">Excuse me, <mark>can I</mark> sit here?</Example>
+<Example context="work" fa="می‌توانی از تلفن من استفاده کنی.">You <mark>can</mark> use my phone.</Example>
+<Example context="shopping" fa="اینجا نمی‌توانید پارک کنید. پارک ممنوع است.">You <mark>can't</mark> park here. It's a no-parking zone.</Example>
+<Example context="school" fa="می‌توانم فردا زودتر بروم؟"><mark>Can I</mark> leave early tomorrow?</Example>
+
+Answers: *Yes, of course. / Sure. / Sorry, you can't.*
+
+## Requests and offers
+
+- **Request** (you ask someone to do something): **Can you** …, please?
+- **Offer** (you want to help): **Can I** …?
+
+<Example context="shopping" fa="می‌شود کمکم کنید، لطفاً؟"><mark>Can you</mark> help me, please?</Example>
+<Example context="shopping" fa="کمکی از دستم برمی‌آید؟ (فروشنده)"><mark>Can I</mark> help you?</Example>
+<Example context="home" fa="می‌توانی در را باز کنی، لطفاً؟"><mark>Can you</mark> open the door, please?</Example>
+
+*Can you…?* is friendly and normal. *Could you…?* is a little more polite: that comes in A2 lesson 21, could, be able to; asking for things & permission. You can also use **can** to suggest something: *We <mark>can</mark> take a taxi.* (More ways to suggest come in A2 lesson 23.)
+
+## How modal verbs work
+
+**can** is a **modal verb**. The modal verbs are *can, could, will, would, shall, should, may, might, must*. They all follow the same three rules:
+
+<FormTable caption="The three rules of modal verbs">
+
+| Rule | Right | Wrong |
+|---|---|---|
+| 1. **no -s** with he / she / it | She **can** swim. | ~~She cans swim.~~ |
+| 2. **no to** after them, just the base form | I can **swim**. | ~~I can to swim.~~ ~~I can swimming.~~ |
+| 3. **no do** in questions and negatives | **Can** you swim? I **can't** swim. | ~~Do you can swim?~~ ~~I don't can swim.~~ |
+
+</FormTable>
+
+One more thing: **can** has no other forms. There is no *to can*, *canning* or *will can*. When you decide now about a plan, people often use *can*: *I can help you tomorrow. Sorry, I can't come on Friday.* For a new skill in the future, we use **will be able to**: *She'll be able to walk soon.* That comes in A2 lesson 21, together with the past form *could*.
 
 <Persian>
 
-**can = توانستن.** سه کاربرد اصلی:
+**can = توانستن / بلد بودن.** چهار کاربرد اصلی:
 
-- **توانایی:** I can swim (شنا بلدم / می‌توانم شنا کنم).
-- **اجازه:** Can I sit here? (می‌توانم اینجا بنشینم؟)
-- **درخواست:** Can you help me? (می‌توانی کمکم کنی؟)
+- **توانایی:** I can swim. (شنا بلدم / می‌توانم شنا کنم.) She can't drive. (او رانندگی بلد نیست.)
+- **اجازه:** Can I sit here? (می‌توانم اینجا بنشینم؟) You can't park here. (اینجا پارک ممنوع است.)
+- **درخواست:** Can you help me, please? (می‌شود کمکم کنید؟)
+- **پیشنهاد کمک:** Can I help you? (کمکی از دستم برمی‌آید؟)
 
-**قواعد فعل‌های وجهی (modal verbs):** این قواعد برای can، must، should، will و بقیه هم صدق می‌کند:
+با فعل‌های دیدن و شنیدن هم می‌آید: I can see the sea. (دریا را می‌بینم.) Can you hear me? (صدایم را می‌شنوی؟)
+
+**ساختار:** can برای همه‌ی فاعل‌ها یکی است: I can، she can، they can.
+
+- منفی: **can't** (در گفتار) یا **cannot** (در نوشتار، **یک کلمه**).
+- سؤالی: can را به اول جمله می‌بریم: Can you swim? جواب کوتاه: Yes, I can. / No, I can't.
+
+**قواعد فعل‌های وجهی (modal verbs):** این قواعد برای can، could، will، would، should، must، may، might و shall هم صدق می‌کند:
 
 ۱. s نمی‌گیرد: She can (نه cans).
-۲. بعدش to نمی‌آید: can swim (نه can to swim).
+۲. بعدش فعل ساده بدون to می‌آید: can swim (نه can to swim و نه can swims).
 ۳. در سؤال و منفی do نمی‌خواهد: Can you…? (نه Do you can…?) و I can't (نه I don't can).
+
+**چرا فارسی‌زبان‌ها اشتباه می‌کنند؟**
+
+- در فارسی «توانستن» صرف می‌شود (می‌توانم، می‌تواند)، پس فارسی‌زبان می‌گوید She cans. اما can هیچ‌وقت تغییر نمی‌کند.
+- در فارسی هر دو فعل صرف می‌شوند: «او می‌تواند **برود**». برای همین فارسی‌زبان‌ها می‌گویند She can goes. در انگلیسی فقط فعل ساده می‌آید: She can **go**.
+- در فارسی برای منفی، خود فعل را منفی می‌کنیم: «**نمی**‌توانم». در انگلیسی هم خود can منفی می‌شود: I **can't**، نه I don't can.
+- در فارسی «خواهم توانست» داریم، اما در انگلیسی will can وجود ندارد. بگویید I can help you tomorrow یا (بعداً) I will be able to.
+- در فارسی برای مهارت می‌گوییم «شنا بلدم». در انگلیسی نگویید I know swimming؛ بگویید **I can swim**.
 
 </Persian>
 
@@ -148,7 +267,12 @@ cards:
 
 <WrongRight wrong="I don't can come." right="I can't come." why="Modals make their own negative: can't." />
 <WrongRight wrong="She can sings." right="She can sing." why="After can, use the base form." />
+<WrongRight wrong="He cans speak English." right="He can speak English." why="No -s on can." />
+<WrongRight wrong="I can to drive." right="I can drive." why="No to after can." />
+<WrongRight wrong="Do you can help me?" right="Can you help me?" why="No do. Put can before the subject." />
+<WrongRight wrong="I will can help you." right="I can help you. / I'll be able to help you." why="There is no will can." />
+<WrongRight wrong="I know swimming." right="I can swim." why="Use can for skills." />
 
 <MemoryHook title="Modals travel light">
-Modal verbs **travel light**: no **-s**, no **to**, no **do**. Just *can* + verb.
+Modal verbs **travel light**: no **-s**, no **to**, no **do**. Just **can + verb**: *She can swim. Can she swim? She can't swim.*
 </MemoryHook>

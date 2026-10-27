@@ -4,14 +4,16 @@ level: A1
 number: 19
 pillar: modifiers
 size: core
-hook: "“I always drink tea in the morning, but I never drink coffee at night.” Always, usually, often, sometimes, never: how often things happen."
-rule: "Put frequency adverbs before the main verb but after be: I often walk to work. She is never late."
+hook: "A new friend asks: “How often do you go to the gym?” You say: “I usually go three times a week, but I never go on Fridays.” Small words like usually and never tell people how often."
+rule: "Put always, usually, often, sometimes, rarely and never before the main verb, but after be and after a helper like don't or do: I often walk. She is never late. I don't usually drive. Ask How often…? and answer with every day, once a week, twice a month."
 points:
-  - "100% <b>always</b> → <b>usually</b> → <b>often</b> → <b>sometimes</b> → <b>rarely</b> → <b>never</b> 0%"
-  - "<b>Before</b> the main verb: I <b>often</b> walk to work."
-  - "<b>After</b> be: She <b>is never</b> late."
-  - "Ask with <b>How often…?</b>: every day, once a week, twice a month, three times a year"
-  - "Those longer phrases go at the end: I go to the gym <b>three times a week</b>."
+  - "The scale: <b>always</b> (100%) → <b>usually</b> → <b>often</b> → <b>sometimes</b> → <b>rarely</b> / <b>hardly ever</b> → <b>never</b> (0%)."
+  - "<b>Before</b> the main verb: I <b>often walk</b> to work. She <b>usually takes</b> the bus."
+  - "<b>After</b> am / is / are: She <b>is never</b> late. We <b>are always</b> busy on Mondays."
+  - "Questions and negatives: the adverb goes after the subject or after don't: <b>Do you often</b> eat out? I <b>don't usually</b> drive."
+  - "<b>never</b> is already negative. Say <b>I never eat meat</b>, not “I don't never eat meat”."
+  - "<b>sometimes</b>, <b>usually</b> and <b>often</b> can also start a sentence: <b>Sometimes</b> I walk to work. <b>always</b> and <b>never</b> can't."
+  - "<b>How often…?</b> Answer with <b>every day</b>, <b>once a week</b>, <b>twice a month</b>, <b>three times a year</b>. These phrases usually go at the end."
 mindmap: |
   # How often?
   ## The scale
@@ -19,83 +21,132 @@ mindmap: |
   - usually
   - often
   - sometimes
-  - rarely
+  - rarely / hardly ever
   - never 0%
   ## Position
   - before the main verb: I often walk
   - after be: She is never late
+  - not: She usually is late ✗
+  ## Questions
+  - Do you often eat out?
+  - Is he always late?
+  - adverb after the subject
+  ## Negatives
+  - I don't usually drive
+  - She isn't often late
+  - never = no not: I never eat meat
+  ## Start of the sentence
+  - Sometimes I walk to work
+  - Usually she takes the bus
+  - always / never: not at the start
   ## How often…?
-  - every day
+  - every day · every Monday
   - once a week
   - twice a month
   - three times a year
-  ## End position
-  - I swim three times a week
+  - at the end: I swim twice a week
 covers:
   - frequency-adverbs
   - frequency-position
   - how-often
 persian: full
 exercises:
-  - type: reorder
-    chunks: ["I", "always", "drink", "tea", "in the morning."]
-    explain: "Frequency adverb before the main verb: I always drink…"
-  - type: reorder
-    chunks: ["She", "is", "never", "late."]
-    explain: "After be: She is never late."
-  - type: correct
-    prompt: "I go often to the cinema."
-    answers: ["I often go to the cinema."]
-    explain: "The adverb goes before the main verb."
-  - type: correct
-    prompt: "He always is tired."
-    answers: ["He is always tired.", "He's always tired."]
-    explain: "With be, the adverb goes after it."
   - type: mcq
-    prompt: "Which word means 0%?"
-    options: ["rarely", "never", "sometimes"]
-    answer: 1
-    explain: "never = 0% of the time."
-  - type: mcq
-    prompt: "“How ___ do you go to the gym?” “Twice a week.”"
-    options: ["often", "much", "many"]
-    answer: 0
-    explain: "How often…? asks about frequency."
-  - type: gap
-    prompt: "I visit my grandparents ___ a month. (= one time)"
-    answers: ["once"]
-    explain: "one time = once; two times = twice."
-  - type: gap
-    prompt: "We go to Shomal ___ a year. (= two times)"
-    answers: ["twice"]
-    explain: "two times = twice."
+    prompt: "Coffee keeps me awake, so I ___ drink it at night."
+    options: ["always", "often", "never"]
+    answer: 2
+    explain: "never = 0%. Coffee keeps you awake, so you don't drink it at night at all."
   - type: match
-    prompt: "Put the adverbs in order, from most to least often."
+    prompt: "Put the adverbs in order, from most often to least often."
     pairs:
       - ["1st (100%)", "always"]
       - ["2nd", "usually"]
       - ["3rd", "sometimes"]
       - ["4th (0%)", "never"]
-    explain: "always → usually → (often) → sometimes → (rarely) → never."
+    explain: "always → usually → often → sometimes → rarely → never."
+  - type: reorder
+    chunks: ["I", "always", "drink", "tea", "in the morning."]
+    explain: "The frequency adverb goes before the main verb: I always drink…"
+  - type: reorder
+    chunks: ["She", "is", "never", "late", "for work."]
+    explain: "With be, the adverb goes after it: She is never late."
+  - type: correct
+    prompt: "I go often to the cinema."
+    answers: ["I often go to the cinema.", "I go to the cinema often.", "Often I go to the cinema."]
+    explain: "Put often before the main verb: I often go. It can't go between the verb and the place."
+  - type: correct
+    prompt: "He always is tired after work."
+    answers: ["He is always tired after work.", "He's always tired after work."]
+    explain: "With be, the adverb goes after it: He is always tired."
+  - type: correct
+    prompt: "I don't never eat meat."
+    answers: ["I never eat meat.", "I don't ever eat meat.", "I do not ever eat meat."]
+    explain: "never is already negative, so don't use not with it."
+  - type: gap
+    prompt: "My sister ___ the bus to school. (usually / take)"
+    base: "usually / take"
+    answers: ["usually takes"]
+    explain: "Adverb before the main verb, and she → takes: My sister usually takes the bus."
+  - type: gap
+    prompt: "We ___ late for class. (never / be)"
+    base: "never / be"
+    answers: ["are never", "'re never"]
+    explain: "we → are, and the adverb goes after be: We are never late."
+  - type: transform
+    prompt: "Make a question with often: You eat out."
+    answers: ["Do you often eat out?"]
+    explain: "Do + subject + often + verb: Do you often eat out?"
+  - type: transform
+    prompt: "Make it negative: I usually drive to work."
+    answers: ["I don't usually drive to work.", "I do not usually drive to work."]
+    explain: "In a negative, usually goes after don't: I don't usually drive."
+  - type: mcq
+    prompt: "“How ___ do you visit your parents?” “Every weekend.”"
+    options: ["much", "often", "many"]
+    answer: 1
+    explain: "How often…? asks about frequency."
+  - type: reorder
+    chunks: ["How often", "does", "your brother", "call", "you?"]
+    explain: "How often + does + subject + base verb: How often does your brother call you?"
+  - type: gap
+    prompt: "I visit my grandparents ___ a month. (= one time)"
+    answers: ["once"]
+    explain: "one time = once: once a month."
+  - type: gap
+    prompt: "We go to the north of Iran ___ a year. (= two times)"
+    answers: ["twice"]
+    explain: "two times = twice: twice a year."
+  - type: correct
+    prompt: "I go to the gym three times in week."
+    answers: ["I go to the gym three times a week."]
+    explain: "Say three times a week (a = each), not in week."
 recall:
-  - q: "Where does a frequency adverb go: before or after the main verb? And with be?"
-    a: "<b>Before</b> the main verb (I often walk); <b>after</b> be (She is never late)."
+  - q: "Where does a frequency adverb go with a main verb? And with be?"
+    a: "<b>Before</b> the main verb (I often walk). <b>After</b> be (She is never late)."
   - q: "Put these in order: sometimes, always, never, usually, often."
     a: "<b>always → usually → often → sometimes → never</b>."
-  - q: "How do you say «هفته‌ای دو بار»?"
-    a: "<b>twice a week</b>."
+  - q: "Why is “I don't never smoke” wrong?"
+    a: "<b>never</b> is already negative. Say <b>I never smoke</b>."
+  - q: "How do you say «هفته‌ای دو بار» and «ماهی یک بار»?"
+    a: "<b>twice a week</b> and <b>once a month</b>."
 cards:
-  - front: "Scale of frequency"
-    back: "always · usually · often · sometimes · rarely · never"
+  - front: "The frequency scale (100% → 0%)"
+    back: "always · usually · often · sometimes · rarely / hardly ever · never"
   - front: "Position with a main verb / with be"
     back: "I often walk. · She is never late."
-  - front: "once / twice / three times"
-    back: "one time / two times / three times: once a week, twice a month"
-  - front: "Question about frequency"
-    back: "How often do you…?"
+  - front: "Question and negative with usually"
+    back: "Do you usually…? · I don't usually…"
+  - front: "✗ I don't never eat meat. ✓ ?"
+    back: "I never eat meat. (never is already negative)"
+  - front: "1 time / 2 times / 3 times a week"
+    back: "once a week · twice a week · three times a week"
+  - front: "Ask about frequency"
+    back: "How often do you…? · How often does she…?"
 ---
 
 ## From always to never
+
+These adverbs answer the question **How often?** They go from 100% (every time) to 0% (no time).
 
 <FormTable caption="Adverbs of frequency">
 
@@ -105,49 +156,145 @@ cards:
 | **usually** | about 90% | She **usually** walks to work. |
 | **often** | about 70% | We **often** eat out. |
 | **sometimes** | about 50% | They **sometimes** watch films. |
-| **rarely** | about 10% | He **rarely** drinks coffee. |
+| **rarely** / **hardly ever** | about 5–10% | He **rarely** drinks coffee. We **hardly ever** go out. |
 | **never** | 0% | I **never** smoke. |
 
 </FormTable>
 
-## Where do they go?
-
-- **Before the main verb**: *I <mark>often</mark> walk to work.*
-- **After be**: *She is <mark>never</mark> late.*
+The numbers are only a guide. **rarely** and **hardly ever** both mean "almost never".
 
 <Example context="home" fa="همیشه قبل از خواب کتاب می‌خوانم.">I <mark>always</mark> read before bed.</Example>
 <Example context="work" fa="او معمولاً ساعت هشت به محل کار می‌رسد.">She <mark>usually</mark> gets to work at eight.</Example>
+<Example context="shopping" fa="گاهی آنلاین خرید می‌کنیم.">We <mark>sometimes</mark> shop online.</Example>
+<Example context="health" fa="پدرم به‌ندرت مریض می‌شود.">My father <mark>rarely</mark> gets ill.</Example>
+
+## Where do they go?
+
+The position depends on the verb.
+
+<FormTable caption="Position of frequency adverbs">
+
+| Verb | Position | Example |
+|---|---|---|
+| a main verb (work, eat, go…) | **before** the verb | I **often** walk to work. |
+| be (am / is / are) | **after** be | She is **never** late. |
+| a helper (don't, doesn't) | **after** the helper | I don't **usually** drive. |
+
+</FormTable>
+
+<Example context="travel" fa="معمولاً با قطار سفر می‌کنم.">I <mark>usually</mark> travel by train.</Example>
+<Example context="school" fa="کلاس همیشه ساعت نه شروع می‌شود.">The class <mark>always</mark> starts at nine.</Example>
 <Example context="social" fa="ما هیچ‌وقت دیر نمی‌کنیم.">We are <mark>never</mark> late.</Example>
+<Example context="work" fa="او همیشه سرش شلوغ است.">He's <mark>always</mark> busy.</Example>
+
+Don't put the adverb between the verb and the rest: say *I **often** go to the cinema*, not ~~I go often to the cinema~~. And don't put it before *be*: say *She **is usually** late*, not ~~She usually is late~~.
+
+## Questions
+
+In a question, the adverb goes **after the subject**. For main verbs, use **Do / Does** (lesson 18).
+
+<FormTable caption="Questions with frequency adverbs">
+
+| Type | Pattern | Example |
+|---|---|---|
+| main verb | Do / Does + subject + **adverb** + verb | **Do** you **often** eat out? |
+| be | Am / Is / Are + subject + **adverb** | **Is** he **always** late? |
+
+</FormTable>
+
+<Example context="social" fa="اغلب بیرون غذا می‌خوری؟">Do you <mark>often</mark> eat out?</Example>
+<Example context="school" fa="کلاس همیشه شلوغ است؟">Is the class <mark>always</mark> full?</Example>
+
+## Negatives
+
+Put the adverb **after don't / doesn't** or **after isn't / aren't**.
+
+<Example context="travel" fa="معمولاً رانندگی نمی‌کنم. با مترو می‌روم.">I <mark>don't usually</mark> drive. I take the metro.</Example>
+<Example context="work" fa="او زیاد دیر نمی‌کند.">She <mark>isn't often</mark> late.</Example>
+<Example context="home" fa="همیشه صبحانه نمی‌خورم.">I <mark>don't always</mark> have breakfast.</Example>
+
+**never** is already negative, so it never goes with *not*:
+
+<Example context="health" fa="هیچ‌وقت سیگار نمی‌کشم.">I <mark>never</mark> smoke.</Example>
+
+Say *I never smoke*, not ~~I don't never smoke~~. If you want *don't*, use **ever**: *I don't ever smoke.* (same meaning)
+
+## At the start of a sentence
+
+**sometimes**, **usually** and **often** can also go at the **start** of a sentence. This gives them a little more weight.
+
+<Example context="work" fa="گاهی پیاده سر کار می‌روم.">I <mark>sometimes</mark> walk to work. / <mark>Sometimes</mark> I walk to work.</Example>
+<Example context="travel" fa="معمولاً او با اتوبوس می‌رود.">She <mark>usually</mark> takes the bus. / <mark>Usually</mark> she takes the bus.</Example>
+
+**always** and **never** don't go at the start of a normal sentence: not ~~Always I travel with my sister~~. (You can start an instruction with them: *Always lock the door. Never open this box.* That is lesson 20, Imperatives & let's.)
+
+**sometimes** and **often** can also go at the **end**: *I see him at the gym sometimes.* For all the positions of adverbs, see B1 lesson 46, Where adverbs go.
 
 ## How often?
 
+Ask **How often…?** to find out the frequency. With a main verb, use **do / does**. With be, use **am / is / are**.
+
+<Example context="health" fa="هر چند وقت یک بار ورزش می‌کنی؟"><mark>How often</mark> do you exercise?</Example>
+<Example context="travel" fa="اتوبوس هر چند وقت یک بار می‌آید؟"><mark>How often</mark> does the bus come?</Example>
+
+To answer, use a frequency adverb (*Usually. / Not often. / Never.*) or a **time phrase**:
+
+<FormTable caption="Time phrases for frequency">
+
+| How many times | Phrase | Example |
+|---|---|---|
+| each time | **every** day / week / Monday | I call my mum **every day**. |
+| 1 time | **once** a week / a month | We eat out **once a week**. |
+| 2 times | **twice** a month / a year | I see the dentist **twice a year**. |
+| 3, 4, 5… times | **three times** a week | She swims **three times a week**. |
+| with a gap | **every two** weeks / **every ten** minutes | The bus comes **every ten minutes**. |
+
+</FormTable>
+
+- For one and two, we usually say **once** and **twice**. From three, say **three times**, **four times**…
+- The **a** in *once a week* means "each". Don't say ~~once in week~~.
+- **every** is followed by a singular noun: *every **day***, not ~~every days~~. And *every day* is two words here.
+- These time phrases usually go at the **end** of the sentence: *I go to the gym **three times a week**.*
+
 <Example context="health" fa="هفته‌ای سه بار به باشگاه می‌روم.">I go to the gym <mark>three times a week</mark>.</Example>
-
-- **every** day / week / year
-- **once** a week (1×) · **twice** a month (2×) · **three times** a year (3×)
-
-These longer phrases usually go at the **end** of the sentence.
+<Example context="home" fa="ماهی یک بار به پدربزرگ و مادربزرگم سر می‌زنم.">I visit my grandparents <mark>once a month</mark>.</Example>
 
 <Persian>
 
-**قیدهای تکرار:** always (همیشه)، usually (معمولاً)، often (اغلب)، sometimes (گاهی)، rarely (به‌ندرت)، never (هرگز).
+**قیدهای تکرار (adverbs of frequency):** نشان می‌دهند کاری چند وقت یک بار انجام می‌شود: always (همیشه)، usually (معمولاً)، often (اغلب، زیاد)، sometimes (گاهی)، rarely / hardly ever (به‌ندرت، تقریباً هیچ‌وقت)، never (هرگز، هیچ‌وقت).
 
 **جای آن‌ها در جمله:**
 
-- **قبل از فعل اصلی:** I often walk to work. (نه I walk often)
-- **بعد از be:** She is never late.
+- **قبل از فعل اصلی:** I often walk to work. (نه I walk often to work)
+- **بعد از am / is / are:** She is never late. (نه She never is late)
+- **بعد از فعل کمکی don't / doesn't:** I don't usually drive. (معمولاً رانندگی نمی‌کنم.)
+- **در سؤال، بعد از فاعل:** Do you often eat out? / Is he always late?
 
-**نکته:** never خودش منفی است، پس not نمی‌خواهد: I never smoke (نه I don't never smoke).
+**چرا فارسی‌زبان‌ها اشتباه می‌کنند؟** در فارسی قید را قبل از کل گزاره می‌گذاریم: «من **همیشه** خسته‌ام». چون «ـَم» در «خسته‌ام» همان فعل است، قید قبل از فعل می‌آید و فارسی‌زبان می‌گوید He always is tired. اما در انگلیسی قید **بعد از** be می‌آید: He is always tired.
 
-**How often…?** = هر چند وقت یک بار؟ جواب: every day (هر روز)، once a week (هفته‌ای یک بار)، twice a month (ماهی دو بار). این عبارت‌ها معمولاً آخر جمله می‌آیند.
+**never و منفی:** در فارسی «هیچ‌وقت» را با فعل منفی می‌گوییم: «هیچ‌وقت قهوه **نمی‌**خورم». برای همین فارسی‌زبان‌ها می‌گویند I don't never drink coffee. اما در انگلیسی never خودش منفی است و فعل باید مثبت باشد: **I never drink coffee.** (اگر don't می‌خواهید، ever بگذارید: I don't ever drink coffee.)
+
+**اول جمله:** sometimes، usually و often می‌توانند اول جمله هم بیایند: Sometimes I walk to work. اما always و never در جمله‌ی معمولی اول جمله نمی‌آیند. (در جمله‌های امری می‌آیند: Always lock the door. درس ۲۰)
+
+**How often…?** یعنی «هر چند وقت یک بار؟». جواب با عبارت‌های زمانی:
+
+- every day (هر روز)، every Monday (هر دوشنبه)
+- once a week (هفته‌ای یک بار)، twice a month (ماهی دو بار)، three times a year (سالی سه بار)
+- every two weeks (هر دو هفته یک بار)
+
+در فارسی می‌گوییم «هفته‌ای دو بار»، پس فارسی‌زبان‌ها گاهی می‌گویند two times in week. در انگلیسی بگویید **twice a week**: برای یک و دو بار معمولاً once و twice می‌گوییم، و a یعنی «هر». این عبارت‌ها معمولاً **آخر جمله** می‌آیند: I go to the gym three times a week.
 
 </Persian>
 
 ## Common mistakes
 
-<WrongRight wrong="I drink usually tea." right="I usually drink tea." why="Before the main verb." />
-<WrongRight wrong="I don't never eat meat." right="I never eat meat." why="never is already negative." />
+<WrongRight wrong="I drink usually tea in the morning." right="I usually drink tea in the morning." why="The adverb goes before the main verb." />
+<WrongRight wrong="She usually is late." right="She is usually late." why="With be, the adverb goes after it." />
+<WrongRight wrong="I don't never eat meat." right="I never eat meat." why="never is already negative. Don't add not." />
+<WrongRight wrong="Always I go to work by bus." right="I always go to work by bus." why="always doesn't start a normal sentence. Put it before the verb." />
+<WrongRight wrong="Do often you eat out?" right="Do you often eat out?" why="In a question, the adverb goes after the subject." />
+<WrongRight wrong="I go to the gym two times in week." right="I go to the gym twice a week." why="Say twice for two times, and a week (not in week)." />
 
 <MemoryHook title="Sit before the verb, stand after be">
-Frequency adverbs **sit before** the action verb, but **stand after** be: I **often** walk · I **am** often tired.
+Frequency adverbs **sit before** the action verb but **stand after** be: I **often walk** · I **am often** tired. And **never** works alone: it never needs *not*.
 </MemoryHook>

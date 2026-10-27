@@ -4,39 +4,49 @@ level: A1
 number: 31
 pillar: prepositions
 size: core
-hook: "“Where are my keys?” “They're on the table, next to your phone.” Persian uses «در» for a lot of places; English chooses in, on or at."
-rule: "Use in for inside, on for a surface, at for a point. For other positions, use under, next to, between, behind, in front of, near and opposite."
+hook: "“Where are my keys?” “They're on the table, next to your phone.” Persian uses «در» or «تو» for many places. English chooses in, on or at, and has a small word for every other position."
+rule: "Use in for inside a space, on for a surface or a line, and at for a point or a place where you do something. For other positions use under, next to, between … and, behind, in front of, near and opposite. In an address: in + city, on + street, at + number."
 points:
-  - "<b>in</b> = inside: in the box, in the kitchen, in Tehran"
-  - "<b>on</b> = on a surface: on the table, on the wall, on the floor"
-  - "<b>at</b> = at a point or a place for an activity: at the door, at the bus stop, at work"
-  - "Transport: <b>on</b> the bus / train / plane, but <b>in</b> the car / taxi"
-  - "<b>under</b>, <b>next to</b>, <b>between</b> A <b>and</b> B, <b>behind</b>, <b>in front of</b>, <b>near</b>, <b>opposite</b>"
+  - "<b>in</b> = inside a space: <b>in</b> the box · <b>in</b> the kitchen · <b>in</b> Tehran · <b>in</b> bed"
+  - "<b>on</b> = on a surface or a line: <b>on</b> the table · <b>on</b> the wall · <b>on</b> the second floor · <b>on</b> the left"
+  - "<b>at</b> = a point, or a place for an activity: <b>at</b> the door · <b>at</b> the bus stop · <b>at</b> work · <b>at</b> home"
+  - "Transport: <b>on</b> the bus / train / plane / bike, but <b>in</b> the car / a taxi"
+  - "<b>under</b> · <b>next to</b> · <b>between</b> A <b>and</b> B · <b>behind</b> · <b>in front of</b> · <b>near</b> · <b>opposite</b>"
+  - "Ask with <b>Where</b>: <b>Where's</b> the bank? <b>It's next to</b> the hotel."
   - "Addresses: <b>in</b> Tehran → <b>on</b> Azadi Street → <b>at</b> 12 Azadi Street"
 mindmap: |
   # Prepositions of place
   ## in: inside
-  - in the box
-  - in the kitchen
-  - in Tehran
-  ## on: surface
-  - on the table
-  - on the wall
-  ## at: point
-  - at the door
-  - at work
+  - in the box · in my bag
+  - in the kitchen · in bed
+  - in Tehran · in Iran
+  - in the photo · in the newspaper
+  ## on: surface or line
+  - on the table · on the wall
+  - on the second floor
+  - on the left / right
+  - on page 25
+  ## at: point or activity
+  - at the door · at the bus stop
+  - at work · at school · at home
+  - at a party · at a meeting
   ## Transport
-  - on the bus / plane
-  - in the car / taxi
+  - on the bus / train / plane
+  - on a bike
+  - in the car / a taxi
   ## Other positions
   - under · behind
-  - next to · near
+  - next to (= beside) · near
   - between A and B
   - in front of · opposite
+  ## Where?
+  - Where's the bank?
+  - It's next to the hotel.
+  - Is it under the bed? No, it isn't.
   ## Address
-  - in + city
+  - in + city / country
   - on + street
-  - at + number
+  - at + number + street
 covers:
   - place-in-on-at
   - place-others
@@ -47,7 +57,7 @@ exercises:
     prompt: "There's a beautiful picture ___ the wall."
     options: ["in", "on", "at"]
     answer: 1
-    explain: "A surface → on the wall."
+    explain: "A wall is a surface → on the wall."
   - type: mcq
     prompt: "My parents live ___ Isfahan."
     options: ["in", "on", "at"]
@@ -57,32 +67,49 @@ exercises:
     prompt: "Wait for me ___ the bus stop."
     options: ["in", "on", "at"]
     answer: 2
-    explain: "A point → at the bus stop."
+    explain: "A point on your trip → at the bus stop."
   - type: mcq
     prompt: "She lives ___ 24 Hafez Street."
     options: ["in", "on", "at"]
     answer: 2
     explain: "A full address with a house number → at."
   - type: gap
+    prompt: "My office is ___ Valiasr Street, near the park."
+    answers: ["on"]
+    explain: "A street with no number → on Valiasr Street."
+  - type: gap
     prompt: "We sat ___ the bus for six hours."
     answers: ["on"]
-    explain: "You can stand up and walk in a bus → on the bus."
+    explain: "Buses, trains and planes → on the bus."
   - type: gap
-    prompt: "Get ___ the car. It's raining!"
-    answers: ["in", "into"]
-    explain: "A small vehicle you can't walk around in → in the car."
+    prompt: "Sorry, I can't talk now. I'm ___ work."
+    answers: ["at"]
+    explain: "A place where you do an activity → at work (no the)."
+  - type: mcq
+    prompt: "Our hotel is ___ the park. Just cross the street!"
+    options: ["in front of", "opposite", "behind"]
+    answer: 1
+    explain: "On the other side of the street, facing the park → opposite."
   - type: correct
     prompt: "The pharmacy is between the bank with the bakery."
     answers: ["The pharmacy is between the bank and the bakery."]
-    explain: "between A and B."
+    explain: "between A and B (not with)."
   - type: correct
     prompt: "There's a café next of my house."
-    answers: ["There's a café next to my house.", "There's a café near my house."]
+    answers: ["There's a café next to my house.", "There is a café next to my house.", "There's a café near my house.", "There is a café near my house."]
     explain: "next to (not next of)."
   - type: correct
     prompt: "The hotel is opposite to the park."
     answers: ["The hotel is opposite the park.", "The hotel is across from the park."]
-    explain: "opposite + place, with no to (US also: across from)."
+    explain: "opposite + place, with no to (also: across from)."
+  - type: correct
+    prompt: "The taxi is waiting in front the hotel."
+    answers: ["The taxi is waiting in front of the hotel."]
+    explain: "in front of: don't forget of."
+  - type: correct
+    prompt: "I'm in home now. Come and see me."
+    answers: ["I'm at home now. Come and see me.", "I am at home now. Come and see me.", "I'm home now. Come and see me.", "I am home now. Come and see me."]
+    explain: "at home (no the). I'm home, with no preposition, is also correct."
   - type: match
     prompt: "Match the Persian with the English."
     pairs:
@@ -91,68 +118,173 @@ exercises:
       - ["پشت", "behind"]
       - ["جلوی", "in front of"]
       - ["روبه‌روی", "opposite"]
-    explain: "Learn these as pairs. Note: «جلوی» = in front of, «روبه‌روی» = opposite (facing, often across a street)."
+    explain: "Learn these as pairs. «جلوی» = in front of (close to the front). «روبه‌روی» = opposite (facing, often across a street)."
   - type: reorder
     chunks: ["The cat", "is sleeping", "under", "the bed."]
     explain: "Subject + verb + preposition + place."
+  - type: transform
+    prompt: "Answer the question with the words in brackets: Where's the bank? (next to / the hotel)"
+    answers: ["It's next to the hotel.", "It is next to the hotel.", "The bank is next to the hotel."]
+    explain: "Answer a Where question with be + preposition + place: It's next to the hotel."
 recall:
   - q: "in, on or at: what does each one mean for place?"
-    a: "<b>in</b> = inside · <b>on</b> = on a surface · <b>at</b> = at a point or a place for an activity."
+    a: "<b>in</b> = inside a space · <b>on</b> = on a surface or a line · <b>at</b> = at a point, or a place for an activity (at work, at home)."
   - q: "How do you give an address with in, on and at?"
-    a: "<b>in</b> Tehran (city) · <b>on</b> Azadi Street (street) · <b>at</b> 12 Azadi Street (exact address)."
+    a: "<b>in</b> Tehran (city) · <b>on</b> Azadi Street (street) · <b>at</b> 12 Azadi Street (number + street)."
   - q: "Bus or car: which one takes on?"
-    a: "<b>on</b> the bus / train / plane (you can walk around) · <b>in</b> the car / taxi."
+    a: "<b>on</b> the bus / train / plane (and on a bike) · <b>in</b> the car / a taxi."
   - q: "What's the difference between in front of and opposite?"
     a: "<b>in front of</b> = close to the front of something (a tree in front of my house). <b>opposite</b> = facing it, on the other side of a street, table or room."
 cards:
   - front: "in / on / at (place)"
-    back: "inside · surface · point"
+    back: "inside · surface or line · point or activity"
   - front: "Address: city / street / number"
     back: "in Tehran · on Azadi Street · at 12 Azadi Street"
   - front: "bus / train / plane vs car / taxi"
     back: "on the bus · in the car"
+  - front: "«سر کار» · «در خانه» · «در مدرسه»"
+    back: "at work · at home · at school (no the)"
   - front: "«بین بانک و نانوایی»"
     back: "between the bank and the bakery"
-  - front: "«روبه‌روی پارک»"
-    back: "opposite the park (no to) · US also: across from the park"
+  - front: "«روبه‌روی پارک» · «جلوی هتل»"
+    back: "opposite the park (no to) · in front of the hotel"
 ---
 
 ## in, on, at
+
+These three small words answer the question **Where?** Each one shows the place in a different way.
 
 <FormTable caption="in, on, at for place">
 
 | | Meaning | Examples |
 |---|---|---|
 | **in** | inside a space with limits | in the box · in the kitchen · in my bag · in Tehran · in Iran |
-| **on** | on a surface or a line | on the table · on the wall · on the floor · on the second floor |
+| **on** | on a surface or a line | on the table · on the wall · on the floor · on the second floor · on Azadi Street |
 | **at** | at a point, or a place for an activity | at the door · at the bus stop · at work · at school · at home |
 
 </FormTable>
 
 <DecisionTree id="in-on-at-place" />
 
+## in: inside a space
+
+Use **in** when something is inside a space: a box, a bag, a room, a building, a city or a country.
+
+<Example context="home" fa="شکر در کابینت است.">The sugar is <mark>in</mark> the cupboard.</Example>
+<Example context="home" fa="مادرم در آشپزخانه است.">My mother is <mark>in</mark> the kitchen.</Example>
+<Example context="travel" fa="خواهرم در کانادا زندگی می‌کند.">My sister lives <mark>in</mark> Canada.</Example>
+
+Some common phrases with **in**:
+
+- **in bed**: *She's still in bed.* (no *the*)
+- **in a photo, in a book, in the newspaper**: *Who's that man in the photo?*
+- **in the car, in a taxi**: *The kids are in the car.*
+
+## on: a surface or a line
+
+Use **on** when something touches a surface: a table, a wall, the floor, a door. We also use **on** for a line, like a street or a river, and for the floors of a building.
+
 <Example context="home" fa="«کلیدهایم کجاست؟» «روی میز هستند.»">“Where are my keys?” “They're <mark>on</mark> the table.”</Example>
+<Example context="work" fa="دفتر ما در طبقه‌ی سوم است.">Our office is <mark>on</mark> the third floor.</Example>
+<Example context="travel" fa="مدرسه را سمت چپتان می‌بینید.">You'll see the school <mark>on</mark> your left.</Example>
+
+Some common phrases with **on**:
+
+- **on the left / on the right**: *The bank is on the right.*
+- **on page 25**: *There's a map on page 25.*
+- **on the wall**: a picture touches the wall, so it is *on* the wall, not *in* it.
+
+## at: a point, or a place where you do something
+
+Use **at** for a point, a place you see as one spot: the door, the bus stop, the traffic lights, your desk. Use **at** also for a place where you do an activity: work, school, a party, a meeting.
+
+<Example context="travel" fa="در ایستگاه اتوبوس منتظر بودم.">I was waiting <mark>at</mark> the bus stop.</Example>
 <Example context="work" fa="او الان سر کار است.">She's <mark>at</mark> work right now.</Example>
+<Example context="social" fa="با همسرم در یک مهمانی آشنا شدم.">I met my wife <mark>at</mark> a party.</Example>
+
+<FormTable caption="Common phrases with at (no the)">
+
+| Phrase | Example |
+|---|---|
+| **at home** | I'm at home this evening. |
+| **at work** | Dad's at work. |
+| **at school** | The children are at school. |
+
+</FormTable>
+
+Say **at home**, not ~~in home~~ or ~~at the home~~. (After *go* and *come* we say **go home**, with no preposition. That is in A2 lesson 44, *Prepositions of movement*.)
+
+**at or in?** Sometimes both are possible. **at** sees the place as a point on your day or your trip: *I'm at the station.* **in** means inside the building: *It's raining, so we're waiting in the station.*
+
+## Transport: on or in?
+
+<FormTable caption="Prepositions with transport">
+
+| on | in |
+|---|---|
+| on the bus · on the train | in the car |
+| on the plane · on a ship | in a taxi |
+| on a bike · on a motorbike | |
+
+</FormTable>
+
+A simple guide: if you can stand up and walk around inside it, use **on**. For a car or a taxi, use **in**. For a bike, you sit on top of it, so use **on**.
+
 <Example context="travel" fa="ما شش ساعت در اتوبوس بودیم.">We were <mark>on</mark> the bus for six hours.</Example>
+<Example context="travel" fa="توانستی در هواپیما بخوابی؟">Did you sleep <mark>on</mark> the plane?</Example>
+<Example context="home" fa="بچه‌ها توی ماشین هستند.">The kids are <mark>in</mark> the car.</Example>
+
+You can also say how you travel with **by**: *by bus, by car*. That is in A2 lesson 45, *by, with, about; between, among; above, over*.
 
 ## Other positions
 
 <FormTable caption="Prepositions of place">
 
-| Preposition | Example |
-|---|---|
-| **under** | The cat is **under** the bed. |
-| **next to** | The bank is **next to** the bakery. |
-| **between** A **and** B | The pharmacy is **between** the bank **and** the bakery. |
-| **behind** | The garden is **behind** the house. |
-| **in front of** | There's a tree **in front of** my window. |
-| **near** | We live **near** the station. |
-| **opposite** | The hotel is **opposite** the park. |
+| Preposition | Persian | Example |
+|---|---|---|
+| **under** | زیر | The cat is **under** the bed. |
+| **next to** (= **beside**) | کنار | The bank is **next to** the bakery. |
+| **between** A **and** B | بین … و … | The pharmacy is **between** the bank **and** the bakery. |
+| **behind** | پشت | The garden is **behind** the house. |
+| **in front of** | جلوی | There's a tree **in front of** my window. |
+| **near** | نزدیکِ | We live **near** the station. |
+| **opposite** | روبه‌روی | The hotel is **opposite** the park. |
 
 </FormTable>
 
 <Example context="shopping" fa="داروخانه بین بانک و نانوایی است.">The pharmacy is <mark>between</mark> the bank <mark>and</mark> the bakery.</Example>
 <Example context="travel" fa="هتل ما روبه‌روی پارک است.">Our hotel is <mark>opposite</mark> the park.</Example>
+<Example context="school" fa="یک دختر کوچک کنار او نشسته بود.">A little girl was sitting <mark>next to</mark> him.</Example>
+
+Watch the small words:
+
+- **next to** needs **to**. **in front of** needs **of**. **between** goes with **and**.
+- **opposite** and **near** need nothing after them: *opposite the park*, *near the station*.
+- **next to** = very close, with nothing in between. **near** = not far.
+- **in front of** = close to the front of something, on the same side. **opposite** = facing it, on the other side of a street, a table or a room.
+- **beside** means *next to*. Don't mix it up with **besides** (= also, as well).
+
+After a preposition, use an object pronoun: *next to **me***, *behind **him***, *between **us*** (lesson 13, *Object pronouns: me, him, her, us, them*).
+
+## Asking and answering: Where…?
+
+Ask with **Where + be**. Answer with **be + preposition + place**.
+
+<FormTable caption="Where questions">
+
+| Question | Answer |
+|---|---|
+| **Where's** the bank? | **It's next to** the hotel. |
+| **Where are** my glasses? | **They're on** the table. |
+| **Is** the cat **under** the bed? | No, it **isn't**. It's **on** the sofa. |
+| **Are** the kids **at** school? | Yes, they **are**. |
+
+</FormTable>
+
+For a negative, put **not** after *be*: *Your keys **aren't** in your bag. They're on the table.* To say what a place has, use **there is / there are**: *There's a café **next to** the hotel* (lesson 14, *there is / there are*).
+
+<Example context="home" fa="«کیفم کجاست؟» «پشت در است.»">“Where's my bag?” “It's <mark>behind</mark> the door.”</Example>
+<Example context="shopping" fa="«ببخشید، داروخانه کجاست؟» «نزدیک ایستگاه است.»">“Excuse me, where's the pharmacy?” “It's <mark>near</mark> the station.”</Example>
 
 ## Addresses: in → on → at
 
@@ -165,41 +297,64 @@ Zoom in on the map: the city, then the street, then the house.
 | **in** + city / country | I live **in** Tehran. |
 | **on** + street | I live **on** Azadi Street. |
 | **at** + number + street | I live **at** 12 Azadi Street. |
+| **on** + floor | My apartment is **on** the fourth floor. |
 
 </FormTable>
 
-<UkNote>British speakers often say **in** a street (*She lives in Oxford Street*) and use **opposite** where Americans also say **across from**.</UkNote>
+<Example context="work" fa="شرکت ما در خیابان ولیعصر است.">Our company is <mark>on</mark> Valiasr Street.</Example>
+<Example context="social" fa="آن‌ها در خیابان حافظ، پلاک ۲۴ زندگی می‌کنند.">They live <mark>at</mark> 24 Hafez Street.</Example>
+
+<UkNote>British speakers say **in** or **on** a street (*in Oxford Street*, *on the High Street*); Americans say **on**. **opposite** is very common in British English; Americans also say **across from**. In British English the **first floor** is one floor above the ground floor; in American English the first floor is at street level.</UkNote>
+
+## Coming later
+
+- **above / over** and **below / under**, and **between** or **among**: A2 lesson 45, *by, with, about; between, among; above, over*.
+- Movement (*into, out of, onto, across, through*) and **arrive in / arrive at**: A2 lesson 44, *Prepositions of movement*.
 
 <Persian>
 
-**«در» در فارسی، سه کلمه در انگلیسی:**
+**فارسی برای بیشترِ جاها «در» یا «تو» می‌گوید؛ انگلیسی سه کلمه‌ی اصلی دارد:**
 
-- **in** = داخلِ یک فضای بسته یا محدود: in the kitchen، in Tehran
-- **on** = روی یک سطح: on the table، on the wall
-- **at** = در یک نقطه یا محلی برای یک فعالیت: at the door، at work، at school
+- **in** = داخلِ یک فضای بسته یا محدود: in the kitchen (در آشپزخانه)، in my bag (توی کیفم)، in Tehran، in Iran، in bed (در رختخواب)
+- **on** = روی یک سطح یا یک خط: on the table (روی میز)، on the wall (روی دیوار)، on the third floor (در طبقه‌ی سوم)، on the left (سمت چپ)
+- **at** = در یک نقطه، یا جایی که در آن کاری انجام می‌دهیم: at the door (دمِ در)، at the bus stop (در ایستگاه اتوبوس)، at work (سرِ کار)، at school (در مدرسه)، at home (در خانه)
 
-**وسیله‌ی نقلیه:** اگر بتوانید داخلش راه بروید ← on (on the bus، on the plane). اگر نه ← in (in the car، in a taxi).
+**چرا اشتباه می‌کنیم؟** چون در فارسی برای همه‌ی این جاها «در» یا «تو» می‌گوییم، فارسی‌زبان‌ها معمولاً همه‌جا in به کار می‌برند و می‌گویند I'm in home یا I'm in work. اما در انگلیسی برای خانه، کار و مدرسه **at** می‌آید: at home، at work، at school (بدون the).
+
+**دیوار:** دیوار یک سطح است، پس تابلو on the wall است، نه in the wall.
+
+**وسیله‌ی نقلیه:** در فارسی می‌گوییم «توی اتوبوس»، اما در انگلیسی: on the bus، on the train، on the plane، on a bike. برای ماشین و تاکسی: in the car، in a taxi. یک راه ساده برای به خاطر سپردن: اگر بتوانید داخلش بایستید و راه بروید ← on.
 
 **کلمه‌های دیگر:**
 
 - under = زیر
-- next to = کنار
+- next to (یا beside) = کنار
 - between … and … = بین … و …
 - behind = پشت
 - in front of = جلوی
 - near = نزدیکِ
 - opposite = روبه‌روی
 
-دقت کنید: «بین بانک **و** نانوایی» = between the bank **and** the bakery (نه with). «کنارِ» = next **to** (نه next of). «روبه‌روی» = opposite (بدون to).
+**کلمه‌های کوچک را جا نیندازید:** در فارسی با کسره‌ی اضافه می‌گوییم «کنارِ خانه» و «جلوی خانه». در انگلیسی به جای این کسره یک کلمه می‌آید: next **to** the house، in front **of** the house. «بین بانک **و** نانوایی» = between the bank **and** the bakery (نه with). اما «روبه‌روی پارک» = opposite the park (بدون to). near هم معمولاً بدون to می‌آید: near the station.
 
-**آدرس:** شهر با in، خیابان با on، پلاک با at.
+**جلوی یا روبه‌روی؟** in front of = جلوی چیزی، نزدیک به قسمتِ جلوی آن. opposite = روبه‌روی آن، در طرف دیگرِ خیابان یا میز، رو در رو.
+
+**سؤال با Where:** Where's the bank? (بانک کجاست؟) ← It's next to the hotel. (کنار هتل است.) منفی: Your keys aren't in your bag. (کلیدهایت توی کیفت نیستند.)
+
+**آدرس:** از بزرگ به کوچک: شهر با in، خیابان با on، پلاک و خیابان با at:
+I live in Tehran. · I live on Azadi Street. · I live at 12 Azadi Street.
 
 </Persian>
 
 ## Common mistakes
 
-<WrongRight wrong="I'm in the bus." right="I'm on the bus." why="Big vehicles you can walk in → on." />
+<WrongRight wrong="I'm in the bus." right="I'm on the bus." why="Bus, train, plane → on." />
 <WrongRight wrong="She lives in 24 Hafez Street." right="She lives at 24 Hafez Street." why="A full address with a number → at." />
+<WrongRight wrong="I'm in work." right="I'm at work." why="A place for an activity → at work, at school, at home." />
+<WrongRight wrong="The picture is in the wall." right="The picture is on the wall." why="A wall is a surface → on." />
+<WrongRight wrong="There's a café next of my house." right="There's a café next to my house." why="next to, never next of." />
+<WrongRight wrong="He's waiting in front the bank." right="He's waiting in front of the bank." why="in front of needs of." />
+<WrongRight wrong="The hotel is opposite to the park." right="The hotel is opposite the park." why="opposite + place, with no to." />
 
 <MemoryHook title="Zoom in: in → on → at">
 Think of a map app zooming in. The **big** area is **in** (in Tehran), the **line** is **on** (on Azadi Street), and the **exact point** is **at** (at number 12).

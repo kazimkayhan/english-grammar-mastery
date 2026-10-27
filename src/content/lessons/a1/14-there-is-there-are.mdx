@@ -4,33 +4,43 @@ level: A1
 number: 14
 pillar: sentence-structure
 size: core
-hook: "Describing your new apartment: “There's a big kitchen, and there are two bedrooms.” This is how English says that something exists."
-rule: "Use there is (there's) + one thing and there are + more than one to say that something exists or is in a place."
+hook: "Describing your new apartment: “There's a big kitchen, and there are two bedrooms. There isn't a balcony.” This is how English says that something exists."
+rule: "Use there is (there's) + one thing or an uncountable noun, and there are + more than one, to say that something exists or is in a place. Swap there and the verb for a question: Is there…? Are there…?"
 points:
-  - "<b>There is</b> (There's) + singular: There's a bank near here."
-  - "<b>There are</b> + plural: There are three bedrooms."
-  - "Negative: There <b>isn't</b> a… · There <b>aren't</b> any…"
-  - "Questions: <b>Is there</b> a…? · <b>Are there</b> any…? · Yes, there is. / No, there aren't."
-  - "there is a… / there are some…: There are <b>some</b> eggs in the fridge."
-  - "Persian puts «هست / وجود دارد» at the end; English starts with <b>there</b>."
+  - "<b>There is</b> (<b>There's</b>) + one thing or an uncountable noun: There's a bank near here. There's some milk."
+  - "<b>There are</b> + plural: There are three bedrooms. (no written short form)"
+  - "Negative: There <b>isn't a</b>… · There <b>aren't any</b>… · or <b>There's no</b>… / <b>There are no</b>…"
+  - "Questions: <b>Is there</b> a…? · <b>Are there</b> any…? · <b>How many</b> … <b>are there</b>? Short answers: Yes, there <b>is</b> (not “Yes, there's”)."
+  - "<b>a</b> with one thing, <b>some</b> in positive sentences, <b>any</b> in negatives and questions."
+  - "First mention → <b>there</b>; after that → <b>it</b> / <b>they</b>: There's a café here. <b>It's</b> very good."
+  - "Persian says «یک پارک هست» or «پارک داره». English starts with <b>there</b>: There's a park."
 mindmap: |
   # there is / there are
   ## Positive
   - There's a bank
+  - There's some milk
   - There are two banks
   ## Negative
   - There isn't a bank
   - There aren't any banks
+  - There's no milk
+  - There are no banks
   ## Questions
   - Is there a…?
+  - Is there any…?
   - Are there any…?
+  - How many … are there?
   ## Short answers
   - Yes, there is / are
   - No, there isn't / aren't
+  - not: Yes, there's
   ## a / some / any
-  - there's a…
-  - there are some…
+  - there's a + one thing
+  - there are some + plural
   - any in negatives and questions
+  ## there or it?
+  - new thing → there's a café
+  - same thing again → it's nice
 covers:
   - there-is-are
   - there-negative-questions
@@ -47,6 +57,11 @@ exercises:
     options: ["There is", "There are", "They are"]
     answer: 1
     explain: "Two restaurants → there are."
+  - type: mcq
+    prompt: "There ___ some bread on the table."
+    options: ["is", "are", "be"]
+    answer: 0
+    explain: "bread is uncountable → there is (there's some bread)."
   - type: gap
     prompt: "___ there a bus stop near here?"
     answers: ["Is"]
@@ -54,51 +69,85 @@ exercises:
   - type: gap
     prompt: "There ___ any milk in the fridge. Let's buy some."
     answers: ["isn't", "is not"]
-    explain: "milk is uncountable (singular verb) → there isn't any milk."
+    explain: "milk is uncountable → there isn't any milk."
   - type: gap
     prompt: "“Are there any questions?” “No, there ___.”"
     answers: ["aren't", "are not"]
     explain: "Short answer: No, there aren't."
+  - type: gap
+    prompt: "“Is there an elevator in the hotel?” “Yes, there ___.”"
+    answers: ["is"]
+    explain: "Positive short answer: Yes, there is. Don't use the short form there's at the end."
+  - type: mcq
+    prompt: "How many students ___ in your class?"
+    options: ["is there", "are there", "there are"]
+    answer: 1
+    explain: "How many + plural noun + are there?"
+  - type: mcq
+    prompt: "There's a new café on my street. ___ really nice."
+    options: ["There's", "It's", "They're"]
+    answer: 1
+    explain: "The café is already mentioned, so we use it: It's really nice."
   - type: correct
     prompt: "There is three bedrooms in my apartment."
     answers: ["There are three bedrooms in my apartment."]
     explain: "Plural noun → there are."
   - type: correct
     prompt: "In my city is a big park."
-    answers: ["There is a big park in my city.", "There's a big park in my city.", "In my city there is a big park.", "In my city there's a big park."]
+    answers: ["There is a big park in my city.", "There's a big park in my city.", "In my city there is a big park.", "In my city there's a big park.", "In my city, there is a big park.", "In my city, there's a big park."]
     explain: "To say something exists, English uses there is."
+  - type: correct
+    prompt: "There aren't some eggs in the fridge."
+    answers: ["There aren't any eggs in the fridge.", "There are not any eggs in the fridge.", "There are no eggs in the fridge."]
+    explain: "In negatives, use any (or no), not some."
   - type: reorder
     chunks: ["Are", "there", "any", "eggs", "in the fridge?"]
     explain: "Are there + any + plural noun + place?"
   - type: transform
     prompt: "Make it negative: There are some chairs in the room."
     answers: ["There aren't any chairs in the room.", "There are not any chairs in the room.", "There are no chairs in the room."]
-    explain: "Negative: there aren't + any (some becomes any)."
+    explain: "Negative: there aren't + any (some becomes any), or there are no."
+  - type: transform
+    prompt: "Make it a question: There's a bank near here."
+    answers: ["Is there a bank near here?"]
+    explain: "Swap there and is: Is there a bank near here?"
+  - type: match
+    prompt: "Match the beginnings and the endings."
+    pairs:
+      - ["There is", "a sofa in the living room."]
+      - ["There are", "two sofas in the living room."]
+      - ["Is there", "a TV in my room?"]
+      - ["Are there", "any towels in the bathroom?"]
+    explain: "is + one thing, are + plural. Questions start with Is there / Are there."
 recall:
   - q: "When do we use there is and when there are?"
-    a: "<b>there is</b> + one thing (or uncountable); <b>there are</b> + more than one."
+    a: "<b>there is</b> + one thing or an uncountable noun; <b>there are</b> + more than one."
   - q: "How do you ask if a place has a bank nearby?"
-    a: "<b>Is there a bank near here?</b>"
+    a: "<b>Is there a bank near here?</b> Short answers: Yes, there is. / No, there isn't."
   - q: "How do you say «در شهرم یک پارک بزرگ هست»?"
-    a: "<b>There's a big park in my city.</b>"
+    a: "<b>There's a big park in my city.</b> (not “In my city is a big park.”)"
+  - q: "There's a new café near my house. ___ very good. There's or It's?"
+    a: "<b>It's</b>. The café is already mentioned, so we use <b>it</b>."
 cards:
   - front: "there is / there are"
     back: "there is + one (or uncountable) · there are + plural"
   - front: "Question form"
-    back: "Is there a…? · Are there any…?"
+    back: "Is there a…? · Are there any…? · How many … are there?"
   - front: "Negative form"
-    back: "There isn't a… · There aren't any…"
+    back: "There isn't a… · There aren't any… · There's no… / There are no…"
+  - front: "“Is there a gym?” “Yes, ___.”"
+    back: "Yes, there is. (not Yes, there's)"
   - front: "«یک بانک این نزدیکی هست؟»"
     back: "Is there a bank near here?"
 ---
 
 ## Something exists
 
-To say that something exists, or is in a place, English starts with **there**:
+To say that something exists, or is in a place, English starts with **there** + **be**:
 
 <FormTable caption="there is / there are">
 
-| | One (or uncountable) | More than one |
+| | One thing (or uncountable) | More than one |
 |---|---|---|
 | **+** | There **is** (There's) a bank. | There **are** two banks. |
 | **−** | There **isn't** a bank. | There **aren't** any banks. |
@@ -109,33 +158,132 @@ To say that something exists, or is in a place, English starts with **there**:
 
 <Example context="home" fa="یک آشپزخانه‌ی بزرگ هست و دو اتاق خواب."><mark>There's</mark> a big kitchen, and <mark>there are</mark> two bedrooms.</Example>
 <Example context="travel" fa="ببخشید، این نزدیکی داروخانه هست؟">Excuse me, <mark>is there</mark> a pharmacy near here?</Example>
-<Example context="shopping" fa="در یخچال تخم‌مرغ هست، ولی شیر نیست.">There are <mark>some</mark> eggs in the fridge, but there <mark>isn't any</mark> milk.</Example>
+<Example context="school" fa="در کلاس ما بیست دانشجو هست."><mark>There are</mark> twenty students in our class.</Example>
+
+## There is or there are?
+
+Look at the noun after the verb. It decides **is** or **are**.
+
+- **One** thing → **there is**: *There is a bus stop on the corner.*
+- An **uncountable** noun (milk, water, bread, money, traffic) → **there is**: *There's some water in the bottle.* (More about uncountable nouns in lesson 15.)
+- **Two or more** → **there are**: *There are three buses an hour.*
+
+<Example context="shopping" fa="روی میز مقداری پول هست.">There's <mark>some money</mark> on the table.</Example>
+<Example context="news" fa="امروز ترافیک زیادی در مرکز شهر هست.">There's <mark>a lot of traffic</mark> downtown today.</Example>
+<Example context="work" fa="در این ساختمان دو آسانسور هست.">There are <mark>two elevators</mark> in this building.</Example>
+
+**Short form:** *there is* → **there's**. This is very common in speech. *There are* has no short form in writing. Write **there are**.
+
+**A list of things?** In everyday speech, people often start with *there's* when the first thing is singular: *There's a café, a supermarket and a bus stop on my street.* More on this in B1 lesson 5 (Subject–verb agreement 1).
+
+## Where does the place go?
+
+The usual order is **there + be + thing + place**:
+
+*There's a cat in the garden.*
+
+You can also put the place first, but you still need **there**: *In the garden, there's a cat.* Never drop **there**: ~~In the garden is a cat.~~
+
+We use *there is* for **new** information: *a, an, some, any, no* or a number come after it. We don't usually say *there is the…*: say ***The** bank is next to the café*, not ~~There is the bank next to the café~~.
 
 ## a, some, any
 
-- **There's a** + one countable thing: *There's a cat in the garden.*
-- **There are some** + plural, **There's some** + uncountable: *There are some apples. There's some bread.*
+- **There's a / an** + one countable thing: *There's an apple in my bag.*
+- **There are some** + plural: *There are some apples on the table.*
+- **There's some** + uncountable: *There's some bread in the kitchen.*
 - **any** in negatives and questions: *There aren't any apples. Is there any bread?*
+
+<Example context="home" fa="در یخچال چند تا تخم‌مرغ هست، ولی شیر نیست.">There are <mark>some</mark> eggs in the fridge, but there <mark>isn't any</mark> milk.</Example>
+
+Lesson 15 (Countable & uncountable nouns; some, any, how much, how many) teaches *some* and *any* in full.
+
+## Negatives
+
+Put **not** after *is* or *are*. Use **a** with one thing and **any** with plural or uncountable nouns.
+
+<FormTable caption="there: negative">
+
+| | Negative | Strong negative (with **no**) |
+|---|---|---|
+| One thing | There **isn't a** café. | |
+| Uncountable | There **isn't any** milk. | There's **no** milk. |
+| Plural | There **aren't any** toilets. | There are **no** toilets. |
+
+</FormTable>
+
+**There's no / There are no** means the same as *there isn't any / there aren't any*, but it sounds stronger. Don't use **no** and **not** together: ~~There aren't no toilets.~~
+
+<Example context="travel" fa="در این روستا هیچ هتلی نیست.">There <mark>aren't any</mark> hotels in this village.</Example>
+<Example context="health" fa="در دفترچه‌ی کمک‌های اولیه هیچ چسب زخمی نیست.">There are <mark>no</mark> bandages in the first-aid kit.</Example>
+
+## Questions and short answers
+
+Swap **there** and **is / are**: *There is a bank.* → ***Is there** a bank?*
+
+<FormTable caption="there: questions">
+
+| Question | Short answers |
+|---|---|
+| **Is there** a gym in the hotel? | Yes, there **is**. / No, there **isn't**. |
+| **Is there any** milk? | Yes, there **is**. / No, there **isn't**. |
+| **Are there any** shops near here? | Yes, there **are**. / No, there **aren't**. |
+| **How many** rooms **are there**? | There are four. |
+
+</FormTable>
+
+In a positive short answer, don't use the short form: say **Yes, there is.**, not ~~Yes, there's.~~
+
+<Example context="travel" fa="آیا در هتل باشگاه ورزشی هست؟ بله، هست.">“<mark>Is there</mark> a gym in the hotel?” “Yes, there <mark>is</mark>.”</Example>
+<Example context="school" fa="در مدرسه‌ات چند کلاس هست؟"><mark>How many</mark> classrooms <mark>are there</mark> in your school?</Example>
+
+## there or it?
+
+Use **there** the first time you talk about something. After that, use **it** (one thing) or **they** (more than one).
+
+<Example context="social" fa="یک کافه‌ی جدید در خیابانم هست. خیلی خوب است.">There's a new café on my street. <mark>It's</mark> really good.</Example>
+<Example context="shopping" fa="در بازار دو نانوایی هست. هر دو ارزان‌اند.">There are two bakeries in the market. <mark>They're</mark> both cheap.</Example>
+
+More about *it* and *there* in B1 lesson 4 (it or there?).
+
+## Coming later
+
+The past forms *there was / there were* come in lesson 25 (was / were). Other tenses, like *there will be*, come in B1 lesson 4 (it or there?).
 
 <Persian>
 
-**وجود داشتن:** در فارسی می‌گوییم «در شهرم یک پارک **هست**» و فعل آخر می‌آید. در انگلیسی جمله با **there** شروع می‌شود:
+**وجود داشتن:** در فارسی می‌گوییم «در شهرم یک پارک **هست**» یا در محاوره «شهرم پارک **داره**». در انگلیسی جمله با **there** شروع می‌شود:
 
-- یکی (یا غیرقابل‌شمارش) ← There **is** (There's): There's a park in my city.
-- چندتا ← There **are**: There are two parks.
+- یک چیز یا اسم غیرقابل‌شمارش ← **There is** (There's): There's a park in my city. / There's some milk.
+- چند چیز ← **There are**: There are two parks.
 
-**منفی:** There isn't a… / There aren't any…
-**سؤال:** Is there a…? / Are there any…?
+**اشتباه رایج ۱:** «In my city is a park» غلط است، چون there جا افتاده. بگویید There is a park in my city.
 
-**اشتباه رایج:** «In my city is a park» غلط است؛ بگویید There is a park in my city. (درباره‌ی some و any در درس بعد بیشتر یاد می‌گیرید.)
+**اشتباه رایج ۲:** چون در محاوره می‌گوییم «اینجا بانک داره؟»، بعضی‌ها با have می‌پرسند. برای وجود داشتن از **there is** استفاده کنید: Is there a bank here?
+
+**is یا are؟** به اسم بعد از فعل نگاه کنید: یکی ← is، چندتا ← are.
+
+**منفی:** There isn't a… / There isn't any… / There aren't any… یا با no (قوی‌تر): There's no milk. / There are no shops. ولی no و not را با هم نیاورید.
+
+**سؤالی:** جای there و فعل عوض می‌شود: Is there a…? / Are there any…? / How many … are there? (چندتا … هست؟)
+
+**جواب کوتاه:** Yes, there is. / No, there isn't. در جواب مثبت حالت کوتاه there's نمی‌آید.
+
+**a / some / any:** با یک چیز a، در جمله‌ی مثبت some، در منفی و سؤالی any. (درس ۱۵ بیشتر توضیح می‌دهد.)
+
+**there یا it؟** بار اول که از چیزی حرف می‌زنیم there، بعد از آن it یا they: There's a new café near my house. **It's** very good.
 
 </Persian>
 
 ## Common mistakes
 
-<WrongRight wrong="There is many people here." right="There are many people here." why="people is plural → there are." />
+<WrongRight wrong="There is three bedrooms." right="There are three bedrooms." why="A plural noun → there are." />
+<WrongRight wrong="In my city is a big park." right="There's a big park in my city." why="To say something exists, start with there." />
 <WrongRight wrong="Is a bank near here?" right="Is there a bank near here?" why="To ask if something exists, use Is there…?" />
+<WrongRight wrong="“Is there a gym?” “Yes, there's.”" right="“Yes, there is.”" why="No short form at the end of a short answer." />
+<WrongRight wrong="There are some milk in the fridge." right="There is some milk in the fridge." why="milk is uncountable → there is." />
+<WrongRight wrong="There aren't some eggs." right="There aren't any eggs. / There are no eggs." why="In negatives, use any or no, not some." />
+<WrongRight wrong="There's a new café near my house. There's very good." right="It's very good." why="First time → there. After that → it." />
 
-<MemoryHook title="Start with there">
-When something **exists**, start with **there**, then count: one → **is**, many → **are**.
+<MemoryHook title="Start with there, then count">
+When something **exists**, start with **there**, then count: one (or uncountable) → **is**, many → **are**. For a question, jump the verb to the front: **Is there…? Are there…?**
 </MemoryHook>

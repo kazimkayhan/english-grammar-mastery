@@ -4,33 +4,44 @@ level: A1
 number: 22
 pillar: tenses
 size: core
-hook: "Your phone rings: “Where are you?” “I'm driving. I'm coming home.” The present continuous is for things happening now."
-rule: "Use am / is / are + verb-ing for actions happening now or around now."
+hook: "Your phone rings: “Where are you?” “I'm on the bus. I'm coming home.” The present continuous tells people what is happening right now."
+rule: "Use am / is / are + verb-ing for actions in progress now or around now (this week, these days). Put not after be for a negative, and put be before the subject for a question."
 points:
-  - "Form: <b>am / is / are + verb-ing</b>: I'<b>m working</b>. She'<b>s cooking</b>."
-  - "Negative: I'm <b>not</b> working. · Question: <b>Are</b> you working?"
-  - "Spelling: make → <b>making</b> · run → <b>running</b> · lie → <b>lying</b>"
-  - "Now: I'm reading. · Around now: I'm reading a great book this month."
-  - "Time words: now, right now, at the moment, today, this week"
+  - "Form: <b>am / is / are + verb-ing</b>: I'<b>m working</b>. She'<b>s cooking</b>. They'<b>re playing</b>."
+  - "Negative: I'm <b>not</b> working · she <b>isn't</b> · they <b>aren't</b>. Question: <b>Are</b> you working? <b>What are</b> you doing?"
+  - "Short answers: Yes, I <b>am</b>. / No, I'<b>m not</b>. · Yes, she <b>is</b>. / No, she <b>isn't</b>."
+  - "<b>Now</b>: I'm cooking (at this moment). <b>Around now</b>: I'm reading a great book this week."
+  - "Spelling: make → <b>making</b> · run → <b>running</b> · lie → <b>lying</b> · see → <b>seeing</b>"
+  - "Time words: <b>now</b>, <b>right now</b>, <b>at the moment</b>, <b>today</b>, <b>this week</b>, <b>Look!</b>, <b>Listen!</b>"
+  - "You need <b>two pieces</b>: be + -ing. Not “She cooking” and not “She is cook”."
 mindmap: |
   # Present continuous
   ## Form
   - am / is / are + -ing
   - I'm working
   - She's cooking
-  ## − and ?
+  - They're playing
+  ## Negative
   - I'm not working
+  - she isn't / she's not
+  - they aren't / they're not
+  ## Questions
   - Are you working?
+  - What are you doing?
+  - Yes, I am · No, I'm not
   ## -ing spelling
-  - make → making
-  - run → running
-  - lie → lying
+  - work → working
+  - make → making (drop e)
+  - run → running (double)
+  - lie → lying (ie → y)
+  - see → seeing · be → being
   ## Uses
-  - now: I'm reading
-  - around now: this month
+  - now: I'm cooking
+  - around now: this week
   ## Time words
-  - now, at the moment
-  - today, this week
+  - now · right now · at the moment
+  - today · this week · these days
+  - Look! · Listen!
 covers:
   - present-continuous-form
   - ing-spelling
@@ -51,12 +62,22 @@ exercises:
     prompt: "They ___ in the park at the moment."
     base: "run"
     answers: ["are running", "'re running"]
-    explain: "run → running (double the n)."
+    explain: "run → running (one vowel + one consonant: double the n)."
   - type: gap
     prompt: "She ___ a letter to her grandmother."
     base: "write"
     answers: ["is writing", "'s writing"]
-    explain: "write → writing (drop the e)."
+    explain: "write → writing (drop the e, one t)."
+  - type: gap
+    prompt: "Look! The bus ___."
+    base: "come"
+    answers: ["is coming", "'s coming"]
+    explain: "Look! = now. come → coming (drop the e)."
+  - type: gap
+    prompt: "We ___ hard this week. We have exams."
+    base: "study"
+    answers: ["are studying", "'re studying"]
+    explain: "this week = around now. study → studying (keep the y)."
   - type: mcq
     prompt: "“What are you doing?” “I ___ TV.”"
     options: ["watch", "am watching", "watching"]
@@ -65,15 +86,35 @@ exercises:
   - type: correct
     prompt: "She cooking now."
     answers: ["She is cooking now.", "She's cooking now."]
-    explain: "Don't forget is."
+    explain: "Don't forget is: She is cooking."
   - type: correct
     prompt: "Are you work today?"
     answers: ["Are you working today?"]
     explain: "Present continuous: are + working."
+  - type: correct
+    prompt: "I am writting an email."
+    answers: ["I am writing an email.", "I'm writing an email."]
+    explain: "write → writing: drop the e, and don't double the t."
   - type: transform
     prompt: "Make it negative: I am working today."
     answers: ["I am not working today.", "I'm not working today."]
     explain: "am + not + -ing."
+  - type: transform
+    prompt: "Make a question: They are watching a film."
+    answers: ["Are they watching a film?"]
+    explain: "Put are before the subject: Are they watching…?"
+  - type: gap
+    prompt: "“Is it raining?” “No, it ___.”"
+    answers: ["isn't", "is not", "'s not"]
+    explain: "Short answer with be: No, it isn't."
+  - type: reorder
+    chunks: ["What", "are", "you", "doing", "now?"]
+    explain: "Question word + are + subject + -ing: What are you doing now?"
+  - type: mcq
+    prompt: "Which -ing form is correct?"
+    options: ["visitting", "visiting", "visitng"]
+    answer: 1
+    explain: "visit is stressed at the start (VIS-it), so we don't double the t: visiting."
   - type: match
     prompt: "Match each verb with its -ing form."
     pairs:
@@ -81,14 +122,17 @@ exercises:
       - ["swim", "swimming"]
       - ["lie", "lying"]
       - ["play", "playing"]
-    explain: "Drop -e, double one final consonant, ie → y, or just add -ing."
+      - ["see", "seeing"]
+    explain: "Drop a silent -e, double one final consonant, ie → y, or just add -ing."
 recall:
   - q: "How do you form the present continuous?"
-    a: "<b>am / is / are + verb-ing</b>: She's reading."
-  - q: "What are the -ing forms of make, run and lie?"
-    a: "<b>making, running, lying</b>."
+    a: "<b>am / is / are + verb-ing</b>: She's reading. Negative: She <b>isn't</b> reading. Question: <b>Is</b> she reading?"
+  - q: "What are the -ing forms of make, run, lie and see?"
+    a: "<b>making, running, lying, seeing</b>."
   - q: "When do we use the present continuous?"
     a: "For things happening <b>now</b> or <b>around now</b>: I'm working (at the moment / this week)."
+  - q: "How do you say «داری چه کار می‌کنی؟»"
+    a: "<b>What are you doing?</b>"
 cards:
   - front: "Present continuous form"
     back: "am / is / are + verb-ing"
@@ -97,20 +141,53 @@ cards:
   - front: "«دارم آشپزی می‌کنم»"
     back: "I'm cooking."
   - front: "Time words for the present continuous"
-    back: "now · right now · at the moment · today · this week"
+    back: "now · right now · at the moment · today · this week · Look!"
+  - front: "Short answers: Are you working?"
+    back: "Yes, I am. / No, I'm not."
+  - front: "✗ She cooking. ✓ ?"
+    back: "She's cooking. (be + -ing: two pieces)"
 ---
 
 ## The form
+
+The present continuous has **two pieces**: **am / is / are** (the verb *be*, lesson 5) + the verb with **-ing**.
 
 <FormTable caption="Present continuous">
 
 | | Positive | Negative | Question |
 |---|---|---|---|
 | I | I**'m** work**ing** | I**'m not** working | **Am** I working? |
-| he / she / it | She**'s** work**ing** | She **isn't** working | **Is** she working? |
-| you / we / they | They**'re** work**ing** | They **aren't** working | **Are** they working? |
+| he / she / it | She**'s** work**ing** | She **isn't** working / She**'s not** working | **Is** she working? |
+| you / we / they | They**'re** work**ing** | They **aren't** working / They**'re not** working | **Are** they working? |
 
 </FormTable>
+
+In speech we usually use the short forms (*I'm, she's, they're*). The full forms (*I am working*) are also correct.
+
+<Example context="travel" fa="دارم رانندگی می‌کنم. دارم به خانه می‌آیم.">I<mark>'m driving</mark>. I<mark>'m coming</mark> home.</Example>
+<Example context="home" fa="هیس! بچه خواب است.">Shh! The baby <mark>is sleeping</mark>.</Example>
+<Example context="work" fa="الان کار نمی‌کنم. در استراحتم.">I<mark>'m not working</mark> now. I'm on my break.</Example>
+
+## Questions and short answers
+
+Put **am / is / are** before the subject. For a wh- question, put the question word first.
+
+<FormTable caption="Questions">
+
+| Type | Pattern | Example |
+|---|---|---|
+| yes/no | **Am / Is / Are** + subject + -ing? | **Are** you listening? |
+| short answers | Yes, + subject + **am / is / are**. No, + subject + **'m not / isn't / aren't**. | Yes, I **am**. / No, I**'m not**. |
+| wh- | question word + **am / is / are** + subject + -ing? | **What are** you doing? |
+
+</FormTable>
+
+<Example context="social" fa="«داری گوش می‌دهی؟» «بله، گوش می‌دهم.»">“<mark>Are</mark> you <mark>listening</mark>?” “Yes, I <mark>am</mark>.”</Example>
+<Example context="home" fa="«باران می‌آید؟» «نه، نمی‌آید.»">“<mark>Is</mark> it <mark>raining</mark>?” “No, it <mark>isn't</mark>.”</Example>
+<Example context="travel" fa="کجا می‌روی؟"><mark>Where are</mark> you <mark>going</mark>?</Example>
+<Example context="health" fa="چرا گریه می‌کند؟"><mark>Why is</mark> she <mark>crying</mark>?</Example>
+
+The short answer uses only *be*: *Yes, I am*, not ~~Yes, I am listening~~ (that is correct but too long) and never ~~Yes, I'm~~.
 
 ## Spelling the -ing form
 
@@ -118,20 +195,45 @@ cards:
 
 | Rule | Examples |
 |---|---|
-| most verbs: + **ing** | work → work**ing** · play → play**ing** |
-| silent **-e**: drop it | make → mak**ing** · write → writ**ing** |
-| one vowel + one consonant: **double** it | run → run**ning** · swim → swim**ming** · sit → sit**ting** |
-| **-ie** → **-ying** | lie → l**ying** · die → d**ying** |
+| most verbs: just add **-ing** | work → work**ing** · play → play**ing** · study → study**ing** |
+| silent **-e** at the end: drop it | make → mak**ing** · write → writ**ing** · come → com**ing** |
+| but **-ee**, and **be**: keep it | see → see**ing** · agree → agree**ing** · be → be**ing** |
+| one vowel + one consonant at the end: **double** the consonant | run → run**ning** · swim → swim**ming** · sit → sit**ting** · stop → stop**ping** |
+| **-ie** → **-ying** | lie → l**ying** · die → d**ying** · tie → t**ying** |
 
 </FormTable>
 
+Two more things about doubling:
+
+- Don't double **w**, **x** or **y**: *snow → snowing, fix → fixing, play → playing*.
+- In longer verbs, double only when the **last part is stressed**: *beGIN → beginning*, but *VISit → visiting*, *LISten → listening*, *HAPpen → happening*.
+
+<UkNote>British English doubles a final **l** after one vowel: **travelling**. American English doesn't when the stress is at the start: *traveling*.</UkNote>
+
 ## Now and around now
+
+**1. Now: at this moment.** The action has started and it isn't finished.
 
 <Timeline items={[{ type: "wave", from: -0.25, to: 0.25, label: "now" }]} caption="The action is in progress at the moment of speaking." />
 
-<Example context="travel" fa="دارم رانندگی می‌کنم. دارم به خانه می‌آیم.">I'<mark>m driving</mark>. I'<mark>m coming</mark> home.</Example>
-<Example context="home" fa="هیس! بچه خواب است.">Shh! The baby <mark>is sleeping</mark>.</Example>
-<Example context="work" fa="این هفته روی یک پروژه‌ی جدید کار می‌کنیم.">We'<mark>re working</mark> on a new project this week.</Example>
+<Example context="home" fa="دارم ظرف می‌شویم. نمی‌توانم تلفن را جواب بدهم.">I<mark>'m washing</mark> the dishes. I can't answer the phone.</Example>
+<Example context="school" fa="ببین! معلم دارد می‌آید.">Look! The teacher <mark>is coming</mark>.</Example>
+
+**2. Around now: this week, these days.** The action is in progress around this time, but maybe not at this exact moment.
+
+<Timeline items={[{ type: "span", from: -0.5, to: 0.5, label: "this week" }]} caption="In progress around now, for a limited time." />
+
+<Example context="work" fa="این هفته روی یک پروژه‌ی جدید کار می‌کنیم.">We<mark>'re working</mark> on a new project this week.</Example>
+<Example context="home" fa="این روزها یک کتاب خیلی خوب می‌خوانم.">I<mark>'m reading</mark> a really good book these days.</Example>
+
+Maybe I'm not reading at this exact moment, but I'm in the middle of the book.
+
+**Time words** we often use: *now, right now, at the moment, today, this week, this month, these days*. And **Look!** or **Listen!** tell you it is happening now: *Listen! Someone is singing.*
+
+## What comes next
+
+- Some verbs (*know, like, want, need*) don't usually take **-ing**: say *I know*, not ~~I'm knowing~~. Lesson 23, Present simple or present continuous?, shows when to use each present tense, with temporary situations and changes (*It's getting colder*).
+- The present continuous can also talk about plans: *I'm meeting Ali at six.* That comes in A2 lesson 13, Present continuous for the future.
 
 <Persian>
 
@@ -140,13 +242,33 @@ cards:
 **ساختار:** am / is / are + فعل + **ing**
 
 - I'm cooking. (دارم آشپزی می‌کنم.)
-- She's sleeping. (خواب است / دارد می‌خوابد.)
+- She's sleeping. (خواب است.)
+- They're playing football. (دارند فوتبال بازی می‌کنند.)
 
-**املای ing:** make ← making (حذف e)، run ← running (دو بار n)، lie ← lying.
+**منفی:** not بعد از am / is / are: I'm not working. / She isn't working. / They aren't working.
 
-**اشتباه رایج:** am / is / are را جا نیندازید: She **is** cooking (نه She cooking).
+**سؤالی:** am / is / are را قبل از فاعل می‌گذاریم: Are you working? (داری کار می‌کنی؟) What are you doing? (داری چه کار می‌کنی؟) جواب کوتاه: Yes, I am. / No, I'm not.
 
-**کلمه‌های نشانه:** now، right now، at the moment، today، this week.
+**دو کاربرد:**
+
+- **همین الان:** I'm washing the dishes. (دارم ظرف می‌شویم.)
+- **این روزها (موقت):** I'm reading a good book this week. (این هفته دارم یک کتاب خوب می‌خوانم.) شاید همین لحظه نخوانم، ولی وسط خواندن کتاب هستم.
+
+**املای ing:**
+
+- معمولاً فقط ing: work ← working
+- e آخر را حذف کنید: make ← making (اما see ← seeing و be ← being)
+- یک حرف صدادار + یک بی‌صدا در آخر: حرف آخر دو بار: run ← running، swim ← swimming
+- ie ← y: lie ← lying
+- w، x و y دو بار نمی‌شوند: play ← playing
+
+**چرا فارسی‌زبان‌ها اشتباه می‌کنند؟**
+
+- در فارسی «می‌خورم» هم برای عادت است و هم برای الان. پس فارسی‌زبان برای الان هم می‌گوید I eat lunch now. در انگلیسی برای الان بگویید **I'm eating** lunch now.
+- در «دارم می‌خورم» فعل «بودن» وجود ندارد، پس فارسی‌زبان‌ها am / is / are را جا می‌اندازند: She cooking. درست: She **is** cooking.
+- بعضی‌ها ing را فراموش می‌کنند: He is play. درست: He is **playing**. هر دو قطعه لازم است: be + ing.
+
+**کلمه‌های نشانه:** now، right now، at the moment، today، this week، these days، Look!، Listen!
 
 </Persian>
 
@@ -154,6 +276,10 @@ cards:
 
 <WrongRight wrong="I writting an email." right="I'm writing an email." why="Add am, and write → writing (one t)." />
 <WrongRight wrong="He is play football." right="He is playing football." why="be + verb-ing." />
+<WrongRight wrong="She cooking dinner." right="She's cooking dinner." why="Don't forget be (is)." />
+<WrongRight wrong="Look! It rains." right="Look! It's raining." why="Look! = now → present continuous." />
+<WrongRight wrong="What you are doing?" right="What are you doing?" why="In a question, be goes before the subject." />
+<WrongRight wrong="They are siting in the garden." right="They are sitting in the garden." why="sit: one vowel + one consonant → double the t." />
 
 <MemoryHook title="Two pieces">
 The present continuous always has **two pieces**: **be** (am / is / are) + **-ing**. One piece missing = mistake.

@@ -4,28 +4,36 @@ level: A1
 number: 23
 pillar: tenses
 size: core
-hook: "“I usually drive to work, but today I'm taking the bus.” usually → present simple; today → present continuous."
-rule: "Use the present simple for habits, facts and permanent situations, and the present continuous for now, temporary situations and changes."
+hook: "“I usually drive to work, but my car is at the garage, so this week I'm taking the bus.” usually → present simple. this week → present continuous."
+rule: "Use the present simple for habits, facts and permanent situations (I live in Shiraz), and the present continuous for now, temporary situations (I'm living with my aunt this month) and changing situations (It's getting colder). State verbs like know, like and want stay in the present simple."
 points:
   - "Habit vs now: I <b>drink</b> tea every day. → I'<b>m drinking</b> tea now."
   - "Permanent vs temporary: I <b>live</b> in Shiraz. → I'<b>m living</b> in Tehran this year."
-  - "Changing situations: It'<b>s getting</b> colder. Prices <b>are going</b> up."
-  - "Signal words: always, usually, every day (simple) · now, at the moment, this week (continuous)"
-  - "State verbs (know, like, want, need) stay simple: I <b>know</b> (not I'm knowing)."
+  - "Changing situations: It'<b>s getting</b> colder. Prices <b>are going</b> up. Your English <b>is improving</b>."
+  - "Questions: <b>What do you do?</b> (your job) · <b>What are you doing?</b> (now)"
+  - "Signal words: always, usually, every day, on Fridays → <b>simple</b> · now, at the moment, today, this week, Look! → <b>continuous</b>"
+  - "State verbs (<b>know</b>, <b>like</b>, <b>love</b>, <b>want</b>, <b>need</b>, <b>understand</b>) stay simple: I <b>know</b> (not “I'm knowing”)."
 mindmap: |
   # Simple or continuous?
   ## Present simple
-  - habits: every day
-  - facts: Water boils
+  - habits: I drink tea every day
+  - facts: Water boils at 100°C
   - permanent: I live in Shiraz
   - states: know, like, want
+  - What do you do? (job)
   ## Present continuous
   - now: I'm cooking
-  - temporary: this year
+  - temporary: I'm living in Tehran this year
   - changing: It's getting colder
+  - What are you doing? (now)
   ## Signal words
-  - always, usually → simple
-  - now, this week → continuous
+  - always, usually, every day → simple
+  - now, at the moment, this week → continuous
+  - Look! Listen! → continuous
+  ## State verbs
+  - know · understand · believe
+  - like · love · hate · want · need
+  - not: I'm knowing
 covers:
   - simple-vs-continuous
   - temporary-permanent
@@ -58,10 +66,15 @@ exercises:
     answers: ["am talking", "'m talking"]
     explain: "Now → present continuous."
   - type: gap
-    prompt: "It ___ darker. Let's go home."
+    prompt: "It ___ dark. Let's go home."
     base: "get"
     answers: ["is getting", "'s getting"]
-    explain: "A changing situation → present continuous."
+    explain: "A changing situation → present continuous: It's getting dark."
+  - type: gap
+    prompt: "Prices ___ up. Everything is more expensive now."
+    base: "go"
+    answers: ["are going"]
+    explain: "A change in progress → present continuous."
   - type: correct
     prompt: "I am knowing the answer."
     answers: ["I know the answer."]
@@ -70,6 +83,32 @@ exercises:
     prompt: "She is working every day from 9 to 5."
     answers: ["She works every day from 9 to 5."]
     explain: "every day = a routine → present simple."
+  - type: correct
+    prompt: "I'm wanting a new phone."
+    answers: ["I want a new phone."]
+    explain: "want is a state verb. It is not usually used with -ing."
+  - type: correct
+    prompt: "Look! The children play in the garden."
+    answers: ["Look! The children are playing in the garden."]
+    explain: "Look! = now → present continuous: are playing."
+  - type: mcq
+    prompt: "“What do you do?” “___”"
+    options: ["I'm a nurse.", "I'm watching TV.", "I'm fine, thanks."]
+    answer: 0
+    explain: "What do you do? (present simple) asks about your job."
+  - type: mcq
+    prompt: "“What are you doing?” “___”"
+    options: ["I'm a teacher.", "I'm cooking dinner.", "I cook every day."]
+    answer: 1
+    explain: "What are you doing? (present continuous) asks about now."
+  - type: transform
+    prompt: "Ali plays football every Friday. It's Friday. Say what he is doing now."
+    start: "Look! Ali"
+    answers: ["Look! Ali is playing football.", "Look! Ali's playing football."]
+    explain: "every Friday = habit (plays). Look! = now (is playing)."
+  - type: reorder
+    chunks: ["I'm", "staying", "with my aunt", "this month."]
+    explain: "this month = temporary → present continuous: I'm staying…"
   - type: match
     prompt: "Match each sentence with its reason."
     pairs:
@@ -77,14 +116,17 @@ exercises:
       - ["I'm staying with friends this week.", "temporary"]
       - ["Prices are going up.", "a change"]
       - ["I drink tea every day.", "a habit"]
-    explain: "Permanent and habits → simple; temporary and changes → continuous."
+      - ["Shh! The baby is sleeping.", "now"]
+    explain: "Permanent and habits → simple. Now, temporary and changes → continuous."
 recall:
   - q: "“I live” or “I'm living”: what's the difference?"
     a: "<b>I live</b> = permanent. <b>I'm living</b> = temporary (just for now)."
   - q: "Which tense for a changing situation?"
-    a: "The <b>present continuous</b>: It's getting colder."
+    a: "The <b>present continuous</b>: It's getting colder. Prices are going up."
+  - q: "What is the difference between “What do you do?” and “What are you doing?”"
+    a: "<b>What do you do?</b> = What's your job? <b>What are you doing?</b> = What are you doing now?"
   - q: "Why is “I'm knowing” wrong?"
-    a: "<b>know</b> is a state verb: state verbs stay in the present simple."
+    a: "<b>know</b> is a state verb. State verbs stay in the present simple: <b>I know</b>."
 cards:
   - front: "Habit or now? I ___ tea every day / I ___ tea now."
     back: "drink / 'm drinking"
@@ -93,10 +135,14 @@ cards:
   - front: "Changing situation"
     back: "It's getting colder. (present continuous)"
   - front: "State verbs"
-    back: "know, like, want, need: present simple (not -ing)"
+    back: "know, understand, like, love, want, need: present simple (not -ing)"
+  - front: "What do you do? / What are you doing?"
+    back: "your job / now"
 ---
 
 ## Two presents, two meanings
+
+English has two present tenses. You know their forms from lessons 17, 18 and 22. Now the question is: **which one?**
 
 <Timeline items={[{ type: "repeat", from: -0.9, to: 0.9, label: "simple: again and again" }, { type: "wave", from: -0.2, to: 0.2, label: "continuous: now" }]} caption="Present simple = repeated or always true. Present continuous = in progress around now." />
 
@@ -108,26 +154,104 @@ cards:
 | **Permanent**: I **live** in Shiraz. | **Temporary**: I'**m living** in Tehran this year. |
 | **Facts**: Water **boils** at 100°C. | **Changes**: The water **is getting** hot. |
 | **States**: I **know**, I **like**, I **want** | (not used with most state verbs) |
-| always, usually, every day, on Mondays | now, at the moment, today, this week |
+| always, usually, every day, on Mondays | now, at the moment, today, this week, Look! |
 
 </FormTable>
 
-<Example context="work" fa="معمولاً با ماشین سر کار می‌روم، ولی امروز با اتوبوس می‌روم.">I usually <mark>drive</mark> to work, but today I'<mark>m taking</mark> the bus.</Example>
-<Example context="school" fa="خواهرم در شیراز زندگی می‌کند، ولی این ترم در تهران درس می‌خواند.">My sister <mark>lives</mark> in Shiraz, but this term she'<mark>s studying</mark> in Tehran.</Example>
+## Habit or now?
+
+The **present simple** is for things you do again and again (habits, routines) and for facts. The **present continuous** is for things in progress now.
+
+<Example context="work" fa="معمولاً با ماشین سر کار می‌روم، ولی امروز با اتوبوس می‌روم.">I usually <mark>drive</mark> to work, but today I<mark>'m taking</mark> the bus.</Example>
+<Example context="home" fa="پدرم هر روز آشپزی می‌کند. الان دارد شام درست می‌کند.">My dad <mark>cooks</mark> every day. Right now he<mark>'s making</mark> dinner.</Example>
+<Example context="news" fa="خورشید از شرق طلوع می‌کند.">The sun <mark>rises</mark> in the east. (a fact)</Example>
+
+The two tenses ask different questions:
+
+<FormTable caption="Two questions, two meanings">
+
+| Question | Meaning | Answer |
+|---|---|---|
+| **What do you do?** | What's your job? | I'm a nurse. I work at a hospital. |
+| **What are you doing?** | What are you doing now? | I'm cooking dinner. |
+| **Do you watch** TV? | in general, a habit | Yes, every evening. |
+| **Are you watching** TV? | now | No, I'm reading. |
+
+</FormTable>
+
+<Example context="social" fa="«شغلت چیست؟» «معلمم.»">“What <mark>do</mark> you <mark>do</mark>?” “I'm a teacher.”</Example>
+<Example context="home" fa="«داری چه کار می‌کنی؟» «دارم تکالیفم را انجام می‌دهم.»">“What <mark>are</mark> you <mark>doing</mark>?” “I<mark>'m doing</mark> my homework.”</Example>
+
+## Permanent or temporary?
+
+Use the **present simple** for situations that are permanent, or true for a long time. Use the **present continuous** for situations that are **temporary**: only for a short time, then they change.
+
+<Example context="home" fa="من در شیراز زندگی می‌کنم.">I <mark>live</mark> in Shiraz. (my home)</Example>
+<Example context="travel" fa="این ماه پیش خاله‌ام می‌مانم.">I<mark>'m staying</mark> with my aunt this month. (just for now)</Example>
+<Example context="school" fa="خواهرم در شیراز زندگی می‌کند، ولی این ترم در تهران درس می‌خواند.">My sister <mark>lives</mark> in Shiraz, but this term she<mark>'s studying</mark> in Tehran.</Example>
+<Example context="work" fa="او معمولاً در دفتر کار می‌کند، اما این هفته از خانه کار می‌کند.">He usually <mark>works</mark> in the office, but this week he<mark>'s working</mark> from home.</Example>
+
+Words like **this week, this month, this year, these days, at the moment** often show that a situation is temporary.
+
+## Changing situations
+
+Use the **present continuous** for things that are **changing** now: getting bigger, smaller, better, worse, colder…
+
+<Example context="home" fa="هوا دارد سرد می‌شود. ژاکتت را بپوش.">It<mark>'s getting</mark> cold. Put on your jacket.</Example>
 <Example context="news" fa="قیمت‌ها دارد بالا می‌رود.">Prices <mark>are going</mark> up.</Example>
+<Example context="school" fa="انگلیسی‌ات دارد بهتر می‌شود!">Your English <mark>is improving</mark>!</Example>
+<Example context="news" fa="شهر خیلی سریع دارد بزرگ می‌شود.">The city <mark>is growing</mark> very fast.</Example>
+
+A common pattern is **be getting** + an adjective: *It's getting dark. The baby is getting tired. It's getting colder.*
+
+## Verbs that don't like -ing
+
+Some verbs are about **states** (what you know, feel, want or have), not actions. These **state verbs** are usually in the **present simple**, even when we mean *now*.
+
+<FormTable caption="Common state verbs">
+
+| Group | Verbs | Example |
+|---|---|---|
+| thinking | know, understand, believe, remember, mean | I **know** the answer. (not ~~I'm knowing~~) |
+| feeling | like, love, hate, prefer | She **likes** this song. (not ~~She's liking~~) |
+| wanting | want, need | I **want** a coffee now. (not ~~I'm wanting~~) |
+| having | belong, own | This bag **belongs** to me. |
+
+</FormTable>
+
+<Example context="school" fa="الان می‌فهمم! ممنون.">Oh, I <mark>understand</mark> now! Thanks.</Example>
+<Example context="shopping" fa="یک گوشی جدید لازم دارم.">I <mark>need</mark> a new phone.</Example>
+
+Some verbs, like **have** and **think**, can be a state or an action: *I **have** a car* (state) but *I'm **having** lunch* (action). That comes in B1 lesson 10, State verbs & action verbs.
 
 <DecisionTree id="present-simple-continuous" />
+
+## Later lessons
+
+- The present continuous for future plans (*I'm meeting Ali at six*): A2 lesson 13, Present continuous for the future.
+- The present simple for timetables (*The train leaves at 8*): B1 lesson 11, All the futures compared.
+- *always* + -ing for annoying habits (*He's always losing his keys!*): B2 lesson 6.
 
 <Persian>
 
 **حال ساده یا حال استمراری؟**
 
-- **حال ساده:** عادت (هر روز)، حقیقت (آب در ۱۰۰ درجه می‌جوشد)، وضعیت دائمی (در شیراز زندگی می‌کنم) و فعل‌های حالت.
-- **حال استمراری:** همین الان، وضعیت موقت (امسال در تهران زندگی می‌کنم) و تغییر («هوا دارد سرد می‌شود» = It's getting colder).
+- **حال ساده (present simple):** عادت (I drink tea every day = هر روز چای می‌نوشم)، حقیقت (Water boils at 100°C = آب در ۱۰۰ درجه می‌جوشد)، وضعیت دائمی (I live in Shiraz = در شیراز زندگی می‌کنم) و فعل‌های حالت.
+- **حال استمراری (present continuous):** همین الان (I'm drinking tea = دارم چای می‌نوشم)، وضعیت موقت (I'm living in Tehran this year = امسال در تهران زندگی می‌کنم) و تغییر (It's getting colder = هوا دارد سردتر می‌شود).
 
-در فارسی معمولاً هر دو را با «می‌…» می‌گوییم («چای می‌نوشم»)، پس باید به **زمان** فکر کنید: هر روز؟ ← drink. الان؟ ← am drinking.
+**دو سؤال مهم:**
 
-**فعل‌های حالت** (know، like، want، need) معمولاً ing نمی‌گیرند: I know (نه I'm knowing).
+- What do you do? = شغلت چیست؟
+- What are you doing? = الان داری چه کار می‌کنی؟
+
+**چرا فارسی‌زبان‌ها اشتباه می‌کنند؟** در فارسی هر دو معنی را معمولاً با «می‌…» می‌گوییم: «چای **می‌**نوشم» هم یعنی «هر روز می‌نوشم» و هم «الان می‌نوشم». «دارم» را فقط گاهی برای «همین الان» اضافه می‌کنیم، و برای وضعیت موقت معمولاً نمی‌گوییم («این ماه پیش خاله‌ام **می**‌مانم»). پس فارسی‌زبان‌ها معمولاً حال ساده را جای حال استمراری به کار می‌برند. همیشه به **زمان** فکر کنید:
+
+- هر روز؟ همیشه؟ دائمی؟ ← حال ساده: I drink.
+- الان؟ این هفته؟ موقت؟ در حال تغییر؟ ← حال استمراری: I'm drinking.
+
+**تغییر:** «هوا دارد سرد می‌شود» در انگلیسی هم استمراری است: It's getting cold. (get + صفت = شدن)
+
+**فعل‌های حالت (state verbs):** know (دانستن)، understand (فهمیدن)، like (دوست داشتن)، love، hate، want (خواستن)، need (لازم داشتن)، believe، remember و belong معمولاً ing نمی‌گیرند، حتی برای «الان»: I know (نه I'm knowing)، I want a coffee now (نه I'm wanting).
 
 </Persian>
 
@@ -135,7 +259,11 @@ cards:
 
 <WrongRight wrong="I'm going to the gym every day." right="I go to the gym every day." why="every day = habit → present simple." />
 <WrongRight wrong="She want a new phone." right="She wants a new phone." why="want is a state verb: present simple with -s." />
+<WrongRight wrong="I'm knowing your brother." right="I know your brother." why="know is a state verb. No -ing." />
+<WrongRight wrong="Listen! Somebody sings." right="Listen! Somebody is singing." why="Listen! = now → present continuous." />
+<WrongRight wrong="What do you do now? I cook." right="What are you doing now? I'm cooking." why="For now, ask and answer with the present continuous." />
+<WrongRight wrong="This month I stay with my aunt." right="This month I'm staying with my aunt." why="this month = temporary → present continuous." />
 
 <MemoryHook title="Album or live video?">
-Present simple is the **album** (what's always true). Present continuous is a **live video** (what's happening now).
+Present simple is the **album**: what is always or usually true. Present continuous is a **live video**: what is happening now, just for now, or changing.
 </MemoryHook>

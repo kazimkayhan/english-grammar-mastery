@@ -4,35 +4,49 @@ level: A1
 number: 1
 pillar: word-classes
 size: core
-hook: "“Ali drinks hot tea.” Four words, four different jobs. When you know the jobs, every other lesson gets easier."
-rule: "Every word has a job (its part of speech), and every sentence has parts: a subject, a verb, and often an object."
+hook: "“Wow! My little brother drinks hot tea every morning.” Every word in this sentence has a job. Learn the jobs, and every other lesson gets easier."
+rule: "Every word has a job, called its part of speech (noun, verb, adjective…). Every sentence is built from parts: a subject and a verb, often with an object, a complement or an adverbial."
 points:
-  - "<b>noun</b> = a person, place, thing or idea: Ali, Tehran, tea, love"
-  - "<b>verb</b> = an action or a state: drink, go, be, have"
-  - "<b>adjective</b> describes a noun (hot tea); <b>adverb</b> describes a verb (drinks slowly)"
-  - "<b>pronoun</b> (he, it) · <b>preposition</b> (in, on) · <b>conjunction</b> (and, but) · <b>determiner</b> (a, the, my)"
-  - "Sentence parts: <b>subject</b> (who?) + <b>verb</b> (does what?) + <b>object</b> (what?): Ali drinks tea."
-  - "<b>Interjections</b> show a feeling: Oh! Wow! Ouch!"
+  - "<b>noun</b> = a person, place, thing or idea (Sara, Tehran, tea, love) · <b>verb</b> = an action or a state (drink, go, be, have)."
+  - "<b>adjective</b> describes a noun (<b>hot</b> tea · She is <b>happy</b>). <b>adverb</b> describes a verb, an adjective or another adverb (drives <b>slowly</b> · <b>very</b> hot)."
+  - "Small grammar words: <b>pronoun</b> (he, it) · <b>preposition</b> (in, at) · <b>conjunction</b> (and, but) · <b>determiner</b> (a, the, my). Order: <b>my new phone</b>."
+  - "One word can have two jobs: <b>a drink</b> (noun) · <b>I drink</b> (verb). Its place in the sentence shows the job."
+  - "Sentence parts: <b>subject</b> + <b>verb</b> + <b>object</b> or <b>complement</b> + <b>adverbial</b>: Sara | buys | bread | every morning."
+  - "Some verbs need an object (<b>I like it</b>, not “I like”). Some never take one (<b>The baby sleeps</b>)."
+  - "<b>Interjections</b> show a sudden feeling and stand alone: <b>Oh!</b> <b>Wow!</b> <b>Ouch!</b> <b>Oops!</b>"
 mindmap: |
-  # Parts of speech
-  ## Naming words
-  - noun: Ali, tea, city
-  - pronoun: he, she, it
-  ## Action words
+  # Parts of speech & sentence parts
+  ## Content words
+  - noun: Sara, tea, love
   - verb: drink, be, have
-  ## Describing words
-  - adjective: hot, big
-  - adverb: slowly, very
-  ## Small linking words
+  - adjective: hot, happy
+  - adverb: slowly, very, today
+  ## Grammar words
+  - pronoun: I, he, it
   - preposition: in, on, at
-  - conjunction: and, but
+  - conjunction: and, but, because
   - determiner: a, the, my
-  ## Feeling words
-  - interjection: Oh! Wow!
+  - order: my new phone
+  ## One word, two jobs
+  - I drink (verb) / a drink (noun)
+  - well: adverb, adjective, interjection
+  - good (adjective) → well (adverb)
   ## Sentence parts
-  - subject + verb + object
-  - complement: She is happy
-  - adverbial: at home, today
+  - subject: who or what?
+  - verb: does what? is what?
+  - object: She buys bread.
+  - complement: She is a doctor.
+  - adverbial: at home, every day
+  - a part can be a group of words
+  ## Verbs and objects
+  - need an object: like, want, need
+  - no object: sleep, arrive
+  - both: We eat. / We eat rice.
+  ## Interjections
+  - Oh! Wow! Ouch! Oops! Hooray!
+  - strong feeling → !
+  - alone or at the start
+  - yes, no, hi, thanks, um
 covers:
   - parts-of-speech
   - sentence-parts
@@ -50,130 +64,314 @@ exercises:
     answer: 1
     explain: "big describes the noun house, so it's an adjective."
   - type: mcq
-    prompt: "Which word is a pronoun?"
-    options: ["table", "she", "quickly"]
+    prompt: "In “It's very cold today”, the word “very” is…"
+    options: ["an adjective", "an adverb", "a determiner"]
     answer: 1
-    explain: "she replaces a noun (a woman's name), so it's a pronoun."
-  - type: mcq
-    prompt: "In “He walks slowly”, the word “slowly” is an…"
-    options: ["adjective", "adverb", "article"]
-    answer: 1
-    explain: "slowly tells us how he walks: it describes a verb, so it's an adverb."
+    explain: "very describes the adjective cold. A word that describes an adjective is an adverb."
   - type: match
     prompt: "Match each word with its part of speech."
     pairs:
       - ["Tehran", "noun"]
+      - ["she", "pronoun"]
       - ["and", "conjunction"]
       - ["in", "preposition"]
       - ["the", "determiner"]
-    explain: "Tehran names a place; and joins words; in shows place; the comes before a noun."
+    explain: "Tehran names a place; she takes the place of a noun; and joins words; in shows place; the comes before a noun."
   - type: mcq
-    prompt: "In “Ali drinks tea”, what is the subject?"
-    options: ["Ali", "drinks", "tea"]
-    answer: 0
-    explain: "The subject is who does the action: Ali."
-  - type: mcq
-    prompt: "In “Ali drinks tea”, what is the object?"
-    options: ["Ali", "drinks", "tea"]
+    prompt: "In which sentence is “drink” a noun?"
+    options: ["I drink water.", "We drink tea at five.", "Can I have a drink?"]
     answer: 2
-    explain: "The object receives the action: tea."
-  - type: match
-    prompt: "Match each word with its job."
-    pairs:
-      - ["Wow!", "interjection"]
-      - ["happy", "adjective"]
-      - ["eat", "verb"]
-      - ["they", "pronoun"]
-    explain: "Wow! shows a feeling; happy describes; eat is an action; they replaces a noun."
-  - type: reorder
-    chunks: ["My sister", "likes", "green", "tea."]
-    explain: "Subject (My sister) + verb (likes) + object (green tea)."
+    explain: "After a, drink names a thing, so it's a noun. After a subject (I, We), it's a verb."
   - type: gap
     prompt: "She is ___ today."
     base: "happy / happily"
     answers: ["happy"]
     explain: "After be we describe the subject with an adjective: She is happy."
+  - type: gap
+    prompt: "My father drives very ___."
+    base: "careful / carefully"
+    answers: ["carefully"]
+    explain: "The word describes the verb drives (how does he drive?), so we need the adverb carefully."
+  - type: transform
+    prompt: "Say it with a verb: She is a good singer."
+    start: "She sings"
+    answers: ["She sings well.", "She sings very well."]
+    explain: "good is an adjective (a good singer). With a verb we use the adverb well: She sings well."
+  - type: reorder
+    chunks: ["This", "is", "my", "new", "phone."]
+    explain: "Determiner (my) + adjective (new) + noun (phone): my new phone."
+  - type: mcq
+    prompt: "In “My little brother sleeps a lot”, what is the subject?"
+    options: ["My little brother", "little", "sleeps"]
+    answer: 0
+    explain: "The subject can be a group of words. Who sleeps a lot? My little brother."
+  - type: mcq
+    prompt: "In “Sara is a doctor”, the words “a doctor” are the…"
+    options: ["object", "complement", "adverbial"]
+    answer: 1
+    explain: "After be, a doctor describes the subject (Sara = a doctor). That is a complement."
+  - type: mcq
+    prompt: "In “We eat lunch at home”, the words “at home” are the…"
+    options: ["subject", "object", "adverbial"]
+    answer: 2
+    explain: "at home tells us where. Words that say where, when or how are adverbials. (lunch is the object.)"
+  - type: correct
+    prompt: "This cake is great. I like."
+    answers: ["This cake is great. I like it."]
+    explain: "like needs an object. Say I like it."
+  - type: correct
+    prompt: "I have a car red."
+    answers: ["I have a red car."]
+    explain: "In English the adjective comes before the noun: a red car."
+  - type: match
+    prompt: "Match each interjection with the feeling."
+    pairs:
+      - ["Ouch!", "sudden pain"]
+      - ["Wow!", "surprise"]
+      - ["Oops!", "a small mistake"]
+      - ["Hooray!", "great happiness"]
+    explain: "Interjections are short words that show a sudden feeling."
+  - type: mcq
+    prompt: "Which word is an interjection? “Oops, I'm late!”"
+    options: ["Oops", "I'm", "late"]
+    answer: 0
+    explain: "Oops shows a feeling (a small mistake). It is not part of the subject or the verb."
 recall:
-  - q: "What does a noun do?"
-    a: "It names a <b>person, place, thing or idea</b>: Ali, Tehran, tea, love."
   - q: "What is the difference between an adjective and an adverb?"
-    a: "An <b>adjective</b> describes a noun (a <i>quick</i> car). An <b>adverb</b> describes a verb (she drives <i>quickly</i>)."
-  - q: "What are the three main parts of “Sara buys bread”?"
-    a: "<b>Sara</b> = subject · <b>buys</b> = verb · <b>bread</b> = object."
+    a: "An <b>adjective</b> describes a noun (a <i>careful</i> driver). An <b>adverb</b> describes a verb, an adjective or another adverb (she drives <i>carefully</i> · <i>very</i> hot)."
+  - q: "What are the five sentence parts?"
+    a: "<b>subject</b>, <b>verb</b>, <b>object</b>, <b>complement</b> and <b>adverbial</b>: Sara (S) buys (V) bread (O) every morning (A). Sara (S) is (V) tired (C)."
+  - q: "Why is “Yes, I like.” wrong?"
+    a: "<b>like</b> must have an object. Say <b>Yes, I like it.</b>"
+  - q: "What does an interjection do?"
+    a: "It shows a sudden <b>feeling</b> (Oh! Wow! Ouch! Oops!). It stands alone or at the start of a sentence."
 cards:
   - front: "noun / verb / adjective / adverb"
-    back: "thing · action · describes a noun · describes a verb"
+    back: "names something · action or state · describes a noun · describes a verb, adjective or adverb"
   - front: "pronoun · preposition · conjunction · determiner"
     back: "he, it · in, on · and, but · a, the, my"
-  - front: "The three main sentence parts"
-    back: "subject + verb + object: Ali (S) drinks (V) tea (O)."
-  - front: "What is an interjection?"
-    back: "A word for a feeling: Oh! Wow! Ouch!"
+  - front: "The five sentence parts"
+    back: "subject + verb + object / complement + adverbial: Sara (S) buys (V) bread (O) every morning (A)."
+  - front: "✗ She sings good. ✓ ?"
+    back: "She sings well. good = adjective, well = adverb."
+  - front: "She is a doctor. / She meets a doctor. Object or complement?"
+    back: "is a doctor → complement (she = the doctor) · meets a doctor → object (two people)"
+  - front: "Ouch! · Wow! · Oops!"
+    back: "pain · surprise · a small mistake"
 ---
 
 ## Every word has a job
 
-Grammar is easier when you know what each word **does**. These jobs are called **parts of speech**.
+Grammar is easier when you know what each word **does**. These jobs are called **parts of speech** (or **word classes**). English has nine.
 
 <FormTable caption="The nine parts of speech">
 
 | Part of speech | Its job | Examples |
 |---|---|---|
 | noun | names a person, place, thing or idea | Sara, Shiraz, phone, love |
-| verb | an action or a state | go, eat, be, have |
-| adjective | describes a noun | big, hot, happy |
-| adverb | describes a verb: how, when, how often | slowly, today, always |
+| verb | shows an action or a state | go, eat, be, have |
+| adjective | describes a noun or a pronoun | big, hot, happy |
+| adverb | describes a verb, an adjective or another adverb: how, when, where, how much | slowly, very, today, here |
 | pronoun | takes the place of a noun | I, you, he, she, it |
-| preposition | shows place, time or direction | in, on, at, to |
-| conjunction | joins words or sentences | and, but, or, because |
-| determiner | comes before a noun | a, an, the, my, this |
-| interjection | shows a feeling | Oh! Wow! Ouch! |
+| preposition | comes before a noun to show place, time or direction | in, on, at, to |
+| conjunction | joins words or parts of a sentence | and, but, or, because |
+| determiner | comes before a noun and shows which one or how many | a, an, the, my, this, some |
+| interjection | shows a sudden feeling | Oh! Wow! Ouch! |
 
 </FormTable>
 
 <Example context="home" fa="مادرم چای داغ می‌نوشد." note="determiner · noun · verb · adjective · noun">My mother drinks hot tea.</Example>
-<Example context="work" fa="او با دقت کار می‌کند." note="pronoun · verb · adverb">She works carefully.</Example>
+<Example context="work" fa="او خیلی با دقت کار می‌کند." note="pronoun · verb · adverb · adverb">She works very carefully.</Example>
 <Example context="travel" fa="ما در تهران و شیراز هستیم." note="pronoun · verb · preposition · noun · conjunction · noun">We are in Tehran and Shiraz.</Example>
-<Example context="social" fa="وای! چه کیک خوبی!" note="interjection">Wow! What a nice cake!</Example>
+
+### Nouns and verbs
+
+- A **noun** names a person (*Sara, a teacher*), a place (*Iran, school*), a thing (*coffee, a phone*) or an idea (*love, happiness*).
+- A **verb** shows an action (*eat, go, buy*) or a state (*be, have, like*). Every English sentence needs a verb.
+- Some verbs are **helpers**. They work with a main verb: *I **can** swim.* You will meet them in lesson 21, “can / can't (and how modal verbs work)”, and at level A2, lesson 14 (Verb forms & auxiliary verbs).
+
+Nouns for things have no gender in English. We use the same *a*, *the* and adjectives for every noun: *a big man, a big woman, a big table*. (For people we use *he* and *she*. That is lesson 4.)
+
+### Adjectives and adverbs
+
+- An **adjective** describes a noun or a pronoun. It goes **before** the noun (*a **hot** day*) or **after** *be* (*The day is **hot**.*). More in lesson 29 (Adjectives: before nouns and after be).
+- An **adverb** describes a verb (*She drives **slowly**.*), an adjective (*It's **very** hot.*) or another adverb (*She drives **very** slowly.*). Many adverbs are an adjective + **-ly**: *slow → slowly, careful → carefully*.
+- The adverb of **good** is **well**: *She is a **good** singer. She sings **well**.* More adverbs at level A2, lesson 41 (Adverbs of manner: quickly, well).
+
+<Example context="social" fa="او خواننده‌ی خوبی است. خوب آواز می‌خواند." note="good = adjective · well = adverb">She's a <mark>good</mark> singer. She sings <mark>well</mark>.</Example>
+
+### The small grammar words
+
+- A **pronoun** takes the place of a noun: *Sara is late. **She** is on the bus.* (lesson 4)
+- A **preposition** comes before a noun: *in Tehran, at work, to school*. (lessons 31 and 32)
+- A **conjunction** joins words or parts of a sentence: *tea **and** coffee · I'm tired, **but** I'm happy.* (lesson 33)
+- A **determiner** comes before a noun: *a phone, the phone, my phone, this phone*. (lessons 9, 10, 11 and 12)
+
+When a noun has a determiner **and** an adjective, the determiner comes first: **determiner + adjective + noun**.
+
+<Example context="shopping" fa="این گوشی جدید من است." note="determiner · adjective · noun">This is <mark>my new phone</mark>.</Example>
+
+### Content words and grammar words
+
+Nouns, verbs, adjectives and adverbs carry most of the **meaning**. We call them **content words**. This group is open: new words come into English all the time.
+
+Pronouns, prepositions, conjunctions and determiners are **grammar words**. This group is small and closed: new ones almost never appear. They are short, but they hold the sentence together.
+
+### One word, two jobs
+
+Many English words can do more than one job. The **place** in the sentence shows the job.
+
+- After a subject, *drink* is a verb: *I **drink** tea.* After *a*, it is a noun: *Can I have a **drink**?*
+- *I **work** in a bank.* (verb) · *I go to **work** at eight.* (noun)
+- *She sings **well**.* (adverb) · *I'm **well**, thanks.* (adjective: healthy) · ***Well**, I'm not sure.* (interjection)
+
+<Example context="social" fa="می‌شود یک نوشیدنی بگیرم؟" note="a + drink → noun">Can I have a <mark>drink</mark>, please?</Example>
+<Example context="health" fa="خوبم، ممنون." note="well = healthy → adjective">I'm <mark>well</mark>, thanks.</Example>
 
 ## The parts of a sentence
 
-A sentence has **parts**, too. The two you always need are a **subject** and a **verb**.
+A sentence has **parts**, too. Each part answers a question.
 
-- **subject**: who or what the sentence is about. It comes **before** the verb: *<mark>Sara</mark> buys bread.*
-- **verb**: what the subject does or is: *Sara <mark>buys</mark> bread.*
-- **object**: who or what receives the action, **after** the verb: *Sara buys <mark>bread</mark>.*
-- **complement**: describes the subject after *be*: *She is <mark>a doctor</mark>. She is <mark>happy</mark>.*
-- **adverbial**: where, when or how: *Sara buys bread <mark>every morning</mark>.*
+<FormTable caption="Sentence parts">
+
+| Part | Its job | Example |
+|---|---|---|
+| subject | who or what the sentence is about; it comes before the verb | **Sara** buys bread. |
+| verb | what the subject does or is | Sara **buys** bread. |
+| object | the person or thing the action happens to; it comes after the verb | Sara buys **bread**. |
+| complement | comes after *be* and describes or names the subject | Sara is **tired**. Sara is **a doctor**. |
+| adverbial | where, when, how or how often | Sara buys bread **every morning**. |
+
+</FormTable>
+
+Every English sentence needs a **subject** and a **verb**. The other parts depend on the verb. Lesson 3 (Every sentence needs a subject: SVO order) shows the word order in detail.
 
 <Example context="shopping" fa="سارا هر روز صبح نان می‌خرد." note="subject · verb · object · adverbial">Sara buys bread every morning.</Example>
+<Example context="work" fa="رئیسم امروز خیلی سرش شلوغ است." note="subject · verb · complement · adverbial">My boss is very busy today.</Example>
+
+### A part can be a group of words
+
+A sentence part is not always one word. A group of words can be one part.
+
+<Example context="home" fa="برادر کوچکم هر شب شیر داغ می‌نوشد." note="subject (3 words) · verb · object (2 words) · adverbial (2 words)"><mark>My little brother</mark> drinks <mark>hot milk</mark> <mark>every night</mark>.</Example>
+
+Ask the question: *Who drinks hot milk?* **My little brother.** That whole group is the subject.
+
+### Verbs with and without an object
+
+- Some verbs **need** an object: *like, want, need, buy*. Say *I like **it**.*, not ~~I like.~~
+- Some verbs **never** take an object: *sleep, arrive, come*. *The baby sleeps.* *Our bus arrives at six.*
+- Many verbs can do both: *We eat at seven.* / *We eat **rice**.*
+- A few verbs need an adverbial: *She lives **in Tabriz**.* (*She lives.* is not complete.)
+
+<Example context="travel" fa="اتوبوس ما ساعت شش می‌رسد." note="subject · verb · adverbial (no object)">Our bus <mark>arrives</mark> at six.</Example>
+<Example context="shopping" fa="«این پیراهن را دوست داری؟» «آره، دوستش دارم.»" note="like + object">“Do you like this shirt?” “Yes, I like <mark>it</mark>.”</Example>
+
+### Object or complement?
+
+An **object** is a different person or thing: *Sara **meets** a doctor.* (Sara and the doctor are two people.)
+
+A **complement** comes after *be* and describes the subject: *Sara **is** a doctor.* (Sara = the doctor.) A complement can be a noun (*a doctor*) or an adjective (*tired*). After *be*, use an **adjective**, not an adverb: *She is **happy**.*, not ~~She is happily.~~
+
+### Adverbials
+
+An **adverbial** tells us **where**, **when**, **how** or **how often**. It can be one word (*here, today, slowly*) or a group of words (*at home, every morning, by bus*). It often comes at the end: *We study English **at home**.*
+
+## Interjections
+
+An **interjection** is a short word that shows a sudden **feeling**: surprise, pain, happiness. It usually stands alone or comes at the start of a sentence. It is not part of the subject or the verb, and its form never changes.
+
+<FormTable caption="Common interjections">
+
+| Interjection | Feeling | Example |
+|---|---|---|
+| **Oh** | surprise, a strong feeling | Oh, I didn't know that. · Oh no! Where are my keys? |
+| **Wow** | something surprising or great | Wow! Look at that! |
+| **Ouch** | sudden pain | Ouch! That hurts! |
+| **Oops** | a small mistake, a little fall | Oops! Sorry! |
+| **Hooray** | great happiness | Hooray! No school tomorrow! |
+| **Hey** | to get attention; an informal hello | Hey, wait a minute! · Hey, what's up? |
+
+</FormTable>
+
+After an interjection we usually write an exclamation mark (**!**) for a strong feeling, or a comma (**,**) when the sentence goes on: *Oh, I see.*
+
+<Example context="health" fa="آخ! درد می‌کند!" note="interjection">Ouch! That hurts!</Example>
+<Example context="school" fa="هورا! فردا مدرسه تعطیل است!" note="interjection">Hooray! No school tomorrow!</Example>
+<Example context="social" fa="وای! آپارتمان جدیدت عالی است!" note="interjection · determiner · adjective · noun · verb · adjective">Wow! Your new apartment is great!</Example>
+
+Some other small words work in the same way. They stand alone and are very common in speech:
+
+- *yes, no, OK*: answers
+- *hi, hello, bye, thanks*: greetings and polite words
+- *um* (British English also *er*): a sound you make when you stop to think: *Um, I'm not sure.*
+- some adjectives, alone: *“I passed my exam!” “**Great!**”*
+
+Most interjections are **informal**. Use them when you speak or send messages, not in formal writing.
+
+## Coming later
+
+- **Two objects** (*She gave me a book.*): level A2, lesson 5 (Verbs with two objects: give me it / give it to me).
+- **look, feel, seem + adjective**: level A2, lesson 17 (Linking verbs: look, feel, sound, seem + adjective).
+- ***What a…!*** and ***How…!***: level A2, lesson 4 (Exclamations: What a…! How…!).
+- **Word families** (*act, action, active, actively*): level B1, lesson 49 (Word formation 1: suffixes).
+- **Simple, compound and complex sentences**: level B2, lesson 49 (Colons, semicolons, dashes & sentence types).
 
 <Persian>
 
-**اجزای کلام (parts of speech):** هر کلمه در جمله یک «کار» دارد:
+**اجزای کلام (parts of speech):** هر کلمه در جمله یک «نقش» دارد. انگلیسی نُه نوع کلمه دارد:
 
-- **noun** = اسم (Ali، tea، love)
-- **verb** = فعل (go، eat، be)
-- **adjective** = صفت (big، hot) ← اسم را توصیف می‌کند
-- **adverb** = قید (slowly، today) ← فعل را توصیف می‌کند
-- **pronoun** = ضمیر (I، he، it)
-- **preposition** = حرف اضافه (in، on، at)
-- **conjunction** = حرف ربط (and، but)
-- **determiner** = واژه‌ی تعیین‌کننده (a، the، my)
-- **interjection** = صوت (Oh!، Wow!)
+- **noun** = اسم: نام شخص، مکان، چیز یا مفهوم (Sara، Tehran، tea، love)
+- **verb** = فعل: کار یا حالت (go، eat، be، have)
+- **adjective** = صفت: اسم یا ضمیر را توصیف می‌کند (big، hot، happy)
+- **adverb** = قید: فعل، صفت یا قید دیگر را توصیف می‌کند (slowly، very، today)
+- **pronoun** = ضمیر: به جای اسم می‌آید (I، he، it)
+- **preposition** = حرف اضافه: قبل از اسم می‌آید و مکان، زمان یا جهت را نشان می‌دهد (in، on، at، to)
+- **conjunction** = حرف ربط: کلمه‌ها یا بخش‌های جمله را به هم وصل می‌کند (and، but، because)
+- **determiner** = واژه‌ی تعیین‌کننده: قبل از اسم می‌آید و نشان می‌دهد کدام یا چند تا (a، the، my، this)
+- **interjection** = صوت: احساس ناگهانی را نشان می‌دهد (Oh!، Wow!، Ouch!)
 
-**اجزای جمله:** فاعل (subject) + فعل (verb) + مفعول (object).
+**صفت و قید:** در فارسی یک کلمه می‌تواند هم صفت باشد هم قید: «او خواننده‌ی **خوبی** است» و «او **خوب** آواز می‌خواند». اما در انگلیسی صفت و قید معمولاً دو کلمه‌ی جدا هستند: She is a **good** singer. / She sings **well**. پس نگویید She sings good. همین‌طور careful (صفت) و carefully (قید). بعد از be صفت می‌آید، نه قید: She is happy (نه She is happily).
 
-**دو تفاوت مهم با فارسی:** ۱) در فارسی فعل آخر جمله می‌آید، ولی در انگلیسی فعل درست بعد از فاعل می‌آید: Ali drinks tea. ۲) در فارسی صفت بعد از اسم می‌آید («چای داغ»)، ولی در انگلیسی صفت قبل از اسم است: hot tea.
+**جای صفت:** در فارسی صفت بعد از اسم می‌آید و اسم کسره می‌گیرد: «ماشینِ قرمز». در انگلیسی صفت **قبل** از اسم می‌آید: a red car (نه a car red). ترتیب درست: determiner + صفت + اسم: my new phone (گوشی جدیدِ من).
+
+**یک کلمه، دو نقش:** drink هم فعل است (I drink tea = چای می‌نوشم) و هم اسم (a drink = یک نوشیدنی). جای کلمه در جمله نقش آن را نشان می‌دهد.
+
+**اجزای جمله:**
+
+- **subject** (نهاد / فاعل): جمله درباره‌ی چه کسی یا چه چیزی است. قبل از فعل می‌آید.
+- **verb** (فعل)
+- **object** (مفعول): کسی یا چیزی که کار روی آن انجام می‌شود: Sara buys **bread**.
+- **complement** (مسند): بعد از be می‌آید و نهاد را توصیف می‌کند: She is **a doctor**. (او پزشک است.)
+- **adverbial** (قید): کجا، کی، چطور یا چند وقت یک بار: at home، every day.
+
+یک بخش جمله می‌تواند چند کلمه باشد: My little brother (برادر کوچکم) کلِ نهاد جمله است.
+
+**ترتیب جمله:** در فارسی فعل معمولاً آخر جمله می‌آید: «علی چای می‌نوشد». در انگلیسی فعل درست بعد از نهاد می‌آید: Ali drinks tea (نه Ali tea drinks). جزئیات در درس ۳.
+
+**فعل متعدی و لازم:** در فارسی می‌توانیم مفعول را نگوییم: «- این پیراهن را دوست داری؟ - آره، دوست دارم.» اما در انگلیسی فعل‌هایی مثل like، want و need حتماً مفعول می‌خواهند: Yes, I like **it** (نه Yes, I like). برعکس، فعل‌هایی مثل sleep و arrive (فعل لازم) مفعول نمی‌گیرند: The baby sleeps.
+
+**صوت‌ها (interjections):** کلمه‌هایی مثل Oh، Wow، Ouch و Oops احساس ناگهانی را نشان می‌دهند و معمولاً تنها یا اول جمله می‌آیند، با علامت تعجب (!) یا ویرگول. صوت‌های فارسی را در انگلیسی به کار نبرید؛ معادل انگلیسی آن‌ها را بگویید:
+
+- «آخ!» ← Ouch!
+- «وای! چه قشنگ!» ← Wow!
+- «اوه، ببخشید!» (برای یک اشتباه کوچک) ← Oops!
+- «هورا!» ← Hooray!
+- «اِ، نمی‌دانستم.» ← Oh, I didn't know that.
+
+بیشتر صوت‌ها غیررسمی هستند؛ در گفتار و پیام از آن‌ها استفاده کنید، نه در نوشته‌ی رسمی.
 
 </Persian>
 
 ## Common mistakes
 
 <WrongRight wrong="She is happily." right="She is happy." why="After be, describe the subject with an adjective, not an adverb." />
+<WrongRight wrong="She sings good." right="She sings well." why="good is an adjective. The adverb is well." />
 <WrongRight wrong="Ali tea drinks." right="Ali drinks tea." why="English order: subject + verb + object. The verb is not at the end." />
-<WrongRight wrong="I like tea hot very." right="I like very hot tea." why="Adjectives come before the noun: hot tea." />
+<WrongRight wrong="I have a car red." right="I have a red car." why="Adjectives come before the noun: a red car." />
+<WrongRight wrong="This is new my phone." right="This is my new phone." why="Determiner first, then adjective, then noun." />
+<WrongRight wrong="“Do you like it?” “Yes, I like.”" right="“Do you like it?” “Yes, I like it.”" why="like needs an object." />
 
 <MemoryHook title="Name it, do it, describe it">
-**Nouns name** things. **Verbs do** things. **Adjectives describe nouns**, **adverbs describe verbs**. Everything else is glue.
+**Nouns name** things. **Verbs do** things. **Adjectives describe nouns**, **adverbs describe verbs** (and adjectives). The small words are the **glue**. And when you feel something suddenly, say it with an **interjection**: *Wow!*
 </MemoryHook>

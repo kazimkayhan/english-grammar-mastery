@@ -4,36 +4,41 @@ level: A1
 number: 35
 pillar: determiners
 size: core
-hook: "“The train leaves at a quarter to nine on May 21st, and the ticket is $12.50.” Numbers are everywhere: here's how to say and write them."
-rule: "Say and write numbers with English patterns: hyphens in twenty-one, no -s after hundred, ordinals for dates, past / to for times, and a point (not a comma) for decimals."
+hook: "“The train leaves at a quarter to nine on May 21, and the ticket is $12.50.” Numbers are everywhere: here's how to say and write them."
+rule: "Write twenty-one with a hyphen and say three hundred with no -s. Use ordinals (first, second, twenty-first) for dates and order. Tell the time with past and to (or the easy way: six thirty). Say prices like $3.50 as three fifty, and ask How much is it?"
 points:
-  - "21 = twenty<b>-</b>one · 100 = <b>a</b> / one hundred · 300 = three <b>hundred</b> (no -s)"
-  - "Ordinals: 1st <b>first</b>, 2nd <b>second</b>, 3rd <b>third</b>, 4th fourth, 21st twenty-first"
-  - "Dates: write <b>May 5</b> (US) or <b>5 May</b> (UK); say <b>May fifth</b> or <b>the fifth of May</b>"
-  - "Years: 1998 = nineteen ninety-eight · 2024 = twenty twenty-four"
-  - "Times: 6:30 = six thirty / <b>half past</b> six · 8:45 = <b>a quarter to</b> nine"
-  - "Prices: $3.50 = three fifty / three dollars and fifty cents"
-  - "Decimals use a point, thousands use a comma: 2.5 · 10,000"
+  - "21 = twenty<b>-</b>one · 100 = <b>a</b> / <b>one</b> hundred · 300 = three <b>hundred</b> (no -s) · 10,000 (comma for thousands)"
+  - "Ordinals: <b>first</b>, <b>second</b>, <b>third</b>, then <b>-th</b>: fourth, <b>fifth</b>, <b>eighth</b>, <b>ninth</b>, <b>twelfth</b>, twent<b>ieth</b>, twenty-<b>first</b>"
+  - "Dates: write <b>May 5, 2024</b> (US) or <b>5 May 2024</b> (UK); say <b>May fifth</b> or <b>the fifth of May</b>"
+  - "Years in pairs: 1998 = <b>nineteen ninety-eight</b> · 2024 = <b>twenty twenty-four</b>"
+  - "Times: 6:30 = six thirty / <b>half past</b> six · 8:45 = <b>a quarter to</b> nine · <b>o'clock</b> only for full hours"
+  - "Prices: <b>How much is it?</b> $3.50 = <b>three fifty</b> / three dollars and fifty cents · $5 = five <b>dollars</b>"
 mindmap: |
   # Numbers
   ## Cardinals
-  - twenty-one
+  - twenty-one (hyphen)
   - three hundred (no -s)
   - 10,000 · 2.5
+  - 0 = zero / oh
   ## Ordinals
   - first · second · third
-  - twenty-first
+  - fifth · eighth · ninth · twelfth
+  - twentieth · twenty-first
+  - 1st 2nd 3rd 4th
   ## Dates
   - May 5 (US) · 5 May (UK)
   - say: May fifth / the fifth of May
   - years: nineteen ninety-eight
+  - What's the date today?
   ## Times
   - six thirty / half past six
   - a quarter past / to
   - o'clock: only full hours
+  - a.m. · p.m.
   ## Prices
+  - How much is it / are they?
   - three fifty
-  - How much is it?
+  - five dollars (not dollars five)
 covers:
   - cardinal-numbers
   - ordinal-numbers
@@ -45,12 +50,17 @@ exercises:
   - type: gap
     prompt: "21 = ___"
     answers: ["twenty-one", "twenty one"]
-    explain: "Tens + units with a hyphen: twenty-one."
+    explain: "Tens + units with a hyphen: twenty-one (no and)."
   - type: gap
     prompt: "My birthday is on the ___ of May."
     base: "3"
     answers: ["third"]
     explain: "3rd = third (irregular ordinal)."
+  - type: gap
+    prompt: "Our office is on the ___ floor."
+    base: "2"
+    answers: ["second"]
+    explain: "Floors use ordinals: 2nd = second."
   - type: gap
     prompt: "10:15 = a quarter ___ ten"
     answers: ["past", "after"]
@@ -59,7 +69,7 @@ exercises:
     prompt: "How do you say 7:45?"
     options: ["a quarter to eight", "a quarter past eight", "a quarter to seven"]
     answer: 0
-    explain: "15 minutes before eight → a quarter to eight."
+    explain: "15 minutes before eight → a quarter to eight (or seven forty-five)."
   - type: mcq
     prompt: "How do you say 6:30?"
     options: ["half past six", "half to seven", "half past seven"]
@@ -70,18 +80,38 @@ exercises:
     options: ["four ninety-nine", "four point ninety-nine", "four and ninety-nine"]
     answer: 0
     explain: "Prices: dollars + cents, so four ninety-nine."
+  - type: mcq
+    prompt: "“___ are these shoes?” “They're $40.”"
+    options: ["How much", "How many", "How old"]
+    answer: 0
+    explain: "Ask about price with How much. Plural shoes → are."
   - type: correct
     prompt: "There are three hundreds students in my school."
     answers: ["There are three hundred students in my school."]
-    explain: "No -s after a number + hundred."
+    explain: "No -s on hundred after a number."
   - type: correct
     prompt: "Today is the twenty-one of March."
-    answers: ["Today is the twenty-first of March.", "Today is March twenty-first.", "Today is March 21st.", "Today is the 21st of March."]
+    answers: ["Today is the twenty-first of March.", "Today is March twenty-first.", "Today is March 21st.", "Today is the 21st of March.", "Today is March 21.", "Today is March the twenty-first."]
     explain: "Dates use ordinals: twenty-first."
+  - type: correct
+    prompt: "It's half past six o'clock."
+    answers: ["It's half past six.", "It is half past six.", "It's six thirty.", "It is six thirty."]
+    explain: "o'clock is only for full hours."
+  - type: correct
+    prompt: "This book costs dollars fifteen."
+    answers: ["This book costs fifteen dollars.", "This book costs $15."]
+    explain: "Write the $ before the number, but say the word after it: fifteen dollars."
   - type: transform
     prompt: "Write the year in words: 1998"
     answers: ["nineteen ninety-eight", "nineteen ninety eight"]
     explain: "Split the year into two pairs: 19 / 98."
+  - type: transform
+    prompt: "Say the date in words: May 21"
+    answers: ["May twenty-first", "May the twenty-first", "the twenty-first of May"]
+    explain: "Say dates with an ordinal: May twenty-first (US) or the twenty-first of May (UK)."
+  - type: reorder
+    chunks: ["The train", "leaves", "at", "a quarter to nine."]
+    explain: "at + time: The train leaves at a quarter to nine."
   - type: match
     prompt: "Match the numbers with the ordinals."
     pairs:
@@ -94,87 +124,126 @@ exercises:
     explain: "first, second, third are irregular; fifth and twelfth change spelling; twenty → twentieth."
 recall:
   - q: "How do you say 300 and 21?"
-    a: "<b>three hundred</b> (no -s) and <b>twenty-one</b> (with a hyphen)."
+    a: "<b>three hundred</b> (no -s) and <b>twenty-one</b> (with a hyphen, no and)."
   - q: "What are two ways to say 8:45?"
     a: "<b>eight forty-five</b> or <b>a quarter to nine</b>."
-  - q: "How do you say the date 5/21 (May 21)?"
-    a: "<b>May twenty-first</b> or <b>the twenty-first of May</b>."
-  - q: "2.5 or 2,5?"
-    a: "<b>2.5</b> (two point five). English uses a point for decimals and a comma for thousands: 10,000."
+  - q: "How do you say the date May 21?"
+    a: "<b>May twenty-first</b> (US) or <b>the twenty-first of May</b> (UK). Always an ordinal."
+  - q: "How do you ask the price, and say $3.50?"
+    a: "<b>How much is it?</b> (plural: <b>How much are they?</b>) · <b>three fifty</b> or three dollars and fifty cents."
 cards:
   - front: "6:30 / 7:15 / 8:45"
     back: "half past six · a quarter past seven · a quarter to nine"
-  - front: "1st / 2nd / 3rd / 5th"
-    back: "first · second · third · fifth"
+  - front: "1st / 2nd / 3rd / 5th / 9th"
+    back: "first · second · third · fifth · ninth"
   - front: "1998 / 2024 (say it)"
     back: "nineteen ninety-eight · twenty twenty-four"
   - front: "«۳۰۰ دانشجو»"
-    back: "three hundred students (no -s)"
+    back: "three hundred students (no -s on hundred)"
   - front: "$12.50 (say it)"
     back: "twelve fifty / twelve dollars and fifty cents"
+  - front: "3/4 in the US? in the UK?"
+    back: "US: March 4 (month first) · UK: 3 April (day first)"
 ---
 
 ## Cardinal numbers
 
-<FormTable caption="Saying numbers">
+Cardinal numbers count things: *one, two, twenty-one, a hundred*.
 
-| Number | Say | Notes |
+<FormTable caption="Saying and writing numbers">
+
+| Number | Say / write | Notes |
 |---|---|---|
 | 13 / 30 | thir**teen** / **thir**ty | Don't mix them up: stress -TEEN, but THIR-ty |
-| 21 | twenty**-**one | hyphen between tens and units |
+| 21 | twenty**-**one | a hyphen between tens and units (21–99) |
 | 100 | **a** hundred / **one** hundred | |
-| 350 | three hundred **and** fifty (UK) · three hundred fifty (US) | |
+| 350 | three hundred **and** fifty · three hundred fifty | Americans often leave out **and** |
 | 2,000 | two **thousand** | no -s: two thousand (not thousands) |
+| 10,000 | ten thousand | a **comma** groups thousands |
 | 1,000,000 | a / one **million** | |
-| 2.5 | two **point** five | a point, not a comma |
 
 </FormTable>
 
-**hundred, thousand, million** take no -s after a number: *three hundred people*. (Use **hundreds of** / **thousands of** without a number: *hundreds of people*.)
+- **hundred, thousand, million** take no -s after a number: *three hundred people, two thousand books*.
+- After a number, the noun is plural: *three book**s***, *twenty dollar**s*** (lesson 8, *Plural nouns*).
+- A decimal uses a **point**: 2.5 = *two point five*. (Decimals, fractions and *hundreds of* come in B1 lesson 42, *Numbers & quantities: hundreds of, two-thirds, 50%*.)
+
+<Example context="school" fa="مدرسه‌ی ما سیصد دانش‌آموز دارد.">Our school has <mark>three hundred</mark> students.</Example>
+<Example context="shopping" fa="این ماشین بیست و پنج هزار دلار است.">This car is <mark>twenty-five thousand</mark> dollars.</Example>
+
+### Saying 0 and phone numbers
+
+- **0** is **zero**. In phone numbers and in times like 7:05, people often say **oh** (like the letter O).
+- Say phone numbers **one number at a time**: 0912 345 6789 = *oh nine one two, three four five, six seven eight nine*.
+
+<Example context="work" fa="«شماره‌ات چند است؟» «صفر نهصد و دوازده...»">“What's your number?” “It's <mark>oh nine one two</mark>, three four five…”</Example>
 
 ## Ordinal numbers
+
+Ordinal numbers show order: *first, second, third*. Most of them are the number + **-th**.
 
 <FormTable caption="Ordinals">
 
 | Number | Ordinal | Number | Ordinal |
 |---|---|---|---|
-| 1st | **first** | 8th | eigh**th** |
-| 2nd | **second** | 9th | **ninth** |
-| 3rd | **third** | 12th | **twelfth** |
-| 4th | fourth | 20th | twent**ieth** |
-| 5th | **fifth** | 21st | twenty-**first** |
-| 6th | sixth | 100th | hundredth |
+| 1st | **first** | 9th | **ninth** (no e) |
+| 2nd | **second** | 12th | **twelfth** (ve → f) |
+| 3rd | **third** | 13th | thirteenth |
+| 4th | fourth | 20th | twent**ieth** (y → ie) |
+| 5th | **fifth** (ve → f) | 21st | twenty-**first** |
+| 8th | **eighth** (one t) | 100th | hundredth |
 
 </FormTable>
 
-Use ordinals for dates, floors, birthdays and order: *the **second** floor, my **thirtieth** birthday*.
+Spelling rules:
+
+- **first, second, third** are special. All the others add **-th**.
+- **five → fifth**, **twelve → twelfth**, **eight → eighth**, **nine → ninth**.
+- Tens change **-y** to **-ie**: *twenty → twentieth, thirty → thirtieth*.
+- In big numbers, only the **last** word changes: *twenty-**first**, thirty-**second**, forty-**third***.
+- Short forms: 1**st**, 2**nd**, 3**rd**, 4**th**… but 11**th**, 12**th**, 13**th**, then 21**st**, 22**nd**, 23**rd**.
+
+Use ordinals for dates, floors, birthdays and order. We usually put **the** or **my / your** before them:
+
+<Example context="work" fa="دفتر من در طبقه‌ی دوم است.">My office is on <mark>the second</mark> floor.</Example>
+<Example context="social" fa="فردا تولد سی سالگی اوست.">Tomorrow is her <mark>thirtieth</mark> birthday.</Example>
 
 ## Dates and years
 
 <FormTable caption="Dates">
 
-| | US | UK |
+| | US (this course) | UK |
 |---|---|---|
 | Write | May 5, 2024 · 5/5/2024 | 5 May 2024 · 5/5/2024 |
 | Say | May fifth | the fifth of May |
-| Watch out! | 3/4 = **March 4** | 3/4 = **3 April** |
+| Watch out! | 3/4 = **March 4** (month first) | 3/4 = **3 April** (day first) |
 
 </FormTable>
+
+You **write** a date with a number (*May 21*), but you **say** it with an ordinal: *May twenty-**first***, or *the twenty-**first** of May*.
 
 <FormTable caption="Years">
 
 | Year | Say |
 |---|---|
 | 1998 | nineteen ninety-eight |
+| 1900 | nineteen hundred |
+| 2000 | two thousand |
 | 2005 | two thousand (and) five |
 | 2024 | twenty twenty-four (or two thousand (and) twenty-four) |
 
 </FormTable>
 
+Most years are said in **two pairs**: 19 + 98 = *nineteen ninety-eight*.
+
 <Example context="social" fa="تولد من بیست و یکم مه است.">My birthday is on May <mark>twenty-first</mark>.</Example>
 <Example context="news" fa="او در سال ۱۹۹۸ به دنیا آمد.">She was born in <mark>nineteen ninety-eight</mark>.</Example>
 
+**Asking:** *What's the date today?* → *It's May 5.* (lesson 34, *it for time, weather & distance*) · *When's your birthday?* → *It's on May 21.* Remember: **on** + date, **in** + year (lesson 32, *Prepositions of time: at, on, in*).
+
 ## Telling the time
+
+There are two ways. The **easy way** says the hour, then the minutes. The **traditional way** uses **past** and **to**.
 
 <FormTable caption="Times">
 
@@ -182,56 +251,84 @@ Use ordinals for dates, floors, birthdays and order: *the **second** floor, my *
 |---|---|---|
 | 7:00 | seven | seven **o'clock** |
 | 7:05 | seven oh five | five **past** seven |
-| 7:15 | seven fifteen | a quarter **past** seven (US also: **after**) |
+| 7:15 | seven fifteen | a quarter **past** seven |
 | 7:30 | seven thirty | **half past** seven |
 | 7:45 | seven forty-five | a quarter **to** eight |
 | 7:50 | seven fifty | ten **to** eight |
 
 </FormTable>
 
-- **o'clock** is only for full hours: *seven o'clock* (not *seven thirty o'clock*).
-- **a.m.** = before noon, **p.m.** = after noon: *9 a.m., 6 p.m.*
+- **past** = after the hour (minutes 1 to 30). **to** = before the next hour (minutes 31 to 59).
+- In American English you also hear **after** for *past* (*a quarter after seven*) and, in speech, **of** for *to* (*a quarter of eight*).
+- **o'clock** is only for full hours: *seven o'clock* (not ~~seven thirty o'clock~~).
+- The easy way works for every minute: 6:23 = *six twenty-three*.
+- **a.m.** = from midnight to noon (morning). **p.m.** = from noon to midnight: *9 a.m., 6 p.m.*
 
-<Example context="work" fa="قطار ساعت یک ربع به نه حرکت می‌کند.">The train leaves at <mark>a quarter to nine</mark>.</Example>
+<Example context="travel" fa="قطار ساعت یک ربع به نه حرکت می‌کند.">The train leaves at <mark>a quarter to nine</mark>.</Example>
+<Example context="work" fa="«ساعت چند است؟» «ده و نیم است.»">“What time is it?” “It's <mark>half past ten</mark>.”</Example>
+
+Ask **What time is it?** Answer with **It's** + time. For an event, use **at**: *What time does the bank open? **At** nine.*
 
 ## Prices
 
-<Example context="shopping" fa="«این چند است؟» «دوازده دلار و پنجاه سنت.»">“How much is it?” “It's <mark>twelve fifty</mark>.” ($12.50)</Example>
+**Asking:** *How much **is** it?* (one thing) · *How much **are** they?* (two or more) · *How much does it cost?*
 
-- **$3.50** = three fifty · three dollars and fifty cents
-- **£20** = twenty pounds · **€5.99** = five ninety-nine
-- **50,000 tomans** = fifty thousand tomans
+<FormTable caption="Saying prices">
+
+| Price | Short way | Long way |
+|---|---|---|
+| $3.50 | three fifty | three dollars **and** fifty cents |
+| $12.99 | twelve ninety-nine | twelve dollars and ninety-nine cents |
+| $20 | twenty dollars | |
+| 50¢ | fifty cents | |
+| 50,000 tomans | fifty thousand tomans | |
+
+</FormTable>
+
+- The short way (*three fifty*) is the most common in shops.
+- With an exact amount, say the money word: *twenty dollars*.
+- Write the **$** before the number, but **say** *dollars* after it: $5 = *five dollars* (not ~~dollars five~~).
+
+<Example context="shopping" fa="«این چند است؟» «دوازده دلار و پنجاه سنت.»">“How much is it?” “It's <mark>twelve fifty</mark>.” ($12.50)</Example>
+<Example context="shopping" fa="«این کفش‌ها چند است؟» «چهل دلار.»">“How much <mark>are</mark> these shoes?” “They're <mark>forty dollars</mark>.”</Example>
+
+<UkNote>British speakers usually say **and** after hundred (*three hundred **and** fifty*). They write the day first (*5 May*) and say *the fifth of May*. They use **past** and **to** (not *after* or *of*). For money: £3.50 = *three fifty* or *three pounds fifty*; 50p = *fifty pence* or *fifty p*.</UkNote>
 
 <Persian>
 
 **اعداد:**
 
-- بیست و یک = twenty-one (با خط تیره، بدون and).
-- بعد از عدد، hundred و thousand جمع نمی‌شوند: three hundred (نه three hundreds).
-- **ممیز و جداکننده برعکس فارسی است:** در انگلیسی اعشار با نقطه (2.5) و هزارگان با کاما (10,000) نوشته می‌شود.
+- «بیست **و** یک» در انگلیسی **twenty-one** است: بین دهگان و یکان and نمی‌آید، فقط خط تیره (twenty and one ✗).
+- بعد از عدد، hundred، thousand و million جمع بسته نمی‌شوند: three hundred (نه three hundreds)، two thousand. اما خودِ اسم بعد از عدد جمع است: three books، twenty dollars. (در فارسی می‌گوییم «سه کتاب»، ولی در انگلیسی books.)
+- **ممیز:** در فارسی اعشار را با «٫» (مُمَیِّز) می‌نویسیم که شبیه خط مورب یا ویرگول است (۲٫۵). در انگلیسی اعشار **همیشه** با نقطه نوشته می‌شود (2.5 = two point five) و کاما برای جدا کردن هزارگان است (10,000).
+- **صفر:** zero؛ در شماره‌ی تلفن معمولاً oh هم می‌گویند. شماره‌ی تلفن را رقم به رقم می‌خوانیم: 0912 = oh nine one two.
 
-**اعداد ترتیبی** (اول، دوم، سوم): first، second، third، و بقیه معمولاً با th: fourth، fifth.
+**اعداد ترتیبی** (اول، دوم، سوم): در فارسی «ـُم» اضافه می‌کنیم (پنجم)؛ در انگلیسی معمولاً **-th**: fourth، sixth. سه تای اول فرق دارند: first، second، third. املای fifth، eighth، ninth، twelfth و twentieth را دقیق یاد بگیرید.
 
-**تاریخ:** در آمریکایی May 5 (بگویید May fifth) و در بریتانیایی 5 May (بگویید the fifth of May). مراقب باشید: 3/4 در آمریکا یعنی چهارم مارس!
+**تاریخ:** در فارسی اول روز را می‌گوییم («پنجم مه»)؛ بریتانیایی‌ها هم همین‌طور: 5 May (بگویید the fifth of May). اما آمریکایی‌ها اول ماه را می‌گویند: May 5 (بگویید May fifth). مراقب باشید: 3/4 در آمریکا یعنی چهارم مارس، در بریتانیا یعنی سوم آوریل! تاریخ را با عدد می‌نویسیم ولی با عدد ترتیبی می‌خوانیم.
 
-**سال:** دو رقم دو رقم خوانده می‌شود: 1998 = nineteen ninety-eight.
+**سال:** دو رقم دو رقم خوانده می‌شود: 1998 = nineteen ninety-eight، 2024 = twenty twenty-four.
 
 **ساعت:**
 
-- شش و نیم = six thirty یا half past six
-- نه و ربع = nine fifteen یا a quarter past nine
-- یک ربع به نه = eight forty-five یا a quarter to nine
-- o'clock فقط برای ساعت کامل: seven o'clock
+- ساعت شش و نیم = six thirty یا half past six
+- ساعت نه و ربع = nine fifteen یا a quarter past nine
+- یک ربع به نه = eight forty-five یا a quarter to nine (درست مثل فارسی: «به» = to)
+- در فارسی همیشه «ساعت» می‌گوییم («ساعت شش و نیم»)، اما o'clock در انگلیسی **فقط** برای ساعت کامل است: seven o'clock (نه half past six o'clock).
 
-**قیمت:** «چند است؟» = How much is it? و $3.50 = three fifty.
+**قیمت:** «چند است؟» = How much is it? برای چند چیز: How much are they? علامت $ قبل از عدد نوشته می‌شود، ولی dollars بعد از عدد خوانده می‌شود: $5 = five dollars. در مغازه معمولاً کوتاه می‌گویند: $3.50 = three fifty.
 
 </Persian>
 
 ## Common mistakes
 
 <WrongRight wrong="I have two thousands books." right="I have two thousand books." why="No -s on thousand after a number." />
+<WrongRight wrong="twenty and one" right="twenty-one" why="A hyphen between tens and units, no and." />
 <WrongRight wrong="It's half past six o'clock." right="It's half past six." why="o'clock is only for full hours." />
+<WrongRight wrong="Today is May twenty-one." right="Today is May twenty-first." why="Say dates with an ordinal." />
+<WrongRight wrong="It costs dollars five." right="It costs five dollars." why="Say the money word after the number." />
+<WrongRight wrong="How much is these shoes?" right="How much are these shoes?" why="Plural → are." />
 
-<MemoryHook title="Point vs comma: the opposite of Persian">
-English uses a **point** for small parts (**2.5**) and a **comma** for big groups (**10,000**). If a number looks strange, try swapping them in your head.
+<MemoryHook title="Point for parts, comma for thousands">
+English uses a **point** for small parts (**2.5**, **$3.50**) and a **comma** for big groups (**10,000**). Think: the **point** is small, like a part; the **comma** has a tail, like a long number.
 </MemoryHook>

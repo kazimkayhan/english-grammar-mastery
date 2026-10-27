@@ -4,29 +4,37 @@ level: A1
 number: 15
 pillar: nouns
 size: core
-hook: "A shopping list: “some eggs, some milk, a lot of rice.” Can you count eggs? Yes. Milk? No. That one question decides the grammar."
-rule: "Countable nouns have a plural (an egg, two eggs); uncountable nouns don't (milk, rice). Use some in positive sentences and any in negatives and questions."
+hook: "A shopping list: “six eggs, some milk, a lot of rice.” Can you count eggs? Yes. Milk? No. That one question decides the grammar."
+rule: "Countable nouns have a/an and a plural (an egg, two eggs); uncountable nouns have neither (milk, rice). Use some in positive sentences and any in negatives and questions. Ask How many + countable and How much + uncountable; a lot of works with both."
 points:
-  - "<b>Countable</b>: a / an and plural -s: an egg, two eggs"
-  - "<b>Uncountable</b>: no a / an, no -s: milk, water, rice, money, bread"
-  - "<b>some</b> in positive sentences: I need <b>some</b> eggs and <b>some</b> milk."
-  - "<b>any</b> in negatives and questions: We don't have <b>any</b> bread. Do you have <b>any</b> eggs?"
-  - "<b>How many</b> + countable · <b>How much</b> + uncountable"
-  - "<b>a lot of</b> works with both: a lot of eggs, a lot of milk"
+  - "<b>Countable</b>: a / an and plural -s: an egg, two eggs, three people."
+  - "<b>Uncountable</b>: no a / an, no -s, singular verb: milk, water, rice, money, bread. <b>The rice is</b> ready."
+  - "<b>some</b> + plural or uncountable in positive sentences: I need <b>some</b> eggs and <b>some</b> milk."
+  - "<b>any</b> in negatives and questions: There isn't <b>any</b> bread. Are there <b>any</b> eggs?"
+  - "One countable thing → <b>a / an</b>, not some or any: I need <b>a</b> pen. Is there <b>a</b> bank?"
+  - "<b>How many</b> + countable plural · <b>How much</b> + uncountable · <b>How much</b> is it? = the price"
+  - "<b>a lot of</b> works with both: a lot of eggs, a lot of milk."
 mindmap: |
   # Countable & uncountable
   ## Countable
   - an egg, two eggs
-  - How many?
+  - a / an + one
+  - plural -s
   ## Uncountable
   - milk, rice, money, bread
   - no a/an, no -s
-  - How much?
+  - singular verb: the milk is
+  - a loaf of bread
   ## some
   - positive: some eggs, some milk
+  - offers: Would you like some tea?
   ## any
-  - negative: not any
-  - question: any…?
+  - negative: There isn't any milk
+  - question: Are there any eggs?
+  ## How…?
+  - How many + countable
+  - How much + uncountable
+  - How much is it? (price)
   ## a lot of
   - a lot of eggs
   - a lot of milk
@@ -48,12 +56,22 @@ exercises:
     answer: 0
     explain: "Positive sentence + plural → some."
   - type: mcq
-    prompt: "We don't have ___ bread."
+    prompt: "There isn't ___ bread in the kitchen."
     options: ["some", "any", "a"]
     answer: 1
-    explain: "Negative sentence → any."
+    explain: "Negative sentence → any. bread is uncountable, so not a."
+  - type: mcq
+    prompt: "There ___ some rice in the cupboard."
+    options: ["is", "are"]
+    answer: 0
+    explain: "rice is uncountable → singular verb: there is."
+  - type: mcq
+    prompt: "Can I have ___ apple, please?"
+    options: ["a", "an", "some"]
+    answer: 1
+    explain: "One countable thing → a / an. apple starts with a vowel sound → an."
   - type: gap
-    prompt: "Do you have ___ questions?"
+    prompt: "Are there ___ questions?"
     answers: ["any"]
     explain: "Question → any."
   - type: gap
@@ -61,17 +79,36 @@ exercises:
     answers: ["much"]
     explain: "money is uncountable → how much."
   - type: gap
-    prompt: "How ___ people are coming?"
+    prompt: "How ___ people are there in your family?"
     answers: ["many"]
-    explain: "people is countable (plural) → how many."
+    explain: "people is plural and countable → how many."
+  - type: gap
+    prompt: "There are ___ of cars in Tehran. (= very many)"
+    answers: ["a lot", "lots"]
+    explain: "a lot of (or lots of) works with countable and uncountable nouns."
   - type: correct
     prompt: "Can you buy a bread on your way home?"
     answers: ["Can you buy some bread on your way home?", "Can you buy bread on your way home?", "Can you buy a loaf of bread on your way home?"]
     explain: "bread is uncountable: some bread, or a loaf of bread."
   - type: correct
     prompt: "I have a lot of moneys."
-    answers: ["I have a lot of money."]
+    answers: ["I have a lot of money.", "I have lots of money."]
     explain: "money is uncountable: no -s."
+  - type: correct
+    prompt: "There aren't some tomatoes in the fridge."
+    answers: ["There aren't any tomatoes in the fridge.", "There are not any tomatoes in the fridge.", "There are no tomatoes in the fridge."]
+    explain: "Negative → any (or no), not some."
+  - type: transform
+    prompt: "Make it a question: There is some milk in the fridge."
+    answers: ["Is there any milk in the fridge?"]
+    explain: "Question → Is there + any."
+  - type: transform
+    prompt: "Make it negative: There are some apples in the bowl."
+    answers: ["There aren't any apples in the bowl.", "There are not any apples in the bowl.", "There are no apples in the bowl."]
+    explain: "Negative → aren't any (or are no). some becomes any."
+  - type: reorder
+    chunks: ["How many", "students", "are there", "in your class?"]
+    explain: "How many + plural noun + are there + place?"
   - type: match
     prompt: "Match each noun with the right question."
     pairs:
@@ -80,59 +117,115 @@ exercises:
       - ["water", "How much water?"]
       - ["chairs", "How many chairs?"]
     explain: "how many + countable plural, how much + uncountable."
-  - type: gap
-    prompt: "There are ___ of cars in Tehran. (= many)"
-    answers: ["a lot", "lots"]
-    explain: "a lot of works with countable and uncountable nouns."
 recall:
   - q: "How do you know if a noun is countable?"
     a: "Can you say <b>one ___, two ___s</b>? Then it's countable (an egg, two eggs). If not, it's uncountable (milk)."
   - q: "When do we use some and when any?"
-    a: "<b>some</b> in positive sentences; <b>any</b> in negatives and questions."
+    a: "<b>some</b> in positive sentences; <b>any</b> in negatives and questions. Both go with plural or uncountable nouns."
   - q: "how much or how many with money? With brothers?"
     a: "<b>How much</b> money? · <b>How many</b> brothers?"
+  - q: "How do you say «یک نان» in English?"
+    a: "<b>a loaf of bread</b> (or <b>some bread</b>). bread is uncountable, so never “a bread”."
 cards:
   - front: "Countable or uncountable: milk, egg, bread, chair"
     back: "milk ✗ · egg ✓ · bread ✗ · chair ✓"
-  - front: "some or any? I don't have ___ time."
+  - front: "some or any? There isn't ___ time."
     back: "any (negative)"
   - front: "how much / how many"
-    back: "how much + uncountable · how many + countable"
+    back: "how much + uncountable · how many + countable plural"
   - front: "«یک نان» in English"
-    back: "some bread / a loaf of bread (bread is uncountable)"
+    back: "a loaf of bread / some bread (bread is uncountable)"
+  - front: "a lot of + countable or uncountable?"
+    back: "Both: a lot of eggs · a lot of milk"
 ---
 
 ## Can you count it?
+
+Ask one question: can you say **one ___, two ___s**?
+
+- **Yes** → the noun is **countable**: *one egg, two eggs · one chair, three chairs*.
+- **No** → the noun is **uncountable**: *milk, water, rice, money, bread, sugar, cheese, meat, music, time*. You can't say ~~two milks~~ or ~~three rices~~.
 
 <FormTable caption="Countable and uncountable">
 
 | | Countable | Uncountable |
 |---|---|---|
 | Examples | egg, apple, chair, book, friend | milk, water, rice, money, bread, sugar |
-| a / an? | **an** egg | no: *~~a milk~~* |
-| plural -s? | two egg**s** | no: *~~milks~~* |
+| a / an? | **an** egg | no: ~~a milk~~ |
+| plural -s? | two egg**s** | no: ~~milks~~ |
+| verb | The eggs **are** fresh. | The milk **is** fresh. |
 | some (+) | some egg**s** | some milk |
 | any (− ?) | any eggs? | any milk? |
 | How…? | How **many** eggs? | How **much** milk? |
+| a lot of | a lot of eggs | a lot of milk |
 
 </FormTable>
 
+## Uncountable nouns
+
+An uncountable noun has **no a / an** and **no plural**. It takes a **singular** verb (*is*, not *are*).
+
+<Example context="home" fa="برنج آماده است.">The rice <mark>is</mark> ready.</Example>
+<Example context="shopping" fa="پول همه چیز نیست."><mark>Money isn't</mark> everything.</Example>
+<Example context="health" fa="آب برای سلامتی خوب است."><mark>Water is</mark> good for your health.</Example>
+
+To count an uncountable thing, put a **container** or a **unit** before it: *a loaf of bread, a bottle of water, a glass of milk, a kilo of rice*. Many more of these (*a piece of, a slice of*) come in B1 lesson 38 (Uncountable traps & a piece of).
+
+<Example context="shopping" fa="یک نان و دو بطری آب لطفاً."><mark>A loaf of</mark> bread and <mark>two bottles of</mark> water, please.</Example>
+
+Some words are uncountable in English but not in Persian: **advice, information, news, furniture, homework**. Say *some information*, not ~~some informations~~. These come in B1 lesson 38 (Uncountable traps & a piece of). A few words, like *coffee*, can be both: *I like coffee* (the drink) and *Two coffees, please* (two cups). That comes in B2 lesson 33 (a coffee or coffee? Nouns that change meaning).
+
+## a / an or some?
+
+- **One** countable thing → **a / an**: *I need **a** pen.*
+- **Plural** countable → **some**: *I need **some** pens.*
+- **Uncountable** → **some**: *I need **some** paper.*
+
+<Example context="school" fa="یک خودکار و مقداری کاغذ لازم دارم.">I need <mark>a</mark> pen and <mark>some</mark> paper.</Example>
 <Example context="shopping" fa="کمی شیر، کمی نان و شش تا تخم‌مرغ لازم داریم.">We need <mark>some</mark> milk, <mark>some</mark> bread and six eggs.</Example>
-<Example context="home" fa="برنج نداریم. (هیچ برنجی نداریم.)">We don't have <mark>any</mark> rice.</Example>
-<Example context="travel" fa="پول کافی داری؟">Do you have <mark>any</mark> money?</Example>
+
+**some** means "a number of" or "an amount of" when we don't say exactly how many or how much. Don't use *some* or *any* with **one** countable thing: ~~some pen~~, ~~any bank~~.
 
 ## some or any?
 
-- **some** in **positive** sentences: *I have some friends in Canada.*
-- **any** in **negative** sentences and **questions**: *I don't have any friends there. Do you have any friends there?*
+<FormTable caption="some and any">
 
-## How much? How many? A lot of
+| Sentence | Word | Example |
+|---|---|---|
+| Positive (+) | **some** | There are **some** eggs. There's **some** milk. |
+| Negative (−) | **any** | There aren't **any** eggs. There isn't **any** milk. |
+| Question (?) | **any** | Are there **any** eggs? Is there **any** milk? |
 
-- **How many** + countable plural: *How many children do they have?*
-- **How much** + uncountable: *How much sugar do you want?*
-- **a lot of** + both: *a lot of friends, a lot of time.*
+</FormTable>
 
+<Example context="home" fa="برنج نداریم. (هیچ برنجی نیست.)">There isn't <mark>any</mark> rice.</Example>
+<Example context="travel" fa="این نزدیکی مغازه‌ای هست؟">Are there <mark>any</mark> shops near the hotel?</Example>
+<Example context="work" fa="سؤالی هست؟">Are there <mark>any</mark> questions?</Example>
+
+**Offers and requests:** when you offer something or ask for something, use **some**, even in a question: *Would you like **some** tea? Can I have **some** water, please?* More on this in A2 lesson 32 (some, any, no; something, anyone, nowhere).
+
+**Things in general:** don't use *some* when you talk about a thing in general: *I like **cheese**.* (all cheese), not ~~I like some cheese~~. More in A2 lesson 30 (the or no article?).
+
+## How much? How many?
+
+- **How many** + countable plural: *How many eggs? How many students are there?*
+- **How much** + uncountable: *How much milk? How much time is there?*
+- **How much is / are…?** asks the **price**: *How much is this bag? How much are these shoes?*
+
+<Example context="school" fa="در کلاست چند دانشجو هست؟"><mark>How many</mark> students are there in your class?</Example>
+<Example context="home" fa="در یخچال چقدر شیر هست؟"><mark>How much</mark> milk is there in the fridge?</Example>
 <Example context="shopping" fa="این چند است؟ (قیمت)"><mark>How much</mark> is this? (= What's the price?)</Example>
+
+## a lot of
+
+**a lot of** means "a big number" or "a big amount". It works with **both** countable and uncountable nouns. **lots of** means the same and is more informal.
+
+<Example context="news" fa="امروز در مرکز شهر آدم‌های زیادی هستند.">There are <mark>a lot of</mark> people downtown today.</Example>
+<Example context="work" fa="امروز کار زیادی هست.">There's <mark>a lot of</mark> work today.</Example>
+
+The verb follows the noun: *A lot of people **are** here.* (plural) · *A lot of sugar **is** bad for you.* (uncountable)
+
+*much, many, a few* and *a little* come in A2 lesson 31 (much, many, a lot of, a few, a little). *no* and *none* (*There's no milk. None left.*) come in A2 lesson 32 (some, any, no; something, anyone, nowhere).
 
 <DecisionTree id="countable" />
 <DecisionTree id="some-any" />
@@ -141,21 +234,33 @@ cards:
 
 **قابل‌شمارش و غیرقابل‌شمارش:** بعضی اسم‌ها را می‌شمریم (an egg، two eggs) و بعضی را نه (milk، water، rice، money، bread).
 
-- اسم غیرقابل‌شمارش a یا an نمی‌گیرد و جمع (s) هم نمی‌شود.
-- **نکته برای فارسی‌زبان‌ها:** ما می‌گوییم «یک نان» یا «دو تا نان»، اما bread در انگلیسی غیرقابل‌شمارش است: some bread یا a loaf of bread. همین‌طور money هیچ‌وقت moneys نمی‌شود.
+- اسم غیرقابل‌شمارش **a / an** نمی‌گیرد و **جمع (s)** هم نمی‌شود.
+- فعلش **مفرد** است: The rice **is** ready. (نه are)
+- برای شمردن، از ظرف یا واحد استفاده می‌کنیم: a loaf of bread (یک نان)، a bottle of water (یک بطری آب)، a glass of milk (یک لیوان شیر).
 
-**some و any:** در جمله‌ی مثبت **some** (کمی / چندتا)، در جمله‌ی منفی و سؤالی **any**.
+**نکته برای فارسی‌زبان‌ها:** ما می‌گوییم «یک نان» یا «دو تا نان»، اما bread در انگلیسی غیرقابل‌شمارش است: some bread یا a loaf of bread. همین‌طور money هیچ‌وقت moneys نمی‌شود. «اطلاعات» در فارسی جمع است، ولی information در انگلیسی غیرقابل‌شمارش است و s نمی‌گیرد.
 
-**How much / How many:** How many برای چیزهای شمردنی (چند تا؟) و How much برای غیرشمردنی (چقدر؟). a lot of (زیاد) برای هر دو.
+**some و any:** هر دو با اسم جمع یا غیرقابل‌شمارش می‌آیند.
+- در جمله‌ی مثبت **some** (کمی / چندتا): There are some eggs.
+- در جمله‌ی منفی و سؤالی **any**: There isn't any milk. / Are there any eggs? در فارسی می‌گوییم «هیچ شیری نیست»؛ any در جمله‌ی منفی کمی شبیه «هیچ» است.
+- برای تعارف و درخواست، در سؤال هم **some**: Would you like some tea? (چای میل دارید؟)
+- برای یک چیز قابل‌شمارش، a / an: I need a pen. (نه some pen)
+
+**How much / How many:** How many برای چیزهای شمردنی (چند تا؟) و How much برای غیرشمردنی (چقدر؟). در فارسی برای هر دو می‌توانیم «چقدر» بگوییم، ولی در انگلیسی باید انتخاب کنیم. How much is it? یعنی «قیمتش چند است؟».
+
+**a lot of** (خیلی / زیاد) برای هر دو نوع اسم: a lot of eggs، a lot of milk.
 
 </Persian>
 
 ## Common mistakes
 
-<WrongRight wrong="I need an advice." right="I need some advice." why="advice is uncountable (you'll see many words like this in B1)." />
-<WrongRight wrong="How many money?" right="How much money?" why="money is uncountable." />
-<WrongRight wrong="I don't have some time." right="I don't have any time." why="Negative → any." />
+<WrongRight wrong="Can you buy a bread?" right="Can you buy some bread? / a loaf of bread?" why="bread is uncountable: no a." />
+<WrongRight wrong="How many money do you have?" right="How much money do you have?" why="money is uncountable → how much." />
+<WrongRight wrong="There isn't some milk." right="There isn't any milk." why="Negative → any." />
+<WrongRight wrong="The rice are ready." right="The rice is ready." why="Uncountable nouns take a singular verb." />
+<WrongRight wrong="I need some informations." right="I need some information." why="information is uncountable: no -s." />
+<WrongRight wrong="I need some pen." right="I need a pen. / I need some pens." why="One countable thing → a / an. some goes with plural or uncountable nouns." />
 
 <MemoryHook title="The two-test">
-Try saying **“two ___s”**. *Two eggs*: fine, countable. *Two milks*: strange, uncountable. Then: positive **some**, negative and question **any**.
+Try saying **“two ___s”**. *Two eggs*: fine, countable (**a/an**, **many**). *Two milks*: strange, uncountable (**much**, no *a*). Then: positive **some**, negative and question **any**.
 </MemoryHook>

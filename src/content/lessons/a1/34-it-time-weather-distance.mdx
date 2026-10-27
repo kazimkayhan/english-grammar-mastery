@@ -5,29 +5,40 @@ number: 34
 pillar: sentence-structure
 size: mini
 hook: "Persian says «ساعت پنج است» and «سرد است» with no subject. English needs one: It's five o'clock. It's cold."
-rule: "English sentences need a subject. For time, weather, distance, days and dates, the subject is it, an empty it that means nothing."
+rule: "Every English sentence needs a subject. For time, weather, temperature, distance, days and dates, the subject is it: an empty it that means nothing. Make questions with Is it…? and negatives with it isn't."
 points:
-  - "Time: <b>It's</b> five o'clock. What time is <b>it</b>?"
-  - "Weather: <b>It's</b> cold. <b>It's</b> raining."
-  - "Distance: <b>It's</b> two kilometers to the station. How far is <b>it</b>?"
-  - "Days and dates: <b>It's</b> Monday. <b>It's</b> May 5 today."
-  - "Never drop it: <b>It's</b> raining (not Is raining)."
+  - "Time: <b>It's</b> five o'clock. <b>It's</b> late. What time is <b>it</b>?"
+  - "Weather and temperature: <b>It's</b> cold. <b>It's</b> raining. <b>It's</b> 30 degrees. <b>It's</b> dark."
+  - "Distance: <b>It's</b> two kilometers to the station. How far is <b>it</b>? <b>It's not far</b> · <b>It's a long way</b>."
+  - "Days and dates: <b>It's</b> Monday. <b>It's</b> May 5. <b>It's</b> my birthday."
+  - "Questions and negatives: <b>Is it</b> cold? <b>It isn't</b> far. Past: <b>It was</b> sunny."
+  - "Never drop it: <b>It's</b> raining (not “Is raining”). Weather takes <b>it</b>, not there."
 mindmap: |
   # Empty it
   ## Time
   - It's five o'clock
+  - It's late
   - What time is it?
   ## Weather
-  - It's cold
-  - It's raining
+  - It's cold · It's sunny
+  - It's raining · It's snowing
+  - It's 30 degrees
+  - It's dark
   ## Distance
-  - It's 2 km
+  - It's 2 km to the station
   - How far is it?
+  - It's not far · It's a long way
   ## Days & dates
   - It's Monday
   - It's May 5
+  - It's my birthday
+  ## Questions & negatives
+  - Is it cold? Yes, it is.
+  - It isn't far.
+  - It was sunny yesterday.
   ## Never drop it
   - not: Is raining
+  - not: There is cold
 covers:
   - dummy-it
 persian: full
@@ -44,6 +55,10 @@ exercises:
     prompt: "Is ten o'clock. Let's go!"
     answers: ["It's ten o'clock. Let's go!", "It is ten o'clock. Let's go!"]
     explain: "Time → It's …"
+  - type: correct
+    prompt: "There is very hot today."
+    answers: ["It's very hot today.", "It is very hot today."]
+    explain: "Weather and temperature → it, not there."
   - type: mcq
     prompt: "“What time is it?” “___ half past six.”"
     options: ["It's", "Is", "There is"]
@@ -54,17 +69,34 @@ exercises:
     options: ["it", "there", "that"]
     answer: 0
     explain: "Distance → How far is it?"
+  - type: mcq
+    prompt: "“Is the station far?” “No, ___ only five minutes from here.”"
+    options: ["it's", "there's", "is"]
+    answer: 0
+    explain: "Distance → it's. A sentence can't start with a verb and no subject."
   - type: gap
     prompt: "___ Monday today, so the museum is closed."
     answers: ["It's", "It is"]
     explain: "Days → It's Monday."
-  - type: reorder
-    chunks: ["It's", "about", "five kilometers", "from here."]
-    explain: "It's + distance."
+  - type: gap
+    prompt: "Yesterday ___ sunny and warm."
+    answers: ["it was"]
+    explain: "Weather in the past → it was."
+  - type: transform
+    prompt: "Make it negative: It's cold today."
+    answers: ["It isn't cold today.", "It's not cold today.", "It is not cold today."]
+    explain: "Put not after is: It isn't / It's not."
+  - type: transform
+    prompt: "Make a question: It's raining."
+    answers: ["Is it raining?"]
+    explain: "Swap it and is: Is it raining?"
   - type: transform
     prompt: "Answer with it: What's the weather like? (sunny)"
     answers: ["It's sunny.", "It is sunny."]
     explain: "Weather → It's sunny."
+  - type: reorder
+    chunks: ["It's", "about", "five kilometers", "from here."]
+    explain: "It's + distance."
   - type: match
     prompt: "Match each question with its answer."
     pairs:
@@ -73,14 +105,16 @@ exercises:
       - ["How far is it?", "It's two kilometers."]
       - ["What's the date today?", "It's May 5."]
       - ["What day is it?", "It's Friday."]
-    explain: "All of these use the empty it."
+    explain: "All of these answers use the empty it."
 recall:
-  - q: "How do you say «سرد است»?"
-    a: "<b>It's cold.</b> (English needs a subject: it.)"
-  - q: "What are the four main uses of empty it?"
-    a: "<b>Time</b>, <b>weather</b>, <b>distance</b>, <b>days and dates</b>."
-  - q: "What's wrong with “Is raining”?"
-    a: "There's no subject. Say <b>It's raining</b>."
+  - q: "How do you say «سرد است» and «باران می‌آید»?"
+    a: "<b>It's cold.</b> · <b>It's raining.</b> (English needs a subject: it.)"
+  - q: "What are the main uses of empty it?"
+    a: "<b>Time</b>, <b>weather</b> and temperature, <b>distance</b>, <b>days and dates</b>."
+  - q: "How do you make a question and a negative?"
+    a: "Question: <b>Is it</b> cold? · <b>How far is it</b>? Negative: <b>It isn't</b> cold / <b>It's not</b> far."
+  - q: "What's wrong with “Is raining” and “There is cold”?"
+    a: "The first has no subject; the second uses there for weather. Say <b>It's raining</b> and <b>It's cold</b>."
 cards:
   - front: "«ساعت پنج است»"
     back: "It's five o'clock."
@@ -88,13 +122,15 @@ cards:
     back: "It's raining."
   - front: "«تا ایستگاه دو کیلومتر است»"
     back: "It's two kilometers to the station."
+  - front: "far in a positive sentence?"
+    back: "Say It's a long way. Use far in questions and negatives: How far is it? It's not far."
   - front: "Uses of empty it"
-    back: "time · weather · distance · days and dates"
+    back: "time · weather and temperature · distance · days and dates"
 ---
 
 ## The empty it
 
-In English, every sentence needs a subject. When there's no real subject (time, weather, distance, days, dates), we use **it**. This **it** means nothing; it just fills the subject place.
+In English, every sentence needs a subject (lesson 3, *Every sentence needs a subject: SVO order*). When there's no real subject, as with time, weather, distance, days and dates, we use **it**. This **it** means nothing. It just fills the subject place.
 
 <FormTable caption="Empty it">
 
@@ -102,25 +138,98 @@ In English, every sentence needs a subject. When there's no real subject (time, 
 |---|---|---|
 | Time | What time is **it**? | **It's** five o'clock. **It's** late. |
 | Weather | What's the weather like? | **It's** cold. **It's** raining. |
+| Temperature | How hot is **it**? | **It's** 30 degrees. |
 | Distance | How far is **it** to the station? | **It's** two kilometers. **It's** not far. |
 | Days and dates | What day is **it**? What's the date? | **It's** Monday. **It's** May 5. |
 
 </FormTable>
 
-<Example context="travel" fa="«تا فرودگاه چقدر راه است؟» «حدود بیست کیلومتر.»">“How far is <mark>it</mark> to the airport?” “<mark>It's</mark> about twenty kilometers.”</Example>
-<Example context="home" fa="بیرون باران می‌آید. چترت را ببر."><mark>It's</mark> raining outside. Take your umbrella.</Example>
+## Time
+
 <Example context="work" fa="دیر است. بیا برویم خانه."><mark>It's</mark> late. Let's go home.</Example>
+<Example context="school" fa="«ساعت چند است؟» «ساعت نُه و نیم است.»">“What time is <mark>it</mark>?” “<mark>It's</mark> half past nine.”</Example>
+
+How to say the time (*half past nine, a quarter to six*) is in lesson 35, *Numbers, dates, times & prices*.
+
+## Weather and temperature
+
+Use **it** + **be** + an adjective, or **it** + a weather verb.
+
+<FormTable caption="Talking about the weather">
+
+| it + be + adjective | it + weather verb |
+|---|---|
+| It's **sunny** / **cloudy** / **windy**. | It's **raining**. (now) |
+| It's **hot** / **warm** / **cold**. | It's **snowing**. (now) |
+| It's **dark** / **light**. | It **rains** a lot in Rasht. (often) |
+| It's **30 degrees**. | It **snowed** yesterday. (past) |
+
+</FormTable>
+
+<Example context="home" fa="بیرون باران می‌آید. چترت را ببر."><mark>It's</mark> raining outside. Take your umbrella.</Example>
+<Example context="news" fa="امروز در تهران هوا ۳۵ درجه است."><mark>It's</mark> 35 degrees in Tehran today.</Example>
+<Example context="home" fa="زمستان هوا خیلی زود تاریک می‌شود."><mark>It</mark> gets dark very early in winter.</Example>
+
+To ask about the weather, say **What's the weather like?** Here *the weather* is the subject, so there is no *it*. You can also ask with *it*: **Is it cold outside?**
+
+## Distance
+
+<Example context="travel" fa="«تا فرودگاه چقدر راه است؟» «حدود بیست کیلومتر.»">“How far is <mark>it</mark> to the airport?” “<mark>It's</mark> about twenty kilometers.”</Example>
+<Example context="travel" fa="ایستگاه دور نیست. با اتوبوس ده دقیقه راه است.">The station isn't far. <mark>It's</mark> ten minutes by bus.</Example>
+
+- Ask: **How far is it** (from here) **to** the station?
+- In everyday English, **far** is mostly used in questions and negatives: *How far is it? It's not far.* In a positive sentence, people usually say **a long way**: *It's a long way to the airport.*
+
+## Days and dates
+
+<Example context="work" fa="امروز دوشنبه است، پس موزه بسته است."><mark>It's</mark> Monday today, so the museum is closed.</Example>
+<Example context="social" fa="امروز تولد من است!"><mark>It's</mark> my birthday today!</Example>
+
+Ask: **What day is it** today? · **What's the date** today? How to say dates (*May 5, the fifth of May*) is in lesson 35.
+
+## Questions and negatives
+
+Empty **it** works like any other subject with **be** (lesson 5, *be: am, is, are*, and lesson 6, *be: questions & short answers*).
+
+<FormTable caption="it with be">
+
+| | Present | Past |
+|---|---|---|
+| Positive | **It's** cold. | **It was** cold. |
+| Negative | **It isn't** cold. / **It's not** cold. | **It wasn't** cold. |
+| Question | **Is it** cold? | **Was it** cold? |
+| Short answer | Yes, **it is**. / No, **it isn't**. | Yes, **it was**. / No, **it wasn't**. |
+
+</FormTable>
+
+<Example context="travel" fa="«دور است؟» «نه، دور نیست.»">“<mark>Is it</mark> far?” “No, <mark>it isn't</mark>.”</Example>
+
+With weather verbs, use the normal verb forms: *Is it raining? It isn't raining.* · *Does it snow here in winter?* (present simple questions, lesson 18).
+
+## it or there?
+
+**there is / there are** says that something exists or is in a place (lesson 14, *there is / there are*). **it** is for time, weather and distance.
+
+<Example context="shopping" fa="نزدیک این‌جا یک داروخانه هست. دور نیست."><mark>There's</mark> a pharmacy near here. <mark>It</mark> isn't far.</Example>
+
+So say **It's cold**, not ~~There is cold~~. More about *it* or *there*, and *It takes ten minutes* and *It's easy to learn*, comes in B1 lesson 4, *it or there?*
 
 <Persian>
 
-**«it» توخالی:** در فارسی برای زمان، هوا و فاصله فاعل نمی‌آوریم: «ساعت پنج است»، «سرد است»، «باران می‌آید». ولی جمله‌ی انگلیسی **همیشه فاعل** لازم دارد. در این موارد از **it** استفاده می‌کنیم که معنایی ندارد و فقط جای فاعل را پر می‌کند:
+**«it» توخالی:** در فارسی برای زمان، هوا، فاصله و روز فاعل نمی‌آوریم: «ساعت پنج است»، «سرد است»، «باران می‌آید»، «امروز دوشنبه است». اما جمله‌ی انگلیسی **همیشه فاعل** لازم دارد. در این موارد از **it** استفاده می‌کنیم که معنایی ندارد و فقط جای فاعل را پر می‌کند:
 
-- زمان: It's five o'clock.
-- هوا: It's cold. / It's raining.
-- فاصله: It's two kilometers to the station.
-- روز و تاریخ: It's Monday. / It's May 5.
+- زمان: It's five o'clock. (ساعت پنج است.) / It's late. (دیر است.)
+- هوا و دما: It's cold. (سرد است.) / It's 30 degrees. (هوا ۳۰ درجه است.) / It's dark. (تاریک است.)
+- فاصله: It's two kilometers to the station. (تا ایستگاه دو کیلومتر است.)
+- روز و تاریخ: It's Monday. (دوشنبه است.) / It's my birthday. (تولد من است.)
 
-**هرگز it را حذف نکنید:** «Is raining» غلط است ← It's raining.
+**«باران می‌آید»:** در فارسی می‌گوییم باران «می‌آید»، اما در انگلیسی rain خودش فعل است و فاعلش it است: **It's raining** (نه The rain comes). برف هم همین‌طور: It's snowing.
+
+**هرگز it را حذف نکنید:** «Is raining» غلط است ← It's raining. همچنین برای هوا از there استفاده نکنید: There is cold ✗ ← It's cold.
+
+**سؤال و منفی:** مثل هر فاعل دیگری با be: Is it cold? (سرد است؟) ← Yes, it is. / No, it isn't. · It isn't far. (دور نیست.) · گذشته: It was sunny yesterday. (دیروز آفتابی بود.)
+
+**دور / راه طولانی:** far بیشتر در سؤال و منفی می‌آید: How far is it? (چقدر راه است؟) · It's not far. (دور نیست.) در جمله‌ی مثبت معمولاً می‌گوییم: It's a long way. (راه زیادی است.)
 
 </Persian>
 
@@ -128,7 +237,9 @@ In English, every sentence needs a subject. When there's no real subject (time, 
 
 <WrongRight wrong="Is very hot today." right="It's very hot today." why="A sentence needs a subject." />
 <WrongRight wrong="There is cold today." right="It's cold today." why="Weather → it, not there." />
+<WrongRight wrong="The rain comes." right="It's raining." why="For rain falling now, use it + the verb rain (Persian «باران می‌آید»)." />
+<WrongRight wrong="How far is to the station?" right="How far is it to the station?" why="The question needs a subject too: is it." />
 
 <MemoryHook title="it holds the seat">
-Every English sentence has a **subject seat**. When nobody sits there (time, weather, distance), **it** holds the seat.
+Every English sentence has a **subject seat**. When nobody sits there (time, weather, distance, days), **it** holds the seat.
 </MemoryHook>

@@ -4,29 +4,41 @@ level: A1
 number: 3
 pillar: sentence-structure
 size: core
-hook: "In Persian you can say «رفتم بازار» with no “I”. In English, “Went to the bazaar” sounds broken. English needs a subject, and the verb comes early."
-rule: "An English sentence needs a subject and a verb, in this order: Subject + Verb + Object, then place, then time."
+hook: "In Persian you can say «دیروز رفتم بازار»: no “I”, and the verb comes late. In English it becomes “I went to the bazaar yesterday”: subject first, then the verb, then place, then time."
+rule: "An English statement needs a subject and a verb, in a fixed order: Subject + Verb + Object (or complement), then place, then time."
 points:
-  - "The order is <b>Subject + Verb + Object</b>: Sara <b>buys</b> bread."
-  - "The verb comes <b>early</b>, right after the subject, not at the end."
-  - "Every sentence needs a subject, even <b>it</b>: <b>It</b>'s raining. <b>It</b>'s late."
-  - "After the object, put the <b>place</b> before the <b>time</b>: I go <b>to work</b> <b>at 8</b>."
-  - "Time can also go at the very start: <b>Yesterday</b> I went to the park."
+  - "The order is <b>Subject + Verb + Object</b>: <b>Sara buys bread.</b> The verb comes <b>early</b>, right after the subject."
+  - "The order shows who does what: <b>The cat sees the dog</b> is not the same as <b>The dog sees the cat</b>."
+  - "Keep the verb and its object together: I like <b>tea very much</b> (not “I like very much tea”)."
+  - "Every sentence needs a subject: <b>I'm</b> tired (not “Am tired”). For weather and time, use <b>it</b>: <b>It's</b> raining. <b>It's</b> late."
+  - "Use one subject only: <b>My brother lives</b> in Canada (not “My brother he lives”)."
+  - "Put <b>place</b> before <b>time</b>: I go <b>to work</b> <b>at 8</b>. Time can also go first: <b>On Fridays</b> I visit my parents."
+  - "Four basic patterns: <b>S+V</b> (Sara smiles) · <b>S+V+O</b> (Sara buys bread) · <b>S+V+complement</b> (Sara is a doctor) · <b>S+V+place</b> (Sara lives in Tabriz)."
 mindmap: |
-  # Word order
+  # Word order: S + V + O
   ## Subject + Verb + Object
-  - Sara (subject)
-  - buys (verb)
-  - bread (object)
-  ## Then
-  - place: at home, to work
-  - time: at 8, today
+  - Sara (S) buys (V) bread (O)
+  - verb early, right after the subject
+  - the order shows who does what
+  - verb + object together: like tea very much
+  ## Basic patterns
+  - S + V: Sara smiles.
+  - S + V + O: Sara buys bread.
+  - S + V + C: Sara is a doctor.
+  - S + V + place: Sara lives in Tabriz.
   ## Always a subject
   - I'm tired (not Am tired)
-  - It's raining (not Is raining)
+  - It's raining · It's five o'clock
+  - one subject: My brother lives…
+  - and: I get up and have breakfast
+  - no subject in orders: Sit down.
+  ## Place before time
+  - I go to work at 8
+  - time can go first: On Fridays…
   ## Persian vs English
   - Persian: verb at the end
-  - English: verb after the subject
+  - Persian drops the subject
+  - English has no را: the order shows the object
 covers:
   - svo-order
   - subject-required
@@ -42,50 +54,88 @@ traps:
     why: "English order is Subject + Verb + Object, then place, then time."
     fa: "در فارسی فعل آخر جمله می‌آید. در انگلیسی فعل درست بعد از فاعل می‌آید."
 exercises:
-  - type: reorder
-    chunks: ["Reza", "plays", "football", "on Fridays."]
-    explain: "Subject (Reza) + verb (plays) + object (football) + time (on Fridays)."
-  - type: reorder
-    chunks: ["I", "go", "to work", "at 8."]
-    alternatives: ["At 8 I go to work."]
-    explain: "Place (to work) comes before time (at 8)."
-  - type: correct
-    prompt: "Is raining today."
-    answers: ["It is raining today.", "It's raining today."]
-    explain: "Every sentence needs a subject. For weather, the subject is it."
-  - type: correct
-    prompt: "I yesterday went to the park."
-    answers: ["I went to the park yesterday.", "Yesterday I went to the park."]
-    explain: "The verb comes right after the subject. Time goes at the end (or the very start)."
   - type: mcq
     prompt: "Which sentence has the right word order?"
     options: ["Sara coffee drinks.", "Sara drinks coffee.", "Drinks Sara coffee."]
     answer: 1
     explain: "Subject + verb + object: Sara drinks coffee."
+  - type: reorder
+    chunks: ["Reza", "plays", "football", "on Fridays."]
+    alternatives: ["On Fridays Reza plays football.", "On Fridays, Reza plays football."]
+    explain: "Subject (Reza) + verb (plays) + object (football) + time (on Fridays)."
+  - type: mcq
+    prompt: "“The cat sees the dog.” Who does the seeing?"
+    options: ["the cat", "the dog"]
+    answer: 0
+    explain: "The subject comes before the verb. The cat is the subject, so the cat does the seeing."
+  - type: correct
+    prompt: "I like very much tea."
+    answers: ["I like tea very much.", "I really like tea.", "I very much like tea."]
+    explain: "Keep the verb and the object together: like tea. Put very much after the object."
+  - type: mcq
+    prompt: "Which sentence is correct?"
+    options: ["She speaks very well English.", "She speaks English very well.", "She very well speaks English."]
+    answer: 1
+    explain: "Verb + object together (speaks English), then how (very well)."
+  - type: match
+    prompt: "Match each sentence with its pattern."
+    pairs:
+      - ["Sara smiles.", "subject + verb"]
+      - ["Sara buys bread.", "subject + verb + object"]
+      - ["Sara is a doctor.", "subject + verb + complement"]
+      - ["Sara lives in Tabriz.", "subject + verb + place"]
+    explain: "Every pattern starts with a subject and a verb. The verb decides what comes next."
   - type: mcq
     prompt: "Choose the correct sentence."
     options: ["Am tired.", "I am tired.", "Tired am I."]
     answer: 1
     explain: "English needs the subject I."
+  - type: correct
+    prompt: "Is raining today."
+    answers: ["It is raining today.", "It's raining today."]
+    explain: "Every sentence needs a subject. For weather, the subject is it."
+  - type: gap
+    prompt: "___ is cold today. Wear a coat!"
+    answers: ["It"]
+    explain: "Weather sentences need the subject it."
+  - type: gap
+    prompt: "Hurry up! ___ is ten o'clock."
+    answers: ["It"]
+    explain: "For the time, the subject is it: It's ten o'clock."
+  - type: correct
+    prompt: "My brother he lives in Canada."
+    answers: ["My brother lives in Canada.", "He lives in Canada."]
+    explain: "One subject only. My brother is the subject, so don't add he."
   - type: mcq
     prompt: "Which sentence sounds more natural?"
     options: ["We watch TV in the evening at home.", "We watch TV at home in the evening."]
     answer: 1
     explain: "Place (at home) usually comes before time (in the evening)."
-  - type: gap
-    prompt: "___ is cold today. Wear a coat!"
-    answers: ["It"]
-    explain: "Weather sentences need the subject it."
+  - type: reorder
+    chunks: ["I", "go", "to work", "at 8."]
+    alternatives: ["At 8 I go to work.", "At 8, I go to work."]
+    explain: "Place (to work) comes before time (at 8)."
+  - type: correct
+    prompt: "I yesterday went to the park."
+    answers: ["I went to the park yesterday.", "Yesterday I went to the park.", "Yesterday, I went to the park."]
+    explain: "The verb comes right after the subject. Time goes at the end (or the very start)."
+  - type: transform
+    prompt: "Put the time at the start: I visit my grandparents on Fridays."
+    start: "On Fridays"
+    answers: ["On Fridays I visit my grandparents.", "On Fridays, I visit my grandparents."]
+    explain: "A time phrase can open the sentence. The rest stays subject + verb + object."
   - type: reorder
     chunks: ["My parents", "live", "in Isfahan."]
-    explain: "Subject + verb + place."
+    explain: "Subject + verb + place. live needs a place after it."
 recall:
   - q: "What is the basic word order of an English sentence?"
-    a: "<b>Subject + Verb + Object</b>, then place, then time."
-  - q: "How do you say «باران می‌بارد» in English?"
-    a: "<b>It's raining.</b> English needs the subject <b>it</b>."
+    a: "<b>Subject + Verb + Object</b>, then place, then time: Sara buys bread at the bakery every morning."
+  - q: "How do you say «باران می‌بارد» or «هوا سرد است» in English?"
+    a: "<b>It's raining.</b> <b>It's cold.</b> English needs the subject <b>it</b>."
+  - q: "Where does very much go in “I like tea”?"
+    a: "After the object: <b>I like tea very much.</b> Don't separate the verb and the object."
   - q: "Which comes first: place or time?"
-    a: "Usually <b>place</b>: I go <b>to school</b> <b>at seven</b>."
+    a: "Usually <b>place</b>: I go <b>to school</b> <b>at seven</b>. Time can also go at the start."
 cards:
   - front: "Basic English word order"
     back: "Subject + Verb + Object + place + time"
@@ -93,13 +143,17 @@ cards:
     back: "I'm tired. (The subject I is necessary.)"
   - front: "✗ Is raining. ✓ ?"
     back: "It's raining."
+  - front: "✗ I like very much tea. ✓ ?"
+    back: "I like tea very much. (verb + object together)"
+  - front: "✗ My brother he lives in Canada. ✓ ?"
+    back: "My brother lives in Canada. (one subject)"
   - front: "Place or time first?"
     back: "Place, then time: at home in the evening."
 ---
 
 ## Subject + Verb + Object
 
-English uses a fixed order. The **verb** comes right after the **subject**, and the **object** comes after the verb.
+English uses a fixed order. The **verb** comes right after the **subject**, and the **object** comes after the verb. Place and time come at the end.
 
 <FormTable caption="The basic order">
 
@@ -114,22 +168,86 @@ English uses a fixed order. The **verb** comes right after the **subject**, and 
 <Example context="home" fa="مادربزرگم هر شب کتاب می‌خواند."><mark>My grandmother reads</mark> a book every night.</Example>
 <Example context="work" fa="او در یک بیمارستان کار می‌کند."><mark>She works</mark> in a hospital.</Example>
 
+### The order shows who does what
+
+In Persian, the little word **را** shows the object, so you can move words around: «علی سارا را دید» and «سارا را علی دید» mean the same thing. English has no *را*. The **order** tells us who does what:
+
+<Example context="home" fa="گربه سگ را می‌بیند." note="the cat = subject (it sees)">The cat sees the dog.</Example>
+<Example context="home" fa="سگ گربه را می‌بیند." note="the dog = subject (it sees)">The dog sees the cat.</Example>
+
+Same words, different order, different meaning. The subject is always **before** the verb.
+
+### Keep the verb and the object together
+
+Don't put words between the verb and its object. Words like *very much*, *well* and *every day* go **after** the object.
+
+<Example context="shopping" fa="من چای را خیلی دوست دارم.">I <mark>like tea</mark> very much. <span class="text-muted-foreground">(not: I like very much tea.)</span></Example>
+<Example context="work" fa="او انگلیسی را خیلی خوب صحبت می‌کند.">She <mark>speaks English</mark> very well. <span class="text-muted-foreground">(not: She speaks very well English.)</span></Example>
+
+### Four basic patterns
+
+Every statement starts with a subject and a verb. The **verb** decides what comes next.
+
+<FormTable caption="Basic sentence patterns">
+
+| Pattern | Example |
+|---|---|
+| subject + verb | Sara **smiles**. The baby **sleeps** a lot. |
+| subject + verb + object | Sara **buys** *bread*. |
+| subject + verb + complement | Sara **is** *a doctor*. Sara **is** *tired*. |
+| subject + verb + place | Sara **lives** *in Tabriz*. |
+
+</FormTable>
+
+Some verbs need a place after them. *She lives.* is not complete. Say *She lives **in Tabriz**.*
+
+Two more patterns come later: *She gave **me** **a book**.* (level A2, lesson 5, “Verbs with two objects: give me it / give it to me”) and *They painted **the door** **red**.* (level C1, lesson 23, “Advanced complementation: painted it red”).
+
 ## Every sentence needs a subject
 
-In Persian the verb ending tells us the subject («می‌روم» = I go), so we often drop the subject. In English the verb doesn't show it, so the **subject is always there**.
+In Persian the verb ending shows the subject («می‌روم» = I go), so we often drop *من*. An English verb doesn't show this, so the **subject is always there**.
 
-<Example context="health" fa="خسته‌ام.">I'm tired. <span class="text-muted-foreground">(not: Am tired.)</span></Example>
-<Example context="travel" fa="هوا گرم است.">It's hot. <span class="text-muted-foreground">(not: Is hot.)</span></Example>
+<Example context="health" fa="خسته‌ام."><mark>I'm</mark> tired. <span class="text-muted-foreground">(not: Am tired.)</span></Example>
+<Example context="social" fa="در بانک کار می‌کنم."><mark>I</mark> work in a bank. <span class="text-muted-foreground">(not: Work in a bank.)</span></Example>
 
-For weather, time and distance there is no real subject, so English uses **it**: *It's raining. It's 5 o'clock. It's far.* (More in lesson A1.34.)
+### it: a subject with no meaning
+
+For weather and time there is no real subject, so English uses **it**. This *it* means nothing. It just fills the subject place.
+
+<Example context="travel" fa="هوا گرم است."><mark>It's</mark> hot. <span class="text-muted-foreground">(not: Is hot.)</span></Example>
+<Example context="news" fa="باران می‌بارد."><mark>It's</mark> raining.</Example>
+<Example context="work" fa="ساعت پنج است. وقت رفتن است."><mark>It's</mark> five o'clock. Time to go home!</Example>
+
+More uses of this *it* (distance, dates) are in lesson 34 (it for time, weather & distance). For *There is a bank near here*, see lesson 14 (there is / there are).
+
+### One subject, not two
+
+Say the subject **once**. Don't add a pronoun after a noun subject.
+
+<Example context="home" fa="برادرم در کانادا زندگی می‌کند."><mark>My brother</mark> lives in Canada. <span class="text-muted-foreground">(not: My brother he lives in Canada.)</span></Example>
+
+When two verbs share one subject and you join them with **and**, you don't need to say the subject again: *I get up **and** have breakfast.*
+
+### Orders have no subject
+
+An order or instruction (an **imperative**) has no subject: *Sit down. Open your books.* That is lesson 20 (Imperatives & let's). All other sentences need a subject.
 
 ## Place before time
 
 When you have both, the usual order is **place → time**:
 
 <Example context="school" fa="ما ساعت هشت به مدرسه می‌رویم.">We go <mark>to school</mark> <mark>at eight</mark>.</Example>
+<Example context="home" fa="ما شب‌ها در خانه تلویزیون تماشا می‌کنیم.">We watch TV <mark>at home</mark> <mark>in the evening</mark>.</Example>
 
 A time phrase can also open the sentence: *<mark>On Fridays</mark> we visit my grandparents.*
+
+In Persian the time usually comes first («ساعت هشت به مدرسه می‌رویم»), so this order feels strange at first. Practice it until it sounds natural.
+
+Where to put words like *always* and *never* is lesson 19 (Adverbs of frequency: always, usually, never). The full order of *how, where* and *when* is level B1, lesson 46 (Where adverbs go).
+
+## Questions change the order
+
+This lesson is about **statements**. Questions use a different order: *You are ready.* → *Are you ready?* That is lesson 6 (be: questions & short answers), and questions with *do* are lesson 18 (Present simple: negatives & questions).
 
 <Persian>
 
@@ -138,18 +256,29 @@ A time phrase can also open the sentence: *<mark>On Fridays</mark> we visit my g
 - فارسی: «من هر روز صبح در نانوایی نان می‌خرم.» ← فعل آخر است.
 - انگلیسی: I buy bread at the bakery every morning. ← فعل (buy) درست بعد از فاعل (I) آمده است.
 
-**فاعل را حذف نکنید:** در فارسی شناسه‌ی فعل («می‌روم»، «خسته‌ام») فاعل را نشان می‌دهد، پس اغلب «من» را نمی‌گوییم. در انگلیسی فعل این اطلاعات را ندارد، پس **فاعل همیشه لازم است**: I'm tired. حتی برای هوا و زمان که فاعل واقعی ندارند، از **it** استفاده می‌کنیم: It's raining.
+**ترتیب، معنی را نشان می‌دهد:** در فارسی «را» مفعول را نشان می‌دهد، پس می‌توانیم کلمه‌ها را جابه‌جا کنیم. انگلیسی «را» ندارد و فقط **جای کلمه** نشان می‌دهد چه کسی کار را انجام می‌دهد: The cat sees the dog (گربه سگ را می‌بیند) با The dog sees the cat (سگ گربه را می‌بیند) فرق دارد.
 
-**مکان قبل از زمان:** I go to work at 8. (نه I go at 8 to work.)
+**فعل و مفعول کنار هم:** در فارسی قید را قبل از فعل می‌گذاریم: «چای را **خیلی** دوست دارم». در انگلیسی بین فعل و مفعول چیزی نمی‌گذاریم: I like tea very much (نه I like very much tea و نه I very like tea).
+
+**فاعل را حذف نکنید:** در فارسی شناسه‌ی فعل («می‌روم»، «خسته‌ام») فاعل را نشان می‌دهد، پس اغلب «من» را نمی‌گوییم. در انگلیسی فعل این اطلاعات را ندارد، پس **فاعل همیشه لازم است**: I'm tired. فقط جمله‌های امری فاعل ندارند: Sit down.
+
+**it برای هوا و زمان:** در فارسی می‌گوییم «هوا سرد است» یا «ساعت پنج است». در انگلیسی به جای «هوا» و «ساعت» از **it** استفاده می‌کنیم: It's cold. / It's five o'clock. این it معنایی ندارد و فقط جای فاعل را پر می‌کند.
+
+**یک فاعل، نه دو تا:** نگویید My brother he lives in Canada. فقط یک فاعل: My brother lives in Canada.
+
+**مکان قبل از زمان:** در فارسی معمولاً زمان اول می‌آید («ساعت هشت سر کار می‌روم»)، اما در انگلیسی مکان قبل از زمان است: I go to work at 8 (نه I go at 8 to work). زمان را می‌توانیم اول جمله هم بگذاریم: At 8 I go to work.
 
 </Persian>
 
 ## Common mistakes
 
 <WrongRight wrong="My brother every day football plays." right="My brother plays football every day." why="Verb right after the subject; time at the end." />
+<WrongRight wrong="I very like tea." right="I like tea very much." why="very much goes after the object, not before the verb." />
 <WrongRight wrong="Is very hot today." right="It is very hot today." why="Weather sentences need the subject it." />
+<WrongRight wrong="Air is cold today." right="It's cold today." why="For weather, English uses it, not air (Persian هوا)." />
+<WrongRight wrong="My sister she is a nurse." right="My sister is a nurse." why="One subject only." />
 <WrongRight wrong="I go at 8 to work." right="I go to work at 8." why="Place before time." />
 
 <MemoryHook title="S-V-O, then P before T">
-**S**ubject, **V**erb, **O**bject, then **P**lace before **T**ime (P comes before T in the alphabet, too).
+**S**ubject, **V**erb, **O**bject, then **P**lace before **T**ime (P comes before T in the alphabet, too). And never leave the S out: if there's no real subject, use **it**.
 </MemoryHook>

@@ -4,33 +4,48 @@ level: A1
 number: 7
 pillar: sentence-structure
 size: core
-hook: "First day in a new class: “What's your name? Where are you from? How old are you?” Three question words, and you have a new friend."
-rule: "Put the question word first, then be (or do), then the subject: Where are you from?"
+hook: "First day in a new class: “What's your name? Where are you from? How old are you?” Three short questions, and you have a new friend."
+rule: "Put the question word first. Then put be (or do / does) before the subject: Where are you from? Where do you live?"
 points:
-  - "<b>what</b> = thing · <b>where</b> = place · <b>who</b> = person · <b>when</b> = time · <b>why</b> = reason · <b>how</b> = way or condition"
-  - "Order: <b>question word + be + subject</b>: Where <b>are you</b> from?"
-  - "With other verbs: <b>question word + do / does + subject + verb</b>: Where <b>do you</b> work? (lesson A1.18)"
-  - "<b>how old</b> (age) · <b>how much</b> (price, amount) · <b>how many</b> (number) · <b>how far</b> (distance)"
-  - "Answer <b>why</b> with <b>because</b>: Why are you late? Because the bus was late."
+  - "<b>what</b> = a thing or information · <b>who</b> = a person · <b>where</b> = a place · <b>when</b> = a time · <b>why</b> = a reason · <b>how</b> = the way or how someone is"
+  - "With be: <b>question word + be + subject</b>: Where <b>are you</b> from? (not “Where you are from?”)"
+  - "With other verbs: <b>question word + do / does + subject + verb</b>: Where <b>do you live</b>? (more in lesson 18)"
+  - "<b>how old</b> = age · <b>how much</b> = price or amount · <b>how many</b> + plural noun = number · <b>how far</b> = distance"
+  - "<b>what + noun</b>: <b>What time</b> is the class? · <b>What color</b> is your car?"
+  - "Answer <b>why</b> with <b>because</b>: Why are you late? Because the bus is late."
+  - "In speech, <b>is</b> is often short: <b>What's</b>, <b>Where's</b>, <b>Who's</b>, <b>How's</b>."
 mindmap: |
   # Question words
-  ## Things & people
-  - what: a thing
+  ## Which word?
+  - what: a thing, information
   - who: a person
-  ## Place & time
   - where: a place
   - when: a time
-  ## Reason & way
   - why: a reason → because
-  - how: way, condition
+  - how: the way, how someone is
+  ## what + noun
+  - What time…? (clock time)
+  - What color…?
   ## how + word
   - how old: age
   - how much: price, amount
-  - how many: number
+  - how many + plural: number
   - how far: distance
-  ## Word order
+  - how big: size
+  ## Order with be
+  - word + be + subject
   - Where are you from?
-  - Where do you work?
+  - What's your name?
+  ## Order with other verbs
+  - word + do / does + subject + verb
+  - Where do you live?
+  - What does she do?
+  ## Answers
+  - not yes / no
+  - give the information: Iran.
+  ## Later
+  - which, whose, how long: A2 lesson 1
+  - Who called you?: B1 lesson 1
 covers:
   - question-words
   - how-questions
@@ -38,128 +53,270 @@ covers:
 persian: full
 exercises:
   - type: mcq
-    prompt: "___ is your birthday? In May."
+    prompt: "“___ is your birthday?” “In May.”"
     options: ["What", "When", "Where"]
     answer: 1
     explain: "The answer is a time, so the question word is when."
   - type: mcq
-    prompt: "___ is that man? He's my teacher."
+    prompt: "“___ is that man?” “He's my teacher.”"
     options: ["Who", "What", "Why"]
     answer: 0
     explain: "The answer is a person, so we ask who."
   - type: mcq
-    prompt: "___ are you sad? Because I lost my phone."
+    prompt: "“___ are you sad?” “Because I lost my phone.”"
     options: ["How", "Why", "Where"]
     answer: 1
     explain: "The answer gives a reason (because…), so we ask why."
+  - type: mcq
+    prompt: "How much ___ these shoes?"
+    options: ["is", "are", "do"]
+    answer: 1
+    explain: "these shoes is plural → are. How much is it? / How much are they?"
   - type: gap
-    prompt: "How ___ is this bag? It's $20."
+    prompt: "“How ___ is this bag?” “It's $20.”"
     answers: ["much"]
     explain: "For a price we ask how much."
   - type: gap
-    prompt: "How ___ brothers do you have?"
+    prompt: "“How ___ brothers do you have?” “Two.”"
     answers: ["many"]
-    explain: "brothers can be counted, so we ask how many."
+    explain: "brothers is a plural noun we can count, so we ask how many."
   - type: gap
-    prompt: "How ___ are you? I'm 25."
+    prompt: "“How ___ are you?” “I'm 25.”"
     answers: ["old"]
     explain: "For age we ask how old."
+  - type: gap
+    prompt: "“How ___ is the airport?” “About 20 kilometers.”"
+    answers: ["far"]
+    explain: "For distance we ask how far."
+  - type: gap
+    prompt: "“___ time is the meeting?” “At ten.”"
+    answers: ["What"]
+    explain: "what + noun: What time…? asks about clock time."
+  - type: gap
+    prompt: "“Where ___ you live?” “In Tabriz.”"
+    answers: ["do"]
+    explain: "live is not be, so we need do: question word + do + subject + verb."
   - type: reorder
     chunks: ["Where", "are", "you", "from?"]
     explain: "Question word + be + subject: Where are you from?"
+  - type: reorder
+    chunks: ["What", "does", "your sister", "do?"]
+    explain: "Question word + does + subject + verb. This question asks about her job."
   - type: correct
     prompt: "Where you are from?"
     answers: ["Where are you from?"]
     explain: "In a question, be comes before the subject."
   - type: correct
-    prompt: "How much brothers do you have?"
-    answers: ["How many brothers do you have?"]
-    explain: "brothers is countable → how many."
+    prompt: "How many years do you have?"
+    answers: ["How old are you?"]
+    explain: "We ask about age with how old + be."
+  - type: transform
+    prompt: "Ask a question with where. The answer is: Sara is at the bank."
+    answers: ["Where is Sara?", "Where's Sara?"]
+    explain: "Where + is + subject: Where is Sara?"
   - type: match
-    prompt: "Match each question word with what it asks about."
+    prompt: "Match each question with its answer."
     pairs:
-      - ["What", "a thing"]
-      - ["Where", "a place"]
-      - ["Who", "a person"]
-      - ["When", "a time"]
-      - ["How far", "a distance"]
-    explain: "Each question word asks about one kind of information."
+      - ["Where are you from?", "Iran."]
+      - ["How are you?", "Fine, thanks."]
+      - ["Who is she?", "My sister."]
+      - ["When is the class?", "On Monday."]
+      - ["Why are you late?", "Because the bus is late."]
+    explain: "Each question word asks for one kind of information: a place, how someone is, a person, a time, a reason."
 recall:
-  - q: "Which question word asks about a place? A person? A time?"
-    a: "<b>where</b> (place) · <b>who</b> (person) · <b>when</b> (time)."
-  - q: "What is the word order in “Where are you from?”"
-    a: "<b>question word + be + subject</b> + the rest."
-  - q: "How do you ask about a price? About a number of things?"
-    a: "<b>How much</b> is it? · <b>How many</b> brothers do you have?"
+  - q: "Which question word asks about a place? A person? A time? A reason?"
+    a: "<b>where</b> (place) · <b>who</b> (person) · <b>when</b> (time) · <b>why</b> (reason)."
+  - q: "What is the word order in “Where are you from?” and in “Where do you live?”"
+    a: "<b>question word + be + subject</b> · <b>question word + do / does + subject + verb</b>."
+  - q: "How do you ask about age, a price and a number of things?"
+    a: "<b>How old</b> are you? · <b>How much</b> is it? · <b>How many</b> brothers do you have?"
+  - q: "How do you usually answer a why question?"
+    a: "With <b>because</b>: Why are you tired? <b>Because</b> I work at night."
 cards:
-  - front: "what · where · who · when · why · how"
-    back: "thing · place · person · time · reason · way"
+  - front: "what · who · where · when · why · how"
+    back: "thing · person · place · time · reason · way / how someone is"
   - front: "Word order: Where ___ ___ from?"
     back: "Where are you from? (question word + be + subject)"
+  - front: "Where ___ you live?"
+    back: "do: question word + do / does + subject + verb"
   - front: "how old / how much / how many / how far"
     back: "age / price, amount / number / distance"
+  - front: "✗ How many years do you have? ✓ ?"
+    back: "How old are you?"
   - front: "Answer to Why…?"
-    back: "Because…: Why are you late? Because the bus was late."
+    back: "Because…: Why are you late? Because the bus is late."
 ---
 
-## The question words
+## The six question words
+
+A question word asks for **information**. You can't answer it with *yes* or *no*.
 
 <FormTable caption="Question words">
 
-| Word | Asks about | Example |
-|---|---|---|
-| **what** | a thing, information | What's your name? |
-| **where** | a place | Where is the station? |
-| **who** | a person | Who is your teacher? |
-| **when** | a time | When is the meeting? |
-| **why** | a reason | Why are you late? |
-| **how** | the way, a condition | How are you? |
+| Word | Asks about | Example | Answer |
+|---|---|---|---|
+| **what** | a thing, information | What's your name? | Sara. |
+| **who** | a person | Who is your teacher? | Mr. Ahmadi. |
+| **where** | a place | Where is the station? | On Park Street. |
+| **when** | a time | When is the party? | On Friday. |
+| **why** | a reason | Why are you tired? | Because I work at night. |
+| **how** | the way, how someone is | How are you? | Fine, thanks. |
 
 </FormTable>
 
 <Example context="social" fa="اسمت چیست؟ اهل کجایی؟"><mark>What</mark>'s your name? <mark>Where</mark> are you from?</Example>
 <Example context="work" fa="مدیر جدید کیست؟"><mark>Who</mark> is the new manager?</Example>
 <Example context="travel" fa="پرواز کی است؟"><mark>When</mark> is the flight?</Example>
+<Example context="health" fa="مادرت حالش چطور است؟"><mark>How</mark> is your mother?</Example>
+
+We answer with the information. A short answer is fine: “Where are you from?” “**Iran.**” or “**I'm from Iran.**”
+
+## what + noun
+
+**what** can go before a noun. Two very common questions:
+
+- **What time** is the meeting? · At ten. (*what time* = the time on the clock)
+- **What color** is your car? · Blue.
+
+**when** asks about any time: a day, a month, a year or a clock time. **what time** asks only about the clock.
+
+<Example context="work" fa="جلسه ساعت چند است؟"><mark>What time</mark> is the meeting?</Example>
+
+## how
+
+**how** has two simple uses:
+
+- **How someone is** (health and feelings): *How are you?* · *Fine, thanks.*
+- **The way** to do something: *How do you spell your name?*
+
+<Example context="school" fa="اسمت را چطور می‌نویسی؟"><mark>How</mark> do you spell your name?</Example>
 
 ## how + another word
 
-**how** joins with another word to ask about age, price, number and distance:
+**how** joins with another word to ask about age, price, number, distance and size.
 
-- **How old** are you? · I'm 30.
-- **How much** is this coffee? · It's $3.
-- **How many** children do they have? · Two.
-- **How far** is the airport? · It's 20 kilometers.
+<FormTable caption="how + word">
+
+| Question | Asks about | Example | Answer |
+|---|---|---|---|
+| **how old** | age | How old are you? | I'm 30. |
+| **how much** | a price, an amount | How much is this coffee? | It's $3. |
+| **how many** | a number (+ plural noun) | How many children do they have? | Two. |
+| **how far** | distance | How far is the airport? | About 20 kilometers. |
+| **how big** | size | How big is your apartment? | It's small. |
+
+</FormTable>
+
+Three things to remember:
+
+- **Age** uses **how old** + **be**: *How old are you?* Never ~~How many years do you have?~~
+- **Price**: *How much **is** it?* for one thing, *How much **are** they?* for two or more.
+- **how many** goes with a plural noun you can count: *How many **brothers**?* **how much** goes with things you don't count, like *money* or *water*: *How much money do you have?* Lesson 15 (Countable & uncountable nouns; some, any, how much, how many) explains this fully.
 
 <Example context="shopping" fa="این ژاکت چند است؟"><mark>How much</mark> is this jacket?</Example>
+<Example context="school" fa="چند تا دانشجو در کلاست هست؟"><mark>How many</mark> students are in your class?</Example>
 
-## The word order
+## Word order with be
 
-The question word comes **first**. With **be**, the order is: question word + **be** + subject.
+The question word comes **first**. Then **be** comes **before** the subject.
 
-- **Where are you** from? (not *Where you are from?*)
-- **What is** your phone number?
+<FormTable caption="Question word + be + subject">
 
-With other verbs we use **do / does**: *Where **do you** live?* You'll practice this in lesson A1.18.
+| Question word | be | Subject | Rest |
+|---|---|---|---|
+| Where | **are** | you | from? |
+| What | **is** | your phone number? | |
+| Who | **is** | that woman? | |
+| How old | **is** | your son? | |
+| How much | **are** | these shoes? | |
+
+</FormTable>
+
+- **Where are you** from? (not ~~Where you are from?~~)
+- **What is** your name? (not ~~What your name is?~~)
+
+In speech, **is** is often short after a question word: **What's**, **Where's**, **Who's**, **How's**. With **are**, use the full form in writing: *Where are you from?*
+
+<Example context="travel" fa="ایستگاه قطار کجاست؟"><mark>Where's</mark> the train station?</Example>
+
+## Word order with other verbs: do / does
+
+When the verb is **not be** (live, work, like…), we add **do** or **does** before the subject. The main verb comes after the subject, with no ending.
+
+<FormTable caption="Question word + do / does + subject + verb">
+
+| Question word | do / does | Subject | Verb |
+|---|---|---|---|
+| Where | **do** | you | live? |
+| What | **do** | they | want? |
+| When | **does** | the bank | open? |
+| What | **does** | she | do? |
+
+</FormTable>
+
+- **does** goes with he, she, it (and one person or thing). **do** goes with I, you, we, they.
+- After *does*, the verb has no **-s**: *Where does she **live**?* (not ~~Where does she lives?~~)
+- *What do you do?* asks about someone's **job**: *I'm a nurse.*
+
+You'll practice *do* and *does* in detail in lesson 18 (Present simple: negatives & questions).
+
+<Example context="work" fa="کجا کار می‌کنی؟">Where <mark>do you</mark> work?</Example>
+<Example context="shopping" fa="بانک کی باز می‌شود؟">When <mark>does</mark> the bank open?</Example>
+
+## why and because
+
+We usually answer **why** with **because**.
+
+<Example context="school" fa="«چرا دیر کردی؟» «چون ترافیک سنگین است.»">“<mark>Why</mark> are you late?” “<mark>Because</mark> the traffic is bad.”</Example>
+
+**Why not?** is a short reply to a negative sentence: “I'm not hungry.” “**Why not?**”
+
+## Coming later
+
+- **which**, **whose**, **how long**, **how often** and **What … like?** are in A2 lesson 1 (Wh- questions: which, whose, how long, what … like).
+- Questions like *Who called you?*, where **who** or **what** is the subject and there is no *do*, are in B1 lesson 1 (Subject & object questions).
 
 <Persian>
 
-**کلمات پرسشی:** what (چه / چی)، where (کجا)، who (چه کسی / کی)، when (چه وقت / کی)، why (چرا)، how (چطور).
+**کلمه‌های پرسشی (question words):**
 
-**با how:** how old (چند سال)، how much (چقدر؛ برای قیمت و چیزهای غیرقابل‌شمارش)، how many (چند تا؛ برای چیزهای قابل‌شمارش)، how far (چقدر دور).
+- **what** = چه / چی (برای چیزها و اطلاعات): What's your name? (اسمت چیست؟)
+- **who** = چه کسی (برای آدم‌ها): Who is your teacher? (معلمت کیست؟)
+- **where** = کجا (برای مکان): Where is the bank? (بانک کجاست؟)
+- **when** = چه وقت / کِی (برای زمان): When is your birthday? (تولدت کی است؟)
+- **why** = چرا (برای دلیل). جواب معمولاً با because (چون) شروع می‌شود.
+- **how** = چطور (برای حال و روش): How are you? (حالت چطور است؟)
 
-**ترتیب کلمات:** کلمه‌ی پرسشی همیشه **اول** جمله می‌آید و بعد از آن **فعل** و بعد **فاعل**:
+**دقت کنید:** در فارسی «کی» هم به معنی «چه کسی» است و هم به معنی «چه وقت». در انگلیسی این‌ها دو کلمه‌ی جدا هستند: **Who?** = چه کسی؟ و **When?** = چه وقت؟
 
-- Where are you from? (نه Where you are from?)
+**what + اسم:** What time…? (ساعت چند…؟) · What color…? (چه رنگی…؟)
 
-در فارسی می‌گوییم «تو اهل کجایی؟» و کلمه‌ی پرسشی وسط یا آخر جمله است، اما در انگلیسی همیشه اول است. جواب why معمولاً با because شروع می‌شود.
+**how + کلمه:**
+
+- **how old** = چند سال (برای سن): How old are you? (چند سالته؟) نه How many years do you have?
+- **how much** = چقدر / چند (برای قیمت و مقدار): How much is this bag? (این کیف چند است؟)
+- **how many** = چند تا (برای تعداد، با اسم جمع): How many brothers do you have? (چند تا برادر داری؟)
+- **how far** = چقدر دور (برای فاصله) · **how big** = چقدر بزرگ (برای اندازه)
+
+**ترتیب کلمات، مهم‌ترین نکته:** در فارسی کلمه‌ی پرسشی معمولاً همان جایی می‌آید که جواب در جمله‌ی معمولی می‌آید: «من **در تبریز** زندگی می‌کنم» ← «تو **کجا** زندگی می‌کنی؟». بقیه‌ی جمله هم جابه‌جا نمی‌شود. اما در انگلیسی:
+
+- کلمه‌ی پرسشی همیشه **اول** جمله می‌آید.
+- فعل be **قبل از فاعل** می‌آید: Where **are you** from? (نه Where you are from?)
+- با فعل‌های دیگر، **do** یا **does** را قبل از فاعل می‌گذاریم: Where **do you** live? (نه Where you live?) فارسی کلمه‌ای مثل do ندارد، برای همین فارسی‌زبان‌ها آن را جا می‌اندازند.
+
+**جواب:** به این سؤال‌ها با yes یا no جواب نمی‌دهیم؛ خودِ اطلاعات را می‌گوییم: Where are you from? ← Iran. / I'm from Iran.
 
 </Persian>
 
 ## Common mistakes
 
-<WrongRight wrong="What your name is?" right="What is your name?" why="Question word + be + subject." />
-<WrongRight wrong="How many money do you have?" right="How much money do you have?" why="money can't be counted → how much." />
+<WrongRight wrong="Where you are from?" right="Where are you from?" why="Question word + be + subject." />
+<WrongRight wrong="What your name is?" right="What's your name?" why="be comes before the subject in a question." />
+<WrongRight wrong="Where you live?" right="Where do you live?" why="With verbs other than be, add do / does before the subject." />
+<WrongRight wrong="Where does she lives?" right="Where does she live?" why="After does, the verb has no -s." />
+<WrongRight wrong="How many years do you have?" right="How old are you?" why="Age uses how old + be." />
+<WrongRight wrong="How much brothers do you have?" right="How many brothers do you have?" why="brothers is a plural noun we count → how many." />
 
 <MemoryHook title="The 5 W's and an H">
-Reporters ask **who, what, where, when, why** and **how**. Learn the six, and you can ask about anything.
+Reporters ask **who, what, where, when, why** and **how**. Learn the six, put them **first**, and put **be** or **do** right after them.
 </MemoryHook>

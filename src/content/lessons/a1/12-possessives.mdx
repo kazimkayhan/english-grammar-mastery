@@ -5,30 +5,41 @@ number: 12
 pillar: pronouns
 size: core
 hook: "“Is this your phone?” “No, it's my sister's phone.” Two ways to say who something belongs to: my, your… and 's."
-rule: "Use my, your, his, her, its, our, their before a noun, or add 's to a person: Sara's phone."
+rule: "Use my, your, his, her, its, our, their before a noun, or add 's to a person: Sara's phone. The owner always comes first."
 points:
   - "I → <b>my</b> · you → <b>your</b> · he → <b>his</b> · she → <b>her</b> · it → <b>its</b> · we → <b>our</b> · they → <b>their</b>"
-  - "<b>his</b> = belongs to a man · <b>her</b> = belongs to a woman: Reza and <b>his</b> wife · Maryam and <b>her</b> husband"
-  - "Person + <b>'s</b>: Sara<b>'s</b> phone · my brother<b>'s</b> car"
+  - "<b>his</b> or <b>her</b>? Look at the <b>owner</b>: Reza and <b>his</b> wife · Maryam and <b>her</b> husband"
+  - "Person + <b>'s</b>: Sara<b>'s</b> phone · my brother<b>'s</b> car (owner first)"
   - "<b>its</b> (belonging to it) has no apostrophe; <b>it's</b> = it is"
+  - "No <b>a</b> or <b>the</b> with my, your…: <b>my</b> car (not the my car)"
+  - "Use my, your… for family, body parts and clothes: I'm washing <b>my</b> hands."
   - "Persian puts the owner after the noun («ماشینِ سارا»); English puts it <b>before</b>: <b>Sara's car</b>"
 mindmap: |
   # Possession
   ## my · your · his · her
   - I → my
-  - you → your
+  - you → your (one or many)
   - he → his
   - she → her
   ## its · our · their
   - it → its
   - we → our
   - they → their
+  ## his or her?
+  - look at the owner
+  - Maryam and her husband
   ## 's
   - Sara's phone
   - my brother's car
-  ## its or it's?
-  - its = of it
-  - it's = it is
+  - owner first
+  ## No a / the
+  - my car (not the my car)
+  ## Family, body, clothes
+  - my mother
+  - wash my hands
+  ## Sound-alikes
+  - its = of it · it's = it is
+  - their = of them · there = that place
 covers:
   - possessive-adjectives
   - possessive-s
@@ -63,9 +74,18 @@ exercises:
     answers: ["their"]
     explain: "the children = they → their."
   - type: gap
-    prompt: "The cat is eating ___ food."
+    prompt: "The cat is hungry. Where is ___ food?"
     answers: ["its"]
     explain: "The cat = it → its (no apostrophe)."
+  - type: gap
+    prompt: "Excuse me, is this ___ bag?"
+    answers: ["your"]
+    explain: "You are talking to the person → your."
+  - type: gap
+    prompt: "This is my ___ car."
+    base: "brother"
+    answers: ["brother's"]
+    explain: "Owner + 's + thing: my brother's car."
   - type: transform
     prompt: "Rewrite with 's: the phone of Sara"
     answers: ["Sara's phone"]
@@ -75,20 +95,37 @@ exercises:
     answers: ["This is Ali's car."]
     explain: "For people, use 's: Ali's car."
   - type: correct
-    prompt: "The dog is wagging it's tail."
-    answers: ["The dog is wagging its tail."]
+    prompt: "The dog is in it's bed."
+    answers: ["The dog is in its bed."]
     explain: "its = belonging to it (no apostrophe). it's = it is."
   - type: mcq
-    prompt: "“___ raining again!” Which is correct?"
+    prompt: "“___ a beautiful day!” Which is correct?"
     options: ["Its", "It's"]
     answer: 1
-    explain: "It's = It is raining."
+    explain: "It's = It is a beautiful day."
+  - type: correct
+    prompt: "My sister lives with his husband."
+    answers: ["My sister lives with her husband."]
+    explain: "The owner is my sister, a woman → her."
+  - type: correct
+    prompt: "Where is the my phone?"
+    answers: ["Where is my phone?", "Where's my phone?"]
+    explain: "Don't use the (or a) with my, your, his…"
+  - type: mcq
+    prompt: "I'm washing ___ hands."
+    options: ["the", "my", "me"]
+    answer: 1
+    explain: "For body parts, English uses my, your, his…: my hands."
+  - type: reorder
+    chunks: ["My", "father's", "name", "is", "Hassan."]
+    explain: "Owner + 's + thing: my father's name."
   - type: match
     prompt: "Match each subject pronoun with its possessive."
     pairs:
       - ["I", "my"]
       - ["he", "his"]
       - ["she", "her"]
+      - ["it", "its"]
       - ["we", "our"]
       - ["they", "their"]
     explain: "Each subject pronoun has its own possessive word."
@@ -98,7 +135,9 @@ recall:
   - q: "How do you say «ماشینِ برادرم» in English?"
     a: "<b>my brother's car</b>: owner first, then 's, then the thing."
   - q: "What's the difference between its and it's?"
-    a: "<b>its</b> = belonging to it (its tail). <b>it's</b> = it is (it's late)."
+    a: "<b>its</b> = belonging to it (its bed). <b>it's</b> = it is (it's late)."
+  - q: "Why is “Maryam and his husband” wrong?"
+    a: "his / her depends on the <b>owner</b>. Maryam is a woman → <b>her</b> husband."
 cards:
   - front: "I / you / he / she / it / we / they → possessive"
     back: "my / your / his / her / its / our / their"
@@ -108,9 +147,15 @@ cards:
     back: "Sara's car"
   - front: "its vs it's"
     back: "its = of it · it's = it is"
+  - front: "✗ the my phone ✓ ?"
+    back: "my phone (no a / the with my, your…)"
+  - front: "I'm washing ___ hands."
+    back: "my hands (body parts take my, your, his…)"
 ---
 
 ## Possessive words
+
+Each subject pronoun (lesson 4) has a **possessive** word. It goes **before a noun** and shows who something belongs to.
 
 <FormTable caption="Subject → possessive">
 
@@ -126,36 +171,112 @@ cards:
 
 </FormTable>
 
+- The possessive word never changes for a plural noun: *my book*, *my books*.
+- **your** is for one person or many people, like *you* (lesson 4).
+
 <Example context="social" fa="این برادرم و همسرش هستند.">This is my brother and <mark>his</mark> wife.</Example>
 <Example context="work" fa="این خانم مدیر ماست. دفترش طبقه‌ی دوم است.">This is <mark>our</mark> manager. <mark>Her</mark> office is on the second floor.</Example>
+<Example context="travel" fa="بلیت‌ها و پاسپورت‌هایتان، لطفاً.">Your tickets and <mark>your</mark> passports, please.</Example>
 
 ## his or her? Look at the owner
 
-The choice depends on the **owner**, not on the thing: *Reza and **his** mother* (Reza is a man) · *Maryam and **her** husband* (Maryam is a woman).
+The choice depends on the **owner**, not on the thing:
+
+- *Reza and **his** mother* (Reza is a man → **his**)
+- *Maryam and **her** husband* (Maryam is a woman → **her**)
+- *The company and **its** workers* (a company is a thing → **its**)
+
+<Example context="home" fa="سارا با پدرش زندگی می‌کند.">Sara lives with <mark>her</mark> father.</Example>
+<Example context="news" fa="تهران به‌خاطر بازارش معروف است.">Tehran is famous for <mark>its</mark> bazaar.</Example>
+
+## No a or the with my, your…
+
+**my, your, his…** already tell us *which one*. So we don't add **a** or **the**:
+
+- **my** car (not ~~the my car~~) · **her** brother (not ~~a her brother~~)
+
+To say *one of my friends*, English says *a friend of mine*. That is in A2 lesson 33 (mine, yours… and whose).
+
+## Family, body parts and clothes
+
+We use **my, your, his…** for people in our family, for parts of the **body** and for **clothes**. English doesn't use *the* here.
+
+<Example context="health" fa="دست‌هایم را می‌شویم.">I'm washing <mark>my</mark> hands.</Example>
+<Example context="home" fa="مادرم دکتر است."><mark>My</mark> mother is a doctor.</Example>
+<Example context="travel" fa="کتت را بپوش. سرد است.">Put on <mark>your</mark> coat. It's cold.</Example>
 
 ## 's for people
 
-To say something belongs to a person, add **'s** to the person. The **owner comes first**:
+To say something belongs to a **person** (or an animal), add **'s** to the owner. The **owner comes first**, then the thing:
+
+<FormTable caption="Owner + 's + thing">
+
+| Owner | + 's | Thing |
+|---|---|---|
+| Sara | **'s** | phone |
+| my brother | **'s** | car |
+| Mr. Karimi | **'s** | office |
+| the dog | **'s** | bed |
+
+</FormTable>
 
 <Example context="home" fa="این گوشیِ سارا است.">This is <mark>Sara's</mark> phone.</Example>
 <Example context="travel" fa="ماشینِ پدرم در پارکینگ است."><mark>My father's</mark> car is in the parking lot.</Example>
+<Example context="work" fa="دفترِ آقای کریمی طبقه‌ی سوم است."><mark>Mr. Karimi's</mark> office is on the third floor.</Example>
+
+Remember from lesson 5: **'s** can mean three things. Context tells you which:
+
+- **'s = is**: *She's a nurse.*
+- **'s = has**: *She's got a car.* (lesson 16)
+- **'s = possessive**: *Sara's car.* (this lesson)
+
+For a plural noun that ends in -s, add only an apostrophe: *my parents' house*. That and words like *children's* are in A2 lesson 33. For things, English often uses **of** instead: *the end **of** the movie*. That is in B2 lesson 35 (Possession 3: 's, of or noun + noun?).
 
 ## its or it's?
 
-- **its** = belonging to *it*: *The company changed **its** name.*
+These two sound the same, but they are different words:
+
+- **its** = belonging to *it*: *The company changed **its** name.* (no apostrophe)
 - **it's** = *it is*: ***It's** a good company.*
+
+<Example context="shopping" fa="این کافه عالی است. قهوه‌اش بهترین است.">I love this café. <mark>Its</mark> coffee is the best. <mark>It's</mark> very cheap, too.</Example>
+
+A test: can you say **it is**? Then write **it's**. If not, write **its**.
+
+The same thing happens with **their** and **there**. They sound the same:
+
+- **their** = belonging to them: *They love **their** jobs.*
+- **there** = in that place: *Put it **there**.*
+- **they're** = they are (lesson 5): ***They're** at home.*
+
+## Coming later
+
+- **mine, yours, his, hers, ours, theirs**, **Whose…?** and **a friend of mine** are in A2 lesson 33 (mine, yours… and whose).
+- **'s** or **of** for things and times are in B2 lesson 35 (Possession 3: 's, of or noun + noun?).
 
 <Persian>
 
-**صفت‌های ملکی:** my (ـَم / مال من)، your (ـَت / مال تو)، his (مال او، مرد)، her (مال او، زن)، its (مال آن)، our (ـِمان)، their (ـِشان).
+**صفت‌های ملکی:** در فارسی مالکیت را بیشتر با ضمیرهای چسبیده نشان می‌دهیم که **بعد** از اسم می‌آیند: «کتاب**م**»، «خانه‌**مان**». در انگلیسی کلمه‌ی ملکی **قبل** از اسم می‌آید:
 
-- کتابم = my book، خانه‌مان = our house
+- my (ـَم) ← my book (کتابم)
+- your (ـَت / ـِتان) ← your phone (گوشی‌ات / گوشی‌تان)
+- his (ـَش، برای مرد) ← his car (ماشینش)
+- her (ـَش، برای زن) ← her bag (کیفش)
+- its (ـَش، برای چیز یا حیوان) ← its name (اسمش)
+- our (ـِمان) ← our house (خانه‌مان)
+- their (ـِشان) ← their children (بچه‌هایشان)
 
-**his یا her؟** به «صاحب» نگاه کنید، نه به چیز: «مریم و شوهرش» = Maryam and **her** husband (چون مریم زن است).
+**his یا her؟** در فارسی «ـَش» برای مرد و زن یکی است، برای همین فارسی‌زبان‌ها his و her را قاطی می‌کنند. به **صاحب** نگاه کنید، نه به چیز: «مریم و شوهرش» = Maryam and **her** husband (چون مریم زن است). «رضا و مادرش» = Reza and **his** mother (چون رضا مرد است).
 
-**'s برای آدم‌ها:** «ماشینِ سارا» در انگلیسی برعکس است: **Sara's car**. اول صاحب، بعد s'، بعد چیز.
+**a و the با my نمی‌آیند:** my car (نه the my car).
 
-**its و it's:** its یعنی «مالِ آن» و آپاستروف ندارد. it's یعنی it is.
+**اعضای بدن و لباس:** در انگلیسی با my, your… می‌آیند: I'm washing my hands (دست‌هایم را می‌شویم).
+
+**'s برای آدم‌ها:** «ماشینِ سارا» در انگلیسی برعکس است: **Sara's car**. اول صاحب، بعد s'، بعد چیز. «ماشینِ برادرم» = my brother's car. نگویید the car of Sara.
+
+**its و it's:** its یعنی «مالِ آن» و آپاستروف ندارد. it's یعنی it is. اگر بتوانید جایش it is بگذارید، it's بنویسید.
+
+**their و there:** هم‌صدا هستند. their = مالِ آن‌ها، there = آنجا.
 
 </Persian>
 
@@ -163,6 +284,9 @@ To say something belongs to a person, add **'s** to the person. The **owner come
 
 <WrongRight wrong="My sister lives with his husband." right="My sister lives with her husband." why="The owner is a woman → her." />
 <WrongRight wrong="the book of my teacher" right="my teacher's book" why="For people, use 's: owner first." />
+<WrongRight wrong="Where is the my phone?" right="Where is my phone?" why="No a / the with my, your, his…" />
+<WrongRight wrong="The dog is in it's bed." right="The dog is in its bed." why="its = belonging to it. it's = it is." />
+<WrongRight wrong="They love there jobs." right="They love their jobs." why="their = belonging to them. there = in that place." />
 
 <MemoryHook title="Owner first, then the thing">
 English puts the **owner first**: **Sara's** car, **my** car. Persian puts it last (ماشینِ **سارا**). Flip it!

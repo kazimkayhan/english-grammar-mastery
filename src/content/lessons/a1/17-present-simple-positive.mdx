@@ -5,29 +5,36 @@ number: 17
 pillar: tenses
 size: core
 hook: "“I work in a bank. My wife works in a hospital.” Same verb, but with he / she / it it gets an -s."
-rule: "Use the present simple for habits, routines, facts and permanent situations: I work. With he / she / it add -s: she works."
+rule: "Use the present simple for habits, routines, facts, permanent situations, and likes and opinions. Use the base verb (I work); with he / she / it add -s (she works). Don't add am / is / are."
 points:
-  - "I / you / we / they + <b>verb</b>: I work, they live"
-  - "he / she / it + verb<b>-s</b>: she work<b>s</b>, he live<b>s</b>"
-  - "Spelling: go → go<b>es</b> · watch → watch<b>es</b> · study → stud<b>ies</b> · have → <b>has</b> · do → <b>does</b>"
-  - "Use it for <b>habits</b> (I drink tea every day), <b>facts</b> (Water boils at 100°C) and <b>permanent</b> things (She lives in Tabriz)."
-  - "agree, depend, like are verbs: <b>I agree</b> (not I am agree), <b>It depends</b>."
+  - "I / you / we / they + <b>verb</b>: I work, they live. Plural nouns too: <b>My parents live</b> in Isfahan."
+  - "he / she / it + verb<b>-s</b>: she work<b>s</b>, he live<b>s</b>. One person or thing too: <b>My father works</b> here."
+  - "Spelling: go → go<b>es</b> · watch → watch<b>es</b> · study → stud<b>ies</b> · play → play<b>s</b> · have → <b>has</b> · do → <b>does</b>"
+  - "Use it for <b>habits</b> and <b>routines</b> (I drink tea every day), <b>facts</b> (Water boils at 100°C) and <b>permanent</b> things (She lives in Tabriz)."
+  - "Also for <b>likes, wants and opinions</b>: I <b>like</b> pizza. She <b>wants</b> a new phone. I <b>think</b> so."
+  - "No am / is / are with other verbs: <b>I live</b> in Tehran (not I am live). <b>I agree</b> (not I am agree). <b>It depends</b>."
 mindmap: |
   # Present simple +
   ## Form
   - I / you / we / they work
   - he / she / it works
+  - my parents live · my father lives
   ## -s spelling
-  - go → goes
-  - watch → watches
-  - study → studies
-  - have → has
+  - most verbs: works, plays
+  - -s, -sh, -ch, -x, -o → -es: watches, goes
+  - consonant + y → -ies: studies
+  - have → has · be → is
   ## Uses
   - habits: I drink tea every day
   - routines: She starts at 8
   - facts: Water boils at 100°C
   - permanent: He lives in Yazd
+  - likes & opinions: I like it
+  ## Time words
+  - every day · on Mondays
+  - in the morning · at night
   ## Trap
+  - I live (not I am live)
   - I agree (not I am agree)
 covers:
   - present-simple-positive
@@ -65,51 +72,83 @@ exercises:
     base: "study"
     answers: ["studies"]
     explain: "consonant + y → -ies: studies."
+  - type: gap
+    prompt: "Ali ___ football on Fridays."
+    base: "play"
+    answers: ["plays"]
+    explain: "vowel + y → just add -s: plays."
   - type: mcq
     prompt: "We ___ in a small apartment."
     options: ["live", "lives"]
     answer: 0
     explain: "we → no -s."
+  - type: mcq
+    prompt: "My parents ___ in Isfahan."
+    options: ["live", "lives"]
+    answer: 0
+    explain: "My parents = they (plural) → no -s."
+  - type: mcq
+    prompt: "Which is correct?"
+    options: ["It's depend on the price.", "It depends on the price.", "It depend on the price."]
+    answer: 1
+    explain: "depend is a verb; with it → depends. No is."
   - type: correct
     prompt: "He have two cars."
-    answers: ["He has two cars."]
+    answers: ["He has two cars.", "He's got two cars.", "He has got two cars."]
     explain: "have → has with he / she / it."
   - type: correct
     prompt: "I am agree with you."
     answers: ["I agree with you."]
     explain: "agree is a verb: I agree."
   - type: correct
-    prompt: "The shop open at nine."
-    answers: ["The shop opens at nine."]
-    explain: "The shop = it → opens."
+    prompt: "The store open at nine."
+    answers: ["The store opens at nine."]
+    explain: "The store = it → opens."
+  - type: correct
+    prompt: "She studys English every evening."
+    answers: ["She studies English every evening."]
+    explain: "consonant + y → -ies: studies."
+  - type: correct
+    prompt: "I am live in Tehran."
+    answers: ["I live in Tehran."]
+    explain: "live is the verb. Don't add am: I live."
+  - type: transform
+    prompt: "Start with “My sister”: I go to work by bus."
+    start: "My sister"
+    answers: ["My sister goes to work by bus."]
+    explain: "My sister = she → go becomes goes."
+  - type: reorder
+    chunks: ["She", "drinks", "coffee", "every morning."]
+    alternatives: ["Every morning she drinks coffee.", "Every morning, she drinks coffee."]
+    explain: "Subject + verb (+ -s) + object + time."
   - type: match
     prompt: "Match each sentence with its use."
     pairs:
       - ["I drink tea every morning.", "a habit"]
       - ["Water boils at 100°C.", "a fact"]
       - ["She lives in Tabriz.", "a permanent situation"]
+      - ["I like Persian music.", "a like or opinion"]
     explain: "The present simple is for things that are true in general or happen regularly."
-  - type: mcq
-    prompt: "Which is correct?"
-    options: ["It's depend on the price.", "It depends on the price.", "It depend on the price."]
-    answer: 1
-    explain: "depend is a verb; with it → depends."
 recall:
   - q: "When does the verb get -s in the present simple?"
-    a: "With <b>he, she, it</b> (and one person or thing): she work<b>s</b>, it rain<b>s</b>."
-  - q: "What are the -s forms of go, watch, study and have?"
-    a: "<b>goes, watches, studies, has</b>."
+    a: "With <b>he, she, it</b> (and one person or thing): she work<b>s</b>, it rain<b>s</b>, my father live<b>s</b>."
+  - q: "What are the -s forms of go, watch, study, play and have?"
+    a: "<b>goes, watches, studies, plays, has</b>."
+  - q: "Name four uses of the present simple."
+    a: "<b>Habits/routines</b>, <b>facts</b>, <b>permanent situations</b>, and <b>likes and opinions</b>."
   - q: "How do you say «موافقم»?"
     a: "<b>I agree.</b> (agree is a verb, so no am)."
 cards:
   - front: "Present simple with he / she / it"
     back: "verb + s: she works, he lives"
-  - front: "go / watch / study / have → he ___"
-    back: "goes / watches / studies / has"
+  - front: "go / watch / study / play / have → he ___"
+    back: "goes / watches / studies / plays / has"
   - front: "«موافقم»"
     back: "I agree. (not I am agree)"
   - front: "Uses of the present simple"
-    back: "habits · routines · facts · permanent situations"
+    back: "habits · routines · facts · permanent situations · likes and opinions"
+  - front: "✗ I am live in Tehran. ✓ ?"
+    back: "I live in Tehran. (no am with other verbs)"
 ---
 
 ## The form
@@ -119,11 +158,18 @@ cards:
 | Subject | Verb | Example |
 |---|---|---|
 | I / you / we / they | **work** | I **work** in an office. |
+| plural nouns (my parents, the kids) | **work** | My parents **work** in Shiraz. |
 | he / she / it | **works** | She **works** in a hospital. |
+| one person or thing (my father, the store) | **works** | The store **opens** at nine. |
 
 </FormTable>
 
-Only **he / she / it** (or one person or thing) takes **-s**. That little -s is the most common mistake in English, so listen for it.
+Only **he / she / it** (or one person or thing) takes **-s**. That little -s is a very common mistake, so listen for it.
+
+<Example context="work" fa="من در بانک کار می‌کنم. همسرم در بیمارستان کار می‌کند.">I <mark>work</mark> in a bank. My wife <mark>works</mark> in a hospital.</Example>
+<Example context="home" fa="پدر و مادرم در اصفهان زندگی می‌کنند.">My parents <mark>live</mark> in Isfahan.</Example>
+
+**Use the verb alone.** Don't put *am, is* or *are* before it: **I live** in Tehran, not ~~I am live~~. **She works** here, not ~~She is work~~. (*be* has its own forms, lesson 5.)
 
 ## Spelling the -s
 
@@ -131,43 +177,102 @@ Only **he / she / it** (or one person or thing) takes **-s**. That little -s is 
 
 | Verb ends in | Add | Examples |
 |---|---|---|
-| most verbs | **-s** | work**s**, live**s**, play**s** |
-| -s, -sh, -ch, -x, -o | **-es** | watch**es**, wash**es**, go**es**, do**es** |
-| consonant + y | y → **-ies** | stud**ies**, cr**ies**, carr**ies** |
-| have | irregular | **has** |
+| most verbs | **-s** | work**s**, live**s**, read**s** |
+| -s, -ss, -sh, -ch, -x, -z | **-es** | kiss**es**, wash**es**, watch**es**, fix**es** |
+| -o | **-es** | go**es**, do**es** |
+| consonant + y | y → **-ies** | stud**ies**, cr**ies**, carr**ies**, tr**ies** |
+| vowel + y (ay, ey, oy, uy) | **-s** | play**s**, say**s**, enjoy**s**, buy**s** |
+| have / be | irregular | **has** / **is** |
 
 </FormTable>
+
+<Example context="home" fa="رضا بعد از شام تلویزیون تماشا می‌کند.">Reza <mark>watches</mark> TV after dinner.</Example>
+<Example context="school" fa="خواهرم در دانشگاه پزشکی می‌خواند.">My sister <mark>studies</mark> medicine at university.</Example>
+<Example context="social" fa="علی جمعه‌ها فوتبال بازی می‌کند.">Ali <mark>plays</mark> soccer on Fridays.</Example>
+
+Words like **can** never take -s: *She **can** swim* (lesson 21).
 
 ## When do we use it?
 
 <Timeline items={[{ type: "repeat", from: -0.9, to: 0.9, label: "every day" }]} caption="Habits and routines: again and again, past, now and future." />
 
+**1. Habits and routines**: things we do again and again.
+
 <Example context="home" fa="هر روز صبح چای می‌نوشم.">I <mark>drink</mark> tea every morning.</Example>
-<Example context="work" fa="کلاس ساعت هشت شروع می‌شود.">The class <mark>starts</mark> at eight.</Example>
+<Example context="school" fa="کلاس ساعت هشت شروع می‌شود.">The class <mark>starts</mark> at eight.</Example>
+
+**2. Facts**: things that are always true.
+
 <Example context="news" fa="آب در صد درجه می‌جوشد.">Water <mark>boils</mark> at 100°C.</Example>
+<Example context="travel" fa="رود کارون از اهواز می‌گذرد.">The Karun River <mark>flows</mark> through Ahvaz.</Example>
+
+**3. Permanent situations**: where we live, where we work, things that don't change soon.
+
 <Example context="social" fa="خواهرم در شیراز زندگی می‌کند.">My sister <mark>lives</mark> in Shiraz.</Example>
+<Example context="work" fa="او برای یک شرکت بزرگ کار می‌کند.">He <mark>works</mark> for a big company.</Example>
+
+**4. Likes, wants and opinions**: *like, love, want, need, know, think, agree*.
+
+<Example context="shopping" fa="او یک گوشی جدید می‌خواهد.">She <mark>wants</mark> a new phone.</Example>
+<Example context="social" fa="با تو موافقم.">I <mark>agree</mark> with you.</Example>
+
+## Time words
+
+These words often go with the present simple:
+
+- **every** day / week / morning / year
+- **on** Mondays / on weekends
+- **in** the morning / in the evening · **at** night
+- once a week, twice a day
+
+*I visit my grandmother **on Fridays**. She calls me **every evening**.* Words like *always, usually, never* come in lesson 19 (Adverbs of frequency: always, usually, never).
+
+## Coming later
+
+- Negatives and questions (*I don't work. Does she work?*) come in lesson 18 (Present simple: negatives & questions).
+- For things happening **now**, English uses the present continuous: *I'm working now* (lesson 22). Lesson 23 (Present simple or present continuous?) compares the two.
+- *like* + *-ing* (*I like swimming*) comes in lesson 24 (like, love, hate + -ing; would like).
+- The present simple for timetables (*The train leaves at 8*) comes in B1 lesson 11 (All the futures compared).
 
 <Persian>
 
-**حال ساده (present simple):** برای عادت‌ها، کارهای روزمره، حقایق و موقعیت‌های دائمی.
+**حال ساده (present simple):** برای عادت‌ها و کارهای روزمره، حقایق، موقعیت‌های دائمی، و علاقه و نظر.
 
-- I / you / we / they ← فعل ساده: I work.
-- he / she / it ← فعل + **s**: She work**s**.
+- I / you / we / they ← فعل ساده: I work. / My parents work.
+- he / she / it ← فعل + **s**: She work**s**. / My father work**s**.
 
-**املای s:** go ← goes، watch ← watches، study ← studies، have ← has.
+**چرا s را جا می‌اندازیم؟** در فارسی فعل برای همه‌ی شخص‌ها شناسه می‌گیرد: می‌روم، می‌روی، می‌رود، می‌رویم… در انگلیسی فعل فقط **یک** تغییر دارد: با he / she / it یک **s** می‌گیرد. چون این تغییر کوچک است، راحت فراموش می‌شود. همیشه بپرسید: فاعل یک نفر یا یک چیز است (به جز I و you)؟ پس s لازم است.
+
+**املای s:**
+- بیشتر فعل‌ها ← s: works، plays
+- بعد از s، sh، ch، x، z و o ← es: watches، washes، goes، does
+- حرف بی‌صدا + y ← ies: study ← studies
+- have ← has
+
+**کاربردها:**
+- عادت: I drink tea every morning. (هر روز صبح چای می‌نوشم.)
+- حقیقت: Water boils at 100°C. (آب در صد درجه می‌جوشد.)
+- موقعیت دائمی: She lives in Tabriz. (در تبریز زندگی می‌کند.)
+- علاقه و نظر: I like pizza. / I agree. (پیتزا دوست دارم. / موافقم.)
 
 **دو اشتباه رایج فارسی‌زبان‌ها:**
 
 ۱. جا انداختن s: «She work» غلط است ← She **works**.
-۲. «I am agree»: در فارسی «موافق هستم» می‌گوییم، ولی agree خودش فعل است: **I agree**. همین‌طور «It's depend» غلط است ← **It depends**.
+۲. اضافه کردن am / is: در فارسی «موافق **هستم**» می‌گوییم، ولی agree خودش فعل است: **I agree**. همین‌طور «It's depend» غلط است ← **It depends**، و «I am live in Tehran» غلط است ← **I live** in Tehran.
+
+**توجه:** در فارسی «می‌روم» هم برای عادت است و هم برای همین الان. در انگلیسی برای عادت present simple (I go) و برای همین الان present continuous (I'm going) داریم. این را در درس ۲۲ و ۲۳ می‌بینید.
 
 </Persian>
 
 ## Common mistakes
 
-<WrongRight wrong="My brother live in Canada." right="My brother lives in Canada." why="he → lives." />
+<WrongRight wrong="My brother live in Canada." right="My brother lives in Canada." why="My brother = he → lives." />
 <WrongRight wrong="She studys English." right="She studies English." why="consonant + y → -ies." />
+<WrongRight wrong="He watchs TV every night." right="He watches TV every night." why="-ch → -es." />
+<WrongRight wrong="My parents lives in Shiraz." right="My parents live in Shiraz." why="Plural subject → no -s." />
+<WrongRight wrong="I am live in Tehran." right="I live in Tehran." why="Don't add am / is / are to another verb." />
+<WrongRight wrong="She cans swim." right="She can swim." why="can never takes -s." />
 
 <MemoryHook title="The lonely -s">
-**He, she and it** are alone, so they get an extra friend: **-s**. *She work**s**, he live**s**, it rain**s**.*
+**He, she and it** are alone, so they get an extra friend: **-s**. *She work**s**, he live**s**, it rain**s**.* Everyone else uses the plain verb.
 </MemoryHook>

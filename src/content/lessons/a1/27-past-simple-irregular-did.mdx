@@ -4,31 +4,41 @@ level: A1
 number: 27
 pillar: tenses
 size: core
-hook: "“Did you see the match?” “No, I didn't see it. I went to bed early.” Irregular verbs have their own past forms, and did helps with questions."
-rule: "Many common verbs have an irregular past (go → went). For negatives and questions, use didn't / Did + base form for every subject."
+hook: "Monday morning: “Did you see the match last night?” “No, I didn't. I went to bed early.” Some verbs have their own past form (went), and did helps with negatives and questions."
+rule: "Many common verbs have an irregular past (go → went) that you must learn. For negatives and questions, every verb uses didn't / Did + the base form, for every subject: I didn't go. Did you go? Where did you go?"
 points:
-  - "Irregular pasts must be learned: go → <b>went</b>, see → <b>saw</b>, have → <b>had</b>, buy → <b>bought</b>"
-  - "Negative: <b>didn't</b> + base form: I <b>didn't go</b>. (not didn't went)"
-  - "Question: <b>Did</b> + subject + base form: <b>Did</b> you <b>see</b> it?"
-  - "Short answers: Yes, I <b>did</b>. / No, I <b>didn't</b>."
-  - "Wh- questions: What <b>did</b> you <b>do</b>? Where <b>did</b> she <b>go</b>?"
+  - "Many common verbs are <b>irregular</b>: go → <b>went</b>, see → <b>saw</b>, have → <b>had</b>, buy → <b>bought</b>. Learn them in groups."
+  - "Like regular verbs, the irregular past is the <b>same for every subject</b>: I / she / they <b>went</b>."
+  - "Negative: <b>didn't</b> + base form, for every verb: I <b>didn't go</b> (not “didn't went”)."
+  - "Question: <b>Did</b> + subject + base form: <b>Did</b> you <b>see</b> it? Short answers: <b>Yes, I did.</b> / <b>No, I didn't.</b>"
+  - "Wh- questions: question word + <b>did</b> + subject + base form: What <b>did</b> you <b>do</b>? Where <b>did</b> she <b>go</b>?"
+  - "No did with <b>be</b>: <b>I wasn't</b> · <b>Were you</b>…? (lesson 25)."
+  - "No did when <b>who / what</b> is the subject: <b>Who called</b> you? <b>What happened</b>?"
 mindmap: |
   # Past simple: irregular & did
   ## Irregular pasts
-  - go → went
-  - see → saw
-  - have → had
-  - buy → bought
-  - eat → ate
+  - go → went · see → saw
+  - have → had · do → did
+  - same for every subject
+  ## Groups
+  - no change: put → put
+  - -t: sleep → slept
+  - -ought: buy → bought
+  - vowel change: drink → drank
+  - other: go → went
   ## Negative
   - didn't + base form
-  - I didn't go
-  ## Question
+  - I didn't go (not didn't went)
+  ## Yes/no questions
+  - Did + subject + base form
   - Did you see it?
-  - Yes, I did / No, I didn't
+  - Yes, I did · No, I didn't
   ## Wh- questions
   - What did you do?
   - Where did she go?
+  ## No did
+  - with be: I wasn't, Were you…?
+  - subject questions: Who called?
 covers:
   - past-simple-irregular
   - did-negative-questions
@@ -51,31 +61,61 @@ exercises:
     answers: ["bought"]
     explain: "buy → bought (irregular)."
   - type: gap
-    prompt: "She ___ her keys at work."
+    prompt: "She ___ her keys at work this morning."
     base: "leave"
     answers: ["left"]
     explain: "leave → left (irregular)."
+  - type: gap
+    prompt: "I ___ Ali at the party. Was he there?"
+    base: "not / see"
+    answers: ["didn't see", "did not see"]
+    explain: "Negative: didn't + base form → didn't see."
+  - type: mcq
+    prompt: "She ___ to work yesterday. She was sick."
+    options: ["didn't go", "didn't went", "not went"]
+    answer: 0
+    explain: "didn't + base form: didn't go."
   - type: correct
     prompt: "I didn't saw him at the party."
-    answers: ["I didn't see him at the party."]
+    answers: ["I didn't see him at the party.", "I did not see him at the party."]
     explain: "After didn't, use the base form: see."
   - type: correct
     prompt: "Did you went to work yesterday?"
     answers: ["Did you go to work yesterday?"]
     explain: "After did, use the base form: go."
   - type: correct
-    prompt: "Where you went last weekend?"
-    answers: ["Where did you go last weekend?"]
-    explain: "Wh- question: question word + did + subject + base form."
+    prompt: "We eated pizza last night."
+    answers: ["We ate pizza last night."]
+    explain: "eat is irregular: ate."
   - type: mcq
     prompt: "“Did you have breakfast?” “Yes, I ___.”"
     options: ["did", "had", "do"]
     answer: 0
-    explain: "Short answer: Yes, I did."
+    explain: "Short answer: Yes, I did. Repeat did, not the main verb."
   - type: transform
     prompt: "Make it negative: We saw the film."
     answers: ["We didn't see the film.", "We did not see the film."]
     explain: "didn't + base form: didn't see."
+  - type: transform
+    prompt: "Make a question: She bought a new car."
+    answers: ["Did she buy a new car?"]
+    explain: "Did + subject + base form: Did she buy…?"
+  - type: gap
+    prompt: "Where ___ you meet your wife?"
+    answers: ["did"]
+    explain: "Wh- question in the past: question word + did + subject + base form."
+  - type: correct
+    prompt: "Where you went last weekend?"
+    answers: ["Where did you go last weekend?"]
+    explain: "Wh- question: question word + did + subject + base form."
+  - type: reorder
+    chunks: ["What", "did", "you", "do", "yesterday?"]
+    explain: "Question word + did + subject + base form. Here do is the main verb."
+  - type: mcq
+    prompt: "___ you at home last night?"
+    options: ["Did", "Were", "Was"]
+    answer: 1
+    explain: "No did with be. you → Were you…?"
   - type: match
     prompt: "Match each verb with its irregular past."
     pairs:
@@ -84,17 +124,16 @@ exercises:
       - ["write", "wrote"]
       - ["think", "thought"]
       - ["take", "took"]
-    explain: "Irregular pasts have to be learned one by one; see the Reference page."
-  - type: reorder
-    chunks: ["What", "did", "you", "do", "yesterday?"]
-    explain: "Question word + did + subject + base form."
+    explain: "Irregular pasts have to be learned one by one. See the irregular verbs list."
 recall:
   - q: "How do you make the past simple negative?"
-    a: "<b>didn't + base form</b> for every subject: I didn't go, she didn't go."
+    a: "<b>didn't + base form</b> for every subject and every verb: I didn't go, she didn't work."
   - q: "Why is “I didn't saw” wrong?"
     a: "<b>did</b> already shows the past, so the main verb stays in the <b>base form</b>: I didn't see."
-  - q: "What are the pasts of go, see, buy and have?"
-    a: "<b>went, saw, bought, had</b>."
+  - q: "How do you ask a wh- question in the past?"
+    a: "Question word + <b>did</b> + subject + base form: <b>Where did you go?</b> What <b>did</b> you <b>do</b>?"
+  - q: "When do we NOT use did?"
+    a: "With <b>be</b> (I wasn't, Were you…?) and when <b>who / what</b> is the subject (Who called you?)."
 cards:
   - front: "go / see / buy / have → past"
     back: "went · saw · bought · had"
@@ -102,72 +141,147 @@ cards:
     back: "didn't + base form: I didn't go."
   - front: "✗ Did you saw it? ✓ ?"
     back: "Did you see it?"
+  - front: "“Did you call her?” Short answers"
+    back: "Yes, I did. / No, I didn't."
   - front: "«دیروز چه کار کردی؟»"
     back: "What did you do yesterday?"
+  - front: "✗ Where you went? ✓ ?"
+    back: "Where did you go?"
 ---
 
 ## Irregular verbs
 
-Many of the most common verbs don't add -ed. They have their own past form:
-
-<FormTable caption="20 essential irregular verbs">
-
-| Base | Past | Base | Past |
-|---|---|---|---|
-| go | **went** | come | **came** |
-| see | **saw** | get | **got** |
-| have | **had** | make | **made** |
-| buy | **bought** | take | **took** |
-| eat | **ate** | give | **gave** |
-| drink | **drank** | find | **found** |
-| write | **wrote** | think | **thought** |
-| leave | **left** | know | **knew** |
-| say | **said** | tell | **told** |
-| sleep | **slept** | meet | **met** |
-
-</FormTable>
-
-You'll find all of them, grouped by level, in the [irregular verbs list](/reference#irregular). Learn the A1 list first.
+Many of the most common verbs don't add -ed. They have their **own past form**, and you have to learn it.
 
 <Example context="travel" fa="تابستان گذشته به کیش رفتیم.">Last summer we <mark>went</mark> to Kish.</Example>
 <Example context="shopping" fa="دیروز یک گوشی جدید خریدم.">I <mark>bought</mark> a new phone yesterday.</Example>
+<Example context="home" fa="دیشب هشت ساعت خوابیدم.">I <mark>slept</mark> for eight hours last night.</Example>
 
-## Negatives and questions: did
+The good news: like regular verbs, the irregular past is **the same for every subject**. *I went, she went, they went.* No -s.
 
-For **every** verb, regular or irregular, negatives and questions use **did**. The main verb goes back to the **base form**.
+## Irregular verbs in groups
 
-<FormTable caption="Past simple: negative and question">
+It is easier to learn them in groups. Here are the most useful A1 verbs:
 
-| | Form | Example |
-|---|---|---|
-| **−** | **didn't** + base form | I **didn't go** to work. |
-| **?** | **Did** + subject + base form | **Did** you **go** to work? |
-| **Short answers** | Yes, I **did**. / No, I **didn't**. | |
-| **Wh- ?** | question word + **did** + subject + base form | Where **did** you **go**? |
+<FormTable caption="Common irregular verbs">
+
+| Group | Base → past |
+|---|---|
+| **No change** | put → **put** · cost → **cost** · read → **read** (said /red/) |
+| **Ends in -t** | sleep → **slept** · leave → **left** · meet → **met** · feel → **felt** · lose → **lost** · send → **sent** · spend → **spent** |
+| **-ought / -aught** | buy → **bought** · bring → **brought** · think → **thought** · teach → **taught** |
+| **Vowel change** | drink → **drank** · swim → **swam** · sing → **sang** · begin → **began** · come → **came** · get → **got** · sit → **sat** · run → **ran** · win → **won** |
+| **Other changes** | go → **went** · see → **saw** · eat → **ate** · take → **took** · write → **wrote** · speak → **spoke** · drive → **drove** · know → **knew** · fly → **flew** |
+| **Small changes** | have → **had** · make → **made** · do → **did** · say → **said** · pay → **paid** · tell → **told** · sell → **sold** · hear → **heard** · find → **found** · stand → **stood** |
 
 </FormTable>
 
+You'll find all of them, with their Persian meanings, in the [irregular verbs list](/reference#irregular). Learn the A1 list first. More irregular verbs come in A2 lesson 7 (Past simple: more irregular verbs).
+
+The past of **be** is *was / were* (lesson 25). The past of **get** is *got*. (American English also has *gotten*, used after *have*: *I've gotten*. That comes with the present perfect, in A2 lesson 15, *Present perfect: experience*.)
+
+## Negatives: didn't + base form
+
+For **every** verb, regular or irregular, the negative is **didn't** (*did not*) + the **base form**. It is the same for every subject.
+
+<FormTable caption="Past simple: negative">
+
+| Positive | Negative | Full form (formal, written) |
+|---|---|---|
+| I **went** to work. | I **didn't go** to work. | I **did not go** to work. |
+| She **saw** the film. | She **didn't see** the film. | She **did not see** the film. |
+| They **worked** late. | They **didn't work** late. | They **did not work** late. |
+
+</FormTable>
+
+**did** already shows the past, so the main verb goes back to the base form: *didn't go*, not ~~didn't went~~.
+
+<Example context="work" fa="دیروز سر کار نرفتم. مریض بودم.">I <mark>didn't go</mark> to work yesterday. I was sick.</Example>
+<Example context="school" fa="او تکلیفش را انجام نداد.">He <mark>didn't do</mark> his homework.</Example>
+
+## Yes/no questions and short answers
+
+Put **Did** before the subject, and use the **base form**: **Did + subject + base form**.
+
+<FormTable caption="Past simple: questions and short answers">
+
+| Question | Yes | No |
+|---|---|---|
+| **Did** you **see** the match? | Yes, I **did**. | No, I **didn't**. |
+| **Did** she **call** you? | Yes, she **did**. | No, she **didn't**. |
+| **Did** they **enjoy** the trip? | Yes, they **did**. | No, they **didn't**. |
+
+</FormTable>
+
+In short answers, repeat **did**, not the main verb: *Yes, I did*, not ~~Yes, I saw~~.
+
 <Example context="social" fa="«بازی را دیدی؟» «نه، ندیدم. زود خوابیدم.»">“<mark>Did</mark> you <mark>see</mark> the match?” “No, I <mark>didn't</mark>. I <mark>went</mark> to bed early.”</Example>
-<Example context="work" fa="آخر هفته چه کار کردی؟">What <mark>did</mark> you <mark>do</mark> at the weekend?</Example>
+<Example context="health" fa="«دارویت را خوردی؟» «بله، خوردم.»">“<mark>Did</mark> you <mark>take</mark> your medicine?” “Yes, I <mark>did</mark>.”</Example>
+
+## Wh- questions
+
+Put the question word first: **question word + did + subject + base form**.
+
+<FormTable caption="Wh- questions in the past">
+
+| Question word | did | Subject | Base form | |
+|---|---|---|---|---|
+| What | **did** | you | **do** | yesterday? |
+| Where | **did** | she | **go** | on vacation? |
+| When | **did** | they | **arrive**? | |
+| Who | **did** | you | **meet** | at the party? |
+| Why | **did** | he | **leave** | early? |
+| How | **did** | you | **get** | here? |
+| What time | **did** | the film | **start**? | |
+
+</FormTable>
+
+Look at *What did you **do**?* Here **did** is the helper and **do** is the main verb (*I did my homework. I went shopping.*).
+
+<Example context="work" fa="آخر هفته چه کار کردی؟">What <mark>did</mark> you <mark>do</mark> on the weekend?</Example>
+<Example context="travel" fa="کی به تهران رسیدی؟">When <mark>did</mark> you <mark>arrive</mark> in Tehran?</Example>
+<Example context="shopping" fa="آن کفش‌ها را از کجا خریدی؟">Where <mark>did</mark> you <mark>buy</mark> those shoes?</Example>
+
+## When we don't use did
+
+- **With be.** The verb *be* makes its own negatives and questions: *I **wasn't** at home. **Were** you tired?* Not ~~I didn't be~~ or ~~Did you be~~. (See lesson 25.)
+- **When who or what is the subject.** If the question word is the person or thing that did the action, use normal word order and the past form: **Who called** you? **What happened**? Compare: Who **did** you **call**? (you called someone). B1 lesson 1 (Subject & object questions) teaches this in full.
 
 <Persian>
 
-**فعل‌های بی‌قاعده:** بسیاری از فعل‌های پرکاربرد ed نمی‌گیرند و گذشته‌ی خاص خودشان را دارند: go ← went، see ← saw، buy ← bought. این‌ها را باید حفظ کنید (فهرست کامل در صفحه‌ی Reference).
+**فعل‌های بی‌قاعده:** بسیاری از فعل‌های پرکاربرد ed نمی‌گیرند و گذشته‌ی خاص خودشان را دارند: go ← went (رفتم)، see ← saw (دیدم)، buy ← bought (خریدم). این‌ها را باید حفظ کنید. بهتر است آن‌ها را **گروهی** یاد بگیرید (مثلاً buy / bought، think / thought، bring / brought). فهرست کامل با معنی فارسی در صفحه‌ی Reference هست. شکل گذشته برای همه‌ی فاعل‌ها یکسان است: I went، she went، they went.
 
-**منفی و سؤالی با did:** برای همه‌ی فاعل‌ها و همه‌ی فعل‌ها:
+**منفی با didn't:** در فارسی برای منفی کردن فقط «نـ» به اول همان فعل گذشته اضافه می‌کنیم: رفتم ← **نـ**رفتم. به همین دلیل فارسی‌زبان‌ها می‌گویند I didn't went (یعنی «نـ + رفتم»). اما در انگلیسی خودِ did زمان گذشته را نشان می‌دهد، پس فعل اصلی به شکل ساده برمی‌گردد:
 
-- منفی: didn't + شکل ساده‌ی فعل ← I didn't go.
-- سؤالی: Did + فاعل + شکل ساده ← Did you go?
+- I went ← I **didn't go**. (نرفتم.)
+- She saw it ← She **didn't see** it. (آن را ندید.)
 
-**اشتباه بسیار رایج:** «I didn't saw» غلط است. did خودش زمان گذشته را نشان می‌دهد، پس فعل اصلی ساده می‌ماند: I didn't **see**.
+**سؤالی با did:** در فارسی جمله‌ی سؤالی را فقط با لحن می‌سازیم: «فیلم را دیدی؟». در انگلیسی باید **Did** را اول جمله بیاوریم و فعل ساده شود: Did you see the film? (نه You saw the film? و نه Did you saw?)
+
+**جواب کوتاه:** Yes, I did. / No, I didn't. در جواب، did را تکرار می‌کنیم، نه فعل اصلی را.
+
+**سؤال با کلمه‌ی پرسشی:** کلمه‌ی پرسشی + did + فاعل + فعل ساده:
+
+- Where did you go? (کجا رفتی؟) نه Where you went?
+- What did you do? (چه کار کردی؟) اینجا did کمکی است و do فعل اصلی (انجام دادن).
+- When did they arrive? (کی رسیدند؟)
+
+**کجا did نمی‌آید؟**
+
+- با فعل **be**: I wasn't at home. (خانه نبودم.) / Were you tired? (خسته بودی؟)
+- وقتی who یا what **فاعل** است: Who called you? (چه کسی به تو زنگ زد؟) / What happened? (چه اتفاقی افتاد؟)
 
 </Persian>
 
 ## Common mistakes
 
 <WrongRight wrong="She didn't came to class." right="She didn't come to class." why="didn't + base form." />
+<WrongRight wrong="Did you saw my message?" right="Did you see my message?" why="Did + subject + base form." />
+<WrongRight wrong="Where you went yesterday?" right="Where did you go yesterday?" why="Wh- question: question word + did + subject + base form." />
 <WrongRight wrong="I goed to the park." right="I went to the park." why="go is irregular: went." />
+<WrongRight wrong="Yes, I saw." right="Yes, I did." why="Short answers repeat did." />
+<WrongRight wrong="I didn't be at home." right="I wasn't at home." why="No did with be." />
 
 <MemoryHook title="did takes the past, the verb goes home">
-When **did** arrives, it **takes the past**, and the main verb **goes back home** to its base form: did + go, did + see.
+When **did** arrives, it **takes the past**, and the main verb **goes back home** to its base form: did + go, did + see. No *did*? Then the verb keeps its own past: went, saw.
 </MemoryHook>

@@ -4,30 +4,38 @@ level: A1
 number: 28
 pillar: tenses
 size: mini
-hook: "“I moved to Karaj three years ago. Last week I started a new job.” Past time phrases tell us when."
-rule: "With the past simple, use yesterday, last + time, in + year or month, and … ago. There's no preposition before last or yesterday."
+hook: "You meet an old friend: “I moved to Karaj three years ago. Last week I started a new job, and yesterday I met my new boss.” Past time phrases tell us when."
+rule: "With the past simple, say when with yesterday, last + time, time + ago, or in / on / at + a time. There's no preposition before yesterday or last, and ago always comes after the time."
 points:
-  - "<b>yesterday</b> · yesterday morning / afternoon / evening"
-  - "<b>last</b> night / week / month / year / Friday"
-  - "<b>in</b> + year or month: in 2019, in March"
-  - "<b>… ago</b> = back from now: three days <b>ago</b>, a long time <b>ago</b>"
-  - "No preposition with last / yesterday: last week (not in last week)"
+  - "<b>yesterday</b> · yesterday morning / afternoon / evening · <b>the day before yesterday</b>. But the night before today is <b>last night</b>."
+  - "<b>last</b> + time: last night / week / month / year / summer / Friday."
+  - "No preposition before <b>last</b> or <b>yesterday</b>: <b>last week</b>, not “in last week”."
+  - "<b>time + ago</b> counts back from now: three days <b>ago</b>, a long time <b>ago</b>. Never “before three days”."
+  - "<b>ago</b> goes with the <b>past simple</b>: I <b>started</b> two weeks ago (not “I have started”). Ask: <b>How long ago</b> did you…?"
+  - "<b>in</b> + year or month (in 2019, in March) · <b>on</b> + day or date (on Monday) · <b>at</b> + clock time (at 6:00)."
+  - "Time phrases usually go at the <b>end</b>, after the place: I went to the gym <b>yesterday</b>. They can also go at the start: <b>Yesterday</b> I…"
 mindmap: |
   # Past time phrases
   ## yesterday
-  - yesterday morning
-  - yesterday evening
+  - yesterday morning / evening
+  - the day before yesterday
+  - but: last night
   ## last
-  - last night
   - last week / month / year
-  ## in
-  - in 2019
-  - in March
+  - last Friday / last summer
+  - no preposition: last week
   ## ago
   - three days ago
-  - a long time ago
-  ## No preposition
-  - last week (not in last week)
+  - after the time
+  - past simple only
+  - How long ago…?
+  ## in / on / at
+  - in 2019 · in March
+  - on Monday · on May 5
+  - at 6:00
+  ## Position
+  - end: I went to the gym yesterday
+  - start: Yesterday I…
 covers:
   - past-time-expressions
   - ago
@@ -46,11 +54,20 @@ exercises:
   - type: gap
     prompt: "We moved here five years ___."
     answers: ["ago"]
-    explain: "period of time + ago."
+    explain: "Counting back from now: period of time + ago."
   - type: gap
     prompt: "I called you ___ morning, but you didn't answer."
     answers: ["yesterday"]
-    explain: "yesterday morning."
+    explain: "yesterday morning, with no preposition."
+  - type: gap
+    prompt: "We went to a great restaurant ___ night."
+    answers: ["last"]
+    explain: "The night before today is last night (not yesterday night)."
+  - type: mcq
+    prompt: "Today is Wednesday. Monday was ___."
+    options: ["the day before yesterday", "last day", "two days before"]
+    answer: 0
+    explain: "Two days before today = the day before yesterday."
   - type: correct
     prompt: "I went to Mashhad in last summer."
     answers: ["I went to Mashhad last summer.", "Last summer I went to Mashhad."]
@@ -58,11 +75,28 @@ exercises:
   - type: correct
     prompt: "She called me before two hours."
     answers: ["She called me two hours ago."]
-    explain: "Counting back from now: two hours ago (after the time)."
+    explain: "Counting back from now: two hours ago (ago after the time)."
+  - type: correct
+    prompt: "I have started a new job two weeks ago."
+    answers: ["I started a new job two weeks ago."]
+    explain: "ago goes with the past simple: I started."
+  - type: correct
+    prompt: "I watched a film yesterday night."
+    answers: ["I watched a film last night.", "Last night I watched a film."]
+    explain: "We say last night, not yesterday night."
+  - type: mcq
+    prompt: "Which sentence is correct?"
+    options: ["I went yesterday to the gym.", "I went to the gym yesterday.", "I yesterday went to the gym."]
+    answer: 1
+    explain: "Place first, then time, at the end: to the gym yesterday."
   - type: reorder
     chunks: ["I", "met", "my wife", "ten years ago."]
-    alternatives: ["Ten years ago I met my wife."]
+    alternatives: ["Ten years ago I met my wife.", "Ten years ago, I met my wife."]
     explain: "Time phrases usually go at the end (or at the start)."
+  - type: transform
+    prompt: "Ask a question with How long ago: She left the office two hours ago."
+    answers: ["How long ago did she leave the office?", "How long ago did she leave?"]
+    explain: "How long ago + did + subject + base form…?"
   - type: match
     prompt: "Match the beginnings with the endings."
     pairs:
@@ -70,71 +104,128 @@ exercises:
       - ["last", "Friday"]
       - ["in", "2020"]
       - ["yesterday", "afternoon"]
-    explain: "… ago, last + time, in + year, yesterday + part of the day."
+      - ["on", "Monday"]
+    explain: "… ago, last + time, in + year, yesterday + part of the day, on + day."
 recall:
   - q: "How do you say «دو روز پیش»?"
-    a: "<b>two days ago</b> (ago comes after the time)."
+    a: "<b>two days ago</b>. ago comes after the time, never “before two days”."
   - q: "Do we say “in last week”?"
     a: "No. <b>last week</b>, with no preposition."
-  - q: "Which preposition goes with a year?"
-    a: "<b>in</b>: in 2019."
+  - q: "How do you say «دیشب»?"
+    a: "<b>last night</b>. We say yesterday morning / afternoon / evening, but <b>last night</b>."
+  - q: "Which tense goes with ago?"
+    a: "The <b>past simple</b>: I <b>started</b> two weeks ago (not I have started)."
 cards:
   - front: "«دو روز پیش»"
     back: "two days ago"
   - front: "«هفته‌ی گذشته»"
     back: "last week (no preposition)"
-  - front: "a year / a month →"
-    back: "in 2019 · in March"
+  - front: "«دیشب» · «پریروز»"
+    back: "last night · the day before yesterday"
+  - front: "a year / a month / a day →"
+    back: "in 2019 · in March · on Monday"
   - front: "«دیروز صبح»"
     back: "yesterday morning"
 ---
 
 ## When did it happen?
 
+Past time phrases answer the question **When…?** We use them with the **past simple** (lessons 26 and 27) and with *was / were* (lesson 25).
+
 <FormTable caption="Past time phrases">
 
 | Phrase | Examples |
 |---|---|
-| **yesterday** (+ part of the day) | yesterday · yesterday morning · yesterday evening |
-| **last** + time | last night · last week · last month · last year · last Friday |
-| **in** + year / month | in 2019 · in March · in the summer of 2020 |
+| **yesterday** (+ part of the day) | yesterday · yesterday morning · yesterday afternoon · yesterday evening |
+| **the day before yesterday** | two days before today |
+| **last** + time | last night · last week · last month · last year · last summer · last Friday |
 | time + **ago** | five minutes ago · two days ago · a long time ago |
+| **in** + year / month / season | in 2019 · in March · in the summer |
+| **on** + day / date | on Monday · on May 5 |
+| **at** + clock time | at 6:00 · at noon |
+| **this** + part of today (now finished) | this morning (said in the afternoon) |
 
 </FormTable>
 
 <Example context="home" fa="سه سال پیش به کرج نقل مکان کردم.">I moved to Karaj <mark>three years ago</mark>.</Example>
 <Example context="work" fa="هفته‌ی گذشته کار جدیدی شروع کردم."><mark>Last week</mark> I started a new job.</Example>
 <Example context="news" fa="این پل را در سال ۱۹۷۱ ساختند.">They built this bridge <mark>in 1971</mark>.</Example>
+<Example context="health" fa="پریروز پیش دکتر رفتم.">I went to the doctor <mark>the day before yesterday</mark>.</Example>
 
-## No preposition with last and yesterday
+## yesterday and last
 
-*~~in last week~~* → **last week** · *~~at yesterday~~* → **yesterday**
+- **yesterday** = the day before today. Add a part of the day after it: *yesterday morning, yesterday afternoon, yesterday evening*.
+- For the night before today, we say **last night**. *Yesterday night* is not usual.
+- **last** + a time = the one just before now: *last week, last month, last year, last Friday*.
 
-## ago comes after the time
+**No preposition** before *yesterday* or *last*: *I saw her last week*, not ~~in last week~~. Lesson 32 (Prepositions of time: at, on, in) teaches the full list of time words with no preposition.
 
-Persian says «دو ساعت **قبل**», and «قبل» usually means *before*, so learners say *~~before two hours~~*. English uses **ago**, after the time: **two hours ago**.
+<Example context="social" fa="دیشب مهمانی بزرگی بود.">There was a big party <mark>last night</mark>.</Example>
+<Example context="school" fa="دیروز بعدازظهر امتحان داشتیم.">We had an exam <mark>yesterday afternoon</mark>.</Example>
+
+## ago
+
+**ago** counts **back from now**. It comes **after** the length of time: **two hours ago**, **ten years ago**, **a long time ago**.
+
+- Use **ago** with the **past simple**: *I **started** a new job two weeks ago*, not ~~I have started a new job two weeks ago~~.
+- Don't put a preposition before it, and don't use *before*: *They met fifteen years ago*, not ~~in fifteen years ago~~ or ~~before fifteen years~~.
+- To ask, use **How long ago…?** *How long ago did you buy your car?*
+
+<Example context="work" fa="او حدود نیم ساعت پیش از دفتر رفت.">She left the office about half an hour <mark>ago</mark>.</Example>
+<Example context="shopping" fa="«این ماشین را چند وقت پیش خریدی؟» «دو سال پیش.»">“<mark>How long ago</mark> did you buy this car?” “Two years <mark>ago</mark>.”</Example>
+
+**ago** tells you **when** (a point in the past). **for** tells you **how long**: *I lived in Shiraz **for** three years.* (More about *for*, *since* and *ago* in B1 lesson 7, *for, since, ago, during; by or until?*)
+
+## in, on, at with past times
+
+The same prepositions work for the past as for any other time: **in** + year or month, **on** + day or date, **at** + clock time.
+
+<Example context="travel" fa="ما دوشنبه ساعت ۶ صبح به استانبول رسیدیم.">We arrived in Istanbul <mark>on Monday at 6:00</mark> in the morning.</Example>
+
+Lesson 32 (Prepositions of time: at, on, in) teaches these in full.
+
+## Where do time phrases go?
+
+Time phrases usually go at the **end** of the sentence, **after** the place: *I went to the gym yesterday.* You can also put them at the **start**: *Yesterday I went to the gym.* Don't put them between the subject and the verb: ~~I yesterday went~~.
+
+<Example context="travel" fa="پارسال به ترکیه رفتیم.">We went to Turkey <mark>last year</mark>.</Example>
+<Example context="home" fa="دیروز صبح خانه را تمیز کردم."><mark>Yesterday morning</mark> I cleaned the house.</Example>
 
 <Persian>
 
 **عبارت‌های زمان گذشته:**
 
-- **yesterday** = دیروز (yesterday morning = دیروز صبح)
-- **last** + زمان = … گذشته: last week (هفته‌ی گذشته)، last night (دیشب)
-- **in** + سال یا ماه: in 2019، in March
+- **yesterday** = دیروز (yesterday morning = دیروز صبح، yesterday evening = دیروز عصر)
+- **the day before yesterday** = پریروز
+- **last** + زمان = … گذشته / … پیش: last week (هفته‌ی گذشته)، last year (پارسال)، last Friday (جمعه‌ی گذشته)
+- **last night** = دیشب. نمی‌گوییم yesterday night.
 - زمان + **ago** = … پیش: two days ago (دو روز پیش)
+- **in** + سال یا ماه: in 2019، in March — **on** + روز: on Monday — **at** + ساعت: at 6:00
 
-**دو اشتباه رایج:**
+**چرا اشتباه می‌کنیم؟**
 
-۱. قبل از last و yesterday حرف اضافه نمی‌آید: last week (نه in last week).
-۲. ago بعد از زمان می‌آید و before نیست: two hours ago (نه before two hours).
+۱. در فارسی می‌گوییم «**در** هفته‌ی گذشته» یا «**در** سال گذشته». به همین دلیل فارسی‌زبان‌ها می‌گویند in last week. اما در انگلیسی قبل از last و yesterday حرف اضافه نمی‌آید: **last week**، نه in last week.
+
+۲. در فارسی می‌گوییم «دو ساعت **قبل**» و «قبل» را before ترجمه می‌کنیم. اما در انگلیسی برای «… پیش / … قبل» از **ago** استفاده می‌کنیم و ago **بعد از** زمان می‌آید: **two hours ago**، نه before two hours.
+
+۳. «دیشب» در انگلیسی **last night** است، نه yesterday night.
+
+۴. «گذشته» در فارسی بعد از اسم می‌آید (هفته‌ی گذشته)، ولی last در انگلیسی **قبل از** اسم می‌آید: last week.
+
+**ago فقط با گذشته‌ی ساده:** I started a new job two weeks ago. (دو هفته پیش کار جدیدی شروع کردم.) نه I have started… . برای سؤال: How long ago did you…? (چند وقت پیش …؟)
+
+**جای عبارت زمان:** در فارسی معمولاً زمان را اول جمله یا بعد از فاعل می‌گوییم («من دیروز به باشگاه رفتم»). در انگلیسی زمان معمولاً **آخر جمله** و بعد از مکان می‌آید: I went to the gym yesterday. اول جمله هم درست است: Yesterday I went to the gym. اما بین فاعل و فعل نمی‌آید: نه I yesterday went.
 
 </Persian>
 
 ## Common mistakes
 
-<WrongRight wrong="I saw her before three days." right="I saw her three days ago." why="Counting back from now → … ago." />
+<WrongRight wrong="I saw her before three days." right="I saw her three days ago." why="Counting back from now → … ago, after the time." />
 <WrongRight wrong="We met in last year." right="We met last year." why="No preposition before last." />
+<WrongRight wrong="I called him yesterday night." right="I called him last night." why="The night before today is last night." />
+<WrongRight wrong="I have finished school two years ago." right="I finished school two years ago." why="ago goes with the past simple." />
+<WrongRight wrong="I yesterday went to the bank." right="I went to the bank yesterday." why="Time phrases go at the end (or the start), not between subject and verb." />
 
 <MemoryHook title="ago looks back">
-**ago** always comes **after** the time, like looking **back** over your shoulder: three days ← **ago**.
+**ago** always comes **after** the time, like looking **back** over your shoulder: three days ← **ago**. And **last** and **yesterday** travel alone: no *in*, no *on*.
 </MemoryHook>

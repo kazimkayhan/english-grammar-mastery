@@ -4,29 +4,42 @@ level: A1
 number: 24
 pillar: verb-patterns
 size: core
-hook: "“I like drinking tea, but right now I'd like a coffee.” like = in general; would like = want now, politely."
-rule: "Use like / love / hate / enjoy + -ing for your feelings in general, and would like (I'd like) + noun or to + verb to ask for something politely now."
+hook: "At a café your friend says: “I like drinking tea, but right now I'd like a coffee.” like is about your feelings in general. would like is about what you want now."
+rule: "Use like / love / enjoy / hate + -ing (or like / love / hate + to + verb) for feelings in general: I love cooking. Use would like (I'd like) + noun or + to + verb to ask for something politely now: I'd like a coffee. I'd like to book a table. Use Would you like…? for offers and invitations."
 points:
-  - "like / love / hate / enjoy + <b>-ing</b>: I love <b>cooking</b>. She hates <b>waiting</b>."
-  - "like / love / hate + <b>to</b> is also possible (I like to read), but <b>enjoy</b> only takes -ing."
-  - "<b>would like</b> = want (polite): I'<b>d like</b> a coffee. · I'<b>d like to</b> book a table."
-  - "<b>Would you like</b>…? makes offers: Would you like some tea?"
-  - "<b>I like</b> = in general · <b>I'd like</b> = now, a wish"
+  - "<b>like / love / enjoy / hate + -ing</b> for feelings in general: I <b>love cooking</b>. She <b>hates waiting</b>."
+  - "<b>like / love / hate + to</b> + verb is also possible: I like <b>to read</b>. But <b>enjoy</b> takes only -ing, and it needs an object: I <b>enjoyed it</b>."
+  - "Negative and question with do: I <b>don't like</b> waiting. <b>Do you like</b> cooking? <b>What do you like</b> doing?"
+  - "<b>would like</b> = want, but polite. <b>I'd like</b> + noun: I'd like a coffee. <b>I'd like to</b> + verb: I'd like to book a table."
+  - "<b>Would you like</b>…? = an offer or invitation. Answers: <b>Yes, please.</b> · <b>No, thank you.</b> · <b>I'd love to!</b>"
+  - "<b>I like</b> tea = in general. <b>I'd like</b> a tea = I want one now. <b>Do you like</b>…? → Yes, I do. <b>Would you like</b>…? → Yes, please."
 mindmap: |
   # like & would like
   ## Feelings in general
-  - like + -ing
-  - love + -ing
-  - hate + -ing
-  - enjoy + -ing (only)
+  - like + -ing: I like walking
+  - love + -ing: I love cooking
+  - enjoy + -ing (only!)
+  - hate + -ing: I hate waiting
+  - like / love / hate + to: also OK
+  ## − and ?
+  - I don't like waiting
+  - Do you like cooking?
+  - What do you like doing?
   ## Wants now (polite)
-  - I'd like + noun
-  - I'd like to + verb
-  ## Offers
+  - I'd like + noun: a coffee
+  - I'd like to + verb: to book a table
+  - not: I'd like going
+  - I wouldn't like to… / I don't want to…
+  ## Offers & invitations
   - Would you like some tea?
+  - Would you like to come?
+  - Yes, please · No, thank you
+  - I'd love to!
   ## like vs would like
   - I like tea: in general
-  - I'd like tea: now, please
+  - I'd like a tea: now, please
+  - Do you like…? → Yes, I do
+  - Would you like…? → Yes, please
 covers:
   - like-ing
   - would-like
@@ -37,12 +50,17 @@ exercises:
     prompt: "I love ___ in the sea."
     base: "swim"
     answers: ["swimming", "to swim"]
-    explain: "love + -ing (or to): I love swimming."
+    explain: "love + -ing (or to): I love swimming. swim → swimming (double the m)."
   - type: gap
     prompt: "She enjoys ___ novels."
     base: "read"
     answers: ["reading"]
     explain: "enjoy + -ing only."
+  - type: gap
+    prompt: "I ___ waiting in long lines."
+    base: "not / like"
+    answers: ["don't like", "do not like"]
+    explain: "Negative with do: I don't like + -ing."
   - type: mcq
     prompt: "(At a café) “I ___ a tea, please.”"
     options: ["like", "'d like", "liking"]
@@ -53,36 +71,64 @@ exercises:
     options: ["Do you like", "Would you like", "You like"]
     answer: 1
     explain: "An offer: Would you like…?"
+  - type: mcq
+    prompt: "“Do you like football?” “___”"
+    options: ["Yes, please.", "Yes, I do.", "Yes, I'd like."]
+    answer: 1
+    explain: "Do you like…? asks about your feelings in general. Answer with do: Yes, I do."
   - type: gap
     prompt: "I'd like ___ a table for two, please."
     base: "book"
     answers: ["to book"]
     explain: "would like + to + verb."
+  - type: gap
+    prompt: "“Would you like to come to the cinema?” “I'd ___ to! What time?”"
+    answers: ["love", "like"]
+    explain: "To say yes to an invitation, say I'd love to!"
   - type: correct
     prompt: "I enjoy to cook for my family."
     answers: ["I enjoy cooking for my family."]
     explain: "enjoy is followed by -ing, not to."
   - type: correct
+    prompt: "She likes play tennis."
+    answers: ["She likes playing tennis.", "She likes to play tennis."]
+    explain: "After like, use -ing or to + verb, not the base form."
+  - type: correct
     prompt: "I would like go home."
     answers: ["I would like to go home.", "I'd like to go home."]
     explain: "would like + to + verb."
+  - type: correct
+    prompt: "Would you like coming with us?"
+    answers: ["Would you like to come with us?"]
+    explain: "would like + to + verb, not -ing."
+  - type: correct
+    prompt: "The party was great. I really enjoyed."
+    answers: ["The party was great. I really enjoyed it."]
+    explain: "enjoy needs an object: I enjoyed it."
+  - type: transform
+    prompt: "Make it polite (you are in a café): I want a glass of water."
+    answers: ["I'd like a glass of water.", "I would like a glass of water.", "I'd like a glass of water, please.", "I would like a glass of water, please."]
+    explain: "I'd like is the polite way to ask for something."
+  - type: reorder
+    chunks: ["Would you", "like", "to come", "to dinner?"]
+    explain: "Would you like + to + verb…? is an invitation."
   - type: match
     prompt: "Match each sentence with its meaning."
     pairs:
       - ["I like coffee.", "in general"]
       - ["I'd like a coffee.", "I want one now"]
       - ["Would you like a coffee?", "an offer"]
-    explain: "like = general feeling; would like = a polite wish now; Would you like…? = an offer."
-  - type: reorder
-    chunks: ["Would you", "like", "to come", "to dinner?"]
-    explain: "Would you like + to + verb…?"
+      - ["I'd love to!", "yes to an invitation"]
+    explain: "like = a general feeling. would like = a polite wish now. Would you like…? = an offer."
 recall:
   - q: "What's the difference between “I like tea” and “I'd like tea”?"
     a: "<b>I like tea</b> = in general. <b>I'd like tea</b> = I want some now (polite)."
   - q: "Which verb takes only -ing: like, love or enjoy?"
-    a: "<b>enjoy</b>: I enjoy cooking (not to cook)."
-  - q: "How do you offer someone tea politely?"
-    a: "<b>Would you like some tea?</b>"
+    a: "<b>enjoy</b>: I enjoy cooking (not to cook). And enjoy needs an object: I enjoyed <b>it</b>."
+  - q: "How do you offer someone tea politely? How do they answer?"
+    a: "<b>Would you like some tea?</b> → <b>Yes, please.</b> / <b>No, thank you.</b>"
+  - q: "What comes after would like: -ing or to?"
+    a: "<b>to</b> + verb (or a noun): I'd like <b>to go</b> home. Not “I'd like going”."
 cards:
   - front: "like / love / hate / enjoy + ?"
     back: "-ing (enjoy only -ing): I love cooking."
@@ -92,53 +138,155 @@ cards:
     back: "Would you like some tea?"
   - front: "I like vs I'd like"
     back: "in general / now, a polite wish"
+  - front: "Do you like…? / Would you like…? (yes)"
+    back: "Yes, I do. / Yes, please."
+  - front: "Say yes to an invitation"
+    back: "I'd love to!"
 ---
 
-## Feelings in general: like, love, hate, enjoy + -ing
+## Feelings in general: like, love, enjoy, hate + -ing
+
+Use these verbs to talk about what you like and don't like **in general**. After them, use the **-ing** form of a verb. (For -ing spelling, see lesson 22.)
 
 <FormTable caption="Verb + -ing">
 
-| Verb | Example |
-|---|---|
-| **like** | I **like** walking in the park. |
-| **love** | She **loves** cooking Persian food. |
-| **hate** | They **hate** waiting in traffic. |
-| **enjoy** | We **enjoy** traveling. |
+| Verb | Meaning | Example |
+|---|---|---|
+| **love** | like very much | She **loves** cooking Persian food. |
+| **enjoy** | it makes me happy | We **enjoy** traveling. |
+| **like** | it's nice for me | I **like** walking in the park. |
+| **don't like** | it isn't nice for me | He **doesn't like** getting up early. |
+| **hate** | really don't like | They **hate** waiting in traffic. |
 
 </FormTable>
 
-**like, love, hate** can also take **to** + verb (*I like to read*). **enjoy** takes only **-ing**.
+These are present simple verbs, so remember the **-s** with he / she / it: *She **likes** reading.* (lesson 17)
 
 <Example context="home" fa="مادرم عاشق آشپزی است.">My mother <mark>loves cooking</mark>.</Example>
 <Example context="travel" fa="از سفر با قطار لذت می‌برم.">I <mark>enjoy traveling</mark> by train.</Example>
+<Example context="work" fa="از دیر رسیدن متنفرم.">I <mark>hate being</mark> late.</Example>
+
+You can also use a **noun** or a **pronoun**: *I like tea. Do you like jazz? I love it!*
+
+### like, love, hate + to
+
+**like**, **love** and **hate** can also take **to** + verb. The meaning is almost the same:
+
+<Example context="home" fa="دوست دارم شب‌ها کتاب بخوانم.">I like <mark>to read</mark> at night. = I like <mark>reading</mark> at night.</Example>
+
+There are small differences between *like doing* and *like to do*, but you don't need them now. (They come in C1 lesson 24, -ing or to: the subtle cases.)
+
+### enjoy: only -ing
+
+**enjoy** takes only **-ing**, never *to*: *I enjoy cooking*, not ~~I enjoy to cook~~.
+
+**enjoy** also needs an **object** (something after it): *I enjoyed **the party**. I enjoyed **it**.* Not ~~I enjoyed.~~
+
+<Example context="social" fa="مهمانی عالی بود. خیلی لذت بردم.">The party was great. I really <mark>enjoyed it</mark>.</Example>
+
+## Negatives and questions
+
+**like, love, enjoy, hate** are normal verbs, so the negative and the question use **do / does** (lesson 18).
+
+<FormTable caption="Negatives and questions">
+
+| | Example | Short answer |
+|---|---|---|
+| **−** | I **don't like** waiting. She **doesn't enjoy** shopping. | |
+| **?** | **Do you like** cooking? | Yes, I **do**. / No, I **don't**. |
+| **?** | **Does** he **enjoy** his job? | Yes, he **does**. / No, he **doesn't**. |
+| **wh-** | **What do you like** doing on weekends? | I like going to the cinema. |
+
+</FormTable>
+
+<Example context="social" fa="«آخر هفته‌ها دوست داری چه کار کنی؟» «دوست دارم کوهنوردی کنم.»">“What <mark>do you like doing</mark> on weekends?” “I <mark>love hiking</mark>.”</Example>
+<Example context="shopping" fa="او از خرید کردن خوشش نمی‌آید.">She <mark>doesn't like shopping</mark>.</Example>
 
 ## Wants now: would like
 
-**would like** = *want*, but more polite. The short form is **'d like**.
+**would like** means *want*, but it is more **polite**. The short form is **'d like**: *I'd like, you'd like, she'd like*.
 
-- I'd like + **noun**: *I'd like a coffee, please.*
-- I'd like + **to** + verb: *I'd like to book a table.*
-- **Would you like…?** = an offer: *Would you like some tea?*
+<FormTable caption="would like">
 
-<Example context="shopping" fa="یک کیلو سیب می‌خواستم، لطفاً.">I'<mark>d like</mark> a kilo of apples, please.</Example>
+| Pattern | Example |
+|---|---|
+| I'd like + **noun** | I'd like **a coffee**, please. |
+| I'd like + **to** + verb | I'd like **to book** a table. |
+| **Would you like** + noun? (offer) | Would you like **some tea**? |
+| **Would you like to** + verb? (invitation) | Would you like **to come** to dinner? |
+
+</FormTable>
+
+<Example context="shopping" fa="یک کیلو سیب می‌خواستم، لطفاً.">I<mark>'d like</mark> a kilo of apples, please.</Example>
+<Example context="work" fa="می‌خواستم با مدیر صحبت کنم.">I<mark>'d like to speak</mark> to the manager, please.</Example>
 <Example context="social" fa="چای میل دارید؟"><mark>Would you like</mark> some tea?</Example>
-<Example context="work" fa="می‌خواستم با مدیر صحبت کنم.">I'<mark>d like to speak</mark> to the manager, please.</Example>
+<Example context="social" fa="دوست داری جمعه بیایی شام؟"><mark>Would you like to come</mark> to dinner on Friday?</Example>
+
+- After **would like**, use **to** + verb, not -ing: *I'd like **to go***, not ~~I'd like going~~.
+- In a shop or a restaurant, *I want…* can sound too direct. **I'd like…, please** is polite and normal.
+- The same pattern works with **love** and **hate**: *I'd love to visit Japan.* (a strong wish) *I'd hate to be late.* (I really don't want to be late.)
+
+### Answering an offer or an invitation
+
+<FormTable caption="Answers to Would you like…?">
+
+| Question | Yes | No |
+|---|---|---|
+| Would you like some tea? | **Yes, please.** | **No, thank you.** / No, thanks. |
+| Would you like to come to dinner? | **I'd love to!** / Yes, I'd like that. | **I'd love to, but I can't.** I'm busy. |
+
+</FormTable>
+
+For the negative, you can say **I don't want to…** or **I wouldn't like to…**: *I don't want to go out tonight. I wouldn't like to live in a big city.*
+
+## I like or I'd like?
+
+This is the big difference in this lesson:
+
+<FormTable caption="like vs would like">
+
+| | I like… | I'd like… |
+|---|---|---|
+| Meaning | in general, always | now, a wish, a polite request |
+| Example | I **like** coffee. (I drink it often.) | I**'d like** a coffee. (Can I have one now?) |
+| Question | **Do you like** coffee? | **Would you like** a coffee? |
+| Answer | Yes, I **do**. / No, I **don't**. | Yes, **please**. / No, **thank you**. |
+
+</FormTable>
+
+<Example context="social" fa="«قهوه دوست داری؟» «بله، دوست دارم.» «یک قهوه میل داری؟» «بله، لطفاً.»">“<mark>Do you like</mark> coffee?” “Yes, I <mark>do</mark>.” “<mark>Would you like</mark> one now?” “Yes, <mark>please</mark>.”</Example>
+
+Don't answer *Would you like a coffee?* with ~~Yes, I like~~. Say **Yes, please**.
+
+## Later lessons
+
+- Other verbs + -ing (*finish, practice, don't mind*) and *go swimming*: A2 lesson 24, verb + to or verb + -ing? (basics).
+- *I'd like you to help me* (would like + person + to): B1 lesson 34, want sb to; make, let, help sb do.
 
 <Persian>
 
-**like / love / hate / enjoy + ing:** برای احساس کلی درباره‌ی یک کار:
+**like / love / enjoy / hate + ing:** برای احساس کلی درباره‌ی یک کار:
 
-- I like reading (خواندن را دوست دارم)، I hate waiting (از انتظار متنفرم).
-- enjoy فقط با ing می‌آید: I enjoy cooking (نه to cook).
+- I love cooking. (عاشق آشپزی‌ام.) I like reading. (خواندن را دوست دارم.) I hate waiting. (از انتظار متنفرم.)
+- like، love و hate با to هم می‌آیند و معنی تقریباً یکی است: I like to read = I like reading.
+- **enjoy فقط با ing می‌آید:** I enjoy cooking (نه to cook). enjoy همیشه مفعول می‌خواهد: I enjoyed **it**. (نه فقط I enjoyed.)
+- در فارسی می‌گوییم «**از** شنا لذت می‌برم»، اما در انگلیسی بعد از enjoy حرف اضافه نمی‌آید: I enjoy swimming (نه I enjoy from swimming).
 
-**would like = خواستن، مؤدبانه.** در مغازه و رستوران به جای I want بگویید I'd like:
+**منفی و سؤالی:** با do / does: I don't like waiting. / Do you like cooking? جواب: Yes, I do. / No, I don't.
 
-- I'd like a coffee. (یک قهوه می‌خواستم.)
-- I'd like to book a table. (می‌خواستم یک میز رزرو کنم.)
+**would like = خواستن، مؤدبانه.** در مغازه و رستوران به جای I want بگویید I'd like. در فارسی هم برای ادب می‌گوییم «یک قهوه **می‌خواستم**» به جای «می‌خواهم».
 
-**پیشنهاد:** Would you like some tea? (چای میل دارید؟)
+- I'd like + اسم: I'd like a coffee. (یک قهوه می‌خواستم.)
+- I'd like + to + فعل: I'd like to book a table. (می‌خواستم یک میز رزرو کنم.) نه I'd like booking.
 
-**فرق مهم:** I like tea = کلاً چای دوست دارم. I'd like tea = الان چای می‌خواهم.
+**پیشنهاد و دعوت:** Would you like some tea? (چای میل دارید؟) Would you like to come to dinner? (دوست داری برای شام بیایی؟) جواب: Yes, please. / No, thank you. / I'd love to! (با کمال میل!)
+
+**چرا فارسی‌زبان‌ها اشتباه می‌کنند؟** در فارسی «دوست دارم» هم یعنی I like و هم یعنی I'd like:
+
+- «قهوه دوست دارم» (کلی، همیشه) = **I like** coffee.
+- «دوست دارم یک قهوه بخورم» (الان) = **I'd like** a coffee.
+
+پس همیشه بپرسید: کلی است یا الان؟ کلی ← like. الان و مؤدبانه ← would like. همچنین در فارسی بعد از «دوست دارم» فعل صرف‌شده می‌آید («دوست دارم **بروم**»)، برای همین فارسی‌زبان‌ها می‌گویند I like go. در انگلیسی بعد از like باید ing یا to بیاید: I like going / I like to go.
 
 </Persian>
 
@@ -146,7 +294,11 @@ cards:
 
 <WrongRight wrong="I want a coffee. (in a café: sounds rude)" right="I'd like a coffee, please." why="would like is the polite way to ask." />
 <WrongRight wrong="Would you like coming with us?" right="Would you like to come with us?" why="would like + to + verb." />
+<WrongRight wrong="I enjoy to swim." right="I enjoy swimming." why="enjoy + -ing only." />
+<WrongRight wrong="She likes cook." right="She likes cooking. / She likes to cook." why="like + -ing or to + verb, never the base form." />
+<WrongRight wrong="“Would you like some tea?” “Yes, I like.”" right="“Would you like some tea?” “Yes, please.”" why="Answer an offer with Yes, please or No, thank you." />
+<WrongRight wrong="The film was good. I enjoyed." right="The film was good. I enjoyed it." why="enjoy needs an object." />
 
 <MemoryHook title="The little d is polite">
-The little **'d** in **I'd like** turns a wish into a **polite request**. Add **please** and you sound perfect.
+The little **'d** in **I'd like** turns a wish into a **polite request**. Without it, **I like** is just a feeling in general. Add **please** and you sound perfect.
 </MemoryHook>

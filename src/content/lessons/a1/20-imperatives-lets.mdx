@@ -4,30 +4,46 @@ level: A1
 number: 20
 pillar: sentence-structure
 size: mini
-hook: "A recipe: “Wash the rice. Don't add too much water. Let's cook!” Instructions in English start with the verb."
-rule: "Use the base form of the verb for orders, instructions and advice (Sit down. Don't worry.), and Let's + verb for suggestions."
+hook: "A recipe says: “Wash the rice. Don't add too much salt.” Your friend says: “Let's cook together!” Instructions and suggestions in English start with a verb."
+rule: "For instructions, orders, warnings and advice, use the base form of the verb with no subject (Sit down.) and Don't + verb for the negative (Don't worry.). For a suggestion that includes you, use Let's + verb, and Let's not + verb for the negative."
 points:
-  - "Positive: <b>verb</b> + …: <b>Open</b> the window. <b>Turn</b> left."
-  - "Negative: <b>Don't</b> + verb: <b>Don't</b> touch that!"
-  - "Be polite: add <b>please</b>: Please sit down. / Sit down, please."
-  - "<b>Let's</b> + verb = I suggest we…: <b>Let's</b> go! · <b>Let's not</b> wait."
-  - "<b>Always</b> / <b>Never</b> + verb: <b>Never</b> give up. <b>Always</b> check your work."
+  - "Imperative = the <b>base form</b> with <b>no subject</b>: <b>Sit</b> down. <b>Turn</b> left. It is the same for one person or many."
+  - "Negative: <b>Don't</b> + verb: <b>Don't</b> touch that! With an adjective: <b>Don't be</b> late."
+  - "Be polite with <b>please</b> at the start or the end: <b>Please</b> sit down. / Sit down, <b>please</b>."
+  - "<b>Always</b> / <b>Never</b> + verb for strong rules and advice: <b>Always</b> lock the door. <b>Never</b> give up."
+  - "Uses: instructions, directions, warnings, advice, invitations and wishes: <b>Come in!</b> <b>Have</b> a nice day!"
+  - "<b>Let's</b> (= let us) + verb is a suggestion for you and me: <b>Let's</b> go! Negative: <b>Let's not</b> wait. Reply: <b>Yes, let's.</b>"
+  - "No <b>to</b> after Don't or Let's: <b>Let's go</b>, not “Let's to go”."
 mindmap: |
-  # Imperatives
+  # Imperatives & let's
   ## Do it
+  - base form, no subject
   - Open the window
   - Turn left
+  - one person or many: same form
   ## Don't do it
   - Don't touch that!
+  - Don't be late
+  - no to: Don't worry
   ## Polite
   - Please sit down
   - Sit down, please
-  ## Suggestions
-  - Let's go
-  - Let's not wait
+  - Do have another sandwich (warm offer)
   ## Always / Never
   - Always check your work
   - Never give up
+  ## Uses
+  - instructions: Add the salt
+  - directions: Turn right
+  - warnings: Be careful!
+  - advice: Drink water
+  - invitations: Come in!
+  - wishes: Have a nice day!
+  ## Let's
+  - Let's go! (you and me)
+  - Let's not wait
+  - Yes, let's.
+  - not Let's don't · not Let's to
 covers:
   - imperatives
   - lets
@@ -38,23 +54,31 @@ exercises:
     prompt: "The teacher says: “___ your books, please.”"
     options: ["Open", "Opens", "You open"]
     answer: 0
-    explain: "Imperatives use the base form, with no subject."
+    explain: "An imperative uses the base form with no subject: Open your books."
   - type: mcq
     prompt: "“___ worry. Everything is fine.”"
     options: ["No", "Don't", "Not"]
     answer: 1
     explain: "Negative imperative: Don't + verb."
   - type: gap
+    prompt: "___ late for the meeting. It starts at nine."
+    answers: ["Don't be", "Do not be", "Never be"]
+    explain: "With an adjective (late), use Don't be: Don't be late."
+  - type: gap
     prompt: "It's a beautiful day. ___ go to the park!"
-    answers: ["Let's"]
+    answers: ["Let's", "Let us"]
     explain: "A suggestion for you and me: Let's + verb."
   - type: gap
     prompt: "___ give up. You can do it!"
     answers: ["Never", "Don't"]
-    explain: "Never + verb (or Don't + verb)."
+    explain: "Never + verb (or Don't + verb). Never is stronger."
+  - type: gap
+    prompt: "___ wash your hands before you eat. (= every time)"
+    answers: ["Always"]
+    explain: "Always + verb gives a rule for every time."
   - type: correct
     prompt: "Don't to touch the oven!"
-    answers: ["Don't touch the oven!"]
+    answers: ["Don't touch the oven!", "Do not touch the oven!"]
     explain: "After Don't, use the base form without to."
   - type: correct
     prompt: "Let's to go home."
@@ -62,85 +86,187 @@ exercises:
     explain: "After Let's, use the base form without to."
   - type: correct
     prompt: "Let's don't wait for the bus."
-    answers: ["Let's not wait for the bus."]
+    answers: ["Let's not wait for the bus.", "Don't let's wait for the bus."]
     explain: "The negative is Let's not + verb."
+  - type: correct
+    prompt: "Don't be worry about the test."
+    answers: ["Don't worry about the test.", "Don't be worried about the test.", "Do not worry about the test."]
+    explain: "worry is a verb, so say Don't worry (no be)."
+  - type: correct
+    prompt: "Lets have a break."
+    answers: ["Let's have a break."]
+    explain: "Let's = let us, so it needs the apostrophe. lets (no apostrophe) is a different word."
+  - type: transform
+    prompt: "Make it negative: Open the window."
+    answers: ["Don't open the window.", "Do not open the window."]
+    explain: "Don't + base form."
+  - type: transform
+    prompt: "Make it negative: Let's take a taxi."
+    answers: ["Let's not take a taxi.", "Don't let's take a taxi."]
+    explain: "Let's not + base form."
   - type: reorder
     chunks: ["Please", "turn off", "your phones."]
     alternatives: ["Turn off your phones, please."]
-    explain: "please makes an imperative polite."
+    explain: "please makes an imperative polite. It can go at the start or the end."
+  - type: mcq
+    prompt: "Your friend: “Let's eat out tonight.” You agree: “Good idea. Yes, ___!”"
+    options: ["let's", "let", "we do"]
+    answer: 0
+    explain: "To agree with a suggestion, say Yes, let's."
   - type: match
     prompt: "Match each sentence with its use."
     pairs:
       - ["Turn left at the bank.", "directions"]
-      - ["Don't touch that!", "a warning"]
+      - ["Be careful! The floor is wet.", "a warning"]
       - ["Let's have a break.", "a suggestion"]
-      - ["Always wash your hands.", "advice"]
-    explain: "Imperatives give directions, warnings and advice; Let's makes a suggestion."
+      - ["Come in and sit down.", "an invitation"]
+    explain: "Imperatives give directions, warnings and invitations. Let's makes a suggestion."
 recall:
-  - q: "How do you make an imperative?"
-    a: "Use the <b>base form</b> with no subject: <b>Sit</b> down. Negative: <b>Don't</b> sit down."
-  - q: "What does Let's mean? What's the negative?"
-    a: "<b>Let's</b> = I suggest we… · negative: <b>Let's not</b> + verb."
-  - q: "How do you make an imperative polite?"
-    a: "Add <b>please</b>: Please sit down. / Sit down, please."
+  - q: "How do you make an imperative? And the negative?"
+    a: "The <b>base form</b> with no subject: <b>Sit</b> down. Negative: <b>Don't</b> + verb: <b>Don't</b> sit there."
+  - q: "What does Let's mean? What is the negative?"
+    a: "<b>Let's</b> = let us, a suggestion for you and me. Negative: <b>Let's not</b> + verb."
+  - q: "How do you make an imperative more polite?"
+    a: "Add <b>please</b>: <b>Please</b> sit down. / Sit down, <b>please</b>."
+  - q: "What is the difference between Don't and Never in an imperative?"
+    a: "<b>Never</b> is stronger. It means not at any time: <b>Never</b> open this door."
 cards:
   - front: "Imperative: positive / negative"
     back: "Open the door. / Don't open the door."
-  - front: "Suggestion for you and me"
+  - front: "Suggestion for you and me (+ / −)"
     back: "Let's go! · Let's not wait."
   - front: "✗ Don't to worry ✓ ?"
     back: "Don't worry. (no to)"
   - front: "Always / Never + imperative"
     back: "Always check your work. · Never give up."
+  - front: "Imperative with an adjective (late)"
+    back: "Don't be late! · Be careful!"
+  - front: "Agree with Let's eat out!"
+    back: "Yes, let's!"
 ---
 
-## Giving instructions
+## Start with the verb
 
-The **imperative** is the base form of the verb with **no subject**. We use it for instructions, directions, orders, warnings and advice.
+The **imperative** is the **base form** of the verb (*sit, open, turn*) with **no subject**. We don't say *you*: we just start with the verb. The form is the same for one person or for many people.
 
 <FormTable caption="Imperatives">
 
 | | Form | Example |
 |---|---|---|
 | **+** | verb + … | **Sit** down. **Turn** left. |
-| **−** | **Don't** + verb | **Don't** worry. **Don't** be late. |
-| polite | **Please** + verb / verb + **please** | **Please** wait here. |
+| **−** | **Don't** + verb | **Don't** worry. **Don't** touch that! |
+| with an adjective | **Be** / **Don't be** + adjective | **Be** careful. **Don't be** late. |
+| polite | **Please** + verb / verb + **, please** | **Please** wait here. Wait here, **please**. |
+| strong rule | **Always** / **Never** + verb | **Always** lock the door. **Never** give up. |
 
 </FormTable>
 
-<Example context="home" fa="برنج را بشور. آب زیادی اضافه نکن."><mark>Wash</mark> the rice. <mark>Don't add</mark> too much water.</Example>
-<Example context="travel" fa="سر چهارراه به راست بپیچید."><mark>Turn</mark> right at the traffic lights.</Example>
-<Example context="work" fa="لطفاً این فرم را پر کنید."><mark>Please fill in</mark> this form.</Example>
+<Example context="home" fa="برنج را بشور. نمک زیادی اضافه نکن."><mark>Wash</mark> the rice. <mark>Don't add</mark> too much salt.</Example>
+<Example context="school" fa="بچه‌ها، کتاب‌هایتان را باز کنید.">Children, <mark>open</mark> your books.</Example>
 
-## Always / Never + verb
+## What we use it for
 
-<Example context="health" fa="هیچ‌وقت ناامید نشو! همیشه کمربندت را ببند."><mark>Never</mark> give up! <mark>Always</mark> wear your seatbelt.</Example>
+- **Instructions**: *<mark>Add</mark> the salt. <mark>Press</mark> the green button.*
+- **Directions**: *<mark>Go</mark> straight on and <mark>turn</mark> left.*
+- **Warnings**: *<mark>Be</mark> careful! <mark>Watch</mark> out!*
+- **Advice**: *<mark>Drink</mark> a lot of water. <mark>Get</mark> some sleep.*
+- **Invitations and offers**: *<mark>Come</mark> in! <mark>Have</mark> a seat. <mark>Have</mark> a biscuit.*
+- **Good wishes**: *<mark>Have</mark> a nice day! <mark>Enjoy</mark> your meal!*
+
+<Example context="travel" fa="سر چراغ راهنمایی به راست بپیچید."><mark>Turn</mark> right at the traffic lights.</Example>
+<Example context="health" fa="آب زیاد بنوش و استراحت کن."><mark>Drink</mark> a lot of water and <mark>rest</mark>.</Example>
+<Example context="social" fa="بفرمایید داخل! بنشینید."><mark>Come</mark> in! <mark>Have</mark> a seat.</Example>
+
+## The negative: Don't
+
+Put **Don't** (= do not) before the verb. After *Don't*, use the base form with **no to**.
+
+<Example context="work" fa="به آن دست نزن! داغ است."><mark>Don't touch</mark> that! It's hot.</Example>
+<Example context="school" fa="نگران نباش. امتحان آسان است."><mark>Don't worry</mark>. The test is easy.</Example>
+
+With an adjective (*late, silly, afraid*), use **Don't be**: *<mark>Don't be</mark> late.* But *worry* is a verb, so say *Don't worry*, not ~~Don't be worry~~.
+
+## Being polite
+
+An imperative is very direct. With people you don't know, it can sound too strong. Add **please** at the start, or at the end after a comma.
+
+<Example context="work" fa="لطفاً این فرم را پر کنید."><mark>Please</mark> fill in this form.</Example>
+<Example context="shopping" fa="لطفاً اینجا صبر کنید.">Wait here, <mark>please</mark>.</Example>
+
+You can also make a warm offer with **Do** + verb: *<mark>Do</mark> have another sandwich.* For polite requests, *Can you…?* is often better than an imperative. That is lesson 21, can / can't.
+
+Sometimes people put **you** before the verb: *You wait here!* This makes it very strong, and it can sound angry. In normal instructions, leave out *you*.
+
+## Always and Never
+
+Put **Always** or **Never** at the start to give a strong rule or advice.
+
+- **Always** + verb = every time: *<mark>Always</mark> wash your hands before you eat.*
+- **Never** + verb = not at any time. It is stronger than *Don't*: *<mark>Never</mark> give up!*
+
+<Example context="travel" fa="همیشه کمربند ایمنی‌ات را ببند."><mark>Always</mark> wear your seatbelt.</Example>
+<Example context="work" fa="هیچ‌وقت رمز عبورت را به کسی نگو."><mark>Never</mark> tell anyone your password.</Example>
+
+In an instruction, *always* and *never* go at the start. In a normal sentence they go before the verb: *I always wear my seatbelt.* (lesson 19, Adverbs of frequency)
 
 ## Let's: a suggestion for us
 
-**Let's** (= let us) + base form means *I suggest that we…*:
+**Let's** is the short form of **let us**. *Let's* + base form means "I suggest that we (you and I) do this."
 
-<Example context="social" fa="بیا برویم بیرون! بیا منتظر نمانیم."><mark>Let's</mark> go out! <mark>Let's not</mark> wait.</Example>
+<FormTable caption="let's">
+
+| | Form | Example |
+|---|---|---|
+| **+** | **Let's** + verb | **Let's** go to the park. |
+| **−** | **Let's not** + verb | **Let's not** wait. |
+| reply | **Yes, let's.** / **No, let's not.** | “Let's eat out.” “Yes, let's!” |
+
+</FormTable>
+
+<Example context="social" fa="بیا امشب بیرون غذا بخوریم!"><mark>Let's</mark> eat out tonight!</Example>
+<Example context="travel" fa="بیا تاکسی نگیریم. بیا پیاده برویم."><mark>Let's not</mark> take a taxi. <mark>Let's</mark> walk.</Example>
+<Example context="work" fa="بیایید ساعت ده استراحت کنیم."><mark>Let's</mark> have a break at ten.</Example>
+
+- After *Let's*, use the base form: *Let's **go***, not ~~Let's to go~~ or ~~Let's going~~.
+- The negative is **Let's not**, not ~~Let's don't~~. (In British English you may also hear *Don't let's…*.)
+- Don't add *we*: *Let's go*, not ~~Let's we go~~. The *'s* already means *us*.
+- Write the apostrophe: **Let's** (= let us). *lets* without it is a different word.
+
+You can also add a tag: *Let's go, shall we?* That comes in B1 lesson 2, Question tags. Other ways to make suggestions (*Shall we…? How about…?*) come in A2 lesson 23, Suggestions & offers.
 
 <Persian>
 
-**فعل امر (imperative):** شکل ساده‌ی فعل، **بدون فاعل**: Sit down (بنشین). Open the window (پنجره را باز کن).
+**فعل امر (imperative):** شکل ساده‌ی فعل، **بدون فاعل**: Sit down (بنشین / بنشینید). Open the window (پنجره را باز کن).
 
-- منفی: **Don't** + فعل: Don't worry (نگران نباش).
-- مؤدبانه: please اضافه کنید: Please sit down.
-- Always / Never + فعل: Never give up (هرگز تسلیم نشو).
+- در فارسی امر مفرد و جمع فرق دارد (بنشین / بنشینید)، اما در انگلیسی **یک شکل** برای هر دو است: Sit down.
+- **منفی:** Don't + فعل ساده: Don't worry (نگران نباش). در فارسی با «نـ» منفی می‌کنیم (نرو)، در انگلیسی با Don't.
+- **با صفت:** Don't be + صفت: Don't be late (دیر نکن). اما worry فعل است، پس Don't worry (نه Don't be worry).
+- **مؤدبانه:** please را اول جمله یا آخر جمله (بعد از ویرگول) بگذارید: Please sit down. / Sit down, please.
+- **Always / Never + فعل:** برای قانون یا نصیحت قوی: Always lock the door (همیشه در را قفل کن). Never give up (هیچ‌وقت تسلیم نشو). Never از Don't قوی‌تر است.
 
-**Let's** = «بیا… / بیایید…» برای پیشنهاد به خودمان و دیگران: Let's go (بیا برویم). منفی: **Let's not** + فعل.
+**کاربردها:** دستور کار (دستور پخت)، نشانی دادن (Turn left)، هشدار (Be careful!)، نصیحت، دعوت (Come in!) و آرزو (Have a nice day!).
 
-**مهم:** بعد از Don't و Let's فعل **بدون to** می‌آید: Let's go (نه Let's to go).
+**چرا فارسی‌زبان‌ها اشتباه می‌کنند؟**
+
+- در فارسی گاهی می‌گوییم «شما بنشینید». اگر در انگلیسی بگوییم You sit down، جمله خیلی تند و حتی عصبانی به نظر می‌رسد. در دستور معمولی you نگذارید.
+- «بیا برویم» یا «بیایید ما برویم» را نباید کلمه‌به‌کلمه ترجمه کرد. بگویید **Let's go**، نه Let's we go و نه Come let's go. خودِ 's یعنی us (ما).
+- در فارسی برای منفی، فعل را منفی می‌کنیم: «بیا **نـ**رویم». برای همین فارسی‌زبان‌ها می‌گویند Let's don't go. در انگلیسی درست آن **Let's not go** است.
+
+**Let's** = let us = «بیا… / بیایید…» برای پیشنهاد به خودمان و دیگران: Let's go (بیا برویم). منفی: **Let's not** + فعل. جواب موافق: **Yes, let's.** (باشه، برویم.)
+
+**مهم:** بعد از Don't و Let's فعل **ساده و بدون to** می‌آید: Let's go (نه Let's to go)، Don't touch (نه Don't to touch).
 
 </Persian>
 
 ## Common mistakes
 
-<WrongRight wrong="You sit down, please." right="Sit down, please." why="Imperatives have no subject." />
+<WrongRight wrong="You sit down, please." right="Sit down, please." why="A normal imperative has no subject. You sit down! sounds very strong." />
 <WrongRight wrong="Don't be worry." right="Don't worry." why="worry is a verb: Don't worry." />
+<WrongRight wrong="Don't to touch the oven." right="Don't touch the oven." why="No to after Don't." />
+<WrongRight wrong="Let's we go to the park." right="Let's go to the park." why="Let's already means let us. Don't add we." />
+<WrongRight wrong="Let's don't argue." right="Let's not argue." why="The negative of Let's is Let's not." />
+<WrongRight wrong="Let's to have lunch." right="Let's have lunch." why="Base form after Let's, no to." />
 
 <MemoryHook title="Start with the verb">
-Instructions **start with the verb**: Open, Turn, Wait, Don't… Suggestions start with **Let's**.
+Instructions **start with the verb**: *Open, Turn, Wait*. Stop someone with **Don't**. Make a plan together with **Let's**, and cancel it with **Let's not**.
 </MemoryHook>

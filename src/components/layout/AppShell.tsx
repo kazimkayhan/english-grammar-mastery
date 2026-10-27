@@ -12,6 +12,7 @@ import {
   Route01Icon,
   Settings01Icon,
   SortingAZ01Icon,
+  ArrowDown01Icon,
 } from "@hugeicons/core-free-icons"
 
 import {
@@ -24,9 +25,13 @@ import {
   SidebarHeader,
   SidebarInset,
   SidebarMenu,
+  SidebarMenuAction,
   SidebarMenuBadge,
   SidebarMenuButton,
   SidebarMenuItem,
+  SidebarMenuSub,
+  SidebarMenuSubButton,
+  SidebarMenuSubItem,
   SidebarProvider,
   SidebarRail,
   SidebarTrigger,
@@ -39,10 +44,16 @@ import { ThemeToggle } from "@/components/layout/ThemeToggle"
 import { DueCount } from "@/components/flashcards/DueCount"
 import { useSettingsSync } from "@/components/layout/useSettingsSync"
 
+export interface ShellLesson {
+  href: string
+  number: number
+  title: string
+}
+
 export interface ShellLevel {
   id: string
   title: string
-  count: number
+  lessons: ShellLesson[]
 }
 
 export interface ShellPillar {
@@ -102,6 +113,57 @@ function NavLink({
   )
 }
 
+/** A level in the sidebar: a link to its overview, and a chevron that opens its lessons. */
+function LevelItem({ level, currentPath }: { level: ShellLevel; currentPath: string }) {
+  const slug = level.id.toLowerCase()
+  const inside = currentPath === `/levels/${slug}` || currentPath.startsWith(`/lessons/${slug}/`)
+  const [open, setOpen] = React.useState(inside)
+  const listRef = React.useRef<HTMLUListElement>(null)
+
+  // When the list opens, bring the lesson you are on into view inside it.
+  React.useEffect(() => {
+    if (open) listRef.current?.querySelector<HTMLElement>('[aria-current="page"]')?.scrollIntoView({ block: "nearest" })
+  }, [open])
+
+  return (
+    <SidebarMenuItem>
+      <NavLink href={`/levels/${slug}`} current={currentPath} tooltip={`${level.id} · ${level.title}`}>
+        <span className="flex size-6 shrink-0 items-center justify-center rounded-md bg-sidebar-accent text-[0.7rem] font-bold">
+          {level.id}
+        </span>
+        <span>{level.title}</span>
+      </NavLink>
+      {level.lessons.length > 0 && (
+        <SidebarMenuAction
+          aria-expanded={open}
+          aria-controls={open ? `level-${slug}-lessons` : undefined}
+          aria-label={`${open ? "Hide" : "Show"} ${level.id} lessons`}
+          onClick={() => setOpen(!open)}
+        >
+          <HugeiconsIcon icon={ArrowDown01Icon} strokeWidth={2} className={open ? "rotate-180 transition-transform" : "transition-transform"} />
+        </SidebarMenuAction>
+      )}
+      {open && level.lessons.length > 0 && (
+        // Five rows are visible at once (10rem); the rest scroll inside the list.
+        <SidebarMenuSub id={`level-${slug}-lessons`} ref={listRef} className="max-h-40 overflow-y-auto">
+          {level.lessons.map((lesson) => (
+            <SidebarMenuSubItem key={lesson.href}>
+              <SidebarMenuSubButton
+                render={<a href={lesson.href} />}
+                isActive={isActive(currentPath, lesson.href)}
+                aria-current={isActive(currentPath, lesson.href) ? "page" : undefined}
+              >
+                <span className="shrink-0 tabular-nums text-muted-foreground">{lesson.number}</span>
+                <span>{lesson.title}</span>
+              </SidebarMenuSubButton>
+            </SidebarMenuSubItem>
+          ))}
+        </SidebarMenuSub>
+      )}
+    </SidebarMenuItem>
+  )
+}
+
 export function AppShell({ currentPath, levels, pillars, children }: AppShellProps) {
   useSettingsSync()
   const families = ["words", "verbs", "sentences", "text"]
@@ -152,19 +214,7 @@ export function AppShell({ currentPath, levels, pillars, children }: AppShellPro
                 <SidebarGroupContent>
                   <SidebarMenu>
                     {levels.map((level) => (
-                      <SidebarMenuItem key={level.id}>
-                        <NavLink
-                          href={`/levels/${level.id.toLowerCase()}`}
-                          current={currentPath}
-                          tooltip={`${level.id} · ${level.title}`}
-                        >
-                          <span className="flex size-6 shrink-0 items-center justify-center rounded-md bg-sidebar-accent text-[0.7rem] font-bold">
-                            {level.id}
-                          </span>
-                          <span>{level.title}</span>
-                        </NavLink>
-                        <SidebarMenuBadge>{level.count}</SidebarMenuBadge>
-                      </SidebarMenuItem>
+                      <LevelItem key={level.id} level={level} currentPath={currentPath} />
                     ))}
                   </SidebarMenu>
                 </SidebarGroupContent>

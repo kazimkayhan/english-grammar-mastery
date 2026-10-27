@@ -4,31 +4,45 @@ level: A1
 number: 6
 pillar: sentence-structure
 size: core
-hook: "At the airport: “Are you Mr. Karimi?” “Yes, I am.” Short, polite, and exactly right."
-rule: "To ask a question with be, put am / is / are before the subject. Answer with Yes + subject + am / is / are, or No + subject + 'm not / isn't / aren't."
+hook: "At the airport: “Excuse me, are you Mr. Karimi?” “Yes, I am.” One small change in word order makes the question, and three words make a polite answer."
+rule: "To ask a yes/no question with be, put am / is / are before the subject, with no do. Answer with Yes + pronoun + am / is / are, or No + pronoun + 'm not / isn't / aren't."
 points:
-  - "Statement → question: You <b>are</b> ready. → <b>Are</b> you ready?"
-  - "<b>Am</b> I…? · <b>Is</b> he / she / it…? · <b>Are</b> you / we / they…?"
-  - "Short answers: Yes, I <b>am</b>. / No, I<b>'m not</b>. · Yes, she <b>is</b>. / No, she <b>isn't</b>."
-  - "Never shorten a positive short answer: Yes, I am. (not Yes, I'm.)"
+  - "Statement → question: You <b>are</b> ready. → <b>Are</b> you ready? No <b>do</b>: never “Do you are…?”"
+  - "<b>Am</b> I…? · <b>Is</b> he / she / it…? · <b>Are</b> you / we / they…? A long subject stays together: <b>Is your sister</b> a student?"
+  - "Short answers: Yes, I <b>am</b>. / No, I<b>'m not</b>. · Yes, she <b>is</b>. / No, she <b>isn't</b> (or she<b>'s not</b>)."
+  - "Never shorten a <b>yes</b> short answer: Yes, I am. (not “Yes, I'm.”)"
+  - "Use a pronoun in the answer: “Is <b>your brother</b> here?” “Yes, <b>he</b> is.” · “Is <b>this</b> your bag?” “Yes, <b>it</b> is.”"
+  - "<b>Yes</b> goes with a positive verb, <b>No</b> with a negative one: never “Yes, I'm not.”"
   - "In Persian the voice makes the question; in English the <b>word order</b> changes."
 mindmap: |
-  # be: questions
+  # be: questions & short answers
   ## Make a question
-  - You are ready.
-  - Are you ready?
+  - You are ready. → Are you ready?
+  - be goes before the subject
+  - no do: not Do you are…?
+  - Is your sister a student?
   ## The forms
   - Am I…?
   - Is he / she / it…?
   - Are you / we / they…?
+  - Aren't I…? (negative with I)
   ## Short answers: yes
   - Yes, I am.
   - Yes, she is.
   - Yes, they are.
+  - never Yes, I'm.
   ## Short answers: no
   - No, I'm not.
-  - No, she isn't.
-  - No, they aren't.
+  - No, she isn't. / No, she's not.
+  - No, they aren't. / No, they're not.
+  ## Who is in the answer?
+  - you → I or we
+  - your brother → he
+  - this → it · these → they
+  - Yes + positive · No + negative
+  ## Coming later
+  - Where is…? lesson 7
+  - Is there…? lesson 14
 covers:
   - be-questions
   - be-short-answers
@@ -50,6 +64,29 @@ exercises:
     prompt: "Make a question: They are at home."
     answers: ["Are they at home?"]
     explain: "Put are before the subject: Are they at home?"
+  - type: transform
+    prompt: "Make a question: Your parents are in Shiraz."
+    answers: ["Are your parents in Shiraz?"]
+    explain: "The whole subject (your parents) goes after are: Are your parents in Shiraz?"
+  - type: gap
+    prompt: "___ you from Iran?"
+    answers: ["Are"]
+    explain: "you → are, and it goes first in a question."
+  - type: gap
+    prompt: "___ your sister a student?"
+    answers: ["Is"]
+    explain: "your sister = she → is."
+  - type: gap
+    prompt: "___ I late for the meeting?"
+    answers: ["Am"]
+    explain: "I → am: Am I late?"
+  - type: correct
+    prompt: "Do you hungry?"
+    answers: ["Are you hungry?"]
+    explain: "With be, we don't use do. Put are before you: Are you hungry?"
+  - type: reorder
+    chunks: ["Is", "the museum", "open", "today?"]
+    explain: "Is + subject + the rest + ?"
   - type: mcq
     prompt: "“Are you tired?” “Yes, I ___.”"
     options: ["am", "'m", "is"]
@@ -59,26 +96,30 @@ exercises:
     prompt: "“Is Reza at work?” “No, he ___.”"
     options: ["isn't", "aren't", "not"]
     answer: 0
-    explain: "he → is → isn't."
-  - type: gap
-    prompt: "___ you from Iran?"
-    answers: ["Are"]
-    explain: "you → are, and it goes first in a question."
-  - type: gap
-    prompt: "___ your sister a student?"
-    answers: ["Is"]
-    explain: "your sister = she → is."
+    explain: "he → is → isn't. (No, he's not is also correct.)"
   - type: correct
     prompt: "Yes, I'm."
     answers: ["Yes, I am."]
     explain: "Don't shorten a positive short answer."
-  - type: correct
-    prompt: "Where you are from?"
-    answers: ["Where are you from?"]
-    explain: "In a question, are comes before you."
-  - type: reorder
-    chunks: ["Is", "the museum", "open", "today?"]
-    explain: "Is + subject + the rest + ?"
+  - type: gap
+    prompt: "“Is your brother a doctor?” “Yes, ___ is.”"
+    answers: ["he"]
+    explain: "Use a pronoun in the short answer: your brother → he."
+  - type: mcq
+    prompt: "“Are these your keys?” “Yes, ___ are.”"
+    options: ["it", "they", "these"]
+    answer: 1
+    explain: "these (more than one thing) → they in the answer."
+  - type: mcq
+    prompt: "“Are you students?” “Yes, ___ are.”"
+    options: ["you", "we", "I"]
+    answer: 1
+    explain: "you (many people) → we in the answer."
+  - type: mcq
+    prompt: "“Are you cold?” You are not cold. Which answer is right?"
+    options: ["Yes, I'm not.", "No, I'm not.", "No, I am."]
+    answer: 1
+    explain: "No goes with a negative verb: No, I'm not."
   - type: match
     prompt: "Match each question with the right answer."
     pairs:
@@ -86,28 +127,34 @@ exercises:
       - ["Is it cold outside?", "No, it isn't."]
       - ["Are they ready?", "Yes, they are."]
       - ["Is she a doctor?", "No, she isn't."]
-    explain: "The short answer repeats the subject and the form of be."
+    explain: "The short answer repeats the subject (as a pronoun) and the form of be."
 recall:
   - q: "How do you make a question from “He is at home”?"
-    a: "Move <b>is</b> before the subject: <b>Is he at home?</b>"
+    a: "Move <b>is</b> before the subject: <b>Is he at home?</b> No <b>do</b>."
   - q: "What are the two short answers to “Are you ready?”"
     a: "<b>Yes, I am.</b> / <b>No, I'm not.</b>"
   - q: "Why is “Yes, I'm.” wrong?"
     a: "Positive short answers are <b>never shortened</b>: Yes, I am."
+  - q: "“Is this your phone?” What is the short answer?"
+    a: "<b>Yes, it is.</b> / <b>No, it isn't.</b> this → <b>it</b> in the answer."
 cards:
   - front: "You are ready. → question?"
     back: "Are you ready?"
   - front: "Short answers with she"
-    back: "Yes, she is. / No, she isn't."
+    back: "Yes, she is. / No, she isn't. (or No, she's not.)"
   - front: "✗ Yes, I'm. ✓ ?"
     back: "Yes, I am."
   - front: "Am I…? Is…? Are…?"
     back: "Am I · Is he / she / it · Are you / we / they"
+  - front: "✗ Do you hungry? ✓ ?"
+    back: "Are you hungry? (no do with be)"
+  - front: "“Are these your keys?” short answers"
+    back: "Yes, they are. / No, they aren't."
 ---
 
 ## Making a question
 
-With **be**, a question is easy: move **am / is / are** to the front, before the subject.
+With **be**, a question is easy: move **am / is / are** to the front, before the subject. We **don't** use *do*.
 
 <FormTable caption="be: statement → question">
 
@@ -122,50 +169,135 @@ With **be**, a question is easy: move **am / is / are** to the front, before the
 </FormTable>
 
 <Example context="travel" fa="ببخشید، این اتوبوسِ فرودگاه است؟"><mark>Is</mark> this the bus to the airport?</Example>
-<Example context="work" fa="آماده‌ای؟ جلسه شروع شد.">Are you ready? The meeting is starting.</Example>
+<Example context="work" fa="آماده‌ای؟ جلسه دارد شروع می‌شود."><mark>Are</mark> you ready? The meeting is starting.</Example>
 <Example context="shopping" fa="این کفش‌ها نو هستند؟"><mark>Are</mark> these shoes new?</Example>
+
+### Long subjects
+
+The subject can be more than one word. Keep it together, after *am / is / are*:
+
+<FormTable caption="Questions with a longer subject">
+
+| Statement | Question |
+|---|---|
+| **Your sister** is a student. | Is **your sister** a student? |
+| **Ali and Sara** are at home. | Are **Ali and Sara** at home? |
+| **The new teacher** is from Canada. | Is **the new teacher** from Canada? |
+
+</FormTable>
+
+<Example context="health" fa="دکتر امروز در مطب است؟">Is <mark>the doctor</mark> in today?</Example>
+<Example context="home" fa="بچه‌ها خواب هستند؟">Are <mark>the children</mark> asleep?</Example>
+
+### Am I…? and Aren't I…?
+
+*Am I…?* is the normal question with *I*: *Am I late? Am I in the right room?*
+
+For a **negative** question with *I*, people say **Aren't I…?** There is no “amn't”. (*Am I not…?* is correct but very formal.)
+
+<Example context="work" fa="مگر اسم من در فهرست نیست؟"><mark>Aren't I</mark> on the list?</Example>
+
+Other negative questions (*Isn't it beautiful? Aren't you hungry?*) and how to answer them come at level A2, lesson 2 (Negatives & answering negative questions).
 
 ## Short answers
 
-In conversation we rarely answer with the whole sentence. We use a **short answer**: Yes / No + subject + **be**.
+In conversation we rarely answer with the whole sentence. We use a **short answer**: **Yes / No + pronoun + be**.
 
 <FormTable caption="Short answers">
 
 | Question | Yes | No |
 |---|---|---|
+| Am I late? | Yes, you **are**. | No, you **aren't**. / No, you'**re not**. |
 | Are you a student? | Yes, I **am**. | No, I'**m not**. |
-| Is he busy? | Yes, he **is**. | No, he **isn't**. |
-| Is it far? | Yes, it **is**. | No, it **isn't**. |
-| Are they here? | Yes, they **are**. | No, they **aren't**. |
+| Is he busy? | Yes, he **is**. | No, he **isn't**. / No, he'**s not**. |
+| Is it far? | Yes, it **is**. | No, it **isn't**. / No, it'**s not**. |
+| Are they here? | Yes, they **are**. | No, they **aren't**. / No, they'**re not**. |
 
 </FormTable>
 
 <Example context="social" fa="«تشنه‌ای؟» «نه، نیستم.»">“Are you thirsty?” “<mark>No, I'm not.</mark>”</Example>
 <Example context="health" fa="«سارا مریض است؟» «بله، هست.»">“Is Sara sick?” “<mark>Yes, she is.</mark>”</Example>
 
-A **yes** short answer is never shortened: *Yes, I am* (not *Yes, I'm*), *Yes, she is* (not *Yes, she's*). A **no** answer is usually shortened: *No, she isn't.*
+Four rules:
+
+- A **yes** short answer is never shortened: *Yes, I am* (not ~~Yes, I'm~~), *Yes, she is* (not ~~Yes, she's~~).
+- A **no** answer is usually shortened: *No, she isn't* or *No, she's not*. With *I* there is only one: *No, I'm not.*
+- **Yes** goes with a positive verb, **No** with a negative verb: *Yes, I am. / No, I'm not.* Never ~~Yes, I'm not~~.
+- Just *Yes.* or *No.* is correct, but a short answer sounds friendlier. You can add more: *Yes, I am. I'm from Shiraz.*
+
+### Who is in the answer?
+
+The short answer uses a **pronoun**, not the noun. Think about who answers:
+
+<FormTable caption="The pronoun in the short answer">
+
+| The question is about… | The answer uses… | Example |
+|---|---|---|
+| you (one person) | **I** | “Are you OK?” “Yes, **I** am.” |
+| you (more than one) | **we** | “Are you students?” “Yes, **we** are.” |
+| I | **you** | “Am I late?” “No, **you**'re not.” |
+| your brother · your mother | **he** · **she** | “Is your brother here?” “Yes, **he** is.” |
+| the hotel · this · that | **it** | “Is this your bag?” “Yes, **it** is.” |
+| the children · these · those | **they** | “Are these your keys?” “No, **they** aren't.” |
+
+</FormTable>
+
+<Example context="travel" fa="«این چمدان شماست؟» «بله، هست. ممنون!»">“Is this your suitcase?” “Yes, <mark>it is</mark>. Thanks!”</Example>
+<Example context="school" fa="«بچه‌ها، آماده‌اید؟» «بله، آماده‌ایم!»">“Are you ready, class?” “Yes, <mark>we are</mark>!”</Example>
+
+## Questions in speech
+
+In conversation, people sometimes keep the statement order and only raise their voice: *You're from Iran?* They do this to check something or to show surprise. That comes at level B1, lesson 1 (Subject & object questions). For a normal question, and always in writing, change the order: ***Are you** from Iran?*
+
+## Coming later
+
+- *Where is she? What are they?*: lesson 7 (Question words: what, where, who, when, how).
+- *Is there a bank near here?*: lesson 14 (there is / there are).
+- *Do you like tea?* (questions with *do*): lesson 18 (Present simple: negatives & questions).
+- *Are you working?*: lesson 22 (Present continuous).
+- *It's cold, isn't it?*: level B1, lesson 2 (Question tags).
 
 <Persian>
 
-**سؤال با be:** در فارسی برای سؤال فقط لحن صدا را عوض می‌کنیم («خسته‌ای؟»). در انگلیسی **جای فعل عوض می‌شود**: am / is / are به اول جمله، قبل از فاعل، می‌رود.
+**سؤال با be:** در فارسی برای سؤال فقط لحن صدا را عوض می‌کنیم («خسته‌ای؟») یا «آیا» را اول جمله می‌گذاریم. در انگلیسی **جای فعل عوض می‌شود**: am / is / are به اول جمله، قبل از فاعل، می‌رود.
 
 - You are tired. ← Are you tired?
-- She is at home. ← Is she at home?
+- Your sister is at home. ← Is your sister at home?
 
-**جواب کوتاه (short answer):** به جای تکرار کل جمله، می‌گوییم: Yes / No + فاعل + am / is / are.
+اگر فاعل چند کلمه است، همه‌ی آن را با هم بعد از فعل بگذارید: Is **the new teacher** from Canada?
+
+**do نگذارید:** در سؤال با be از do استفاده نمی‌کنیم: Are you hungry? (نه Do you hungry? و نه Do you are hungry?).
+
+**Aren't I:** برای «مگر من … نیستم؟» می‌گوییم Aren't I…? شکل amn't وجود ندارد.
+
+**جواب کوتاه (short answer):** به جای تکرار کل جمله، می‌گوییم: Yes / No + ضمیر + am / is / are. در فارسی می‌گوییم «بله، هست» یا «نه، نیستم»، اما در انگلیسی ضمیر را هم می‌آوریم:
 
 - Yes, I am. / No, I'm not.
-- Yes, he is. / No, he isn't.
+- Yes, he is. / No, he isn't. (یا No, he's not.)
+- Yes, they are. / No, they aren't. (یا No, they're not.)
 
-**نکته:** جواب مثبت کوتاه را هرگز خلاصه نکنید: Yes, I am (نه Yes, I'm).
+فقط Yes یا No هم درست است، اما جواب کوتاه دوستانه‌تر است.
+
+**نکته‌ها:**
+
+- جواب مثبت کوتاه را هرگز خلاصه نکنید: Yes, I am (نه Yes, I'm).
+- در جواب از **ضمیر** استفاده کنید، نه اسم: Is your brother here? ← Yes, he is (نه Yes, my brother is). برای this و that از it، و برای these و those از they استفاده کنید.
+- you در سؤال ← I (یک نفر) یا we (چند نفر) در جواب.
+- Yes با فعل مثبت و No با فعل منفی می‌آید: No, I'm not (نه Yes, I'm not).
+
+**سؤال با لحن:** در گفتار، انگلیسی‌زبان‌ها هم گاهی فقط با لحن می‌پرسند (You're from Iran?)، برای تعجب یا اطمینان. اما سؤال معمولی، و همیشه در نوشتن، با جابه‌جایی فعل است: Are you from Iran?
 
 </Persian>
 
 ## Common mistakes
 
 <WrongRight wrong="Is you a student?" right="Are you a student?" why="you always takes are." />
+<WrongRight wrong="Do you hungry?" right="Are you hungry?" why="With be, there is no do. Put are before the subject." />
 <WrongRight wrong="“Is it far?” “Yes, it's.”" right="“Is it far?” “Yes, it is.”" why="Positive short answers use the full form." />
+<WrongRight wrong="“Is your brother a doctor?” “Yes, my brother is.”" right="“Is your brother a doctor?” “Yes, he is.”" why="Use a pronoun in the short answer." />
+<WrongRight wrong="“Are you cold?” “Yes, I'm not.”" right="“Are you cold?” “No, I'm not.”" why="No goes with a negative verb." />
+<WrongRight wrong="You are from Iran? (in writing)" right="Are you from Iran?" why="A normal question puts be before the subject." />
 
 <MemoryHook title="Jump to the front">
-In a question, **be jumps to the front**: You are → **Are** you? In the answer, it **comes back**: Yes, I **am**.
+In a question, **be jumps to the front**: You are → **Are** you? In the answer, it **comes back** after a pronoun: Yes, I **am**. No, I**'m not**.
 </MemoryHook>

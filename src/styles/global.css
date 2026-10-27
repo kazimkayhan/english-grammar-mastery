@@ -349,6 +349,15 @@
   font-weight: 700;
   box-decoration-break: clone;
 }
+/* Thin scrollbars in the theme colours. scrollbar-width is not inherited, so it is set on every element. */
+:root {
+  scrollbar-color: color-mix(in oklch, var(--muted-foreground) 35%, transparent) transparent;
+}
+
+* {
+  scrollbar-width: thin;
+}
+
 .table-scroll {
   max-width: 100%;
   overflow-x: auto;

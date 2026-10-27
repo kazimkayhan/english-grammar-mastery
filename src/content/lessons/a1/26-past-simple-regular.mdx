@@ -4,28 +4,41 @@ level: A1
 number: 26
 pillar: tenses
 size: core
-hook: "“Yesterday I called my mother, cooked dinner and watched a film.” Regular verbs make the past with -ed."
-rule: "Use the past simple for finished actions at a finished time. Regular verbs add -ed, and the form is the same for every subject."
+hook: "A friend asks about your Friday. “I worked until five, then I called my mother, cooked dinner and watched a film.” Four past actions, one small ending: -ed."
+rule: "Use the past simple for finished actions and states at a finished time. Regular verbs add -ed (with a few spelling changes), and the form is the same for every subject."
 points:
-  - "verb + <b>-ed</b>: work → work<b>ed</b>, play → play<b>ed</b>"
-  - "The same for all subjects: I / she / they work<b>ed</b> (no -s)"
-  - "Spelling: like → lik<b>ed</b> · stop → stop<b>ped</b> · study → stud<b>ied</b> · play → play<b>ed</b>"
-  - "Use it for <b>finished</b> actions at a <b>finished</b> time: I visited Shiraz <b>last year</b>."
-  - "Negatives and questions use <b>did</b>: see the next lesson."
+  - "Regular verbs add <b>-ed</b>: work → work<b>ed</b>, play → play<b>ed</b>. The form is the <b>same for every subject</b>: I / she / they work<b>ed</b> (no -s)."
+  - "Spelling: like → lik<b>ed</b> · stop → sto<b>pped</b> · study → stud<b>ied</b> · play → play<b>ed</b>."
+  - "Double the last letter only after <b>one vowel + one consonant</b> at the end of a stressed syllable: stop → sto<b>pp</b>ed, prefer → prefe<b>rr</b>ed, but <b>visit → visited</b>, <b>open → opened</b>, <b>fix → fixed</b>."
+  - "Say -ed three ways: <b>/t/</b> worked · <b>/d/</b> played · <b>/ɪd/</b> wanted. The extra syllable comes only after a <b>t</b> or <b>d</b> sound."
+  - "Use it for <b>finished</b> actions and states at a <b>finished</b> time: I <b>visited</b> Shiraz <b>last year</b>. Also for repeated past actions: We <b>walked</b> to school every day."
+  - "Negatives and questions use <b>did</b> + the base form: I <b>didn't work</b> · <b>Did</b> you <b>work</b>? (more in lesson 27)"
 mindmap: |
-  # Past simple: regular
+  # Past simple: regular verbs
   ## Form
   - verb + -ed
-  - same for everyone
+  - same for every subject
+  - no -s: she worked
   ## Spelling
-  - work → worked
-  - like → liked
-  - stop → stopped
-  - study → studied
-  - play → played
-  ## Use
-  - finished action
-  - finished time: yesterday, last year
+  - most verbs + ed: worked
+  - ends in -e + d: liked
+  - one vowel + one consonant → double: stopped
+  - stress on the end → double: preferred
+  - no double: visited, opened, fixed
+  - consonant + y → ied: studied
+  - vowel + y + ed: played
+  ## Saying -ed
+  - /t/: worked, stopped
+  - /d/: played, cleaned
+  - /ɪd/ after t, d: wanted, needed
+  ## Uses
+  - finished action, finished time
+  - repeated past actions
+  - states in a finished period
+  ## − and ?
+  - didn't + base: didn't work
+  - Did + subject + base: Did you work?
+  - lesson 27
 covers:
   - past-simple-regular
   - ed-spelling
@@ -36,40 +49,58 @@ exercises:
     prompt: "Yesterday I ___ my grandmother."
     base: "visit"
     answers: ["visited"]
-    explain: "Regular verb: visit → visited."
+    explain: "visit → visited. The stress is on vi-, so no double t."
   - type: gap
     prompt: "We ___ a great film last night."
     base: "watch"
     answers: ["watched"]
-    explain: "watch → watched."
+    explain: "Most verbs just add -ed: watch → watched."
   - type: gap
     prompt: "She ___ English in London in 2019."
     base: "study"
     answers: ["studied"]
     explain: "consonant + y → -ied: studied."
   - type: gap
-    prompt: "The bus ___ at the station."
+    prompt: "The bus ___ at the station, and we got on."
     base: "stop"
     answers: ["stopped"]
-    explain: "One vowel + one consonant: double it → stopped."
+    explain: "One vowel + one consonant at the end: double it → stopped."
   - type: gap
-    prompt: "I ___ the film very much."
+    prompt: "I ___ the concert very much."
     base: "like"
     answers: ["liked"]
     explain: "Verbs ending in -e add only -d: liked."
+  - type: gap
+    prompt: "The shop assistant ___ the door for me."
+    base: "open"
+    answers: ["opened"]
+    explain: "The stress is on o-, not on the end, so no double n: opened."
   - type: mcq
     prompt: "My brother ___ in a bank for ten years. Now he's retired."
     options: ["works", "worked", "workeds"]
     answer: 1
-    explain: "A finished period → past simple: worked."
+    explain: "A finished period → past simple: worked. No -s in the past."
+  - type: mcq
+    prompt: "In which verb is -ed an extra syllable (/ɪd/)?"
+    options: ["walked", "played", "wanted"]
+    answer: 2
+    explain: "want ends in a t sound, so -ed is /ɪd/: want-ed. walked = /t/, played = /d/."
   - type: correct
     prompt: "Last week she cleanned the house."
     answers: ["Last week she cleaned the house."]
-    explain: "clean → cleaned (two vowels, no doubling)."
+    explain: "clean has two vowels before n, so no doubling: cleaned."
   - type: correct
     prompt: "I play tennis yesterday."
     answers: ["I played tennis yesterday."]
     explain: "yesterday = finished time → past simple: played."
+  - type: correct
+    prompt: "He stayed at home and studyed all evening."
+    answers: ["He stayed at home and studied all evening."]
+    explain: "consonant + y → -ied: studied. (stay has a vowel before y, so stayed is correct.)"
+  - type: correct
+    prompt: "She cookeds dinner for us last night."
+    answers: ["She cooked dinner for us last night."]
+    explain: "The past simple is the same for every subject. No -s."
   - type: match
     prompt: "Match each verb with its past form."
     pairs:
@@ -77,19 +108,37 @@ exercises:
       - ["plan", "planned"]
       - ["dance", "danced"]
       - ["stay", "stayed"]
-    explain: "y → ied after a consonant; double after one vowel + consonant; -e + d; vowel + y + ed."
+      - ["fix", "fixed"]
+    explain: "consonant + y → ied; one vowel + one consonant → double; -e + d; vowel + y + ed; never double x."
+  - type: transform
+    prompt: "Put into the past: We walk to school every day."
+    answers: ["We walked to school every day."]
+    explain: "The past simple also shows repeated actions in the past: walked."
+  - type: transform
+    prompt: "Make it negative: She cooked dinner."
+    answers: ["She didn't cook dinner.", "She did not cook dinner."]
+    explain: "didn't + base form: didn't cook (not didn't cooked)."
+  - type: reorder
+    chunks: ["Did", "you", "call", "your", "mother?"]
+    explain: "Did + subject + base form: Did you call…? (not called)"
 recall:
   - q: "How do regular verbs make the past simple?"
-    a: "Add <b>-ed</b>, the same for every subject: I / she / they work<b>ed</b>."
-  - q: "What are the past forms of study, stop and like?"
-    a: "<b>studied, stopped, liked</b>."
+    a: "Add <b>-ed</b>, the same for every subject: I / she / they work<b>ed</b>. No -s."
+  - q: "What are the past forms of study, stop, like, play and open?"
+    a: "<b>studied, stopped, liked, played, opened</b>."
   - q: "When do we use the past simple?"
-    a: "For <b>finished actions</b> at a <b>finished time</b>: I visited Shiraz last year."
+    a: "For <b>finished</b> actions and states at a <b>finished</b> time (I visited Shiraz last year), and for repeated past actions."
+  - q: "When is -ed an extra syllable?"
+    a: "Only after a <b>t</b> or <b>d</b> sound: want<b>ed</b>, need<b>ed</b> (/ɪd/). Otherwise it is /t/ (worked) or /d/ (played)."
 cards:
   - front: "Regular past simple"
-    back: "verb + -ed, same for all subjects"
+    back: "verb + -ed, the same for all subjects (no -s)"
   - front: "study / stop / like / play → past"
     back: "studied · stopped · liked · played"
+  - front: "visit / open / fix → past (double or not?)"
+    back: "visited · opened · fixed (no double)"
+  - front: "-ed sounds: worked / played / wanted"
+    back: "/t/ · /d/ · /ɪd/"
   - front: "«دیروز به مادرم زنگ زدم»"
     back: "I called my mother yesterday."
   - front: "Past simple use"
@@ -98,15 +147,21 @@ cards:
 
 ## The form: verb + -ed
 
+Regular verbs make the past simple with **-ed**. The form is **the same for every subject**. No *-s*, no change for *he* or *she*.
+
 <FormTable caption="Past simple: regular verbs">
 
-| Subject | Past | Example |
+| Subject | Present | Past |
 |---|---|---|
-| I / you / he / she / it / we / they | verb + **-ed** | She **worked** late yesterday. |
+| I / you / we / they | work | **worked** |
+| he / she / it | work**s** | **worked** |
 
 </FormTable>
 
-Good news: the past simple is **the same for every subject**. No -s!
+<Example context="work" fa="او دیروز تا دیر وقت کار کرد.">She <mark>worked</mark> late yesterday.</Example>
+<Example context="home" fa="دیروز به مادرم زنگ زدم، شام پختم و فیلم دیدم.">Yesterday I <mark>called</mark> my mother, <mark>cooked</mark> dinner and <mark>watched</mark> a film.</Example>
+
+Many common verbs are **irregular**: they don't add -ed (*go → went, see → saw*). They are in lesson 27 (Past simple: irregular verbs & did).
 
 ## Spelling the -ed form
 
@@ -114,40 +169,118 @@ Good news: the past simple is **the same for every subject**. No -s!
 
 | Rule | Examples |
 |---|---|
-| most verbs: + **ed** | work → work**ed** · clean → clean**ed** |
-| ends in **-e**: + **d** | like → lik**ed** · dance → danc**ed** |
-| one vowel + one consonant: **double** | stop → stop**ped** · plan → plan**ned** |
-| consonant + **y** → **ied** | study → stud**ied** · try → tr**ied** |
-| vowel + **y**: + **ed** | play → play**ed** · stay → stay**ed** |
+| most verbs: + **ed** | work → work**ed** · clean → clean**ed** · want → want**ed** |
+| ends in **-e**: + **d** only | like → lik**ed** · dance → danc**ed** · live → liv**ed** |
+| **one vowel + one consonant** at the end: **double** the consonant | stop → sto**pped** · plan → pla**nned** · shop → sho**pped** |
+| consonant + **y** → **ied** | study → stud**ied** · try → tr**ied** · carry → carr**ied** |
+| vowel + **y**: + **ed** | play → play**ed** · stay → stay**ed** · enjoy → enjoy**ed** |
 
 </FormTable>
 
+More about doubling:
+
+- **Longer verbs** double only when the **stress is on the last syllable**: pre**FER** → prefe**rr**ed. When the stress is at the start, don't double: **VIS**it → visited, **O**pen → opened, **LIS**ten → listened.
+- **Never double w, x or y**: fix → fixed, show → showed, play → played.
+- **Two vowels** before the last consonant? Don't double: clean → cleaned, rain → rained.
+
+Careful: **pay → paid** and **say → said** don't follow the y rule. Learn them as irregular verbs (lesson 27).
+
+<UkNote>
+British English doubles a final **l** after one vowel, even when the stress is not at the end: travel → **travelled**, cancel → **cancelled**. American English writes *traveled*, *canceled*. More US and UK past forms come in A2 lesson 7 (Past simple: more irregular verbs).
+</UkNote>
+
+## Saying -ed
+
+The **-ed** ending has three sounds. Most of the time it is **not** an extra syllable.
+
+<FormTable caption="Pronouncing -ed">
+
+| Sound | When | Examples |
+|---|---|---|
+| **/t/** | after voiceless sounds like p, k, s, sh, ch, f | stopped · worked · washed · watched |
+| **/d/** | after vowels and voiced sounds like b, g, l, m, n, v | played · cleaned · lived · called |
+| **/ɪd/** (extra syllable) | only after **t** or **d** | wanted · needed · visited · started |
+
+</FormTable>
+
+So *worked* is one syllable (it sounds like "workt"), not "work-ed". Only *want-ed*, *need-ed* and similar verbs get the extra syllable.
+
 ## When do we use it?
+
+Use the past simple for an action or a state that is **finished**, at a time that is **finished**.
 
 <Timeline items={[{ type: "point", at: -0.6, label: "I visited Shiraz" }]} caption="A finished action at a finished time in the past." />
 
-<Example context="home" fa="دیروز به مادرم زنگ زدم، شام پختم و فیلم دیدم.">Yesterday I <mark>called</mark> my mother, <mark>cooked</mark> dinner and <mark>watched</mark> a film.</Example>
+- **One finished action**: *We visited Shiraz last year.*
+- **Repeated actions in the past**: *We walked to school every day.* (Another way to say this is in A2 lesson 10, *used to*.)
+- **A state for a finished period**: *She lived in Tabriz for ten years.* (She doesn't live there now.)
+
+We often say **when** with a time phrase: *yesterday, last week, in 2019, two days ago*. Lesson 28 (Past time phrases: yesterday, last week, ago) teaches these phrases.
+
 <Example context="travel" fa="پارسال از شیراز دیدن کردیم.">We <mark>visited</mark> Shiraz last year.</Example>
+<Example context="school" fa="هر روز پیاده به مدرسه می‌رفتیم.">We <mark>walked</mark> to school every day.</Example>
 <Example context="work" fa="او ده سال در یک بانک کار کرد.">She <mark>worked</mark> in a bank for ten years.</Example>
+<Example context="health" fa="دیروز دکتر به من کمک کرد.">The doctor <mark>helped</mark> me yesterday.</Example>
+
+## Negatives and questions: a first look
+
+For negatives and questions we use **did** and the **base form** (no -ed). Lesson 27 (Past simple: irregular verbs & did) teaches them in full.
+
+<FormTable caption="Past simple: negative and question">
+
+| Positive | Negative | Question | Short answer |
+|---|---|---|---|
+| She **worked**. | She **didn't work**. | **Did** she **work**? | Yes, she did. / No, she didn't. |
+
+</FormTable>
+
+The past is in **did**, so the main verb stays simple: *I didn't work*, not ~~I didn't worked~~.
+
+<Example context="shopping" fa="از کیف خوشم نیامد. خیلی گران بود.">I <mark>didn't like</mark> the bag. It was very expensive.</Example>
+<Example context="social" fa="دیشب به سارا زنگ زدی؟"><mark>Did</mark> you <mark>call</mark> Sara last night?</Example>
+
+## Other past forms
+
+English has another past form, the **present perfect** (*I have worked*). You meet it in A2 lesson 15 (Present perfect: experience), and B1 lesson 6 (Present perfect or past simple?) compares the two. The past simple also has special uses for politeness and imagination (*I wanted to ask you… If I had a car…*). Those come much later, in B1 lesson 23 (Second conditional) and C1 lesson 8 (Tense for distance & politeness).
 
 <Persian>
 
-**گذشته‌ی ساده (past simple):** برای کاری که در **زمان مشخصی در گذشته** انجام شده و **تمام شده** است (دیروز، پارسال، سال ۲۰۱۹).
+**گذشته‌ی ساده (past simple):** برای کار یا حالتی که **تمام شده** و در **زمان گذشته‌ی مشخصی** اتفاق افتاده است (دیروز، هفته‌ی پیش، سال ۲۰۱۹). مثل «دیروز کار کردم» یا «پارسال به شیراز رفتیم».
 
-**فعل‌های باقاعده:** به فعل **ed** اضافه می‌کنیم: work ← worked.
+**فعل‌های باقاعده:** به آخر فعل **ed** اضافه می‌کنیم: work ← worked (کار کردم). جالب است که در فارسی هم بن گذشته معمولاً با «د» یا «ت» تمام می‌شود (کرد، خورد، رفت، گفت). در انگلیسی هم گذشته‌ی باقاعده با ed تمام می‌شود.
 
-- برای همه‌ی فاعل‌ها یکسان است: I worked، she worked (s ندارد).
-- املا: like ← liked، stop ← stopped، study ← studied، play ← played.
+**برای همه یکسان است:** در فارسی آخر فعل برای هر شخص عوض می‌شود (کار کردم، کار کردی، کار کرد، کار کردند). در انگلیسی فقط یک شکل داریم: I worked، she worked، they worked. پس s سوم‌شخص در گذشته **نمی‌آید**: She worked، نه She workeds.
 
-**منفی و سؤالی** با did ساخته می‌شوند که در درس بعد یاد می‌گیرید.
+**املا (spelling):** این قانون‌ها در فارسی وجود ندارند، پس باید آن‌ها را حفظ کنیم:
+
+- بیشتر فعل‌ها: + ed ← worked، cleaned
+- فعل‌هایی که به e ختم می‌شوند: فقط d ← liked، danced
+- یک حرف صدادار + یک حرف بی‌صدا در آخر: حرف آخر **دوتا** می‌شود ← stopped، planned
+- فعل‌های بلندتر فقط وقتی دوتا می‌شوند که تکیه روی بخش آخر باشد: preferred، ولی visited و opened
+- حرف‌های w، x و y هیچ‌وقت دوتا نمی‌شوند: fixed، showed
+- حرف بی‌صدا + y ← ied: studied، tried
+- حرف صدادار + y ← فقط ed: played، stayed
+
+**تلفظ ed:** بسیاری از فارسی‌زبان‌ها ed را همیشه «اِد» تلفظ می‌کنند (وُرک‌اِد). اما ed فقط بعد از صدای t یا d یک بخش اضافه است: wanted (وانتید)، needed (نیدید). در بقیه‌ی فعل‌ها فقط صدای /t/ یا /d/ می‌دهد: worked (وُرکت)، played (پلِید).
+
+**کاربرد:**
+- کار تمام‌شده در زمان تمام‌شده: We visited Shiraz last year. (پارسال از شیراز دیدن کردیم.)
+- کاری که در گذشته بارها تکرار شد: We walked to school every day. (هر روز پیاده به مدرسه می‌رفتیم.) دقت کنید که فارسی اینجا «می‌رفتیم» می‌گوید، ولی انگلیسی گذشته‌ی ساده.
+- حالتی در یک دوره‌ی تمام‌شده: She lived in Tabriz for ten years. (ده سال در تبریز زندگی کرد.)
+
+**منفی و سؤالی** با did ساخته می‌شوند و فعل اصلی ed **نمی‌گیرد**: I didn't work (کار نکردم) / Did you work? (کار کردی؟). درس ۲۷ این را کامل یاد می‌دهد.
 
 </Persian>
 
 ## Common mistakes
 
 <WrongRight wrong="She studyed medicine." right="She studied medicine." why="consonant + y → -ied." />
+<WrongRight wrong="We stoped at a café." right="We stopped at a café." why="One vowel + one consonant at the end → double it." />
+<WrongRight wrong="I visitted my aunt." right="I visited my aunt." why="The stress is on VIS-, so don't double the t." />
 <WrongRight wrong="I watch a film last night." right="I watched a film last night." why="last night = finished time → past simple." />
+<WrongRight wrong="He workeds in a hotel last year." right="He worked in a hotel last year." why="The past simple is the same for every subject. No -s." />
+<WrongRight wrong="I didn't liked the hotel." right="I didn't like the hotel." why="After didn't, use the base form (lesson 27)." />
 
 <MemoryHook title="-ed is the past's stamp">
-Regular verbs get a **past stamp**: **-ed**. The same stamp for everybody: I, she, they, we.
+Regular verbs get a **past stamp**: **-ed**. The same stamp for everybody: I, she, they, we. It makes a new syllable only after **t** or **d**: want-**ed**, need-**ed**.
 </MemoryHook>
