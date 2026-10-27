@@ -1,5 +1,7 @@
 ---
+import LessonRef from "@/components/lesson/LessonRef.astro"
 import { isolateLatinText } from "@/lib/bidi"
+import { splitLessonRefs } from "@/lib/lesson-refs"
 // ✗ common mistake → ✓ correct English, with a one-line reason.
 interface Props {
   wrong: string
@@ -19,6 +21,12 @@ const { wrong, right, why, fa } = Astro.props
     <span aria-hidden="true" class="font-bold text-success">✓</span>
     <span><span class="sr-only">Right: </span><strong>{right}</strong></span>
   </p>
-  {why && <p class="text-sm text-muted-foreground sm:col-span-2">{why}</p>}
+  {
+    why && (
+      <p class="text-sm text-muted-foreground sm:col-span-2">
+        {splitLessonRefs(why).map((part) => (part.ref ? <LessonRef>{part.text}</LessonRef> : part.text))}
+      </p>
+    )
+  }
   {fa && <p lang="fa" dir="rtl" class="fa persian-only text-sm text-muted-foreground sm:col-span-2" set:html={isolateLatinText(fa)} />}
 </div>

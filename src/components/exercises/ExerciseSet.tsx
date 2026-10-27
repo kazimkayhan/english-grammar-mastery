@@ -10,6 +10,7 @@ import { Field, FieldContent, FieldDescription, FieldLabel, FieldTitle } from "@
 import { Input } from "@/components/ui/input"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Progress } from "@/components/ui/progress"
+import { splitLessonRefs } from "@/lib/lesson-refs"
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import { Textarea } from "@/components/ui/textarea"
 import {
@@ -197,7 +198,17 @@ function ExerciseCard({
                   Answer: <strong>{modelAnswer(exercise)}</strong>
                 </span>
               )}
-              <span>{exercise.explain}</span>
+              <span>
+                {splitLessonRefs(exercise.explain).map((part, i) =>
+                  part.ref ? (
+                    <span key={i} className="lesson-ref">
+                      {part.text}
+                    </span>
+                  ) : (
+                    <React.Fragment key={i}>{part.text}</React.Fragment>
+                  ),
+                )}
+              </span>
             </AlertDescription>
           </Alert>
         )}

@@ -7,6 +7,7 @@ import PillarBadge from "@/components/common/PillarBadge.astro"
 import LinkButton from "@/components/common/LinkButton.astro"
 import Example from "@/components/lesson/Example.astro"
 import FormTable from "@/components/lesson/FormTable.astro"
+import LessonRef from "@/components/lesson/LessonRef.astro"
 import MapEmbed from "@/components/lesson/MapEmbed.astro"
 import MemoryHook from "@/components/lesson/MemoryHook.astro"
 import Persian from "@/components/lesson/Persian.astro"
@@ -19,6 +20,7 @@ import { Mindmap } from "@/components/mindmap/Mindmap"
 import { ExerciseSet } from "@/components/exercises/ExerciseSet"
 import { AddToFlashcards } from "@/components/flashcards/AddToFlashcards"
 import { getLessons, lessonHref, lessonMinutes, type Lesson } from "@/lib/content"
+import { markLessonRefs } from "@/lib/lesson-refs"
 import { FAMILY_INFO, LEVEL_INFO, PILLAR_INFO } from "@/lib/taxonomy"
 
 export async function getStaticPaths() {
@@ -49,6 +51,7 @@ const components = {
   MemoryHook,
   UkNote,
   FormTable,
+  LessonRef,
   Timeline,
   DecisionTree: TreeEmbed,
   MapEmbed,
@@ -130,7 +133,7 @@ const components = {
               >
                 {i + 1}
               </span>
-              <span class="font-reading leading-relaxed" set:html={point} />
+              <span class="font-reading leading-relaxed" set:html={markLessonRefs(point)} />
             </li>
           ))
         }
@@ -188,7 +191,7 @@ const components = {
                 <span class="flex-1">{item.q}</span>
                 <svg aria-hidden="true" viewBox="0 0 24 24" class="size-5 shrink-0 text-muted-foreground transition-transform group-open:rotate-180" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"></path></svg>
               </summary>
-              <p class="border-t px-5 py-4 font-reading text-lg" set:html={item.a} />
+              <p class="border-t px-5 py-4 font-reading text-lg" set:html={markLessonRefs(item.a)} />
             </details>
           ))
         }

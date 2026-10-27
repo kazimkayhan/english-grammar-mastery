@@ -325,6 +325,12 @@
 .lesson-prose strong {
   font-weight: 700;
 }
+/* Lesson cross-references ("lesson 21"): smaller and in the sans font, so they read as pointers. */
+.lesson-ref {
+  font-family: var(--font-sans);
+  font-size: 0.8em;
+  color: var(--muted-foreground);
+}
 .lesson-prose em {
   font-style: italic;
 }
