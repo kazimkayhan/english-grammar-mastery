@@ -90,7 +90,7 @@ items:
   - { ref: "3.9.1.1", item: "Concord with plural forms not ending in -s", maps: [ plural-verb-nouns ] }
   - { ref: "3.9.1.2", item: "Concord with singular forms ending in -s", maps: [ singular-s-nouns ] }
   - { ref: "3.9.1.3", item: "Concord with coordinated subjects", maps: [ either-or-agreement ] }
-  - { ref: "3.9.1.3b", item: "Concord with subjects joined by and (bread and butter is; each and every)", maps: [ and-agreement ], suggest: { title: "Agreement with subjects joined by and (Bread and butter is..., Ali and Sara are...)", level: B2, lesson: b2-02 } }
+  - { ref: "3.9.1.3b", item: "Concord with subjects joined by and (bread and butter is; each and every)", maps: [ and-agreement ], suggest: { title: "Agreement with subjects joined by and (Bread and butter is..., Ahmad and Zahra are...)", level: B2, lesson: b2-02 } }
   - { ref: "3.9.1.4", item: "Concord with indefinite pronouns and quantifying expressions", maps: [ agreement-indefinite, quantity-agreement, majority-agreement, one-of-plural, number-of ] }
   - { ref: "3.9.1.5", item: "Concord with existential there", maps: [ agreement-there ] }
   - { ref: "3.9.1.6", item: "Concord with clausal subjects", maps: [ clause-as-subject, ing-subject ] }
@@ -156,7 +156,7 @@ items:
   - { ref: "4.6.5-4.6.6", item: "Genitives of time and of measure", maps: [ time-possessive ] }
   - { ref: "4.6.7-4.6.8", item: "Elliptic and other independent genitives", maps: [ possessive-places ] }
   - { ref: "4.6.9", item: "Group genitives", maps: [ group-possessive ] }
-  - { ref: "4.6.10", item: "The double genitive (a friend of mine / of Sara's)", maps: [ double-possessive ] }
+  - { ref: "4.6.10", item: "The double genitive (a friend of mine / of Zahra's)", maps: [ double-possessive ] }
   - { ref: "4.6.11-4.6.12", item: "Density of genitives; choice between s-genitive and of-phrase", maps: [ possessive-of ] }
   - { ref: "4.6.13", item: "Choice between elliptic genitives and of-constructions", maps: [ possessive-places ] }
   - { ref: "4.6.14", item: "Choice between the double genitive and related constructions", maps: [ double-possessive ] }

@@ -11,7 +11,7 @@ root:
     - label: "An arrangement: time and place are fixed"
       next:
         answer: "Present continuous"
-        example: "I'm meeting Sara at six. · We're flying to Mashhad on Friday."
+        example: "I'm meeting Zahra at six. · We're flying to Kandahar on Friday."
     - label: "A plan I decided before now"
       next:
         answer: "going to"

@@ -23,8 +23,8 @@ root:
           - label: "Habit, routine, fact, permanent"
             next:
               answer: "Present simple"
-              example: "She cooks every day. · Water boils at 100°C. · I live in Shiraz."
+              example: "She cooks every day. · Water boils at 100°C. · I live in Herat."
           - label: "A fixed plan for the future"
             next:
               answer: "Present continuous"
-              example: "I'm meeting Ali tomorrow at six."
+              example: "I'm meeting Ahmad tomorrow at six."

@@ -36,7 +36,7 @@ points:
   - { id: place-inversion, title: "Inversion after place adverbials (Down came the rain; In the corner sat a cat)", level: C1, lesson: c1-02, sources: [ GIU, PEU, OEGC, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LALG ] }
   - { id: so-such-inversion, title: "So + adjective / Such + be + inversion (So tired was she that…)", level: C1, lesson: c1-02, sources: [ GIU, PEU, OEGC, OMEG, LGSWE, LSGSWE, LALG ] }
   - { id: as-did, title: "Inversion after as / than (as did his father)", level: C1, lesson: c1-02, sources: [ GIU, PEU, LGSWE, LSGSWE ] }
-  - { id: it-cleft, title: "it-cleft (It was Ali who called)", level: C1, lesson: c1-03, aliases: [ "cleft sentences" ], sources: [ GSE, GIU, PEU, OEGC, OPG, OMEG, OGEG, OGEAP, LGSWE, LSGSWE, CGEL, LALG ] }
+  - { id: it-cleft, title: "it-cleft (It was Ahmad who called)", level: C1, lesson: c1-03, aliases: [ "cleft sentences" ], sources: [ GSE, GIU, PEU, OEGC, OPG, OMEG, OGEG, OGEAP, LGSWE, LSGSWE, CGEL, LALG ] }
   - { id: wh-cleft, title: "wh-cleft (What I need is a rest)", level: C1, lesson: c1-03, sources: [ GSE, GIU, PEU, OEGC, OPG, OMEG, OGEG, OGEAP, LGSWE, LSGSWE, CGEL, LALG ] }
   - { id: all-cleft, title: "all-cleft (All I want is…)", level: C1, lesson: c1-03, sources: [ GSE, GIU, PEU, OMEG, OGEG, LGSWE, LSGSWE, LALG ] }
   - { id: reversed-cleft, title: "Reversed wh-cleft (A rest is what I need)", level: C1, lesson: c1-03, sources: [ GSE, GIU, PEU, OMEG, OGEG, LGSWE, LSGSWE, LALG ] }

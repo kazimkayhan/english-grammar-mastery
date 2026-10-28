@@ -18,7 +18,7 @@ order: 0
 - plural: books · children
 - countable / uncountable
 - compound: bus stop · a ten-minute walk
-- possession: Sara's · the end of the film
+- possession: Zahra's · the end of the film
 ### 3 Articles & determiners
 - a / an · the · no article
 - this · that · these · those

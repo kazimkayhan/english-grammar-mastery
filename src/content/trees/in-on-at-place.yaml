@@ -7,15 +7,15 @@ root:
     - label: "Inside something with limits (room, box, city, country)"
       next:
         answer: "in"
-        example: "in the kitchen · in Tehran · in Iran"
+        example: "in the kitchen · in Kabul · in Afghanistan"
     - label: "On a surface or a line (table, wall, floor, street)"
       next:
         answer: "on"
-        example: "on the table · on the wall · on Ferdowsi Street"
+        example: "on the table · on the wall · on Chicken Street"
     - label: "A point, or a place for an activity (door, bus stop, work, an address)"
       next:
         answer: "at"
-        example: "at the door · at work · at 12 Azadi Street"
+        example: "at the door · at work · at 12 Chicken Street"
     - label: "Transport"
       next:
         q: "Can you stand up and walk around in it?"

@@ -1,5 +1,5 @@
 # English–Persian glossary of grammar terms (used in lessons and in search).
-- { id: noun, term: noun, fa: "اسم", meaning: "A word for a person, place, thing or idea.", example: "teacher, Tehran, book, love" }
+- { id: noun, term: noun, fa: "اسم", meaning: "A word for a person, place, thing or idea.", example: "teacher, Kabul, book, love" }
 - { id: verb, term: verb, fa: "فعل", meaning: "A word for an action or a state.", example: "run, be, have, think" }
 - { id: adjective, term: adjective, fa: "صفت", meaning: "Describes a noun.", example: "a red car, She's happy." }
 - { id: adverb, term: adverb, fa: "قید", meaning: "Describes a verb, adjective or the whole sentence.", example: "slowly, very, often, luckily" }
@@ -12,12 +12,12 @@
 - { id: indefinite-article, term: indefinite article, fa: "حرف تعریف نامعین", meaning: "a / an: one thing, not specific.", example: "a job, an hour" }
 - { id: zero-article, term: zero article, fa: "بدون حرف تعریف", meaning: "No article, e.g. for things in general.", example: "Life is short." }
 - { id: interjection, term: interjection, fa: "صوت (حرف ندا)", meaning: "A word for a feeling or reaction.", example: "Oh! Wow! Ouch!" }
-- { id: subject, term: subject, fa: "فاعل (نهاد)", meaning: "Who or what does the action; usually before the verb.", example: "Sara works here." }
+- { id: subject, term: subject, fa: "فاعل (نهاد)", meaning: "Who or what does the action; usually before the verb.", example: "Zahra works here." }
 - { id: object, term: object, fa: "مفعول", meaning: "Who or what receives the action; usually after the verb.", example: "I love tea." }
 - { id: direct-object, term: direct object, fa: "مفعول مستقیم (صریح)", meaning: "The thing that is given, taken, seen…", example: "She gave me a book." }
 - { id: indirect-object, term: indirect object, fa: "مفعول غیرمستقیم", meaning: "The person who receives the direct object.", example: "She gave me a book." }
 - { id: complement, term: complement, fa: "مسند؛ متمم", meaning: "Words after a linking verb that describe the subject.", example: "She is a doctor. He looks tired." }
-- { id: predicate, term: predicate, fa: "گزاره", meaning: "Everything in a clause except the subject.", example: "Sara works in a bank." }
+- { id: predicate, term: predicate, fa: "گزاره", meaning: "Everything in a clause except the subject.", example: "Zahra works in a bank." }
 - { id: clause, term: clause, fa: "بند (جمله‌واره)", meaning: "A group of words with a subject and a verb.", example: "when I arrived" }
 - { id: main-clause, term: main clause, fa: "بند اصلی (جمله‌ی پایه)", meaning: "A clause that can stand alone.", example: "I called you when I arrived." }
 - { id: subordinate-clause, term: subordinate clause, fa: "بند وابسته (جمله‌ی پیرو)", meaning: "A clause that depends on a main clause.", example: "I called you when I arrived." }
@@ -53,8 +53,8 @@
 - { id: phrasal-verb, term: phrasal verb, fa: "فعل عبارتی (دوکلمه‌ای)", meaning: "verb + particle with a new meaning.", example: "give up, look after" }
 - { id: stative-verb, term: stative verb, fa: "فعل حالت (ایستا)", meaning: "A verb for a state, not usually used with -ing.", example: "know, like, belong" }
 - { id: dynamic-verb, term: dynamic verb, fa: "فعل کنشی", meaning: "A verb for an action; can be continuous.", example: "run, eat, write" }
-- { id: active, term: active voice, fa: "معلوم", meaning: "The subject does the action.", example: "Ali wrote the letter." }
-- { id: passive, term: passive voice, fa: "مجهول", meaning: "The subject receives the action: be + past participle.", example: "The letter was written by Ali." }
+- { id: active, term: active voice, fa: "معلوم", meaning: "The subject does the action.", example: "Ahmad wrote the letter." }
+- { id: passive, term: passive voice, fa: "مجهول", meaning: "The subject receives the action: be + past participle.", example: "The letter was written by Ahmad." }
 - { id: causative, term: causative, fa: "سببی", meaning: "Someone else does something for you.", example: "I had my car repaired." }
 - { id: imperative, term: imperative, fa: "امری", meaning: "The form for orders, instructions and advice.", example: "Sit down. Don't worry." }
 - { id: mood, term: mood, fa: "وجه", meaning: "The verb's way of presenting an action: indicative, imperative, subjunctive.", example: "" }
@@ -70,7 +70,7 @@
 - { id: uncountable, term: uncountable noun, fa: "اسم غیرقابل‌شمارش", meaning: "No plural; no a/an.", example: "water, advice, information" }
 - { id: singular, term: singular, fa: "مفرد", meaning: "One.", example: "a book" }
 - { id: plural, term: plural, fa: "جمع", meaning: "More than one.", example: "books" }
-- { id: possessive, term: possessive, fa: "ملکی", meaning: "Shows who something belongs to.", example: "my, mine, Sara's" }
+- { id: possessive, term: possessive, fa: "ملکی", meaning: "Shows who something belongs to.", example: "my, mine, Zahra's" }
 - { id: personal-pronoun, term: personal pronoun, fa: "ضمیر شخصی", meaning: "I, you, he, she, it, we, they (and me, him…).", example: "She called him." }
 - { id: reflexive-pronoun, term: reflexive pronoun, fa: "ضمیر انعکاسی", meaning: "-self / -selves: the subject and object are the same.", example: "I cut myself." }
 - { id: relative-pronoun, term: relative pronoun, fa: "ضمیر موصولی", meaning: "who, which, that, whose, whom: begins a relative clause.", example: "the book that I read" }
@@ -83,7 +83,7 @@
 - { id: reported-speech, term: reported speech, fa: "نقل قول غیرمستقیم", meaning: "Reporting what someone said, without quotation marks.", example: "She said she was tired." }
 - { id: backshift, term: backshift, fa: "عقب‌بردن زمان", meaning: "Moving the tense back in reported speech.", example: "“I am” → she said she was" }
 - { id: inversion, term: inversion, fa: "وارونگی", meaning: "Putting the auxiliary before the subject.", example: "Never have I seen this." }
-- { id: cleft, term: cleft sentence, fa: "جمله‌ی شکافته", meaning: "A sentence split in two to focus on one part.", example: "It was Ali who called." }
+- { id: cleft, term: cleft sentence, fa: "جمله‌ی شکافته", meaning: "A sentence split in two to focus on one part.", example: "It was Ahmad who called." }
 - { id: ellipsis, term: ellipsis, fa: "حذف", meaning: "Leaving out words that are understood.", example: "“Coming?” “I can't.”" }
 - { id: substitution, term: substitution, fa: "جایگزینی", meaning: "Replacing words with so, do, one…", example: "I think so. I'll take the red one." }
 - { id: agreement, term: subject–verb agreement, fa: "مطابقه‌ی فاعل و فعل", meaning: "A singular subject takes a singular verb, a plural subject a plural verb.", example: "She works. They work." }
@@ -100,13 +100,13 @@
 - { id: hedging, term: hedging, fa: "احتیاط در بیان", meaning: "Making a claim less direct or less certain.", example: "It seems that… arguably" }
 - { id: coordinating-conjunction, term: coordinating conjunction, fa: "حرف ربط هم‌پایه", meaning: "Joins equal parts: and, but, or, so, yet, for, nor.", example: "tea or coffee" }
 - { id: subordinating-conjunction, term: subordinating conjunction, fa: "حرف ربط وابسته‌ساز", meaning: "Begins a subordinate clause.", example: "because, although, when, if" }
-- { id: apposition, term: apposition, fa: "بدل", meaning: "A noun phrase next to another that names the same thing.", example: "Ali, my brother, is a doctor." }
+- { id: apposition, term: apposition, fa: "بدل", meaning: "A noun phrase next to another that names the same thing.", example: "Ahmad, my brother, is a doctor." }
 - { id: punctuation, term: punctuation, fa: "نشانه‌گذاری", meaning: "Marks like . , ? ! that organise writing.", example: "" }
 - { id: full-stop, term: period (US) / full stop (UK), fa: "نقطه", meaning: "Ends a statement.", example: "I'm here." }
 - { id: comma, term: comma, fa: "ویرگول", meaning: "A short pause; separates items and clauses.", example: "tea, coffee, and juice" }
-- { id: apostrophe, term: apostrophe, fa: "آپاستروف", meaning: "Shows missing letters or possession.", example: "don't, Sara's" }
+- { id: apostrophe, term: apostrophe, fa: "آپاستروف", meaning: "Shows missing letters or possession.", example: "don't, Zahra's" }
 - { id: colon, term: colon, fa: "دونقطه", meaning: "Introduces a list, an explanation or a quotation.", example: "You need three things: …" }
 - { id: semicolon, term: semicolon, fa: "نقطه‌ویرگول", meaning: "Joins two closely related sentences.", example: "It was late; we went home." }
 - { id: hyphen, term: hyphen, fa: "خط ربط", meaning: "Joins words into one idea.", example: "a well-known writer" }
 - { id: quotation-marks, term: quotation marks, fa: "گیومه", meaning: "Show someone's exact words.", example: "“Hello,” she said." }
-- { id: capital-letter, term: capital letter, fa: "حرف بزرگ", meaning: "A, B, C… used at the start of sentences and names.", example: "Tehran, Monday, I" }
+- { id: capital-letter, term: capital letter, fa: "حرف بزرگ", meaning: "A, B, C… used at the start of sentences and names.", example: "Kabul, Monday, I" }

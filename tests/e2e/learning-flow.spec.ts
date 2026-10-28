@@ -60,7 +60,7 @@ test("match exercises use labelled dropdowns", async ({ page }) => {
   await match.scrollIntoViewIfNeeded()
   await expect(match.locator("xpath=ancestor::astro-island[1]")).not.toHaveAttribute("ssr", { timeout: 30_000 })
 
-  for (const [word, job] of [["Tehran", "noun"], ["she", "pronoun"], ["and", "conjunction"], ["in", "preposition"], ["the", "determiner"]]) {
+  for (const [word, job] of [["Kabul", "noun"], ["she", "pronoun"], ["and", "conjunction"], ["in", "preposition"], ["the", "determiner"]]) {
     await match.getByLabel(word, { exact: true }).click()
     await page.getByRole("option", { name: job, exact: true }).click()
     await expect(match.getByLabel(word, { exact: true })).toHaveText(job)

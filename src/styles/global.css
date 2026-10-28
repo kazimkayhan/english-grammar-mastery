@@ -325,9 +325,10 @@
 .lesson-prose strong {
   font-weight: 700;
 }
-/* Lesson cross-references ("lesson 21"): smaller and in the sans font, so they read as pointers. */
+/* Lesson cross-references ("lesson 21"): smaller, muted and in a monospace font, so they read as pointers
+   and never look like the running text, in every theme. */
 .lesson-ref {
-  font-family: var(--font-sans);
+  font-family: ui-monospace, "Cascadia Mono", Consolas, "Liberation Mono", monospace;
   font-size: 0.8em;
   color: var(--muted-foreground);
 }

@@ -70,7 +70,7 @@ points:
   - { id: questions-that-clauses, title: "Questions with that-clauses (Who did you say you saw?)", level: B2, lesson: b2-01, sources: [ GIU, OGEG ] }
   - { id: alternative-questions, title: "Alternative questions (Do you want tea or coffee?)", level: A2, lesson: a2-01, sources: [ OGEG, LGSWE, LSGSWE, LEG ] }
   - { id: discontinuous-np, title: "Discontinuous noun phrases (A man arrived who wanted to see you)", level: C2, lesson: c2-08, sources: [ LGSWE ] }
-  - { id: and-agreement, title: "Agreement with subjects joined by and (Ali and Sara are…; Bread and butter is…)", level: B2, lesson: b2-02, sources: [ OGEG, LGSWE, LSGSWE, CGEL ] }
+  - { id: and-agreement, title: "Agreement with subjects joined by and (Ahmad and Zahra are…; Bread and butter is…)", level: B2, lesson: b2-02, sources: [ OGEG, LGSWE, LSGSWE, CGEL ] }
   - { id: names-titles-agreement, title: "Agreement with names, titles and quotations (The Netherlands is…; Gulliver's Travels was…)", level: C1, lesson: c1-28, sources: [ LGSWE, LSGSWE, CGEL ] }
   - { id: declarative-questions, title: "Declarative questions (You're leaving? That's the boss?)", level: B1, lesson: b1-01, sources: [ PEU, OEGC, OGEG ] }
   - { id: distributive-plural, title: "Distributive plural (They took off their coats)", level: B2, lesson: b2-02, sources: [ PEU, OGEG ] }

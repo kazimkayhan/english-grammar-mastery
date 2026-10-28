@@ -15,7 +15,7 @@ root:
           - label: "An outside rule or situation"
             next:
               answer: "have to"
-              example: "In Iran, you have to drive on the right."
+              example: "In Afghanistan, you have to drive on the right."
     - label: "It is not allowed"
       next:
         answer: "mustn't / can't"

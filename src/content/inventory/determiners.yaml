@@ -7,7 +7,7 @@ points:
   - { id: the-unique, title: "the with unique things (the sun, the internet)", level: A1, lesson: a1-10, sources: [ GIU, PEU, OEGC, OPG, OGEG, LGSWE, LSGSWE, CGEL, LEG ] }
   - { id: the-second-mention, title: "a first, the second time (I saw a dog. The dog…)", level: A1, lesson: a1-10, sources: [ GSE, GIU, PEU, OEGC, OPG, OGEG, LGSWE, LSGSWE, CGEL, LEG ] }
   - { id: demonstratives, title: "this, that, these, those (near and far)", level: A1, lesson: a1-11, sources: [ GSE, CI, PEU, OEGC, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: demonstrative-pronouns, title: "this / that as pronouns (This is Ali. What's that?)", level: A1, lesson: a1-11, sources: [ GSE, PEU, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: demonstrative-pronouns, title: "this / that as pronouns (This is Ahmad. What's that?)", level: A1, lesson: a1-11, sources: [ GSE, PEU, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
   - { id: demonstrative-time, title: "this / that for time (this morning, that day)", level: A1, lesson: a1-11, sources: [ GSE, PEU, OGEG, LGSWE, LALG ] }
   - { id: cardinal-numbers, title: "Cardinal numbers and how to write them (twenty-one, a hundred)", level: A1, lesson: a1-35, sources: [ PEU, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL ] }
   - { id: ordinal-numbers, title: "Ordinal numbers (first, second, twenty-first)", level: A1, lesson: a1-35, sources: [ GSE, PEU, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL ] }

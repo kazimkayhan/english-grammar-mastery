@@ -21,14 +21,14 @@ points:
   - { id: latin-greek-plurals, title: "Latin and Greek plurals (criterion–criteria, phenomenon–phenomena, analysis–analyses, crisis–crises, data)", level: B2, lesson: b2-34, sources: [ PEU, OMEG, OGEG, LGSWE, LSGSWE, LEG, LALG ] }
   - { id: compound-plurals, title: "Plurals of compounds (passers-by, mothers-in-law, women doctors)", level: B2, lesson: b2-34, sources: [ GIU, PEU, OMEG, LEG, LALG ] }
   - { id: plural-verb-nouns, title: "Nouns with plural verbs (people, police, cattle, staff)", level: B2, lesson: b2-34, sources: [ GIU, PEU, OEGC, OPG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: possessive-of, title: "'s vs of vs noun + noun (Sara's car, the end of the film, the car door)", level: B2, lesson: b2-35, sources: [ GSE, GIU, PEU, OEGC, OPG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: possessive-of, title: "'s vs of vs noun + noun (Zahra's car, the end of the film, the car door)", level: B2, lesson: b2-35, sources: [ GSE, GIU, PEU, OEGC, OPG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
   - { id: time-possessive, title: "Time possessives (today's news, a week's vacation, two hours' drive)", level: B2, lesson: b2-35, sources: [ GSE, GIU, PEU, OEGC, OPG, OGEG, LGSWE, LSGSWE, LEG, LALG ] }
-  - { id: possessive-places, title: "Possessive for places (at the doctor's, at Sara's)", level: B2, lesson: b2-35, sources: [ GIU, PEU, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: group-possessive, title: "Group and joint possessives (the King of Spain's daughter; Sara and Ali's house)", level: B2, lesson: b2-35, sources: [ GSE, PEU, OPG, OGEG, LGSWE, LSGSWE, CGEL, LALG ] }
+  - { id: possessive-places, title: "Possessive for places (at the doctor's, at Zahra's)", level: B2, lesson: b2-35, sources: [ GIU, PEU, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
+  - { id: group-possessive, title: "Group and joint possessives (the King of Spain's daughter; Zahra and Ahmad's house)", level: B2, lesson: b2-35, sources: [ GSE, PEU, OPG, OGEG, LGSWE, LSGSWE, CGEL, LALG ] }
   - { id: nominalisation, title: "Nominalisation (decide → the decision; fail → failure)", level: C1, lesson: c1-25, sources: [ GSE, PEU, OGEG, OGEAP, LGSWE, LSGSWE, CGEL, LALG ] }
   - { id: noun-phrase-premod, title: "Complex noun phrases: pre-modification (a rapidly growing online market)", level: C1, lesson: c1-25, sources: [ GIU, OEGC, OMEG, OGEG, OGEAP, LGSWE, LSGSWE, CGEL ] }
   - { id: noun-phrase-postmod, title: "Complex noun phrases: post-modification (the growth of sales in Asia since 2020)", level: C1, lesson: c1-25, sources: [ GIU, PEU, OEGC, OMEG, OGEG, OGEAP, LGSWE, LSGSWE, CGEL ] }
-  - { id: apposition, title: "Apposition (Ali, my brother, …; the poet Hafez)", level: C2, lesson: c2-14, sources: [ GIU, OGEG, OGEAP, LGSWE, LSGSWE ] }
+  - { id: apposition, title: "Apposition (Ahmad, my brother, …; the poet Rumi)", level: C2, lesson: c2-14, sources: [ GIU, OGEG, OGEAP, LGSWE, LSGSWE ] }
   - { id: dense-noun-phrases, title: "Dense academic noun phrases and how to unpack them", level: C2, lesson: c2-14, sources: [ PEU, OEGC, OGEG, OGEAP, LGSWE, LSGSWE ] }
   - { id: nominal-vs-verbal, title: "Nominal vs verbal style: when to use each", level: C2, lesson: c2-14, sources: [ OGEG, OGEAP, LALG ] }
   - { id: gender-neutral-nouns, title: "Gender-neutral nouns (chair, firefighter, flight attendant)", level: C2, lesson: c2-14, sources: [ PEU, OEGC, LGSWE, LSGSWE, CGEL, LEG, LALG ] }

@@ -4,7 +4,7 @@ description: "tell needs a person; say doesn't."
 root:
   q: "Is there a person (the listener) right after the verb?"
   options:
-    - label: "Yes: me, him, Sara…"
+    - label: "Yes: me, him, Zahra…"
       next:
         answer: "tell + person"
         example: "She told me (that) she was busy. (not She said me)"

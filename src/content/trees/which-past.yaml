@@ -11,7 +11,7 @@ root:
           - label: "One complete action or fact"
             next:
               answer: "Past simple"
-              example: "I visited Shiraz in 2019. · She called me yesterday."
+              example: "I visited Herat in 2019. · She called me yesterday."
           - label: "In progress at that moment (background)"
             next:
               answer: "Past continuous"

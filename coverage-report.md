@@ -1,6 +1,6 @@
 # Grammar coverage report
 
-Inventory: **879 points** · Syllabus: **250 lessons** · Published: **35** · Points taught so far: **108**
+Inventory: **879 points** · Syllabus: **250 lessons** · Published: **82** · Points taught so far: **257**
 
 ## Points per pillar × level
 

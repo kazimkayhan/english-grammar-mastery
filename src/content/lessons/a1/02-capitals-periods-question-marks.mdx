@@ -7,8 +7,8 @@ size: mini
 hook: "A text from a new friend: “hi! i'm sara. i live in tabriz. where do you live” The words are fine, but the capital letters and the end of the question are missing."
 rule: "Start every sentence with a capital letter, write I and names with capitals, and end each sentence with a period (.), a question mark (?) or, for a strong feeling, an exclamation point (!)."
 points:
-  - "Start every sentence with a <b>capital letter</b>: <b>M</b>y name is Reza. <b>W</b>here do you live?"
-  - "<b>I</b> is always a capital, even in the middle of a sentence: Sara and <b>I</b> are friends. (But <b>me</b> and <b>my</b> are small.)"
+  - "Start every sentence with a <b>capital letter</b>: <b>M</b>y name is Karim. <b>W</b>here do you live?"
+  - "<b>I</b> is always a capital, even in the middle of a sentence: Zahra and <b>I</b> are friends. (But <b>me</b> and <b>my</b> are small.)"
   - "Names take capitals: people (<b>A</b>li), cities (<b>T</b>ehran), countries (<b>I</b>ran), streets (<b>V</b>aliasr <b>S</b>treet), languages (<b>E</b>nglish)."
   - "Days and months take capitals (<b>M</b>onday, <b>J</b>une), but seasons don't (summer). Ordinary nouns are small: city, street, teacher."
   - "A statement ends with a <b>period (.)</b>. A question ends with a <b>question mark (?)</b>. A strong feeling can end with an <b>exclamation point (!)</b>."
@@ -19,8 +19,8 @@ mindmap: |
   ## Capital letters
   - start of a sentence
   - I (always), but me, my
-  - people: Ali, Sara Ahmadi
-  - places: Tehran, Iran, Valiasr Street
+  - people: Ahmad, Zahra Ahmadi
+  - places: Kabul, Afghanistan, Valiasr Street
   - languages: English, Persian
   - days & months: Monday, June
   - titles: Mr. Karimi, Dr. Ahmadi
@@ -43,7 +43,7 @@ persian: full
 exercises:
   - type: correct
     prompt: "my name is reza."
-    answers: ["My name is Reza."]
+    answers: ["My name is Karim."]
     strict: true
     explain: "Capital M at the start of the sentence, capital R for a name."
   - type: correct
@@ -52,8 +52,8 @@ exercises:
     strict: true
     explain: "A question ends with a question mark."
   - type: correct
-    prompt: "Sara and i are from Shiraz."
-    answers: ["Sara and I are from Shiraz."]
+    prompt: "Zahra and i are from Herat."
+    answers: ["Zahra and I are from Herat."]
     strict: true
     explain: "The pronoun I is always a capital letter."
   - type: correct
@@ -68,9 +68,9 @@ exercises:
     explain: "Capital I at the start, and a period at the end."
   - type: mcq
     prompt: "Which word needs a capital letter?"
-    options: ["city", "tehran", "street"]
+    options: ["city", "kabul", "street"]
     answer: 1
-    explain: "Tehran is the name of a city. city and street are ordinary nouns."
+    explain: "Kabul is the name of a city. city and street are ordinary nouns."
   - type: mcq
     prompt: "How old are you___ Which mark ends this sentence?"
     options: [".", "?", "!"]
@@ -90,32 +90,32 @@ exercises:
     explain: "Months take a capital letter: January, June, December."
   - type: mcq
     prompt: "Which word does NOT take a capital letter?"
-    options: ["Monday", "summer", "Iran"]
+    options: ["Monday", "summer", "Afghanistan"]
     answer: 1
-    explain: "Days (Monday) and countries (Iran) take capitals. Seasons (spring, summer) don't."
+    explain: "Days (Monday) and countries (Afghanistan) take capitals. Seasons (spring, summer) don't."
   - type: correct
-    prompt: "We live on valiasr street in tehran."
-    answers: ["We live on Valiasr Street in Tehran."]
+    prompt: "We live on valiasr street in kabul."
+    answers: ["We live on Valiasr Street in Kabul."]
     strict: true
-    explain: "Valiasr Street is the name of a street, and Tehran is a city: all three words take capitals."
+    explain: "Valiasr Street is the name of a street, and Kabul is a city: all three words take capitals."
   - type: correct
     prompt: "is your sister a doctor"
     answers: ["Is your sister a doctor?"]
     strict: true
     explain: "Capital letter at the start, question mark at the end."
   - type: correct
-    prompt: "Hi, i'm Sara. i'm from Iran."
-    answers: ["Hi, I'm Sara. I'm from Iran."]
+    prompt: "Hi, i'm Zahra. i'm from Afghanistan."
+    answers: ["Hi, I'm Zahra. I'm from Afghanistan."]
     strict: true
     explain: "I is always a capital, also in the short form I'm."
   - type: reorder
-    chunks: ["My", "friend", "and", "I", "live", "in", "Mashhad."]
+    chunks: ["My", "friend", "and", "I", "live", "in", "Kandahar."]
     explain: "Capital M at the start, capital I, capital M for the city, and a period at the end."
   - type: match
     prompt: "Match each sentence with its end mark."
     pairs:
       - ["What is your name", "?"]
-      - ["My name is Ali", "."]
+      - ["My name is Ahmad", "."]
       - ["Wow, that's amazing", "!"]
     explain: "Questions take ?, statements take a period, strong feelings take !"
   - type: mcq
@@ -139,8 +139,8 @@ cards:
     back: ". (period; British English: full stop)"
   - front: "A question ends with…"
     back: "? (question mark, not the Persian ؟)"
-  - front: "✗ i live in tehran. ✓ ?"
-    back: "I live in Tehran."
+  - front: "✗ i live in kabul. ✓ ?"
+    back: "I live in Kabul."
   - front: "summer or Summer? monday or Monday?"
     back: "summer (seasons are small) · Monday (days are capital)"
 ---
@@ -164,7 +164,7 @@ English has two sizes of letter: **capital letters** (A, B, C) and **small lette
 
 </FormTable>
 
-<Example context="social" fa="اسم من مریم است. من اهل کرج هستم.">My name is Maryam. I'm from Karaj.</Example>
+<Example context="social" fa="اسم من مریم است. من اهل غزنی هستم.">My name is Maryam. I'm from Ghazni.</Example>
 <Example context="school" fa="ما در دانشگاه انگلیسی و فرانسوی می‌خوانیم.">We study English and French at university.</Example>
 <Example context="travel" fa="هتل ما در خیابان ولیعصر است.">Our hotel is on Valiasr Street.</Example>
 
@@ -182,7 +182,7 @@ Ordinary words are small, also in the middle of a sentence. Use a capital letter
 - seasons: ***spring, summer, fall, winter*** (but days and months take capitals)
 - words after a comma: *Hi, **how** are you?*
 
-<Example context="travel" fa="تابستان در شیراز گرم است.">Shiraz is hot in <mark>summer</mark>.</Example>
+<Example context="travel" fa="تابستان در هرات گرم است.">Herat is hot in <mark>summer</mark>.</Example>
 <Example context="work" fa="جلسه دوشنبه است، نه سه‌شنبه.">The meeting is on <mark>Monday</mark>, not <mark>Tuesday</mark>.</Example>
 
 ## Periods, question marks and exclamation points
@@ -212,18 +212,18 @@ Every sentence ends with a mark. The mark tells the reader what kind of sentence
 
 ## Coming later
 
-- Capitals for nationalities (*Iranian*) and more titles: level <LessonRef>A2, lesson 47 (Commas in lists & capital letters)</LessonRef>.
+- Capitals for nationalities (*Afghan*) and more titles: level <LessonRef>A2, lesson 47 (Commas in lists & capital letters)</LessonRef>.
 - Apostrophes in short forms (*I'm, don't*): level <LessonRef>A2, lesson 6 (Contractions & apostrophes)</LessonRef>.
 - A question inside a statement ends with a period (*I don't know where she lives.*): level <LessonRef>B1, lesson 3 (Indirect questions)</LessonRef>.
 
 <Persian>
 
-**حروف بزرگ (capital letters):** فارسی حرف بزرگ و کوچک ندارد، ولی انگلیسی دارد. برای همین فارسی‌زبان‌ها اغلب همه‌چیز را با حرف کوچک می‌نویسند: i live in tehran. در این جاها حرف اول را **بزرگ** بنویسید:
+**حروف بزرگ (capital letters):** فارسی حرف بزرگ و کوچک ندارد، ولی انگلیسی دارد. برای همین فارسی‌زبان‌ها اغلب همه‌چیز را با حرف کوچک می‌نویسند: i live in kabul. در این جاها حرف اول را **بزرگ** بنویسید:
 
 - اول هر جمله: The coffee is hot.
 - ضمیر **I** (من) همیشه بزرگ است، حتی وسط جمله و در I'm. اما me و my کوچک هستند.
-- اسم آدم‌ها: Reza، Sara Ahmadi
-- اسم شهرها و کشورها: Mashhad، Iran
+- اسم آدم‌ها: Karim، Zahra Ahmadi
+- اسم شهرها و کشورها: Kandahar، Afghanistan
 - اسم خیابان‌ها، رودها و کوه‌ها: Valiasr Street، Mount Damavand
 - اسم زبان‌ها: English، Persian
 - روزهای هفته و ماه‌ها: Monday، June
@@ -244,11 +244,11 @@ Every sentence ends with a mark. The mark tells the reader what kind of sentence
 
 ## Common mistakes
 
-<WrongRight wrong="my friend and i live in shiraz." right="My friend and I live in Shiraz." why="Capital at the start, capital I, capital for the city name." />
-<WrongRight wrong="Are you from iran." right="Are you from Iran?" why="Country names take a capital; a question ends with ?" />
+<WrongRight wrong="my friend and i live in shiraz." right="My friend and I live in Herat." why="Capital at the start, capital I, capital for the city name." />
+<WrongRight wrong="Are you from iran." right="Are you from Afghanistan?" why="Country names take a capital; a question ends with ?" />
 <WrongRight wrong="Where is the station؟" right="Where is the station?" why="Use the English question mark (?), not the Persian one (؟)." />
-<WrongRight wrong="I live in a big City." right="I live in a big city." why="city is an ordinary noun, not a name. Use a capital only for names: I live in Tehran." />
-<WrongRight wrong="I love Summer in Shiraz." right="I love summer in Shiraz." why="Seasons don't take capitals." />
+<WrongRight wrong="I live in a big City." right="I live in a big city." why="city is an ordinary noun, not a name. Use a capital only for names: I live in Kabul." />
+<WrongRight wrong="I love Summer in Herat." right="I love summer in Herat." why="Seasons don't take capitals." />
 <WrongRight wrong="See you on monday!" right="See you on Monday!" why="Days of the week take capitals." />
 
 <MemoryHook title="Big start, big I, big names">

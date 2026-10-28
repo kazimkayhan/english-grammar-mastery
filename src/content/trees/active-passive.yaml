@@ -7,7 +7,7 @@ root:
     - label: "Yes, the doer is the topic"
       next:
         answer: "Active"
-        example: "Ali wrote this letter."
+        example: "Ahmad wrote this letter."
     - label: "No: unknown, obvious or unimportant"
       next:
         answer: "Passive: be + past participle"

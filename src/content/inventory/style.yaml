@@ -8,7 +8,7 @@ points:
   - { id: apostrophe-possession, title: "Apostrophe for possession, never for plurals", level: A2, lesson: a2-06, sources: [ PEU, OPG, OGEG, OGEAP, LGSWE, LSGSWE, LALG ] }
   - { id: comma-lists, title: "Commas in lists", level: A2, lesson: a2-47, sources: [ PEU, OPG, OMEG, OGEG, OGEAP, LGSWE, LSGSWE, CGEL, LALG ] }
   - { id: capitals-days-languages, title: "Capitals for days, months, languages, nationalities and titles", level: A2, lesson: a2-47, sources: [ PEU, OGEG ] }
-  - { id: nationality-words, title: "Nationality adjectives and nouns (Iranian, Persian, Dutch, Swiss)", level: A2, lesson: a2-47, sources: [ PEU, OGEG, CGEL ] }
+  - { id: nationality-words, title: "Nationality adjectives and nouns (Afghan, Persian, Dutch, Swiss)", level: A2, lesson: a2-47, sources: [ PEU, OGEG, CGEL ] }
   - { id: comma-intro, title: "Commas after introductory words and clauses", level: B1, lesson: b1-50, sources: [ PEU, OPG, OGEG, OGEAP, CGEL ] }
   - { id: comma-nondefining, title: "Commas around extra information", level: B1, lesson: b1-50, sources: [ PEU, OEGC, OPG, OGEG, OGEAP, LGSWE, LSGSWE, CGEL ] }
   - { id: direct-speech-punctuation, title: "Direct speech: quotation marks and punctuation", level: B1, lesson: b1-50, sources: [ PEU, OPG, OGEG, LGSWE, CGEL, LEG ] }
