@@ -1,79 +1,542 @@
 pillar: style
 points:
-  - { id: capital-start, title: "Capital letter at the start of a sentence and for I", level: A1, lesson: a1-02, aliases: [ "capitalization" ], sources: [ PEU ] }
-  - { id: capital-names, title: "Capitals for names of people and places", level: A1, lesson: a1-02, sources: [ PEU, OMEG, LGSWE, LSGSWE, CGEL, LEG ] }
-  - { id: period-question-mark, title: "Period (full stop) and question mark", level: A1, lesson: a1-02, sources: [ PEU, OPG, CGEL ] }
-  - { id: contractions, title: "Contractions (I'm, don't, can't, won't)", level: A2, lesson: a2-06, sources: [ GIU, PEU, OPG, OGEG, LGSWE, CGEL, LALG ] }
-  - { id: s-is-has, title: "'s = is or has; 'd = had or would", level: A2, lesson: a2-06, sources: [ GIU, PEU, OPG, OGEG, LALG ] }
-  - { id: apostrophe-possession, title: "Apostrophe for possession, never for plurals", level: A2, lesson: a2-06, sources: [ PEU, OPG, OGEG, OGEAP, LGSWE, LSGSWE, LALG ] }
-  - { id: comma-lists, title: "Commas in lists", level: A2, lesson: a2-47, sources: [ PEU, OPG, OMEG, OGEG, OGEAP, LGSWE, LSGSWE, CGEL, LALG ] }
-  - { id: capitals-days-languages, title: "Capitals for days, months, languages, nationalities and titles", level: A2, lesson: a2-47, sources: [ PEU, OGEG ] }
-  - { id: nationality-words, title: "Nationality adjectives and nouns (Afghan, Persian, Dutch, Swiss)", level: A2, lesson: a2-47, sources: [ PEU, OGEG, CGEL ] }
-  - { id: comma-intro, title: "Commas after introductory words and clauses", level: B1, lesson: b1-50, sources: [ PEU, OPG, OGEG, OGEAP, CGEL ] }
-  - { id: comma-nondefining, title: "Commas around extra information", level: B1, lesson: b1-50, sources: [ PEU, OEGC, OPG, OGEG, OGEAP, LGSWE, LSGSWE, CGEL ] }
-  - { id: direct-speech-punctuation, title: "Direct speech: quotation marks and punctuation", level: B1, lesson: b1-50, sources: [ PEU, OPG, OGEG, LGSWE, CGEL, LEG ] }
-  - { id: colon-semicolon, title: "Colons and semicolons", level: B2, lesson: b2-49, sources: [ PEU, OPG, OGEG, OGEAP, CGEL ] }
-  - { id: dash-hyphen, title: "Dashes and hyphens", level: B2, lesson: b2-49, sources: [ PEU, OPG, OGEG, OGEAP ] }
-  - { id: sentence-types, title: "Simple, compound and complex sentences", level: B2, lesson: b2-49, sources: [ PEU, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: run-ons, title: "Run-on sentences, comma splices and fragments", level: B2, lesson: b2-49, sources: [] }
-  - { id: register-grammar, title: "Formal vs informal grammar", level: C1, lesson: c1-36, aliases: [ "register" ], sources: [ PEU, OGEG, OGEAP, LGSWE, LSGSWE, CGEL, LALG ] }
-  - { id: latinate-phrasal, title: "One-word (Latinate) verbs vs phrasal verbs", level: C1, lesson: c1-36, sources: [ GIU, PEU, OGEG, OGEAP, CGEL, LALG ] }
-  - { id: contractions-formality, title: "Contractions and formality", level: C1, lesson: c1-36, sources: [ PEU, OGEAP ] }
-  - { id: politeness-grammar, title: "The grammar of politeness (indirectness, softening)", level: C1, lesson: c1-36, sources: [ GSE, PEU, OEGC, OMEG, OGEAP, CGEL ] }
-  - { id: heads-tails, title: "Heads and tails (That film, it was great. / He's nice, your brother.)", level: C1, lesson: c1-37, aliases: [ "spoken grammar" ], sources: [ PEU, OEGC, OMEG, OGEG, LGSWE, LSGSWE, CGEL ] }
-  - { id: spoken-ellipsis, title: "Spoken ellipsis (Sounds good. Want a coffee?)", level: C1, lesson: c1-37, sources: [ GIU, PEU, OEGC, OGEG, LGSWE, LSGSWE, CGEL, LALG ] }
-  - { id: vague-language, title: "Vague language (and stuff, sort of, or something)", level: C1, lesson: c1-37, sources: [ PEU, OMEG, LGSWE, LALG ] }
-  - { id: semicolon-linkers, title: "Semicolons with linking adverbs", level: C1, lesson: c1-39, sources: [ GIU, PEU, OGEAP ] }
-  - { id: colon-explanation, title: "Colons for explanation and emphasis", level: C1, lesson: c1-39, sources: [ PEU ] }
-  - { id: parentheses, title: "Parentheses and dashes for asides", level: C1, lesson: c1-39, sources: [ PEU, OGEAP, LGSWE, CGEL ] }
-  - { id: long-sentences, title: "Punctuating long sentences clearly", level: C1, lesson: c1-39, sources: [ CGEL ] }
-  - { id: mandative-subjunctive, title: "Mandative subjunctive (insist / demand / recommend that he be)", level: C2, lesson: c2-01, aliases: [ "subjunctive" ], sources: [ GIU, PEU, OEGC, OPG, OMEG, OGEG, LSGSWE, CGEL, LALG ] }
-  - { id: formulaic-subjunctive, title: "Formulaic subjunctive (Be that as it may, Come what may, Suffice it to say, Far be it from me, So be it, If need be, Long live…)", level: C2, lesson: c2-01, sources: [ PEU, OMEG, OGEG, LSGSWE, CGEL, LALG ] }
-  - { id: were-subjunctive, title: "were-subjunctive (If I were…, as it were)", level: C2, lesson: c2-01, sources: [ GIU, PEU, OMEG, OGEG, LSGSWE, CGEL, LALG ] }
-  - { id: should-subjunctive, title: "British should alternative (I suggest that he should…)", level: C2, lesson: c2-01, sources: [ GIU, PEU, OEGC, OPG, OGEG, LSGSWE, CGEL, LALG ] }
-  - { id: may-wishes, title: "May you be happy (wishes)", level: C2, lesson: c2-01, sources: [ PEU, OGEG, CGEL ] }
-  - { id: response-tokens, title: "Response tokens (Absolutely. Fair enough. Exactly.)", level: C2, lesson: c2-19, sources: [ LGSWE, LSGSWE, CGEL ] }
-  - { id: spoken-markers-advanced, title: "mind you, as it happens, come to think of it, that said", level: C2, lesson: c2-19, sources: [ PEU ] }
-  - { id: quotative-like, title: "Quotative be like / go (And she was like, “No way!”)", level: C2, lesson: c2-19, sources: [ LGSWE ] }
-  - { id: academic-impersonal, title: "Impersonal academic style", level: C2, lesson: c2-20, aliases: [ "academic writing" ], sources: [ PEU, OGEAP, LGSWE ] }
-  - { id: citation-tenses, title: "Tenses for citing research (Smith argues / argued / has argued)", level: C2, lesson: c2-20, sources: [ PEU ] }
-  - { id: academic-nominal-style, title: "Nominal style in academic writing", level: C2, lesson: c2-20, sources: [ PEU, OGEAP, LALG ] }
-  - { id: tricolon, title: "Tricolon and lists of three", level: C2, lesson: c2-22, aliases: [ "rhetoric" ], sources: [ OMEG, CGEL, LALG ] }
-  - { id: antithesis-chiasmus, title: "Antithesis and chiasmus", level: C2, lesson: c2-22, sources: [] }
-  - { id: anaphora, title: "Anaphora (repetition at the start of clauses)", level: C2, lesson: c2-22, sources: [ PEU ] }
-  - { id: rhetorical-emphasis, title: "Emphatic structures for persuasion", level: C2, lesson: c2-22, sources: [ OGEAP, LGSWE, CGEL, LALG ] }
-  - { id: headline-grammar, title: "Headline grammar (PM to quit; Jobs cut)", level: C2, lesson: c2-23, sources: [ PEU, OEGC, LGSWE, LSGSWE, CGEL ] }
-  - { id: notes-instructions, title: "Notes, signs, recipes and instructions", level: C2, lesson: c2-23, sources: [ PEU, OEGC, OMEG, LGSWE, LSGSWE, CGEL ] }
-  - { id: messages, title: "Messages and texting conventions", level: C2, lesson: c2-23, sources: [ PEU, OEGC, CGEL ] }
-  - { id: archaic-pronouns, title: "thou, thee, thy, thine (for recognition)", level: C2, lesson: c2-24, sources: [] }
-  - { id: archaic-verbs, title: "-eth / -est verb endings (for recognition)", level: C2, lesson: c2-24, sources: [] }
-  - { id: archaic-words, title: "whence, whither, hence, thence", level: C2, lesson: c2-24, sources: [] }
-  - { id: poetic-word-order, title: "Poetic word order", level: C2, lesson: c2-24, sources: [] }
-  - { id: us-uk-verbs, title: "US vs UK verbs: gotten, have got, shall, present perfect use", level: C2, lesson: c2-25, sources: [ GIU, PEU, OPG, OGEG, LGSWE, LSGSWE, CGEL ] }
-  - { id: us-uk-prepositions, title: "US vs UK prepositions: on/at the weekend, different from/than/to", level: C2, lesson: c2-25, sources: [ GIU, PEU, OPG, OGEG, CGEL ] }
-  - { id: us-uk-collective, title: "US vs UK collective nouns", level: C2, lesson: c2-25, sources: [ PEU, OPG, OGEG, CGEL ] }
-  - { id: us-uk-subjunctive, title: "US vs UK use of the subjunctive", level: C2, lesson: c2-25, sources: [ PEU, OGEG, LALG ] }
-  - { id: other-englishes, title: "Australian, Indian and other Englishes", level: C2, lesson: c2-25, sources: [ PEU, LGSWE, CGEL ] }
-  - { id: who-whom-usage, title: "who vs whom in real usage", level: C2, lesson: c2-26, sources: [ PEU, LGSWE ] }
-  - { id: final-prepositions, title: "Ending a sentence with a preposition", level: C2, lesson: c2-26, sources: [ PEU, LALG ] }
-  - { id: less-fewer-usage, title: "less vs fewer in real usage", level: C2, lesson: c2-26, sources: [ GIU, PEU ] }
-  - { id: data-is-are, title: "data is / data are", level: C2, lesson: c2-26, sources: [ PEU, LGSWE ] }
-  - { id: between-you-and-i, title: "between you and I", level: C2, lesson: c2-26, sources: [ PEU, LGSWE, LSGSWE, CGEL ] }
-  - { id: and-but-start, title: "Starting a sentence with And or But", level: C2, lesson: c2-26, sources: [ PEU, LGSWE ] }
-  - { id: dialect-double-negatives, title: "Double negatives in dialects", level: C2, lesson: c2-26, sources: [ PEU, LGSWE, LSGSWE, CGEL ] }
-  - { id: oxford-comma, title: "The serial (Oxford) comma", level: C2, lesson: c2-28, sources: [ PEU, OMEG ] }
-  - { id: restrictive-commas, title: "Restrictive vs non-restrictive commas", level: C2, lesson: c2-28, sources: [ PEU, OMEG, LGSWE, LSGSWE, CGEL ] }
-  - { id: hyphenation, title: "Hyphenation rules", level: C2, lesson: c2-28, sources: [ PEU, CGEL ] }
-  - { id: en-em-dash, title: "En and em dashes", level: C2, lesson: c2-28, sources: [ PEU ] }
-  - { id: ellipsis-marks, title: "Ellipsis marks (…)", level: C2, lesson: c2-28, sources: [ PEU ] }
-  - { id: quotes-us-uk, title: "Quotation punctuation: US vs UK", level: C2, lesson: c2-28, sources: [ PEU, OGEG ] }
-  - { id: verbal-over-nominal, title: "Verbal over nominal style for clarity", level: C2, lesson: c2-29, aliases: [ "concision" ], sources: [] }
-  - { id: redundant-pairs, title: "Redundant pairs and empty phrases", level: C2, lesson: c2-29, sources: [ PEU, OEGC ] }
-  - { id: wordiness, title: "Cutting wordiness", level: C2, lesson: c2-29, sources: [] }
-  - { id: common-learner-errors, title: "The most common learner errors", level: C2, lesson: c2-30, sources: [] }
-  - { id: common-native-errors, title: "Common native-speaker errors (your / you're, its / it's, could of)", level: C2, lesson: c2-30, sources: [] }
-  - { id: editing-checklist, title: "An editing checklist", level: C2, lesson: c2-30, sources: [] }
+  - {
+      id: capital-start,
+      title: "Capital letter at the start of a sentence and for I",
+      level: A1,
+      lesson: a1-02,
+      aliases: [ "capitalization" ],
+      sources: [ PEU ],
+    }
+  - {
+      id: capital-names,
+      title: "Capitals for names of people and places",
+      level: A1,
+      lesson: a1-02,
+      sources: [ PEU, OMEG, LGSWE, LSGSWE, CGEL, LEG ],
+    }
+  - {
+      id: period-question-mark,
+      title: "Period (full stop) and question mark",
+      level: A1,
+      lesson: a1-02,
+      sources: [ PEU, OPG, CGEL ],
+    }
+  - {
+      id: contractions,
+      title: "Contractions (I'm, don't, can't, won't)",
+      level: A2,
+      lesson: a2-06,
+      sources: [ GIU, PEU, OPG, OGEG, LGSWE, CGEL, LALG ],
+    }
+  - {
+      id: s-is-has,
+      title: "'s = is or has; 'd = had or would",
+      level: A2,
+      lesson: a2-06,
+      sources: [ GIU, PEU, OPG, OGEG, LALG ],
+    }
+  - {
+      id: apostrophe-possession,
+      title: "Apostrophe for possession, never for plurals",
+      level: A2,
+      lesson: a2-06,
+      sources: [ PEU, OPG, OGEG, OGEAP, LGSWE, LSGSWE, LALG ],
+    }
+  - {
+      id: comma-lists,
+      title: "Commas in lists",
+      level: A2,
+      lesson: a2-47,
+      sources: [ PEU, OPG, OMEG, OGEG, OGEAP, LGSWE, LSGSWE, CGEL, LALG ],
+    }
+  - {
+      id: capitals-days-languages,
+      title: "Capitals for days, months, languages, nationalities and titles",
+      level: A2,
+      lesson: a2-47,
+      sources: [ PEU, OGEG ],
+    }
+  - {
+      id: nationality-words,
+      title: "Nationality adjectives and nouns (Afghan, Persian, Dutch, Swiss)",
+      level: A2,
+      lesson: a2-47,
+      sources: [ PEU, OGEG, CGEL ],
+    }
+  - {
+      id: comma-intro,
+      title: "Commas after introductory words and clauses",
+      level: B1,
+      lesson: b1-50,
+      sources: [ PEU, OPG, OGEG, OGEAP, CGEL ],
+    }
+  - {
+      id: comma-nondefining,
+      title: "Commas around extra information",
+      level: B1,
+      lesson: b1-50,
+      sources: [ PEU, OEGC, OPG, OGEG, OGEAP, LGSWE, LSGSWE, CGEL ],
+    }
+  - {
+      id: direct-speech-punctuation,
+      title: "Direct speech: quotation marks and punctuation",
+      level: B1,
+      lesson: b1-50,
+      sources: [ PEU, OPG, OGEG, LGSWE, CGEL, LEG ],
+    }
+  - {
+      id: colon-semicolon,
+      title: "Colons and semicolons",
+      level: B2,
+      lesson: b2-49,
+      sources: [ PEU, OPG, OGEG, OGEAP, CGEL ],
+    }
+  - {
+      id: dash-hyphen,
+      title: "Dashes and hyphens",
+      level: B2,
+      lesson: b2-49,
+      sources: [ PEU, OPG, OGEG, OGEAP ],
+    }
+  - {
+      id: sentence-types,
+      title: "Simple, compound and complex sentences",
+      level: B2,
+      lesson: b2-49,
+      sources: [ PEU, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ],
+    }
+  - {
+      id: run-ons,
+      title: "Run-on sentences, comma splices and fragments",
+      level: B2,
+      lesson: b2-49,
+      sources: [],
+    }
+  - {
+      id: register-grammar,
+      title: "Formal vs informal grammar",
+      level: C1,
+      lesson: c1-36,
+      aliases: [ "register" ],
+      sources: [ PEU, OGEG, OGEAP, LGSWE, LSGSWE, CGEL, LALG ],
+    }
+  - {
+      id: latinate-phrasal,
+      title: "One-word (Latinate) verbs vs phrasal verbs",
+      level: C1,
+      lesson: c1-36,
+      sources: [ GIU, PEU, OGEG, OGEAP, CGEL, LALG ],
+    }
+  - {
+      id: contractions-formality,
+      title: "Contractions and formality",
+      level: C1,
+      lesson: c1-36,
+      sources: [ PEU, OGEAP ],
+    }
+  - {
+      id: politeness-grammar,
+      title: "The grammar of politeness (indirectness, softening)",
+      level: C1,
+      lesson: c1-36,
+      sources: [ GSE, PEU, OEGC, OMEG, OGEAP, CGEL ],
+    }
+  - {
+      id: heads-tails,
+      title: "Heads and tails (That film, it was great. / He's nice, your brother.)",
+      level: C1,
+      lesson: c1-37,
+      aliases: [ "spoken grammar" ],
+      sources: [ PEU, OEGC, OMEG, OGEG, LGSWE, LSGSWE, CGEL ],
+    }
+  - {
+      id: spoken-ellipsis,
+      title: "Spoken ellipsis (Sounds good. Want a coffee?)",
+      level: C1,
+      lesson: c1-37,
+      sources: [ GIU, PEU, OEGC, OGEG, LGSWE, LSGSWE, CGEL, LALG ],
+    }
+  - {
+      id: vague-language,
+      title: "Vague language (and stuff, sort of, or something)",
+      level: C1,
+      lesson: c1-37,
+      sources: [ PEU, OMEG, LGSWE, LALG ],
+    }
+  - {
+      id: semicolon-linkers,
+      title: "Semicolons with linking adverbs",
+      level: C1,
+      lesson: c1-39,
+      sources: [ GIU, PEU, OGEAP ],
+    }
+  - {
+      id: colon-explanation,
+      title: "Colons for explanation and emphasis",
+      level: C1,
+      lesson: c1-39,
+      sources: [ PEU ],
+    }
+  - {
+      id: parentheses,
+      title: "Parentheses and dashes for asides",
+      level: C1,
+      lesson: c1-39,
+      sources: [ PEU, OGEAP, LGSWE, CGEL ],
+    }
+  - {
+      id: long-sentences,
+      title: "Punctuating long sentences clearly",
+      level: C1,
+      lesson: c1-39,
+      sources: [ CGEL ],
+    }
+  - {
+      id: mandative-subjunctive,
+      title: "Mandative subjunctive (insist / demand / recommend that he be)",
+      level: C2,
+      lesson: c2-01,
+      aliases: [ "subjunctive" ],
+      sources: [ GIU, PEU, OEGC, OPG, OMEG, OGEG, LSGSWE, CGEL, LALG ],
+    }
+  - {
+      id: formulaic-subjunctive,
+      title: "Formulaic subjunctive (Be that as it may, Come what may, Suffice it to say, Far be it from me, So be it, If need be, Long live…)",
+      level: C2,
+      lesson: c2-01,
+      sources: [ PEU, OMEG, OGEG, LSGSWE, CGEL, LALG ],
+    }
+  - {
+      id: were-subjunctive,
+      title: "were-subjunctive (If I were…, as it were)",
+      level: C2,
+      lesson: c2-01,
+      sources: [ GIU, PEU, OMEG, OGEG, LSGSWE, CGEL, LALG ],
+    }
+  - {
+      id: should-subjunctive,
+      title: "British should alternative (I suggest that he should…)",
+      level: C2,
+      lesson: c2-01,
+      sources: [ GIU, PEU, OEGC, OPG, OGEG, LSGSWE, CGEL, LALG ],
+    }
+  - {
+      id: may-wishes,
+      title: "May you be happy (wishes)",
+      level: C2,
+      lesson: c2-01,
+      sources: [ PEU, OGEG, CGEL ],
+    }
+  - {
+      id: response-tokens,
+      title: "Response tokens (Absolutely. Fair enough. Exactly.)",
+      level: C2,
+      lesson: c2-19,
+      sources: [ LGSWE, LSGSWE, CGEL ],
+    }
+  - {
+      id: spoken-markers-advanced,
+      title: "mind you, as it happens, come to think of it, that said",
+      level: C2,
+      lesson: c2-19,
+      sources: [ PEU ],
+    }
+  - {
+      id: quotative-like,
+      title: "Quotative be like / go (And she was like, “No way!”)",
+      level: C2,
+      lesson: c2-19,
+      sources: [ LGSWE ],
+    }
+  - {
+      id: academic-impersonal,
+      title: "Impersonal academic style",
+      level: C2,
+      lesson: c2-20,
+      aliases: [ "academic writing" ],
+      sources: [ PEU, OGEAP, LGSWE ],
+    }
+  - {
+      id: citation-tenses,
+      title: "Tenses for citing research (Smith argues / argued / has argued)",
+      level: C2,
+      lesson: c2-20,
+      sources: [ PEU ],
+    }
+  - {
+      id: academic-nominal-style,
+      title: "Nominal style in academic writing",
+      level: C2,
+      lesson: c2-20,
+      sources: [ PEU, OGEAP, LALG ],
+    }
+  - {
+      id: tricolon,
+      title: "Tricolon and lists of three",
+      level: C2,
+      lesson: c2-22,
+      aliases: [ "rhetoric" ],
+      sources: [ OMEG, CGEL, LALG ],
+    }
+  - {
+      id: antithesis-chiasmus,
+      title: "Antithesis and chiasmus",
+      level: C2,
+      lesson: c2-22,
+      sources: [],
+    }
+  - {
+      id: anaphora,
+      title: "Anaphora (repetition at the start of clauses)",
+      level: C2,
+      lesson: c2-22,
+      sources: [ PEU ],
+    }
+  - {
+      id: rhetorical-emphasis,
+      title: "Emphatic structures for persuasion",
+      level: C2,
+      lesson: c2-22,
+      sources: [ OGEAP, LGSWE, CGEL, LALG ],
+    }
+  - {
+      id: headline-grammar,
+      title: "Headline grammar (PM to quit; Jobs cut)",
+      level: C2,
+      lesson: c2-23,
+      sources: [ PEU, OEGC, LGSWE, LSGSWE, CGEL ],
+    }
+  - {
+      id: notes-instructions,
+      title: "Notes, signs, recipes and instructions",
+      level: C2,
+      lesson: c2-23,
+      sources: [ PEU, OEGC, OMEG, LGSWE, LSGSWE, CGEL ],
+    }
+  - {
+      id: messages,
+      title: "Messages and texting conventions",
+      level: C2,
+      lesson: c2-23,
+      sources: [ PEU, OEGC, CGEL ],
+    }
+  - {
+      id: archaic-pronouns,
+      title: "thou, thee, thy, thine (for recognition)",
+      level: C2,
+      lesson: c2-24,
+      sources: [],
+    }
+  - {
+      id: archaic-verbs,
+      title: "-eth / -est verb endings (for recognition)",
+      level: C2,
+      lesson: c2-24,
+      sources: [],
+    }
+  - {
+      id: archaic-words,
+      title: "whence, whither, hence, thence",
+      level: C2,
+      lesson: c2-24,
+      sources: [],
+    }
+  - {
+      id: poetic-word-order,
+      title: "Poetic word order",
+      level: C2,
+      lesson: c2-24,
+      sources: [],
+    }
+  - {
+      id: us-uk-verbs,
+      title: "US vs UK verbs: gotten, have got, shall, present perfect use",
+      level: C2,
+      lesson: c2-25,
+      sources: [ GIU, PEU, OPG, OGEG, LGSWE, LSGSWE, CGEL ],
+    }
+  - {
+      id: us-uk-prepositions,
+      title: "US vs UK prepositions: on/at the weekend, different from/than/to",
+      level: C2,
+      lesson: c2-25,
+      sources: [ GIU, PEU, OPG, OGEG, CGEL ],
+    }
+  - {
+      id: us-uk-collective,
+      title: "US vs UK collective nouns",
+      level: C2,
+      lesson: c2-25,
+      sources: [ PEU, OPG, OGEG, CGEL ],
+    }
+  - {
+      id: us-uk-subjunctive,
+      title: "US vs UK use of the subjunctive",
+      level: C2,
+      lesson: c2-25,
+      sources: [ PEU, OGEG, LALG ],
+    }
+  - {
+      id: other-englishes,
+      title: "Australian, Indian and other Englishes",
+      level: C2,
+      lesson: c2-25,
+      sources: [ PEU, LGSWE, CGEL ],
+    }
+  - {
+      id: who-whom-usage,
+      title: "who vs whom in real usage",
+      level: C2,
+      lesson: c2-26,
+      sources: [ PEU, LGSWE ],
+    }
+  - {
+      id: final-prepositions,
+      title: "Ending a sentence with a preposition",
+      level: C2,
+      lesson: c2-26,
+      sources: [ PEU, LALG ],
+    }
+  - {
+      id: less-fewer-usage,
+      title: "less vs fewer in real usage",
+      level: C2,
+      lesson: c2-26,
+      sources: [ GIU, PEU ],
+    }
+  - {
+      id: data-is-are,
+      title: "data is / data are",
+      level: C2,
+      lesson: c2-26,
+      sources: [ PEU, LGSWE ],
+    }
+  - {
+      id: between-you-and-i,
+      title: "between you and I",
+      level: C2,
+      lesson: c2-26,
+      sources: [ PEU, LGSWE, LSGSWE, CGEL ],
+    }
+  - {
+      id: and-but-start,
+      title: "Starting a sentence with And or But",
+      level: C2,
+      lesson: c2-26,
+      sources: [ PEU, LGSWE ],
+    }
+  - {
+      id: dialect-double-negatives,
+      title: "Double negatives in dialects",
+      level: C2,
+      lesson: c2-26,
+      sources: [ PEU, LGSWE, LSGSWE, CGEL ],
+    }
+  - {
+      id: oxford-comma,
+      title: "The serial (Oxford) comma",
+      level: C2,
+      lesson: c2-28,
+      sources: [ PEU, OMEG ],
+    }
+  - {
+      id: restrictive-commas,
+      title: "Restrictive vs non-restrictive commas",
+      level: C2,
+      lesson: c2-28,
+      sources: [ PEU, OMEG, LGSWE, LSGSWE, CGEL ],
+    }
+  - {
+      id: hyphenation,
+      title: "Hyphenation rules",
+      level: C2,
+      lesson: c2-28,
+      sources: [ PEU, CGEL ],
+    }
+  - {
+      id: en-em-dash,
+      title: "En and em dashes",
+      level: C2,
+      lesson: c2-28,
+      sources: [ PEU ],
+    }
+  - {
+      id: ellipsis-marks,
+      title: "Ellipsis marks (…)",
+      level: C2,
+      lesson: c2-28,
+      sources: [ PEU ],
+    }
+  - {
+      id: quotes-us-uk,
+      title: "Quotation punctuation: US vs UK",
+      level: C2,
+      lesson: c2-28,
+      sources: [ PEU, OGEG ],
+    }
+  - {
+      id: verbal-over-nominal,
+      title: "Verbal over nominal style for clarity",
+      level: C2,
+      lesson: c2-29,
+      aliases: [ "concision" ],
+      sources: [],
+    }
+  - {
+      id: redundant-pairs,
+      title: "Redundant pairs and empty phrases",
+      level: C2,
+      lesson: c2-29,
+      sources: [ PEU, OEGC ],
+    }
+  - {
+      id: wordiness,
+      title: "Cutting wordiness",
+      level: C2,
+      lesson: c2-29,
+      sources: [],
+    }
+  - {
+      id: common-learner-errors,
+      title: "The most common learner errors",
+      level: C2,
+      lesson: c2-30,
+      sources: [],
+    }
+  - {
+      id: common-native-errors,
+      title: "Common native-speaker errors (your / you're, its / it's, could of)",
+      level: C2,
+      lesson: c2-30,
+      sources: [],
+    }
+  - {
+      id: editing-checklist,
+      title: "An editing checklist",
+      level: C2,
+      lesson: c2-30,
+      sources: [],
+    }
   # added from the reference audit
-  - { id: vocatives, title: "Vocatives and forms of address (Come here, John; Thank you, Mr. Smith) and their commas", level: A2, lesson: a2-47, sources: [ LGSWE, CGEL ] }
-  - { id: nonstandard-agreement, title: "Non-standard agreement in speech (we was, he don't, there's three people), for recognition", level: C2, lesson: c2-25, sources: [ LGSWE ] }
-  - { id: speech-repair, title: "Repairs, false starts and unfinished sentences in speech", level: C2, lesson: c2-19, sources: [ LGSWE, LSGSWE ] }
+  - {
+      id: vocatives,
+      title: "Vocatives and forms of address (Come here, John; Thank you, Mr. Smith) and their commas",
+      level: A2,
+      lesson: a2-47,
+      sources: [ LGSWE, CGEL ],
+    }
+  - {
+      id: nonstandard-agreement,
+      title: "Non-standard agreement in speech (we was, he don't, there's three people), for recognition",
+      level: C2,
+      lesson: c2-25,
+      sources: [ LGSWE ],
+    }
+  - {
+      id: speech-repair,
+      title: "Repairs, false starts and unfinished sentences in speech",
+      level: C2,
+      lesson: c2-19,
+      sources: [ LGSWE, LSGSWE ],
+    }

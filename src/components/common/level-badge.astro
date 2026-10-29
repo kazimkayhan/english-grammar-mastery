@@ -1,0 +1,25 @@
+---
+import { LEVEL_INFO, type Level } from "@/lib/taxonomy";
+
+interface Props {
+  level: Level;
+  link?: boolean;
+  showTitle?: boolean;
+}
+
+const { level, link = true, showTitle = false } = Astro.props;
+const Tag = link ? "a" : "span";
+---
+
+<Tag
+  class="bg-background inline-flex h-6 items-center gap-1.5 rounded-full border px-2.5 text-xs font-bold whitespace-nowrap"
+  href={link ? `/levels/${level.toLowerCase()}` : undefined}
+  title={`${level} · ${LEVEL_INFO[level].title}`}
+>
+  {level}
+  {showTitle && (
+    <span class="text-muted-foreground font-normal">
+      {LEVEL_INFO[level].title}
+    </span>
+  )}
+</Tag>

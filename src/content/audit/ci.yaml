@@ -6,114 +6,692 @@ retrieved_from:
 verified: true
 note: "Items come from Appendix E 'Exponents for Language Content' (A1 to C1) of the Core Inventory PDF: the numbered grammar headings (Questions, Verb forms, Modals, Nouns, Pronouns, Prepositions, Articles, Determiners, Adjectives, Adverbs, Intensifiers) plus Connecting words / Linkers / Discourse markers. Text extracted with pypdf. Each heading is listed once at the level where it first appears and again when a new sub-heading appears at a later level; items repeated unchanged at higher levels are not duplicated. The inventory has no C2 level. Functions/notions, Lexis and Topics sections were deliberately not listed (not grammar). Some CI sub-headings under Questions (numbers 60-62) were not extracted as separate headings by the PDF text layer, so Questions is covered by CI 59, 61 and 62 only. Sub-items are marked italic (less core) in the PDF; that distinction is not preserved in the text layer."
 items:
-  - { ref: "CI 47 Connecting words (and, but, because)", level: A1, item: "Connecting words: and, but, because", maps: [ and-but-or, because-so ] }
-  - { ref: "CI 56 To be (including questions and negatives)", level: A1, item: "To be, including questions and negatives", maps: [ be-present-forms, be-negative, be-questions, be-short-answers ] }
-  - { ref: "CI 57 Have got (British)", level: A1, item: "have got", maps: [ have-got ] }
-  - { ref: "CI 58 Imperatives (+/-)", level: A1, item: "Imperatives, positive and negative", maps: [ imperatives ] }
-  - { ref: "CI 59 Questions (A1)", level: A1, item: "Questions (basic question forms)", maps: [ question-words, question-word-order, present-simple-questions ] }
-  - { ref: "CI 64 Present simple", level: A1, item: "Present simple", maps: [ present-simple-positive, present-simple-negative, present-simple-questions ] }
-  - { ref: "CI 65 Present continuous", level: A1, item: "Present continuous", maps: [ present-continuous-form, present-continuous-now ] }
-  - { ref: "CI 67 Past simple", level: A1, item: "Past simple", maps: [ past-simple-regular, past-simple-irregular, did-negative-questions ] }
-  - { ref: "CI 68 Past simple (to be)", level: A1, item: "Past simple of be", maps: [ was-were ] }
-  - { ref: "CI 74 Going to", level: A1, item: "going to", maps: [ going-to-plans ] }
+  - {
+      ref: "CI 47 Connecting words (and, but, because)",
+      level: A1,
+      item: "Connecting words: and, but, because",
+      maps: [ and-but-or, because-so ],
+    }
+  - {
+      ref: "CI 56 To be (including questions and negatives)",
+      level: A1,
+      item: "To be, including questions and negatives",
+      maps: [ be-present-forms, be-negative, be-questions, be-short-answers ],
+    }
+  - {
+      ref: "CI 57 Have got (British)",
+      level: A1,
+      item: "have got",
+      maps: [ have-got ],
+    }
+  - {
+      ref: "CI 58 Imperatives (+/-)",
+      level: A1,
+      item: "Imperatives, positive and negative",
+      maps: [ imperatives ],
+    }
+  - {
+      ref: "CI 59 Questions (A1)",
+      level: A1,
+      item: "Questions (basic question forms)",
+      maps: [ question-words, question-word-order, present-simple-questions ],
+    }
+  - {
+      ref: "CI 64 Present simple",
+      level: A1,
+      item: "Present simple",
+      maps:
+        [
+          present-simple-positive,
+          present-simple-negative,
+          present-simple-questions,
+        ],
+    }
+  - {
+      ref: "CI 65 Present continuous",
+      level: A1,
+      item: "Present continuous",
+      maps: [ present-continuous-form, present-continuous-now ],
+    }
+  - {
+      ref: "CI 67 Past simple",
+      level: A1,
+      item: "Past simple",
+      maps:
+        [ past-simple-regular, past-simple-irregular, did-negative-questions ],
+    }
+  - {
+      ref: "CI 68 Past simple (to be)",
+      level: A1,
+      item: "Past simple of be",
+      maps: [ was-were ],
+    }
+  - {
+      ref: "CI 74 Going to",
+      level: A1,
+      item: "going to",
+      maps: [ going-to-plans ],
+    }
   - { ref: "CI 85 I'd like", level: A1, item: "I'd like", maps: [ would-like ] }
-  - { ref: "CI 86 Verb + -ing like/hate/love", level: A1, item: "Verb + -ing after like, hate, love", maps: [ like-ing ] }
-  - { ref: "CI 104 Can/can't (ability)", level: A1, item: "can / can't for ability", maps: [ can-ability ] }
-  - { ref: "CI 105 Can/could (functional)", level: A1, item: "can / could for requests and permission", maps: [ can-permission-requests, could-may-requests ] }
-  - { ref: "CI 121 Nouns: countable and uncountable", level: A1, item: "Nouns: countable and uncountable", maps: [ countable-uncountable, plural-regular, plural-irregular ] }
-  - { ref: "CI 123 There is/there are", level: A1, item: "there is / there are", maps: [ there-is-are ] }
-  - { ref: "CI 125 Simple personal pronouns", level: A1, item: "Simple personal pronouns", maps: [ subject-pronouns, object-pronouns ] }
-  - { ref: "CI 127 Possessive adjectives", level: A1, item: "Possessive adjectives", maps: [ possessive-adjectives ] }
-  - { ref: "CI 128 Possessive 's", level: A1, item: "Possessive 's", maps: [ possessive-s ] }
-  - { ref: "CI 129 Possessive pronouns", level: A1, item: "Possessive pronouns", maps: [ possessive-pronouns ] }
-  - { ref: "CI 131 Prepositions, common", level: A1, item: "Common prepositions", maps: [ place-in-on-at, place-others ] }
-  - { ref: "CI 132 Prepositional phrases (time and movement)", level: A1, item: "Prepositional phrases of time and movement", maps: [ time-at-on-in, movement ] }
-  - { ref: "CI 133a Prepositions of place", level: A1, item: "Prepositions of place", maps: [ place-in-on-at, place-others ] }
-  - { ref: "CI 133a Prepositions of time including in/on/at", level: A1, item: "Prepositions of time, including in/on/at", maps: [ time-at-on-in ] }
-  - { ref: "CI 135 Articles: definite, indefinite", level: A1, item: "Articles: definite and indefinite", maps: [ a-an-sound, the-specific ] }
-  - { ref: "CI 141 Determiners: basic (any, some, a lot of)", level: A1, item: "Basic determiners: any, some, a lot of", maps: [ some-any-basic, a-lot-of-basic ] }
-  - { ref: "CI 145 Adjectives: common", level: A1, item: "Common adjectives", maps: [ adjective-position ] }
-  - { ref: "CI 146 Adjectives: demonstrative", level: A1, item: "Demonstratives", maps: [ demonstratives ] }
-  - { ref: "CI 149 Comparative, superlative", level: A1, item: "Comparative and superlative adjectives (first appearance)", maps: [ comparatives-short, comparatives-long, superlatives ] }
-  - { ref: "CI 152 Adverbs of frequency", level: A1, item: "Adverbs of frequency", maps: [ frequency-adverbs, frequency-position ] }
-  - { ref: "CI 161 Intensifiers: very basic (very, really)", level: A1, item: "Very basic intensifiers: very, really", maps: [ very-really ] }
-  - { ref: "CI 48 Linkers: sequential, past time", level: A2, item: "Sequential linkers for past time", maps: [ sequencing ] }
-  - { ref: "CI 61 Wh-questions in the past", level: A2, item: "Wh-questions in the past", maps: [ past-simple-wh ] }
-  - { ref: "CI 68 Past continuous", level: A2, item: "Past continuous", maps: [ past-continuous, past-simple-vs-continuous ] }
-  - { ref: "CI 69 Used to", level: A2, item: "used to", maps: [ used-to, didnt-use-to ] }
-  - { ref: "CI 75 Present continuous for the future", level: A2, item: "Present continuous for the future", maps: [ present-continuous-future ] }
-  - { ref: "CI 76 Future time (will and going to)", level: A2, item: "Future time: will and going to", maps: [ will-decisions, will-predictions, going-to-evidence ] }
-  - { ref: "CI 81 Present perfect", level: A2, item: "Present perfect", maps: [ present-perfect-form, present-perfect-experience, present-perfect-recent ] }
-  - { ref: "CI 86 Gerunds", level: A2, item: "Gerunds (verb + -ing)", maps: [ verb-ing ] }
-  - { ref: "CI 87 To + infinitive (express purpose)", level: A2, item: "to + infinitive to express purpose", maps: [ infinitive-purpose ] }
-  - { ref: "CI 88 Verb + to + infinitive", level: A2, item: "Verb + to + infinitive", maps: [ verb-to ] }
-  - { ref: "CI 90 Zero and first conditional", level: A2, item: "Zero and first conditional", maps: [ zero-conditional, first-conditional ] }
-  - { ref: "CI 95 Phrasal verbs, common", level: A2, item: "Common phrasal verbs", maps: [ phrasal-verbs-intro, phrasal-pronoun-position ] }
-  - { ref: "CI 105 Can/could", level: A2, item: "can / could (A2 range)", maps: [ could-past-ability, could-may-requests, be-able-to ] }
-  - { ref: "CI 107 Might, may", level: A2, item: "might, may (possibility)", maps: [ may-might-possibility ] }
-  - { ref: "CI 108 Possibly, probably, perhaps", level: A2, item: "possibly, probably, perhaps", maps: [ probably-will ] }
-  - { ref: "CI 112 Must/mustn't", level: A2, item: "must / mustn't", maps: [ must-have-to, mustnt-dont-have-to ] }
-  - { ref: "CI 113 Have to", level: A2, item: "have to", maps: [ must-have-to, had-to ] }
+  - {
+      ref: "CI 86 Verb + -ing like/hate/love",
+      level: A1,
+      item: "Verb + -ing after like, hate, love",
+      maps: [ like-ing ],
+    }
+  - {
+      ref: "CI 104 Can/can't (ability)",
+      level: A1,
+      item: "can / can't for ability",
+      maps: [ can-ability ],
+    }
+  - {
+      ref: "CI 105 Can/could (functional)",
+      level: A1,
+      item: "can / could for requests and permission",
+      maps: [ can-permission-requests, could-may-requests ],
+    }
+  - {
+      ref: "CI 121 Nouns: countable and uncountable",
+      level: A1,
+      item: "Nouns: countable and uncountable",
+      maps: [ countable-uncountable, plural-regular, plural-irregular ],
+    }
+  - {
+      ref: "CI 123 There is/there are",
+      level: A1,
+      item: "there is / there are",
+      maps: [ there-is-are ],
+    }
+  - {
+      ref: "CI 125 Simple personal pronouns",
+      level: A1,
+      item: "Simple personal pronouns",
+      maps: [ subject-pronouns, object-pronouns ],
+    }
+  - {
+      ref: "CI 127 Possessive adjectives",
+      level: A1,
+      item: "Possessive adjectives",
+      maps: [ possessive-adjectives ],
+    }
+  - {
+      ref: "CI 128 Possessive 's",
+      level: A1,
+      item: "Possessive 's",
+      maps: [ possessive-s ],
+    }
+  - {
+      ref: "CI 129 Possessive pronouns",
+      level: A1,
+      item: "Possessive pronouns",
+      maps: [ possessive-pronouns ],
+    }
+  - {
+      ref: "CI 131 Prepositions, common",
+      level: A1,
+      item: "Common prepositions",
+      maps: [ place-in-on-at, place-others ],
+    }
+  - {
+      ref: "CI 132 Prepositional phrases (time and movement)",
+      level: A1,
+      item: "Prepositional phrases of time and movement",
+      maps: [ time-at-on-in, movement ],
+    }
+  - {
+      ref: "CI 133a Prepositions of place",
+      level: A1,
+      item: "Prepositions of place",
+      maps: [ place-in-on-at, place-others ],
+    }
+  - {
+      ref: "CI 133a Prepositions of time including in/on/at",
+      level: A1,
+      item: "Prepositions of time, including in/on/at",
+      maps: [ time-at-on-in ],
+    }
+  - {
+      ref: "CI 135 Articles: definite, indefinite",
+      level: A1,
+      item: "Articles: definite and indefinite",
+      maps: [ a-an-sound, the-specific ],
+    }
+  - {
+      ref: "CI 141 Determiners: basic (any, some, a lot of)",
+      level: A1,
+      item: "Basic determiners: any, some, a lot of",
+      maps: [ some-any-basic, a-lot-of-basic ],
+    }
+  - {
+      ref: "CI 145 Adjectives: common",
+      level: A1,
+      item: "Common adjectives",
+      maps: [ adjective-position ],
+    }
+  - {
+      ref: "CI 146 Adjectives: demonstrative",
+      level: A1,
+      item: "Demonstratives",
+      maps: [ demonstratives ],
+    }
+  - {
+      ref: "CI 149 Comparative, superlative",
+      level: A1,
+      item: "Comparative and superlative adjectives (first appearance)",
+      maps: [ comparatives-short, comparatives-long, superlatives ],
+    }
+  - {
+      ref: "CI 152 Adverbs of frequency",
+      level: A1,
+      item: "Adverbs of frequency",
+      maps: [ frequency-adverbs, frequency-position ],
+    }
+  - {
+      ref: "CI 161 Intensifiers: very basic (very, really)",
+      level: A1,
+      item: "Very basic intensifiers: very, really",
+      maps: [ very-really ],
+    }
+  - {
+      ref: "CI 48 Linkers: sequential, past time",
+      level: A2,
+      item: "Sequential linkers for past time",
+      maps: [ sequencing ],
+    }
+  - {
+      ref: "CI 61 Wh-questions in the past",
+      level: A2,
+      item: "Wh-questions in the past",
+      maps: [ past-simple-wh ],
+    }
+  - {
+      ref: "CI 68 Past continuous",
+      level: A2,
+      item: "Past continuous",
+      maps: [ past-continuous, past-simple-vs-continuous ],
+    }
+  - {
+      ref: "CI 69 Used to",
+      level: A2,
+      item: "used to",
+      maps: [ used-to, didnt-use-to ],
+    }
+  - {
+      ref: "CI 75 Present continuous for the future",
+      level: A2,
+      item: "Present continuous for the future",
+      maps: [ present-continuous-future ],
+    }
+  - {
+      ref: "CI 76 Future time (will and going to)",
+      level: A2,
+      item: "Future time: will and going to",
+      maps: [ will-decisions, will-predictions, going-to-evidence ],
+    }
+  - {
+      ref: "CI 81 Present perfect",
+      level: A2,
+      item: "Present perfect",
+      maps:
+        [
+          present-perfect-form,
+          present-perfect-experience,
+          present-perfect-recent,
+        ],
+    }
+  - {
+      ref: "CI 86 Gerunds",
+      level: A2,
+      item: "Gerunds (verb + -ing)",
+      maps: [ verb-ing ],
+    }
+  - {
+      ref: "CI 87 To + infinitive (express purpose)",
+      level: A2,
+      item: "to + infinitive to express purpose",
+      maps: [ infinitive-purpose ],
+    }
+  - {
+      ref: "CI 88 Verb + to + infinitive",
+      level: A2,
+      item: "Verb + to + infinitive",
+      maps: [ verb-to ],
+    }
+  - {
+      ref: "CI 90 Zero and first conditional",
+      level: A2,
+      item: "Zero and first conditional",
+      maps: [ zero-conditional, first-conditional ],
+    }
+  - {
+      ref: "CI 95 Phrasal verbs, common",
+      level: A2,
+      item: "Common phrasal verbs",
+      maps: [ phrasal-verbs-intro, phrasal-pronoun-position ],
+    }
+  - {
+      ref: "CI 105 Can/could",
+      level: A2,
+      item: "can / could (A2 range)",
+      maps: [ could-past-ability, could-may-requests, be-able-to ],
+    }
+  - {
+      ref: "CI 107 Might, may",
+      level: A2,
+      item: "might, may (possibility)",
+      maps: [ may-might-possibility ],
+    }
+  - {
+      ref: "CI 108 Possibly, probably, perhaps",
+      level: A2,
+      item: "possibly, probably, perhaps",
+      maps: [ probably-will ],
+    }
+  - {
+      ref: "CI 112 Must/mustn't",
+      level: A2,
+      item: "must / mustn't",
+      maps: [ must-have-to, mustnt-dont-have-to ],
+    }
+  - {
+      ref: "CI 113 Have to",
+      level: A2,
+      item: "have to",
+      maps: [ must-have-to, had-to ],
+    }
   - { ref: "CI 115 Should", level: A2, item: "should", maps: [ should-advice ] }
-  - { ref: "CI 128 Use of 's and s'", level: A2, item: "'s and s'", maps: [ s-plural-possessive ] }
-  - { ref: "CI 132 Prepositions of time: on/at/in", level: A2, item: "Prepositions of time on / at / in", maps: [ time-at-on-in ] }
-  - { ref: "CI 133 Prepositional phrases (place, time and movement)", level: A2, item: "Prepositional phrases of place, time and movement", maps: [ movement, place-others, time-at-on-in ] }
-  - { ref: "CI 138 Articles with countable and uncountable nouns", level: A2, item: "Articles with countable and uncountable nouns", maps: [ the-vs-zero, countable-uncountable ] }
-  - { ref: "CI 142 Determiners: wider range (all, none, not (any))", level: A2, item: "Wider range of determiners: all, none, not any", maps: [ all-both-basic, no-none, indefinite-compounds ] }
-  - { ref: "CI 147 Adjectives ending in -ed and -ing", level: A2, item: "Adjectives ending in -ed and -ing", maps: [ ed-ing-adjectives ] }
-  - { ref: "CI 149 Adjectives - comparative", level: A2, item: "Comparative adjectives", maps: [ comparatives-short, comparatives-long, comparatives-irregular, as-as ] }
-  - { ref: "CI 150 Adjectives - superlative", level: A2, item: "Superlative adjectives", maps: [ superlatives, superlative-in-of ] }
-  - { ref: "CI 153 Simple adverbs of place, manner", level: A2, item: "Simple adverbs of place and manner", maps: [ adverbs-manner, irregular-adverbs ] }
-  - { ref: "CI 154 Adverbial phrases of time, place and frequency", level: A2, item: "Adverbial phrases of time, place and frequency", maps: [ past-time-expressions, ago, how-often ] }
-  - { ref: "CI 162 Intensifiers: basic (quite, so, a bit)", level: A2, item: "Basic intensifiers: quite, so, a bit", maps: [ softeners, so-such ], levelNote: "source says A2, inventory says softeners B2" }
-  - { ref: "CI 49 Connecting words: cause and effect, contrast", level: B1, item: "Connecting words expressing cause and effect, contrast", maps: [ reason-clauses, result-clauses, linkers-contrast, linkers-result ] }
-  - { ref: "CI 52 Markers to structure informal spoken discourse", level: B1, item: "Markers to structure informal spoken discourse", maps: [ discourse-speech ] }
-  - { ref: "CI 62 Complex question tags", level: B1, item: "Complex question tags", maps: [ question-tags, special-tags ] }
-  - { ref: "CI 70 Would expressing habit in the past", level: B1, item: "would for past habits", maps: [ would-habits-intro, would-vs-used-to ] }
-  - { ref: "CI 71 Past perfect", level: B1, item: "Past perfect", maps: [ past-perfect, past-perfect-sequence ] }
-  - { ref: "CI 77 Future continuous", level: B1, item: "Future continuous", maps: [ future-continuous-intro ] }
-  - { ref: "CI 82 Present perfect, past simple", level: B1, item: "Present perfect versus past simple", maps: [ pp-vs-past, for-since ] }
-  - { ref: "CI 83 Present perfect continuous", level: B1, item: "Present perfect continuous", maps: [ ppc-form, ppc-duration, ppc-vs-pp ] }
-  - { ref: "CI 91 Second and third conditional", level: B1, item: "Second and third conditional", maps: [ second-conditional, third-conditional ] }
-  - { ref: "CI 96 Extended phrasal verbs", level: B1, item: "Extended phrasal verbs", maps: [ phrasal-separable, three-part-phrasal, prepositional-verbs ] }
-  - { ref: "CI 98 Simple passive", level: B1, item: "Simple passive", maps: [ passive-form, passive-present-past ] }
-  - { ref: "CI 101 Reported speech (range of tenses)", level: B1, item: "Reported speech, range of tenses", maps: [ backshift, reported-questions, reported-commands, say-tell ] }
-  - { ref: "CI 109 Might, may, will, probably", level: B1, item: "might, may, will, probably", maps: [ may-might-possibility, might-vs-will ] }
-  - { ref: "CI 110 Must/can't (deduction)", level: B1, item: "must / can't for deduction", maps: [ deduction-present ] }
-  - { ref: "CI 114 Must/have to", level: B1, item: "must / have to", maps: [ must-have-to ] }
+  - {
+      ref: "CI 128 Use of 's and s'",
+      level: A2,
+      item: "'s and s'",
+      maps: [ s-plural-possessive ],
+    }
+  - {
+      ref: "CI 132 Prepositions of time: on/at/in",
+      level: A2,
+      item: "Prepositions of time on / at / in",
+      maps: [ time-at-on-in ],
+    }
+  - {
+      ref: "CI 133 Prepositional phrases (place, time and movement)",
+      level: A2,
+      item: "Prepositional phrases of place, time and movement",
+      maps: [ movement, place-others, time-at-on-in ],
+    }
+  - {
+      ref: "CI 138 Articles with countable and uncountable nouns",
+      level: A2,
+      item: "Articles with countable and uncountable nouns",
+      maps: [ the-vs-zero, countable-uncountable ],
+    }
+  - {
+      ref: "CI 142 Determiners: wider range (all, none, not (any))",
+      level: A2,
+      item: "Wider range of determiners: all, none, not any",
+      maps: [ all-both-basic, no-none, indefinite-compounds ],
+    }
+  - {
+      ref: "CI 147 Adjectives ending in -ed and -ing",
+      level: A2,
+      item: "Adjectives ending in -ed and -ing",
+      maps: [ ed-ing-adjectives ],
+    }
+  - {
+      ref: "CI 149 Adjectives - comparative",
+      level: A2,
+      item: "Comparative adjectives",
+      maps:
+        [
+          comparatives-short,
+          comparatives-long,
+          comparatives-irregular,
+          as-as,
+        ],
+    }
+  - {
+      ref: "CI 150 Adjectives - superlative",
+      level: A2,
+      item: "Superlative adjectives",
+      maps: [ superlatives, superlative-in-of ],
+    }
+  - {
+      ref: "CI 153 Simple adverbs of place, manner",
+      level: A2,
+      item: "Simple adverbs of place and manner",
+      maps: [ adverbs-manner, irregular-adverbs ],
+    }
+  - {
+      ref: "CI 154 Adverbial phrases of time, place and frequency",
+      level: A2,
+      item: "Adverbial phrases of time, place and frequency",
+      maps: [ past-time-expressions, ago, how-often ],
+    }
+  - {
+      ref: "CI 162 Intensifiers: basic (quite, so, a bit)",
+      level: A2,
+      item: "Basic intensifiers: quite, so, a bit",
+      maps: [ softeners, so-such ],
+      levelNote: "source says A2, inventory says softeners B2",
+    }
+  - {
+      ref: "CI 49 Connecting words: cause and effect, contrast",
+      level: B1,
+      item: "Connecting words expressing cause and effect, contrast",
+      maps:
+        [ reason-clauses, result-clauses, linkers-contrast, linkers-result ],
+    }
+  - {
+      ref: "CI 52 Markers to structure informal spoken discourse",
+      level: B1,
+      item: "Markers to structure informal spoken discourse",
+      maps: [ discourse-speech ],
+    }
+  - {
+      ref: "CI 62 Complex question tags",
+      level: B1,
+      item: "Complex question tags",
+      maps: [ question-tags, special-tags ],
+    }
+  - {
+      ref: "CI 70 Would expressing habit in the past",
+      level: B1,
+      item: "would for past habits",
+      maps: [ would-habits-intro, would-vs-used-to ],
+    }
+  - {
+      ref: "CI 71 Past perfect",
+      level: B1,
+      item: "Past perfect",
+      maps: [ past-perfect, past-perfect-sequence ],
+    }
+  - {
+      ref: "CI 77 Future continuous",
+      level: B1,
+      item: "Future continuous",
+      maps: [ future-continuous-intro ],
+    }
+  - {
+      ref: "CI 82 Present perfect, past simple",
+      level: B1,
+      item: "Present perfect versus past simple",
+      maps: [ pp-vs-past, for-since ],
+    }
+  - {
+      ref: "CI 83 Present perfect continuous",
+      level: B1,
+      item: "Present perfect continuous",
+      maps: [ ppc-form, ppc-duration, ppc-vs-pp ],
+    }
+  - {
+      ref: "CI 91 Second and third conditional",
+      level: B1,
+      item: "Second and third conditional",
+      maps: [ second-conditional, third-conditional ],
+    }
+  - {
+      ref: "CI 96 Extended phrasal verbs",
+      level: B1,
+      item: "Extended phrasal verbs",
+      maps: [ phrasal-separable, three-part-phrasal, prepositional-verbs ],
+    }
+  - {
+      ref: "CI 98 Simple passive",
+      level: B1,
+      item: "Simple passive",
+      maps: [ passive-form, passive-present-past ],
+    }
+  - {
+      ref: "CI 101 Reported speech (range of tenses)",
+      level: B1,
+      item: "Reported speech, range of tenses",
+      maps: [ backshift, reported-questions, reported-commands, say-tell ],
+    }
+  - {
+      ref: "CI 109 Might, may, will, probably",
+      level: B1,
+      item: "might, may, will, probably",
+      maps: [ may-might-possibility, might-vs-will ],
+    }
+  - {
+      ref: "CI 110 Must/can't (deduction)",
+      level: B1,
+      item: "must / can't for deduction",
+      maps: [ deduction-present ],
+    }
+  - {
+      ref: "CI 114 Must/have to",
+      level: B1,
+      item: "must / have to",
+      maps: [ must-have-to ],
+    }
   - { ref: "CI 116 Ought to", level: B1, item: "ought to", maps: [ ought-to ] }
   - { ref: "CI 117 Need to", level: B1, item: "need to", maps: [ need-neednt ] }
-  - { ref: "CI 119 Should have, might have, etc.", level: B1, item: "Past modals: should have, might have", maps: [ should-have, deduction-past, could-have ] }
-  - { ref: "CI 143 Determiners: broad range (all the, most, both)", level: B1, item: "Broad range of determiners: all the, most, both", maps: [ both-all-whole, most-of ] }
-  - { ref: "CI 148 Collocation of adjective", level: B1, item: "Collocation of adjectives (e.g. deep sleep, really good)", maps: [], outOfScope: "lexical collocation rather than grammar (the inventory only covers adjective + preposition and degree-adverb collocation at higher levels)" }
-  - { ref: "CI 156 Adverbial phrases of degree/extent, probability", level: B1, item: "Adverbial phrases of degree, extent and probability", maps: [ intensifiers, probably-negative ] }
-  - { ref: "CI 157 Comparative and superlative form of adverbs", level: B1, item: "Comparative and superlative forms of adverbs", maps: [ adverb-comparison ], suggest: { title: "Comparatives and superlatives of adverbs (faster, more carefully, the best)", level: A2, lesson: a2-41 } }
-  - { ref: "CI 163 Intensifiers: broader range", level: B1, item: "Broader range of intensifiers", maps: [ intensifiers, softeners ] }
-  - { ref: "CI 164 Intensifiers: wide range (such as extremely, much too)", level: B1, item: "Wide range of intensifiers: extremely, much too", maps: [ intensifiers, much-far-comparative ] }
-  - { ref: "CI 50 Linkers: although, in spite of, despite", level: B2, item: "Linkers: although, in spite of, despite", maps: [ contrast-although, despite-in-spite ] }
-  - { ref: "CI 53 Discourse markers to structure formal speech", level: B2, item: "Discourse markers to structure formal speech and writing", maps: [ discourse-writing, linkers-summary ] }
-  - { ref: "CI 67 Simple past (narrative)", level: B2, item: "Simple past in narrative", maps: [ narrative-tenses ] }
-  - { ref: "CI 68 Past continuous (narrative)", level: B2, item: "Past continuous in narrative", maps: [ narrative-tenses ] }
-  - { ref: "CI 69 Used to (narrative)", level: B2, item: "used to in narrative", maps: [ would-vs-used-to ] }
-  - { ref: "CI 72 Past perfect continuous", level: B2, item: "Past perfect continuous", maps: [ past-perfect-continuous ] }
-  - { ref: "CI 77 Future continuous (prediction)", level: B2, item: "Future continuous for prediction", maps: [ future-continuous-full ] }
-  - { ref: "CI 78 Future perfect", level: B2, item: "Future perfect", maps: [ future-perfect ] }
-  - { ref: "CI 79 Future perfect continuous", level: B2, item: "Future perfect continuous", maps: [ future-perfect-continuous ] }
-  - { ref: "CI 92 Mixed conditionals", level: B2, item: "Mixed conditionals", maps: [ mixed-past-present, mixed-present-past ] }
-  - { ref: "CI 93 Wish", level: B2, item: "wish", maps: [ wish-past, wish-past-perfect, wish-would ] }
-  - { ref: "CI 99 All passive forms", level: B2, item: "All passive forms", maps: [ passive-continuous, passive-perfect, passive-infinitive-gerund, passive-modal ] }
-  - { ref: "CI 102 Relative clauses", level: B2, item: "Relative clauses", maps: [ defining-nondefining, relative-whose-when, preposition-relative, reduced-relative ] }
-  - { ref: "CI 119 Modals of deduction and speculation", level: B2, item: "Modals of deduction and speculation", maps: [ deduction-present, deduction-past, modal-continuous ] }
-  - { ref: "CI 120 Modals: can't have, needn't have", level: B2, item: "can't have, needn't have", maps: [ deduction-past, neednt-have ] }
-  - { ref: "CI 139 Articles with abstract nouns", level: B2, item: "Articles with abstract nouns", maps: [ abstract-articles ] }
-  - { ref: "CI 155 Adjectives and adverbs", level: B2, item: "Adjectives and adverbs (adjective or adverb, two-form adverbs)", maps: [ adjective-vs-adverb, hard-hardly ], levelNote: "source says B2, inventory says adjective-vs-adverb A2" }
-  - { ref: "CI 158 Attitudinal adverbs", level: B2, item: "Attitudinal adverbs", maps: [ comment-adverbs ] }
-  - { ref: "CI 165 Collocation of intensifiers", level: B2, item: "Collocation of intensifiers", maps: [ degree-collocations ] }
-  - { ref: "CI 66 Narrative tenses for experiences, including passive", level: C1, item: "Narrative tenses for experiences, including passive", maps: [ narrative-tenses, aspect-in-narrative ] }
-  - { ref: "CI 76 Futures (revision)", level: C1, item: "Futures (revision)", maps: [ futures-compared, future-in-past, future-perfect ], levelNote: "source says C1, inventory says futures-compared B1" }
-  - { ref: "CI 92 Mixed conditionals in the past, present and future", level: C1, item: "Mixed conditionals across time reference", maps: [ mixed-past-present, mixed-present-past ] }
-  - { ref: "CI 93 Wish / if only and regrets", level: C1, item: "wish / if only and regrets", maps: [ wish-past-perfect, if-only-intro ], levelNote: "source says C1, inventory says if-only-intro B1" }
-  - { ref: "CI 96 Extended phrasal verbs (splitting)", level: C1, item: "Extended phrasal verbs (splitting)", maps: [ phrasal-separable, three-part-phrasal ], levelNote: "source says C1, inventory says phrasal-separable B1, three-part-phrasal B1" }
-  - { ref: "CI 99 Passive forms, all", level: C1, item: "All passive forms", maps: [ passive-continuous, passive-perfect, modal-perfect-passive ], levelNote: "source says C1, inventory says passive-perfect B1" }
-  - { ref: "CI 118 Modals in the past", level: C1, item: "Modals in the past", maps: [ modal-perfect-continuous, deduction-past, should-have ] }
-  - { ref: "CI 159 Inversion (negative adverbials)", level: C1, item: "Inversion after negative adverbials", maps: [ negative-inversion ] }
+  - {
+      ref: "CI 119 Should have, might have, etc.",
+      level: B1,
+      item: "Past modals: should have, might have",
+      maps: [ should-have, deduction-past, could-have ],
+    }
+  - {
+      ref: "CI 143 Determiners: broad range (all the, most, both)",
+      level: B1,
+      item: "Broad range of determiners: all the, most, both",
+      maps: [ both-all-whole, most-of ],
+    }
+  - {
+      ref: "CI 148 Collocation of adjective",
+      level: B1,
+      item: "Collocation of adjectives (e.g. deep sleep, really good)",
+      maps: [],
+      outOfScope: "lexical collocation rather than grammar (the inventory only covers adjective + preposition and degree-adverb collocation at higher levels)",
+    }
+  - {
+      ref: "CI 156 Adverbial phrases of degree/extent, probability",
+      level: B1,
+      item: "Adverbial phrases of degree, extent and probability",
+      maps: [ intensifiers, probably-negative ],
+    }
+  - {
+      ref: "CI 157 Comparative and superlative form of adverbs",
+      level: B1,
+      item: "Comparative and superlative forms of adverbs",
+      maps: [ adverb-comparison ],
+      suggest:
+        {
+          title: "Comparatives and superlatives of adverbs (faster, more carefully, the best)",
+          level: A2,
+          lesson: a2-41,
+        },
+    }
+  - {
+      ref: "CI 163 Intensifiers: broader range",
+      level: B1,
+      item: "Broader range of intensifiers",
+      maps: [ intensifiers, softeners ],
+    }
+  - {
+      ref: "CI 164 Intensifiers: wide range (such as extremely, much too)",
+      level: B1,
+      item: "Wide range of intensifiers: extremely, much too",
+      maps: [ intensifiers, much-far-comparative ],
+    }
+  - {
+      ref: "CI 50 Linkers: although, in spite of, despite",
+      level: B2,
+      item: "Linkers: although, in spite of, despite",
+      maps: [ contrast-although, despite-in-spite ],
+    }
+  - {
+      ref: "CI 53 Discourse markers to structure formal speech",
+      level: B2,
+      item: "Discourse markers to structure formal speech and writing",
+      maps: [ discourse-writing, linkers-summary ],
+    }
+  - {
+      ref: "CI 67 Simple past (narrative)",
+      level: B2,
+      item: "Simple past in narrative",
+      maps: [ narrative-tenses ],
+    }
+  - {
+      ref: "CI 68 Past continuous (narrative)",
+      level: B2,
+      item: "Past continuous in narrative",
+      maps: [ narrative-tenses ],
+    }
+  - {
+      ref: "CI 69 Used to (narrative)",
+      level: B2,
+      item: "used to in narrative",
+      maps: [ would-vs-used-to ],
+    }
+  - {
+      ref: "CI 72 Past perfect continuous",
+      level: B2,
+      item: "Past perfect continuous",
+      maps: [ past-perfect-continuous ],
+    }
+  - {
+      ref: "CI 77 Future continuous (prediction)",
+      level: B2,
+      item: "Future continuous for prediction",
+      maps: [ future-continuous-full ],
+    }
+  - {
+      ref: "CI 78 Future perfect",
+      level: B2,
+      item: "Future perfect",
+      maps: [ future-perfect ],
+    }
+  - {
+      ref: "CI 79 Future perfect continuous",
+      level: B2,
+      item: "Future perfect continuous",
+      maps: [ future-perfect-continuous ],
+    }
+  - {
+      ref: "CI 92 Mixed conditionals",
+      level: B2,
+      item: "Mixed conditionals",
+      maps: [ mixed-past-present, mixed-present-past ],
+    }
+  - {
+      ref: "CI 93 Wish",
+      level: B2,
+      item: "wish",
+      maps: [ wish-past, wish-past-perfect, wish-would ],
+    }
+  - {
+      ref: "CI 99 All passive forms",
+      level: B2,
+      item: "All passive forms",
+      maps:
+        [
+          passive-continuous,
+          passive-perfect,
+          passive-infinitive-gerund,
+          passive-modal,
+        ],
+    }
+  - {
+      ref: "CI 102 Relative clauses",
+      level: B2,
+      item: "Relative clauses",
+      maps:
+        [
+          defining-nondefining,
+          relative-whose-when,
+          preposition-relative,
+          reduced-relative,
+        ],
+    }
+  - {
+      ref: "CI 119 Modals of deduction and speculation",
+      level: B2,
+      item: "Modals of deduction and speculation",
+      maps: [ deduction-present, deduction-past, modal-continuous ],
+    }
+  - {
+      ref: "CI 120 Modals: can't have, needn't have",
+      level: B2,
+      item: "can't have, needn't have",
+      maps: [ deduction-past, neednt-have ],
+    }
+  - {
+      ref: "CI 139 Articles with abstract nouns",
+      level: B2,
+      item: "Articles with abstract nouns",
+      maps: [ abstract-articles ],
+    }
+  - {
+      ref: "CI 155 Adjectives and adverbs",
+      level: B2,
+      item: "Adjectives and adverbs (adjective or adverb, two-form adverbs)",
+      maps: [ adjective-vs-adverb, hard-hardly ],
+      levelNote: "source says B2, inventory says adjective-vs-adverb A2",
+    }
+  - {
+      ref: "CI 158 Attitudinal adverbs",
+      level: B2,
+      item: "Attitudinal adverbs",
+      maps: [ comment-adverbs ],
+    }
+  - {
+      ref: "CI 165 Collocation of intensifiers",
+      level: B2,
+      item: "Collocation of intensifiers",
+      maps: [ degree-collocations ],
+    }
+  - {
+      ref: "CI 66 Narrative tenses for experiences, including passive",
+      level: C1,
+      item: "Narrative tenses for experiences, including passive",
+      maps: [ narrative-tenses, aspect-in-narrative ],
+    }
+  - {
+      ref: "CI 76 Futures (revision)",
+      level: C1,
+      item: "Futures (revision)",
+      maps: [ futures-compared, future-in-past, future-perfect ],
+      levelNote: "source says C1, inventory says futures-compared B1",
+    }
+  - {
+      ref: "CI 92 Mixed conditionals in the past, present and future",
+      level: C1,
+      item: "Mixed conditionals across time reference",
+      maps: [ mixed-past-present, mixed-present-past ],
+    }
+  - {
+      ref: "CI 93 Wish / if only and regrets",
+      level: C1,
+      item: "wish / if only and regrets",
+      maps: [ wish-past-perfect, if-only-intro ],
+      levelNote: "source says C1, inventory says if-only-intro B1",
+    }
+  - {
+      ref: "CI 96 Extended phrasal verbs (splitting)",
+      level: C1,
+      item: "Extended phrasal verbs (splitting)",
+      maps: [ phrasal-separable, three-part-phrasal ],
+      levelNote: "source says C1, inventory says phrasal-separable B1, three-part-phrasal B1",
+    }
+  - {
+      ref: "CI 99 Passive forms, all",
+      level: C1,
+      item: "All passive forms",
+      maps: [ passive-continuous, passive-perfect, modal-perfect-passive ],
+      levelNote: "source says C1, inventory says passive-perfect B1",
+    }
+  - {
+      ref: "CI 118 Modals in the past",
+      level: C1,
+      item: "Modals in the past",
+      maps: [ modal-perfect-continuous, deduction-past, should-have ],
+    }
+  - {
+      ref: "CI 159 Inversion (negative adverbials)",
+      level: C1,
+      item: "Inversion after negative adverbials",
+      maps: [ negative-inversion ],
+    }

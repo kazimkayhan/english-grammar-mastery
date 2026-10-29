@@ -1,0 +1,58 @@
+---
+// Persian support. A1–A2: kind="full" (a complete explanation, open by default).
+// B1–B2: kind="tip" (one or two lines). C1–C2 lessons don't use it.
+// English examples inside the Persian text are isolated automatically (see lib/bidi).
+import { isolateLatinHtml } from "@/lib/bidi";
+
+interface Props {
+  kind?: "full" | "tip";
+  title?: string;
+}
+const { kind = "full", title } = Astro.props;
+const body = isolateLatinHtml(await Astro.slots.render("default"));
+---
+
+{kind === "full" ? (
+  <details
+    class="persian-only persian-block group border-persian/30 bg-persian-soft not-prose rounded-2xl border"
+    open
+  >
+    <summary class="text-persian flex cursor-pointer list-none items-center justify-between gap-3 px-5 py-3 font-sans text-sm font-bold select-none">
+      <span>
+        Persian explanation · <span lang="fa">توضیح فارسی</span>
+      </span>
+      <svg
+        aria-hidden="true"
+        class="text-persian size-5 shrink-0 transition-transform group-open:rotate-180"
+        fill="none"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+      >
+        <path d="m6 9 6 6 6-6" />
+      </svg>
+    </summary>
+    <div
+      class="fa text-foreground px-5 pb-5 text-[1.05em] [&_li+li]:mt-1 [&_p+p]:mt-3 [&_strong]:font-bold [&_ul]:list-disc [&_ul]:pr-5"
+      dir="rtl"
+      lang="fa"
+    >
+      {title ? <p class="mb-2 font-bold">{title}</p> : null}
+      <div set:html={body} />
+    </div>
+  </details>
+) : (
+  <aside class="persian-only persian-block border-persian/30 bg-persian-soft not-prose flex gap-3 rounded-2xl border px-5 py-3">
+    <span class="text-persian mt-1 shrink-0 font-sans text-xs font-bold tracking-wide uppercase">
+      فارسی
+    </span>
+    <div
+      class="fa text-foreground flex-1 text-[0.98em]"
+      dir="rtl"
+      lang="fa"
+      set:html={body}
+    />
+  </aside>
+)}

@@ -1,58 +1,515 @@
 pillar: verb-patterns
 points:
-  - { id: like-ing, title: "like / love / hate / enjoy + -ing", level: A1, lesson: a1-24, sources: [ GSE, CI, GIU, PEU, OPG, LGSWE, LSGSWE, LEG, LALG ] }
-  - { id: would-like, title: "would like + noun / to + verb", level: A1, lesson: a1-24, sources: [ GSE, CI, GIU, PEU, OPG ] }
-  - { id: like-vs-would-like, title: "I like vs I'd like", level: A1, lesson: a1-24, sources: [ GIU, OPG ] }
-  - { id: two-objects, title: "Verbs with two objects (give, send, show, tell, buy, lend)", level: A2, lesson: a2-05, sources: [ GSE, GIU, PEU, OEGC, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: two-objects-to-for, title: "give it to me / buy it for me (word order with pronouns)", level: A2, lesson: a2-05, sources: [ GSE, GIU, PEU, OEGC, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LEG ] }
-  - { id: linking-verbs, title: "Linking verbs + adjective (look, feel, sound, taste, smell, seem, become, get)", level: A2, lesson: a2-17, sources: [ GSE, GIU, PEU, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: look-like, title: "look like / sound like + noun; look as if", level: A2, lesson: a2-17, sources: [ GSE, GIU, PEU, LGSWE, LSGSWE, LEG ] }
-  - { id: phrasal-verbs-intro, title: "Phrasal verbs: verb + particle (get up, turn on)", level: A2, lesson: a2-18, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, OGEG, OGEAP, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: phrasal-pronoun-position, title: "Object pronoun position (turn it on, not turn on it)", level: A2, lesson: a2-18, sources: [ GSE, CI, GIU, PEU, OPG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: verb-to, title: "Verbs + to-infinitive (want, decide, hope, plan, need, agree, refuse, promise)", level: A2, lesson: a2-24, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, OGEG, OGEAP, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: verb-ing, title: "Verbs + -ing (enjoy, finish, mind, avoid, practice, keep)", level: A2, lesson: a2-24, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, OGEG, OGEAP, LGSWE, LSGSWE, LEG, LALG ] }
-  - { id: go-ing, title: "go + -ing (go swimming, go shopping)", level: A2, lesson: a2-24, sources: [ PEU, OEGC, OPG, OGEG, LEG ] }
-  - { id: infinitive-purpose, title: "to + verb for purpose (I came here to study)", level: A2, lesson: a2-25, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, OGEG, CGEL, LEG, LALG ] }
-  - { id: for-noun-purpose, title: "for + noun for purpose (I went out for a walk)", level: A2, lesson: a2-25, sources: [ GIU, PEU, OPG, CGEL ] }
-  - { id: phrasal-separable, title: "Separable vs inseparable phrasal verbs", level: B1, lesson: b1-14, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OGEG, OGEAP, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: three-part-phrasal, title: "Three-part phrasal verbs (look forward to, run out of, get on with)", level: B1, lesson: b1-14, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OGEG, OGEAP, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: prepositional-verbs, title: "Prepositional verbs (look after, deal with)", level: B1, lesson: b1-14, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OGEG, OGEAP, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: get-uses, title: "get + adjective, place, object; get to know", level: B1, lesson: b1-15, sources: [ PEU, OPG, OGEG, LGSWE, LSGSWE, CGEL, LALG ] }
-  - { id: delexical-verbs, title: "have / make / do / take / give + noun (have a look, make a decision, take a photo)", level: B1, lesson: b1-16, sources: [ GIU, PEU, OEGC, OPG, OGEG, LGSWE, LSGSWE, LEG, LALG ] }
-  - { id: make-vs-do, title: "make vs do", level: B1, lesson: b1-16, sources: [ GIU, PEU, OPG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: ing-to-meaning-change, title: "-ing or to with a change of meaning: remember, forget, stop, try, regret", level: B1, lesson: b1-33, sources: [ GSE, GIU, PEU, OEGC, OPG, OMEG, OGEG, OGEAP, LGSWE, LSGSWE, LEG, LALG ] }
-  - { id: verb-object-to, title: "verb + object + to (want / ask / tell / expect / allow / advise / persuade somebody to)", level: B1, lesson: b1-34, sources: [ GSE, GIU, PEU, OEGC, OPG, OGEG, OGEAP, LGSWE, LSGSWE, LEG, LALG ] }
-  - { id: make-let-help, title: "make / let / help + object + base form", level: B1, lesson: b1-34, sources: [ GSE, GIU, PEU, OEGC, OPG, OMEG, OGEG, LGSWE, CGEL, LEG, LALG ] }
-  - { id: want-sb-to, title: "want somebody to (not want that)", level: B1, lesson: b1-34, sources: [ GSE, GIU, PEU, OEGC, OPG, OGEG, LGSWE, LSGSWE, LEG, LALG ] }
-  - { id: ing-subject, title: "-ing as subject (Swimming is good for you)", level: B1, lesson: b1-35, aliases: [ "gerund" ], sources: [ GSE, PEU, OEGC, OPG, OMEG, OGEG, LGSWE, LEG, LALG ] }
-  - { id: ing-after-prepositions, title: "-ing after prepositions (good at cooking, before leaving, instead of waiting)", level: B1, lesson: b1-35, sources: [ GSE, GIU, PEU, OEGC, OPG, OMEG, OGEG, LGSWE, LSGSWE, LEG, LALG ] }
-  - { id: perfect-infinitive, title: "Perfect infinitive (to have done)", level: B2, lesson: b2-28, sources: [ GIU, PEU, OEGC, OPG, OMEG, OGEG, OGEAP, LALG ] }
-  - { id: perfect-gerund, title: "Perfect -ing (having done)", level: B2, lesson: b2-28, sources: [ GIU, OEGC, OPG, OGEG, LEG, LALG ] }
-  - { id: same-meaning-verbs, title: "-ing or to with little change in meaning (begin, start, continue, like, love, hate, prefer)", level: B2, lesson: b2-28, sources: [ GIU, PEU, OEGC, OPG, OGEAP, LGSWE, LSGSWE, LEG, LALG ] }
-  - { id: would-like-to-have, title: "would like to have done", level: B2, lesson: b2-28, sources: [ PEU, LALG ] }
-  - { id: perception-base-ing, title: "see / hear / watch / feel + object + base form or -ing", level: B2, lesson: b2-29, sources: [ GIU, PEU, OEGC, OPG, OMEG, OGEG, CGEL, LEG, LALG ] }
-  - { id: prevent-from, title: "prevent / stop / discourage somebody from -ing", level: B2, lesson: b2-29, sources: [ OGEG, LEG ] }
-  - { id: possessive-gerund, title: "Possessive + -ing (I don't mind his / him coming)", level: B2, lesson: b2-29, sources: [ GIU, OEGC, OMEG, OGEG, LGSWE, LSGSWE, LEG, LALG ] }
-  - { id: fixed-ing-expressions, title: "it's no use, there's no point, it's worth, can't help, can't stand, feel like + -ing", level: B2, lesson: b2-30, sources: [ GSE, GIU, PEU, OEGC, OPG, OMEG, OGEG, LGSWE, LSGSWE, LEG, LALG ] }
-  - { id: difficulty-spend, title: "have difficulty / trouble + -ing; spend / waste time + -ing", level: B2, lesson: b2-30, sources: [ PEU, OEGC, OPG, OGEG, LEG, LALG ] }
-  - { id: to-preposition, title: "to as a preposition + -ing (look forward to, object to, be used to)", level: B2, lesson: b2-30, sources: [ GSE, GIU, PEU, OEGC, OGEAP, LGSWE, LEG, LALG ] }
-  - { id: adjective-to, title: "adjective + to (easy to use, glad to help)", level: B2, lesson: b2-31, sources: [ GSE, GIU, PEU, OEGC, OPG, OMEG, OGEG, OGEAP, LGSWE, LSGSWE, LEG ] }
-  - { id: noun-to, title: "noun + to (the decision to, a place to stay, the chance to)", level: B2, lesson: b2-31, sources: [ PEU, OEGC, OPG, OMEG, OGEG, OGEAP, LGSWE, LSGSWE, LEG, LALG ] }
-  - { id: for-object-to, title: "for + object + to (It's important for you to…)", level: B2, lesson: b2-31, sources: [ PEU, OEGC, OPG, OMEG, OGEG, LGSWE, LSGSWE ] }
-  - { id: kind-of-you, title: "It's kind / nice / silly of you to…", level: B2, lesson: b2-31, sources: [ GIU, OGEG, LGSWE, LSGSWE, LEG ] }
-  - { id: object-complement, title: "verb + object + adjective / noun (painted it red, elected him president)", level: C1, lesson: c1-23, sources: [ GSE, GIU, PEU, OEGC, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LALG ] }
-  - { id: find-it-adj, title: "find / consider / make it + adjective + to (I find it hard to…)", level: C1, lesson: c1-23, sources: [ GIU, PEU, OGEG, LGSWE, LSGSWE, CGEL ] }
-  - { id: believe-object-to-be, title: "believe / consider / know + object + to be", level: C1, lesson: c1-23, sources: [ OGEG ] }
-  - { id: object-past-participle, title: "object + past participle (I need this done by 5)", level: C1, lesson: c1-23, sources: [ OMEG, OGEG, LALG ] }
-  - { id: mean-go-on, title: "mean, go on, propose: -ing or to", level: C1, lesson: c1-24, sources: [ GIU, PEU, OPG, OGEG, LGSWE, LSGSWE, LEG, LALG ] }
-  - { id: afraid-sorry-interested, title: "be afraid of / to, be sorry for / to, be interested in / to", level: C1, lesson: c1-24, sources: [ GIU, PEU, OEGC, OPG, OGEG, LGSWE, LSGSWE ] }
-  - { id: like-doing-vs-to, title: "like doing vs like to do", level: C1, lesson: c1-24, sources: [ GIU, PEU, OEGC, OPG, OGEG, LGSWE, LSGSWE, LEG, LALG ] }
+  - {
+      id: like-ing,
+      title: "like / love / hate / enjoy + -ing",
+      level: A1,
+      lesson: a1-24,
+      sources: [ GSE, CI, GIU, PEU, OPG, LGSWE, LSGSWE, LEG, LALG ],
+    }
+  - {
+      id: would-like,
+      title: "would like + noun / to + verb",
+      level: A1,
+      lesson: a1-24,
+      sources: [ GSE, CI, GIU, PEU, OPG ],
+    }
+  - {
+      id: like-vs-would-like,
+      title: "I like vs I'd like",
+      level: A1,
+      lesson: a1-24,
+      sources: [ GIU, OPG ],
+    }
+  - {
+      id: two-objects,
+      title: "Verbs with two objects (give, send, show, tell, buy, lend)",
+      level: A2,
+      lesson: a2-05,
+      sources:
+        [
+          GSE,
+          GIU,
+          PEU,
+          OEGC,
+          OPG,
+          OMEG,
+          OGEG,
+          LGSWE,
+          LSGSWE,
+          CGEL,
+          LEG,
+          LALG,
+        ],
+    }
+  - {
+      id: two-objects-to-for,
+      title: "give it to me / buy it for me (word order with pronouns)",
+      level: A2,
+      lesson: a2-05,
+      sources:
+        [ GSE, GIU, PEU, OEGC, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LEG ],
+    }
+  - {
+      id: linking-verbs,
+      title: "Linking verbs + adjective (look, feel, sound, taste, smell, seem, become, get)",
+      level: A2,
+      lesson: a2-17,
+      sources:
+        [ GSE, GIU, PEU, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ],
+    }
+  - {
+      id: look-like,
+      title: "look like / sound like + noun; look as if",
+      level: A2,
+      lesson: a2-17,
+      sources: [ GSE, GIU, PEU, LGSWE, LSGSWE, LEG ],
+    }
+  - {
+      id: phrasal-verbs-intro,
+      title: "Phrasal verbs: verb + particle (get up, turn on)",
+      level: A2,
+      lesson: a2-18,
+      sources:
+        [
+          GSE,
+          CI,
+          GIU,
+          PEU,
+          OEGC,
+          OPG,
+          OMEG,
+          OGEG,
+          OGEAP,
+          LGSWE,
+          LSGSWE,
+          CGEL,
+          LEG,
+          LALG,
+        ],
+    }
+  - {
+      id: phrasal-pronoun-position,
+      title: "Object pronoun position (turn it on, not turn on it)",
+      level: A2,
+      lesson: a2-18,
+      sources: [ GSE, CI, GIU, PEU, OPG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ],
+    }
+  - {
+      id: verb-to,
+      title: "Verbs + to-infinitive (want, decide, hope, plan, need, agree, refuse, promise)",
+      level: A2,
+      lesson: a2-24,
+      sources:
+        [
+          GSE,
+          CI,
+          GIU,
+          PEU,
+          OEGC,
+          OPG,
+          OMEG,
+          OGEG,
+          OGEAP,
+          LGSWE,
+          LSGSWE,
+          CGEL,
+          LEG,
+          LALG,
+        ],
+    }
+  - {
+      id: verb-ing,
+      title: "Verbs + -ing (enjoy, finish, mind, avoid, practice, keep)",
+      level: A2,
+      lesson: a2-24,
+      sources:
+        [
+          GSE,
+          CI,
+          GIU,
+          PEU,
+          OEGC,
+          OPG,
+          OMEG,
+          OGEG,
+          OGEAP,
+          LGSWE,
+          LSGSWE,
+          LEG,
+          LALG,
+        ],
+    }
+  - {
+      id: go-ing,
+      title: "go + -ing (go swimming, go shopping)",
+      level: A2,
+      lesson: a2-24,
+      sources: [ PEU, OEGC, OPG, OGEG, LEG ],
+    }
+  - {
+      id: infinitive-purpose,
+      title: "to + verb for purpose (I came here to study)",
+      level: A2,
+      lesson: a2-25,
+      sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, OGEG, CGEL, LEG, LALG ],
+    }
+  - {
+      id: for-noun-purpose,
+      title: "for + noun for purpose (I went out for a walk)",
+      level: A2,
+      lesson: a2-25,
+      sources: [ GIU, PEU, OPG, CGEL ],
+    }
+  - {
+      id: phrasal-separable,
+      title: "Separable vs inseparable phrasal verbs",
+      level: B1,
+      lesson: b1-14,
+      sources:
+        [
+          GSE,
+          CI,
+          GIU,
+          PEU,
+          OEGC,
+          OPG,
+          OGEG,
+          OGEAP,
+          LGSWE,
+          LSGSWE,
+          CGEL,
+          LEG,
+          LALG,
+        ],
+    }
+  - {
+      id: three-part-phrasal,
+      title: "Three-part phrasal verbs (look forward to, run out of, get on with)",
+      level: B1,
+      lesson: b1-14,
+      sources:
+        [
+          GSE,
+          CI,
+          GIU,
+          PEU,
+          OEGC,
+          OPG,
+          OGEG,
+          OGEAP,
+          LGSWE,
+          LSGSWE,
+          CGEL,
+          LEG,
+          LALG,
+        ],
+    }
+  - {
+      id: prepositional-verbs,
+      title: "Prepositional verbs (look after, deal with)",
+      level: B1,
+      lesson: b1-14,
+      sources:
+        [
+          GSE,
+          CI,
+          GIU,
+          PEU,
+          OEGC,
+          OPG,
+          OGEG,
+          OGEAP,
+          LGSWE,
+          LSGSWE,
+          CGEL,
+          LEG,
+          LALG,
+        ],
+    }
+  - {
+      id: get-uses,
+      title: "get + adjective, place, object; get to know",
+      level: B1,
+      lesson: b1-15,
+      sources: [ PEU, OPG, OGEG, LGSWE, LSGSWE, CGEL, LALG ],
+    }
+  - {
+      id: delexical-verbs,
+      title: "have / make / do / take / give + noun (have a look, make a decision, take a photo)",
+      level: B1,
+      lesson: b1-16,
+      sources: [ GIU, PEU, OEGC, OPG, OGEG, LGSWE, LSGSWE, LEG, LALG ],
+    }
+  - {
+      id: make-vs-do,
+      title: "make vs do",
+      level: B1,
+      lesson: b1-16,
+      sources: [ GIU, PEU, OPG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ],
+    }
+  - {
+      id: ing-to-meaning-change,
+      title: "-ing or to with a change of meaning: remember, forget, stop, try, regret",
+      level: B1,
+      lesson: b1-33,
+      sources:
+        [
+          GSE,
+          GIU,
+          PEU,
+          OEGC,
+          OPG,
+          OMEG,
+          OGEG,
+          OGEAP,
+          LGSWE,
+          LSGSWE,
+          LEG,
+          LALG,
+        ],
+    }
+  - {
+      id: verb-object-to,
+      title: "verb + object + to (want / ask / tell / expect / allow / advise / persuade somebody to)",
+      level: B1,
+      lesson: b1-34,
+      sources:
+        [ GSE, GIU, PEU, OEGC, OPG, OGEG, OGEAP, LGSWE, LSGSWE, LEG, LALG ],
+    }
+  - {
+      id: make-let-help,
+      title: "make / let / help + object + base form",
+      level: B1,
+      lesson: b1-34,
+      sources: [ GSE, GIU, PEU, OEGC, OPG, OMEG, OGEG, LGSWE, CGEL, LEG, LALG ],
+    }
+  - {
+      id: want-sb-to,
+      title: "want somebody to (not want that)",
+      level: B1,
+      lesson: b1-34,
+      sources: [ GSE, GIU, PEU, OEGC, OPG, OGEG, LGSWE, LSGSWE, LEG, LALG ],
+    }
+  - {
+      id: ing-subject,
+      title: "-ing as subject (Swimming is good for you)",
+      level: B1,
+      lesson: b1-35,
+      aliases: [ "gerund" ],
+      sources: [ GSE, PEU, OEGC, OPG, OMEG, OGEG, LGSWE, LEG, LALG ],
+    }
+  - {
+      id: ing-after-prepositions,
+      title: "-ing after prepositions (good at cooking, before leaving, instead of waiting)",
+      level: B1,
+      lesson: b1-35,
+      sources:
+        [ GSE, GIU, PEU, OEGC, OPG, OMEG, OGEG, LGSWE, LSGSWE, LEG, LALG ],
+    }
+  - {
+      id: perfect-infinitive,
+      title: "Perfect infinitive (to have done)",
+      level: B2,
+      lesson: b2-28,
+      sources: [ GIU, PEU, OEGC, OPG, OMEG, OGEG, OGEAP, LALG ],
+    }
+  - {
+      id: perfect-gerund,
+      title: "Perfect -ing (having done)",
+      level: B2,
+      lesson: b2-28,
+      sources: [ GIU, OEGC, OPG, OGEG, LEG, LALG ],
+    }
+  - {
+      id: same-meaning-verbs,
+      title: "-ing or to with little change in meaning (begin, start, continue, like, love, hate, prefer)",
+      level: B2,
+      lesson: b2-28,
+      sources: [ GIU, PEU, OEGC, OPG, OGEAP, LGSWE, LSGSWE, LEG, LALG ],
+    }
+  - {
+      id: would-like-to-have,
+      title: "would like to have done",
+      level: B2,
+      lesson: b2-28,
+      sources: [ PEU, LALG ],
+    }
+  - {
+      id: perception-base-ing,
+      title: "see / hear / watch / feel + object + base form or -ing",
+      level: B2,
+      lesson: b2-29,
+      sources: [ GIU, PEU, OEGC, OPG, OMEG, OGEG, CGEL, LEG, LALG ],
+    }
+  - {
+      id: prevent-from,
+      title: "prevent / stop / discourage somebody from -ing",
+      level: B2,
+      lesson: b2-29,
+      sources: [ OGEG, LEG ],
+    }
+  - {
+      id: possessive-gerund,
+      title: "Possessive + -ing (I don't mind his / him coming)",
+      level: B2,
+      lesson: b2-29,
+      sources: [ GIU, OEGC, OMEG, OGEG, LGSWE, LSGSWE, LEG, LALG ],
+    }
+  - {
+      id: fixed-ing-expressions,
+      title: "it's no use, there's no point, it's worth, can't help, can't stand, feel like + -ing",
+      level: B2,
+      lesson: b2-30,
+      sources:
+        [ GSE, GIU, PEU, OEGC, OPG, OMEG, OGEG, LGSWE, LSGSWE, LEG, LALG ],
+    }
+  - {
+      id: difficulty-spend,
+      title: "have difficulty / trouble + -ing; spend / waste time + -ing",
+      level: B2,
+      lesson: b2-30,
+      sources: [ PEU, OEGC, OPG, OGEG, LEG, LALG ],
+    }
+  - {
+      id: to-preposition,
+      title: "to as a preposition + -ing (look forward to, object to, be used to)",
+      level: B2,
+      lesson: b2-30,
+      sources: [ GSE, GIU, PEU, OEGC, OGEAP, LGSWE, LEG, LALG ],
+    }
+  - {
+      id: adjective-to,
+      title: "adjective + to (easy to use, glad to help)",
+      level: B2,
+      lesson: b2-31,
+      sources:
+        [ GSE, GIU, PEU, OEGC, OPG, OMEG, OGEG, OGEAP, LGSWE, LSGSWE, LEG ],
+    }
+  - {
+      id: noun-to,
+      title: "noun + to (the decision to, a place to stay, the chance to)",
+      level: B2,
+      lesson: b2-31,
+      sources: [ PEU, OEGC, OPG, OMEG, OGEG, OGEAP, LGSWE, LSGSWE, LEG, LALG ],
+    }
+  - {
+      id: for-object-to,
+      title: "for + object + to (It's important for you to…)",
+      level: B2,
+      lesson: b2-31,
+      sources: [ PEU, OEGC, OPG, OMEG, OGEG, LGSWE, LSGSWE ],
+    }
+  - {
+      id: kind-of-you,
+      title: "It's kind / nice / silly of you to…",
+      level: B2,
+      lesson: b2-31,
+      sources: [ GIU, OGEG, LGSWE, LSGSWE, LEG ],
+    }
+  - {
+      id: object-complement,
+      title: "verb + object + adjective / noun (painted it red, elected him president)",
+      level: C1,
+      lesson: c1-23,
+      sources: [ GSE, GIU, PEU, OEGC, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LALG ],
+    }
+  - {
+      id: find-it-adj,
+      title: "find / consider / make it + adjective + to (I find it hard to…)",
+      level: C1,
+      lesson: c1-23,
+      sources: [ GIU, PEU, OGEG, LGSWE, LSGSWE, CGEL ],
+    }
+  - {
+      id: believe-object-to-be,
+      title: "believe / consider / know + object + to be",
+      level: C1,
+      lesson: c1-23,
+      sources: [ OGEG ],
+    }
+  - {
+      id: object-past-participle,
+      title: "object + past participle (I need this done by 5)",
+      level: C1,
+      lesson: c1-23,
+      sources: [ OMEG, OGEG, LALG ],
+    }
+  - {
+      id: mean-go-on,
+      title: "mean, go on, propose: -ing or to",
+      level: C1,
+      lesson: c1-24,
+      sources: [ GIU, PEU, OPG, OGEG, LGSWE, LSGSWE, LEG, LALG ],
+    }
+  - {
+      id: afraid-sorry-interested,
+      title: "be afraid of / to, be sorry for / to, be interested in / to",
+      level: C1,
+      lesson: c1-24,
+      sources: [ GIU, PEU, OEGC, OPG, OGEG, LGSWE, LSGSWE ],
+    }
+  - {
+      id: like-doing-vs-to,
+      title: "like doing vs like to do",
+      level: C1,
+      lesson: c1-24,
+      sources: [ GIU, PEU, OEGC, OPG, OGEG, LGSWE, LSGSWE, LEG, LALG ],
+    }
   # added from the reference audit
-  - { id: ing-complement, title: "-ing after be (My hobby is swimming; The best thing is walking)", level: B1, lesson: b1-35, sources: [ GSE, OGEG ] }
-  - { id: for-ing-purpose, title: "for + -ing for what a thing is for (a knife for cutting bread)", level: A2, lesson: a2-25, sources: [ GSE, OGEG ] }
-  - { id: not-ing, title: "not + -ing (I hate not knowing; He apologized for not calling)", level: B1, lesson: b1-35, sources: [ GSE, OGEG ] }
-  - { id: confusing-verb-pairs, title: "Easily confused verb pairs: borrow / lend, bring / take, rise / raise, lie / lay", level: B1, lesson: b1-16, sources: [ LALG ] }
-  - { id: pseudo-coordination, title: "go / come / try and + verb; nice and warm (go and see, try and come)", level: B1, lesson: b1-34, sources: [ PEU, LGSWE, CGEL ] }
-  - { id: to-clause-complement, title: "to-infinitive after be (My aim is to win; The best thing is to wait)", level: B1, lesson: b1-33, sources: [ OMEG, OGEG, LGSWE, LSGSWE ] }
-  - { id: continuous-infinitive, title: "Continuous infinitive (to be sitting; She seems to be working)", level: B2, lesson: b2-28, sources: [ OEGC, OGEG ] }
-  - { id: movement-particles, title: "Verbs of movement with adverb particles (She ran in; He walked off)", level: B1, lesson: b1-14, sources: [ PEU, OGEG ] }
+  - {
+      id: ing-complement,
+      title: "-ing after be (My hobby is swimming; The best thing is walking)",
+      level: B1,
+      lesson: b1-35,
+      sources: [ GSE, OGEG ],
+    }
+  - {
+      id: for-ing-purpose,
+      title: "for + -ing for what a thing is for (a knife for cutting bread)",
+      level: A2,
+      lesson: a2-25,
+      sources: [ GSE, OGEG ],
+    }
+  - {
+      id: not-ing,
+      title: "not + -ing (I hate not knowing; He apologized for not calling)",
+      level: B1,
+      lesson: b1-35,
+      sources: [ GSE, OGEG ],
+    }
+  - {
+      id: confusing-verb-pairs,
+      title: "Easily confused verb pairs: borrow / lend, bring / take, rise / raise, lie / lay",
+      level: B1,
+      lesson: b1-16,
+      sources: [ LALG ],
+    }
+  - {
+      id: pseudo-coordination,
+      title: "go / come / try and + verb; nice and warm (go and see, try and come)",
+      level: B1,
+      lesson: b1-34,
+      sources: [ PEU, LGSWE, CGEL ],
+    }
+  - {
+      id: to-clause-complement,
+      title: "to-infinitive after be (My aim is to win; The best thing is to wait)",
+      level: B1,
+      lesson: b1-33,
+      sources: [ OMEG, OGEG, LGSWE, LSGSWE ],
+    }
+  - {
+      id: continuous-infinitive,
+      title: "Continuous infinitive (to be sitting; She seems to be working)",
+      level: B2,
+      lesson: b2-28,
+      sources: [ OEGC, OGEG ],
+    }
+  - {
+      id: movement-particles,
+      title: "Verbs of movement with adverb particles (She ran in; He walked off)",
+      level: B1,
+      lesson: b1-14,
+      sources: [ PEU, OGEG ],
+    }

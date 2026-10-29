@@ -1,0 +1,26 @@
+---
+// A link styled with the shadcn button variants (for static Astro pages).
+import { buttonVariants } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
+
+interface Props {
+  class?: string;
+  href: string;
+  size?: "default" | "sm" | "lg" | "xs";
+  variant?: "default" | "outline" | "secondary" | "ghost" | "link";
+}
+
+const {
+  href,
+  variant = "default",
+  size = "default",
+  class: className,
+} = Astro.props;
+---
+
+<a
+  class={cn(buttonVariants({ size, variant }), className)}
+  data-slot="button"
+  href={href}
+  >{Astro.slots.has("default") && <slot />}</a
+>

@@ -1,37 +1,276 @@
 pillar: voice
 points:
-  - { id: passive-form, title: "Passive: be + past participle", level: B1, lesson: b1-21, aliases: [ "passive voice" ], sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, OGEG, OGEAP, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: passive-present-past, title: "Present simple and past simple passive", level: B1, lesson: b1-21, sources: [ EGP, GSE, CI, GIU, PEU, OEGC, OPG, OGEG, LEG, LALG ] }
-  - { id: passive-by, title: "by + agent (and when to leave it out)", level: B1, lesson: b1-21, sources: [ GSE, GIU, PEU, OEGC, OPG, OGEG, LGSWE, CGEL, LEG, LALG ] }
-  - { id: passive-why, title: "Why use the passive (focus, unknown or unimportant agent)", level: B1, lesson: b1-21, sources: [ GIU, PEU, OEGC, OPG, OMEG, OGEG, OGEAP, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: passive-perfect, title: "Present perfect passive (has been done)", level: B1, lesson: b1-22, sources: [ GSE, CI, GIU, PEU, OPG, OGEG, OGEAP, LGSWE, LSGSWE, LEG, LALG ] }
-  - { id: passive-future, title: "Future passive (will be done)", level: B1, lesson: b1-22, sources: [ GSE, GIU, PEU, OPG, OGEG, LEG, LALG ] }
-  - { id: passive-modal, title: "Modal passive (can / must / should be done)", level: B1, lesson: b1-22, sources: [ CI, GIU, PEU, OPG, OGEG, OGEAP, LGSWE, LEG, LALG ] }
-  - { id: ergative-verbs, title: "Ergative verbs (The door opened / I opened the door)", level: B2, lesson: b2-08, sources: [ PEU, OPG, OGEG, CGEL ] }
-  - { id: middle-voice, title: "Middle voice (This book sells well; The shirt washes easily)", level: B2, lesson: b2-08, sources: [ PEU, OPG, OGEG, CGEL ] }
-  - { id: not-reflexive-in-english, title: "Verbs not reflexive in English (relax, feel, meet, concentrate)", level: B2, lesson: b2-08, sources: [ CGEL, LALG ] }
-  - { id: reciprocal-verbs, title: "Reciprocal verbs without each other (meet, marry, fight)", level: B2, lesson: b2-08, sources: [ LGSWE, CGEL, LALG ] }
-  - { id: passive-continuous, title: "Continuous passives (is being done, was being done)", level: B2, lesson: b2-13, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OGEG, OGEAP, LGSWE, LSGSWE, LEG, LALG ] }
-  - { id: passive-infinitive-gerund, title: "Passive infinitive and -ing (to be done, being done)", level: B2, lesson: b2-13, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OGEG, LALG ] }
-  - { id: passive-two-objects, title: "Passive with two objects (I was given a book / A book was given to me)", level: B2, lesson: b2-13, sources: [ GSE, GIU, PEU, OEGC, OPG, OGEG, LEG ] }
-  - { id: passive-phrasal, title: "Passive with phrasal and prepositional verbs (was looked after, was laughed at)", level: B2, lesson: b2-14, sources: [ GIU, PEU, OEGC, OPG, OGEAP, CGEL, LEG ] }
-  - { id: get-passive, title: "get-passive (He got arrested)", level: B2, lesson: b2-14, sources: [ GSE, GIU, PEU, OEGC, OPG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: needs-doing, title: "need + -ing with passive meaning (The car needs washing)", level: B2, lesson: b2-14, sources: [ GSE, GIU, PEU, OPG, OGEG, CGEL ] }
-  - { id: have-something-done, title: "have / get something done", level: B2, lesson: b2-15, aliases: [ "causative" ], sources: [ GSE, GIU, PEU, OEGC, OPG, OMEG, OGEG, LEG, LALG ] }
-  - { id: have-sb-do, title: "have somebody do / get somebody to do", level: B2, lesson: b2-15, sources: [ GSE, PEU, OEGC, OMEG, OGEG, LEG, LALG ] }
-  - { id: make-sb-do, title: "make somebody do", level: B2, lesson: b2-15, sources: [ GSE, PEU, OEGC, OGEG, LEG ] }
-  - { id: causative-experience, title: "have something done for bad experiences (I had my phone stolen)", level: B2, lesson: b2-15, sources: [ GIU, PEU, OPG, OGEG, LEG, LALG ] }
-  - { id: impersonal-it-said, title: "It is said / believed / thought that…", level: B2, lesson: b2-16, sources: [ GSE, GIU, PEU, OPG, OGEG, LGSWE, LEG ] }
-  - { id: personal-said-to, title: "He is said / believed / thought to be…", level: B2, lesson: b2-16, sources: [ GSE, GIU, PEU, OPG, OGEG, LEG, LALG ] }
-  - { id: impersonal-passive-full, title: "Impersonal passive with perfect and continuous infinitives (He is thought to have left)", level: C1, lesson: c1-12, sources: [ GIU, PEU, OEGC, OGEAP ] }
-  - { id: there-said-to-be, title: "There is said to be…", level: C1, lesson: c1-12, sources: [ GIU, OGEG, LGSWE, LSGSWE, CGEL, LALG ] }
-  - { id: reporting-passive-verbs, title: "Reporting verbs in the passive (allege, claim, consider, expect, know, report, understand)", level: C1, lesson: c1-12, sources: [ GIU, OGEG, OGEAP ] }
-  - { id: perception-passive, title: "Passive of perception verbs (He was seen to leave / leaving)", level: C1, lesson: c1-13, sources: [ GIU, PEU, OEGC, OMEG, OGEG ] }
-  - { id: made-to, title: "be made to do", level: C1, lesson: c1-13, sources: [ GIU, PEU, OMEG, OGEG ] }
-  - { id: stative-dynamic-passive, title: "Stative vs dynamic passive (The door was closed)", level: C1, lesson: c1-13, sources: [ GIU, PEU, OEGC, CGEL ] }
-  - { id: choosing-voice, title: "Choosing active or passive for flow and focus", level: C1, lesson: c1-13, sources: [ GIU, PEU, OEGC, OPG, OMEG, OGEG, OGEAP, LGSWE, LALG ] }
-  - { id: complex-passive-infinitive, title: "Complex passive infinitives (is said to have been doing)", level: C2, lesson: c2-07, sources: [ GIU, OGEG, LALG ] }
-  - { id: agency-news-academic, title: "Agency and the passive in news and academic writing", level: C2, lesson: c2-07, sources: [ GIU, OPG, OGEAP, LGSWE, LALG ] }
-  - { id: passive-weakens, title: "When the passive weakens your writing", level: C2, lesson: c2-07, sources: [ PEU, OPG, LALG ] }
+  - {
+      id: passive-form,
+      title: "Passive: be + past participle",
+      level: B1,
+      lesson: b1-21,
+      aliases: [ "passive voice" ],
+      sources:
+        [
+          GSE,
+          CI,
+          GIU,
+          PEU,
+          OEGC,
+          OPG,
+          OMEG,
+          OGEG,
+          OGEAP,
+          LGSWE,
+          LSGSWE,
+          CGEL,
+          LEG,
+          LALG,
+        ],
+    }
+  - {
+      id: passive-present-past,
+      title: "Present simple and past simple passive",
+      level: B1,
+      lesson: b1-21,
+      sources: [ EGP, GSE, CI, GIU, PEU, OEGC, OPG, OGEG, LEG, LALG ],
+    }
+  - {
+      id: passive-by,
+      title: "by + agent (and when to leave it out)",
+      level: B1,
+      lesson: b1-21,
+      sources: [ GSE, GIU, PEU, OEGC, OPG, OGEG, LGSWE, CGEL, LEG, LALG ],
+    }
+  - {
+      id: passive-why,
+      title: "Why use the passive (focus, unknown or unimportant agent)",
+      level: B1,
+      lesson: b1-21,
+      sources:
+        [
+          GIU,
+          PEU,
+          OEGC,
+          OPG,
+          OMEG,
+          OGEG,
+          OGEAP,
+          LGSWE,
+          LSGSWE,
+          CGEL,
+          LEG,
+          LALG,
+        ],
+    }
+  - {
+      id: passive-perfect,
+      title: "Present perfect passive (has been done)",
+      level: B1,
+      lesson: b1-22,
+      sources:
+        [ GSE, CI, GIU, PEU, OPG, OGEG, OGEAP, LGSWE, LSGSWE, LEG, LALG ],
+    }
+  - {
+      id: passive-future,
+      title: "Future passive (will be done)",
+      level: B1,
+      lesson: b1-22,
+      sources: [ GSE, GIU, PEU, OPG, OGEG, LEG, LALG ],
+    }
+  - {
+      id: passive-modal,
+      title: "Modal passive (can / must / should be done)",
+      level: B1,
+      lesson: b1-22,
+      sources: [ CI, GIU, PEU, OPG, OGEG, OGEAP, LGSWE, LEG, LALG ],
+    }
+  - {
+      id: ergative-verbs,
+      title: "Ergative verbs (The door opened / I opened the door)",
+      level: B2,
+      lesson: b2-08,
+      sources: [ PEU, OPG, OGEG, CGEL ],
+    }
+  - {
+      id: middle-voice,
+      title: "Middle voice (This book sells well; The shirt washes easily)",
+      level: B2,
+      lesson: b2-08,
+      sources: [ PEU, OPG, OGEG, CGEL ],
+    }
+  - {
+      id: not-reflexive-in-english,
+      title: "Verbs not reflexive in English (relax, feel, meet, concentrate)",
+      level: B2,
+      lesson: b2-08,
+      sources: [ CGEL, LALG ],
+    }
+  - {
+      id: reciprocal-verbs,
+      title: "Reciprocal verbs without each other (meet, marry, fight)",
+      level: B2,
+      lesson: b2-08,
+      sources: [ LGSWE, CGEL, LALG ],
+    }
+  - {
+      id: passive-continuous,
+      title: "Continuous passives (is being done, was being done)",
+      level: B2,
+      lesson: b2-13,
+      sources:
+        [ GSE, CI, GIU, PEU, OEGC, OPG, OGEG, OGEAP, LGSWE, LSGSWE, LEG, LALG ],
+    }
+  - {
+      id: passive-infinitive-gerund,
+      title: "Passive infinitive and -ing (to be done, being done)",
+      level: B2,
+      lesson: b2-13,
+      sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OGEG, LALG ],
+    }
+  - {
+      id: passive-two-objects,
+      title: "Passive with two objects (I was given a book / A book was given to me)",
+      level: B2,
+      lesson: b2-13,
+      sources: [ GSE, GIU, PEU, OEGC, OPG, OGEG, LEG ],
+    }
+  - {
+      id: passive-phrasal,
+      title: "Passive with phrasal and prepositional verbs (was looked after, was laughed at)",
+      level: B2,
+      lesson: b2-14,
+      sources: [ GIU, PEU, OEGC, OPG, OGEAP, CGEL, LEG ],
+    }
+  - {
+      id: get-passive,
+      title: "get-passive (He got arrested)",
+      level: B2,
+      lesson: b2-14,
+      sources:
+        [ GSE, GIU, PEU, OEGC, OPG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ],
+    }
+  - {
+      id: needs-doing,
+      title: "need + -ing with passive meaning (The car needs washing)",
+      level: B2,
+      lesson: b2-14,
+      sources: [ GSE, GIU, PEU, OPG, OGEG, CGEL ],
+    }
+  - {
+      id: have-something-done,
+      title: "have / get something done",
+      level: B2,
+      lesson: b2-15,
+      aliases: [ "causative" ],
+      sources: [ GSE, GIU, PEU, OEGC, OPG, OMEG, OGEG, LEG, LALG ],
+    }
+  - {
+      id: have-sb-do,
+      title: "have somebody do / get somebody to do",
+      level: B2,
+      lesson: b2-15,
+      sources: [ GSE, PEU, OEGC, OMEG, OGEG, LEG, LALG ],
+    }
+  - {
+      id: make-sb-do,
+      title: "make somebody do",
+      level: B2,
+      lesson: b2-15,
+      sources: [ GSE, PEU, OEGC, OGEG, LEG ],
+    }
+  - {
+      id: causative-experience,
+      title: "have something done for bad experiences (I had my phone stolen)",
+      level: B2,
+      lesson: b2-15,
+      sources: [ GIU, PEU, OPG, OGEG, LEG, LALG ],
+    }
+  - {
+      id: impersonal-it-said,
+      title: "It is said / believed / thought that…",
+      level: B2,
+      lesson: b2-16,
+      sources: [ GSE, GIU, PEU, OPG, OGEG, LGSWE, LEG ],
+    }
+  - {
+      id: personal-said-to,
+      title: "He is said / believed / thought to be…",
+      level: B2,
+      lesson: b2-16,
+      sources: [ GSE, GIU, PEU, OPG, OGEG, LEG, LALG ],
+    }
+  - {
+      id: impersonal-passive-full,
+      title: "Impersonal passive with perfect and continuous infinitives (He is thought to have left)",
+      level: C1,
+      lesson: c1-12,
+      sources: [ GIU, PEU, OEGC, OGEAP ],
+    }
+  - {
+      id: there-said-to-be,
+      title: "There is said to be…",
+      level: C1,
+      lesson: c1-12,
+      sources: [ GIU, OGEG, LGSWE, LSGSWE, CGEL, LALG ],
+    }
+  - {
+      id: reporting-passive-verbs,
+      title: "Reporting verbs in the passive (allege, claim, consider, expect, know, report, understand)",
+      level: C1,
+      lesson: c1-12,
+      sources: [ GIU, OGEG, OGEAP ],
+    }
+  - {
+      id: perception-passive,
+      title: "Passive of perception verbs (He was seen to leave / leaving)",
+      level: C1,
+      lesson: c1-13,
+      sources: [ GIU, PEU, OEGC, OMEG, OGEG ],
+    }
+  - {
+      id: made-to,
+      title: "be made to do",
+      level: C1,
+      lesson: c1-13,
+      sources: [ GIU, PEU, OMEG, OGEG ],
+    }
+  - {
+      id: stative-dynamic-passive,
+      title: "Stative vs dynamic passive (The door was closed)",
+      level: C1,
+      lesson: c1-13,
+      sources: [ GIU, PEU, OEGC, CGEL ],
+    }
+  - {
+      id: choosing-voice,
+      title: "Choosing active or passive for flow and focus",
+      level: C1,
+      lesson: c1-13,
+      sources: [ GIU, PEU, OEGC, OPG, OMEG, OGEG, OGEAP, LGSWE, LALG ],
+    }
+  - {
+      id: complex-passive-infinitive,
+      title: "Complex passive infinitives (is said to have been doing)",
+      level: C2,
+      lesson: c2-07,
+      sources: [ GIU, OGEG, LALG ],
+    }
+  - {
+      id: agency-news-academic,
+      title: "Agency and the passive in news and academic writing",
+      level: C2,
+      lesson: c2-07,
+      sources: [ GIU, OPG, OGEAP, LGSWE, LALG ],
+    }
+  - {
+      id: passive-weakens,
+      title: "When the passive weakens your writing",
+      level: C2,
+      lesson: c2-07,
+      sources: [ PEU, OPG, LALG ],
+    }
   # added from the reference audit
-  - { id: passive-object-complement, title: "Passive with an object complement (He was considered a genius; She was elected captain)", level: C1, lesson: c1-13, sources: [ PEU ] }
+  - {
+      id: passive-object-complement,
+      title: "Passive with an object complement (He was considered a genius; She was elected captain)",
+      level: C1,
+      lesson: c1-13,
+      sources: [ PEU ],
+    }

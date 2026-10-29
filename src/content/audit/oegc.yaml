@@ -9,344 +9,1827 @@ retrieved_from:
 verified: partial
 note: "Advanced (prefix A-): full 'list of topics' (Sections 1-17 plus Part 2 'grammar beyond the sentence'), 2011 edition (ISBN 9780194313919 / 9780194420785 contents PDFs). Intermediate (prefix I-): the 'list of units' pages of an OUP Intermediate student sample (PDF metadata 2020, Updated Edition); the text layer is partly garbled, so Section 2 (present tenses, only the spelling/progressive/non-progressive items were legible), Section 8 (questions and negatives) and Section 10 (various structures with verbs) lists are incomplete, and Section 22 (spoken grammar) heading was reconstructed from its unit titles. Basic: NOT retrieved (the fdslive contents PDFs for the Basic ISBNs only contain the front-matter page numbers, not the unit list; flipbook/Scribd/dokumen.pub mirrors were blocked; archive.org holds no readable text). The OPG Basic audit covers the same A1-A2 ground. Items are unit/topic titles; they were not checked against the 2019 Updated Edition pages, which may differ slightly. 'Revise the basics' and 'more practice' / 'revision test' pages are not itemised."
 items:
-  - { ref: "I-S1.1", item: "Intermediate S1 be and have: revise the basics: be and have", maps: [ be-present-forms, was-were, have-possession ] }
-  - { ref: "I-S1.2", item: "Intermediate S1: revise the basics: there is/was etc", maps: [ there-is-are, there-was-were ] }
-  - { ref: "I-S1.3", item: "Intermediate S1: more about there is (There seems to be a delay)", maps: [ there-seems, there-tenses ] }
-  - { ref: "I-S1.4", item: "Intermediate S1: have with got and do (We haven't got / don't have time)", maps: [ have-got, have-questions ] }
-  - { ref: "I-S1.5", item: "Intermediate S1: habitual and repeated actions (Do you often have colds?)", maps: [ have-questions, present-simple-uses ] }
-  - { ref: "I-S1.6", item: "Intermediate S1: have for actions (I'm going to have a swim)", maps: [ have-actions ] }
-  - { ref: "I-S2.1", item: "Intermediate S2 present tenses: revise the basics: which present tense?", maps: [ simple-vs-continuous, present-simple-uses, present-continuous-now ] }
-  - { ref: "I-S2.2", item: "Intermediate S2: revise the basics: spelling", maps: [ third-person-spelling, ing-spelling ] }
-  - { ref: "I-S2.3", item: "Intermediate S2: present progressive for changes (Prices are going up)", maps: [ changing-situations ] }
-  - { ref: "I-S2.4", item: "Intermediate S2: simple present: instructions etc (You take the first left)", maps: [ notes-instructions, historic-present ] }
-  - { ref: "I-S2.5", item: "Intermediate S2: non-progressive verbs (I remember his face)", maps: [ stative-verbs, stative-dynamic-meanings ] }
-  - { ref: "I-S3.1", item: "Intermediate S3 talking about the future: revise the basics: going to; present progressive for future; will-future; will in decisions, promises", maps: [ going-to-plans, going-to-evidence, present-continuous-future, will-predictions, will-decisions ] }
-  - { ref: "I-S3.2", item: "Intermediate S3: which future? will, going to or present progressive?", maps: [ futures-compared, which-future-intro ] }
-  - { ref: "I-S3.3", item: "Intermediate S3: simple present (My credit card expires at midnight)", maps: [ present-simple-timetable ] }
-  - { ref: "I-S3.4", item: "Intermediate S3: future progressive (This time tomorrow I'll be skiing)", maps: [ future-continuous-intro, future-continuous-full ] }
-  - { ref: "I-S3.5", item: "Intermediate S3: be + infinitive (You're to do your homework)", maps: [ be-to-infinitive ] }
-  - { ref: "I-S3.6", item: "Intermediate S3: future in the past (I was going to ring you yesterday)", maps: [ future-in-past, was-going-to ] }
-  - { ref: "I-S3.7", item: "Intermediate S3: future perfect (He'll have finished the roof by Saturday)", maps: [ future-perfect ] }
-  - { ref: "I-S4.1", item: "Intermediate S4 past tenses: revise the basics: simple past forms", maps: [ past-simple-regular, past-simple-irregular, ed-spelling, did-negative-questions ] }
-  - { ref: "I-S4.2", item: "Intermediate S4: revise the basics: which past tense?", maps: [ past-simple-vs-continuous, past-continuous ] }
-  - { ref: "I-S4.3", item: "Intermediate S4: more about past tenses", maps: [ past-continuous-background, storytelling-past ] }
-  - { ref: "I-S4.4", item: "Intermediate S4: past tenses in requests etc (I wondered if you were free)", maps: [ distancing-past ] }
-  - { ref: "I-S5.1", item: "Intermediate S5 perfect tenses: revise the basics: present perfect forms and use", maps: [ present-perfect-form, present-perfect-experience ] }
-  - { ref: "I-S5.2", item: "Intermediate S5: revise the basics: present perfect or simple past?", maps: [ pp-vs-past ] }
-  - { ref: "I-S5.3", item: "Intermediate S5: revise the basics: tenses with time words", maps: [ past-time-expressions, for-since ] }
-  - { ref: "I-S5.4", item: "Intermediate S5: revise the basics: already, yet and just", maps: [ just-already-yet ] }
-  - { ref: "I-S5.5", item: "Intermediate S5: finished time or up to now? (this morning; at school)", maps: [ finished-time-trap, pp-vs-past ] }
-  - { ref: "I-S5.6", item: "Intermediate S5: news (We've found oil in the garden!) and news and details", maps: [ present-perfect-recent, news-perfect-past ] }
-  - { ref: "I-S5.7", item: "Intermediate S5: revise the basics: present perfect progressive; since, for", maps: [ ppc-form, ppc-duration, for-since ] }
-  - { ref: "I-S5.8", item: "Intermediate S5: present perfect or present perfect progressive?", maps: [ ppc-vs-pp ] }
-  - { ref: "I-S5.9", item: "Intermediate S5: simple past and present perfect summary", maps: [ pp-vs-past ] }
-  - { ref: "I-S5.10", item: "Intermediate S5: revise the basics: past perfect", maps: [ past-perfect ] }
-  - { ref: "I-S5.11", item: "Intermediate S5: more about the past perfect (after I had finished)", maps: [ past-perfect-sequence, past-perfect-adverbs ] }
-  - { ref: "I-S5.12", item: "Intermediate S5: past perfect progressive (she had been working too hard)", maps: [ past-perfect-continuous ] }
-  - { ref: "I-S5.13", item: "Intermediate S5: This is the first time etc", maps: [ first-time ] }
-  - { ref: "I-S6.1", item: "Intermediate S6 modal verbs: revise the basics: the grammar of modals", maps: [ modal-grammar ] }
-  - { ref: "I-S6.2", item: "Intermediate S6: revise the basics: must, should and ought to", maps: [ should-advice, ought-to, must-have-to ] }
-  - { ref: "I-S6.3", item: "Intermediate S6: have to and must", maps: [ must-have-to, have-got-to ] }
-  - { ref: "I-S6.4", item: "Intermediate S6: must not / do not have to / do not need to / needn't", maps: [ mustnt-dont-have-to, need-neednt ] }
-  - { ref: "I-S6.5", item: "Intermediate S6: had better (You'd better take your umbrella)", maps: [ had-better ] }
-  - { ref: "I-S6.6", item: "Intermediate S6: supposed to", maps: [ supposed-to ] }
-  - { ref: "I-S6.7", item: "Intermediate S6: must/can't certainty (She must be in. He can't be hungry)", maps: [ deduction-present ] }
-  - { ref: "I-S6.8", item: "Intermediate S6: may and might (It may rain. It might even snow)", maps: [ may-might-possibility ] }
-  - { ref: "I-S6.9", item: "Intermediate S6: revise the basics: permission, requests etc", maps: [ can-permission-requests, could-may-requests, allowed-to ] }
-  - { ref: "I-S6.10", item: "Intermediate S6: shall in questions (What shall we do?)", maps: [ shall-offers ] }
-  - { ref: "I-S6.11", item: "Intermediate S6: can and could (ability): past and future", maps: [ can-ability, could-past-ability, be-able-to, managed-to ] }
-  - { ref: "I-S6.12", item: "Intermediate S6: revise the basics: used to", maps: [ used-to, didnt-use-to ] }
-  - { ref: "I-S6.13", item: "Intermediate S6: will and would: typical behaviour (She will talk to herself)", maps: [ will-habits, would-characteristic ] }
-  - { ref: "I-S6.14", item: "Intermediate S6: perfect modal verbs: should have, may have, must have, could have, needn't have", maps: [ should-have, deduction-past, could-have, neednt-have ] }
-  - { ref: "I-S7.1", item: "Intermediate S7 passives: revise the basics: active and passive", maps: [ passive-form, passive-present-past, passive-by ] }
-  - { ref: "I-S7.2", item: "Intermediate S7: passive infinitives and -ing forms (to be seen; being seen)", maps: [ passive-infinitive-gerund ] }
-  - { ref: "I-S7.3", item: "Intermediate S7: passives: verbs with two objects (Susan was given a prize)", maps: [ passive-two-objects ] }
-  - { ref: "I-S7.4", item: "Intermediate S7: prepositions with passives (Ted likes being read to)", maps: [ passive-phrasal ] }
-  - { ref: "I-S7.5", item: "Intermediate S7: reasons for using passives", maps: [ passive-why ] }
-  - { ref: "I-S8.1", item: "Intermediate S8 questions and negatives: revise the basics: negatives", maps: [ negative-words, present-simple-negative, one-negative ] }
-  - { ref: "I-S8.2", item: "Intermediate S8: negative questions (Aren't you well?)", maps: [ negative-questions-basic ] }
-  - { ref: "I-S8.3", item: "Intermediate S8: revise the basics: questions", maps: [ question-word-order, present-simple-questions, be-questions ] }
-  - { ref: "I-S8.4", item: "Intermediate S8: question-word subjects (Who won? Who happened?)", maps: [ subject-questions ] }
-  - { ref: "I-S8.5", item: "Intermediate S8: prepositions in questions (What are you thinking about?)", maps: [ preposition-end-questions ] }
-  - { ref: "I-S9.1", item: "Intermediate S9 infinitives and -ing forms: revise the basics: infinitive with and without to", maps: [ verb-to, make-let-help ] }
-  - { ref: "I-S9.2", item: "Intermediate S9: revise the basics: infinitive of purpose", maps: [ infinitive-purpose ] }
-  - { ref: "I-S9.3", item: "Intermediate S9: revise the basics: verb + infinitive or -ing form", maps: [ verb-to, verb-ing ] }
-  - { ref: "I-S9.4", item: "Intermediate S9: revise the basics: preposition + -ing form", maps: [ ing-after-prepositions ] }
-  - { ref: "I-S9.5", item: "Intermediate S9: more about infinitives (to sit, to be sitting)", maps: [ continuous-infinitive ], suggest: { title: "Continuous infinitive (to be sitting; seems to be working)", level: B2, lesson: "b2-28" } }
-  - { ref: "I-S9.6", item: "Intermediate S9: perfect infinitives (to have gone etc)", maps: [ perfect-infinitive ] }
-  - { ref: "I-S9.7", item: "Intermediate S9: to for whole infinitive (I'd like to. I don't want to)", maps: [ ellipsis-to ] }
-  - { ref: "I-S9.8", item: "Intermediate S9: -ing forms as subjects, objects etc (Smoking is bad for you)", maps: [ ing-subject, verb-ing ] }
-  - { ref: "I-S9.9", item: "Intermediate S9: more about verb + infinitive or -ing form", maps: [ ing-to-meaning-change, same-meaning-verbs ] }
-  - { ref: "I-S9.10", item: "Intermediate S9: go ... -ing (She's gone shopping)", maps: [ go-ing ] }
-  - { ref: "I-S9.11", item: "Intermediate S9: -ing form and infinitive both possible", maps: [ same-meaning-verbs, like-doing-vs-to ] }
-  - { ref: "I-S9.12", item: "Intermediate S9: verb + object + infinitive (He wants me to wash his socks)", maps: [ verb-object-to, want-sb-to ] }
-  - { ref: "I-S9.13", item: "Intermediate S9: adjective + infinitive or -ing form (pleased to see etc)", maps: [ adjective-to, afraid-sorry-interested ] }
-  - { ref: "I-S9.14", item: "Intermediate S9: noun + infinitive or -ing form (time to go; fear of flying) and nothing to wear", maps: [ noun-to ] }
-  - { ref: "I-S9.15", item: "Intermediate S9: for ... to ... (It's time for the postman to come)", maps: [ for-object-to ] }
-  - { ref: "I-S9.16", item: "Intermediate S9: more about adjective + infinitive (easy to please etc)", maps: [ easy-to-please ] }
-  - { ref: "I-S9.17", item: "Intermediate S9: before, after, since, by and for + -ing", maps: [ ing-after-prepositions, conjunction-ing ] }
-  - { ref: "I-S9.18", item: "Intermediate S9: to ... -ing (I look forward to seeing you)", maps: [ to-preposition ] }
-  - { ref: "I-S10.1", item: "Intermediate S10 various structures with verbs: revise the basics: imperatives; let's", maps: [ imperatives, lets ] }
-  - { ref: "I-S10.2", item: "Intermediate S10: revise the basics: verbs with two objects", maps: [ two-objects, two-objects-to-for ] }
-  - { ref: "I-S10.3", item: "Intermediate S10: revise the basics: causative have and get", maps: [ have-something-done, have-sb-do ] }
-  - { ref: "I-S10.4", item: "Intermediate S10: exclamations (How beautiful! What a surprise!)", maps: [ exclamations ] }
-  - { ref: "I-S10.5", item: "Intermediate S10: do: emphatic auxiliary (You do look nice)", maps: [ emphatic-do ] }
-  - { ref: "I-S10.6", item: "Intermediate S10: it: preparatory subject (It's nice to talk to you)", maps: [ extraposition, it-adj-to ] }
-  - { ref: "I-S10.7", item: "Intermediate S10: emphasis with it and what (It's not tea that I want)", maps: [ it-cleft, wh-cleft ] }
-  - { ref: "I-S10.8", item: "Intermediate S10: phrasal verbs (Look out! I'll think it over)", maps: [ phrasal-verbs-intro, phrasal-separable, three-part-phrasal ] }
-  - { ref: "I-S11.1", item: "Intermediate S11 articles: revise the basics: a/an and one", maps: [ a-vs-one ] }
-  - { ref: "I-S11.2", item: "Intermediate S11: revise the basics: a/an (She's a farmer; He's got a long nose; A spider has eight legs; A man called ...)", maps: [ a-jobs, a-an-sound ] }
-  - { ref: "I-S11.3", item: "Intermediate S11: revise the basics: the (Please close the door)", maps: [ the-specific, the-second-mention, the-unique ] }
-  - { ref: "I-S11.4", item: "Intermediate S11: revise the basics: generalisations without the (I like music)", maps: [ the-vs-zero ] }
-  - { ref: "I-S11.5", item: "Intermediate S11: the in generalisations (Who invented the telescope?)", maps: [ generic-reference ] }
-  - { ref: "I-S11.6", item: "Intermediate S11: place names (Lake Superior; the Atlantic)", maps: [ the-geography ] }
-  - { ref: "I-S11.7", item: "Intermediate S11: other special cases (in prison; She became Queen)", maps: [ institutions, roles-zero-article, zero-article-fixed ] }
-  - { ref: "I-S12.1", item: "Intermediate S12 determiners: revise the basics: this, that, these, those", maps: [ demonstratives ] }
-  - { ref: "I-S12.2", item: "Intermediate S12: revise the basics: some and any", maps: [ some-any-basic, some-any-offers ] }
-  - { ref: "I-S12.3", item: "Intermediate S12: some/any or no article (I have some toast. I don't like toast)", maps: [ the-vs-zero, some-any-basic ] }
-  - { ref: "I-S12.4", item: "Intermediate S12: any, not any, no and none", maps: [ no-none ] }
-  - { ref: "I-S12.5", item: "Intermediate S12: any = 'it's not important which'", maps: [ any-whichever ] }
-  - { ref: "I-S12.6", item: "Intermediate S12: revise the basics: much, many, a lot (of)", maps: [ much-many, a-lot-of ] }
-  - { ref: "I-S12.7", item: "Intermediate S12: revise the basics: enough, too and too much", maps: [ too-enough, too-much-many ] }
-  - { ref: "I-S12.8", item: "Intermediate S12: revise the basics: (a) little, (a) few", maps: [ a-few-a-little ] }
-  - { ref: "I-S12.9", item: "Intermediate S12: less and least, fewer and fewest", maps: [ fewer-less, less-least ] }
-  - { ref: "I-S12.10", item: "Intermediate S12: revise the basics: all", maps: [ all-both-basic ] }
-  - { ref: "I-S12.11", item: "Intermediate S12: revise the basics: all, every, everybody, everything", maps: [ each-every-basic, indefinite-compounds ] }
-  - { ref: "I-S12.12", item: "Intermediate S12: every and each; everyone", maps: [ each-every-full ] }
-  - { ref: "I-S12.13", item: "Intermediate S12: both, either and neither", maps: [ either-neither, both-all-whole ] }
-  - { ref: "I-S12.14", item: "Intermediate S12: which? and what?", maps: [ what-vs-which ] }
-  - { ref: "I-S12.15", item: "Intermediate S12: other(s) and another", maps: [ another-other ] }
-  - { ref: "I-S12.16", item: "Intermediate S12: determiners and of (most people; most of us)", maps: [ most-of ] }
-  - { ref: "I-S13.1", item: "Intermediate S13 personal pronouns and possessives: revise the basics: I, me, my, mine etc", maps: [ subject-pronouns, object-pronouns, possessive-adjectives, possessive-pronouns ] }
-  - { ref: "I-S13.2", item: "Intermediate S13: possessives (a friend of mine; Anne broke her arm)", maps: [ double-possessive, the-body-parts ] }
-  - { ref: "I-S13.3", item: "Intermediate S13: personal pronouns (Who's that? It's me)", maps: [ pronoun-case ] }
-  - { ref: "I-S13.4", item: "Intermediate S13: reflexives (She taught herself to play the guitar)", maps: [ reflexive-pronouns ] }
-  - { ref: "I-S13.5", item: "Intermediate S13: you, one and they", maps: [ generic-you-one ] }
-  - { ref: "I-S14.1", item: "Intermediate S14 nouns: revise the basics: countable and uncountable nouns", maps: [ countable-uncountable ] }
-  - { ref: "I-S14.2", item: "Intermediate S14: more about countable and uncountable nouns", maps: [ dual-countability, uncountable-traps ] }
-  - { ref: "I-S14.3", item: "Intermediate S14: revise the basics: how to spell plurals", maps: [ plural-regular ] }
-  - { ref: "I-S14.4", item: "Intermediate S14: plurals of nouns: special cases (aircraft, sheep, arms)", maps: [ same-singular-plural ], suggest: { title: "Same form in singular and plural: sheep, fish, aircraft, deer", level: A2, lesson: "a1-08" } }
-  - { ref: "I-S14.5", item: "Intermediate S14: mixed singular and plural (My family are angry with me)", maps: [ collective-agreement, plural-verb-nouns ] }
-  - { ref: "I-S14.6", item: "Intermediate S14: revise the basics: possessive 's", maps: [ possessive-s ] }
-  - { ref: "I-S14.7", item: "Intermediate S14: possessive 's or of ... (my father's name; the name of the book)", maps: [ possessive-of ] }
-  - { ref: "I-S14.8", item: "Intermediate S14: revise the basics: noun + noun", maps: [ compound-nouns ] }
-  - { ref: "I-S14.9", item: "Intermediate S14: noun + noun or preposition (road signs; signs of anger)", maps: [ possessive-of, compound-nouns ] }
-  - { ref: "I-S14.10", item: "Intermediate S14: one(s) (a big one with cream)", maps: [ one-ones ] }
-  - { ref: "I-S15.1", item: "Intermediate S15 adjectives and adverbs: revise the basics: adjectives, adverbs of manner", maps: [ adjective-vs-adverb, adverbs-manner ] }
-  - { ref: "I-S15.2", item: "Intermediate S15: interested and interesting etc", maps: [ ed-ing-adjectives ] }
-  - { ref: "I-S15.3", item: "Intermediate S15: adjectives without nouns (in the country of the blind)", maps: [ the-adjective-group ] }
-  - { ref: "I-S15.4", item: "Intermediate S15: order of adjectives (a terrible little boy)", maps: [ adjective-order-full ] }
-  - { ref: "I-S15.4b", item: "Intermediate S15: order of adjectives (old and grey: and between adjectives)", maps: [ adjective-commas ], suggest: { title: "Commas and 'and' between adjectives (a big, old house; tall and dark)", level: B2, lesson: "b2-38" } }
-  - { ref: "I-S15.5", item: "Intermediate S15: adverbs with the verb (I can never wake up in time)", maps: [ frequency-position, adverb-positions ] }
-  - { ref: "I-S15.6", item: "Intermediate S15: even and only; end-position adverbs", maps: [ focus-adverbs, adverb-order ] }
-  - { ref: "I-S15.7", item: "Intermediate S15: confusing adjectives and adverbs: fast, hard, late etc", maps: [ irregular-adverbs, hard-hardly ] }
-  - { ref: "I-S16.1", item: "Intermediate S16 comparison: revise the basics: comparative and superlative adjectives", maps: [ comparatives-short, comparatives-long, superlatives ] }
-  - { ref: "I-S16.2", item: "Intermediate S16: revise the basics: comparative and superlative adverbs", maps: [ adverb-comparison ], suggest: { title: "Comparative and superlative adverbs (faster, more carefully, the most quickly)", level: A2, lesson: "a2-41" } }
-  - { ref: "I-S16.3", item: "Intermediate S16: as ... as (as many people as possible)", maps: [ as-as, as-soon-as-possible ] }
-  - { ref: "I-S16.4", item: "Intermediate S16: more on comparatives (taller and taller; the more the better)", maps: [ more-and-more, the-the-intro, much-far-comparative ] }
-  - { ref: "I-S16.5", item: "Intermediate S16: more about superlatives (the best player of us all)", maps: [ superlative-in-of, superlative-ever ] }
-  - { ref: "I-S16.6", item: "Intermediate S16: like and as; so and such", maps: [ like-as, so-such ] }
-  - { ref: "I-S17.1", item: "Intermediate S17 conjunctions: revise the basics: use and position of conjunctions", maps: [ and-but-or, because-so ] }
-  - { ref: "I-S17.2", item: "Intermediate S17: revise the basics: present for future (I'll tell you when I know)", maps: [ future-time-clauses ] }
-  - { ref: "I-S17.3", item: "Intermediate S17: using certain conjunctions: so that, as long as, until etc", maps: [ purpose-clauses, as-long-as, time-clauses-full ] }
-  - { ref: "I-S17.4", item: "Intermediate S17: leaving out that (She knew I was right)", maps: [ that-omission ], suggest: { title: "Leaving out that (I think she's right; I'm glad you came)", level: B1, lesson: "b1-26" } }
-  - { ref: "I-S17.5", item: "Intermediate S17: both ... and; (n)either ... (n)or", maps: [ both-and, either-or-neither-nor ] }
-  - { ref: "I-S17.6", item: "Intermediate S17: perfect for completion (when I've finished)", maps: [ future-time-clauses ] }
-  - { ref: "I-S17.7", item: "Intermediate S17: tenses with since and for (since we were students)", maps: [ since-past-simple ] }
-  - { ref: "I-S17.8", item: "Intermediate S17: conjunction + -ing or -ed (after talking to you; until cooked)", maps: [ conjunction-ing, verbless-clauses ] }
-  - { ref: "I-S17.9", item: "Intermediate S17: clauses without conjunctions (Putting down my book ...)", maps: [ participle-clauses ] }
-  - { ref: "I-S18.1", item: "Intermediate S18 if etc: revise the basics: ordinary tense use", maps: [ zero-conditional, first-conditional ] }
-  - { ref: "I-S18.2", item: "Intermediate S18: revise the basics: If I had a million dollars ...", maps: [ second-conditional ] }
-  - { ref: "I-S18.3", item: "Intermediate S18: revise the basics: if I go and if I went", maps: [ first-vs-second ] }
-  - { ref: "I-S18.4", item: "Intermediate S18: could = 'would be able to' (We could go cycling if ...)", maps: [ modals-conditional-main ], suggest: { title: "Modals in conditional main clauses (could, might, should)", level: B1, lesson: "b1-23" } }
-  - { ref: "I-S18.5", item: "Intermediate S18: unreal past situations (If Jane hadn't helped me ...)", maps: [ third-conditional ] }
-  - { ref: "I-S18.6", item: "Intermediate S18: unless (Come tonight unless I phone)", maps: [ unless ] }
-  - { ref: "I-S18.7", item: "Intermediate S18: if only and wish: tenses", maps: [ if-only-intro, wish-past, wish-past-perfect ] }
-  - { ref: "I-S18.8", item: "Intermediate S18: in case (I'm taking my umbrella in case it rains)", maps: [ in-case ] }
-  - { ref: "I-S18.9", item: "Intermediate S18: it's time and I'd rather: tenses", maps: [ its-time-past, would-rather-past ] }
-  - { ref: "I-S19.1", item: "Intermediate S19 relatives: revise the basics: who(m), which and that", maps: [ relative-who-which-that, that-vs-which ] }
-  - { ref: "I-S19.2", item: "Intermediate S19: revise the basics: leaving out relative pronouns", maps: [ omit-relative ] }
-  - { ref: "I-S19.3", item: "Intermediate S19: what = 'the thing(s) that' (Take what you like)", maps: [ nominal-what ] }
-  - { ref: "I-S19.4", item: "Intermediate S19: whose (a girl whose beauty ...)", maps: [ relative-whose-when ] }
-  - { ref: "I-S19.5", item: "Intermediate S19: prepositions in relative clauses (the girl I was talking about)", maps: [ preposition-relative ] }
-  - { ref: "I-S19.6", item: "Intermediate S19: reduced relative clauses (luggage left unattended)", maps: [ reduced-relative ] }
-  - { ref: "I-S19.7", item: "Intermediate S19: non-identifying relative clauses (Kelly, who does my hair, ...)", maps: [ defining-nondefining, comma-nondefining ] }
-  - { ref: "I-S19.8", item: "Intermediate S19: reading sentences with relative clauses", maps: [ dense-noun-phrases ] }
-  - { ref: "I-S20.1", item: "Intermediate S20 indirect speech: revise the basics: why things change; 'here' and 'now' words", maps: [ reported-changes ] }
-  - { ref: "I-S20.2", item: "Intermediate S20: revise the basics: tenses", maps: [ backshift ] }
-  - { ref: "I-S20.3", item: "Intermediate S20: present situations (He proved that the earth is/was round)", maps: [ no-backshift ] }
-  - { ref: "I-S20.4", item: "Intermediate S20: revise the basics: indirect questions", maps: [ reported-questions, reported-if-whether ] }
-  - { ref: "I-S20.5", item: "Intermediate S20: revise the basics: infinitives (He promised to write)", maps: [ reported-commands, reporting-verbs-patterns ] }
-  - { ref: "I-S20.6", item: "Intermediate S20: indirect speech: special cases (He said I'd better go)", maps: [ reported-modals ] }
-  - { ref: "I-S21.1", item: "Intermediate S21 prepositions: revise the basics: time", maps: [ time-at-on-in ] }
-  - { ref: "I-S21.2", item: "Intermediate S21: revise the basics: place and movement", maps: [ place-in-on-at, movement ] }
-  - { ref: "I-S21.3", item: "Intermediate S21: some preposition choices", maps: [ prep-phrases, between-among, by-with ] }
-  - { ref: "I-S21.4", item: "Intermediate S21: verbs with prepositions (Look at her)", maps: [ verb-prep-1, prepositional-verbs ] }
-  - { ref: "I-S21.5", item: "Intermediate S21: nouns with prepositions (lack of sleep)", maps: [ noun-prep ] }
-  - { ref: "I-S21.6", item: "Intermediate S21: adjectives with prepositions (full of water)", maps: [ adj-prep-1 ] }
-  - { ref: "I-S21.7", item: "Intermediate S21: expressions beginning with prepositions (at a party)", maps: [ prep-phrases ] }
-  - { ref: "I-S22.1", item: "Intermediate S22 spoken grammar: spoken sentence structure (It's difficult, the exam)", maps: [ heads-tails ] }
-  - { ref: "I-S22.2", item: "Intermediate S22: dropping sentence beginnings", maps: [ spoken-ellipsis ] }
-  - { ref: "I-S22.3", item: "Intermediate S22: dropping words after auxiliaries ('Get up!' 'I am!')", maps: [ auxiliary-ellipsis ] }
-  - { ref: "I-S22.4", item: "Intermediate S22: revise the basics: question tags", maps: [ question-tags ] }
-  - { ref: "I-S22.5", item: "Intermediate S22: more about question tags (Nobody phoned, did they?)", maps: [ special-tags, tags-checking-asking ] }
-  - { ref: "I-S22.6", item: "Intermediate S22: revise the basics: short answers and reply questions", maps: [ be-short-answers, echo-reply-questions ] }
-  - { ref: "I-S22.7", item: "Intermediate S22: revise the basics: so am I etc", maps: [ so-neither-do-i ] }
-  - { ref: "I-S22.8", item: "Intermediate S22: structures with so and not (I (don't) think so; I hope so/not)", maps: [ think-so-hope-not, substitution-suppose-so ] }
-  - { ref: "A-S1.1", item: "Advanced S1 basic sentence types: questions: revise the basics", maps: [ question-word-order, subject-questions, object-questions ] }
-  - { ref: "A-S1.2", item: "Advanced S1: negatives: revise the basics", maps: [ negative-words, one-negative ] }
-  - { ref: "A-S1.3", item: "Advanced S1: not and no", maps: [ no-vs-not-a, not-any-vs-no ] }
-  - { ref: "A-S1.4", item: "Advanced S1: negative questions", maps: [ negative-questions-basic, negative-surprise ] }
-  - { ref: "A-S1.5", item: "Advanced S1: more about negatives", maps: [ transferred-negation, barely-scarcely, scope-negation ] }
-  - { ref: "A-S1.6", item: "Advanced S1: imperatives", maps: [ imperatives, always-never-imperative ] }
+  - {
+      ref: "I-S1.1",
+      item: "Intermediate S1 be and have: revise the basics: be and have",
+      maps: [ be-present-forms, was-were, have-possession ],
+    }
+  - {
+      ref: "I-S1.2",
+      item: "Intermediate S1: revise the basics: there is/was etc",
+      maps: [ there-is-are, there-was-were ],
+    }
+  - {
+      ref: "I-S1.3",
+      item: "Intermediate S1: more about there is (There seems to be a delay)",
+      maps: [ there-seems, there-tenses ],
+    }
+  - {
+      ref: "I-S1.4",
+      item: "Intermediate S1: have with got and do (We haven't got / don't have time)",
+      maps: [ have-got, have-questions ],
+    }
+  - {
+      ref: "I-S1.5",
+      item: "Intermediate S1: habitual and repeated actions (Do you often have colds?)",
+      maps: [ have-questions, present-simple-uses ],
+    }
+  - {
+      ref: "I-S1.6",
+      item: "Intermediate S1: have for actions (I'm going to have a swim)",
+      maps: [ have-actions ],
+    }
+  - {
+      ref: "I-S2.1",
+      item: "Intermediate S2 present tenses: revise the basics: which present tense?",
+      maps:
+        [ simple-vs-continuous, present-simple-uses, present-continuous-now ],
+    }
+  - {
+      ref: "I-S2.2",
+      item: "Intermediate S2: revise the basics: spelling",
+      maps: [ third-person-spelling, ing-spelling ],
+    }
+  - {
+      ref: "I-S2.3",
+      item: "Intermediate S2: present progressive for changes (Prices are going up)",
+      maps: [ changing-situations ],
+    }
+  - {
+      ref: "I-S2.4",
+      item: "Intermediate S2: simple present: instructions etc (You take the first left)",
+      maps: [ notes-instructions, historic-present ],
+    }
+  - {
+      ref: "I-S2.5",
+      item: "Intermediate S2: non-progressive verbs (I remember his face)",
+      maps: [ stative-verbs, stative-dynamic-meanings ],
+    }
+  - {
+      ref: "I-S3.1",
+      item: "Intermediate S3 talking about the future: revise the basics: going to; present progressive for future; will-future; will in decisions, promises",
+      maps:
+        [
+          going-to-plans,
+          going-to-evidence,
+          present-continuous-future,
+          will-predictions,
+          will-decisions,
+        ],
+    }
+  - {
+      ref: "I-S3.2",
+      item: "Intermediate S3: which future? will, going to or present progressive?",
+      maps: [ futures-compared, which-future-intro ],
+    }
+  - {
+      ref: "I-S3.3",
+      item: "Intermediate S3: simple present (My credit card expires at midnight)",
+      maps: [ present-simple-timetable ],
+    }
+  - {
+      ref: "I-S3.4",
+      item: "Intermediate S3: future progressive (This time tomorrow I'll be skiing)",
+      maps: [ future-continuous-intro, future-continuous-full ],
+    }
+  - {
+      ref: "I-S3.5",
+      item: "Intermediate S3: be + infinitive (You're to do your homework)",
+      maps: [ be-to-infinitive ],
+    }
+  - {
+      ref: "I-S3.6",
+      item: "Intermediate S3: future in the past (I was going to ring you yesterday)",
+      maps: [ future-in-past, was-going-to ],
+    }
+  - {
+      ref: "I-S3.7",
+      item: "Intermediate S3: future perfect (He'll have finished the roof by Saturday)",
+      maps: [ future-perfect ],
+    }
+  - {
+      ref: "I-S4.1",
+      item: "Intermediate S4 past tenses: revise the basics: simple past forms",
+      maps:
+        [
+          past-simple-regular,
+          past-simple-irregular,
+          ed-spelling,
+          did-negative-questions,
+        ],
+    }
+  - {
+      ref: "I-S4.2",
+      item: "Intermediate S4: revise the basics: which past tense?",
+      maps: [ past-simple-vs-continuous, past-continuous ],
+    }
+  - {
+      ref: "I-S4.3",
+      item: "Intermediate S4: more about past tenses",
+      maps: [ past-continuous-background, storytelling-past ],
+    }
+  - {
+      ref: "I-S4.4",
+      item: "Intermediate S4: past tenses in requests etc (I wondered if you were free)",
+      maps: [ distancing-past ],
+    }
+  - {
+      ref: "I-S5.1",
+      item: "Intermediate S5 perfect tenses: revise the basics: present perfect forms and use",
+      maps: [ present-perfect-form, present-perfect-experience ],
+    }
+  - {
+      ref: "I-S5.2",
+      item: "Intermediate S5: revise the basics: present perfect or simple past?",
+      maps: [ pp-vs-past ],
+    }
+  - {
+      ref: "I-S5.3",
+      item: "Intermediate S5: revise the basics: tenses with time words",
+      maps: [ past-time-expressions, for-since ],
+    }
+  - {
+      ref: "I-S5.4",
+      item: "Intermediate S5: revise the basics: already, yet and just",
+      maps: [ just-already-yet ],
+    }
+  - {
+      ref: "I-S5.5",
+      item: "Intermediate S5: finished time or up to now? (this morning; at school)",
+      maps: [ finished-time-trap, pp-vs-past ],
+    }
+  - {
+      ref: "I-S5.6",
+      item: "Intermediate S5: news (We've found oil in the garden!) and news and details",
+      maps: [ present-perfect-recent, news-perfect-past ],
+    }
+  - {
+      ref: "I-S5.7",
+      item: "Intermediate S5: revise the basics: present perfect progressive; since, for",
+      maps: [ ppc-form, ppc-duration, for-since ],
+    }
+  - {
+      ref: "I-S5.8",
+      item: "Intermediate S5: present perfect or present perfect progressive?",
+      maps: [ ppc-vs-pp ],
+    }
+  - {
+      ref: "I-S5.9",
+      item: "Intermediate S5: simple past and present perfect summary",
+      maps: [ pp-vs-past ],
+    }
+  - {
+      ref: "I-S5.10",
+      item: "Intermediate S5: revise the basics: past perfect",
+      maps: [ past-perfect ],
+    }
+  - {
+      ref: "I-S5.11",
+      item: "Intermediate S5: more about the past perfect (after I had finished)",
+      maps: [ past-perfect-sequence, past-perfect-adverbs ],
+    }
+  - {
+      ref: "I-S5.12",
+      item: "Intermediate S5: past perfect progressive (she had been working too hard)",
+      maps: [ past-perfect-continuous ],
+    }
+  - {
+      ref: "I-S5.13",
+      item: "Intermediate S5: This is the first time etc",
+      maps: [ first-time ],
+    }
+  - {
+      ref: "I-S6.1",
+      item: "Intermediate S6 modal verbs: revise the basics: the grammar of modals",
+      maps: [ modal-grammar ],
+    }
+  - {
+      ref: "I-S6.2",
+      item: "Intermediate S6: revise the basics: must, should and ought to",
+      maps: [ should-advice, ought-to, must-have-to ],
+    }
+  - {
+      ref: "I-S6.3",
+      item: "Intermediate S6: have to and must",
+      maps: [ must-have-to, have-got-to ],
+    }
+  - {
+      ref: "I-S6.4",
+      item: "Intermediate S6: must not / do not have to / do not need to / needn't",
+      maps: [ mustnt-dont-have-to, need-neednt ],
+    }
+  - {
+      ref: "I-S6.5",
+      item: "Intermediate S6: had better (You'd better take your umbrella)",
+      maps: [ had-better ],
+    }
+  - {
+      ref: "I-S6.6",
+      item: "Intermediate S6: supposed to",
+      maps: [ supposed-to ],
+    }
+  - {
+      ref: "I-S6.7",
+      item: "Intermediate S6: must/can't certainty (She must be in. He can't be hungry)",
+      maps: [ deduction-present ],
+    }
+  - {
+      ref: "I-S6.8",
+      item: "Intermediate S6: may and might (It may rain. It might even snow)",
+      maps: [ may-might-possibility ],
+    }
+  - {
+      ref: "I-S6.9",
+      item: "Intermediate S6: revise the basics: permission, requests etc",
+      maps: [ can-permission-requests, could-may-requests, allowed-to ],
+    }
+  - {
+      ref: "I-S6.10",
+      item: "Intermediate S6: shall in questions (What shall we do?)",
+      maps: [ shall-offers ],
+    }
+  - {
+      ref: "I-S6.11",
+      item: "Intermediate S6: can and could (ability): past and future",
+      maps: [ can-ability, could-past-ability, be-able-to, managed-to ],
+    }
+  - {
+      ref: "I-S6.12",
+      item: "Intermediate S6: revise the basics: used to",
+      maps: [ used-to, didnt-use-to ],
+    }
+  - {
+      ref: "I-S6.13",
+      item: "Intermediate S6: will and would: typical behaviour (She will talk to herself)",
+      maps: [ will-habits, would-characteristic ],
+    }
+  - {
+      ref: "I-S6.14",
+      item: "Intermediate S6: perfect modal verbs: should have, may have, must have, could have, needn't have",
+      maps: [ should-have, deduction-past, could-have, neednt-have ],
+    }
+  - {
+      ref: "I-S7.1",
+      item: "Intermediate S7 passives: revise the basics: active and passive",
+      maps: [ passive-form, passive-present-past, passive-by ],
+    }
+  - {
+      ref: "I-S7.2",
+      item: "Intermediate S7: passive infinitives and -ing forms (to be seen; being seen)",
+      maps: [ passive-infinitive-gerund ],
+    }
+  - {
+      ref: "I-S7.3",
+      item: "Intermediate S7: passives: verbs with two objects (Susan was given a prize)",
+      maps: [ passive-two-objects ],
+    }
+  - {
+      ref: "I-S7.4",
+      item: "Intermediate S7: prepositions with passives (Ted likes being read to)",
+      maps: [ passive-phrasal ],
+    }
+  - {
+      ref: "I-S7.5",
+      item: "Intermediate S7: reasons for using passives",
+      maps: [ passive-why ],
+    }
+  - {
+      ref: "I-S8.1",
+      item: "Intermediate S8 questions and negatives: revise the basics: negatives",
+      maps: [ negative-words, present-simple-negative, one-negative ],
+    }
+  - {
+      ref: "I-S8.2",
+      item: "Intermediate S8: negative questions (Aren't you well?)",
+      maps: [ negative-questions-basic ],
+    }
+  - {
+      ref: "I-S8.3",
+      item: "Intermediate S8: revise the basics: questions",
+      maps: [ question-word-order, present-simple-questions, be-questions ],
+    }
+  - {
+      ref: "I-S8.4",
+      item: "Intermediate S8: question-word subjects (Who won? Who happened?)",
+      maps: [ subject-questions ],
+    }
+  - {
+      ref: "I-S8.5",
+      item: "Intermediate S8: prepositions in questions (What are you thinking about?)",
+      maps: [ preposition-end-questions ],
+    }
+  - {
+      ref: "I-S9.1",
+      item: "Intermediate S9 infinitives and -ing forms: revise the basics: infinitive with and without to",
+      maps: [ verb-to, make-let-help ],
+    }
+  - {
+      ref: "I-S9.2",
+      item: "Intermediate S9: revise the basics: infinitive of purpose",
+      maps: [ infinitive-purpose ],
+    }
+  - {
+      ref: "I-S9.3",
+      item: "Intermediate S9: revise the basics: verb + infinitive or -ing form",
+      maps: [ verb-to, verb-ing ],
+    }
+  - {
+      ref: "I-S9.4",
+      item: "Intermediate S9: revise the basics: preposition + -ing form",
+      maps: [ ing-after-prepositions ],
+    }
+  - {
+      ref: "I-S9.5",
+      item: "Intermediate S9: more about infinitives (to sit, to be sitting)",
+      maps: [ continuous-infinitive ],
+      suggest:
+        {
+          title: "Continuous infinitive (to be sitting; seems to be working)",
+          level: B2,
+          lesson: "b2-28",
+        },
+    }
+  - {
+      ref: "I-S9.6",
+      item: "Intermediate S9: perfect infinitives (to have gone etc)",
+      maps: [ perfect-infinitive ],
+    }
+  - {
+      ref: "I-S9.7",
+      item: "Intermediate S9: to for whole infinitive (I'd like to. I don't want to)",
+      maps: [ ellipsis-to ],
+    }
+  - {
+      ref: "I-S9.8",
+      item: "Intermediate S9: -ing forms as subjects, objects etc (Smoking is bad for you)",
+      maps: [ ing-subject, verb-ing ],
+    }
+  - {
+      ref: "I-S9.9",
+      item: "Intermediate S9: more about verb + infinitive or -ing form",
+      maps: [ ing-to-meaning-change, same-meaning-verbs ],
+    }
+  - {
+      ref: "I-S9.10",
+      item: "Intermediate S9: go ... -ing (She's gone shopping)",
+      maps: [ go-ing ],
+    }
+  - {
+      ref: "I-S9.11",
+      item: "Intermediate S9: -ing form and infinitive both possible",
+      maps: [ same-meaning-verbs, like-doing-vs-to ],
+    }
+  - {
+      ref: "I-S9.12",
+      item: "Intermediate S9: verb + object + infinitive (He wants me to wash his socks)",
+      maps: [ verb-object-to, want-sb-to ],
+    }
+  - {
+      ref: "I-S9.13",
+      item: "Intermediate S9: adjective + infinitive or -ing form (pleased to see etc)",
+      maps: [ adjective-to, afraid-sorry-interested ],
+    }
+  - {
+      ref: "I-S9.14",
+      item: "Intermediate S9: noun + infinitive or -ing form (time to go; fear of flying) and nothing to wear",
+      maps: [ noun-to ],
+    }
+  - {
+      ref: "I-S9.15",
+      item: "Intermediate S9: for ... to ... (It's time for the postman to come)",
+      maps: [ for-object-to ],
+    }
+  - {
+      ref: "I-S9.16",
+      item: "Intermediate S9: more about adjective + infinitive (easy to please etc)",
+      maps: [ easy-to-please ],
+    }
+  - {
+      ref: "I-S9.17",
+      item: "Intermediate S9: before, after, since, by and for + -ing",
+      maps: [ ing-after-prepositions, conjunction-ing ],
+    }
+  - {
+      ref: "I-S9.18",
+      item: "Intermediate S9: to ... -ing (I look forward to seeing you)",
+      maps: [ to-preposition ],
+    }
+  - {
+      ref: "I-S10.1",
+      item: "Intermediate S10 various structures with verbs: revise the basics: imperatives; let's",
+      maps: [ imperatives, lets ],
+    }
+  - {
+      ref: "I-S10.2",
+      item: "Intermediate S10: revise the basics: verbs with two objects",
+      maps: [ two-objects, two-objects-to-for ],
+    }
+  - {
+      ref: "I-S10.3",
+      item: "Intermediate S10: revise the basics: causative have and get",
+      maps: [ have-something-done, have-sb-do ],
+    }
+  - {
+      ref: "I-S10.4",
+      item: "Intermediate S10: exclamations (How beautiful! What a surprise!)",
+      maps: [ exclamations ],
+    }
+  - {
+      ref: "I-S10.5",
+      item: "Intermediate S10: do: emphatic auxiliary (You do look nice)",
+      maps: [ emphatic-do ],
+    }
+  - {
+      ref: "I-S10.6",
+      item: "Intermediate S10: it: preparatory subject (It's nice to talk to you)",
+      maps: [ extraposition, it-adj-to ],
+    }
+  - {
+      ref: "I-S10.7",
+      item: "Intermediate S10: emphasis with it and what (It's not tea that I want)",
+      maps: [ it-cleft, wh-cleft ],
+    }
+  - {
+      ref: "I-S10.8",
+      item: "Intermediate S10: phrasal verbs (Look out! I'll think it over)",
+      maps: [ phrasal-verbs-intro, phrasal-separable, three-part-phrasal ],
+    }
+  - {
+      ref: "I-S11.1",
+      item: "Intermediate S11 articles: revise the basics: a/an and one",
+      maps: [ a-vs-one ],
+    }
+  - {
+      ref: "I-S11.2",
+      item: "Intermediate S11: revise the basics: a/an (She's a farmer; He's got a long nose; A spider has eight legs; A man called ...)",
+      maps: [ a-jobs, a-an-sound ],
+    }
+  - {
+      ref: "I-S11.3",
+      item: "Intermediate S11: revise the basics: the (Please close the door)",
+      maps: [ the-specific, the-second-mention, the-unique ],
+    }
+  - {
+      ref: "I-S11.4",
+      item: "Intermediate S11: revise the basics: generalisations without the (I like music)",
+      maps: [ the-vs-zero ],
+    }
+  - {
+      ref: "I-S11.5",
+      item: "Intermediate S11: the in generalisations (Who invented the telescope?)",
+      maps: [ generic-reference ],
+    }
+  - {
+      ref: "I-S11.6",
+      item: "Intermediate S11: place names (Lake Superior; the Atlantic)",
+      maps: [ the-geography ],
+    }
+  - {
+      ref: "I-S11.7",
+      item: "Intermediate S11: other special cases (in prison; She became Queen)",
+      maps: [ institutions, roles-zero-article, zero-article-fixed ],
+    }
+  - {
+      ref: "I-S12.1",
+      item: "Intermediate S12 determiners: revise the basics: this, that, these, those",
+      maps: [ demonstratives ],
+    }
+  - {
+      ref: "I-S12.2",
+      item: "Intermediate S12: revise the basics: some and any",
+      maps: [ some-any-basic, some-any-offers ],
+    }
+  - {
+      ref: "I-S12.3",
+      item: "Intermediate S12: some/any or no article (I have some toast. I don't like toast)",
+      maps: [ the-vs-zero, some-any-basic ],
+    }
+  - {
+      ref: "I-S12.4",
+      item: "Intermediate S12: any, not any, no and none",
+      maps: [ no-none ],
+    }
+  - {
+      ref: "I-S12.5",
+      item: "Intermediate S12: any = 'it's not important which'",
+      maps: [ any-whichever ],
+    }
+  - {
+      ref: "I-S12.6",
+      item: "Intermediate S12: revise the basics: much, many, a lot (of)",
+      maps: [ much-many, a-lot-of ],
+    }
+  - {
+      ref: "I-S12.7",
+      item: "Intermediate S12: revise the basics: enough, too and too much",
+      maps: [ too-enough, too-much-many ],
+    }
+  - {
+      ref: "I-S12.8",
+      item: "Intermediate S12: revise the basics: (a) little, (a) few",
+      maps: [ a-few-a-little ],
+    }
+  - {
+      ref: "I-S12.9",
+      item: "Intermediate S12: less and least, fewer and fewest",
+      maps: [ fewer-less, less-least ],
+    }
+  - {
+      ref: "I-S12.10",
+      item: "Intermediate S12: revise the basics: all",
+      maps: [ all-both-basic ],
+    }
+  - {
+      ref: "I-S12.11",
+      item: "Intermediate S12: revise the basics: all, every, everybody, everything",
+      maps: [ each-every-basic, indefinite-compounds ],
+    }
+  - {
+      ref: "I-S12.12",
+      item: "Intermediate S12: every and each; everyone",
+      maps: [ each-every-full ],
+    }
+  - {
+      ref: "I-S12.13",
+      item: "Intermediate S12: both, either and neither",
+      maps: [ either-neither, both-all-whole ],
+    }
+  - {
+      ref: "I-S12.14",
+      item: "Intermediate S12: which? and what?",
+      maps: [ what-vs-which ],
+    }
+  - {
+      ref: "I-S12.15",
+      item: "Intermediate S12: other(s) and another",
+      maps: [ another-other ],
+    }
+  - {
+      ref: "I-S12.16",
+      item: "Intermediate S12: determiners and of (most people; most of us)",
+      maps: [ most-of ],
+    }
+  - {
+      ref: "I-S13.1",
+      item: "Intermediate S13 personal pronouns and possessives: revise the basics: I, me, my, mine etc",
+      maps:
+        [
+          subject-pronouns,
+          object-pronouns,
+          possessive-adjectives,
+          possessive-pronouns,
+        ],
+    }
+  - {
+      ref: "I-S13.2",
+      item: "Intermediate S13: possessives (a friend of mine; Anne broke her arm)",
+      maps: [ double-possessive, the-body-parts ],
+    }
+  - {
+      ref: "I-S13.3",
+      item: "Intermediate S13: personal pronouns (Who's that? It's me)",
+      maps: [ pronoun-case ],
+    }
+  - {
+      ref: "I-S13.4",
+      item: "Intermediate S13: reflexives (She taught herself to play the guitar)",
+      maps: [ reflexive-pronouns ],
+    }
+  - {
+      ref: "I-S13.5",
+      item: "Intermediate S13: you, one and they",
+      maps: [ generic-you-one ],
+    }
+  - {
+      ref: "I-S14.1",
+      item: "Intermediate S14 nouns: revise the basics: countable and uncountable nouns",
+      maps: [ countable-uncountable ],
+    }
+  - {
+      ref: "I-S14.2",
+      item: "Intermediate S14: more about countable and uncountable nouns",
+      maps: [ dual-countability, uncountable-traps ],
+    }
+  - {
+      ref: "I-S14.3",
+      item: "Intermediate S14: revise the basics: how to spell plurals",
+      maps: [ plural-regular ],
+    }
+  - {
+      ref: "I-S14.4",
+      item: "Intermediate S14: plurals of nouns: special cases (aircraft, sheep, arms)",
+      maps: [ same-singular-plural ],
+      suggest:
+        {
+          title: "Same form in singular and plural: sheep, fish, aircraft, deer",
+          level: A2,
+          lesson: "a1-08",
+        },
+    }
+  - {
+      ref: "I-S14.5",
+      item: "Intermediate S14: mixed singular and plural (My family are angry with me)",
+      maps: [ collective-agreement, plural-verb-nouns ],
+    }
+  - {
+      ref: "I-S14.6",
+      item: "Intermediate S14: revise the basics: possessive 's",
+      maps: [ possessive-s ],
+    }
+  - {
+      ref: "I-S14.7",
+      item: "Intermediate S14: possessive 's or of ... (my father's name; the name of the book)",
+      maps: [ possessive-of ],
+    }
+  - {
+      ref: "I-S14.8",
+      item: "Intermediate S14: revise the basics: noun + noun",
+      maps: [ compound-nouns ],
+    }
+  - {
+      ref: "I-S14.9",
+      item: "Intermediate S14: noun + noun or preposition (road signs; signs of anger)",
+      maps: [ possessive-of, compound-nouns ],
+    }
+  - {
+      ref: "I-S14.10",
+      item: "Intermediate S14: one(s) (a big one with cream)",
+      maps: [ one-ones ],
+    }
+  - {
+      ref: "I-S15.1",
+      item: "Intermediate S15 adjectives and adverbs: revise the basics: adjectives, adverbs of manner",
+      maps: [ adjective-vs-adverb, adverbs-manner ],
+    }
+  - {
+      ref: "I-S15.2",
+      item: "Intermediate S15: interested and interesting etc",
+      maps: [ ed-ing-adjectives ],
+    }
+  - {
+      ref: "I-S15.3",
+      item: "Intermediate S15: adjectives without nouns (in the country of the blind)",
+      maps: [ the-adjective-group ],
+    }
+  - {
+      ref: "I-S15.4",
+      item: "Intermediate S15: order of adjectives (a terrible little boy)",
+      maps: [ adjective-order-full ],
+    }
+  - {
+      ref: "I-S15.4b",
+      item: "Intermediate S15: order of adjectives (old and grey: and between adjectives)",
+      maps: [ adjective-commas ],
+      suggest:
+        {
+          title: "Commas and 'and' between adjectives (a big, old house; tall and dark)",
+          level: B2,
+          lesson: "b2-38",
+        },
+    }
+  - {
+      ref: "I-S15.5",
+      item: "Intermediate S15: adverbs with the verb (I can never wake up in time)",
+      maps: [ frequency-position, adverb-positions ],
+    }
+  - {
+      ref: "I-S15.6",
+      item: "Intermediate S15: even and only; end-position adverbs",
+      maps: [ focus-adverbs, adverb-order ],
+    }
+  - {
+      ref: "I-S15.7",
+      item: "Intermediate S15: confusing adjectives and adverbs: fast, hard, late etc",
+      maps: [ irregular-adverbs, hard-hardly ],
+    }
+  - {
+      ref: "I-S16.1",
+      item: "Intermediate S16 comparison: revise the basics: comparative and superlative adjectives",
+      maps: [ comparatives-short, comparatives-long, superlatives ],
+    }
+  - {
+      ref: "I-S16.2",
+      item: "Intermediate S16: revise the basics: comparative and superlative adverbs",
+      maps: [ adverb-comparison ],
+      suggest:
+        {
+          title: "Comparative and superlative adverbs (faster, more carefully, the most quickly)",
+          level: A2,
+          lesson: "a2-41",
+        },
+    }
+  - {
+      ref: "I-S16.3",
+      item: "Intermediate S16: as ... as (as many people as possible)",
+      maps: [ as-as, as-soon-as-possible ],
+    }
+  - {
+      ref: "I-S16.4",
+      item: "Intermediate S16: more on comparatives (taller and taller; the more the better)",
+      maps: [ more-and-more, the-the-intro, much-far-comparative ],
+    }
+  - {
+      ref: "I-S16.5",
+      item: "Intermediate S16: more about superlatives (the best player of us all)",
+      maps: [ superlative-in-of, superlative-ever ],
+    }
+  - {
+      ref: "I-S16.6",
+      item: "Intermediate S16: like and as; so and such",
+      maps: [ like-as, so-such ],
+    }
+  - {
+      ref: "I-S17.1",
+      item: "Intermediate S17 conjunctions: revise the basics: use and position of conjunctions",
+      maps: [ and-but-or, because-so ],
+    }
+  - {
+      ref: "I-S17.2",
+      item: "Intermediate S17: revise the basics: present for future (I'll tell you when I know)",
+      maps: [ future-time-clauses ],
+    }
+  - {
+      ref: "I-S17.3",
+      item: "Intermediate S17: using certain conjunctions: so that, as long as, until etc",
+      maps: [ purpose-clauses, as-long-as, time-clauses-full ],
+    }
+  - {
+      ref: "I-S17.4",
+      item: "Intermediate S17: leaving out that (She knew I was right)",
+      maps: [ that-omission ],
+      suggest:
+        {
+          title: "Leaving out that (I think she's right; I'm glad you came)",
+          level: B1,
+          lesson: "b1-26",
+        },
+    }
+  - {
+      ref: "I-S17.5",
+      item: "Intermediate S17: both ... and; (n)either ... (n)or",
+      maps: [ both-and, either-or-neither-nor ],
+    }
+  - {
+      ref: "I-S17.6",
+      item: "Intermediate S17: perfect for completion (when I've finished)",
+      maps: [ future-time-clauses ],
+    }
+  - {
+      ref: "I-S17.7",
+      item: "Intermediate S17: tenses with since and for (since we were students)",
+      maps: [ since-past-simple ],
+    }
+  - {
+      ref: "I-S17.8",
+      item: "Intermediate S17: conjunction + -ing or -ed (after talking to you; until cooked)",
+      maps: [ conjunction-ing, verbless-clauses ],
+    }
+  - {
+      ref: "I-S17.9",
+      item: "Intermediate S17: clauses without conjunctions (Putting down my book ...)",
+      maps: [ participle-clauses ],
+    }
+  - {
+      ref: "I-S18.1",
+      item: "Intermediate S18 if etc: revise the basics: ordinary tense use",
+      maps: [ zero-conditional, first-conditional ],
+    }
+  - {
+      ref: "I-S18.2",
+      item: "Intermediate S18: revise the basics: If I had a million dollars ...",
+      maps: [ second-conditional ],
+    }
+  - {
+      ref: "I-S18.3",
+      item: "Intermediate S18: revise the basics: if I go and if I went",
+      maps: [ first-vs-second ],
+    }
+  - {
+      ref: "I-S18.4",
+      item: "Intermediate S18: could = 'would be able to' (We could go cycling if ...)",
+      maps: [ modals-conditional-main ],
+      suggest:
+        {
+          title: "Modals in conditional main clauses (could, might, should)",
+          level: B1,
+          lesson: "b1-23",
+        },
+    }
+  - {
+      ref: "I-S18.5",
+      item: "Intermediate S18: unreal past situations (If Jane hadn't helped me ...)",
+      maps: [ third-conditional ],
+    }
+  - {
+      ref: "I-S18.6",
+      item: "Intermediate S18: unless (Come tonight unless I phone)",
+      maps: [ unless ],
+    }
+  - {
+      ref: "I-S18.7",
+      item: "Intermediate S18: if only and wish: tenses",
+      maps: [ if-only-intro, wish-past, wish-past-perfect ],
+    }
+  - {
+      ref: "I-S18.8",
+      item: "Intermediate S18: in case (I'm taking my umbrella in case it rains)",
+      maps: [ in-case ],
+    }
+  - {
+      ref: "I-S18.9",
+      item: "Intermediate S18: it's time and I'd rather: tenses",
+      maps: [ its-time-past, would-rather-past ],
+    }
+  - {
+      ref: "I-S19.1",
+      item: "Intermediate S19 relatives: revise the basics: who(m), which and that",
+      maps: [ relative-who-which-that, that-vs-which ],
+    }
+  - {
+      ref: "I-S19.2",
+      item: "Intermediate S19: revise the basics: leaving out relative pronouns",
+      maps: [ omit-relative ],
+    }
+  - {
+      ref: "I-S19.3",
+      item: "Intermediate S19: what = 'the thing(s) that' (Take what you like)",
+      maps: [ nominal-what ],
+    }
+  - {
+      ref: "I-S19.4",
+      item: "Intermediate S19: whose (a girl whose beauty ...)",
+      maps: [ relative-whose-when ],
+    }
+  - {
+      ref: "I-S19.5",
+      item: "Intermediate S19: prepositions in relative clauses (the girl I was talking about)",
+      maps: [ preposition-relative ],
+    }
+  - {
+      ref: "I-S19.6",
+      item: "Intermediate S19: reduced relative clauses (luggage left unattended)",
+      maps: [ reduced-relative ],
+    }
+  - {
+      ref: "I-S19.7",
+      item: "Intermediate S19: non-identifying relative clauses (Kelly, who does my hair, ...)",
+      maps: [ defining-nondefining, comma-nondefining ],
+    }
+  - {
+      ref: "I-S19.8",
+      item: "Intermediate S19: reading sentences with relative clauses",
+      maps: [ dense-noun-phrases ],
+    }
+  - {
+      ref: "I-S20.1",
+      item: "Intermediate S20 indirect speech: revise the basics: why things change; 'here' and 'now' words",
+      maps: [ reported-changes ],
+    }
+  - {
+      ref: "I-S20.2",
+      item: "Intermediate S20: revise the basics: tenses",
+      maps: [ backshift ],
+    }
+  - {
+      ref: "I-S20.3",
+      item: "Intermediate S20: present situations (He proved that the earth is/was round)",
+      maps: [ no-backshift ],
+    }
+  - {
+      ref: "I-S20.4",
+      item: "Intermediate S20: revise the basics: indirect questions",
+      maps: [ reported-questions, reported-if-whether ],
+    }
+  - {
+      ref: "I-S20.5",
+      item: "Intermediate S20: revise the basics: infinitives (He promised to write)",
+      maps: [ reported-commands, reporting-verbs-patterns ],
+    }
+  - {
+      ref: "I-S20.6",
+      item: "Intermediate S20: indirect speech: special cases (He said I'd better go)",
+      maps: [ reported-modals ],
+    }
+  - {
+      ref: "I-S21.1",
+      item: "Intermediate S21 prepositions: revise the basics: time",
+      maps: [ time-at-on-in ],
+    }
+  - {
+      ref: "I-S21.2",
+      item: "Intermediate S21: revise the basics: place and movement",
+      maps: [ place-in-on-at, movement ],
+    }
+  - {
+      ref: "I-S21.3",
+      item: "Intermediate S21: some preposition choices",
+      maps: [ prep-phrases, between-among, by-with ],
+    }
+  - {
+      ref: "I-S21.4",
+      item: "Intermediate S21: verbs with prepositions (Look at her)",
+      maps: [ verb-prep-1, prepositional-verbs ],
+    }
+  - {
+      ref: "I-S21.5",
+      item: "Intermediate S21: nouns with prepositions (lack of sleep)",
+      maps: [ noun-prep ],
+    }
+  - {
+      ref: "I-S21.6",
+      item: "Intermediate S21: adjectives with prepositions (full of water)",
+      maps: [ adj-prep-1 ],
+    }
+  - {
+      ref: "I-S21.7",
+      item: "Intermediate S21: expressions beginning with prepositions (at a party)",
+      maps: [ prep-phrases ],
+    }
+  - {
+      ref: "I-S22.1",
+      item: "Intermediate S22 spoken grammar: spoken sentence structure (It's difficult, the exam)",
+      maps: [ heads-tails ],
+    }
+  - {
+      ref: "I-S22.2",
+      item: "Intermediate S22: dropping sentence beginnings",
+      maps: [ spoken-ellipsis ],
+    }
+  - {
+      ref: "I-S22.3",
+      item: "Intermediate S22: dropping words after auxiliaries ('Get up!' 'I am!')",
+      maps: [ auxiliary-ellipsis ],
+    }
+  - {
+      ref: "I-S22.4",
+      item: "Intermediate S22: revise the basics: question tags",
+      maps: [ question-tags ],
+    }
+  - {
+      ref: "I-S22.5",
+      item: "Intermediate S22: more about question tags (Nobody phoned, did they?)",
+      maps: [ special-tags, tags-checking-asking ],
+    }
+  - {
+      ref: "I-S22.6",
+      item: "Intermediate S22: revise the basics: short answers and reply questions",
+      maps: [ be-short-answers, echo-reply-questions ],
+    }
+  - {
+      ref: "I-S22.7",
+      item: "Intermediate S22: revise the basics: so am I etc",
+      maps: [ so-neither-do-i ],
+    }
+  - {
+      ref: "I-S22.8",
+      item: "Intermediate S22: structures with so and not (I (don't) think so; I hope so/not)",
+      maps: [ think-so-hope-not, substitution-suppose-so ],
+    }
+  - {
+      ref: "A-S1.1",
+      item: "Advanced S1 basic sentence types: questions: revise the basics",
+      maps: [ question-word-order, subject-questions, object-questions ],
+    }
+  - {
+      ref: "A-S1.2",
+      item: "Advanced S1: negatives: revise the basics",
+      maps: [ negative-words, one-negative ],
+    }
+  - {
+      ref: "A-S1.3",
+      item: "Advanced S1: not and no",
+      maps: [ no-vs-not-a, not-any-vs-no ],
+    }
+  - {
+      ref: "A-S1.4",
+      item: "Advanced S1: negative questions",
+      maps: [ negative-questions-basic, negative-surprise ],
+    }
+  - {
+      ref: "A-S1.5",
+      item: "Advanced S1: more about negatives",
+      maps: [ transferred-negation, barely-scarcely, scope-negation ],
+    }
+  - {
+      ref: "A-S1.6",
+      item: "Advanced S1: imperatives",
+      maps: [ imperatives, always-never-imperative ],
+    }
   - { ref: "A-S1.7", item: "Advanced S1: let's; let me etc", maps: [ lets ] }
-  - { ref: "A-S1.8", item: "Advanced S1: exclamations: revise the basics", maps: [ exclamations, so-such-exclamations ] }
-  - { ref: "A-S2.1", item: "Advanced S2 be, have and do: be: progressive forms (first half of 'be: progressive forms; do be')", maps: [ be-being ] }
-  - { ref: "A-S2.2", item: "Advanced S2: do be (Do be careful; second half of 'be: progressive forms; do be')", maps: [ emphatic-imperative ], suggest: { title: "Emphatic imperative with do (Do be careful; Do sit down)", level: B2, lesson: "b2-45" } }
-  - { ref: "A-S2.3", item: "Advanced S2: there is: revise the basics", maps: [ there-is-are ] }
-  - { ref: "A-S2.4", item: "Advanced S2: there is: more complex structures", maps: [ there-tenses, existential-variants, there-seems ] }
-  - { ref: "A-S2.5", item: "Advanced S2: have: revise the basics", maps: [ have-possession, have-got ] }
+  - {
+      ref: "A-S1.8",
+      item: "Advanced S1: exclamations: revise the basics",
+      maps: [ exclamations, so-such-exclamations ],
+    }
+  - {
+      ref: "A-S2.1",
+      item: "Advanced S2 be, have and do: be: progressive forms (first half of 'be: progressive forms; do be')",
+      maps: [ be-being ],
+    }
+  - {
+      ref: "A-S2.2",
+      item: "Advanced S2: do be (Do be careful; second half of 'be: progressive forms; do be')",
+      maps: [ emphatic-imperative ],
+      suggest:
+        {
+          title: "Emphatic imperative with do (Do be careful; Do sit down)",
+          level: B2,
+          lesson: "b2-45",
+        },
+    }
+  - {
+      ref: "A-S2.3",
+      item: "Advanced S2: there is: revise the basics",
+      maps: [ there-is-are ],
+    }
+  - {
+      ref: "A-S2.4",
+      item: "Advanced S2: there is: more complex structures",
+      maps: [ there-tenses, existential-variants, there-seems ],
+    }
+  - {
+      ref: "A-S2.5",
+      item: "Advanced S2: have: revise the basics",
+      maps: [ have-possession, have-got ],
+    }
   - { ref: "A-S2.6", item: "Advanced S2: do: emphasis", maps: [ emphatic-do ] }
-  - { ref: "A-S3.1", item: "Advanced S3 present and future: present tenses: revise the basics", maps: [ simple-vs-continuous ] }
-  - { ref: "A-S3.2", item: "Advanced S3: instructions, commentaries, stories", maps: [ historic-present, notes-instructions ] }
-  - { ref: "A-S3.3", item: "Advanced S3: more about present tenses", maps: [ i-hear-that, always-ing, present-simple-timetable ] }
-  - { ref: "A-S3.4", item: "Advanced S3: non-progressive verbs", maps: [ stative-verbs, stative-dynamic-meanings, stative-progressive ] }
-  - { ref: "A-S3.5", item: "Advanced S3: future: revise the basics: will, going to or present progressive?", maps: [ futures-compared ] }
-  - { ref: "A-S3.6", item: "Advanced S3: more about the present progressive, going to and will", maps: [ futures-compared, will-predictions ] }
-  - { ref: "A-S3.7", item: "Advanced S3: be + infinitive (I am to ... etc)", maps: [ be-to-infinitive ] }
-  - { ref: "A-S3.8", item: "Advanced S3: future progressive", maps: [ future-continuous-intro, future-continuous-full ] }
-  - { ref: "A-S3.9", item: "Advanced S3: future perfect", maps: [ future-perfect ] }
-  - { ref: "A-S3.10", item: "Advanced S3: future in the past", maps: [ future-in-past, was-to ] }
-  - { ref: "A-S4.1", item: "Advanced S4 past and perfect tenses: simple past and past progressive: revise the basics", maps: [ past-simple-vs-continuous ] }
-  - { ref: "A-S4.2", item: "Advanced S4: present perfect and simple past: revise the basics", maps: [ pp-vs-past ] }
-  - { ref: "A-S4.3", item: "Advanced S4: present perfect progressive: revise the basics", maps: [ ppc-form, ppc-duration ] }
-  - { ref: "A-S4.4", item: "Advanced S4: simple past and present perfect: summary", maps: [ pp-vs-past ] }
-  - { ref: "A-S4.5", item: "Advanced S4: more about simple past and past progressive", maps: [ narrative-tenses, distancing-past ] }
-  - { ref: "A-S4.6", item: "Advanced S4: more about the present perfect", maps: [ news-perfect-past, perfect-progressive-nuance ] }
-  - { ref: "A-S4.7", item: "Advanced S4: more about the present perfect progressive", maps: [ ppc-vs-pp ] }
-  - { ref: "A-S4.8", item: "Advanced S4: past perfect: revise the basics", maps: [ past-perfect ] }
-  - { ref: "A-S4.9", item: "Advanced S4: more about the past perfect: time conjunctions", maps: [ past-perfect-sequence ] }
-  - { ref: "A-S4.10", item: "Advanced S4: past perfect progressive", maps: [ past-perfect-continuous ] }
-  - { ref: "A-S4.11", item: "Advanced S4: this is the first time etc", maps: [ first-time ] }
-  - { ref: "A-S5.1", item: "Advanced S5 modal verbs: modals: revise the basics", maps: [ modal-grammar ] }
-  - { ref: "A-S5.2", item: "Advanced S5: ability: can and could", maps: [ can-ability, could-past-ability, managed-to ] }
-  - { ref: "A-S5.3", item: "Advanced S5: permission: can, could, may and might", maps: [ can-permission-requests, could-may-requests ] }
-  - { ref: "A-S5.4", item: "Advanced S5: obligation: must and have (got) to", maps: [ must-have-to, have-got-to ] }
-  - { ref: "A-S5.5", item: "Advanced S5: obligation: should and ought to", maps: [ should-advice, ought-to ] }
-  - { ref: "A-S5.6", item: "Advanced S5: certainty: must, can't, will, should", maps: [ deduction-present, will-assumption, should-expectation ] }
-  - { ref: "A-S5.7", item: "Advanced S5: probability and possibility: may, might, can, could", maps: [ may-might-possibility, may-well ] }
-  - { ref: "A-S5.8", item: "Advanced S5: may have gone, should have told etc", maps: [ deduction-past, should-have, could-have, neednt-have ] }
-  - { ref: "A-S5.9", item: "Advanced S5: had better; be supposed to", maps: [ had-better, supposed-to ] }
-  - { ref: "A-S5.10", item: "Advanced S5: will and would: willingness; typical behaviour", maps: [ would-characteristic, will-habits, wont-refusal ] }
-  - { ref: "A-S5.11", item: "Advanced S5: used to", maps: [ used-to, would-vs-used-to ] }
-  - { ref: "A-S5.12", item: "Advanced S5: need", maps: [ need-modal, need-neednt ] }
-  - { ref: "A-S6.1", item: "Advanced S6 passives: revise the basics", maps: [ passive-form, passive-present-past ] }
-  - { ref: "A-S6.2", item: "Advanced S6: reasons for using passives", maps: [ passive-why, choosing-voice ] }
-  - { ref: "A-S6.3", item: "Advanced S6: complex passive structures", maps: [ passive-continuous, passive-two-objects, passive-phrasal, get-passive ] }
-  - { ref: "A-S6.4", item: "Advanced S6: other advanced points", maps: [ impersonal-passive-full, perception-passive, stative-dynamic-passive ] }
-  - { ref: "A-S7.1", item: "Advanced S7 infinitives and -ing forms: perfect infinitives and -ing forms", maps: [ perfect-infinitive, perfect-gerund ] }
-  - { ref: "A-S7.2", item: "Advanced S7: infinitive without to", maps: [ make-let-help, perception-base-ing ] }
+  - {
+      ref: "A-S3.1",
+      item: "Advanced S3 present and future: present tenses: revise the basics",
+      maps: [ simple-vs-continuous ],
+    }
+  - {
+      ref: "A-S3.2",
+      item: "Advanced S3: instructions, commentaries, stories",
+      maps: [ historic-present, notes-instructions ],
+    }
+  - {
+      ref: "A-S3.3",
+      item: "Advanced S3: more about present tenses",
+      maps: [ i-hear-that, always-ing, present-simple-timetable ],
+    }
+  - {
+      ref: "A-S3.4",
+      item: "Advanced S3: non-progressive verbs",
+      maps: [ stative-verbs, stative-dynamic-meanings, stative-progressive ],
+    }
+  - {
+      ref: "A-S3.5",
+      item: "Advanced S3: future: revise the basics: will, going to or present progressive?",
+      maps: [ futures-compared ],
+    }
+  - {
+      ref: "A-S3.6",
+      item: "Advanced S3: more about the present progressive, going to and will",
+      maps: [ futures-compared, will-predictions ],
+    }
+  - {
+      ref: "A-S3.7",
+      item: "Advanced S3: be + infinitive (I am to ... etc)",
+      maps: [ be-to-infinitive ],
+    }
+  - {
+      ref: "A-S3.8",
+      item: "Advanced S3: future progressive",
+      maps: [ future-continuous-intro, future-continuous-full ],
+    }
+  - {
+      ref: "A-S3.9",
+      item: "Advanced S3: future perfect",
+      maps: [ future-perfect ],
+    }
+  - {
+      ref: "A-S3.10",
+      item: "Advanced S3: future in the past",
+      maps: [ future-in-past, was-to ],
+    }
+  - {
+      ref: "A-S4.1",
+      item: "Advanced S4 past and perfect tenses: simple past and past progressive: revise the basics",
+      maps: [ past-simple-vs-continuous ],
+    }
+  - {
+      ref: "A-S4.2",
+      item: "Advanced S4: present perfect and simple past: revise the basics",
+      maps: [ pp-vs-past ],
+    }
+  - {
+      ref: "A-S4.3",
+      item: "Advanced S4: present perfect progressive: revise the basics",
+      maps: [ ppc-form, ppc-duration ],
+    }
+  - {
+      ref: "A-S4.4",
+      item: "Advanced S4: simple past and present perfect: summary",
+      maps: [ pp-vs-past ],
+    }
+  - {
+      ref: "A-S4.5",
+      item: "Advanced S4: more about simple past and past progressive",
+      maps: [ narrative-tenses, distancing-past ],
+    }
+  - {
+      ref: "A-S4.6",
+      item: "Advanced S4: more about the present perfect",
+      maps: [ news-perfect-past, perfect-progressive-nuance ],
+    }
+  - {
+      ref: "A-S4.7",
+      item: "Advanced S4: more about the present perfect progressive",
+      maps: [ ppc-vs-pp ],
+    }
+  - {
+      ref: "A-S4.8",
+      item: "Advanced S4: past perfect: revise the basics",
+      maps: [ past-perfect ],
+    }
+  - {
+      ref: "A-S4.9",
+      item: "Advanced S4: more about the past perfect: time conjunctions",
+      maps: [ past-perfect-sequence ],
+    }
+  - {
+      ref: "A-S4.10",
+      item: "Advanced S4: past perfect progressive",
+      maps: [ past-perfect-continuous ],
+    }
+  - {
+      ref: "A-S4.11",
+      item: "Advanced S4: this is the first time etc",
+      maps: [ first-time ],
+    }
+  - {
+      ref: "A-S5.1",
+      item: "Advanced S5 modal verbs: modals: revise the basics",
+      maps: [ modal-grammar ],
+    }
+  - {
+      ref: "A-S5.2",
+      item: "Advanced S5: ability: can and could",
+      maps: [ can-ability, could-past-ability, managed-to ],
+    }
+  - {
+      ref: "A-S5.3",
+      item: "Advanced S5: permission: can, could, may and might",
+      maps: [ can-permission-requests, could-may-requests ],
+    }
+  - {
+      ref: "A-S5.4",
+      item: "Advanced S5: obligation: must and have (got) to",
+      maps: [ must-have-to, have-got-to ],
+    }
+  - {
+      ref: "A-S5.5",
+      item: "Advanced S5: obligation: should and ought to",
+      maps: [ should-advice, ought-to ],
+    }
+  - {
+      ref: "A-S5.6",
+      item: "Advanced S5: certainty: must, can't, will, should",
+      maps: [ deduction-present, will-assumption, should-expectation ],
+    }
+  - {
+      ref: "A-S5.7",
+      item: "Advanced S5: probability and possibility: may, might, can, could",
+      maps: [ may-might-possibility, may-well ],
+    }
+  - {
+      ref: "A-S5.8",
+      item: "Advanced S5: may have gone, should have told etc",
+      maps: [ deduction-past, should-have, could-have, neednt-have ],
+    }
+  - {
+      ref: "A-S5.9",
+      item: "Advanced S5: had better; be supposed to",
+      maps: [ had-better, supposed-to ],
+    }
+  - {
+      ref: "A-S5.10",
+      item: "Advanced S5: will and would: willingness; typical behaviour",
+      maps: [ would-characteristic, will-habits, wont-refusal ],
+    }
+  - {
+      ref: "A-S5.11",
+      item: "Advanced S5: used to",
+      maps: [ used-to, would-vs-used-to ],
+    }
+  - {
+      ref: "A-S5.12",
+      item: "Advanced S5: need",
+      maps: [ need-modal, need-neednt ],
+    }
+  - {
+      ref: "A-S6.1",
+      item: "Advanced S6 passives: revise the basics",
+      maps: [ passive-form, passive-present-past ],
+    }
+  - {
+      ref: "A-S6.2",
+      item: "Advanced S6: reasons for using passives",
+      maps: [ passive-why, choosing-voice ],
+    }
+  - {
+      ref: "A-S6.3",
+      item: "Advanced S6: complex passive structures",
+      maps:
+        [
+          passive-continuous,
+          passive-two-objects,
+          passive-phrasal,
+          get-passive,
+        ],
+    }
+  - {
+      ref: "A-S6.4",
+      item: "Advanced S6: other advanced points",
+      maps:
+        [
+          impersonal-passive-full,
+          perception-passive,
+          stative-dynamic-passive,
+        ],
+    }
+  - {
+      ref: "A-S7.1",
+      item: "Advanced S7 infinitives and -ing forms: perfect infinitives and -ing forms",
+      maps: [ perfect-infinitive, perfect-gerund ],
+    }
+  - {
+      ref: "A-S7.2",
+      item: "Advanced S7: infinitive without to",
+      maps: [ make-let-help, perception-base-ing ],
+    }
   - { ref: "A-S7.3", item: "Advanced S7: verb + infinitive", maps: [ verb-to ] }
-  - { ref: "A-S7.4", item: "Advanced S7: verb + -ing form", maps: [ verb-ing, fixed-ing-expressions, difficulty-spend ] }
-  - { ref: "A-S7.5", item: "Advanced S7: verb + object + infinitive or -ing form", maps: [ verb-object-to, perception-base-ing ] }
-  - { ref: "A-S7.6", item: "Advanced S7: infinitive and -ing form both possible", maps: [ same-meaning-verbs, ing-to-meaning-change ] }
-  - { ref: "A-S7.7", item: "Advanced S7: phone calls to make; nothing to eat", maps: [ noun-to ] }
-  - { ref: "A-S7.8", item: "Advanced S7: infinitive with its own subject: for ... to ...", maps: [ for-object-to ] }
-  - { ref: "A-S7.9", item: "Advanced S7: to ... -ing", maps: [ to-preposition ] }
-  - { ref: "A-S7.10", item: "Advanced S7: determiners with -ing forms: my speaking etc", maps: [ possessive-gerund ] }
-  - { ref: "A-S8.1", item: "Advanced S8 various structures with verbs: verbs with object + adjective/noun complement", maps: [ object-complement ] }
-  - { ref: "A-S8.2", item: "Advanced S8: revise the basics: verbs with prepositions and adverb particles", maps: [ prepositional-verbs, phrasal-verbs-intro ] }
-  - { ref: "A-S8.3", item: "Advanced S8: more about prepositional verbs", maps: [ verb-obj-prep, three-part-phrasal ] }
-  - { ref: "A-S8.4", item: "Advanced S8: more about phrasal verbs", maps: [ phrasal-separable, passive-phrasal ] }
-  - { ref: "A-S8.5", item: "Advanced S8: verbs with two objects", maps: [ two-objects, two-objects-to-for ] }
-  - { ref: "A-S8.6", item: "Advanced S8: some causative structures with have, get and make", maps: [ have-something-done, have-sb-do, make-sb-do ] }
-  - { ref: "A-S9.1", item: "Advanced S9 nouns and pronouns: countable and uncountable", maps: [ dual-countability, countable-uncountable ] }
-  - { ref: "A-S9.2", item: "Advanced S9: mixed singular and plural", maps: [ collective-agreement, plural-verb-nouns ] }
-  - { ref: "A-S9.3", item: "Advanced S9: noun + noun or preposition structure", maps: [ compound-nouns, possessive-of ] }
-  - { ref: "A-S9.4", item: "Advanced S9: possessive structure or other structure", maps: [ possessive-of, time-possessive ] }
-  - { ref: "A-S9.5", item: "Advanced S9: nouns for activities: using have, make, do etc", maps: [ delexical-verbs ] }
-  - { ref: "A-S9.6", item: "Advanced S9: a note on gender: he, she or it?", maps: [ he-she-it, gender-neutral-nouns ] }
-  - { ref: "A-S9.7", item: "Advanced S9: structures after nouns", maps: [ noun-phrase-postmod, noun-to ] }
-  - { ref: "A-S9.8", item: "Advanced S9: personal pronouns", maps: [ pronoun-case ] }
-  - { ref: "A-S9.9", item: "Advanced S9: reflexives (myself etc); each other / one another", maps: [ reflexive-pronouns, each-other ] }
-  - { ref: "A-S9.10", item: "Advanced S9: one, you and they (general meaning)", maps: [ generic-you-one ] }
-  - { ref: "A-S9.11", item: "Advanced S9: singular they", maps: [ singular-they ] }
+  - {
+      ref: "A-S7.4",
+      item: "Advanced S7: verb + -ing form",
+      maps: [ verb-ing, fixed-ing-expressions, difficulty-spend ],
+    }
+  - {
+      ref: "A-S7.5",
+      item: "Advanced S7: verb + object + infinitive or -ing form",
+      maps: [ verb-object-to, perception-base-ing ],
+    }
+  - {
+      ref: "A-S7.6",
+      item: "Advanced S7: infinitive and -ing form both possible",
+      maps: [ same-meaning-verbs, ing-to-meaning-change ],
+    }
+  - {
+      ref: "A-S7.7",
+      item: "Advanced S7: phone calls to make; nothing to eat",
+      maps: [ noun-to ],
+    }
+  - {
+      ref: "A-S7.8",
+      item: "Advanced S7: infinitive with its own subject: for ... to ...",
+      maps: [ for-object-to ],
+    }
+  - {
+      ref: "A-S7.9",
+      item: "Advanced S7: to ... -ing",
+      maps: [ to-preposition ],
+    }
+  - {
+      ref: "A-S7.10",
+      item: "Advanced S7: determiners with -ing forms: my speaking etc",
+      maps: [ possessive-gerund ],
+    }
+  - {
+      ref: "A-S8.1",
+      item: "Advanced S8 various structures with verbs: verbs with object + adjective/noun complement",
+      maps: [ object-complement ],
+    }
+  - {
+      ref: "A-S8.2",
+      item: "Advanced S8: revise the basics: verbs with prepositions and adverb particles",
+      maps: [ prepositional-verbs, phrasal-verbs-intro ],
+    }
+  - {
+      ref: "A-S8.3",
+      item: "Advanced S8: more about prepositional verbs",
+      maps: [ verb-obj-prep, three-part-phrasal ],
+    }
+  - {
+      ref: "A-S8.4",
+      item: "Advanced S8: more about phrasal verbs",
+      maps: [ phrasal-separable, passive-phrasal ],
+    }
+  - {
+      ref: "A-S8.5",
+      item: "Advanced S8: verbs with two objects",
+      maps: [ two-objects, two-objects-to-for ],
+    }
+  - {
+      ref: "A-S8.6",
+      item: "Advanced S8: some causative structures with have, get and make",
+      maps: [ have-something-done, have-sb-do, make-sb-do ],
+    }
+  - {
+      ref: "A-S9.1",
+      item: "Advanced S9 nouns and pronouns: countable and uncountable",
+      maps: [ dual-countability, countable-uncountable ],
+    }
+  - {
+      ref: "A-S9.2",
+      item: "Advanced S9: mixed singular and plural",
+      maps: [ collective-agreement, plural-verb-nouns ],
+    }
+  - {
+      ref: "A-S9.3",
+      item: "Advanced S9: noun + noun or preposition structure",
+      maps: [ compound-nouns, possessive-of ],
+    }
+  - {
+      ref: "A-S9.4",
+      item: "Advanced S9: possessive structure or other structure",
+      maps: [ possessive-of, time-possessive ],
+    }
+  - {
+      ref: "A-S9.5",
+      item: "Advanced S9: nouns for activities: using have, make, do etc",
+      maps: [ delexical-verbs ],
+    }
+  - {
+      ref: "A-S9.6",
+      item: "Advanced S9: a note on gender: he, she or it?",
+      maps: [ he-she-it, gender-neutral-nouns ],
+    }
+  - {
+      ref: "A-S9.7",
+      item: "Advanced S9: structures after nouns",
+      maps: [ noun-phrase-postmod, noun-to ],
+    }
+  - {
+      ref: "A-S9.8",
+      item: "Advanced S9: personal pronouns",
+      maps: [ pronoun-case ],
+    }
+  - {
+      ref: "A-S9.9",
+      item: "Advanced S9: reflexives (myself etc); each other / one another",
+      maps: [ reflexive-pronouns, each-other ],
+    }
+  - {
+      ref: "A-S9.10",
+      item: "Advanced S9: one, you and they (general meaning)",
+      maps: [ generic-you-one ],
+    }
+  - {
+      ref: "A-S9.11",
+      item: "Advanced S9: singular they",
+      maps: [ singular-they ],
+    }
   - { ref: "A-S9.12", item: "Advanced S9: one(s)", maps: [ one-ones ] }
-  - { ref: "A-S10.1", item: "Advanced S10 determiners (1): articles: revise the basics", maps: [ a-an-sound, the-specific, the-vs-zero ] }
-  - { ref: "A-S10.2", item: "Advanced S10: more about generalising with a/an and the", maps: [ generic-reference, abstract-articles ] }
-  - { ref: "A-S10.3", item: "Advanced S10: articles: other points", maps: [ zero-article-fixed, articles-names, institutions ] }
-  - { ref: "A-S10.4", item: "Advanced S10: demonstratives: this, that, these, those", maps: [ demonstratives, it-this-that-reference ] }
-  - { ref: "A-S10.5", item: "Advanced S10: possessives: my, mine etc", maps: [ possessive-adjectives, possessive-pronouns, double-possessive ] }
-  - { ref: "A-S11.1", item: "Advanced S11 determiners (2): quantifiers: all; whole and all; both", maps: [ all-both-basic, both-all-whole ] }
-  - { ref: "A-S11.2", item: "Advanced S11: either and neither; every and each", maps: [ either-neither, each-every-full ] }
-  - { ref: "A-S11.3", item: "Advanced S11: some, any, no, none: revise the basics; some/any or no article; more about some; more about any and no", maps: [ some-any-basic, no-none, any-whichever, any-whatever, some-any-offers ] }
-  - { ref: "A-S11.4", item: "Advanced S11: much, many, more and most", maps: [ much-many, most-of ] }
-  - { ref: "A-S11.5", item: "Advanced S11: little, few, less, fewer, least and fewest; enough", maps: [ few-a-few, fewer-less, less-least, too-enough ] }
-  - { ref: "A-S11.6", item: "Advanced S11: quantifying phrases; of with quantifiers", maps: [ great-deal, quite-a-few, most-of ] }
-  - { ref: "A-S12.1", item: "Advanced S12 adjectives, adverbs and comparison: adjective or adverb?", maps: [ adjective-vs-adverb ] }
-  - { ref: "A-S12.2", item: "Advanced S12: adjectives: order; position of adjectives", maps: [ adjective-order-full, predicative-only, attributive-only ] }
-  - { ref: "A-S12.3", item: "Advanced S12: participles used as adjectives; adjectives without nouns", maps: [ ed-ing-adjectives, the-adjective-group ] }
-  - { ref: "A-S12.4", item: "Advanced S12: structures after adjectives", maps: [ adjective-prep-that-to, adjective-to ] }
-  - { ref: "A-S12.5", item: "Advanced S12: adverb position (1) and (2): with the verb", maps: [ adverb-positions, frequency-position, focus-adverbs ] }
-  - { ref: "A-S12.6", item: "Advanced S12: comparison: as ... as; -er and -est or more and most?", maps: [ as-as, comparatives-short, comparatives-long ] }
-  - { ref: "A-S12.7", item: "Advanced S12: double comparative structures; more about comparatives", maps: [ more-and-more, the-the-intro, much-far-comparative ] }
-  - { ref: "A-S12.8", item: "Advanced S12: more about superlatives", maps: [ superlatives, by-far ] }
-  - { ref: "A-S12.9", item: "Advanced S12: much in affirmative sentences?", maps: [ much-many ] }
-  - { ref: "A-S12.10", item: "Advanced S12: such and so; like and as", maps: [ so-such, like-as ] }
-  - { ref: "A-S13.1", item: "Advanced S13 prepositions: time; in and on (place); at (place and movement): revise the basics", maps: [ time-at-on-in, place-in-on-at, movement ] }
-  - { ref: "A-S13.2", item: "Advanced S13: prepositions with -ing forms", maps: [ ing-after-prepositions ] }
-  - { ref: "A-S13.3", item: "Advanced S13: end-position of prepositions", maps: [ preposition-end-questions, preposition-stranding ] }
-  - { ref: "A-S13.4", item: "Advanced S13: prepositions before conjunctions", maps: [ prep-before-that ], suggest: { title: "Prepositions before conjunctions and that-clauses (depending on whether...; sure (of) that...)", level: B2, lesson: "b2-41" } }
-  - { ref: "A-S13.5", item: "Advanced S13: six confusable prepositions; six more confusable prepositions", maps: [ prep-vs-conj, due-to-owing-to, except-besides, between-among, by-with ] }
-  - { ref: "A-S14.1", item: "Advanced S14 conjunctions, clauses and tenses: conjunctions: revise the basics; and and or", maps: [ and-but-or, because-so ] }
-  - { ref: "A-S14.2", item: "Advanced S14: double conjunctions: both ... and; (n)either ... (n)or", maps: [ both-and, either-or-neither-nor ] }
-  - { ref: "A-S14.3", item: "Advanced S14: tense simplification after conjunctions", maps: [ future-time-clauses ] }
-  - { ref: "A-S14.4", item: "Advanced S14: past tense with present or future meaning", maps: [ distancing-past, its-time-past, wish-past ] }
-  - { ref: "A-S15.1", item: "Advanced S15 adjective (relative) clauses: relatives: revise the basics", maps: [ relative-who-which-that, defining-relative-basic, omit-relative ] }
-  - { ref: "A-S15.2", item: "Advanced S15: identifying and non-identifying relative clauses", maps: [ defining-nondefining, comma-nondefining ] }
-  - { ref: "A-S15.3", item: "Advanced S15: reduced relative clauses", maps: [ reduced-relative ] }
-  - { ref: "A-S15.4", item: "Advanced S15: prepositions in relative clauses", maps: [ preposition-relative ] }
-  - { ref: "A-S15.5", item: "Advanced S15: relatives: other points", maps: [ whose-things, sentential-which, quantifier-relative, nominal-what ] }
-  - { ref: "A-S16.1", item: "Advanced S16 noun clauses: indirect speech: revise the basics; more about tenses; other points", maps: [ say-tell, backshift, no-backshift, reported-changes, reported-questions ] }
-  - { ref: "A-S16.2", item: "Advanced S16: verbs in that-clauses: subjunctives", maps: [ mandative-subjunctive ] }
-  - { ref: "A-S16.3", item: "Advanced S16: verbs in that-clauses: should", maps: [ should-subjunctive, putative-should ] }
-  - { ref: "A-S16.4", item: "Advanced S16: more about that-clauses", maps: [ that-clauses, the-fact-that, it-adj-that, clause-as-subject ] }
-  - { ref: "A-S16.5", item: "Advanced S16: more about question-word clauses", maps: [ wh-clauses, if-whether-clauses ] }
-  - { ref: "A-S16.6", item: "Advanced S16: preparatory it", maps: [ extraposition, preparatory-it-object ] }
-  - { ref: "A-S17.1", item: "Advanced S17 adverb clauses: if: how many 'conditionals'?", maps: [ first-conditional, second-conditional, third-conditional, mixed-past-present ] }
-  - { ref: "A-S17.2", item: "Advanced S17: if: revise the basics", maps: [ zero-conditional, first-conditional, second-conditional ] }
-  - { ref: "A-S17.3", item: "Advanced S17: unless; if and in case", maps: [ unless, in-case ] }
-  - { ref: "A-S17.4", item: "Advanced S17: if: more advanced points", maps: [ inverted-were, if-should, if-were-to, if-will-would, reduced-conditionals ] }
-  - { ref: "A-S17.5", item: "Advanced S17: if: informal structures", maps: [ implied-conditionals ] }
-  - { ref: "A-S17.6", item: "Advanced S17: notes on some conjunctions", maps: [ time-clauses-full, reason-clauses, purpose-clauses, contrast-although, despite-in-spite, as-if ] }
-  - { ref: "A-S17.7", item: "Advanced S17: whoever, whatever, wherever etc", maps: [ ever-clauses ] }
-  - { ref: "A-S17.8", item: "Advanced S17: participle clauses", maps: [ participle-clauses ] }
-  - { ref: "A-S17.9", item: "Advanced S17: after ... -ing, on ... -ing etc", maps: [ conjunction-ing ] }
-  - { ref: "A-S17.10", item: "Advanced S17: infinitive clauses", maps: [ infinitive-clauses ] }
-  - { ref: "A-P2.1", item: "Advanced Part 2 grammar beyond the sentence: information structure: what comes first?", maps: [ end-weight-focus, theme-rheme ] }
-  - { ref: "A-P2.2", item: "Advanced Part 2: information structure: getting the right subject", maps: [ passive-why, choosing-voice ] }
-  - { ref: "A-P2.3", item: "Advanced Part 2: pronoun problems", maps: [ ambiguous-pronouns, reference-chains ] }
-  - { ref: "A-P2.4", item: "Advanced Part 2: linking clauses with conjunctions and adverbs", maps: [ linkers-addition, linkers-contrast, linkers-result, linkers-punctuation ] }
-  - { ref: "A-P2.5", item: "Advanced Part 2: special word order: fronting", maps: [ fronting ] }
-  - { ref: "A-P2.6", item: "Advanced Part 2: special word order: inversion", maps: [ negative-inversion, place-inversion, so-such-inversion ] }
-  - { ref: "A-P2.7", item: "Advanced Part 2: emphasis: it ... that", maps: [ it-cleft ] }
-  - { ref: "A-P2.8", item: "Advanced Part 2: emphasis: what ... is/was", maps: [ wh-cleft ] }
-  - { ref: "A-P2.9", item: "Advanced Part 2: discourse markers", maps: [ discourse-writing, discourse-speech ] }
-  - { ref: "A-P2.10", item: "Advanced Part 2: reading complicated sentences", maps: [ dense-noun-phrases, garden-path, balance-embedding ] }
-  - { ref: "A-P2.11", item: "Advanced Part 2: complex noun phrases in writing", maps: [ noun-phrase-premod, noun-phrase-postmod, dense-noun-phrases ] }
-  - { ref: "A-P2.12", item: "Advanced Part 2: mixed structures", maps: [ parallelism, misplaced-modifiers, dangling-modifiers ] }
-  - { ref: "A-P2.13", item: "Advanced Part 2: ellipsis after auxiliaries", maps: [ auxiliary-ellipsis ] }
-  - { ref: "A-P2.14", item: "Advanced Part 2: ellipsis with infinitives", maps: [ ellipsis-to ] }
-  - { ref: "A-P2.15", item: "Advanced Part 2: ellipsis with so and not", maps: [ substitution-suppose-so ] }
-  - { ref: "A-P2.16", item: "Advanced Part 2: ellipsis after and, but and or", maps: [ comparison-ellipsis ] }
-  - { ref: "A-P2.17", item: "Advanced Part 2: ellipsis at the beginning of spoken sentences", maps: [ spoken-ellipsis ] }
-  - { ref: "A-P2.18", item: "Advanced Part 2: the structure of spoken sentences", maps: [ heads-tails ] }
-  - { ref: "A-P2.19", item: "Advanced Part 2: short answers, reply questions and question tags", maps: [ be-short-answers, echo-reply-questions, question-tags, special-tags ] }
-  - { ref: "A-P2.20", item: "Advanced Part 2: three kinds of spoken question (echo, rhetorical)", maps: [ echo-reply-questions, rhetorical-questions ] }
-  - { ref: "A-P2.20b", item: "Advanced Part 2: three kinds of spoken question (declarative questions)", maps: [ declarative-questions ], suggest: { title: "Declarative questions (You're leaving? / That's the boss?)", level: B1, lesson: "b1-01" } }
-  - { ref: "A-P2.21", item: "Advanced Part 2: politeness: using questions", maps: [ would-polite, would-you-mind, indirect-questions ] }
-  - { ref: "A-P2.22", item: "Advanced Part 2: politeness: being indirect", maps: [ politeness-grammar, distancing-past, tentative-forms ] }
-  - { ref: "A-P2.23", item: "Advanced Part 2: emphasis in speech: stress", outOfScope: "pronunciation (stress and intonation)" }
-  - { ref: "A-P2.24", item: "Advanced Part 2: repetition", maps: [ lexical-cohesion, redundant-pairs ] }
-  - { ref: "A-P2.25", item: "Advanced Part 2: abbreviated styles", maps: [ notes-instructions, messages ] }
-  - { ref: "A-P2.26", item: "Advanced Part 2: news headlines", maps: [ headline-grammar ] }
+  - {
+      ref: "A-S10.1",
+      item: "Advanced S10 determiners (1): articles: revise the basics",
+      maps: [ a-an-sound, the-specific, the-vs-zero ],
+    }
+  - {
+      ref: "A-S10.2",
+      item: "Advanced S10: more about generalising with a/an and the",
+      maps: [ generic-reference, abstract-articles ],
+    }
+  - {
+      ref: "A-S10.3",
+      item: "Advanced S10: articles: other points",
+      maps: [ zero-article-fixed, articles-names, institutions ],
+    }
+  - {
+      ref: "A-S10.4",
+      item: "Advanced S10: demonstratives: this, that, these, those",
+      maps: [ demonstratives, it-this-that-reference ],
+    }
+  - {
+      ref: "A-S10.5",
+      item: "Advanced S10: possessives: my, mine etc",
+      maps: [ possessive-adjectives, possessive-pronouns, double-possessive ],
+    }
+  - {
+      ref: "A-S11.1",
+      item: "Advanced S11 determiners (2): quantifiers: all; whole and all; both",
+      maps: [ all-both-basic, both-all-whole ],
+    }
+  - {
+      ref: "A-S11.2",
+      item: "Advanced S11: either and neither; every and each",
+      maps: [ either-neither, each-every-full ],
+    }
+  - {
+      ref: "A-S11.3",
+      item: "Advanced S11: some, any, no, none: revise the basics; some/any or no article; more about some; more about any and no",
+      maps:
+        [
+          some-any-basic,
+          no-none,
+          any-whichever,
+          any-whatever,
+          some-any-offers,
+        ],
+    }
+  - {
+      ref: "A-S11.4",
+      item: "Advanced S11: much, many, more and most",
+      maps: [ much-many, most-of ],
+    }
+  - {
+      ref: "A-S11.5",
+      item: "Advanced S11: little, few, less, fewer, least and fewest; enough",
+      maps: [ few-a-few, fewer-less, less-least, too-enough ],
+    }
+  - {
+      ref: "A-S11.6",
+      item: "Advanced S11: quantifying phrases; of with quantifiers",
+      maps: [ great-deal, quite-a-few, most-of ],
+    }
+  - {
+      ref: "A-S12.1",
+      item: "Advanced S12 adjectives, adverbs and comparison: adjective or adverb?",
+      maps: [ adjective-vs-adverb ],
+    }
+  - {
+      ref: "A-S12.2",
+      item: "Advanced S12: adjectives: order; position of adjectives",
+      maps: [ adjective-order-full, predicative-only, attributive-only ],
+    }
+  - {
+      ref: "A-S12.3",
+      item: "Advanced S12: participles used as adjectives; adjectives without nouns",
+      maps: [ ed-ing-adjectives, the-adjective-group ],
+    }
+  - {
+      ref: "A-S12.4",
+      item: "Advanced S12: structures after adjectives",
+      maps: [ adjective-prep-that-to, adjective-to ],
+    }
+  - {
+      ref: "A-S12.5",
+      item: "Advanced S12: adverb position (1) and (2): with the verb",
+      maps: [ adverb-positions, frequency-position, focus-adverbs ],
+    }
+  - {
+      ref: "A-S12.6",
+      item: "Advanced S12: comparison: as ... as; -er and -est or more and most?",
+      maps: [ as-as, comparatives-short, comparatives-long ],
+    }
+  - {
+      ref: "A-S12.7",
+      item: "Advanced S12: double comparative structures; more about comparatives",
+      maps: [ more-and-more, the-the-intro, much-far-comparative ],
+    }
+  - {
+      ref: "A-S12.8",
+      item: "Advanced S12: more about superlatives",
+      maps: [ superlatives, by-far ],
+    }
+  - {
+      ref: "A-S12.9",
+      item: "Advanced S12: much in affirmative sentences?",
+      maps: [ much-many ],
+    }
+  - {
+      ref: "A-S12.10",
+      item: "Advanced S12: such and so; like and as",
+      maps: [ so-such, like-as ],
+    }
+  - {
+      ref: "A-S13.1",
+      item: "Advanced S13 prepositions: time; in and on (place); at (place and movement): revise the basics",
+      maps: [ time-at-on-in, place-in-on-at, movement ],
+    }
+  - {
+      ref: "A-S13.2",
+      item: "Advanced S13: prepositions with -ing forms",
+      maps: [ ing-after-prepositions ],
+    }
+  - {
+      ref: "A-S13.3",
+      item: "Advanced S13: end-position of prepositions",
+      maps: [ preposition-end-questions, preposition-stranding ],
+    }
+  - {
+      ref: "A-S13.4",
+      item: "Advanced S13: prepositions before conjunctions",
+      maps: [ prep-before-that ],
+      suggest:
+        {
+          title: "Prepositions before conjunctions and that-clauses (depending on whether...; sure (of) that...)",
+          level: B2,
+          lesson: "b2-41",
+        },
+    }
+  - {
+      ref: "A-S13.5",
+      item: "Advanced S13: six confusable prepositions; six more confusable prepositions",
+      maps:
+        [
+          prep-vs-conj,
+          due-to-owing-to,
+          except-besides,
+          between-among,
+          by-with,
+        ],
+    }
+  - {
+      ref: "A-S14.1",
+      item: "Advanced S14 conjunctions, clauses and tenses: conjunctions: revise the basics; and and or",
+      maps: [ and-but-or, because-so ],
+    }
+  - {
+      ref: "A-S14.2",
+      item: "Advanced S14: double conjunctions: both ... and; (n)either ... (n)or",
+      maps: [ both-and, either-or-neither-nor ],
+    }
+  - {
+      ref: "A-S14.3",
+      item: "Advanced S14: tense simplification after conjunctions",
+      maps: [ future-time-clauses ],
+    }
+  - {
+      ref: "A-S14.4",
+      item: "Advanced S14: past tense with present or future meaning",
+      maps: [ distancing-past, its-time-past, wish-past ],
+    }
+  - {
+      ref: "A-S15.1",
+      item: "Advanced S15 adjective (relative) clauses: relatives: revise the basics",
+      maps: [ relative-who-which-that, defining-relative-basic, omit-relative ],
+    }
+  - {
+      ref: "A-S15.2",
+      item: "Advanced S15: identifying and non-identifying relative clauses",
+      maps: [ defining-nondefining, comma-nondefining ],
+    }
+  - {
+      ref: "A-S15.3",
+      item: "Advanced S15: reduced relative clauses",
+      maps: [ reduced-relative ],
+    }
+  - {
+      ref: "A-S15.4",
+      item: "Advanced S15: prepositions in relative clauses",
+      maps: [ preposition-relative ],
+    }
+  - {
+      ref: "A-S15.5",
+      item: "Advanced S15: relatives: other points",
+      maps:
+        [ whose-things, sentential-which, quantifier-relative, nominal-what ],
+    }
+  - {
+      ref: "A-S16.1",
+      item: "Advanced S16 noun clauses: indirect speech: revise the basics; more about tenses; other points",
+      maps:
+        [
+          say-tell,
+          backshift,
+          no-backshift,
+          reported-changes,
+          reported-questions,
+        ],
+    }
+  - {
+      ref: "A-S16.2",
+      item: "Advanced S16: verbs in that-clauses: subjunctives",
+      maps: [ mandative-subjunctive ],
+    }
+  - {
+      ref: "A-S16.3",
+      item: "Advanced S16: verbs in that-clauses: should",
+      maps: [ should-subjunctive, putative-should ],
+    }
+  - {
+      ref: "A-S16.4",
+      item: "Advanced S16: more about that-clauses",
+      maps: [ that-clauses, the-fact-that, it-adj-that, clause-as-subject ],
+    }
+  - {
+      ref: "A-S16.5",
+      item: "Advanced S16: more about question-word clauses",
+      maps: [ wh-clauses, if-whether-clauses ],
+    }
+  - {
+      ref: "A-S16.6",
+      item: "Advanced S16: preparatory it",
+      maps: [ extraposition, preparatory-it-object ],
+    }
+  - {
+      ref: "A-S17.1",
+      item: "Advanced S17 adverb clauses: if: how many 'conditionals'?",
+      maps:
+        [
+          first-conditional,
+          second-conditional,
+          third-conditional,
+          mixed-past-present,
+        ],
+    }
+  - {
+      ref: "A-S17.2",
+      item: "Advanced S17: if: revise the basics",
+      maps: [ zero-conditional, first-conditional, second-conditional ],
+    }
+  - {
+      ref: "A-S17.3",
+      item: "Advanced S17: unless; if and in case",
+      maps: [ unless, in-case ],
+    }
+  - {
+      ref: "A-S17.4",
+      item: "Advanced S17: if: more advanced points",
+      maps:
+        [
+          inverted-were,
+          if-should,
+          if-were-to,
+          if-will-would,
+          reduced-conditionals,
+        ],
+    }
+  - {
+      ref: "A-S17.5",
+      item: "Advanced S17: if: informal structures",
+      maps: [ implied-conditionals ],
+    }
+  - {
+      ref: "A-S17.6",
+      item: "Advanced S17: notes on some conjunctions",
+      maps:
+        [
+          time-clauses-full,
+          reason-clauses,
+          purpose-clauses,
+          contrast-although,
+          despite-in-spite,
+          as-if,
+        ],
+    }
+  - {
+      ref: "A-S17.7",
+      item: "Advanced S17: whoever, whatever, wherever etc",
+      maps: [ ever-clauses ],
+    }
+  - {
+      ref: "A-S17.8",
+      item: "Advanced S17: participle clauses",
+      maps: [ participle-clauses ],
+    }
+  - {
+      ref: "A-S17.9",
+      item: "Advanced S17: after ... -ing, on ... -ing etc",
+      maps: [ conjunction-ing ],
+    }
+  - {
+      ref: "A-S17.10",
+      item: "Advanced S17: infinitive clauses",
+      maps: [ infinitive-clauses ],
+    }
+  - {
+      ref: "A-P2.1",
+      item: "Advanced Part 2 grammar beyond the sentence: information structure: what comes first?",
+      maps: [ end-weight-focus, theme-rheme ],
+    }
+  - {
+      ref: "A-P2.2",
+      item: "Advanced Part 2: information structure: getting the right subject",
+      maps: [ passive-why, choosing-voice ],
+    }
+  - {
+      ref: "A-P2.3",
+      item: "Advanced Part 2: pronoun problems",
+      maps: [ ambiguous-pronouns, reference-chains ],
+    }
+  - {
+      ref: "A-P2.4",
+      item: "Advanced Part 2: linking clauses with conjunctions and adverbs",
+      maps:
+        [
+          linkers-addition,
+          linkers-contrast,
+          linkers-result,
+          linkers-punctuation,
+        ],
+    }
+  - {
+      ref: "A-P2.5",
+      item: "Advanced Part 2: special word order: fronting",
+      maps: [ fronting ],
+    }
+  - {
+      ref: "A-P2.6",
+      item: "Advanced Part 2: special word order: inversion",
+      maps: [ negative-inversion, place-inversion, so-such-inversion ],
+    }
+  - {
+      ref: "A-P2.7",
+      item: "Advanced Part 2: emphasis: it ... that",
+      maps: [ it-cleft ],
+    }
+  - {
+      ref: "A-P2.8",
+      item: "Advanced Part 2: emphasis: what ... is/was",
+      maps: [ wh-cleft ],
+    }
+  - {
+      ref: "A-P2.9",
+      item: "Advanced Part 2: discourse markers",
+      maps: [ discourse-writing, discourse-speech ],
+    }
+  - {
+      ref: "A-P2.10",
+      item: "Advanced Part 2: reading complicated sentences",
+      maps: [ dense-noun-phrases, garden-path, balance-embedding ],
+    }
+  - {
+      ref: "A-P2.11",
+      item: "Advanced Part 2: complex noun phrases in writing",
+      maps: [ noun-phrase-premod, noun-phrase-postmod, dense-noun-phrases ],
+    }
+  - {
+      ref: "A-P2.12",
+      item: "Advanced Part 2: mixed structures",
+      maps: [ parallelism, misplaced-modifiers, dangling-modifiers ],
+    }
+  - {
+      ref: "A-P2.13",
+      item: "Advanced Part 2: ellipsis after auxiliaries",
+      maps: [ auxiliary-ellipsis ],
+    }
+  - {
+      ref: "A-P2.14",
+      item: "Advanced Part 2: ellipsis with infinitives",
+      maps: [ ellipsis-to ],
+    }
+  - {
+      ref: "A-P2.15",
+      item: "Advanced Part 2: ellipsis with so and not",
+      maps: [ substitution-suppose-so ],
+    }
+  - {
+      ref: "A-P2.16",
+      item: "Advanced Part 2: ellipsis after and, but and or",
+      maps: [ comparison-ellipsis ],
+    }
+  - {
+      ref: "A-P2.17",
+      item: "Advanced Part 2: ellipsis at the beginning of spoken sentences",
+      maps: [ spoken-ellipsis ],
+    }
+  - {
+      ref: "A-P2.18",
+      item: "Advanced Part 2: the structure of spoken sentences",
+      maps: [ heads-tails ],
+    }
+  - {
+      ref: "A-P2.19",
+      item: "Advanced Part 2: short answers, reply questions and question tags",
+      maps:
+        [ be-short-answers, echo-reply-questions, question-tags, special-tags ],
+    }
+  - {
+      ref: "A-P2.20",
+      item: "Advanced Part 2: three kinds of spoken question (echo, rhetorical)",
+      maps: [ echo-reply-questions, rhetorical-questions ],
+    }
+  - {
+      ref: "A-P2.20b",
+      item: "Advanced Part 2: three kinds of spoken question (declarative questions)",
+      maps: [ declarative-questions ],
+      suggest:
+        {
+          title: "Declarative questions (You're leaving? / That's the boss?)",
+          level: B1,
+          lesson: "b1-01",
+        },
+    }
+  - {
+      ref: "A-P2.21",
+      item: "Advanced Part 2: politeness: using questions",
+      maps: [ would-polite, would-you-mind, indirect-questions ],
+    }
+  - {
+      ref: "A-P2.22",
+      item: "Advanced Part 2: politeness: being indirect",
+      maps: [ politeness-grammar, distancing-past, tentative-forms ],
+    }
+  - {
+      ref: "A-P2.23",
+      item: "Advanced Part 2: emphasis in speech: stress",
+      outOfScope: "pronunciation (stress and intonation)",
+    }
+  - {
+      ref: "A-P2.24",
+      item: "Advanced Part 2: repetition",
+      maps: [ lexical-cohesion, redundant-pairs ],
+    }
+  - {
+      ref: "A-P2.25",
+      item: "Advanced Part 2: abbreviated styles",
+      maps: [ notes-instructions, messages ],
+    }
+  - {
+      ref: "A-P2.26",
+      item: "Advanced Part 2: news headlines",
+      maps: [ headline-grammar ],
+    }

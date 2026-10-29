@@ -6,136 +6,1247 @@ retrieved_from:
 verified: true
 note: "Items are the 36 unit titles and their numbered sub-sections from the printed Contents of the 2003 edition (OCR; a few sub-section numbers/titles in units 13 and 21-26 were damaged by OCR and are reconstructed from the sub-section captions that were legible). Unit 13 participle/infinitive phrase headings are the legible ones only. Whether the 2011 listing is a revised edition with a different contents was not checked."
 items:
-  - { ref: "1.1", item: "Present simple", maps: [ present-simple-positive, present-simple-uses, third-person-s, present-simple-timetable ] }
-  - { ref: "1.2", item: "Present continuous", maps: [ present-continuous-form, present-continuous-now, changing-situations, always-ing, historic-present ] }
-  - { ref: "1.3", item: "Verbs rarely used in the continuous (believe, have, like)", maps: [ stative-verbs, stative-dynamic-meanings, stative-progressive ] }
-  - { ref: "2.1", item: "Past simple", maps: [ past-simple-regular, past-simple-irregular, past-simple-uses, past-simple-sequence ] }
-  - { ref: "2.2", item: "Past continuous", maps: [ past-continuous, past-continuous-background, past-simple-vs-continuous ] }
-  - { ref: "2.3", item: "Past perfect", maps: [ past-perfect, past-perfect-sequence, past-perfect-adverbs ] }
-  - { ref: "2.4", item: "Past perfect continuous", maps: [ past-perfect-continuous ] }
-  - { ref: "2.5", item: "Used to / would", maps: [ used-to, would-vs-used-to, would-habits-intro, will-habits ] }
-  - { ref: "3.1", item: "Present perfect simple", maps: [ present-perfect-form, present-perfect-experience, present-perfect-recent, just-already-yet, for-since ] }
-  - { ref: "3.2", item: "Present perfect and past simple: differences", maps: [ pp-vs-past, finished-time-trap, news-perfect-past, first-time ] }
-  - { ref: "3.3", item: "Present perfect continuous", maps: [ ppc-form, ppc-duration, ppc-recent-results ] }
-  - { ref: "3.4", item: "Present perfect simple and continuous: differences", maps: [ ppc-vs-pp, perfect-progressive-nuance ] }
-  - { ref: "4.1", item: "Prediction: will, going to, will be -ing", maps: [ will-predictions, going-to-evidence, future-continuous-intro, futures-compared, probably-will ] }
-  - { ref: "4.2", item: "Decisions and intentions: I'll make, I'm going to make", maps: [ will-decisions, going-to-plans, which-future-intro ] }
-  - { ref: "4.3", item: "Arrangements: I'm meeting, I'll be meeting", maps: [ present-continuous-future, future-continuous-full, futures-compared ] }
-  - { ref: "4.4", item: "Other future meanings: timetables; qualifying future forms", maps: [ present-simple-timetable, future-time-clauses, probably-will, will-habits ] }
-  - { ref: "5.1", item: "Expressions with future meaning: be to + infinitive; be due to + infinitive", maps: [ be-to-infinitive, be-due-to, be-about-to, be-bound-to ] }
-  - { ref: "5.2", item: "Verbs with future meaning: main verbs and modal verbs", maps: [ going-to-plans, verb-to, shall-formal ] }
-  - { ref: "5.3", item: "Future in the past: was going to make; other forms", maps: [ future-in-past, was-going-to, was-to ] }
-  - { ref: "6.1", item: "Negative statements: not, no, neither", maps: [ negative-words, one-negative, not-any-vs-no, scope-negation, nor-inversion ] }
-  - { ref: "6.2", item: "Negative questions: Haven't you seen...?", maps: [ negative-questions-basic, answering-negative-questions, negative-surprise ] }
-  - { ref: "6.3", item: "Words which carry negative meaning: adverbs, quantifiers, verbs, prefixes", maps: [ barely-scarcely, hardly-any, negative-polarity, prefix-negative, transferred-negation ] }
-  - { ref: "7.1", item: "Closed and open questions", maps: [ be-questions, present-simple-questions, question-words, question-word-order, subject-questions, object-questions, preposition-end-questions ] }
-  - { ref: "7.2", item: "Tag questions", maps: [ question-tags, special-tags, tags-checking-asking ] }
-  - { ref: "7.3", item: "Indirect questions", maps: [ indirect-questions, wh-to, i-wonder-if ] }
+  - {
+      ref: "1.1",
+      item: "Present simple",
+      maps:
+        [
+          present-simple-positive,
+          present-simple-uses,
+          third-person-s,
+          present-simple-timetable,
+        ],
+    }
+  - {
+      ref: "1.2",
+      item: "Present continuous",
+      maps:
+        [
+          present-continuous-form,
+          present-continuous-now,
+          changing-situations,
+          always-ing,
+          historic-present,
+        ],
+    }
+  - {
+      ref: "1.3",
+      item: "Verbs rarely used in the continuous (believe, have, like)",
+      maps: [ stative-verbs, stative-dynamic-meanings, stative-progressive ],
+    }
+  - {
+      ref: "2.1",
+      item: "Past simple",
+      maps:
+        [
+          past-simple-regular,
+          past-simple-irregular,
+          past-simple-uses,
+          past-simple-sequence,
+        ],
+    }
+  - {
+      ref: "2.2",
+      item: "Past continuous",
+      maps:
+        [
+          past-continuous,
+          past-continuous-background,
+          past-simple-vs-continuous,
+        ],
+    }
+  - {
+      ref: "2.3",
+      item: "Past perfect",
+      maps: [ past-perfect, past-perfect-sequence, past-perfect-adverbs ],
+    }
+  - {
+      ref: "2.4",
+      item: "Past perfect continuous",
+      maps: [ past-perfect-continuous ],
+    }
+  - {
+      ref: "2.5",
+      item: "Used to / would",
+      maps: [ used-to, would-vs-used-to, would-habits-intro, will-habits ],
+    }
+  - {
+      ref: "3.1",
+      item: "Present perfect simple",
+      maps:
+        [
+          present-perfect-form,
+          present-perfect-experience,
+          present-perfect-recent,
+          just-already-yet,
+          for-since,
+        ],
+    }
+  - {
+      ref: "3.2",
+      item: "Present perfect and past simple: differences",
+      maps: [ pp-vs-past, finished-time-trap, news-perfect-past, first-time ],
+    }
+  - {
+      ref: "3.3",
+      item: "Present perfect continuous",
+      maps: [ ppc-form, ppc-duration, ppc-recent-results ],
+    }
+  - {
+      ref: "3.4",
+      item: "Present perfect simple and continuous: differences",
+      maps: [ ppc-vs-pp, perfect-progressive-nuance ],
+    }
+  - {
+      ref: "4.1",
+      item: "Prediction: will, going to, will be -ing",
+      maps:
+        [
+          will-predictions,
+          going-to-evidence,
+          future-continuous-intro,
+          futures-compared,
+          probably-will,
+        ],
+    }
+  - {
+      ref: "4.2",
+      item: "Decisions and intentions: I'll make, I'm going to make",
+      maps: [ will-decisions, going-to-plans, which-future-intro ],
+    }
+  - {
+      ref: "4.3",
+      item: "Arrangements: I'm meeting, I'll be meeting",
+      maps:
+        [ present-continuous-future, future-continuous-full, futures-compared ],
+    }
+  - {
+      ref: "4.4",
+      item: "Other future meanings: timetables; qualifying future forms",
+      maps:
+        [
+          present-simple-timetable,
+          future-time-clauses,
+          probably-will,
+          will-habits,
+        ],
+    }
+  - {
+      ref: "5.1",
+      item: "Expressions with future meaning: be to + infinitive; be due to + infinitive",
+      maps: [ be-to-infinitive, be-due-to, be-about-to, be-bound-to ],
+    }
+  - {
+      ref: "5.2",
+      item: "Verbs with future meaning: main verbs and modal verbs",
+      maps: [ going-to-plans, verb-to, shall-formal ],
+    }
+  - {
+      ref: "5.3",
+      item: "Future in the past: was going to make; other forms",
+      maps: [ future-in-past, was-going-to, was-to ],
+    }
+  - {
+      ref: "6.1",
+      item: "Negative statements: not, no, neither",
+      maps:
+        [
+          negative-words,
+          one-negative,
+          not-any-vs-no,
+          scope-negation,
+          nor-inversion,
+        ],
+    }
+  - {
+      ref: "6.2",
+      item: "Negative questions: Haven't you seen...?",
+      maps:
+        [
+          negative-questions-basic,
+          answering-negative-questions,
+          negative-surprise,
+        ],
+    }
+  - {
+      ref: "6.3",
+      item: "Words which carry negative meaning: adverbs, quantifiers, verbs, prefixes",
+      maps:
+        [
+          barely-scarcely,
+          hardly-any,
+          negative-polarity,
+          prefix-negative,
+          transferred-negation,
+        ],
+    }
+  - {
+      ref: "7.1",
+      item: "Closed and open questions",
+      maps:
+        [
+          be-questions,
+          present-simple-questions,
+          question-words,
+          question-word-order,
+          subject-questions,
+          object-questions,
+          preposition-end-questions,
+        ],
+    }
+  - {
+      ref: "7.2",
+      item: "Tag questions",
+      maps: [ question-tags, special-tags, tags-checking-asking ],
+    }
+  - {
+      ref: "7.3",
+      item: "Indirect questions",
+      maps: [ indirect-questions, wh-to, i-wonder-if ],
+    }
   - { ref: "7.4", item: "Echo questions", maps: [ echo-reply-questions ] }
-  - { ref: "8.1", item: "Passive forms (it is made, he was said to be, it got broken)", maps: [ passive-form, passive-present-past, passive-perfect, passive-future, passive-modal, get-passive, personal-said-to ] }
-  - { ref: "8.2", item: "Passive -ing forms and infinitives (being made, to have been made)", maps: [ passive-infinitive-gerund, passive-continuous, complex-passive-infinitive, perfect-gerund ] }
-  - { ref: "8.3", item: "have/get + object + past participle", maps: [ have-something-done, causative-experience, have-sb-do, object-past-participle ] }
-  - { ref: "8.4", item: "Uses of the passive: information order, the unimportant agent", maps: [ passive-why, passive-by, choosing-voice, agency-news-academic, passive-weakens ] }
-  - { ref: "9.1", item: "Direct and indirect speech", maps: [ say-tell, backshift, summarising-speech ] }
-  - { ref: "9.2", item: "Indirect statements: reporting verbs; changes of pronoun, adverb, tense", maps: [ backshift, reported-changes, reported-modals, no-backshift, reported-thoughts ] }
-  - { ref: "9.3", item: "Indirect (reported) questions", maps: [ reported-questions, reported-if-whether ] }
-  - { ref: "9.4", item: "Indirect commands and requests", maps: [ reported-commands, reported-requests ] }
-  - { ref: "9.5", item: "Reporting verbs and their patterns (advise, offer, threaten)", maps: [ reporting-verbs-patterns, suggest-pattern, accuse-apologise, deny-having ] }
-  - { ref: "10.1", item: "General points on conditionals: sentence structures and patterns", maps: [ zero-conditional, first-conditional, second-conditional, third-conditional, no-would-in-if ] }
-  - { ref: "10.2", item: "Zero conditional", maps: [ zero-conditional, if-vs-when-facts ] }
-  - { ref: "10.3", item: "First conditional", maps: [ first-conditional, first-vs-second, when-vs-if ] }
-  - { ref: "10.4", item: "Second conditional", maps: [ second-conditional, if-i-were-you ] }
+  - {
+      ref: "8.1",
+      item: "Passive forms (it is made, he was said to be, it got broken)",
+      maps:
+        [
+          passive-form,
+          passive-present-past,
+          passive-perfect,
+          passive-future,
+          passive-modal,
+          get-passive,
+          personal-said-to,
+        ],
+    }
+  - {
+      ref: "8.2",
+      item: "Passive -ing forms and infinitives (being made, to have been made)",
+      maps:
+        [
+          passive-infinitive-gerund,
+          passive-continuous,
+          complex-passive-infinitive,
+          perfect-gerund,
+        ],
+    }
+  - {
+      ref: "8.3",
+      item: "have/get + object + past participle",
+      maps:
+        [
+          have-something-done,
+          causative-experience,
+          have-sb-do,
+          object-past-participle,
+        ],
+    }
+  - {
+      ref: "8.4",
+      item: "Uses of the passive: information order, the unimportant agent",
+      maps:
+        [
+          passive-why,
+          passive-by,
+          choosing-voice,
+          agency-news-academic,
+          passive-weakens,
+        ],
+    }
+  - {
+      ref: "9.1",
+      item: "Direct and indirect speech",
+      maps: [ say-tell, backshift, summarising-speech ],
+    }
+  - {
+      ref: "9.2",
+      item: "Indirect statements: reporting verbs; changes of pronoun, adverb, tense",
+      maps:
+        [
+          backshift,
+          reported-changes,
+          reported-modals,
+          no-backshift,
+          reported-thoughts,
+        ],
+    }
+  - {
+      ref: "9.3",
+      item: "Indirect (reported) questions",
+      maps: [ reported-questions, reported-if-whether ],
+    }
+  - {
+      ref: "9.4",
+      item: "Indirect commands and requests",
+      maps: [ reported-commands, reported-requests ],
+    }
+  - {
+      ref: "9.5",
+      item: "Reporting verbs and their patterns (advise, offer, threaten)",
+      maps:
+        [
+          reporting-verbs-patterns,
+          suggest-pattern,
+          accuse-apologise,
+          deny-having,
+        ],
+    }
+  - {
+      ref: "10.1",
+      item: "General points on conditionals: sentence structures and patterns",
+      maps:
+        [
+          zero-conditional,
+          first-conditional,
+          second-conditional,
+          third-conditional,
+          no-would-in-if,
+        ],
+    }
+  - {
+      ref: "10.2",
+      item: "Zero conditional",
+      maps: [ zero-conditional, if-vs-when-facts ],
+    }
+  - {
+      ref: "10.3",
+      item: "First conditional",
+      maps: [ first-conditional, first-vs-second, when-vs-if ],
+    }
+  - {
+      ref: "10.4",
+      item: "Second conditional",
+      maps: [ second-conditional, if-i-were-you ],
+    }
   - { ref: "10.5", item: "Third conditional", maps: [ third-conditional ] }
-  - { ref: "10.6", item: "Mixed conditionals", maps: [ mixed-past-present, mixed-present-past ] }
-  - { ref: "10.7", item: "Alternatives to if: unless, provided that, suppose, in case", maps: [ unless, provided-providing, as-long-as, in-case, suppose-what-if, only-if, even-if, inverted-had, but-for, otherwise, without-given-assuming ] }
-  - { ref: "11.1", item: "The subjunctive: form and use; informal alternatives; fixed expressions", maps: [ mandative-subjunctive, formulaic-subjunctive, were-subjunctive, should-subjunctive, us-uk-subjunctive ] }
-  - { ref: "11.2", item: "The 'unreal' past: imaginary past, present and future; was or were; what if", maps: [ as-if, would-rather-past, its-time-past, suppose-imagine, high-time, suppose-what-if, if-i-were-you, distancing-past ] }
-  - { ref: "11.3", item: "wish / if only + past simple; + past perfect; + would/could", maps: [ wish-past, wish-past-perfect, wish-would, if-only-intro, wish-vs-hope ] }
-  - { ref: "12.1", item: "-ing forms: subjects and objects; patterns of use", maps: [ ing-subject, verb-ing, ing-after-prepositions, like-ing, possessive-gerund, fixed-ing-expressions, difficulty-spend, worth-ing ] }
-  - { ref: "12.2", item: "Infinitives: forms and uses", maps: [ verb-to, perfect-infinitive, infinitive-purpose, infinitive-subject, passive-infinitive-gerund, split-infinitive, wh-to ] }
-  - { ref: "12.3", item: "Verbs followed by -ing forms and infinitives: patterns; differences in meaning", maps: [ ing-to-meaning-change, same-meaning-verbs, like-doing-vs-to, mean-go-on, verb-object-to, make-let-help, perception-base-ing, want-sb-to ] }
-  - { ref: "13.1", item: "Participle phrases: form and use (active and passive; participle subjects)", maps: [ participle-clauses, perfect-passive-participle, absolute-clauses, dangling-participles ] }
-  - { ref: "13.2", item: "Types of participle phrase: defining phrases; phrases of reason, result, etc.", maps: [ reduced-relative, participle-clauses, conjunction-ing ] }
-  - { ref: "13.3", item: "Infinitive phrases: form and use (active and passive; as subject/complement)", maps: [ infinitive-clauses, infinitive-subject, first-to, noun-to ] }
-  - { ref: "13.4", item: "Types of infinitive phrase: defining phrases; phrases of purpose and result", maps: [ purpose-clauses, reduced-relative, too-enough-to, infinitive-clauses ] }
-  - { ref: "13.5", item: "Uses in discourse (to tell the truth, generally speaking)", maps: [ infinitive-clauses, viewpoint-adverbs, comment-adverbs, hedging ] }
-  - { ref: "14.1", item: "Multi-word verbs: form and use; the four types; formal/informal use; particles", maps: [ phrasal-verbs-intro, phrasal-separable, phrasal-pronoun-position, latinate-phrasal ] }
-  - { ref: "14.2", item: "Phrasal verbs (get by, make it up)", maps: [ phrasal-verbs-intro, phrasal-separable ] }
-  - { ref: "14.3", item: "Prepositional verbs (look for, fall for)", maps: [ prepositional-verbs, verb-prep-1 ] }
-  - { ref: "14.4", item: "Phrasal-prepositional verbs (look forward to)", maps: [ three-part-phrasal, to-preposition ] }
-  - { ref: "14.5", item: "Word list: common multi-word verbs", outOfScope: "vocabulary (phrasal-verb word list)" }
-  - { ref: "15.1", item: "Dependent prepositions: general rules (+ object, + -ing, to + infinitive, that-clauses)", maps: [ ing-after-prepositions, adjective-prep-that-to, verb-prep-1, to-preposition ] }
-  - { ref: "15.2", item: "Verb + preposition patterns (accuse somebody of)", maps: [ verb-prep-1, verb-obj-prep, accuse-apologise, prepositional-verbs ] }
-  - { ref: "15.3", item: "Noun + preposition (demand for, success in, fear of)", maps: [ noun-prep ] }
-  - { ref: "15.4", item: "Adjective / participle + preposition (grateful for, worried about, scared by)", maps: [ adj-prep-1, adjective-prep-that-to, ed-ing-adjectives ] }
-  - { ref: "15.5", item: "Word list: dependent preposition patterns", outOfScope: "vocabulary (collocation word list)" }
-  - { ref: "16.1", item: "Modals (1): ability - can, could, be able to", maps: [ can-ability, could-past-ability, be-able-to, managed-to, able-all-forms ] }
-  - { ref: "16.2", item: "Possibility, deduction and speculation (may, might, could)", maps: [ may-might-possibility, might-vs-will, deduction-present, deduction-past, may-well, could-have ] }
-  - { ref: "16.3", item: "Arrangements, suggestions, offers (can, could)", maps: [ suggestions, offers, can-permission-requests ] }
-  - { ref: "16.4", item: "Asking for and giving/refusing permission (may, can, could)", maps: [ could-may-requests, can-permission-requests, allowed-to, would-you-mind, do-you-mind-if ] }
-  - { ref: "17.1", item: "Modals (2): obligation and necessity (must, have to, need to)", maps: [ must-have-to, had-to, have-got-to, need-neednt, supposed-to, be-to-vs-have-to ] }
-  - { ref: "17.2", item: "Prohibition and criticism (mustn't, shouldn't, ought not)", maps: [ mustnt-dont-have-to, should-have, might-have-reproach, cant-vs-mustnt, could-irritation ] }
-  - { ref: "17.3", item: "Absence of obligation or necessity (don't have to, needn't)", maps: [ mustnt-dont-have-to, need-neednt, neednt-have, need-modal ] }
-  - { ref: "17.4", item: "Recommendation and advice (should, ought to, had better)", maps: [ should-advice, ought-to, had-better, might-suggestion ] }
-  - { ref: "17.5", item: "Logical deduction and probability (must, should, ought to)", maps: [ deduction-present, deduction-past, should-expectation, modal-perfect-continuous ] }
-  - { ref: "18.1", item: "Modals (3): prediction and certainty (will, will have)", maps: [ will-predictions, will-assumption, should-expectation ] }
-  - { ref: "18.2", item: "Characteristics, habits and routines (will, would)", maps: [ will-habits, would-characteristic, would-habits-intro, would-criticism ] }
-  - { ref: "18.3", item: "Willingness and refusal (will, won't, wouldn't)", maps: [ wont-refusal, if-will-would, will-decisions ] }
-  - { ref: "18.4", item: "Other uses of will / shall / would: offers, promises, suggestions, requests", maps: [ offers, will-decisions, shall-offers, shall-formal, would-polite, suggestions ] }
-  - { ref: "18.5", item: "Hypothetical would (it would be nice; it would have been a good idea)", maps: [ would-have, second-conditional, implied-conditionals, would-like-to-have ] }
-  - { ref: "19.1", item: "Auxiliary verbs: uses; contracted forms", maps: [ auxiliaries, be-contractions, contractions, s-is-has, auxiliary-ellipsis ] }
-  - { ref: "19.2", item: "Emphasis (It has been a long time! Did you or didn't you take it?)", maps: [ emphatic-do, emphatic-reflexive, rhetorical-emphasis ] }
-  - { ref: "19.3", item: "Have and do: meanings and uses", maps: [ have-possession, have-actions, make-vs-do, auxiliaries, delexical-verbs ] }
-  - { ref: "19.4", item: "Have got: possession; meaning 'has become/obtained'", maps: [ have-got, have-questions, get-uses ] }
-  - { ref: "20.1", item: "Confusing verbs: false synonyms (make/do, have/take, been/gone, speak/talk)", maps: [ make-vs-do, been-gone, delexical-verbs, say-tell ] }
-  - { ref: "20.2", item: "Opposite pairs (borrow/lend, bring/take)", maps: [ confusing-verb-pairs ], suggest: { title: "Confusing verb pairs: borrow/lend, bring/take, rise/raise, lie/lay", level: B1, lesson: b1-16 } }
-  - { ref: "21.1", item: "Adjective patterns (responsible parents; the person responsible)", maps: [ position-meaning-adjectives ], suggest: { title: "Adjectives whose meaning depends on position (the responsible parents / the person responsible; the present members / the members present)", level: C1, lesson: c1-31 } }
-  - { ref: "21.2", item: "Participle (-ing or -ed) adjectives", maps: [ ed-ing-adjectives ] }
-  - { ref: "21.3", item: "Groups of adjectives: adjective order; pairs of adjectives", maps: [ adjective-order-intro, adjective-order-full, compound-adjectives, comma-lists ] }
-  - { ref: "22.1", item: "Comparative and superlative adjectives: form and use; irregular adjectives", maps: [ comparatives-short, comparatives-long, comparatives-irregular, superlatives, superlative-in-of, superlative-ever, less-least, elder-older ] }
-  - { ref: "22.2", item: "Adjectives with as, so, too, enough and such", maps: [ as-as, so-such, too-enough, too-enough-to, as-ever, nowhere-near ] }
-  - { ref: "22.3", item: "Other types of comparison: faster and faster; like and as", maps: [ more-and-more, the-the-intro, like-as, times-as, by-far, more-of-a, much-far-comparative, all-the-more ] }
-  - { ref: "23.1", item: "Modifying gradable adjectives (very expensive, slightly dizzy, quite nice)", maps: [ gradable-nongradable, intensifiers, softeners, quite-us-uk ] }
-  - { ref: "23.2", item: "Modifying ungradable adjectives (absolutely fabulous, practically freezing)", maps: [ gradable-nongradable, intensifiers ] }
-  - { ref: "23.3", item: "Modifying adjectives in informal English (really sorry, dead scary)", maps: [ intensifiers, vague-language, register-grammar ] }
-  - { ref: "23.4", item: "Common adverb + adjective collocations (bitterly cold, deeply moving)", maps: [ degree-collocations ] }
-  - { ref: "24.1", item: "Adverbs: form, formation and types; adverbs with two forms", maps: [ adverbs-manner, adverb-spelling, irregular-adverbs, hard-hardly, adjective-vs-adverb, suffix-adverb ] }
-  - { ref: "24.2", item: "Adverbs: use - modifying and adding information; use in comparisons", maps: [ very-really, intensifiers, too-basic, focus-adverbs, as-as ] }
-  - { ref: "24.3", item: "Position of adverbs in sentences: front, mid and final position", maps: [ adverb-positions, frequency-position, adverb-order, focus-adverbs, only-position, adverbial-order-advanced ] }
-  - { ref: "24.4", item: "Sentence adverbs: viewpoint and attitude adverbs; use in discourse", maps: [ comment-adverbs, viewpoint-adverbs, hedging, boosting ] }
-  - { ref: "25.1", item: "Nouns and noun phrases: basic points on form and meaning; gender", maps: [ parts-of-speech, gender-neutral-nouns, he-she-it ] }
-  - { ref: "25.2", item: "Singular and plural nouns: regular/irregular plurals; plural-form nouns", maps: [ plural-regular, plural-irregular, plural-f-ves, plural-o, plural-only, singular-s-nouns, latin-greek-plurals, compound-plurals ] }
-  - { ref: "25.3", item: "Countable and uncountable nouns: use; different meanings; a piece/bit of", maps: [ countable-uncountable, uncountable-traps, partitives, dual-countability, work-vs-job ] }
-  - { ref: "25.4", item: "Agreement: plural subjects; plural-form and group nouns", maps: [ collective-agreement, plural-verb-nouns, agreement-indefinite, notional-agreement, either-or-agreement, number-of, quantity-agreement ] }
-  - { ref: "25.5", item: "Nominalisation: making verbs/verb phrases into nouns/noun phrases", maps: [ nominalisation, nominal-vs-verbal, academic-nominal-style ] }
-  - { ref: "26.1", item: "Possessives: form and meaning; possessive forms; rules", maps: [ possessive-s, s-plural-possessive, possessive-adjectives, possessive-pronouns, apostrophe-possession, double-possessive ] }
-  - { ref: "26.2", item: "The genitive ('s) or of structure: which form to use", maps: [ possessive-of, time-possessive, group-possessive, possessive-places ] }
-  - { ref: "26.3", item: "Specifying or classifying possessives and compound nouns (sports shop)", maps: [ compound-nouns, measurement-compounds, possessive-of ] }
-  - { ref: "27.1", item: "Personal pronouns: omission of pronouns; subject or object forms; one", maps: [ subject-pronouns, object-pronouns, pronoun-case, one-ones, formal-one, spoken-ellipsis ] }
-  - { ref: "27.2", item: "Reflexive and reciprocal pronouns (-self/-selves; each other/one another)", maps: [ reflexive-pronouns, each-other, not-reflexive-in-english, reciprocal-verbs, emphatic-reflexive ] }
-  - { ref: "27.3", item: "'Impersonal' pronouns: use of you / we / they / one", maps: [ generic-you-one, formal-one, they-organisations ] }
-  - { ref: "27.4", item: "Indefinite pronouns and adverbs (somebody, anything, no one)", maps: [ indefinite-compounds, indefinite-singular-verb, singular-they, no-none ] }
-  - { ref: "28.1", item: "Articles: a/the/no article for naming, describing and classifying", maps: [ a-an-sound, a-jobs, the-specific, the-vs-zero, generic-reference, abstract-articles, zero-article-set-phrases, the-geography, articles-names, roles-zero-article ] }
-  - { ref: "28.2", item: "Demonstratives: this/that/these/those as adjectives and pronouns", maps: [ demonstratives, demonstrative-pronouns, demonstrative-time, it-this-that-reference ] }
-  - { ref: "28.3", item: "Quantifiers: no, none, half, both, some, all", maps: [ no-none, none-of, none-agreement, half, all-both-basic, both-all-whole, some-any-offers, floating-quantifiers, predeterminers, most-of ] }
-  - { ref: "29.1", item: "Prepositions: introduction, basic information; preposition or adverb?", maps: [ prep-phrases, phrasal-verbs-intro, prep-vs-conj ] }
-  - { ref: "29.2", item: "Meaning and use: prepositions of position, movement, time, reason", maps: [ place-in-on-at, place-others, movement, time-at-on-in, from-to-until, by-until, during-vs-for, due-to-owing-to, between-among, above-over-below-under ] }
-  - { ref: "29.3", item: "Prepositional phrases: formation; stranded prepositions", maps: [ prep-phrases, preposition-stranding, preposition-end-questions, final-prepositions, preposition-relative, complex-prepositions ] }
-  - { ref: "30.1", item: "Word order in English: subject-verb-object and variations", maps: [ svo-order, place-before-time, adverb-order, fronting, negative-inversion ] }
-  - { ref: "30.2", item: "Verb patterns: verb + complement; verb + prepositional phrase", maps: [ linking-verbs, two-objects, object-complement, prepositional-verbs, verb-obj-prep, svo-order ] }
-  - { ref: "30.3", item: "Linking clauses: coordination; subordination", maps: [ and-but-or, because-so, sentence-types, both-and, either-or-neither-nor, linkers-addition, linkers-contrast ] }
-  - { ref: "31.1", item: "Relative clauses: subject/object relatives; defining/non-defining relatives", maps: [ relative-who-which-that, defining-relative-basic, defining-nondefining, omit-relative, that-vs-which, no-resumptive, preposition-relative, quantifier-relative, reduced-relative, sentential-which ] }
-  - { ref: "31.2", item: "Relative pronouns and adverbs (who, etc.; modifying pronouns; whichever)", maps: [ relative-whose-when, relative-where, whose-things, who-whom, ever-clauses, whoever-whatever-expert, reason-why-way, nominal-what ] }
-  - { ref: "32.1", item: "Conjunctions of contrast: but, while, although, yet", maps: [ contrast-although, whereas-while, although-but-trap, even-though-if, much-as, adj-as-though ] }
-  - { ref: "32.2", item: "Prepositions of contrast: despite, in spite of", maps: [ despite-in-spite, despite-the-fact, for-all, notwithstanding ] }
-  - { ref: "32.3", item: "Adverbs of contrast: however, nevertheless, even so, still", maps: [ linkers-contrast, however-but, advanced-linkers, linkers-punctuation, admittedly-granted ] }
-  - { ref: "33.1", item: "Introductory there as 'empty' subject; there + be", maps: [ there-is-are, there-tenses, there-seems, agreement-there, existential-variants, there-said-to-be, it-vs-there ] }
-  - { ref: "33.2", item: "Introductory/impersonal it as 'empty' subject; introducing clauses; impersonal/general feelings; it in discourse", maps: [ dummy-it, it-takes, it-adj-to, it-adj-that, extraposition, preparatory-it-object, it-vs-there, it-this-that-reference ] }
-  - { ref: "34.1", item: "Cleft sentences (Zack was the guy who told us)", maps: [ it-cleft, wh-cleft, all-cleft, reversed-cleft, thing-is, what-cleft-intro, nominal-what ] }
-  - { ref: "34.2", item: "Fronting (that I disagree with; attached to the roof was an aerial)", maps: [ fronting, place-inversion, end-weight-focus ] }
-  - { ref: "34.3", item: "Inversion (little did we realise; never have I seen; so are we)", maps: [ negative-inversion, never-before, no-sooner-hardly, only-inversion, so-such-inversion, nor-inversion, so-neither-do-i, not-only-inversion ] }
-  - { ref: "35.1", item: "Types of text reference: substitution, ellipsis, anaphoric and cataphoric", maps: [ it-this-that-reference, such-this-reference, reference-chains, cataphora, former-latter ] }
-  - { ref: "35.2", item: "Substitution: substituting nouns, verbs, clauses", maps: [ one-ones, do-so, substitution-suppose-so, so-it-is, uk-do-substitution, think-so-hope-not ] }
-  - { ref: "35.3", item: "Ellipsis: omitting nouns, pronouns, verbs, infinitives and wh- clauses", maps: [ ellipsis-to, auxiliary-ellipsis, comparison-ellipsis, spoken-ellipsis, comparative-ellipsis-clause ] }
-  - { ref: "36.1", item: "Ordering information: the information principle; the end-weight principle", maps: [ end-weight-focus, theme-rheme, heavy-np-shift, fronting, parallelism ] }
-  - { ref: "36.2", item: "Discourse devices: types of linking; reference; parallelism", maps: [ discourse-writing, linkers-addition, lexical-cohesion, reference-chains, parallelism, tricolon, advanced-linkers ] }
+  - {
+      ref: "10.6",
+      item: "Mixed conditionals",
+      maps: [ mixed-past-present, mixed-present-past ],
+    }
+  - {
+      ref: "10.7",
+      item: "Alternatives to if: unless, provided that, suppose, in case",
+      maps:
+        [
+          unless,
+          provided-providing,
+          as-long-as,
+          in-case,
+          suppose-what-if,
+          only-if,
+          even-if,
+          inverted-had,
+          but-for,
+          otherwise,
+          without-given-assuming,
+        ],
+    }
+  - {
+      ref: "11.1",
+      item: "The subjunctive: form and use; informal alternatives; fixed expressions",
+      maps:
+        [
+          mandative-subjunctive,
+          formulaic-subjunctive,
+          were-subjunctive,
+          should-subjunctive,
+          us-uk-subjunctive,
+        ],
+    }
+  - {
+      ref: "11.2",
+      item: "The 'unreal' past: imaginary past, present and future; was or were; what if",
+      maps:
+        [
+          as-if,
+          would-rather-past,
+          its-time-past,
+          suppose-imagine,
+          high-time,
+          suppose-what-if,
+          if-i-were-you,
+          distancing-past,
+        ],
+    }
+  - {
+      ref: "11.3",
+      item: "wish / if only + past simple; + past perfect; + would/could",
+      maps:
+        [
+          wish-past,
+          wish-past-perfect,
+          wish-would,
+          if-only-intro,
+          wish-vs-hope,
+        ],
+    }
+  - {
+      ref: "12.1",
+      item: "-ing forms: subjects and objects; patterns of use",
+      maps:
+        [
+          ing-subject,
+          verb-ing,
+          ing-after-prepositions,
+          like-ing,
+          possessive-gerund,
+          fixed-ing-expressions,
+          difficulty-spend,
+          worth-ing,
+        ],
+    }
+  - {
+      ref: "12.2",
+      item: "Infinitives: forms and uses",
+      maps:
+        [
+          verb-to,
+          perfect-infinitive,
+          infinitive-purpose,
+          infinitive-subject,
+          passive-infinitive-gerund,
+          split-infinitive,
+          wh-to,
+        ],
+    }
+  - {
+      ref: "12.3",
+      item: "Verbs followed by -ing forms and infinitives: patterns; differences in meaning",
+      maps:
+        [
+          ing-to-meaning-change,
+          same-meaning-verbs,
+          like-doing-vs-to,
+          mean-go-on,
+          verb-object-to,
+          make-let-help,
+          perception-base-ing,
+          want-sb-to,
+        ],
+    }
+  - {
+      ref: "13.1",
+      item: "Participle phrases: form and use (active and passive; participle subjects)",
+      maps:
+        [
+          participle-clauses,
+          perfect-passive-participle,
+          absolute-clauses,
+          dangling-participles,
+        ],
+    }
+  - {
+      ref: "13.2",
+      item: "Types of participle phrase: defining phrases; phrases of reason, result, etc.",
+      maps: [ reduced-relative, participle-clauses, conjunction-ing ],
+    }
+  - {
+      ref: "13.3",
+      item: "Infinitive phrases: form and use (active and passive; as subject/complement)",
+      maps: [ infinitive-clauses, infinitive-subject, first-to, noun-to ],
+    }
+  - {
+      ref: "13.4",
+      item: "Types of infinitive phrase: defining phrases; phrases of purpose and result",
+      maps:
+        [
+          purpose-clauses,
+          reduced-relative,
+          too-enough-to,
+          infinitive-clauses,
+        ],
+    }
+  - {
+      ref: "13.5",
+      item: "Uses in discourse (to tell the truth, generally speaking)",
+      maps: [ infinitive-clauses, viewpoint-adverbs, comment-adverbs, hedging ],
+    }
+  - {
+      ref: "14.1",
+      item: "Multi-word verbs: form and use; the four types; formal/informal use; particles",
+      maps:
+        [
+          phrasal-verbs-intro,
+          phrasal-separable,
+          phrasal-pronoun-position,
+          latinate-phrasal,
+        ],
+    }
+  - {
+      ref: "14.2",
+      item: "Phrasal verbs (get by, make it up)",
+      maps: [ phrasal-verbs-intro, phrasal-separable ],
+    }
+  - {
+      ref: "14.3",
+      item: "Prepositional verbs (look for, fall for)",
+      maps: [ prepositional-verbs, verb-prep-1 ],
+    }
+  - {
+      ref: "14.4",
+      item: "Phrasal-prepositional verbs (look forward to)",
+      maps: [ three-part-phrasal, to-preposition ],
+    }
+  - {
+      ref: "14.5",
+      item: "Word list: common multi-word verbs",
+      outOfScope: "vocabulary (phrasal-verb word list)",
+    }
+  - {
+      ref: "15.1",
+      item: "Dependent prepositions: general rules (+ object, + -ing, to + infinitive, that-clauses)",
+      maps:
+        [
+          ing-after-prepositions,
+          adjective-prep-that-to,
+          verb-prep-1,
+          to-preposition,
+        ],
+    }
+  - {
+      ref: "15.2",
+      item: "Verb + preposition patterns (accuse somebody of)",
+      maps:
+        [ verb-prep-1, verb-obj-prep, accuse-apologise, prepositional-verbs ],
+    }
+  - {
+      ref: "15.3",
+      item: "Noun + preposition (demand for, success in, fear of)",
+      maps: [ noun-prep ],
+    }
+  - {
+      ref: "15.4",
+      item: "Adjective / participle + preposition (grateful for, worried about, scared by)",
+      maps: [ adj-prep-1, adjective-prep-that-to, ed-ing-adjectives ],
+    }
+  - {
+      ref: "15.5",
+      item: "Word list: dependent preposition patterns",
+      outOfScope: "vocabulary (collocation word list)",
+    }
+  - {
+      ref: "16.1",
+      item: "Modals (1): ability - can, could, be able to",
+      maps:
+        [
+          can-ability,
+          could-past-ability,
+          be-able-to,
+          managed-to,
+          able-all-forms,
+        ],
+    }
+  - {
+      ref: "16.2",
+      item: "Possibility, deduction and speculation (may, might, could)",
+      maps:
+        [
+          may-might-possibility,
+          might-vs-will,
+          deduction-present,
+          deduction-past,
+          may-well,
+          could-have,
+        ],
+    }
+  - {
+      ref: "16.3",
+      item: "Arrangements, suggestions, offers (can, could)",
+      maps: [ suggestions, offers, can-permission-requests ],
+    }
+  - {
+      ref: "16.4",
+      item: "Asking for and giving/refusing permission (may, can, could)",
+      maps:
+        [
+          could-may-requests,
+          can-permission-requests,
+          allowed-to,
+          would-you-mind,
+          do-you-mind-if,
+        ],
+    }
+  - {
+      ref: "17.1",
+      item: "Modals (2): obligation and necessity (must, have to, need to)",
+      maps:
+        [
+          must-have-to,
+          had-to,
+          have-got-to,
+          need-neednt,
+          supposed-to,
+          be-to-vs-have-to,
+        ],
+    }
+  - {
+      ref: "17.2",
+      item: "Prohibition and criticism (mustn't, shouldn't, ought not)",
+      maps:
+        [
+          mustnt-dont-have-to,
+          should-have,
+          might-have-reproach,
+          cant-vs-mustnt,
+          could-irritation,
+        ],
+    }
+  - {
+      ref: "17.3",
+      item: "Absence of obligation or necessity (don't have to, needn't)",
+      maps: [ mustnt-dont-have-to, need-neednt, neednt-have, need-modal ],
+    }
+  - {
+      ref: "17.4",
+      item: "Recommendation and advice (should, ought to, had better)",
+      maps: [ should-advice, ought-to, had-better, might-suggestion ],
+    }
+  - {
+      ref: "17.5",
+      item: "Logical deduction and probability (must, should, ought to)",
+      maps:
+        [
+          deduction-present,
+          deduction-past,
+          should-expectation,
+          modal-perfect-continuous,
+        ],
+    }
+  - {
+      ref: "18.1",
+      item: "Modals (3): prediction and certainty (will, will have)",
+      maps: [ will-predictions, will-assumption, should-expectation ],
+    }
+  - {
+      ref: "18.2",
+      item: "Characteristics, habits and routines (will, would)",
+      maps:
+        [
+          will-habits,
+          would-characteristic,
+          would-habits-intro,
+          would-criticism,
+        ],
+    }
+  - {
+      ref: "18.3",
+      item: "Willingness and refusal (will, won't, wouldn't)",
+      maps: [ wont-refusal, if-will-would, will-decisions ],
+    }
+  - {
+      ref: "18.4",
+      item: "Other uses of will / shall / would: offers, promises, suggestions, requests",
+      maps:
+        [
+          offers,
+          will-decisions,
+          shall-offers,
+          shall-formal,
+          would-polite,
+          suggestions,
+        ],
+    }
+  - {
+      ref: "18.5",
+      item: "Hypothetical would (it would be nice; it would have been a good idea)",
+      maps:
+        [
+          would-have,
+          second-conditional,
+          implied-conditionals,
+          would-like-to-have,
+        ],
+    }
+  - {
+      ref: "19.1",
+      item: "Auxiliary verbs: uses; contracted forms",
+      maps:
+        [
+          auxiliaries,
+          be-contractions,
+          contractions,
+          s-is-has,
+          auxiliary-ellipsis,
+        ],
+    }
+  - {
+      ref: "19.2",
+      item: "Emphasis (It has been a long time! Did you or didn't you take it?)",
+      maps: [ emphatic-do, emphatic-reflexive, rhetorical-emphasis ],
+    }
+  - {
+      ref: "19.3",
+      item: "Have and do: meanings and uses",
+      maps:
+        [
+          have-possession,
+          have-actions,
+          make-vs-do,
+          auxiliaries,
+          delexical-verbs,
+        ],
+    }
+  - {
+      ref: "19.4",
+      item: "Have got: possession; meaning 'has become/obtained'",
+      maps: [ have-got, have-questions, get-uses ],
+    }
+  - {
+      ref: "20.1",
+      item: "Confusing verbs: false synonyms (make/do, have/take, been/gone, speak/talk)",
+      maps: [ make-vs-do, been-gone, delexical-verbs, say-tell ],
+    }
+  - {
+      ref: "20.2",
+      item: "Opposite pairs (borrow/lend, bring/take)",
+      maps: [ confusing-verb-pairs ],
+      suggest:
+        {
+          title: "Confusing verb pairs: borrow/lend, bring/take, rise/raise, lie/lay",
+          level: B1,
+          lesson: b1-16,
+        },
+    }
+  - {
+      ref: "21.1",
+      item: "Adjective patterns (responsible parents; the person responsible)",
+      maps: [ position-meaning-adjectives ],
+      suggest:
+        {
+          title: "Adjectives whose meaning depends on position (the responsible parents / the person responsible; the present members / the members present)",
+          level: C1,
+          lesson: c1-31,
+        },
+    }
+  - {
+      ref: "21.2",
+      item: "Participle (-ing or -ed) adjectives",
+      maps: [ ed-ing-adjectives ],
+    }
+  - {
+      ref: "21.3",
+      item: "Groups of adjectives: adjective order; pairs of adjectives",
+      maps:
+        [
+          adjective-order-intro,
+          adjective-order-full,
+          compound-adjectives,
+          comma-lists,
+        ],
+    }
+  - {
+      ref: "22.1",
+      item: "Comparative and superlative adjectives: form and use; irregular adjectives",
+      maps:
+        [
+          comparatives-short,
+          comparatives-long,
+          comparatives-irregular,
+          superlatives,
+          superlative-in-of,
+          superlative-ever,
+          less-least,
+          elder-older,
+        ],
+    }
+  - {
+      ref: "22.2",
+      item: "Adjectives with as, so, too, enough and such",
+      maps:
+        [ as-as, so-such, too-enough, too-enough-to, as-ever, nowhere-near ],
+    }
+  - {
+      ref: "22.3",
+      item: "Other types of comparison: faster and faster; like and as",
+      maps:
+        [
+          more-and-more,
+          the-the-intro,
+          like-as,
+          times-as,
+          by-far,
+          more-of-a,
+          much-far-comparative,
+          all-the-more,
+        ],
+    }
+  - {
+      ref: "23.1",
+      item: "Modifying gradable adjectives (very expensive, slightly dizzy, quite nice)",
+      maps: [ gradable-nongradable, intensifiers, softeners, quite-us-uk ],
+    }
+  - {
+      ref: "23.2",
+      item: "Modifying ungradable adjectives (absolutely fabulous, practically freezing)",
+      maps: [ gradable-nongradable, intensifiers ],
+    }
+  - {
+      ref: "23.3",
+      item: "Modifying adjectives in informal English (really sorry, dead scary)",
+      maps: [ intensifiers, vague-language, register-grammar ],
+    }
+  - {
+      ref: "23.4",
+      item: "Common adverb + adjective collocations (bitterly cold, deeply moving)",
+      maps: [ degree-collocations ],
+    }
+  - {
+      ref: "24.1",
+      item: "Adverbs: form, formation and types; adverbs with two forms",
+      maps:
+        [
+          adverbs-manner,
+          adverb-spelling,
+          irregular-adverbs,
+          hard-hardly,
+          adjective-vs-adverb,
+          suffix-adverb,
+        ],
+    }
+  - {
+      ref: "24.2",
+      item: "Adverbs: use - modifying and adding information; use in comparisons",
+      maps: [ very-really, intensifiers, too-basic, focus-adverbs, as-as ],
+    }
+  - {
+      ref: "24.3",
+      item: "Position of adverbs in sentences: front, mid and final position",
+      maps:
+        [
+          adverb-positions,
+          frequency-position,
+          adverb-order,
+          focus-adverbs,
+          only-position,
+          adverbial-order-advanced,
+        ],
+    }
+  - {
+      ref: "24.4",
+      item: "Sentence adverbs: viewpoint and attitude adverbs; use in discourse",
+      maps: [ comment-adverbs, viewpoint-adverbs, hedging, boosting ],
+    }
+  - {
+      ref: "25.1",
+      item: "Nouns and noun phrases: basic points on form and meaning; gender",
+      maps: [ parts-of-speech, gender-neutral-nouns, he-she-it ],
+    }
+  - {
+      ref: "25.2",
+      item: "Singular and plural nouns: regular/irregular plurals; plural-form nouns",
+      maps:
+        [
+          plural-regular,
+          plural-irregular,
+          plural-f-ves,
+          plural-o,
+          plural-only,
+          singular-s-nouns,
+          latin-greek-plurals,
+          compound-plurals,
+        ],
+    }
+  - {
+      ref: "25.3",
+      item: "Countable and uncountable nouns: use; different meanings; a piece/bit of",
+      maps:
+        [
+          countable-uncountable,
+          uncountable-traps,
+          partitives,
+          dual-countability,
+          work-vs-job,
+        ],
+    }
+  - {
+      ref: "25.4",
+      item: "Agreement: plural subjects; plural-form and group nouns",
+      maps:
+        [
+          collective-agreement,
+          plural-verb-nouns,
+          agreement-indefinite,
+          notional-agreement,
+          either-or-agreement,
+          number-of,
+          quantity-agreement,
+        ],
+    }
+  - {
+      ref: "25.5",
+      item: "Nominalisation: making verbs/verb phrases into nouns/noun phrases",
+      maps: [ nominalisation, nominal-vs-verbal, academic-nominal-style ],
+    }
+  - {
+      ref: "26.1",
+      item: "Possessives: form and meaning; possessive forms; rules",
+      maps:
+        [
+          possessive-s,
+          s-plural-possessive,
+          possessive-adjectives,
+          possessive-pronouns,
+          apostrophe-possession,
+          double-possessive,
+        ],
+    }
+  - {
+      ref: "26.2",
+      item: "The genitive ('s) or of structure: which form to use",
+      maps:
+        [ possessive-of, time-possessive, group-possessive, possessive-places ],
+    }
+  - {
+      ref: "26.3",
+      item: "Specifying or classifying possessives and compound nouns (sports shop)",
+      maps: [ compound-nouns, measurement-compounds, possessive-of ],
+    }
+  - {
+      ref: "27.1",
+      item: "Personal pronouns: omission of pronouns; subject or object forms; one",
+      maps:
+        [
+          subject-pronouns,
+          object-pronouns,
+          pronoun-case,
+          one-ones,
+          formal-one,
+          spoken-ellipsis,
+        ],
+    }
+  - {
+      ref: "27.2",
+      item: "Reflexive and reciprocal pronouns (-self/-selves; each other/one another)",
+      maps:
+        [
+          reflexive-pronouns,
+          each-other,
+          not-reflexive-in-english,
+          reciprocal-verbs,
+          emphatic-reflexive,
+        ],
+    }
+  - {
+      ref: "27.3",
+      item: "'Impersonal' pronouns: use of you / we / they / one",
+      maps: [ generic-you-one, formal-one, they-organisations ],
+    }
+  - {
+      ref: "27.4",
+      item: "Indefinite pronouns and adverbs (somebody, anything, no one)",
+      maps:
+        [
+          indefinite-compounds,
+          indefinite-singular-verb,
+          singular-they,
+          no-none,
+        ],
+    }
+  - {
+      ref: "28.1",
+      item: "Articles: a/the/no article for naming, describing and classifying",
+      maps:
+        [
+          a-an-sound,
+          a-jobs,
+          the-specific,
+          the-vs-zero,
+          generic-reference,
+          abstract-articles,
+          zero-article-set-phrases,
+          the-geography,
+          articles-names,
+          roles-zero-article,
+        ],
+    }
+  - {
+      ref: "28.2",
+      item: "Demonstratives: this/that/these/those as adjectives and pronouns",
+      maps:
+        [
+          demonstratives,
+          demonstrative-pronouns,
+          demonstrative-time,
+          it-this-that-reference,
+        ],
+    }
+  - {
+      ref: "28.3",
+      item: "Quantifiers: no, none, half, both, some, all",
+      maps:
+        [
+          no-none,
+          none-of,
+          none-agreement,
+          half,
+          all-both-basic,
+          both-all-whole,
+          some-any-offers,
+          floating-quantifiers,
+          predeterminers,
+          most-of,
+        ],
+    }
+  - {
+      ref: "29.1",
+      item: "Prepositions: introduction, basic information; preposition or adverb?",
+      maps: [ prep-phrases, phrasal-verbs-intro, prep-vs-conj ],
+    }
+  - {
+      ref: "29.2",
+      item: "Meaning and use: prepositions of position, movement, time, reason",
+      maps:
+        [
+          place-in-on-at,
+          place-others,
+          movement,
+          time-at-on-in,
+          from-to-until,
+          by-until,
+          during-vs-for,
+          due-to-owing-to,
+          between-among,
+          above-over-below-under,
+        ],
+    }
+  - {
+      ref: "29.3",
+      item: "Prepositional phrases: formation; stranded prepositions",
+      maps:
+        [
+          prep-phrases,
+          preposition-stranding,
+          preposition-end-questions,
+          final-prepositions,
+          preposition-relative,
+          complex-prepositions,
+        ],
+    }
+  - {
+      ref: "30.1",
+      item: "Word order in English: subject-verb-object and variations",
+      maps:
+        [
+          svo-order,
+          place-before-time,
+          adverb-order,
+          fronting,
+          negative-inversion,
+        ],
+    }
+  - {
+      ref: "30.2",
+      item: "Verb patterns: verb + complement; verb + prepositional phrase",
+      maps:
+        [
+          linking-verbs,
+          two-objects,
+          object-complement,
+          prepositional-verbs,
+          verb-obj-prep,
+          svo-order,
+        ],
+    }
+  - {
+      ref: "30.3",
+      item: "Linking clauses: coordination; subordination",
+      maps:
+        [
+          and-but-or,
+          because-so,
+          sentence-types,
+          both-and,
+          either-or-neither-nor,
+          linkers-addition,
+          linkers-contrast,
+        ],
+    }
+  - {
+      ref: "31.1",
+      item: "Relative clauses: subject/object relatives; defining/non-defining relatives",
+      maps:
+        [
+          relative-who-which-that,
+          defining-relative-basic,
+          defining-nondefining,
+          omit-relative,
+          that-vs-which,
+          no-resumptive,
+          preposition-relative,
+          quantifier-relative,
+          reduced-relative,
+          sentential-which,
+        ],
+    }
+  - {
+      ref: "31.2",
+      item: "Relative pronouns and adverbs (who, etc.; modifying pronouns; whichever)",
+      maps:
+        [
+          relative-whose-when,
+          relative-where,
+          whose-things,
+          who-whom,
+          ever-clauses,
+          whoever-whatever-expert,
+          reason-why-way,
+          nominal-what,
+        ],
+    }
+  - {
+      ref: "32.1",
+      item: "Conjunctions of contrast: but, while, although, yet",
+      maps:
+        [
+          contrast-although,
+          whereas-while,
+          although-but-trap,
+          even-though-if,
+          much-as,
+          adj-as-though,
+        ],
+    }
+  - {
+      ref: "32.2",
+      item: "Prepositions of contrast: despite, in spite of",
+      maps: [ despite-in-spite, despite-the-fact, for-all, notwithstanding ],
+    }
+  - {
+      ref: "32.3",
+      item: "Adverbs of contrast: however, nevertheless, even so, still",
+      maps:
+        [
+          linkers-contrast,
+          however-but,
+          advanced-linkers,
+          linkers-punctuation,
+          admittedly-granted,
+        ],
+    }
+  - {
+      ref: "33.1",
+      item: "Introductory there as 'empty' subject; there + be",
+      maps:
+        [
+          there-is-are,
+          there-tenses,
+          there-seems,
+          agreement-there,
+          existential-variants,
+          there-said-to-be,
+          it-vs-there,
+        ],
+    }
+  - {
+      ref: "33.2",
+      item: "Introductory/impersonal it as 'empty' subject; introducing clauses; impersonal/general feelings; it in discourse",
+      maps:
+        [
+          dummy-it,
+          it-takes,
+          it-adj-to,
+          it-adj-that,
+          extraposition,
+          preparatory-it-object,
+          it-vs-there,
+          it-this-that-reference,
+        ],
+    }
+  - {
+      ref: "34.1",
+      item: "Cleft sentences (Zack was the guy who told us)",
+      maps:
+        [
+          it-cleft,
+          wh-cleft,
+          all-cleft,
+          reversed-cleft,
+          thing-is,
+          what-cleft-intro,
+          nominal-what,
+        ],
+    }
+  - {
+      ref: "34.2",
+      item: "Fronting (that I disagree with; attached to the roof was an aerial)",
+      maps: [ fronting, place-inversion, end-weight-focus ],
+    }
+  - {
+      ref: "34.3",
+      item: "Inversion (little did we realise; never have I seen; so are we)",
+      maps:
+        [
+          negative-inversion,
+          never-before,
+          no-sooner-hardly,
+          only-inversion,
+          so-such-inversion,
+          nor-inversion,
+          so-neither-do-i,
+          not-only-inversion,
+        ],
+    }
+  - {
+      ref: "35.1",
+      item: "Types of text reference: substitution, ellipsis, anaphoric and cataphoric",
+      maps:
+        [
+          it-this-that-reference,
+          such-this-reference,
+          reference-chains,
+          cataphora,
+          former-latter,
+        ],
+    }
+  - {
+      ref: "35.2",
+      item: "Substitution: substituting nouns, verbs, clauses",
+      maps:
+        [
+          one-ones,
+          do-so,
+          substitution-suppose-so,
+          so-it-is,
+          uk-do-substitution,
+          think-so-hope-not,
+        ],
+    }
+  - {
+      ref: "35.3",
+      item: "Ellipsis: omitting nouns, pronouns, verbs, infinitives and wh- clauses",
+      maps:
+        [
+          ellipsis-to,
+          auxiliary-ellipsis,
+          comparison-ellipsis,
+          spoken-ellipsis,
+          comparative-ellipsis-clause,
+        ],
+    }
+  - {
+      ref: "36.1",
+      item: "Ordering information: the information principle; the end-weight principle",
+      maps:
+        [
+          end-weight-focus,
+          theme-rheme,
+          heavy-np-shift,
+          fronting,
+          parallelism,
+        ],
+    }
+  - {
+      ref: "36.2",
+      item: "Discourse devices: types of linking; reference; parallelism",
+      maps:
+        [
+          discourse-writing,
+          linkers-addition,
+          lexical-cohesion,
+          reference-chains,
+          parallelism,
+          tricolon,
+          advanced-linkers,
+        ],
+    }

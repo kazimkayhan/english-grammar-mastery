@@ -7,271 +7,2036 @@ retrieved_from:
 verified: true
 note: "Real contents pages (Cambridge University Press frontmatter PDFs, text extracted with pypdf). Caveats: (1) Essential Grammar in Use: the frontmatter retrieved is that of the Supplementary Exercises volume (ISBN 978-1-107-48061-2, 'to accompany Essential Grammar in Use Fourth Edition', 185 exercises); its contents list the 4th-edition topic groups (exercise ranges), not the 115 numbered unit titles, so Essential items are topic groups and refs show exercise ranges. The frontmatter of the main book (ISBN 978-1-107-48055-1 and -48056-8) downloaded but its text layer could not be read. (2) Advanced Grammar in Use: a 4th edition (ISBN 978-1-108-92021-6, 2021, 105 units) exists, but its frontmatter returned 404 and cambridge.org returned 403, so the 3rd edition (2013, 100 units) was audited; the 4th edition adds five academic-grammar units that are NOT checked here. (3) English Grammar in Use 5th ed (2019) is the latest edition: units 1-145 plus appendices. Level convention: level is the lower bound of the book band (Essential A1, English B1, Advanced C1) because the books do not grade units; levelNote is only added when a mapped inventory point is 2+ levels above the top of the band (Essential A2, English B2, Advanced C2), since inventory points below the band are simply review content for that book. Related units are merged into one item where the contents list them as a range (e.g. 3-4)."
 items:
-  - { ref: "Essential Grammar in Use 1-5", level: A1, item: "am/is/are", maps: [ be-present-forms, be-negative, be-questions, be-short-answers, be-contractions ] }
-  - { ref: "Essential Grammar in Use 6-9", level: A1, item: "present continuous", maps: [ present-continuous-form, present-continuous-now, ing-spelling ] }
-  - { ref: "Essential Grammar in Use 10-14", level: A1, item: "present simple", maps: [ present-simple-positive, present-simple-negative, present-simple-questions, third-person-s ] }
-  - { ref: "Essential Grammar in Use 15-19", level: A1, item: "present continuous and present simple", maps: [ simple-vs-continuous ] }
-  - { ref: "Essential Grammar in Use 20-21", level: A1, item: "have got", maps: [ have-got, have-possession ] }
-  - { ref: "Essential Grammar in Use 22-29", level: A1, item: "was/were and past simple", maps: [ was-were, past-simple-regular, past-simple-irregular, did-negative-questions, past-simple-wh ] }
-  - { ref: "Essential Grammar in Use 30-32", level: A1, item: "past continuous and past simple", maps: [ past-continuous, past-simple-vs-continuous ] }
-  - { ref: "Essential Grammar in Use 33-35", level: A1, item: "present and past, simple and continuous", maps: [ simple-vs-continuous, past-simple-vs-continuous ] }
-  - { ref: "Essential Grammar in Use 36-39", level: A1, item: "present perfect", maps: [ present-perfect-form, present-perfect-experience, present-perfect-recent, just-already-yet ] }
-  - { ref: "Essential Grammar in Use 40-43", level: A1, item: "present perfect questions: How long have you...?", maps: [ how-long, for-since ] }
-  - { ref: "Essential Grammar in Use 44-49", level: A1, item: "present perfect and past simple", maps: [ pp-vs-past ] }
-  - { ref: "Essential Grammar in Use 50-52", level: A1, item: "present, present perfect and past", maps: [ pp-vs-past ] }
-  - { ref: "Essential Grammar in Use 53-57", level: A1, item: "passive", maps: [ passive-form, passive-present-past, passive-perfect, passive-continuous ], levelNote: "book band A1-A2, inventory says passive-continuous B2" }
-  - { ref: "Essential Grammar in Use 58-60", level: A1, item: "verb forms: be/have/do and regular/irregular verbs", maps: [ verb-forms, auxiliaries, past-participle, irregular-verbs-2 ] }
-  - { ref: "Essential Grammar in Use 61-63", level: A1, item: "the future: present tenses", maps: [ present-continuous-future, present-simple-timetable ] }
-  - { ref: "Essential Grammar in Use 64-66", level: A1, item: "I'm going to do", maps: [ going-to-plans, going-to-evidence ] }
-  - { ref: "Essential Grammar in Use 67-70", level: A1, item: "will/shall", maps: [ will-decisions, will-predictions, shall-offers ] }
-  - { ref: "Essential Grammar in Use 71-74", level: A1, item: "future forms compared", maps: [ which-future-intro, futures-compared ] }
-  - { ref: "Essential Grammar in Use 75-76", level: A1, item: "might", maps: [ may-might-possibility, might-vs-will ] }
-  - { ref: "Essential Grammar in Use 77-80", level: A1, item: "can and could", maps: [ can-ability, could-past-ability, could-may-requests ] }
-  - { ref: "Essential Grammar in Use 81-82", level: A1, item: "must, mustn't, don't need to", maps: [ must-have-to, mustnt-dont-have-to, need-neednt ] }
-  - { ref: "Essential Grammar in Use 83-85", level: A1, item: "should", maps: [ should-advice ] }
-  - { ref: "Essential Grammar in Use 86-87", level: A1, item: "I have to", maps: [ must-have-to, had-to ] }
-  - { ref: "Essential Grammar in Use 88-90", level: A1, item: "Do this! Don't do that! Let's do this!", maps: [ imperatives, lets ] }
-  - { ref: "Essential Grammar in Use 91-92", level: A1, item: "I used to", maps: [ used-to, didnt-use-to ] }
-  - { ref: "Essential Grammar in Use 93-94", level: A1, item: "there and it", maps: [ there-is-are, dummy-it, there-was-were ] }
-  - { ref: "Essential Grammar in Use 95-99", level: A1, item: "auxiliary verbs (I do, do you? so do I, I don't)", maps: [ so-neither-do-i, me-too-me-neither, auxiliaries, be-short-answers ] }
-  - { ref: "Essential Grammar in Use 100-105", level: A1, item: "questions", maps: [ be-questions, question-words, question-word-order, present-simple-questions, subject-questions ] }
-  - { ref: "Essential Grammar in Use 106-109", level: A1, item: "Do you know where ...?", maps: [ indirect-questions ] }
-  - { ref: "Essential Grammar in Use 110-111", level: A1, item: "reported speech: She said that ... / He told me that ...", maps: [ say-tell, backshift ] }
-  - { ref: "Essential Grammar in Use 112-118", level: A1, item: "doing / do / to do", maps: [ verb-ing, verb-to, infinitive-purpose, like-ing, would-like ] }
-  - { ref: "Essential Grammar in Use 119-120", level: A1, item: "do / make / have", maps: [ make-vs-do, delexical-verbs, have-actions ] }
-  - { ref: "Essential Grammar in Use 121-125", level: A1, item: "I / me / my / mine / myself", maps: [ subject-pronouns, object-pronouns, possessive-adjectives, possessive-pronouns, reflexive-pronouns ] }
-  - { ref: "Essential Grammar in Use 126-128", level: A1, item: "Kate's camera", maps: [ possessive-s, s-plural-possessive ] }
-  - { ref: "Essential Grammar in Use 129-132", level: A1, item: "a/an and some (singular and plural)", maps: [ a-an-sound, plural-regular, plural-irregular, some-any-basic ] }
-  - { ref: "Essential Grammar in Use 133-136", level: A1, item: "a/an and the", maps: [ the-specific, the-second-mention, a-vs-one ] }
-  - { ref: "Essential Grammar in Use 137-141", level: A1, item: "some / any / no / none", maps: [ some-any-basic, no-none, some-any-offers ] }
-  - { ref: "Essential Grammar in Use 142-143", level: A1, item: "someone / anything / nowhere", maps: [ indefinite-compounds ] }
-  - { ref: "Essential Grammar in Use 144-145", level: A1, item: "every and all", maps: [ each-every-basic, all-both-basic ] }
-  - { ref: "Essential Grammar in Use 146-147", level: A1, item: "all / most / some / any / no / none", maps: [ all-both-basic, no-none, most-of ], levelNote: "book band A1-A2, inventory says most-of B2" }
-  - { ref: "Essential Grammar in Use 148-149", level: A1, item: "both / either / neither", maps: [ all-both-basic, either-neither ] }
-  - { ref: "Essential Grammar in Use 150-152", level: A1, item: "a lot / much / many, (a) little / (a) few", maps: [ much-many, a-lot-of, a-few-a-little, too-much-many ] }
-  - { ref: "Essential Grammar in Use 153-154", level: A1, item: "adjectives and adverbs", maps: [ adjective-position, adverbs-manner, adjective-vs-adverb, irregular-adverbs ] }
-  - { ref: "Essential Grammar in Use 155-159", level: A1, item: "comparatives and superlatives", maps: [ comparatives-short, comparatives-long, comparatives-irregular, superlatives, as-as ] }
-  - { ref: "Essential Grammar in Use 160-164", level: A1, item: "enough and too", maps: [ too-enough, very-vs-too ] }
-  - { ref: "Essential Grammar in Use 165-166", level: A1, item: "word order", maps: [ svo-order, place-before-time, frequency-position ] }
-  - { ref: "Essential Grammar in Use 167-168", level: A1, item: "and / but / or / so / because / when", maps: [ and-but-or, because-so, time-clauses-basic ] }
-  - { ref: "Essential Grammar in Use 169-171", level: A1, item: "if we go and if we went", maps: [ first-conditional, second-conditional, first-vs-second ] }
-  - { ref: "Essential Grammar in Use 172-174", level: A1, item: "relative clauses: a person (who), a thing (that/which)", maps: [ relative-who-which-that, defining-relative-basic ] }
-  - { ref: "Essential Grammar in Use 175-177", level: A1, item: "prepositions of time: at, until, before", maps: [ time-at-on-in, from-to-until ] }
-  - { ref: "Essential Grammar in Use 178-180", level: A1, item: "prepositions of place and movement: in, under, through", maps: [ place-in-on-at, place-others, movement ] }
-  - { ref: "Essential Grammar in Use 181-183", level: A1, item: "prepositions before and after verbs: good at (doing), listen to", maps: [ adj-prep-1, verb-prep-1, ing-after-prepositions ] }
-  - { ref: "Essential Grammar in Use 184-185", level: A1, item: "phrasal verbs: go in, fall off, run away", maps: [ phrasal-verbs-intro ] }
-  - { ref: "English Grammar in Use 5th ed unit 1", level: B1, item: "Present continuous (I am doing)", maps: [ present-continuous-form, present-continuous-now ] }
-  - { ref: "English Grammar in Use 5th ed unit 2", level: B1, item: "Present simple (I do)", maps: [ present-simple-positive, present-simple-uses, third-person-s ] }
-  - { ref: "English Grammar in Use 5th ed unit 3-4", level: B1, item: "Present continuous and present simple", maps: [ simple-vs-continuous, stative-verbs, temporary-permanent, changing-situations ] }
-  - { ref: "English Grammar in Use 5th ed unit 5", level: B1, item: "Past simple (I did)", maps: [ past-simple-regular, past-simple-irregular, past-simple-uses, did-negative-questions ] }
-  - { ref: "English Grammar in Use 5th ed unit 6", level: B1, item: "Past continuous (I was doing)", maps: [ past-continuous, past-simple-vs-continuous, when-while ] }
-  - { ref: "English Grammar in Use 5th ed unit 7-8", level: B1, item: "Present perfect (I have done)", maps: [ present-perfect-form, present-perfect-experience, present-perfect-recent, just-already-yet, been-gone ] }
-  - { ref: "English Grammar in Use 5th ed unit 9", level: B1, item: "Present perfect continuous (I have been doing)", maps: [ ppc-form, ppc-duration, ppc-recent-results ] }
-  - { ref: "English Grammar in Use 5th ed unit 10", level: B1, item: "Present perfect continuous and simple", maps: [ ppc-vs-pp ] }
-  - { ref: "English Grammar in Use 5th ed unit 11", level: B1, item: "how long have you (been) ...?", maps: [ how-long, ppc-duration ] }
-  - { ref: "English Grammar in Use 5th ed unit 12", level: B1, item: "for and since; when ...? and how long ...?", maps: [ for-since, how-long, its-years-since ] }
-  - { ref: "English Grammar in Use 5th ed unit 13-14", level: B1, item: "Present perfect and past (I have done and I did)", maps: [ pp-vs-past, finished-time-trap, since-past-simple, first-time ] }
-  - { ref: "English Grammar in Use 5th ed unit 15", level: B1, item: "Past perfect (I had done)", maps: [ past-perfect, past-perfect-sequence, past-perfect-adverbs ] }
-  - { ref: "English Grammar in Use 5th ed unit 16", level: B1, item: "Past perfect continuous (I had been doing)", maps: [ past-perfect-continuous ] }
-  - { ref: "English Grammar in Use 5th ed unit 17", level: B1, item: "have and have got", maps: [ have-possession, have-got, have-actions ] }
-  - { ref: "English Grammar in Use 5th ed unit 18", level: B1, item: "used to (do)", maps: [ used-to, didnt-use-to ] }
-  - { ref: "English Grammar in Use 5th ed unit 19", level: B1, item: "Present tenses for the future", maps: [ present-continuous-future, present-simple-timetable ] }
-  - { ref: "English Grammar in Use 5th ed unit 20", level: B1, item: "I'm going to (do)", maps: [ going-to-plans, going-to-evidence ] }
-  - { ref: "English Grammar in Use 5th ed unit 21-22", level: B1, item: "will and shall", maps: [ will-decisions, will-predictions, shall-offers, probably-will ] }
-  - { ref: "English Grammar in Use 5th ed unit 23", level: B1, item: "I will and I'm going to", maps: [ which-future-intro, futures-compared ] }
-  - { ref: "English Grammar in Use 5th ed unit 24", level: B1, item: "will be doing and will have done", maps: [ future-continuous-intro, future-continuous-full, future-perfect ] }
-  - { ref: "English Grammar in Use 5th ed unit 25", level: B1, item: "when I do and when I've done; if and when", maps: [ future-time-clauses, future-time-clauses-basic, when-vs-if ] }
-  - { ref: "English Grammar in Use 5th ed unit 26", level: B1, item: "can, could and (be) able to", maps: [ can-ability, could-past-ability, be-able-to, managed-to ] }
-  - { ref: "English Grammar in Use 5th ed unit 27", level: B1, item: "could (do) and could have (done)", maps: [ could-have, could-may-requests ], suggest: { title: "could for possibility, offers and suggestions (It could rain; I could help you; You could ask her)", level: B1, lesson: b1-17 } }
-  - { ref: "English Grammar in Use 5th ed unit 28", level: B1, item: "must and can't", maps: [ deduction-present ] }
-  - { ref: "English Grammar in Use 5th ed unit 29-30", level: B1, item: "may and might", maps: [ may-might-possibility, might-vs-will, deduction-past ] }
-  - { ref: "English Grammar in Use 5th ed unit 31", level: B1, item: "have to and must", maps: [ must-have-to, mustnt-dont-have-to, had-to, have-got-to ] }
-  - { ref: "English Grammar in Use 5th ed unit 32", level: B1, item: "must, mustn't, needn't", maps: [ mustnt-dont-have-to, need-neednt ] }
-  - { ref: "English Grammar in Use 5th ed unit 33-34", level: B1, item: "should", maps: [ should-advice, should-expectation, should-have ] }
-  - { ref: "English Grammar in Use 5th ed unit 35", level: B1, item: "I'd better ...; it's time ...", maps: [ had-better, its-time-past ] }
-  - { ref: "English Grammar in Use 5th ed unit 36", level: B1, item: "would", maps: [ would-polite, would-habits-intro, would-have ] }
-  - { ref: "English Grammar in Use 5th ed unit 37", level: B1, item: "can/could/would you ...? (requests, offers, permission, invitations)", maps: [ can-permission-requests, could-may-requests, would-polite, would-you-mind, suggestions, offers ] }
-  - { ref: "English Grammar in Use 5th ed unit 38", level: B1, item: "if I do ... and if I did ...", maps: [ first-conditional, second-conditional, first-vs-second ] }
-  - { ref: "English Grammar in Use 5th ed unit 39", level: B1, item: "if I knew ...; I wish I knew ...", maps: [ second-conditional, wish-past, if-i-were-you ] }
-  - { ref: "English Grammar in Use 5th ed unit 40", level: B1, item: "if I had known ...; I wish I had known ...", maps: [ third-conditional, wish-past-perfect ] }
-  - { ref: "English Grammar in Use 5th ed unit 41", level: B1, item: "wish", maps: [ wish-past, wish-would, wish-past-perfect, wish-vs-hope ] }
-  - { ref: "English Grammar in Use 5th ed unit 42", level: B1, item: "Passive 1 (is done / was done)", maps: [ passive-form, passive-present-past, passive-by, passive-why ] }
-  - { ref: "English Grammar in Use 5th ed unit 43", level: B1, item: "Passive 2 (be done / been done / being done)", maps: [ passive-perfect, passive-continuous, passive-infinitive-gerund, passive-modal, passive-future ] }
-  - { ref: "English Grammar in Use 5th ed unit 44", level: B1, item: "Passive 3", maps: [ passive-two-objects, passive-infinitive-gerund, passive-phrasal ] }
-  - { ref: "English Grammar in Use 5th ed unit 45", level: B1, item: "it is said that ...; he is said to ...; he is supposed to ...", maps: [ impersonal-it-said, personal-said-to, supposed-to ] }
-  - { ref: "English Grammar in Use 5th ed unit 46", level: B1, item: "have something done", maps: [ have-something-done, causative-experience ] }
-  - { ref: "English Grammar in Use 5th ed unit 47", level: B1, item: "Reported speech 1 (he said that ...)", maps: [ say-tell, backshift, reported-changes ] }
-  - { ref: "English Grammar in Use 5th ed unit 48", level: B1, item: "Reported speech 2", maps: [ no-backshift, reported-modals, reported-commands, reporting-verbs-patterns ] }
-  - { ref: "English Grammar in Use 5th ed unit 49", level: B1, item: "Questions 1", maps: [ be-questions, question-word-order, subject-questions, object-questions, question-words, what-vs-which ] }
-  - { ref: "English Grammar in Use 5th ed unit 50", level: B1, item: "Questions 2 (do you know where ...? / he asked me where ...)", maps: [ indirect-questions, reported-questions, preposition-end-questions ] }
-  - { ref: "English Grammar in Use 5th ed unit 51", level: B1, item: "Auxiliary verbs; I think so / I hope so etc.", maps: [ auxiliary-ellipsis, think-so-hope-not, so-neither-do-i, substitution-suppose-so, be-short-answers ] }
-  - { ref: "English Grammar in Use 5th ed unit 52", level: B1, item: "Question tags", maps: [ question-tags, special-tags, tags-checking-asking ] }
-  - { ref: "English Grammar in Use 5th ed unit 53", level: B1, item: "Verb + -ing (enjoy doing / stop doing etc.)", maps: [ verb-ing, ing-to-meaning-change ] }
-  - { ref: "English Grammar in Use 5th ed unit 54", level: B1, item: "Verb + to ... (decide to / forget to etc.)", maps: [ verb-to ] }
-  - { ref: "English Grammar in Use 5th ed unit 55", level: B1, item: "Verb (+ object) + to ... (I want you to ...)", maps: [ verb-object-to, want-sb-to ] }
-  - { ref: "English Grammar in Use 5th ed unit 56", level: B1, item: "Verb + -ing or to ... 1 (remember, regret etc.)", maps: [ ing-to-meaning-change ] }
-  - { ref: "English Grammar in Use 5th ed unit 57", level: B1, item: "Verb + -ing or to ... 2 (try, need, help)", maps: [ ing-to-meaning-change, same-meaning-verbs, needs-doing ] }
-  - { ref: "English Grammar in Use 5th ed unit 58", level: B1, item: "Verb + -ing or to ... 3 (like / would like etc.)", maps: [ like-doing-vs-to, like-vs-would-like ] }
-  - { ref: "English Grammar in Use 5th ed unit 59", level: B1, item: "prefer and would rather", maps: [ rather-better-prefer, would-rather-past ] }
-  - { ref: "English Grammar in Use 5th ed unit 60", level: B1, item: "Preposition + -ing", maps: [ ing-after-prepositions ] }
-  - { ref: "English Grammar in Use 5th ed unit 61", level: B1, item: "be/get used to ...", maps: [ be-used-to, get-used-to, used-to-vs-be-used-to ] }
-  - { ref: "English Grammar in Use 5th ed unit 62", level: B1, item: "Verb + preposition + -ing", maps: [ ing-after-prepositions, accuse-apologise, to-preposition ] }
-  - { ref: "English Grammar in Use 5th ed unit 63", level: B1, item: "there's no point in -ing, it's worth -ing etc.", maps: [ fixed-ing-expressions ] }
-  - { ref: "English Grammar in Use 5th ed unit 64", level: B1, item: "to ..., for ... and so that ...", maps: [ infinitive-purpose, purpose-clauses, for-noun-purpose ] }
-  - { ref: "English Grammar in Use 5th ed unit 65", level: B1, item: "Adjective + to ...", maps: [ adjective-to, it-adj-to, too-enough-to ] }
-  - { ref: "English Grammar in Use 5th ed unit 66", level: B1, item: "to ... (afraid to do) and preposition + -ing (afraid of -ing)", maps: [ afraid-sorry-interested, adj-prep-1 ] }
-  - { ref: "English Grammar in Use 5th ed unit 67", level: B1, item: "see somebody do and see somebody doing", maps: [ perception-base-ing ] }
-  - { ref: "English Grammar in Use 5th ed unit 68", level: B1, item: "-ing clauses (He hurt his knee playing football)", maps: [ participle-clauses, conjunction-ing ] }
-  - { ref: "English Grammar in Use 5th ed unit 69-70", level: B1, item: "Countable and uncountable", maps: [ countable-uncountable, uncountable-traps, partitives, dual-countability ] }
-  - { ref: "English Grammar in Use 5th ed unit 71", level: B1, item: "Countable nouns with a/an and some", maps: [ a-vs-one, some-any-basic, a-an-sound ] }
-  - { ref: "English Grammar in Use 5th ed unit 72", level: B1, item: "a/an and the", maps: [ the-specific, the-second-mention, a-vs-one ] }
-  - { ref: "English Grammar in Use 5th ed unit 73", level: B1, item: "the 1", maps: [ the-unique, the-specific, the-superlative-ordinal ] }
-  - { ref: "English Grammar in Use 5th ed unit 74", level: B1, item: "the 2 (school / the school etc.)", maps: [ institutions ] }
-  - { ref: "English Grammar in Use 5th ed unit 75", level: B1, item: "the 3 (children / the children)", maps: [ the-vs-zero, generic-reference ] }
-  - { ref: "English Grammar in Use 5th ed unit 76", level: B1, item: "the 4 (the giraffe / the telephone / the old etc.)", maps: [ generic-reference, the-adjective-group, the-instruments, the-nationality ] }
-  - { ref: "English Grammar in Use 5th ed unit 77-78", level: B1, item: "Names with and without the", maps: [ the-geography, articles-names ] }
-  - { ref: "English Grammar in Use 5th ed unit 79", level: B1, item: "Singular and plural", maps: [ plural-regular, plural-irregular, plural-only, singular-s-nouns, plural-verb-nouns ] }
-  - { ref: "English Grammar in Use 5th ed unit 80", level: B1, item: "Noun + noun (a bus driver / a headache)", maps: [ compound-nouns, measurement-compounds ] }
-  - { ref: "English Grammar in Use 5th ed unit 81", level: B1, item: "'s and of ...", maps: [ possessive-of, time-possessive, possessive-places, possessive-s ] }
-  - { ref: "English Grammar in Use 5th ed unit 82", level: B1, item: "myself / yourself / themselves etc.", maps: [ reflexive-pronouns, by-myself, each-other, emphatic-reflexive ] }
-  - { ref: "English Grammar in Use 5th ed unit 83", level: B1, item: "a friend of mine; my own house; on my own / by myself", maps: [ double-possessive, by-myself ], suggest: { title: "own: my own house, on my own", level: B1, lesson: b1-43 } }
-  - { ref: "English Grammar in Use 5th ed unit 84", level: B1, item: "there ... and it ...", maps: [ it-vs-there, there-tenses, it-takes ] }
-  - { ref: "English Grammar in Use 5th ed unit 85", level: B1, item: "some and any", maps: [ some-any-basic, some-any-offers, any-whichever ] }
-  - { ref: "English Grammar in Use 5th ed unit 86", level: B1, item: "no / none / any; nothing / nobody etc.", maps: [ no-none, indefinite-compounds, none-of ] }
-  - { ref: "English Grammar in Use 5th ed unit 87", level: B1, item: "much, many, little, few, a lot, plenty", maps: [ much-many, a-lot-of, a-few-a-little, few-a-few, quite-a-few ] }
-  - { ref: "English Grammar in Use 5th ed unit 88", level: B1, item: "all / all of; most / most of; no / none of etc.", maps: [ both-all-whole, most-of, none-of, all-both-basic ] }
-  - { ref: "English Grammar in Use 5th ed unit 89", level: B1, item: "both / neither / either (and of)", maps: [ either-neither, both-all-whole, both-and, either-or-neither-nor ] }
-  - { ref: "English Grammar in Use 5th ed unit 90", level: B1, item: "all, every, whole", maps: [ every-day-all-day, both-all-whole, each-every-basic ] }
-  - { ref: "English Grammar in Use 5th ed unit 91", level: B1, item: "each and every", maps: [ each-every-basic, each-every-full ] }
-  - { ref: "English Grammar in Use 5th ed unit 92", level: B1, item: "Relative clauses 1: who/that/which", maps: [ relative-who-which-that, defining-relative-basic, relative-where ] }
-  - { ref: "English Grammar in Use 5th ed unit 93", level: B1, item: "Relative clauses 2: with and without who/that/which", maps: [ omit-relative, no-resumptive, that-vs-which ] }
-  - { ref: "English Grammar in Use 5th ed unit 94", level: B1, item: "Relative clauses 3: whose/whom/where", maps: [ relative-whose-when, relative-where, preposition-relative ] }
-  - { ref: "English Grammar in Use 5th ed unit 95-96", level: B1, item: "Relative clauses 4-5: extra information clauses", maps: [ defining-nondefining, quantifier-relative, sentential-which ] }
-  - { ref: "English Grammar in Use 5th ed unit 97", level: B1, item: "-ing and -ed clauses (the woman talking to Tom)", maps: [ reduced-relative ] }
-  - { ref: "English Grammar in Use 5th ed unit 98", level: B1, item: "Adjectives ending in -ing and -ed", maps: [ ed-ing-adjectives ] }
-  - { ref: "English Grammar in Use 5th ed unit 99", level: B1, item: "Adjectives: a nice new house, you look tired", maps: [ adjective-order-intro, linking-verbs, adjective-position ] }
-  - { ref: "English Grammar in Use 5th ed unit 100-101", level: B1, item: "Adjectives and adverbs", maps: [ adjective-vs-adverb, adverbs-manner, irregular-adverbs, hard-hardly ] }
-  - { ref: "English Grammar in Use 5th ed unit 102", level: B1, item: "so and such", maps: [ so-such, so-such-exclamations ] }
-  - { ref: "English Grammar in Use 5th ed unit 103", level: B1, item: "enough and too", maps: [ too-enough, too-enough-to ] }
-  - { ref: "English Grammar in Use 5th ed unit 104", level: B1, item: "quite, pretty, rather and fairly", maps: [ softeners, quite-us-uk ] }
-  - { ref: "English Grammar in Use 5th ed unit 105-107", level: B1, item: "Comparatives (cheaper, much better, as ... as / than)", maps: [ comparatives-short, comparatives-long, much-far-comparative, as-as, than-me, times-as ] }
-  - { ref: "English Grammar in Use 5th ed unit 108", level: B1, item: "Superlative (the longest, the most enjoyable)", maps: [ superlatives, superlative-in-of, by-far ] }
-  - { ref: "English Grammar in Use 5th ed unit 109", level: B1, item: "Word order 1: verb + object; place and time", maps: [ svo-order, place-before-time, adverb-order ] }
-  - { ref: "English Grammar in Use 5th ed unit 110", level: B1, item: "Word order 2: adverbs with the verb", maps: [ adverb-positions, frequency-position ] }
-  - { ref: "English Grammar in Use 5th ed unit 111", level: B1, item: "still / any more / yet / already", maps: [ already-yet-still, still-anymore ] }
-  - { ref: "English Grammar in Use 5th ed unit 112", level: B1, item: "even", maps: [ focus-adverbs ] }
-  - { ref: "English Grammar in Use 5th ed unit 113", level: B1, item: "although / though / even though / in spite of / despite", maps: [ contrast-although, despite-in-spite, even-though-if ] }
-  - { ref: "English Grammar in Use 5th ed unit 114", level: B1, item: "in case", maps: [ in-case ] }
-  - { ref: "English Grammar in Use 5th ed unit 115", level: B1, item: "unless / as long as / provided", maps: [ unless, as-long-as, provided-providing ] }
-  - { ref: "English Grammar in Use 5th ed unit 116", level: B1, item: "as (as I walked ...) - as = because", maps: [ reason-clauses ] }
-  - { ref: "English Grammar in Use 5th ed unit 116", level: B1, item: "as (as I walked ...) - as = while or at the same time", maps: [ as-simultaneous ], suggest: { title: "as for simultaneous or changing events (As I walked home...; As it got darker...)", level: B2, lesson: b1-32 } }
-  - { ref: "English Grammar in Use 5th ed unit 117", level: B1, item: "like and as", maps: [ like-as ] }
-  - { ref: "English Grammar in Use 5th ed unit 118", level: B1, item: "like / as if", maps: [ look-like, as-if ] }
-  - { ref: "English Grammar in Use 5th ed unit 119", level: B1, item: "during / for / while", maps: [ during-vs-for, when-while, prep-vs-conj ] }
-  - { ref: "English Grammar in Use 5th ed unit 120", level: B1, item: "by and until; by the time", maps: [ by-until, time-clauses-full ] }
-  - { ref: "English Grammar in Use 5th ed unit 121", level: B1, item: "at/on/in (time)", maps: [ time-at-on-in, at-night-weekend, time-clauses-basic ] }
-  - { ref: "English Grammar in Use 5th ed unit 122", level: B1, item: "on time and in time; at the end and in the end", maps: [ prep-phrases ] }
-  - { ref: "English Grammar in Use 5th ed unit 123-125", level: B1, item: "in/at/on (position) 1-3", maps: [ place-in-on-at, place-others, address-prepositions, transport-in-on ] }
-  - { ref: "English Grammar in Use 5th ed unit 126", level: B1, item: "to, at, in and into", maps: [ movement, go-home, arrive-in-at ] }
-  - { ref: "English Grammar in Use 5th ed unit 127", level: B1, item: "in/on/at (other uses)", maps: [ in-on-at-other ], suggest: { title: "in / on / at: other uses (on the left, on TV, in the newspaper, in the rain, at the age of)", level: A2, lesson: a2-45 } }
-  - { ref: "English Grammar in Use 5th ed unit 128", level: B1, item: "by", maps: [ by-with, by-until ] }
-  - { ref: "English Grammar in Use 5th ed unit 129", level: B1, item: "Noun + preposition (reason for, cause of etc.)", maps: [ noun-prep ] }
-  - { ref: "English Grammar in Use 5th ed unit 130-131", level: B1, item: "Adjective + preposition 1-2", maps: [ adj-prep-1 ] }
-  - { ref: "English Grammar in Use 5th ed unit 132-136", level: B1, item: "Verb + preposition 1-5", maps: [ verb-prep-1, verb-obj-prep, prepositional-verbs, zero-prep-verbs, accuse-apologise ] }
-  - { ref: "English Grammar in Use 5th ed unit 137-145", level: B1, item: "Phrasal verbs 1-9", maps: [ phrasal-verbs-intro, phrasal-separable, phrasal-pronoun-position, three-part-phrasal, passive-phrasal ] }
-  - { ref: "English Grammar in Use 5th ed App 1", level: B1, item: "Regular and irregular verbs", maps: [ past-simple-irregular, irregular-verbs-2, ed-spelling ] }
-  - { ref: "English Grammar in Use 5th ed App 2-3", level: B1, item: "Present and past tenses; the future", maps: [ futures-compared, narrative-tenses ] }
-  - { ref: "English Grammar in Use 5th ed App 4", level: B1, item: "Modal verbs (can/could/will/would etc.)", maps: [ modal-grammar ] }
-  - { ref: "English Grammar in Use 5th ed App 5", level: B1, item: "Short forms (I'm / you've / didn't etc.)", maps: [ contractions, s-is-has, be-contractions ] }
-  - { ref: "English Grammar in Use 5th ed App 6", level: B1, item: "Spelling", maps: [ third-person-spelling, ing-spelling, ed-spelling, adverb-spelling, plural-regular ] }
-  - { ref: "English Grammar in Use 5th ed App 7", level: B1, item: "American English", maps: [ us-uk-verbs, us-uk-prepositions ], levelNote: "book band B1-B2, inventory says us-uk-verbs C2, us-uk-prepositions C2" }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 1-2", level: C1, item: "Present continuous and present simple", maps: [ simple-vs-continuous, stative-verbs, stative-dynamic-meanings, always-ing, historic-present, stative-progressive ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 3", level: C1, item: "Past simple and present perfect", maps: [ pp-vs-past, news-perfect-past ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 4", level: C1, item: "Past continuous and past simple", maps: [ past-simple-vs-continuous, past-continuous-background ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 5", level: C1, item: "Past perfect and past simple", maps: [ past-perfect-sequence, narrative-tenses ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 6", level: C1, item: "Present perfect continuous and present perfect", maps: [ ppc-vs-pp ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 7", level: C1, item: "Past perfect continuous, past perfect and past continuous", maps: [ past-perfect-continuous, narrative-tenses ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 8", level: C1, item: "Present and past time: review", maps: [ aspect-in-narrative, perfect-progressive-nuance ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 9", level: C1, item: "Will and be going to", maps: [ futures-compared, will-predictions, going-to-evidence, will-decisions ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 10", level: C1, item: "Present simple and present continuous for the future", maps: [ present-simple-timetable, present-continuous-future ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 11", level: C1, item: "Future continuous and future perfect (continuous)", maps: [ future-continuous-full, future-perfect, future-perfect-continuous ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 12", level: C1, item: "Be to + infinitive; be about to + infinitive", maps: [ be-to-infinitive, be-about-to ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 13", level: C1, item: "Other ways of talking about the future", maps: [ be-bound-to, be-due-to, be-about-to ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 14", level: C1, item: "The future seen from the past", maps: [ future-in-past, was-going-to, was-to ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 15", level: C1, item: "Can, could, be able to and be allowed to", maps: [ be-able-to, able-all-forms, allowed-to, managed-to, could-past-ability ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 16", level: C1, item: "Will, would and used to", maps: [ will-habits, would-vs-used-to, would-characteristic, wont-refusal, will-assumption ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 17", level: C1, item: "May and might", maps: [ may-might-possibility, may-well, might-as-well, might-have-reproach ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 18", level: C1, item: "Must and have (got) to", maps: [ must-have-to, have-got-to, be-to-vs-have-to, cant-vs-mustnt, deduction-present ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 19", level: C1, item: "Need(n't), don't need to and don't have to", maps: [ need-neednt, need-modal, neednt-have ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 20", level: C1, item: "Should, ought to and had better", maps: [ should-expectation, ought-to, had-better, should-have, putative-should ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 21", level: C1, item: "Linking verbs: be, appear, seem; become, get, etc.", maps: [ linking-verbs, there-seems ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 22", level: C1, item: "Forming passive sentences 1", maps: [ passive-continuous, passive-perfect, passive-modal, passive-two-objects, modal-perfect-passive ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 23", level: C1, item: "Forming passive sentences 2: verb + -ing or to-infinitive", maps: [ passive-infinitive-gerund, perception-passive, made-to, complex-passive-infinitive ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 24", level: C1, item: "Using passives", maps: [ passive-why, choosing-voice, get-passive, stative-dynamic-passive, agency-news-academic ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 25", level: C1, item: "Reporting with passives; It is said that ...", maps: [ impersonal-it-said, personal-said-to, there-said-to-be, impersonal-passive-full, reporting-passive-verbs, passive-reporting ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 26", level: C1, item: "Wh-questions with who, whom, which, how and whose", maps: [ who-whom, whose, object-questions, what-vs-which ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 27", level: C1, item: "Negative questions; echo questions", maps: [ negative-surprise, echo-reply-questions, negative-questions-basic ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 27", level: C1, item: "Questions with that-clauses (Who did you say that you saw?)", maps: [ questions-that-clauses ], suggest: { title: "Questions with that-clauses: Who did you say (that) you saw?", level: B2, lesson: b2-01 } }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 28", level: C1, item: "Verbs, objects and complements", maps: [ object-complement, find-it-adj, sentence-parts ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 29", level: C1, item: "Verb + two objects", maps: [ two-objects, two-objects-to-for, passive-two-objects ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 30-31", level: C1, item: "Verb + -ing forms and infinitives 1-2", maps: [ ing-to-meaning-change, same-meaning-verbs, perfect-infinitive, perfect-gerund, mean-go-on, like-doing-vs-to, afraid-sorry-interested, verb-object-to, make-let-help, perception-base-ing, possessive-gerund, deny-having ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 32", level: C1, item: "Reporting people's words and thoughts", maps: [ reporting-verbs-patterns, reported-thoughts, summarising-speech ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 33", level: C1, item: "Reporting statements: that-clauses", maps: [ that-clauses, reporting-verbs-patterns ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 34", level: C1, item: "Verb + wh-clause", maps: [ wh-clauses, if-whether-clauses, reported-if-whether ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 35", level: C1, item: "Tense choice in reporting", maps: [ backshift, no-backshift ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 36", level: C1, item: "Reporting offers, suggestions, orders, intentions, etc.", maps: [ reported-commands, reported-requests, suggest-pattern, accuse-apologise, deny-having ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 37", level: C1, item: "Modal verbs in reporting", maps: [ reported-modals ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 38", level: C1, item: "Reporting what people say using nouns and adjectives", maps: [ nominal-reporting ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 39", level: C1, item: "Should in that-clauses; the present subjunctive", maps: [ mandative-subjunctive, should-subjunctive, putative-should ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 40-42", level: C1, item: "Agreement between subject and verb 1-3", maps: [ agreement-indefinite, one-of-plural, long-subject-agreement, collective-agreement, number-of, either-or-agreement, measurement-singular, majority-agreement, one-of-those-who, more-than-one, notional-agreement ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 43", level: C1, item: "Compound nouns and noun phrases", maps: [ compound-nouns, measurement-compounds, noun-phrase-premod, noun-phrase-postmod, compound-plurals ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 44", level: C1, item: "A / an and one", maps: [ a-vs-one ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 45-47", level: C1, item: "A / an, the and zero article 1-3", maps: [ zero-article-fixed, articles-names, roles-zero-article, a-knowledge-of, generic-reference, abstract-articles, stressed-the, the-superlative-ordinal ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 48", level: C1, item: "Some and any", maps: [ some-any-offers, any-whichever, any-whatever ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 49", level: C1, item: "No, none (of) and not any", maps: [ no-none, none-of, none-agreement, no-vs-not-a, not-any-vs-no ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 50", level: C1, item: "Much (of), many (of), a lot of, lots (of), etc.", maps: [ great-deal, quite-a-few, most-of, quantity-agreement, much-many ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 51", level: C1, item: "All (of), whole, every, each", maps: [ both-all-whole, each-every-full, floating-quantifiers, predeterminers ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 52", level: C1, item: "Few, little, less, fewer", maps: [ few-a-few, fewer-less, hardly-any, less-fewer-usage ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 53", level: C1, item: "Relative pronouns", maps: [ relative-who-which-that, whose-things, who-whom ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 54", level: C1, item: "Other relative words: whose, when, whereby, etc.", maps: [ relative-whose-when, whereby-wherein, which-linker, reason-why-way ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 55", level: C1, item: "Prepositions in relative clauses", maps: [ preposition-relative, quantifier-relative ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 56", level: C1, item: "Other ways of adding information to noun phrases 1: additional noun phrases", maps: [ apposition, noun-phrase-postmod ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 57", level: C1, item: "Other ways of adding information to noun phrases 2: prepositional phrases", maps: [ noun-phrase-postmod, reduced-relative ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 58-59", level: C1, item: "Participle clauses with adverbial meaning 1-2", maps: [ participle-clauses, perfect-passive-participle, absolute-clauses, dangling-participles, conjunction-ing ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 60", level: C1, item: "Reflexive pronouns", maps: [ reflexive-pronouns, emphatic-reflexive, each-other, myself-misuse ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 61", level: C1, item: "One and ones", maps: [ one-ones ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 62", level: C1, item: "So and not as substitutes for clauses, etc.", maps: [ substitution-suppose-so, so-it-is, think-so-hope-not ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 63", level: C1, item: "Do so; such", maps: [ do-so, such-this-reference, uk-do-substitution ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 64", level: C1, item: "More on leaving out words after auxiliary verbs", maps: [ auxiliary-ellipsis, comparison-ellipsis, spoken-ellipsis ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 65", level: C1, item: "Leaving out to-infinitives", maps: [ ellipsis-to ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 66", level: C1, item: "Position of adjectives", maps: [ adjective-order-full, predicative-only, attributive-only, adjective-order-intro ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 67-68", level: C1, item: "Gradable and non-gradable adjectives 1-2", maps: [ gradable-nongradable, intensifiers, softeners ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 69", level: C1, item: "Participle adjectives and compound adjectives", maps: [ ed-ing-adjectives, compound-adjectives ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 70", level: C1, item: "Adjectives + to-infinitive, -ing, that-clause, wh-clause", maps: [ adjective-prep-that-to, adjective-to, easy-to-please, worth-ing, it-adj-that, kind-of-you ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 71", level: C1, item: "Adjectives and adverbs", maps: [ adjective-vs-adverb, hard-hardly, irregular-adverbs ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 72", level: C1, item: "Adjectives and adverbs: comparative and superlative forms", maps: [ comparatives-short, comparatives-long, superlatives, by-far ], suggest: { title: "Comparatives and superlatives of adverbs (faster, more carefully, the best)", level: A2, lesson: a2-41 } }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 73", level: C1, item: "Comparative phrases and clauses", maps: [ much-far-comparative, the-comparative-the, times-as, nowhere-near, more-of-a, comparative-ellipsis-clause, as-ever ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 74-75", level: C1, item: "Position of adverbs 1-2", maps: [ adverb-positions, adverbial-order-advanced, adverbial-scope, only-position ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 76", level: C1, item: "Adverbs of place, direction, indefinite frequency, and time", maps: [ frequency-position, adverb-positions, adverb-order ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 77", level: C1, item: "Degree adverbs and focus adverbs", maps: [ intensifiers, focus-adverbs, almost-nearly, only-position ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 78", level: C1, item: "Comment adverbs and viewpoint adverbs", maps: [ comment-adverbs, viewpoint-adverbs ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 79", level: C1, item: "Adverbial clauses of time", maps: [ time-clauses-full, future-time-clauses, place-clauses ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 80", level: C1, item: "Giving reasons: as, because, etc.", maps: [ reason-clauses, in-that-given-that ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 80", level: C1, item: "Giving reasons: for and with", maps: [ with-noun-participle ], suggest: { title: "with + noun + participle, and for, giving reasons (With so little time, we left; ... for it was late)", level: C1, lesson: c1-18 } }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 81", level: C1, item: "Purposes and results: in order to, so as to, etc.", maps: [ purpose-clauses, result-clauses, such-that, so-such ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 82", level: C1, item: "Contrasts: although and though; even though / if; while, whilst and whereas", maps: [ contrast-although, whereas-while, even-though-if, whilst, much-as, adj-as-though, albeit ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 83-84", level: C1, item: "If 1-2", maps: [ first-vs-second, inverted-had, inverted-should, inverted-were, if-should, if-were-to, if-happen-to, if-will-would ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 85", level: C1, item: "If I were you ...; imagine he were to win", maps: [ if-i-were-you, if-were-to, were-subjunctive ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 86", level: C1, item: "If ... not and unless; if and whether; etc.", maps: [ unless, whether-or-not, only-if, but-for, reduced-conditionals ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 87", level: C1, item: "Connecting ideas in a sentence and between sentences", maps: [ linkers-addition, linkers-contrast, linkers-result, advanced-linkers, linkers-punctuation, semicolon-linkers ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 88", level: C1, item: "Prepositions of position and movement", maps: [ place-in-on-at, place-others, movement, above-over-below-under ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 89", level: C1, item: "Between and among", maps: [ between-among ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 90", level: C1, item: "Prepositions of time", maps: [ time-at-on-in, by-until, during-vs-for, for-since ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 91", level: C1, item: "Talking about exceptions", maps: [ except-besides ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 92", level: C1, item: "Prepositions after verbs", maps: [ verb-prep-1, verb-obj-prep, zero-prep-verbs ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 93", level: C1, item: "Prepositions after nouns", maps: [ noun-prep ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 94", level: C1, item: "Two- and three-word verbs: word order", maps: [ phrasal-separable, three-part-phrasal, phrasal-pronoun-position, latinate-phrasal ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 95", level: C1, item: "There is, there was, etc.", maps: [ there-tenses, there-seems, existential-variants ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 96-97", level: C1, item: "It 1-2", maps: [ it-vs-there, extraposition, preparatory-it-object, dummy-it, it-this-that-reference, it-adj-that ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 98", level: C1, item: "Focusing: it-clauses and what-clauses", maps: [ it-cleft, wh-cleft, all-cleft, reversed-cleft ] }
-  - { ref: "Advanced Grammar in Use 3rd ed unit 99-100", level: C1, item: "Inversion 1-2", maps: [ negative-inversion, no-sooner-hardly, only-inversion, place-inversion, so-such-inversion, as-did ] }
+  - {
+      ref: "Essential Grammar in Use 1-5",
+      level: A1,
+      item: "am/is/are",
+      maps:
+        [
+          be-present-forms,
+          be-negative,
+          be-questions,
+          be-short-answers,
+          be-contractions,
+        ],
+    }
+  - {
+      ref: "Essential Grammar in Use 6-9",
+      level: A1,
+      item: "present continuous",
+      maps: [ present-continuous-form, present-continuous-now, ing-spelling ],
+    }
+  - {
+      ref: "Essential Grammar in Use 10-14",
+      level: A1,
+      item: "present simple",
+      maps:
+        [
+          present-simple-positive,
+          present-simple-negative,
+          present-simple-questions,
+          third-person-s,
+        ],
+    }
+  - {
+      ref: "Essential Grammar in Use 15-19",
+      level: A1,
+      item: "present continuous and present simple",
+      maps: [ simple-vs-continuous ],
+    }
+  - {
+      ref: "Essential Grammar in Use 20-21",
+      level: A1,
+      item: "have got",
+      maps: [ have-got, have-possession ],
+    }
+  - {
+      ref: "Essential Grammar in Use 22-29",
+      level: A1,
+      item: "was/were and past simple",
+      maps:
+        [
+          was-were,
+          past-simple-regular,
+          past-simple-irregular,
+          did-negative-questions,
+          past-simple-wh,
+        ],
+    }
+  - {
+      ref: "Essential Grammar in Use 30-32",
+      level: A1,
+      item: "past continuous and past simple",
+      maps: [ past-continuous, past-simple-vs-continuous ],
+    }
+  - {
+      ref: "Essential Grammar in Use 33-35",
+      level: A1,
+      item: "present and past, simple and continuous",
+      maps: [ simple-vs-continuous, past-simple-vs-continuous ],
+    }
+  - {
+      ref: "Essential Grammar in Use 36-39",
+      level: A1,
+      item: "present perfect",
+      maps:
+        [
+          present-perfect-form,
+          present-perfect-experience,
+          present-perfect-recent,
+          just-already-yet,
+        ],
+    }
+  - {
+      ref: "Essential Grammar in Use 40-43",
+      level: A1,
+      item: "present perfect questions: How long have you...?",
+      maps: [ how-long, for-since ],
+    }
+  - {
+      ref: "Essential Grammar in Use 44-49",
+      level: A1,
+      item: "present perfect and past simple",
+      maps: [ pp-vs-past ],
+    }
+  - {
+      ref: "Essential Grammar in Use 50-52",
+      level: A1,
+      item: "present, present perfect and past",
+      maps: [ pp-vs-past ],
+    }
+  - {
+      ref: "Essential Grammar in Use 53-57",
+      level: A1,
+      item: "passive",
+      maps:
+        [
+          passive-form,
+          passive-present-past,
+          passive-perfect,
+          passive-continuous,
+        ],
+      levelNote: "book band A1-A2, inventory says passive-continuous B2",
+    }
+  - {
+      ref: "Essential Grammar in Use 58-60",
+      level: A1,
+      item: "verb forms: be/have/do and regular/irregular verbs",
+      maps: [ verb-forms, auxiliaries, past-participle, irregular-verbs-2 ],
+    }
+  - {
+      ref: "Essential Grammar in Use 61-63",
+      level: A1,
+      item: "the future: present tenses",
+      maps: [ present-continuous-future, present-simple-timetable ],
+    }
+  - {
+      ref: "Essential Grammar in Use 64-66",
+      level: A1,
+      item: "I'm going to do",
+      maps: [ going-to-plans, going-to-evidence ],
+    }
+  - {
+      ref: "Essential Grammar in Use 67-70",
+      level: A1,
+      item: "will/shall",
+      maps: [ will-decisions, will-predictions, shall-offers ],
+    }
+  - {
+      ref: "Essential Grammar in Use 71-74",
+      level: A1,
+      item: "future forms compared",
+      maps: [ which-future-intro, futures-compared ],
+    }
+  - {
+      ref: "Essential Grammar in Use 75-76",
+      level: A1,
+      item: "might",
+      maps: [ may-might-possibility, might-vs-will ],
+    }
+  - {
+      ref: "Essential Grammar in Use 77-80",
+      level: A1,
+      item: "can and could",
+      maps: [ can-ability, could-past-ability, could-may-requests ],
+    }
+  - {
+      ref: "Essential Grammar in Use 81-82",
+      level: A1,
+      item: "must, mustn't, don't need to",
+      maps: [ must-have-to, mustnt-dont-have-to, need-neednt ],
+    }
+  - {
+      ref: "Essential Grammar in Use 83-85",
+      level: A1,
+      item: "should",
+      maps: [ should-advice ],
+    }
+  - {
+      ref: "Essential Grammar in Use 86-87",
+      level: A1,
+      item: "I have to",
+      maps: [ must-have-to, had-to ],
+    }
+  - {
+      ref: "Essential Grammar in Use 88-90",
+      level: A1,
+      item: "Do this! Don't do that! Let's do this!",
+      maps: [ imperatives, lets ],
+    }
+  - {
+      ref: "Essential Grammar in Use 91-92",
+      level: A1,
+      item: "I used to",
+      maps: [ used-to, didnt-use-to ],
+    }
+  - {
+      ref: "Essential Grammar in Use 93-94",
+      level: A1,
+      item: "there and it",
+      maps: [ there-is-are, dummy-it, there-was-were ],
+    }
+  - {
+      ref: "Essential Grammar in Use 95-99",
+      level: A1,
+      item: "auxiliary verbs (I do, do you? so do I, I don't)",
+      maps:
+        [ so-neither-do-i, me-too-me-neither, auxiliaries, be-short-answers ],
+    }
+  - {
+      ref: "Essential Grammar in Use 100-105",
+      level: A1,
+      item: "questions",
+      maps:
+        [
+          be-questions,
+          question-words,
+          question-word-order,
+          present-simple-questions,
+          subject-questions,
+        ],
+    }
+  - {
+      ref: "Essential Grammar in Use 106-109",
+      level: A1,
+      item: "Do you know where ...?",
+      maps: [ indirect-questions ],
+    }
+  - {
+      ref: "Essential Grammar in Use 110-111",
+      level: A1,
+      item: "reported speech: She said that ... / He told me that ...",
+      maps: [ say-tell, backshift ],
+    }
+  - {
+      ref: "Essential Grammar in Use 112-118",
+      level: A1,
+      item: "doing / do / to do",
+      maps: [ verb-ing, verb-to, infinitive-purpose, like-ing, would-like ],
+    }
+  - {
+      ref: "Essential Grammar in Use 119-120",
+      level: A1,
+      item: "do / make / have",
+      maps: [ make-vs-do, delexical-verbs, have-actions ],
+    }
+  - {
+      ref: "Essential Grammar in Use 121-125",
+      level: A1,
+      item: "I / me / my / mine / myself",
+      maps:
+        [
+          subject-pronouns,
+          object-pronouns,
+          possessive-adjectives,
+          possessive-pronouns,
+          reflexive-pronouns,
+        ],
+    }
+  - {
+      ref: "Essential Grammar in Use 126-128",
+      level: A1,
+      item: "Kate's camera",
+      maps: [ possessive-s, s-plural-possessive ],
+    }
+  - {
+      ref: "Essential Grammar in Use 129-132",
+      level: A1,
+      item: "a/an and some (singular and plural)",
+      maps: [ a-an-sound, plural-regular, plural-irregular, some-any-basic ],
+    }
+  - {
+      ref: "Essential Grammar in Use 133-136",
+      level: A1,
+      item: "a/an and the",
+      maps: [ the-specific, the-second-mention, a-vs-one ],
+    }
+  - {
+      ref: "Essential Grammar in Use 137-141",
+      level: A1,
+      item: "some / any / no / none",
+      maps: [ some-any-basic, no-none, some-any-offers ],
+    }
+  - {
+      ref: "Essential Grammar in Use 142-143",
+      level: A1,
+      item: "someone / anything / nowhere",
+      maps: [ indefinite-compounds ],
+    }
+  - {
+      ref: "Essential Grammar in Use 144-145",
+      level: A1,
+      item: "every and all",
+      maps: [ each-every-basic, all-both-basic ],
+    }
+  - {
+      ref: "Essential Grammar in Use 146-147",
+      level: A1,
+      item: "all / most / some / any / no / none",
+      maps: [ all-both-basic, no-none, most-of ],
+      levelNote: "book band A1-A2, inventory says most-of B2",
+    }
+  - {
+      ref: "Essential Grammar in Use 148-149",
+      level: A1,
+      item: "both / either / neither",
+      maps: [ all-both-basic, either-neither ],
+    }
+  - {
+      ref: "Essential Grammar in Use 150-152",
+      level: A1,
+      item: "a lot / much / many, (a) little / (a) few",
+      maps: [ much-many, a-lot-of, a-few-a-little, too-much-many ],
+    }
+  - {
+      ref: "Essential Grammar in Use 153-154",
+      level: A1,
+      item: "adjectives and adverbs",
+      maps:
+        [
+          adjective-position,
+          adverbs-manner,
+          adjective-vs-adverb,
+          irregular-adverbs,
+        ],
+    }
+  - {
+      ref: "Essential Grammar in Use 155-159",
+      level: A1,
+      item: "comparatives and superlatives",
+      maps:
+        [
+          comparatives-short,
+          comparatives-long,
+          comparatives-irregular,
+          superlatives,
+          as-as,
+        ],
+    }
+  - {
+      ref: "Essential Grammar in Use 160-164",
+      level: A1,
+      item: "enough and too",
+      maps: [ too-enough, very-vs-too ],
+    }
+  - {
+      ref: "Essential Grammar in Use 165-166",
+      level: A1,
+      item: "word order",
+      maps: [ svo-order, place-before-time, frequency-position ],
+    }
+  - {
+      ref: "Essential Grammar in Use 167-168",
+      level: A1,
+      item: "and / but / or / so / because / when",
+      maps: [ and-but-or, because-so, time-clauses-basic ],
+    }
+  - {
+      ref: "Essential Grammar in Use 169-171",
+      level: A1,
+      item: "if we go and if we went",
+      maps: [ first-conditional, second-conditional, first-vs-second ],
+    }
+  - {
+      ref: "Essential Grammar in Use 172-174",
+      level: A1,
+      item: "relative clauses: a person (who), a thing (that/which)",
+      maps: [ relative-who-which-that, defining-relative-basic ],
+    }
+  - {
+      ref: "Essential Grammar in Use 175-177",
+      level: A1,
+      item: "prepositions of time: at, until, before",
+      maps: [ time-at-on-in, from-to-until ],
+    }
+  - {
+      ref: "Essential Grammar in Use 178-180",
+      level: A1,
+      item: "prepositions of place and movement: in, under, through",
+      maps: [ place-in-on-at, place-others, movement ],
+    }
+  - {
+      ref: "Essential Grammar in Use 181-183",
+      level: A1,
+      item: "prepositions before and after verbs: good at (doing), listen to",
+      maps: [ adj-prep-1, verb-prep-1, ing-after-prepositions ],
+    }
+  - {
+      ref: "Essential Grammar in Use 184-185",
+      level: A1,
+      item: "phrasal verbs: go in, fall off, run away",
+      maps: [ phrasal-verbs-intro ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 1",
+      level: B1,
+      item: "Present continuous (I am doing)",
+      maps: [ present-continuous-form, present-continuous-now ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 2",
+      level: B1,
+      item: "Present simple (I do)",
+      maps: [ present-simple-positive, present-simple-uses, third-person-s ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 3-4",
+      level: B1,
+      item: "Present continuous and present simple",
+      maps:
+        [
+          simple-vs-continuous,
+          stative-verbs,
+          temporary-permanent,
+          changing-situations,
+        ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 5",
+      level: B1,
+      item: "Past simple (I did)",
+      maps:
+        [
+          past-simple-regular,
+          past-simple-irregular,
+          past-simple-uses,
+          did-negative-questions,
+        ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 6",
+      level: B1,
+      item: "Past continuous (I was doing)",
+      maps: [ past-continuous, past-simple-vs-continuous, when-while ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 7-8",
+      level: B1,
+      item: "Present perfect (I have done)",
+      maps:
+        [
+          present-perfect-form,
+          present-perfect-experience,
+          present-perfect-recent,
+          just-already-yet,
+          been-gone,
+        ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 9",
+      level: B1,
+      item: "Present perfect continuous (I have been doing)",
+      maps: [ ppc-form, ppc-duration, ppc-recent-results ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 10",
+      level: B1,
+      item: "Present perfect continuous and simple",
+      maps: [ ppc-vs-pp ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 11",
+      level: B1,
+      item: "how long have you (been) ...?",
+      maps: [ how-long, ppc-duration ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 12",
+      level: B1,
+      item: "for and since; when ...? and how long ...?",
+      maps: [ for-since, how-long, its-years-since ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 13-14",
+      level: B1,
+      item: "Present perfect and past (I have done and I did)",
+      maps: [ pp-vs-past, finished-time-trap, since-past-simple, first-time ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 15",
+      level: B1,
+      item: "Past perfect (I had done)",
+      maps: [ past-perfect, past-perfect-sequence, past-perfect-adverbs ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 16",
+      level: B1,
+      item: "Past perfect continuous (I had been doing)",
+      maps: [ past-perfect-continuous ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 17",
+      level: B1,
+      item: "have and have got",
+      maps: [ have-possession, have-got, have-actions ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 18",
+      level: B1,
+      item: "used to (do)",
+      maps: [ used-to, didnt-use-to ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 19",
+      level: B1,
+      item: "Present tenses for the future",
+      maps: [ present-continuous-future, present-simple-timetable ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 20",
+      level: B1,
+      item: "I'm going to (do)",
+      maps: [ going-to-plans, going-to-evidence ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 21-22",
+      level: B1,
+      item: "will and shall",
+      maps: [ will-decisions, will-predictions, shall-offers, probably-will ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 23",
+      level: B1,
+      item: "I will and I'm going to",
+      maps: [ which-future-intro, futures-compared ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 24",
+      level: B1,
+      item: "will be doing and will have done",
+      maps: [ future-continuous-intro, future-continuous-full, future-perfect ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 25",
+      level: B1,
+      item: "when I do and when I've done; if and when",
+      maps: [ future-time-clauses, future-time-clauses-basic, when-vs-if ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 26",
+      level: B1,
+      item: "can, could and (be) able to",
+      maps: [ can-ability, could-past-ability, be-able-to, managed-to ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 27",
+      level: B1,
+      item: "could (do) and could have (done)",
+      maps: [ could-have, could-may-requests ],
+      suggest:
+        {
+          title: "could for possibility, offers and suggestions (It could rain; I could help you; You could ask her)",
+          level: B1,
+          lesson: b1-17,
+        },
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 28",
+      level: B1,
+      item: "must and can't",
+      maps: [ deduction-present ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 29-30",
+      level: B1,
+      item: "may and might",
+      maps: [ may-might-possibility, might-vs-will, deduction-past ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 31",
+      level: B1,
+      item: "have to and must",
+      maps: [ must-have-to, mustnt-dont-have-to, had-to, have-got-to ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 32",
+      level: B1,
+      item: "must, mustn't, needn't",
+      maps: [ mustnt-dont-have-to, need-neednt ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 33-34",
+      level: B1,
+      item: "should",
+      maps: [ should-advice, should-expectation, should-have ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 35",
+      level: B1,
+      item: "I'd better ...; it's time ...",
+      maps: [ had-better, its-time-past ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 36",
+      level: B1,
+      item: "would",
+      maps: [ would-polite, would-habits-intro, would-have ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 37",
+      level: B1,
+      item: "can/could/would you ...? (requests, offers, permission, invitations)",
+      maps:
+        [
+          can-permission-requests,
+          could-may-requests,
+          would-polite,
+          would-you-mind,
+          suggestions,
+          offers,
+        ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 38",
+      level: B1,
+      item: "if I do ... and if I did ...",
+      maps: [ first-conditional, second-conditional, first-vs-second ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 39",
+      level: B1,
+      item: "if I knew ...; I wish I knew ...",
+      maps: [ second-conditional, wish-past, if-i-were-you ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 40",
+      level: B1,
+      item: "if I had known ...; I wish I had known ...",
+      maps: [ third-conditional, wish-past-perfect ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 41",
+      level: B1,
+      item: "wish",
+      maps: [ wish-past, wish-would, wish-past-perfect, wish-vs-hope ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 42",
+      level: B1,
+      item: "Passive 1 (is done / was done)",
+      maps: [ passive-form, passive-present-past, passive-by, passive-why ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 43",
+      level: B1,
+      item: "Passive 2 (be done / been done / being done)",
+      maps:
+        [
+          passive-perfect,
+          passive-continuous,
+          passive-infinitive-gerund,
+          passive-modal,
+          passive-future,
+        ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 44",
+      level: B1,
+      item: "Passive 3",
+      maps: [ passive-two-objects, passive-infinitive-gerund, passive-phrasal ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 45",
+      level: B1,
+      item: "it is said that ...; he is said to ...; he is supposed to ...",
+      maps: [ impersonal-it-said, personal-said-to, supposed-to ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 46",
+      level: B1,
+      item: "have something done",
+      maps: [ have-something-done, causative-experience ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 47",
+      level: B1,
+      item: "Reported speech 1 (he said that ...)",
+      maps: [ say-tell, backshift, reported-changes ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 48",
+      level: B1,
+      item: "Reported speech 2",
+      maps:
+        [
+          no-backshift,
+          reported-modals,
+          reported-commands,
+          reporting-verbs-patterns,
+        ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 49",
+      level: B1,
+      item: "Questions 1",
+      maps:
+        [
+          be-questions,
+          question-word-order,
+          subject-questions,
+          object-questions,
+          question-words,
+          what-vs-which,
+        ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 50",
+      level: B1,
+      item: "Questions 2 (do you know where ...? / he asked me where ...)",
+      maps:
+        [ indirect-questions, reported-questions, preposition-end-questions ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 51",
+      level: B1,
+      item: "Auxiliary verbs; I think so / I hope so etc.",
+      maps:
+        [
+          auxiliary-ellipsis,
+          think-so-hope-not,
+          so-neither-do-i,
+          substitution-suppose-so,
+          be-short-answers,
+        ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 52",
+      level: B1,
+      item: "Question tags",
+      maps: [ question-tags, special-tags, tags-checking-asking ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 53",
+      level: B1,
+      item: "Verb + -ing (enjoy doing / stop doing etc.)",
+      maps: [ verb-ing, ing-to-meaning-change ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 54",
+      level: B1,
+      item: "Verb + to ... (decide to / forget to etc.)",
+      maps: [ verb-to ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 55",
+      level: B1,
+      item: "Verb (+ object) + to ... (I want you to ...)",
+      maps: [ verb-object-to, want-sb-to ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 56",
+      level: B1,
+      item: "Verb + -ing or to ... 1 (remember, regret etc.)",
+      maps: [ ing-to-meaning-change ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 57",
+      level: B1,
+      item: "Verb + -ing or to ... 2 (try, need, help)",
+      maps: [ ing-to-meaning-change, same-meaning-verbs, needs-doing ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 58",
+      level: B1,
+      item: "Verb + -ing or to ... 3 (like / would like etc.)",
+      maps: [ like-doing-vs-to, like-vs-would-like ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 59",
+      level: B1,
+      item: "prefer and would rather",
+      maps: [ rather-better-prefer, would-rather-past ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 60",
+      level: B1,
+      item: "Preposition + -ing",
+      maps: [ ing-after-prepositions ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 61",
+      level: B1,
+      item: "be/get used to ...",
+      maps: [ be-used-to, get-used-to, used-to-vs-be-used-to ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 62",
+      level: B1,
+      item: "Verb + preposition + -ing",
+      maps: [ ing-after-prepositions, accuse-apologise, to-preposition ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 63",
+      level: B1,
+      item: "there's no point in -ing, it's worth -ing etc.",
+      maps: [ fixed-ing-expressions ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 64",
+      level: B1,
+      item: "to ..., for ... and so that ...",
+      maps: [ infinitive-purpose, purpose-clauses, for-noun-purpose ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 65",
+      level: B1,
+      item: "Adjective + to ...",
+      maps: [ adjective-to, it-adj-to, too-enough-to ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 66",
+      level: B1,
+      item: "to ... (afraid to do) and preposition + -ing (afraid of -ing)",
+      maps: [ afraid-sorry-interested, adj-prep-1 ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 67",
+      level: B1,
+      item: "see somebody do and see somebody doing",
+      maps: [ perception-base-ing ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 68",
+      level: B1,
+      item: "-ing clauses (He hurt his knee playing football)",
+      maps: [ participle-clauses, conjunction-ing ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 69-70",
+      level: B1,
+      item: "Countable and uncountable",
+      maps:
+        [
+          countable-uncountable,
+          uncountable-traps,
+          partitives,
+          dual-countability,
+        ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 71",
+      level: B1,
+      item: "Countable nouns with a/an and some",
+      maps: [ a-vs-one, some-any-basic, a-an-sound ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 72",
+      level: B1,
+      item: "a/an and the",
+      maps: [ the-specific, the-second-mention, a-vs-one ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 73",
+      level: B1,
+      item: "the 1",
+      maps: [ the-unique, the-specific, the-superlative-ordinal ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 74",
+      level: B1,
+      item: "the 2 (school / the school etc.)",
+      maps: [ institutions ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 75",
+      level: B1,
+      item: "the 3 (children / the children)",
+      maps: [ the-vs-zero, generic-reference ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 76",
+      level: B1,
+      item: "the 4 (the giraffe / the telephone / the old etc.)",
+      maps:
+        [
+          generic-reference,
+          the-adjective-group,
+          the-instruments,
+          the-nationality,
+        ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 77-78",
+      level: B1,
+      item: "Names with and without the",
+      maps: [ the-geography, articles-names ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 79",
+      level: B1,
+      item: "Singular and plural",
+      maps:
+        [
+          plural-regular,
+          plural-irregular,
+          plural-only,
+          singular-s-nouns,
+          plural-verb-nouns,
+        ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 80",
+      level: B1,
+      item: "Noun + noun (a bus driver / a headache)",
+      maps: [ compound-nouns, measurement-compounds ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 81",
+      level: B1,
+      item: "'s and of ...",
+      maps: [ possessive-of, time-possessive, possessive-places, possessive-s ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 82",
+      level: B1,
+      item: "myself / yourself / themselves etc.",
+      maps: [ reflexive-pronouns, by-myself, each-other, emphatic-reflexive ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 83",
+      level: B1,
+      item: "a friend of mine; my own house; on my own / by myself",
+      maps: [ double-possessive, by-myself ],
+      suggest:
+        { title: "own: my own house, on my own", level: B1, lesson: b1-43 },
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 84",
+      level: B1,
+      item: "there ... and it ...",
+      maps: [ it-vs-there, there-tenses, it-takes ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 85",
+      level: B1,
+      item: "some and any",
+      maps: [ some-any-basic, some-any-offers, any-whichever ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 86",
+      level: B1,
+      item: "no / none / any; nothing / nobody etc.",
+      maps: [ no-none, indefinite-compounds, none-of ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 87",
+      level: B1,
+      item: "much, many, little, few, a lot, plenty",
+      maps: [ much-many, a-lot-of, a-few-a-little, few-a-few, quite-a-few ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 88",
+      level: B1,
+      item: "all / all of; most / most of; no / none of etc.",
+      maps: [ both-all-whole, most-of, none-of, all-both-basic ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 89",
+      level: B1,
+      item: "both / neither / either (and of)",
+      maps: [ either-neither, both-all-whole, both-and, either-or-neither-nor ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 90",
+      level: B1,
+      item: "all, every, whole",
+      maps: [ every-day-all-day, both-all-whole, each-every-basic ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 91",
+      level: B1,
+      item: "each and every",
+      maps: [ each-every-basic, each-every-full ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 92",
+      level: B1,
+      item: "Relative clauses 1: who/that/which",
+      maps:
+        [ relative-who-which-that, defining-relative-basic, relative-where ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 93",
+      level: B1,
+      item: "Relative clauses 2: with and without who/that/which",
+      maps: [ omit-relative, no-resumptive, that-vs-which ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 94",
+      level: B1,
+      item: "Relative clauses 3: whose/whom/where",
+      maps: [ relative-whose-when, relative-where, preposition-relative ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 95-96",
+      level: B1,
+      item: "Relative clauses 4-5: extra information clauses",
+      maps: [ defining-nondefining, quantifier-relative, sentential-which ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 97",
+      level: B1,
+      item: "-ing and -ed clauses (the woman talking to Tom)",
+      maps: [ reduced-relative ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 98",
+      level: B1,
+      item: "Adjectives ending in -ing and -ed",
+      maps: [ ed-ing-adjectives ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 99",
+      level: B1,
+      item: "Adjectives: a nice new house, you look tired",
+      maps: [ adjective-order-intro, linking-verbs, adjective-position ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 100-101",
+      level: B1,
+      item: "Adjectives and adverbs",
+      maps:
+        [ adjective-vs-adverb, adverbs-manner, irregular-adverbs, hard-hardly ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 102",
+      level: B1,
+      item: "so and such",
+      maps: [ so-such, so-such-exclamations ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 103",
+      level: B1,
+      item: "enough and too",
+      maps: [ too-enough, too-enough-to ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 104",
+      level: B1,
+      item: "quite, pretty, rather and fairly",
+      maps: [ softeners, quite-us-uk ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 105-107",
+      level: B1,
+      item: "Comparatives (cheaper, much better, as ... as / than)",
+      maps:
+        [
+          comparatives-short,
+          comparatives-long,
+          much-far-comparative,
+          as-as,
+          than-me,
+          times-as,
+        ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 108",
+      level: B1,
+      item: "Superlative (the longest, the most enjoyable)",
+      maps: [ superlatives, superlative-in-of, by-far ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 109",
+      level: B1,
+      item: "Word order 1: verb + object; place and time",
+      maps: [ svo-order, place-before-time, adverb-order ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 110",
+      level: B1,
+      item: "Word order 2: adverbs with the verb",
+      maps: [ adverb-positions, frequency-position ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 111",
+      level: B1,
+      item: "still / any more / yet / already",
+      maps: [ already-yet-still, still-anymore ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 112",
+      level: B1,
+      item: "even",
+      maps: [ focus-adverbs ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 113",
+      level: B1,
+      item: "although / though / even though / in spite of / despite",
+      maps: [ contrast-although, despite-in-spite, even-though-if ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 114",
+      level: B1,
+      item: "in case",
+      maps: [ in-case ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 115",
+      level: B1,
+      item: "unless / as long as / provided",
+      maps: [ unless, as-long-as, provided-providing ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 116",
+      level: B1,
+      item: "as (as I walked ...) - as = because",
+      maps: [ reason-clauses ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 116",
+      level: B1,
+      item: "as (as I walked ...) - as = while or at the same time",
+      maps: [ as-simultaneous ],
+      suggest:
+        {
+          title: "as for simultaneous or changing events (As I walked home...; As it got darker...)",
+          level: B2,
+          lesson: b1-32,
+        },
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 117",
+      level: B1,
+      item: "like and as",
+      maps: [ like-as ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 118",
+      level: B1,
+      item: "like / as if",
+      maps: [ look-like, as-if ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 119",
+      level: B1,
+      item: "during / for / while",
+      maps: [ during-vs-for, when-while, prep-vs-conj ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 120",
+      level: B1,
+      item: "by and until; by the time",
+      maps: [ by-until, time-clauses-full ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 121",
+      level: B1,
+      item: "at/on/in (time)",
+      maps: [ time-at-on-in, at-night-weekend, time-clauses-basic ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 122",
+      level: B1,
+      item: "on time and in time; at the end and in the end",
+      maps: [ prep-phrases ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 123-125",
+      level: B1,
+      item: "in/at/on (position) 1-3",
+      maps:
+        [ place-in-on-at, place-others, address-prepositions, transport-in-on ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 126",
+      level: B1,
+      item: "to, at, in and into",
+      maps: [ movement, go-home, arrive-in-at ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 127",
+      level: B1,
+      item: "in/on/at (other uses)",
+      maps: [ in-on-at-other ],
+      suggest:
+        {
+          title: "in / on / at: other uses (on the left, on TV, in the newspaper, in the rain, at the age of)",
+          level: A2,
+          lesson: a2-45,
+        },
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 128",
+      level: B1,
+      item: "by",
+      maps: [ by-with, by-until ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 129",
+      level: B1,
+      item: "Noun + preposition (reason for, cause of etc.)",
+      maps: [ noun-prep ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 130-131",
+      level: B1,
+      item: "Adjective + preposition 1-2",
+      maps: [ adj-prep-1 ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 132-136",
+      level: B1,
+      item: "Verb + preposition 1-5",
+      maps:
+        [
+          verb-prep-1,
+          verb-obj-prep,
+          prepositional-verbs,
+          zero-prep-verbs,
+          accuse-apologise,
+        ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed unit 137-145",
+      level: B1,
+      item: "Phrasal verbs 1-9",
+      maps:
+        [
+          phrasal-verbs-intro,
+          phrasal-separable,
+          phrasal-pronoun-position,
+          three-part-phrasal,
+          passive-phrasal,
+        ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed App 1",
+      level: B1,
+      item: "Regular and irregular verbs",
+      maps: [ past-simple-irregular, irregular-verbs-2, ed-spelling ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed App 2-3",
+      level: B1,
+      item: "Present and past tenses; the future",
+      maps: [ futures-compared, narrative-tenses ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed App 4",
+      level: B1,
+      item: "Modal verbs (can/could/will/would etc.)",
+      maps: [ modal-grammar ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed App 5",
+      level: B1,
+      item: "Short forms (I'm / you've / didn't etc.)",
+      maps: [ contractions, s-is-has, be-contractions ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed App 6",
+      level: B1,
+      item: "Spelling",
+      maps:
+        [
+          third-person-spelling,
+          ing-spelling,
+          ed-spelling,
+          adverb-spelling,
+          plural-regular,
+        ],
+    }
+  - {
+      ref: "English Grammar in Use 5th ed App 7",
+      level: B1,
+      item: "American English",
+      maps: [ us-uk-verbs, us-uk-prepositions ],
+      levelNote: "book band B1-B2, inventory says us-uk-verbs C2, us-uk-prepositions C2",
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 1-2",
+      level: C1,
+      item: "Present continuous and present simple",
+      maps:
+        [
+          simple-vs-continuous,
+          stative-verbs,
+          stative-dynamic-meanings,
+          always-ing,
+          historic-present,
+          stative-progressive,
+        ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 3",
+      level: C1,
+      item: "Past simple and present perfect",
+      maps: [ pp-vs-past, news-perfect-past ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 4",
+      level: C1,
+      item: "Past continuous and past simple",
+      maps: [ past-simple-vs-continuous, past-continuous-background ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 5",
+      level: C1,
+      item: "Past perfect and past simple",
+      maps: [ past-perfect-sequence, narrative-tenses ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 6",
+      level: C1,
+      item: "Present perfect continuous and present perfect",
+      maps: [ ppc-vs-pp ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 7",
+      level: C1,
+      item: "Past perfect continuous, past perfect and past continuous",
+      maps: [ past-perfect-continuous, narrative-tenses ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 8",
+      level: C1,
+      item: "Present and past time: review",
+      maps: [ aspect-in-narrative, perfect-progressive-nuance ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 9",
+      level: C1,
+      item: "Will and be going to",
+      maps:
+        [
+          futures-compared,
+          will-predictions,
+          going-to-evidence,
+          will-decisions,
+        ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 10",
+      level: C1,
+      item: "Present simple and present continuous for the future",
+      maps: [ present-simple-timetable, present-continuous-future ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 11",
+      level: C1,
+      item: "Future continuous and future perfect (continuous)",
+      maps:
+        [ future-continuous-full, future-perfect, future-perfect-continuous ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 12",
+      level: C1,
+      item: "Be to + infinitive; be about to + infinitive",
+      maps: [ be-to-infinitive, be-about-to ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 13",
+      level: C1,
+      item: "Other ways of talking about the future",
+      maps: [ be-bound-to, be-due-to, be-about-to ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 14",
+      level: C1,
+      item: "The future seen from the past",
+      maps: [ future-in-past, was-going-to, was-to ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 15",
+      level: C1,
+      item: "Can, could, be able to and be allowed to",
+      maps:
+        [
+          be-able-to,
+          able-all-forms,
+          allowed-to,
+          managed-to,
+          could-past-ability,
+        ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 16",
+      level: C1,
+      item: "Will, would and used to",
+      maps:
+        [
+          will-habits,
+          would-vs-used-to,
+          would-characteristic,
+          wont-refusal,
+          will-assumption,
+        ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 17",
+      level: C1,
+      item: "May and might",
+      maps:
+        [ may-might-possibility, may-well, might-as-well, might-have-reproach ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 18",
+      level: C1,
+      item: "Must and have (got) to",
+      maps:
+        [
+          must-have-to,
+          have-got-to,
+          be-to-vs-have-to,
+          cant-vs-mustnt,
+          deduction-present,
+        ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 19",
+      level: C1,
+      item: "Need(n't), don't need to and don't have to",
+      maps: [ need-neednt, need-modal, neednt-have ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 20",
+      level: C1,
+      item: "Should, ought to and had better",
+      maps:
+        [
+          should-expectation,
+          ought-to,
+          had-better,
+          should-have,
+          putative-should,
+        ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 21",
+      level: C1,
+      item: "Linking verbs: be, appear, seem; become, get, etc.",
+      maps: [ linking-verbs, there-seems ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 22",
+      level: C1,
+      item: "Forming passive sentences 1",
+      maps:
+        [
+          passive-continuous,
+          passive-perfect,
+          passive-modal,
+          passive-two-objects,
+          modal-perfect-passive,
+        ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 23",
+      level: C1,
+      item: "Forming passive sentences 2: verb + -ing or to-infinitive",
+      maps:
+        [
+          passive-infinitive-gerund,
+          perception-passive,
+          made-to,
+          complex-passive-infinitive,
+        ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 24",
+      level: C1,
+      item: "Using passives",
+      maps:
+        [
+          passive-why,
+          choosing-voice,
+          get-passive,
+          stative-dynamic-passive,
+          agency-news-academic,
+        ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 25",
+      level: C1,
+      item: "Reporting with passives; It is said that ...",
+      maps:
+        [
+          impersonal-it-said,
+          personal-said-to,
+          there-said-to-be,
+          impersonal-passive-full,
+          reporting-passive-verbs,
+          passive-reporting,
+        ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 26",
+      level: C1,
+      item: "Wh-questions with who, whom, which, how and whose",
+      maps: [ who-whom, whose, object-questions, what-vs-which ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 27",
+      level: C1,
+      item: "Negative questions; echo questions",
+      maps:
+        [ negative-surprise, echo-reply-questions, negative-questions-basic ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 27",
+      level: C1,
+      item: "Questions with that-clauses (Who did you say that you saw?)",
+      maps: [ questions-that-clauses ],
+      suggest:
+        {
+          title: "Questions with that-clauses: Who did you say (that) you saw?",
+          level: B2,
+          lesson: b2-01,
+        },
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 28",
+      level: C1,
+      item: "Verbs, objects and complements",
+      maps: [ object-complement, find-it-adj, sentence-parts ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 29",
+      level: C1,
+      item: "Verb + two objects",
+      maps: [ two-objects, two-objects-to-for, passive-two-objects ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 30-31",
+      level: C1,
+      item: "Verb + -ing forms and infinitives 1-2",
+      maps:
+        [
+          ing-to-meaning-change,
+          same-meaning-verbs,
+          perfect-infinitive,
+          perfect-gerund,
+          mean-go-on,
+          like-doing-vs-to,
+          afraid-sorry-interested,
+          verb-object-to,
+          make-let-help,
+          perception-base-ing,
+          possessive-gerund,
+          deny-having,
+        ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 32",
+      level: C1,
+      item: "Reporting people's words and thoughts",
+      maps: [ reporting-verbs-patterns, reported-thoughts, summarising-speech ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 33",
+      level: C1,
+      item: "Reporting statements: that-clauses",
+      maps: [ that-clauses, reporting-verbs-patterns ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 34",
+      level: C1,
+      item: "Verb + wh-clause",
+      maps: [ wh-clauses, if-whether-clauses, reported-if-whether ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 35",
+      level: C1,
+      item: "Tense choice in reporting",
+      maps: [ backshift, no-backshift ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 36",
+      level: C1,
+      item: "Reporting offers, suggestions, orders, intentions, etc.",
+      maps:
+        [
+          reported-commands,
+          reported-requests,
+          suggest-pattern,
+          accuse-apologise,
+          deny-having,
+        ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 37",
+      level: C1,
+      item: "Modal verbs in reporting",
+      maps: [ reported-modals ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 38",
+      level: C1,
+      item: "Reporting what people say using nouns and adjectives",
+      maps: [ nominal-reporting ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 39",
+      level: C1,
+      item: "Should in that-clauses; the present subjunctive",
+      maps: [ mandative-subjunctive, should-subjunctive, putative-should ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 40-42",
+      level: C1,
+      item: "Agreement between subject and verb 1-3",
+      maps:
+        [
+          agreement-indefinite,
+          one-of-plural,
+          long-subject-agreement,
+          collective-agreement,
+          number-of,
+          either-or-agreement,
+          measurement-singular,
+          majority-agreement,
+          one-of-those-who,
+          more-than-one,
+          notional-agreement,
+        ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 43",
+      level: C1,
+      item: "Compound nouns and noun phrases",
+      maps:
+        [
+          compound-nouns,
+          measurement-compounds,
+          noun-phrase-premod,
+          noun-phrase-postmod,
+          compound-plurals,
+        ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 44",
+      level: C1,
+      item: "A / an and one",
+      maps: [ a-vs-one ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 45-47",
+      level: C1,
+      item: "A / an, the and zero article 1-3",
+      maps:
+        [
+          zero-article-fixed,
+          articles-names,
+          roles-zero-article,
+          a-knowledge-of,
+          generic-reference,
+          abstract-articles,
+          stressed-the,
+          the-superlative-ordinal,
+        ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 48",
+      level: C1,
+      item: "Some and any",
+      maps: [ some-any-offers, any-whichever, any-whatever ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 49",
+      level: C1,
+      item: "No, none (of) and not any",
+      maps: [ no-none, none-of, none-agreement, no-vs-not-a, not-any-vs-no ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 50",
+      level: C1,
+      item: "Much (of), many (of), a lot of, lots (of), etc.",
+      maps: [ great-deal, quite-a-few, most-of, quantity-agreement, much-many ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 51",
+      level: C1,
+      item: "All (of), whole, every, each",
+      maps:
+        [
+          both-all-whole,
+          each-every-full,
+          floating-quantifiers,
+          predeterminers,
+        ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 52",
+      level: C1,
+      item: "Few, little, less, fewer",
+      maps: [ few-a-few, fewer-less, hardly-any, less-fewer-usage ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 53",
+      level: C1,
+      item: "Relative pronouns",
+      maps: [ relative-who-which-that, whose-things, who-whom ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 54",
+      level: C1,
+      item: "Other relative words: whose, when, whereby, etc.",
+      maps:
+        [ relative-whose-when, whereby-wherein, which-linker, reason-why-way ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 55",
+      level: C1,
+      item: "Prepositions in relative clauses",
+      maps: [ preposition-relative, quantifier-relative ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 56",
+      level: C1,
+      item: "Other ways of adding information to noun phrases 1: additional noun phrases",
+      maps: [ apposition, noun-phrase-postmod ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 57",
+      level: C1,
+      item: "Other ways of adding information to noun phrases 2: prepositional phrases",
+      maps: [ noun-phrase-postmod, reduced-relative ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 58-59",
+      level: C1,
+      item: "Participle clauses with adverbial meaning 1-2",
+      maps:
+        [
+          participle-clauses,
+          perfect-passive-participle,
+          absolute-clauses,
+          dangling-participles,
+          conjunction-ing,
+        ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 60",
+      level: C1,
+      item: "Reflexive pronouns",
+      maps:
+        [ reflexive-pronouns, emphatic-reflexive, each-other, myself-misuse ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 61",
+      level: C1,
+      item: "One and ones",
+      maps: [ one-ones ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 62",
+      level: C1,
+      item: "So and not as substitutes for clauses, etc.",
+      maps: [ substitution-suppose-so, so-it-is, think-so-hope-not ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 63",
+      level: C1,
+      item: "Do so; such",
+      maps: [ do-so, such-this-reference, uk-do-substitution ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 64",
+      level: C1,
+      item: "More on leaving out words after auxiliary verbs",
+      maps: [ auxiliary-ellipsis, comparison-ellipsis, spoken-ellipsis ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 65",
+      level: C1,
+      item: "Leaving out to-infinitives",
+      maps: [ ellipsis-to ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 66",
+      level: C1,
+      item: "Position of adjectives",
+      maps:
+        [
+          adjective-order-full,
+          predicative-only,
+          attributive-only,
+          adjective-order-intro,
+        ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 67-68",
+      level: C1,
+      item: "Gradable and non-gradable adjectives 1-2",
+      maps: [ gradable-nongradable, intensifiers, softeners ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 69",
+      level: C1,
+      item: "Participle adjectives and compound adjectives",
+      maps: [ ed-ing-adjectives, compound-adjectives ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 70",
+      level: C1,
+      item: "Adjectives + to-infinitive, -ing, that-clause, wh-clause",
+      maps:
+        [
+          adjective-prep-that-to,
+          adjective-to,
+          easy-to-please,
+          worth-ing,
+          it-adj-that,
+          kind-of-you,
+        ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 71",
+      level: C1,
+      item: "Adjectives and adverbs",
+      maps: [ adjective-vs-adverb, hard-hardly, irregular-adverbs ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 72",
+      level: C1,
+      item: "Adjectives and adverbs: comparative and superlative forms",
+      maps: [ comparatives-short, comparatives-long, superlatives, by-far ],
+      suggest:
+        {
+          title: "Comparatives and superlatives of adverbs (faster, more carefully, the best)",
+          level: A2,
+          lesson: a2-41,
+        },
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 73",
+      level: C1,
+      item: "Comparative phrases and clauses",
+      maps:
+        [
+          much-far-comparative,
+          the-comparative-the,
+          times-as,
+          nowhere-near,
+          more-of-a,
+          comparative-ellipsis-clause,
+          as-ever,
+        ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 74-75",
+      level: C1,
+      item: "Position of adverbs 1-2",
+      maps:
+        [
+          adverb-positions,
+          adverbial-order-advanced,
+          adverbial-scope,
+          only-position,
+        ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 76",
+      level: C1,
+      item: "Adverbs of place, direction, indefinite frequency, and time",
+      maps: [ frequency-position, adverb-positions, adverb-order ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 77",
+      level: C1,
+      item: "Degree adverbs and focus adverbs",
+      maps: [ intensifiers, focus-adverbs, almost-nearly, only-position ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 78",
+      level: C1,
+      item: "Comment adverbs and viewpoint adverbs",
+      maps: [ comment-adverbs, viewpoint-adverbs ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 79",
+      level: C1,
+      item: "Adverbial clauses of time",
+      maps: [ time-clauses-full, future-time-clauses, place-clauses ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 80",
+      level: C1,
+      item: "Giving reasons: as, because, etc.",
+      maps: [ reason-clauses, in-that-given-that ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 80",
+      level: C1,
+      item: "Giving reasons: for and with",
+      maps: [ with-noun-participle ],
+      suggest:
+        {
+          title: "with + noun + participle, and for, giving reasons (With so little time, we left; ... for it was late)",
+          level: C1,
+          lesson: c1-18,
+        },
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 81",
+      level: C1,
+      item: "Purposes and results: in order to, so as to, etc.",
+      maps: [ purpose-clauses, result-clauses, such-that, so-such ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 82",
+      level: C1,
+      item: "Contrasts: although and though; even though / if; while, whilst and whereas",
+      maps:
+        [
+          contrast-although,
+          whereas-while,
+          even-though-if,
+          whilst,
+          much-as,
+          adj-as-though,
+          albeit,
+        ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 83-84",
+      level: C1,
+      item: "If 1-2",
+      maps:
+        [
+          first-vs-second,
+          inverted-had,
+          inverted-should,
+          inverted-were,
+          if-should,
+          if-were-to,
+          if-happen-to,
+          if-will-would,
+        ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 85",
+      level: C1,
+      item: "If I were you ...; imagine he were to win",
+      maps: [ if-i-were-you, if-were-to, were-subjunctive ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 86",
+      level: C1,
+      item: "If ... not and unless; if and whether; etc.",
+      maps: [ unless, whether-or-not, only-if, but-for, reduced-conditionals ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 87",
+      level: C1,
+      item: "Connecting ideas in a sentence and between sentences",
+      maps:
+        [
+          linkers-addition,
+          linkers-contrast,
+          linkers-result,
+          advanced-linkers,
+          linkers-punctuation,
+          semicolon-linkers,
+        ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 88",
+      level: C1,
+      item: "Prepositions of position and movement",
+      maps: [ place-in-on-at, place-others, movement, above-over-below-under ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 89",
+      level: C1,
+      item: "Between and among",
+      maps: [ between-among ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 90",
+      level: C1,
+      item: "Prepositions of time",
+      maps: [ time-at-on-in, by-until, during-vs-for, for-since ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 91",
+      level: C1,
+      item: "Talking about exceptions",
+      maps: [ except-besides ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 92",
+      level: C1,
+      item: "Prepositions after verbs",
+      maps: [ verb-prep-1, verb-obj-prep, zero-prep-verbs ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 93",
+      level: C1,
+      item: "Prepositions after nouns",
+      maps: [ noun-prep ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 94",
+      level: C1,
+      item: "Two- and three-word verbs: word order",
+      maps:
+        [
+          phrasal-separable,
+          three-part-phrasal,
+          phrasal-pronoun-position,
+          latinate-phrasal,
+        ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 95",
+      level: C1,
+      item: "There is, there was, etc.",
+      maps: [ there-tenses, there-seems, existential-variants ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 96-97",
+      level: C1,
+      item: "It 1-2",
+      maps:
+        [
+          it-vs-there,
+          extraposition,
+          preparatory-it-object,
+          dummy-it,
+          it-this-that-reference,
+          it-adj-that,
+        ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 98",
+      level: C1,
+      item: "Focusing: it-clauses and what-clauses",
+      maps: [ it-cleft, wh-cleft, all-cleft, reversed-cleft ],
+    }
+  - {
+      ref: "Advanced Grammar in Use 3rd ed unit 99-100",
+      level: C1,
+      item: "Inversion 1-2",
+      maps:
+        [
+          negative-inversion,
+          no-sooner-hardly,
+          only-inversion,
+          place-inversion,
+          so-such-inversion,
+          as-did,
+        ],
+    }

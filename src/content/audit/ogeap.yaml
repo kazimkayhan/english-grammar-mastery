@@ -6,26 +6,293 @@ retrieved_from:
 verified: partial
 note: "Only the unit-level contents page (20 units plus Punctuation, Glossary, Academic Word List, Answer key, Index) was readable, from the OUP contents PDF. Sub-points within each unit could NOT be read (no sample unit or mirror was accessible), so no sub-items are listed; each unit is mapped to the inventory areas its title implies. The Academic Word List, Glossary, Answer key and Index are not itemised except where noted. Mappings are therefore title-based and should be refined if unit pages become available."
 items:
-  - { ref: "Unit 1 Tense review", item: "Tense review", maps: [ present-simple-uses, simple-vs-continuous, pp-vs-past, ppc-vs-pp, past-perfect, narrative-tenses, future-perfect, futures-compared, stative-verbs ] }
-  - { ref: "Unit 2 Comparing and contrasting", item: "Comparing and contrasting (comparatives, as...as, contrast linkers)", maps: [ comparatives-long, superlatives, as-as, same-similar-different, much-far-comparative, the-the-intro, times-as, linkers-contrast, whereas-while, contrast-although ] }
-  - { ref: "Unit 3 Noun phrases", item: "Noun phrases", maps: [ noun-phrase-premod, noun-phrase-postmod, compound-nouns, dense-noun-phrases, nominalisation, determiner-order ] }
-  - { ref: "Unit 4 Being formal and informal", item: "Being formal and informal", maps: [ register-grammar, contractions-formality, latinate-phrasal, politeness-grammar ] }
-  - { ref: "Unit 5 Relative clauses", item: "Relative clauses", maps: [ defining-nondefining, omit-relative, preposition-relative, quantifier-relative, sentential-which, reduced-relative, relative-whose-when ] }
-  - { ref: "Unit 6 Stating facts and opinions", item: "Stating facts and opinions", maps: [ that-clauses, it-adj-that, extraposition, hedging, boosting, academic-impersonal ] }
-  - { ref: "Unit 7 Connectors", item: "Connectors", maps: [ linkers-addition, linkers-contrast, linkers-result, linkers-example, linkers-summary, linkers-punctuation, advanced-linkers, purpose-clauses, reason-clauses, result-clauses, time-clauses-full ] }
-  - { ref: "Unit 8 Being emphatic", item: "Being emphatic", maps: [ it-cleft, wh-cleft, fronting, negative-inversion, emphatic-do, boosting, only-inversion ] }
-  - { ref: "Unit 9 Passives", item: "Passives", maps: [ passive-form, passive-why, passive-modal, passive-perfect, passive-continuous, impersonal-passive-full, reporting-passive-verbs, choosing-voice, agency-news-academic ] }
-  - { ref: "Unit 10 Arguing and persuading", item: "Arguing and persuading", maps: [ rhetorical-emphasis, linkers-contrast, boosting, hedging, advanced-linkers, academic-reporting ] }
-  - { ref: "Unit 11 Modal verbs", item: "Modal verbs", maps: [ may-might-possibility, deduction-present, deduction-past, should-expectation, modal-hedging, modal-passive, may-well, modal-perfect-continuous ] }
-  - { ref: "Unit 12 Talking about cause and effect", item: "Talking about cause and effect", maps: [ reason-clauses, result-clauses, linkers-result, due-to-owing-to, prep-vs-conj, in-that-given-that, nominalisation ] }
-  - { ref: "Unit 13 Verb patterns", item: "Verb patterns", maps: [ verb-to, verb-ing, ing-to-meaning-change, verb-object-to, same-meaning-verbs, perfect-infinitive, to-preposition, adjective-to, noun-to ] }
-  - { ref: "Unit 14 Hedging", item: "Hedging", maps: [ hedging, modal-hedging, comment-adverbs, attribution, softeners ] }
-  - { ref: "Unit 15 Phrasal and prepositional verbs", item: "Phrasal and prepositional verbs", maps: [ phrasal-verbs-intro, phrasal-separable, three-part-phrasal, prepositional-verbs, passive-phrasal, latinate-phrasal ] }
-  - { ref: "Unit 16 Paraphrasing", item: "Paraphrasing (rewording sentences and phrases)", maps: [ nominal-vs-verbal, academic-nominal-style, nominalisation, reduced-relative, participle-clauses, latinate-phrasal ] }
-  - { ref: "Unit 17 Conditionals", item: "Conditionals", maps: [ zero-conditional, first-conditional, second-conditional, third-conditional, mixed-past-present, inverted-had, provided-providing, unless, reduced-conditionals ] }
-  - { ref: "Unit 18 Using defining language", item: "Using defining language (X is a Y that...; is defined as; refers to)", maps: [ defining-relative-basic, apposition, nominal-what, wh-clauses ] }
-  - { ref: "Unit 19 Collocation", item: "Collocation", maps: [], outOfScope: "Vocabulary (word partnerships), not grammar" }
-  - { ref: "Unit 20 Cohesion", item: "Cohesion", maps: [ lexical-cohesion, it-this-that-reference, such-this-reference, reference-chains, substitution-suppose-so, auxiliary-ellipsis, end-weight-focus, theme-rheme, former-latter ] }
-  - { ref: "Punctuation (p.180)", item: "Punctuation", maps: [ comma-lists, comma-intro, comma-nondefining, colon-semicolon, dash-hyphen, semicolon-linkers, apostrophe-possession, parentheses ] }
-  - { ref: "Glossary of grammatical terms", item: "Glossary of grammatical terms", maps: [ parts-of-speech, sentence-parts ] }
-  - { ref: "Academic Word List", item: "Academic Word List glossaries", maps: [], outOfScope: "Vocabulary list, not grammar" }
+  - {
+      ref: "Unit 1 Tense review",
+      item: "Tense review",
+      maps:
+        [
+          present-simple-uses,
+          simple-vs-continuous,
+          pp-vs-past,
+          ppc-vs-pp,
+          past-perfect,
+          narrative-tenses,
+          future-perfect,
+          futures-compared,
+          stative-verbs,
+        ],
+    }
+  - {
+      ref: "Unit 2 Comparing and contrasting",
+      item: "Comparing and contrasting (comparatives, as...as, contrast linkers)",
+      maps:
+        [
+          comparatives-long,
+          superlatives,
+          as-as,
+          same-similar-different,
+          much-far-comparative,
+          the-the-intro,
+          times-as,
+          linkers-contrast,
+          whereas-while,
+          contrast-although,
+        ],
+    }
+  - {
+      ref: "Unit 3 Noun phrases",
+      item: "Noun phrases",
+      maps:
+        [
+          noun-phrase-premod,
+          noun-phrase-postmod,
+          compound-nouns,
+          dense-noun-phrases,
+          nominalisation,
+          determiner-order,
+        ],
+    }
+  - {
+      ref: "Unit 4 Being formal and informal",
+      item: "Being formal and informal",
+      maps:
+        [
+          register-grammar,
+          contractions-formality,
+          latinate-phrasal,
+          politeness-grammar,
+        ],
+    }
+  - {
+      ref: "Unit 5 Relative clauses",
+      item: "Relative clauses",
+      maps:
+        [
+          defining-nondefining,
+          omit-relative,
+          preposition-relative,
+          quantifier-relative,
+          sentential-which,
+          reduced-relative,
+          relative-whose-when,
+        ],
+    }
+  - {
+      ref: "Unit 6 Stating facts and opinions",
+      item: "Stating facts and opinions",
+      maps:
+        [
+          that-clauses,
+          it-adj-that,
+          extraposition,
+          hedging,
+          boosting,
+          academic-impersonal,
+        ],
+    }
+  - {
+      ref: "Unit 7 Connectors",
+      item: "Connectors",
+      maps:
+        [
+          linkers-addition,
+          linkers-contrast,
+          linkers-result,
+          linkers-example,
+          linkers-summary,
+          linkers-punctuation,
+          advanced-linkers,
+          purpose-clauses,
+          reason-clauses,
+          result-clauses,
+          time-clauses-full,
+        ],
+    }
+  - {
+      ref: "Unit 8 Being emphatic",
+      item: "Being emphatic",
+      maps:
+        [
+          it-cleft,
+          wh-cleft,
+          fronting,
+          negative-inversion,
+          emphatic-do,
+          boosting,
+          only-inversion,
+        ],
+    }
+  - {
+      ref: "Unit 9 Passives",
+      item: "Passives",
+      maps:
+        [
+          passive-form,
+          passive-why,
+          passive-modal,
+          passive-perfect,
+          passive-continuous,
+          impersonal-passive-full,
+          reporting-passive-verbs,
+          choosing-voice,
+          agency-news-academic,
+        ],
+    }
+  - {
+      ref: "Unit 10 Arguing and persuading",
+      item: "Arguing and persuading",
+      maps:
+        [
+          rhetorical-emphasis,
+          linkers-contrast,
+          boosting,
+          hedging,
+          advanced-linkers,
+          academic-reporting,
+        ],
+    }
+  - {
+      ref: "Unit 11 Modal verbs",
+      item: "Modal verbs",
+      maps:
+        [
+          may-might-possibility,
+          deduction-present,
+          deduction-past,
+          should-expectation,
+          modal-hedging,
+          modal-passive,
+          may-well,
+          modal-perfect-continuous,
+        ],
+    }
+  - {
+      ref: "Unit 12 Talking about cause and effect",
+      item: "Talking about cause and effect",
+      maps:
+        [
+          reason-clauses,
+          result-clauses,
+          linkers-result,
+          due-to-owing-to,
+          prep-vs-conj,
+          in-that-given-that,
+          nominalisation,
+        ],
+    }
+  - {
+      ref: "Unit 13 Verb patterns",
+      item: "Verb patterns",
+      maps:
+        [
+          verb-to,
+          verb-ing,
+          ing-to-meaning-change,
+          verb-object-to,
+          same-meaning-verbs,
+          perfect-infinitive,
+          to-preposition,
+          adjective-to,
+          noun-to,
+        ],
+    }
+  - {
+      ref: "Unit 14 Hedging",
+      item: "Hedging",
+      maps: [ hedging, modal-hedging, comment-adverbs, attribution, softeners ],
+    }
+  - {
+      ref: "Unit 15 Phrasal and prepositional verbs",
+      item: "Phrasal and prepositional verbs",
+      maps:
+        [
+          phrasal-verbs-intro,
+          phrasal-separable,
+          three-part-phrasal,
+          prepositional-verbs,
+          passive-phrasal,
+          latinate-phrasal,
+        ],
+    }
+  - {
+      ref: "Unit 16 Paraphrasing",
+      item: "Paraphrasing (rewording sentences and phrases)",
+      maps:
+        [
+          nominal-vs-verbal,
+          academic-nominal-style,
+          nominalisation,
+          reduced-relative,
+          participle-clauses,
+          latinate-phrasal,
+        ],
+    }
+  - {
+      ref: "Unit 17 Conditionals",
+      item: "Conditionals",
+      maps:
+        [
+          zero-conditional,
+          first-conditional,
+          second-conditional,
+          third-conditional,
+          mixed-past-present,
+          inverted-had,
+          provided-providing,
+          unless,
+          reduced-conditionals,
+        ],
+    }
+  - {
+      ref: "Unit 18 Using defining language",
+      item: "Using defining language (X is a Y that...; is defined as; refers to)",
+      maps: [ defining-relative-basic, apposition, nominal-what, wh-clauses ],
+    }
+  - {
+      ref: "Unit 19 Collocation",
+      item: "Collocation",
+      maps: [],
+      outOfScope: "Vocabulary (word partnerships), not grammar",
+    }
+  - {
+      ref: "Unit 20 Cohesion",
+      item: "Cohesion",
+      maps:
+        [
+          lexical-cohesion,
+          it-this-that-reference,
+          such-this-reference,
+          reference-chains,
+          substitution-suppose-so,
+          auxiliary-ellipsis,
+          end-weight-focus,
+          theme-rheme,
+          former-latter,
+        ],
+    }
+  - {
+      ref: "Punctuation (p.180)",
+      item: "Punctuation",
+      maps:
+        [
+          comma-lists,
+          comma-intro,
+          comma-nondefining,
+          colon-semicolon,
+          dash-hyphen,
+          semicolon-linkers,
+          apostrophe-possession,
+          parentheses,
+        ],
+    }
+  - {
+      ref: "Glossary of grammatical terms",
+      item: "Glossary of grammatical terms",
+      maps: [ parts-of-speech, sentence-parts ],
+    }
+  - {
+      ref: "Academic Word List",
+      item: "Academic Word List glossaries",
+      maps: [],
+      outOfScope: "Vocabulary list, not grammar",
+    }

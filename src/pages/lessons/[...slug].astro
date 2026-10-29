@@ -1,74 +1,86 @@
 ---
-import { render } from "astro:content"
-
-import AppLayout from "@/layouts/AppLayout.astro"
-import LevelBadge from "@/components/common/LevelBadge.astro"
-import PillarBadge from "@/components/common/PillarBadge.astro"
-import LinkButton from "@/components/common/LinkButton.astro"
-import Example from "@/components/lesson/Example.astro"
-import FormTable from "@/components/lesson/FormTable.astro"
-import LessonRef from "@/components/lesson/LessonRef.astro"
-import MapEmbed from "@/components/lesson/MapEmbed.astro"
-import MemoryHook from "@/components/lesson/MemoryHook.astro"
-import Persian from "@/components/lesson/Persian.astro"
-import TableScroll from "@/components/lesson/TableScroll.astro"
-import Timeline from "@/components/lesson/Timeline.astro"
-import TreeEmbed from "@/components/lesson/TreeEmbed.astro"
-import UkNote from "@/components/lesson/UkNote.astro"
-import WrongRight from "@/components/lesson/WrongRight.astro"
-import { Mindmap } from "@/components/mindmap/Mindmap"
-import { ExerciseSet } from "@/components/exercises/ExerciseSet"
-import { AddToFlashcards } from "@/components/flashcards/AddToFlashcards"
-import { getLessons, lessonHref, lessonMinutes, type Lesson } from "@/lib/content"
-import { markLessonRefs } from "@/lib/lesson-refs"
-import { FAMILY_INFO, LEVEL_INFO, PILLAR_INFO } from "@/lib/taxonomy"
+import { render } from "astro:content";
+import LevelBadge from "@/components/common/level-badge.astro";
+import LinkButton from "@/components/common/link-button.astro";
+import PillarBadge from "@/components/common/pillar-badge.astro";
+import { ExerciseSet } from "@/components/exercises/exercise-set";
+import { AddToFlashcards } from "@/components/flashcards/add-to-flashcards";
+import Example from "@/components/lesson/example.astro";
+import FormTable from "@/components/lesson/form-table.astro";
+import LessonRef from "@/components/lesson/lesson-ref.astro";
+import MapEmbed from "@/components/lesson/map-embed.astro";
+import MemoryHook from "@/components/lesson/memory-hook.astro";
+import Persian from "@/components/lesson/persian.astro";
+import TableScroll from "@/components/lesson/table-scroll.astro";
+import Timeline from "@/components/lesson/timeline.astro";
+import TreeEmbed from "@/components/lesson/tree-embed.astro";
+import UkNote from "@/components/lesson/uk-note.astro";
+import WrongRight from "@/components/lesson/wrong-right.astro";
+import { Mindmap } from "@/components/mindmap/mindmap";
+import AppLayout from "@/layouts/app-layout.astro";
+import {
+  getLessons,
+  type Lesson,
+  lessonHref,
+  lessonMinutes,
+} from "@/lib/content";
+import { markLessonRefs } from "@/lib/lesson-refs";
+import { FAMILY_INFO, LEVEL_INFO, PILLAR_INFO } from "@/lib/taxonomy";
 
 export async function getStaticPaths() {
-  const lessons = await getLessons()
-  return lessons.map((lesson, i) => ({
-    params: { slug: lesson.id },
-    props: { lesson, prev: lessons[i - 1], next: lessons[i + 1] },
-  }))
+  const lessons = await getLessons();
+  return lessons.map((entry, i) => ({
+    params: { slug: entry.id },
+    props: { lesson: entry, next: lessons[i + 1], prev: lessons[i - 1] },
+  }));
 }
 
 interface Props {
-  lesson: Lesson
-  prev?: Lesson
-  next?: Lesson
+  lesson: Lesson;
+  next?: Lesson;
+  prev?: Lesson;
 }
 
-const { lesson, prev, next } = Astro.props
-const { data } = lesson
-const { Content } = await render(lesson)
-const pillar = PILLAR_INFO[data.pillar]
-const family = FAMILY_INFO[pillar.family]
-const familyVar = `--fam-${pillar.family}`
+const { lesson, prev, next } = Astro.props;
+const { data } = lesson;
+const { Content } = await render(lesson);
+const pillar = PILLAR_INFO[data.pillar];
+const family = FAMILY_INFO[pillar.family];
+const familyVar = `--fam-${pillar.family}`;
 
 const components = {
+  DecisionTree: TreeEmbed,
   Example,
-  WrongRight,
-  Persian,
-  MemoryHook,
-  UkNote,
   FormTable,
   LessonRef,
-  Timeline,
-  DecisionTree: TreeEmbed,
   MapEmbed,
+  MemoryHook,
+  Persian,
+  Timeline,
   table: TableScroll,
-}
+  UkNote,
+  WrongRight,
+};
 ---
 
-<AppLayout title={data.title} description={data.rule}>
+<AppLayout description={data.rule} title={data.title}>
   <article
     class="flex flex-col gap-8"
-    style={`--lesson-color:${family.color};--lesson-soft:${family.soft}`}
     data-lesson-level={data.level}
+    style={`--lesson-color:${family.color};--lesson-soft:${family.soft}`}
   >
-    <nav aria-label="Breadcrumb" class="flex flex-wrap items-center gap-1.5 text-sm text-muted-foreground">
-      <a href="/roadmap" class="hover:text-foreground">Roadmap</a>
+    <nav
+      aria-label="Breadcrumb"
+      class="text-muted-foreground flex flex-wrap items-center gap-1.5 text-sm"
+    >
+      <a class="hover:text-foreground" href="/roadmap">Roadmap</a>
       <span aria-hidden="true">/</span>
-      <a href={`/levels/${data.level.toLowerCase()}`} class="hover:text-foreground">{data.level} · {LEVEL_INFO[data.level].title}</a>
+      <a
+        class="hover:text-foreground"
+        href={`/levels/${data.level.toLowerCase()}`}
+        >{data.level}
+        · {LEVEL_INFO[data.level].title}</a
+      >
       <span aria-hidden="true">/</span>
       <span class="text-foreground">Lesson {data.number}</span>
     </nav>
@@ -77,167 +89,228 @@ const components = {
       <div class="flex flex-wrap items-center gap-2">
         <LevelBadge level={data.level} />
         <PillarBadge pillar={data.pillar} />
-        <span class="inline-flex h-6 items-center rounded-full bg-muted px-2.5 text-xs font-bold text-muted-foreground">
-          {data.size === "core" ? "Core lesson" : "Mini lesson"} · ~{lessonMinutes(lesson)} min
+        <span
+          class="bg-muted text-muted-foreground inline-flex h-6 items-center rounded-full px-2.5 text-xs font-bold"
+        >
+          {data.size === "core" ? "Core lesson" : "Mini lesson"}
+          · ~{lessonMinutes(lesson)}
+          min
         </span>
       </div>
-      <h1 class="font-heading text-3xl font-bold tracking-tight text-balance sm:text-4xl">
-        <span class="mr-2 text-muted-foreground tabular-nums">{data.level}.{data.number}</span>{data.title}
+      <h1
+        class="font-heading text-3xl font-bold tracking-tight text-balance sm:text-4xl"
+      >
+        <span class="text-muted-foreground mr-2 tabular-nums"
+          >{data.level}.{data.number}</span
+        >{data.title}
       </h1>
-      <p class="flex items-start gap-2 text-lg text-muted-foreground">
+      <p class="text-muted-foreground flex items-start gap-2 text-lg">
         <span aria-hidden="true">💬</span>
         <span>{data.hook}</span>
       </p>
     </header>
 
-    <nav aria-label="On this page" class="-mx-1 flex gap-1.5 overflow-x-auto px-1 pb-1 text-sm">
-      {
-        [
-          ["#rule-title", "Rule"],
-          ["#map-title", "Mindmap"],
-          ["#lesson-body", "Lesson"],
-          ...(data.traps.length ? [["#traps-title", "Grammar Tips"]] : []),
-          ["#practice", "Practice"],
-          ["#recall-title", "Recall"],
-          ["#flashcards", "Flashcards"],
-        ].map(([href, label]) => (
-          <a href={href} class="shrink-0 rounded-full border bg-card px-3 py-1 whitespace-nowrap hover:bg-muted/60">
-            {label}
-          </a>
-        ))
-      }
+    <nav
+      aria-label="On this page"
+      class="-mx-1 flex gap-1.5 overflow-x-auto px-1 pb-1 text-sm"
+    >
+      {[
+        ["#rule-title", "Rule"],
+        ["#map-title", "Mindmap"],
+        ["#lesson-body", "Lesson"],
+        ...(data.traps.length ? [["#traps-title", "Grammar Tips"]] : []),
+        ["#practice", "Practice"],
+        ["#recall-title", "Recall"],
+        ["#flashcards", "Flashcards"],
+      ].map(([href, label]) => (
+        <a
+          class="bg-card hover:bg-muted/60 shrink-0 rounded-full border px-3 py-1 whitespace-nowrap"
+          href={href}
+        >
+          {label}
+        </a>
+      ))}
     </nav>
 
     <!-- 2 · The rule in one sentence -->
     <section
+      aria-labelledby="rule-title"
       class="rounded-3xl border-2 p-6 sm:p-7"
       style={`border-color:${family.color};background:${family.soft}`}
-      aria-labelledby="rule-title"
     >
-      <p id="rule-title" class="mb-2 text-xs font-bold tracking-widest uppercase" style={`color:${family.color}`}>
+      <p
+        class="mb-2 text-xs font-bold tracking-widest uppercase"
+        id="rule-title"
+        style={`color:${family.color}`}
+      >
         The rule in one sentence
       </p>
-      <p class="font-reading text-xl leading-snug font-bold text-balance sm:text-2xl">{data.rule}</p>
+      <p
+        class="font-reading text-xl leading-snug font-bold text-balance sm:text-2xl"
+      >
+        {data.rule}
+      </p>
     </section>
 
     <!-- Summary card: at most seven key points -->
-    <section class="rounded-3xl border bg-card p-6" aria-labelledby="points-title">
-      <h2 id="points-title" class="mb-4 font-heading text-lg font-bold">Key points</h2>
+    <section
+      aria-labelledby="points-title"
+      class="bg-card rounded-3xl border p-6"
+    >
+      <h2 class="font-heading mb-4 text-lg font-bold" id="points-title">
+        Key points
+      </h2>
       <ol class="grid gap-3 sm:grid-cols-2">
-        {
-          data.points.map((point, i) => (
-            <li class="flex gap-3">
-              <span
-                class="flex size-7 shrink-0 items-center justify-center rounded-full text-sm font-bold"
-                style={`background:${family.soft};color:${family.color}`}
-              >
-                {i + 1}
-              </span>
-              <span class="font-reading leading-relaxed" set:html={markLessonRefs(point)} />
-            </li>
-          ))
-        }
+        {data.points.map((point, i) => (
+          <li class="flex gap-3">
+            <span
+              class="flex size-7 shrink-0 items-center justify-center rounded-full text-sm font-bold"
+              style={`background:${family.soft};color:${family.color}`}
+            >
+              {i + 1}
+            </span>
+            <span
+              class="font-reading leading-relaxed"
+              set:html={markLessonRefs(point)}
+            />
+          </li>
+        ))}
       </ol>
     </section>
 
     <!-- 3 · Mindmap -->
-    <section class="flex flex-col gap-3" aria-labelledby="map-title">
-      <h2 id="map-title" class="font-heading text-lg font-bold">Mindmap</h2>
+    <section aria-labelledby="map-title" class="flex flex-col gap-3">
+      <h2 class="font-heading text-lg font-bold" id="map-title">Mindmap</h2>
       <Mindmap
-        client:visible
-        markdown={data.mindmap}
         colors="lesson"
         colorVar={familyVar}
-        title={`${data.title} mindmap`}
         height={480}
+        markdown={data.mindmap}
+        title={`${data.title} mindmap`}
+        client:visible
       />
     </section>
 
     <!-- 4–8 · Form, uses, Persian support, mistakes, memory hook -->
-    <div id="lesson-body" class="lesson-prose">
+    <div class="lesson-prose" id="lesson-body">
       <Content components={components} />
     </div>
 
     <!-- 6 · Grammar Tips -->
-    {
-      data.traps.length > 0 && (
-        <section class="flex flex-col gap-3" aria-labelledby="traps-title">
-          <h2 id="traps-title" class="font-heading text-2xl font-bold">
-            Grammar Tips <span class="fa text-lg font-normal text-persian">نکته های گرامری</span>
-          </h2>
-          <p class="text-muted-foreground">Mistakes Persian speakers often make with this grammar, and why.</p>
-          {data.traps.map((trap) => (
-            <WrongRight wrong={trap.wrong} right={trap.right} why={trap.why} fa={trap.fa} />
-          ))}
-        </section>
-      )
-    }
+    {data.traps.length > 0 && (
+      <section aria-labelledby="traps-title" class="flex flex-col gap-3">
+        <h2 class="font-heading text-2xl font-bold" id="traps-title">
+          Grammar Tips{" "}
+          <span class="fa text-persian text-lg font-normal">
+            نکته های گرامری
+          </span>
+        </h2>
+        <p class="text-muted-foreground">
+          Mistakes Persian speakers often make with this grammar, and why.
+        </p>
+        {data.traps.map((trap) => (
+          <WrongRight
+            fa={trap.fa}
+            right={trap.right}
+            why={trap.why}
+            wrong={trap.wrong}
+          />
+        ))}
+      </section>
+    )}
 
     <!-- 9 · Exercises -->
     <div id="practice">
-      <ExerciseSet client:visible exercises={data.exercises} seed={lesson.id} title="Practice" />
+      <ExerciseSet
+        exercises={data.exercises}
+        seed={lesson.id}
+        title="Practice"
+        client:visible
+      />
     </div>
 
     <!-- 10 · Recall -->
-    <section class="flex flex-col gap-3" aria-labelledby="recall-title">
-      <h2 id="recall-title" class="font-heading text-2xl font-bold">Recall</h2>
-      <p class="text-muted-foreground">Close your eyes and answer each one aloud, then open it to check.</p>
+    <section aria-labelledby="recall-title" class="flex flex-col gap-3">
+      <h2 class="font-heading text-2xl font-bold" id="recall-title">Recall</h2>
+      <p class="text-muted-foreground">
+        Close your eyes and answer each one aloud, then open it to check.
+      </p>
       <div class="flex flex-col gap-2">
-        {
-          data.recall.map((item, i) => (
-            <details class="group rounded-2xl border bg-card">
-              <summary class="flex cursor-pointer list-none items-center gap-3 px-5 py-4 font-reading text-lg select-none">
-                <span class="text-muted-foreground tabular-nums">{i + 1}.</span>
-                <span class="flex-1">{item.q}</span>
-                <svg aria-hidden="true" viewBox="0 0 24 24" class="size-5 shrink-0 text-muted-foreground transition-transform group-open:rotate-180" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"></path></svg>
-              </summary>
-              <p class="border-t px-5 py-4 font-reading text-lg" set:html={markLessonRefs(item.a)} />
-            </details>
-          ))
-        }
+        {data.recall.map((item, i) => (
+          <details class="group bg-card rounded-2xl border">
+            <summary class="font-reading flex cursor-pointer list-none items-center gap-3 px-5 py-4 text-lg select-none">
+              <span class="text-muted-foreground tabular-nums">{i + 1}.</span>
+              <span class="flex-1">{item.q}</span>
+              <svg
+                aria-hidden="true"
+                class="text-muted-foreground size-5 shrink-0 transition-transform group-open:rotate-180"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+              >
+                <path d="m6 9 6 6 6-6" />
+              </svg>
+            </summary>
+            <p
+              class="font-reading border-t px-5 py-4 text-lg"
+              set:html={markLessonRefs(item.a)}
+            />
+          </details>
+        ))}
       </div>
-      <p class="rounded-2xl bg-muted px-5 py-4 text-muted-foreground">
-        ✍️ <strong class="text-foreground">Use it:</strong> write 3–5 sentences about your own life with today's grammar.
+      <p class="bg-muted text-muted-foreground rounded-2xl px-5 py-4">
+        ✍️ <strong class="text-foreground">Use it:</strong> write 3–5 sentences
+        about your own life with today's grammar.
       </p>
     </section>
 
     <div id="flashcards">
       <AddToFlashcards
-        client:visible
-      lessonId={lesson.id}
-      lessonTitle={data.title}
-      level={data.level}
-      pillar={data.pillar}
         cards={data.cards}
+        lessonId={lesson.id}
+        lessonTitle={data.title}
+        level={data.level}
+        pillar={data.pillar}
+        client:visible
       />
     </div>
 
-    <nav aria-label="Lesson navigation" class="grid gap-3 border-t pt-6 sm:grid-cols-2">
-      {
-        prev ? (
-          <a href={lessonHref(prev)} class="group flex flex-col gap-1 rounded-2xl border bg-card p-4 hover:bg-muted/60">
-            <span class="text-xs text-muted-foreground">← Previous</span>
-            <span class="font-bold">
-              {prev.data.level}.{prev.data.number} {prev.data.title}
-            </span>
-          </a>
-        ) : (
-          <span />
-        )
-      }
-      {
-        next && (
-          <a href={lessonHref(next)} class="group flex flex-col gap-1 rounded-2xl border bg-card p-4 text-right hover:bg-muted/60">
-            <span class="text-xs text-muted-foreground">Next →</span>
-            <span class="font-bold">
-              {next.data.level}.{next.data.number} {next.data.title}
-            </span>
-          </a>
-        )
-      }
+    <nav
+      aria-label="Lesson navigation"
+      class="grid gap-3 border-t pt-6 sm:grid-cols-2"
+    >
+      {prev ? (
+        <a
+          class="group bg-card hover:bg-muted/60 flex flex-col gap-1 rounded-2xl border p-4"
+          href={lessonHref(prev)}
+        >
+          <span class="text-muted-foreground text-xs">← Previous</span>
+          <span class="font-bold">
+            {prev.data.level}.{prev.data.number} {prev.data.title}
+          </span>
+        </a>
+      ) : (
+        <span />
+      )}
+      {next && (
+        <a
+          class="group bg-card hover:bg-muted/60 flex flex-col gap-1 rounded-2xl border p-4 text-right"
+          href={lessonHref(next)}
+        >
+          <span class="text-muted-foreground text-xs">Next →</span>
+          <span class="font-bold">
+            {next.data.level}.{next.data.number} {next.data.title}
+          </span>
+        </a>
+      )}
     </nav>
     <div class="flex justify-center">
-      <LinkButton href={`/levels/${data.level.toLowerCase()}`} variant="ghost">All {data.level} lessons</LinkButton>
+      <LinkButton href={`/levels/${data.level.toLowerCase()}`} variant="ghost"
+        >All {data.level} lessons</LinkButton
+      >
     </div>
   </article>
 </AppLayout>

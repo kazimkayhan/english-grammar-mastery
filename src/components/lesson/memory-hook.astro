@@ -1,0 +1,18 @@
+---
+// A short mnemonic that makes the rule stick.
+interface Props {
+  title?: string;
+}
+const { title = "Memory hook" } = Astro.props;
+---
+
+<aside
+  class="memory-hook not-prose flex gap-3 rounded-2xl border border-dashed p-4"
+  style="border-color: var(--lesson-color, var(--primary)); background: var(--lesson-soft, var(--accent))"
+>
+  <span aria-hidden="true" class="text-2xl leading-none">💡</span>
+  <div class="flex flex-col gap-1">
+    <p class="font-sans text-sm font-bold">{title}</p>
+    <div class="text-[1.02em]"><slot /></div>
+  </div>
+</aside>

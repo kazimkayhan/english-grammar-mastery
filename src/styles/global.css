@@ -9,7 +9,8 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
-  --font-sans: "Atkinson Hyperlegible Next Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-sans:
+    "Atkinson Hyperlegible Next Variable", ui-sans-serif, system-ui, sans-serif;
   --font-heading: var(--font-sans);
   --font-serif: "Literata Variable", ui-serif, Georgia, serif;
   --font-persian: "Vazirmatn Variable", Tahoma, sans-serif;
@@ -236,6 +237,11 @@
   * {
     @apply border-border outline-ring/50;
   }
+  @supports (scrollbar-width: thin) {
+    * {
+      scrollbar-width: thin;
+    }
+  }
   html {
     @apply font-sans;
     -webkit-text-size-adjust: 100%;
@@ -259,6 +265,7 @@
   #content:focus {
     outline: none;
   }
+  /* biome-ignore lint/suspicious/useBaseline: progressive enhancement; browsers without it keep the default selection colour */
   ::selection {
     background: color-mix(in oklch, var(--primary) 25%, transparent);
   }
@@ -266,9 +273,9 @@
     *,
     *::before,
     *::after {
-      animation-duration: 0.01ms !important;
-      transition-duration: 0.01ms !important;
       scroll-behavior: auto !important;
+      transition-duration: 0.01ms !important;
+      animation-duration: 0.01ms !important;
     }
   }
 }
@@ -282,29 +289,29 @@
 /* ---------------------------------------------------------- Lesson prose */
 /* Comfortable reading: ~18px, 1.7 line height, at most ~68 characters per line. */
 .lesson-prose {
+  max-width: 68ch;
   font-family: var(--font-reading);
   font-size: calc(1.125rem * var(--font-scale));
   line-height: 1.7;
-  max-width: 68ch;
   color: var(--foreground);
 }
 .lesson-prose > * + * {
   margin-top: 1em;
 }
 .lesson-prose h2 {
+  margin-top: 2.2em;
   font-family: var(--font-heading);
   font-size: 1.45em;
   font-weight: 700;
   line-height: 1.3;
-  margin-top: 2.2em;
   letter-spacing: -0.01em;
 }
 .lesson-prose h3 {
+  margin-top: 1.8em;
   font-family: var(--font-heading);
   font-size: 1.15em;
   font-weight: 700;
   line-height: 1.35;
-  margin-top: 1.8em;
 }
 .lesson-prose ul,
 .lesson-prose ol {
@@ -319,6 +326,7 @@
 .lesson-prose li + li {
   margin-top: 0.35em;
 }
+/* biome-ignore lint/suspicious/useBaseline: progressive enhancement; browsers without it keep the default marker colour */
 .lesson-prose li::marker {
   color: var(--muted-foreground);
 }
@@ -328,7 +336,9 @@
 /* Lesson cross-references ("lesson 21"): smaller, muted and in a monospace font, so they read as pointers
    and never look like the running text, in every theme. */
 .lesson-ref {
-  font-family: ui-monospace, "Cascadia Mono", Consolas, "Liberation Mono", monospace;
+  font-family:
+    /* biome-ignore lint/suspicious/useBaseline: ui-monospace is the first choice only; the list falls back to Consolas and monospace */
+    ui-monospace, "Cascadia Mono", Consolas, "Liberation Mono", monospace;
   font-size: 0.8em;
   color: var(--muted-foreground);
 }
@@ -341,42 +351,62 @@
   text-underline-offset: 3px;
 }
 .lesson-prose code {
+  padding: 0.1em 0.35em;
   font-family: var(--font-sans);
+  font-size: 0.92em;
   background: var(--muted);
   border-radius: 0.35em;
-  padding: 0.1em 0.35em;
-  font-size: 0.92em;
 }
 .lesson-prose mark,
 .lesson-prose .hl {
-  background: var(--lesson-soft, var(--accent));
-  color: inherit;
-  border-radius: 0.25em;
   padding: 0 0.08em;
   font-weight: 700;
-  box-decoration-break: clone;
+  color: inherit;
+  background: var(--lesson-soft, var(--accent));
+  border-radius: 0.25em;
+}
+@supports (box-decoration-break: clone) {
+  .lesson-prose mark,
+  .lesson-prose .hl {
+    box-decoration-break: clone;
+  }
 }
 /* Thin scrollbars in the theme colours. scrollbar-width is not inherited, so it is set on every element. */
-:root {
-  scrollbar-color: color-mix(in oklch, var(--muted-foreground) 35%, transparent) transparent;
-}
-
-* {
-  scrollbar-width: thin;
+@supports (scrollbar-color: auto) {
+  :root {
+    scrollbar-color: color-mix(
+        in oklch,
+        var(--muted-foreground) 35%,
+        transparent
+      )
+      transparent;
+  }
 }
 
 .table-scroll {
   max-width: 100%;
   overflow-x: auto;
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
   /* Scroll shadows: a soft edge appears on the side where more columns are hidden. */
   background:
-    linear-gradient(to right, var(--card) 30%, transparent) left / 2.5rem 100% no-repeat local,
-    linear-gradient(to left, var(--card) 30%, transparent) right / 2.5rem 100% no-repeat local,
-    radial-gradient(farthest-side at 0 50%, color-mix(in oklch, var(--foreground) 16%, transparent), transparent) left / 0.9rem 100% no-repeat scroll,
-    radial-gradient(farthest-side at 100% 50%, color-mix(in oklch, var(--foreground) 16%, transparent), transparent) right / 0.9rem 100% no-repeat scroll,
+    linear-gradient(to right, var(--card) 30%, transparent) left / 2.5rem 100%
+    no-repeat local,
+    linear-gradient(to left, var(--card) 30%, transparent) right / 2.5rem 100%
+    no-repeat local,
+    radial-gradient(
+      farthest-side at 0 50%,
+      color-mix(in oklch, var(--foreground) 16%, transparent),
+      transparent
+    )
+    left / 0.9rem 100% no-repeat scroll,
+    radial-gradient(
+      farthest-side at 100% 50%,
+      color-mix(in oklch, var(--foreground) 16%, transparent),
+      transparent
+    )
+    right / 0.9rem 100% no-repeat scroll,
     var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
 }
 /* Lesson form tables have short cells: keep each on one line and scroll sideways on phones. */
 @media (max-width: 639px) {
@@ -392,33 +422,33 @@
 .lesson-prose table,
 .table-scroll table {
   width: 100%;
-  border-collapse: separate;
-  border-spacing: 0;
   font-size: 0.92em;
+  border-spacing: 0;
+  border-collapse: separate;
 }
 .lesson-prose th,
 .lesson-prose td,
 .table-scroll th,
 .table-scroll td {
-  text-align: start;
   padding: 0.55em 0.8em;
-  border-bottom: 1px solid var(--border);
   vertical-align: top;
+  text-align: start;
+  border-bottom: 1px solid var(--border);
 }
 .lesson-prose th,
 .table-scroll th {
-  background: var(--lesson-soft, var(--muted));
   font-family: var(--font-heading);
   font-weight: 700;
+  background: var(--lesson-soft, var(--muted));
 }
 .lesson-prose tr:last-child td,
 .table-scroll tr:last-child td {
   border-bottom: 0;
 }
 .lesson-prose blockquote {
-  border-inline-start: 3px solid var(--lesson-color, var(--primary));
   padding-inline-start: 1em;
   color: var(--muted-foreground);
+  border-inline-start: 3px solid var(--lesson-color, var(--primary));
 }
 
 /* ------------------------------------------------------------- Persian */
@@ -426,8 +456,8 @@
 [lang="fa"] {
   font-family: var(--font-persian);
   line-height: 1.9;
-  direction: rtl;
   text-align: right;
+  direction: rtl;
 }
 [data-persian="never"] .persian-only {
   display: none !important;
@@ -446,7 +476,7 @@
   --markmap-code-color: var(--foreground);
   --markmap-circle-open-bg: var(--background);
   --markmap-a-color: var(--primary);
-  --markmap-font: 600 15px/1.4 var(--font-sans);
+  --markmap-font: 600 15px / 1.4 var(--font-sans);
 }
 .markmap foreignObject {
   font-family: var(--font-sans);

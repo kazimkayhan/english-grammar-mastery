@@ -1,83 +1,692 @@
 pillar: modifiers
 points:
-  - { id: frequency-adverbs, title: "Adverbs of frequency: always, usually, often, sometimes, rarely, never", level: A1, lesson: a1-19, sources: [ GSE, CI, PEU, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LEG ] }
-  - { id: frequency-position, title: "Frequency adverbs: before the main verb, after be", level: A1, lesson: a1-19, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OGEG, LGSWE, CGEL, LEG, LALG ] }
-  - { id: how-often, title: "How often…? every day, twice a week, once a month", level: A1, lesson: a1-19, sources: [ GSE, CI, OPG, OGEG, LGSWE, LSGSWE, CGEL, LEG ] }
-  - { id: adjective-position, title: "Adjectives before nouns (a red car) and after be (The car is red)", level: A1, lesson: a1-29, sources: [ GSE, CI, GIU, PEU, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LEG ] }
-  - { id: adjective-no-plural, title: "Adjectives don't change for plural (two red cars)", level: A1, lesson: a1-29, sources: [ OGEG, LEG ] }
-  - { id: very-really, title: "very and really + adjective", level: A1, lesson: a1-30, sources: [ GSE, CI, PEU, OPG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: too-basic, title: "too = more than is good (too hot)", level: A1, lesson: a1-30, sources: [ PEU, OGEG, LEG, LALG ] }
-  - { id: comparatives-short, title: "Comparatives with -er (cheaper, bigger, happier)", level: A2, lesson: a2-37, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: comparatives-long, title: "Comparatives with more (more expensive)", level: A2, lesson: a2-37, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OGEG, OGEAP, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: comparatives-irregular, title: "Irregular comparatives: good–better, bad–worse, far–farther/further", level: A2, lesson: a2-37, sources: [ EGP, GSE, CI, GIU, PEU, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: than-me, title: "than + pronoun (taller than me / than I am)", level: A2, lesson: a2-37, sources: [ GSE, GIU, PEU, OPG, OMEG, OGEG, LGSWE, LSGSWE, LEG ] }
-  - { id: elder-older, title: "elder vs older", level: A2, lesson: a2-37, sources: [ PEU, OGEG, CGEL, LALG ] }
-  - { id: superlatives, title: "Superlatives: the -est / the most", level: A2, lesson: a2-38, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, OGEG, OGEAP, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: superlative-in-of, title: "the best in the world / of all", level: A2, lesson: a2-38, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OGEG, LALG ] }
-  - { id: superlative-ever, title: "the best … I've ever…", level: A2, lesson: a2-38, sources: [ GSE, PEU, OEGC, OPG, OGEG, LALG ] }
-  - { id: less-least, title: "less / the least", level: A2, lesson: a2-38, sources: [ PEU, OEGC, OPG, OGEG, LALG ] }
-  - { id: as-as, title: "as … as / not as … as", level: A2, lesson: a2-39, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, OGEG, OGEAP, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: same-similar-different, title: "the same as, similar to, different from", level: A2, lesson: a2-39, sources: [ GSE, PEU, OPG, OGEG, OGEAP, LEG ] }
-  - { id: as-soon-as-possible, title: "as soon as possible, as much as you can", level: A2, lesson: a2-39, sources: [ PEU, OEGC ] }
-  - { id: too-enough, title: "too + adjective; adjective + enough; enough + noun", level: A2, lesson: a2-40, sources: [ EGP, GSE, GIU, PEU, OEGC, OPG, OMEG, OGEG, LEG, LALG ] }
-  - { id: very-vs-too, title: "very vs too", level: A2, lesson: a2-40, sources: [ GIU, PEU, CGEL, LEG ] }
-  - { id: adverbs-manner, title: "Adverbs of manner: -ly (quickly, carefully)", level: A2, lesson: a2-41, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: adverb-spelling, title: "Adverb spelling: happy–happily, gentle–gently, basic–basically", level: A2, lesson: a2-41, sources: [ GIU, PEU, OPG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: irregular-adverbs, title: "good → well; fast, hard, late have no -ly", level: A2, lesson: a2-41, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: adjective-vs-adverb, title: "Adjective or adverb? (a careful driver / drives carefully)", level: A2, lesson: a2-41, sources: [ CI, GIU, PEU, OEGC, OPG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: ed-ing-adjectives, title: "-ed vs -ing adjectives (bored / boring)", level: A2, lesson: a2-42, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: already-yet-still, title: "already, yet, still", level: A2, lesson: a2-43, sources: [ GSE, GIU, PEU, OPG, LEG ] }
-  - { id: just-adverb, title: "just (= a moment ago; = only)", level: A2, lesson: a2-43, sources: [ PEU, LEG ] }
-  - { id: also-too-either, title: "also, too, as well, either", level: A2, lesson: a2-43, sources: [ GSE, PEU, LEG ] }
-  - { id: so-such, title: "so + adjective; such (a) + adjective + noun", level: B1, lesson: b1-44, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, LGSWE, LSGSWE, LEG, LALG ] }
-  - { id: too-enough-to, title: "too / enough + (for somebody) + to (too hot to drink, old enough to drive)", level: B1, lesson: b1-44, sources: [ GIU, PEU, OPG, OMEG, LGSWE, LSGSWE, LEG, LALG ] }
-  - { id: much-far-comparative, title: "much / far / a lot / a bit / slightly / even + comparative", level: B1, lesson: b1-45, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OGEG, OGEAP, CGEL, LEG, LALG ] }
-  - { id: more-and-more, title: "comparative + and + comparative (more and more, bigger and bigger)", level: B1, lesson: b1-45, sources: [ OEGC, OPG, OGEG, LGSWE, LEG, LALG ] }
-  - { id: the-the-intro, title: "the … the … (The more you practice, the better you get)", level: B1, lesson: b1-45, sources: [ GSE, PEU, OEGC, OPG, OMEG, OGEG, OGEAP, CGEL, LEG, LALG ] }
-  - { id: fewer-less, title: "fewer vs less", level: B1, lesson: b1-45, sources: [ GIU, PEU, OEGC, OPG, OMEG, OGEG, LEG ] }
-  - { id: no-double-comparative, title: "No double comparatives (more better ✗)", level: B1, lesson: b1-45, sources: [ PEU, LGSWE, LSGSWE ] }
-  - { id: adverb-positions, title: "Front, mid and end position of adverbs", level: B1, lesson: b1-46, sources: [ GSE, GIU, PEU, OEGC, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: focus-adverbs, title: "only, even, just, also: where they go", level: B1, lesson: b1-46, sources: [ GSE, GIU, PEU, OEGC, OPG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: adverb-order, title: "Manner – place – time (She sang beautifully at the concert last night)", level: B1, lesson: b1-46, sources: [ GIU, PEU, OEGC, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: probably-negative, title: "probably / definitely with negatives (He probably won't…)", level: B1, lesson: b1-46, sources: [ CI, PEU, OPG, OMEG, OGEG, LGSWE ] }
-  - { id: adjective-order-intro, title: "Adjective order: opinion before fact; size – age – color", level: B1, lesson: b1-47, sources: [ GSE, GIU, PEU, OPG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: gradable-nongradable, title: "Gradable vs non-gradable adjectives (very cold / absolutely freezing)", level: B2, lesson: b2-37, sources: [ GIU, PEU, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LALG ] }
-  - { id: intensifiers, title: "Intensifiers: very, really, extremely, absolutely, completely, utterly, totally, highly", level: B2, lesson: b2-37, sources: [ GSE, CI, GIU, PEU, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: softeners, title: "Softeners: quite, fairly, rather, pretty, a bit, slightly", level: B2, lesson: b2-37, sources: [ GSE, CI, GIU, PEU, OPG, OGEG, OGEAP, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: quite-us-uk, title: "quite in American vs British English", level: B2, lesson: b2-37, sources: [ GSE, GIU, PEU, OPG, OGEG, LGSWE, LEG, LALG ] }
-  - { id: adjective-order-full, title: "Full adjective order: opinion, size, age, shape, color, origin, material, purpose", level: B2, lesson: b2-38, sources: [ GSE, GIU, PEU, OEGC, OPG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: compound-adjectives, title: "Compound adjectives (well-known, five-star, open-minded)", level: B2, lesson: b2-38, sources: [ GSE, GIU, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: predicative-only, title: "Adjectives only after a verb (asleep, alive, afraid, alone)", level: B2, lesson: b2-38, sources: [ GIU, PEU, OEGC, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LEG ] }
-  - { id: attributive-only, title: "Adjectives only before a noun (main, only, elder, chief)", level: B2, lesson: b2-38, sources: [ GIU, PEU, OEGC, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LEG ] }
-  - { id: times-as, title: "twice / three times as … as", level: B2, lesson: b2-39, sources: [ GIU, PEU, OPG, OGEG, OGEAP, LGSWE, LSGSWE, LALG ] }
-  - { id: by-far, title: "by far / easily + superlative", level: B2, lesson: b2-39, sources: [ GIU, PEU, OEGC, OPG, OGEG, CGEL, LALG ] }
-  - { id: nowhere-near, title: "nowhere near / not nearly as … as", level: B2, lesson: b2-39, sources: [ GIU, PEU, CGEL, LALG ] }
-  - { id: like-as, title: "like vs as (as a teacher / like a teacher; like me / as I do)", level: B2, lesson: b2-39, sources: [ GSE, GIU, PEU, OEGC, OPG, OGEG, CGEL, LEG, LALG ] }
-  - { id: hard-hardly, title: "Adverbs with two forms: hard/hardly, late/lately, high/highly, near/nearly, most/mostly, free/freely", level: B2, lesson: b2-40, sources: [ CI, GIU, PEU, OEGC, OPG, LGSWE, LSGSWE, CGEL, LALG ] }
-  - { id: almost-nearly, title: "almost, nearly, hardly", level: B2, lesson: b2-40, sources: [ GIU, PEU, LEG ] }
-  - { id: comment-adverbs, title: "Comment adverbs (fortunately, apparently, honestly, hopefully)", level: B2, lesson: b2-40, sources: [ GSE, CI, GIU, PEU, OPG, OMEG, OGEG, OGEAP, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: still-anymore, title: "still, yet, anymore, no longer", level: B2, lesson: b2-40, sources: [ GIU, PEU, OPG, LEG ] }
-  - { id: viewpoint-adverbs, title: "Viewpoint adverbs (economically, technically speaking)", level: C1, lesson: c1-30, sources: [ GIU, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: only-position, title: "only / even: position changes the meaning", level: C1, lesson: c1-30, sources: [ GSE, GIU, PEU, OGEG, CGEL, LEG, LALG ] }
-  - { id: degree-collocations, title: "Adverb + adjective collocations (highly unlikely, deeply concerned, bitterly disappointed)", level: C1, lesson: c1-30, sources: [ CI, OGEG, LGSWE, LSGSWE, CGEL, LALG ] }
-  - { id: adverbial-order-advanced, title: "Order and position of several adverbials", level: C1, lesson: c1-30, sources: [ GIU, PEU, OGEG, LGSWE, LSGSWE, CGEL, LALG ] }
-  - { id: adjective-prep-that-to, title: "Adjective + preposition / that / to (sure of, sure that, sure to)", level: C1, lesson: c1-31, sources: [ GIU, PEU, OEGC, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LALG ] }
-  - { id: easy-to-please, title: "easy to please (adjective + to with an object gap)", level: C1, lesson: c1-31, sources: [ GIU, PEU, OEGC, OPG, OGEG, LGSWE, LSGSWE ] }
-  - { id: worth-ing, title: "worth + -ing (worth seeing)", level: C1, lesson: c1-31, sources: [ GSE, GIU, PEU, OPG, OMEG, OGEG, LGSWE, LSGSWE, LALG ] }
-  - { id: kind-of-important-for, title: "It's kind of you vs It's important for you", level: C1, lesson: c1-31, sources: [] }
-  - { id: all-the-more, title: "all the more, none the less, the better for it", level: C1, lesson: c1-32, sources: [ PEU, LALG ] }
-  - { id: more-of-a, title: "more of a … than; not so much … as", level: C1, lesson: c1-32, sources: [ GIU, PEU, LALG ] }
-  - { id: as-ever, title: "as … as ever / as … as can be", level: C1, lesson: c1-32, sources: [ GIU, PEU, LALG ] }
-  - { id: adverbial-scope, title: "Scope and placement of adverbials (I only eat fish on Fridays)", level: C2, lesson: c2-16, sources: [ GIU, OMEG, OGEG, LGSWE, LSGSWE, CGEL ] }
-  - { id: disjuncts-conjuncts, title: "Adjuncts, disjuncts and conjuncts", level: C2, lesson: c2-16, sources: [ PEU, OGEG, LGSWE, LSGSWE, CGEL ] }
-  - { id: split-infinitive, title: "The split infinitive (to boldly go)", level: C2, lesson: c2-16, sources: [ PEU, CGEL, LALG ] }
+  - {
+      id: frequency-adverbs,
+      title: "Adverbs of frequency: always, usually, often, sometimes, rarely, never",
+      level: A1,
+      lesson: a1-19,
+      sources: [ GSE, CI, PEU, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LEG ],
+    }
+  - {
+      id: frequency-position,
+      title: "Frequency adverbs: before the main verb, after be",
+      level: A1,
+      lesson: a1-19,
+      sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OGEG, LGSWE, CGEL, LEG, LALG ],
+    }
+  - {
+      id: how-often,
+      title: "How often…? every day, twice a week, once a month",
+      level: A1,
+      lesson: a1-19,
+      sources: [ GSE, CI, OPG, OGEG, LGSWE, LSGSWE, CGEL, LEG ],
+    }
+  - {
+      id: adjective-position,
+      title: "Adjectives before nouns (a red car) and after be (The car is red)",
+      level: A1,
+      lesson: a1-29,
+      sources: [ GSE, CI, GIU, PEU, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LEG ],
+    }
+  - {
+      id: adjective-no-plural,
+      title: "Adjectives don't change for plural (two red cars)",
+      level: A1,
+      lesson: a1-29,
+      sources: [ OGEG, LEG ],
+    }
+  - {
+      id: very-really,
+      title: "very and really + adjective",
+      level: A1,
+      lesson: a1-30,
+      sources: [ GSE, CI, PEU, OPG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ],
+    }
+  - {
+      id: too-basic,
+      title: "too = more than is good (too hot)",
+      level: A1,
+      lesson: a1-30,
+      sources: [ PEU, OGEG, LEG, LALG ],
+    }
+  - {
+      id: comparatives-short,
+      title: "Comparatives with -er (cheaper, bigger, happier)",
+      level: A2,
+      lesson: a2-37,
+      sources:
+        [
+          GSE,
+          CI,
+          GIU,
+          PEU,
+          OEGC,
+          OPG,
+          OMEG,
+          OGEG,
+          LGSWE,
+          LSGSWE,
+          CGEL,
+          LEG,
+          LALG,
+        ],
+    }
+  - {
+      id: comparatives-long,
+      title: "Comparatives with more (more expensive)",
+      level: A2,
+      lesson: a2-37,
+      sources:
+        [
+          GSE,
+          CI,
+          GIU,
+          PEU,
+          OEGC,
+          OPG,
+          OGEG,
+          OGEAP,
+          LGSWE,
+          LSGSWE,
+          CGEL,
+          LEG,
+          LALG,
+        ],
+    }
+  - {
+      id: comparatives-irregular,
+      title: "Irregular comparatives: good–better, bad–worse, far–farther/further",
+      level: A2,
+      lesson: a2-37,
+      sources:
+        [
+          EGP,
+          GSE,
+          CI,
+          GIU,
+          PEU,
+          OPG,
+          OMEG,
+          OGEG,
+          LGSWE,
+          LSGSWE,
+          CGEL,
+          LEG,
+          LALG,
+        ],
+    }
+  - {
+      id: than-me,
+      title: "than + pronoun (taller than me / than I am)",
+      level: A2,
+      lesson: a2-37,
+      sources: [ GSE, GIU, PEU, OPG, OMEG, OGEG, LGSWE, LSGSWE, LEG ],
+    }
+  - {
+      id: elder-older,
+      title: "elder vs older",
+      level: A2,
+      lesson: a2-37,
+      sources: [ PEU, OGEG, CGEL, LALG ],
+    }
+  - {
+      id: superlatives,
+      title: "Superlatives: the -est / the most",
+      level: A2,
+      lesson: a2-38,
+      sources:
+        [
+          GSE,
+          CI,
+          GIU,
+          PEU,
+          OEGC,
+          OPG,
+          OMEG,
+          OGEG,
+          OGEAP,
+          LGSWE,
+          LSGSWE,
+          CGEL,
+          LEG,
+          LALG,
+        ],
+    }
+  - {
+      id: superlative-in-of,
+      title: "the best in the world / of all",
+      level: A2,
+      lesson: a2-38,
+      sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OGEG, LALG ],
+    }
+  - {
+      id: superlative-ever,
+      title: "the best … I've ever…",
+      level: A2,
+      lesson: a2-38,
+      sources: [ GSE, PEU, OEGC, OPG, OGEG, LALG ],
+    }
+  - {
+      id: less-least,
+      title: "less / the least",
+      level: A2,
+      lesson: a2-38,
+      sources: [ PEU, OEGC, OPG, OGEG, LALG ],
+    }
+  - {
+      id: as-as,
+      title: "as … as / not as … as",
+      level: A2,
+      lesson: a2-39,
+      sources:
+        [
+          GSE,
+          CI,
+          GIU,
+          PEU,
+          OEGC,
+          OPG,
+          OMEG,
+          OGEG,
+          OGEAP,
+          LGSWE,
+          LSGSWE,
+          CGEL,
+          LEG,
+          LALG,
+        ],
+    }
+  - {
+      id: same-similar-different,
+      title: "the same as, similar to, different from",
+      level: A2,
+      lesson: a2-39,
+      sources: [ GSE, PEU, OPG, OGEG, OGEAP, LEG ],
+    }
+  - {
+      id: as-soon-as-possible,
+      title: "as soon as possible, as much as you can",
+      level: A2,
+      lesson: a2-39,
+      sources: [ PEU, OEGC ],
+    }
+  - {
+      id: too-enough,
+      title: "too + adjective; adjective + enough; enough + noun",
+      level: A2,
+      lesson: a2-40,
+      sources: [ EGP, GSE, GIU, PEU, OEGC, OPG, OMEG, OGEG, LEG, LALG ],
+    }
+  - {
+      id: very-vs-too,
+      title: "very vs too",
+      level: A2,
+      lesson: a2-40,
+      sources: [ GIU, PEU, CGEL, LEG ],
+    }
+  - {
+      id: adverbs-manner,
+      title: "Adverbs of manner: -ly (quickly, carefully)",
+      level: A2,
+      lesson: a2-41,
+      sources:
+        [
+          GSE,
+          CI,
+          GIU,
+          PEU,
+          OEGC,
+          OPG,
+          OMEG,
+          OGEG,
+          LGSWE,
+          LSGSWE,
+          CGEL,
+          LEG,
+          LALG,
+        ],
+    }
+  - {
+      id: adverb-spelling,
+      title: "Adverb spelling: happy–happily, gentle–gently, basic–basically",
+      level: A2,
+      lesson: a2-41,
+      sources: [ GIU, PEU, OPG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ],
+    }
+  - {
+      id: irregular-adverbs,
+      title: "good → well; fast, hard, late have no -ly",
+      level: A2,
+      lesson: a2-41,
+      sources:
+        [ GSE, CI, GIU, PEU, OEGC, OPG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ],
+    }
+  - {
+      id: adjective-vs-adverb,
+      title: "Adjective or adverb? (a careful driver / drives carefully)",
+      level: A2,
+      lesson: a2-41,
+      sources:
+        [ CI, GIU, PEU, OEGC, OPG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ],
+    }
+  - {
+      id: ed-ing-adjectives,
+      title: "-ed vs -ing adjectives (bored / boring)",
+      level: A2,
+      lesson: a2-42,
+      sources:
+        [ GSE, CI, GIU, PEU, OEGC, OPG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ],
+    }
+  - {
+      id: already-yet-still,
+      title: "already, yet, still",
+      level: A2,
+      lesson: a2-43,
+      sources: [ GSE, GIU, PEU, OPG, LEG ],
+    }
+  - {
+      id: just-adverb,
+      title: "just (= a moment ago; = only)",
+      level: A2,
+      lesson: a2-43,
+      sources: [ PEU, LEG ],
+    }
+  - {
+      id: also-too-either,
+      title: "also, too, as well, either",
+      level: A2,
+      lesson: a2-43,
+      sources: [ GSE, PEU, LEG ],
+    }
+  - {
+      id: so-such,
+      title: "so + adjective; such (a) + adjective + noun",
+      level: B1,
+      lesson: b1-44,
+      sources: [ GSE, CI, GIU, PEU, OEGC, OPG, LGSWE, LSGSWE, LEG, LALG ],
+    }
+  - {
+      id: too-enough-to,
+      title: "too / enough + (for somebody) + to (too hot to drink, old enough to drive)",
+      level: B1,
+      lesson: b1-44,
+      sources: [ GIU, PEU, OPG, OMEG, LGSWE, LSGSWE, LEG, LALG ],
+    }
+  - {
+      id: much-far-comparative,
+      title: "much / far / a lot / a bit / slightly / even + comparative",
+      level: B1,
+      lesson: b1-45,
+      sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OGEG, OGEAP, CGEL, LEG, LALG ],
+    }
+  - {
+      id: more-and-more,
+      title: "comparative + and + comparative (more and more, bigger and bigger)",
+      level: B1,
+      lesson: b1-45,
+      sources: [ OEGC, OPG, OGEG, LGSWE, LEG, LALG ],
+    }
+  - {
+      id: the-the-intro,
+      title: "the … the … (The more you practice, the better you get)",
+      level: B1,
+      lesson: b1-45,
+      sources: [ GSE, PEU, OEGC, OPG, OMEG, OGEG, OGEAP, CGEL, LEG, LALG ],
+    }
+  - {
+      id: fewer-less,
+      title: "fewer vs less",
+      level: B1,
+      lesson: b1-45,
+      sources: [ GIU, PEU, OEGC, OPG, OMEG, OGEG, LEG ],
+    }
+  - {
+      id: no-double-comparative,
+      title: "No double comparatives (more better ✗)",
+      level: B1,
+      lesson: b1-45,
+      sources: [ PEU, LGSWE, LSGSWE ],
+    }
+  - {
+      id: adverb-positions,
+      title: "Front, mid and end position of adverbs",
+      level: B1,
+      lesson: b1-46,
+      sources:
+        [
+          GSE,
+          GIU,
+          PEU,
+          OEGC,
+          OPG,
+          OMEG,
+          OGEG,
+          LGSWE,
+          LSGSWE,
+          CGEL,
+          LEG,
+          LALG,
+        ],
+    }
+  - {
+      id: focus-adverbs,
+      title: "only, even, just, also: where they go",
+      level: B1,
+      lesson: b1-46,
+      sources:
+        [ GSE, GIU, PEU, OEGC, OPG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ],
+    }
+  - {
+      id: adverb-order,
+      title: "Manner – place – time (She sang beautifully at the concert last night)",
+      level: B1,
+      lesson: b1-46,
+      sources:
+        [ GIU, PEU, OEGC, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ],
+    }
+  - {
+      id: probably-negative,
+      title: "probably / definitely with negatives (He probably won't…)",
+      level: B1,
+      lesson: b1-46,
+      sources: [ CI, PEU, OPG, OMEG, OGEG, LGSWE ],
+    }
+  - {
+      id: adjective-order-intro,
+      title: "Adjective order: opinion before fact; size – age – color",
+      level: B1,
+      lesson: b1-47,
+      sources: [ GSE, GIU, PEU, OPG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ],
+    }
+  - {
+      id: gradable-nongradable,
+      title: "Gradable vs non-gradable adjectives (very cold / absolutely freezing)",
+      level: B2,
+      lesson: b2-37,
+      sources: [ GIU, PEU, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LALG ],
+    }
+  - {
+      id: intensifiers,
+      title: "Intensifiers: very, really, extremely, absolutely, completely, utterly, totally, highly",
+      level: B2,
+      lesson: b2-37,
+      sources:
+        [ GSE, CI, GIU, PEU, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ],
+    }
+  - {
+      id: softeners,
+      title: "Softeners: quite, fairly, rather, pretty, a bit, slightly",
+      level: B2,
+      lesson: b2-37,
+      sources:
+        [ GSE, CI, GIU, PEU, OPG, OGEG, OGEAP, LGSWE, LSGSWE, CGEL, LEG, LALG ],
+    }
+  - {
+      id: quite-us-uk,
+      title: "quite in American vs British English",
+      level: B2,
+      lesson: b2-37,
+      sources: [ GSE, GIU, PEU, OPG, OGEG, LGSWE, LEG, LALG ],
+    }
+  - {
+      id: adjective-order-full,
+      title: "Full adjective order: opinion, size, age, shape, color, origin, material, purpose",
+      level: B2,
+      lesson: b2-38,
+      sources:
+        [ GSE, GIU, PEU, OEGC, OPG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ],
+    }
+  - {
+      id: compound-adjectives,
+      title: "Compound adjectives (well-known, five-star, open-minded)",
+      level: B2,
+      lesson: b2-38,
+      sources: [ GSE, GIU, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ],
+    }
+  - {
+      id: predicative-only,
+      title: "Adjectives only after a verb (asleep, alive, afraid, alone)",
+      level: B2,
+      lesson: b2-38,
+      sources: [ GIU, PEU, OEGC, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LEG ],
+    }
+  - {
+      id: attributive-only,
+      title: "Adjectives only before a noun (main, only, elder, chief)",
+      level: B2,
+      lesson: b2-38,
+      sources: [ GIU, PEU, OEGC, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LEG ],
+    }
+  - {
+      id: times-as,
+      title: "twice / three times as … as",
+      level: B2,
+      lesson: b2-39,
+      sources: [ GIU, PEU, OPG, OGEG, OGEAP, LGSWE, LSGSWE, LALG ],
+    }
+  - {
+      id: by-far,
+      title: "by far / easily + superlative",
+      level: B2,
+      lesson: b2-39,
+      sources: [ GIU, PEU, OEGC, OPG, OGEG, CGEL, LALG ],
+    }
+  - {
+      id: nowhere-near,
+      title: "nowhere near / not nearly as … as",
+      level: B2,
+      lesson: b2-39,
+      sources: [ GIU, PEU, CGEL, LALG ],
+    }
+  - {
+      id: like-as,
+      title: "like vs as (as a teacher / like a teacher; like me / as I do)",
+      level: B2,
+      lesson: b2-39,
+      sources: [ GSE, GIU, PEU, OEGC, OPG, OGEG, CGEL, LEG, LALG ],
+    }
+  - {
+      id: hard-hardly,
+      title: "Adverbs with two forms: hard/hardly, late/lately, high/highly, near/nearly, most/mostly, free/freely",
+      level: B2,
+      lesson: b2-40,
+      sources: [ CI, GIU, PEU, OEGC, OPG, LGSWE, LSGSWE, CGEL, LALG ],
+    }
+  - {
+      id: almost-nearly,
+      title: "almost, nearly, hardly",
+      level: B2,
+      lesson: b2-40,
+      sources: [ GIU, PEU, LEG ],
+    }
+  - {
+      id: comment-adverbs,
+      title: "Comment adverbs (fortunately, apparently, honestly, hopefully)",
+      level: B2,
+      lesson: b2-40,
+      sources:
+        [
+          GSE,
+          CI,
+          GIU,
+          PEU,
+          OPG,
+          OMEG,
+          OGEG,
+          OGEAP,
+          LGSWE,
+          LSGSWE,
+          CGEL,
+          LEG,
+          LALG,
+        ],
+    }
+  - {
+      id: still-anymore,
+      title: "still, yet, anymore, no longer",
+      level: B2,
+      lesson: b2-40,
+      sources: [ GIU, PEU, OPG, LEG ],
+    }
+  - {
+      id: viewpoint-adverbs,
+      title: "Viewpoint adverbs (economically, technically speaking)",
+      level: C1,
+      lesson: c1-30,
+      sources: [ GIU, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ],
+    }
+  - {
+      id: only-position,
+      title: "only / even: position changes the meaning",
+      level: C1,
+      lesson: c1-30,
+      sources: [ GSE, GIU, PEU, OGEG, CGEL, LEG, LALG ],
+    }
+  - {
+      id: degree-collocations,
+      title: "Adverb + adjective collocations (highly unlikely, deeply concerned, bitterly disappointed)",
+      level: C1,
+      lesson: c1-30,
+      sources: [ CI, OGEG, LGSWE, LSGSWE, CGEL, LALG ],
+    }
+  - {
+      id: adverbial-order-advanced,
+      title: "Order and position of several adverbials",
+      level: C1,
+      lesson: c1-30,
+      sources: [ GIU, PEU, OGEG, LGSWE, LSGSWE, CGEL, LALG ],
+    }
+  - {
+      id: adjective-prep-that-to,
+      title: "Adjective + preposition / that / to (sure of, sure that, sure to)",
+      level: C1,
+      lesson: c1-31,
+      sources: [ GIU, PEU, OEGC, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LALG ],
+    }
+  - {
+      id: easy-to-please,
+      title: "easy to please (adjective + to with an object gap)",
+      level: C1,
+      lesson: c1-31,
+      sources: [ GIU, PEU, OEGC, OPG, OGEG, LGSWE, LSGSWE ],
+    }
+  - {
+      id: worth-ing,
+      title: "worth + -ing (worth seeing)",
+      level: C1,
+      lesson: c1-31,
+      sources: [ GSE, GIU, PEU, OPG, OMEG, OGEG, LGSWE, LSGSWE, LALG ],
+    }
+  - {
+      id: kind-of-important-for,
+      title: "It's kind of you vs It's important for you",
+      level: C1,
+      lesson: c1-31,
+      sources: [],
+    }
+  - {
+      id: all-the-more,
+      title: "all the more, none the less, the better for it",
+      level: C1,
+      lesson: c1-32,
+      sources: [ PEU, LALG ],
+    }
+  - {
+      id: more-of-a,
+      title: "more of a … than; not so much … as",
+      level: C1,
+      lesson: c1-32,
+      sources: [ GIU, PEU, LALG ],
+    }
+  - {
+      id: as-ever,
+      title: "as … as ever / as … as can be",
+      level: C1,
+      lesson: c1-32,
+      sources: [ GIU, PEU, LALG ],
+    }
+  - {
+      id: adverbial-scope,
+      title: "Scope and placement of adverbials (I only eat fish on Fridays)",
+      level: C2,
+      lesson: c2-16,
+      sources: [ GIU, OMEG, OGEG, LGSWE, LSGSWE, CGEL ],
+    }
+  - {
+      id: disjuncts-conjuncts,
+      title: "Adjuncts, disjuncts and conjuncts",
+      level: C2,
+      lesson: c2-16,
+      sources: [ PEU, OGEG, LGSWE, LSGSWE, CGEL ],
+    }
+  - {
+      id: split-infinitive,
+      title: "The split infinitive (to boldly go)",
+      level: C2,
+      lesson: c2-16,
+      sources: [ PEU, CGEL, LALG ],
+    }
   # added from the reference audit
-  - { id: adverb-comparison, title: "Comparative and superlative adverbs (faster, more carefully, the best)", level: A2, lesson: a2-41, sources: [ GSE, CI, PEU, OEGC, OGEG, LGSWE, LSGSWE, CGEL ] }
-  - { id: a-lot-adverb, title: "a lot, a bit, much, very much after verbs (I like it a lot; It helps a bit)", level: A2, lesson: a2-40, sources: [ GSE ] }
-  - { id: position-meaning-adjectives, title: "Adjectives whose meaning depends on position (the responsible person / the person responsible)", level: C1, lesson: c1-31, sources: [ OGEG, LALG ] }
-  - { id: postposed-adjectives, title: "Adjectives after nouns and pronouns (something interesting, the people involved, the president elect)", level: B2, lesson: b2-38, sources: [ PEU, OGEG, LGSWE, LSGSWE, CGEL ] }
-  - { id: adjective-adjuncts, title: "Adjectives as sentence adjuncts (More importantly, Worse still, Strange to say)", level: C1, lesson: c1-30, sources: [ LGSWE ] }
-  - { id: adverbs-after-prepositions, title: "Adverbs after prepositions (from here, until now, since then, by then)", level: B1, lesson: b1-46, sources: [ LGSWE, LSGSWE, CGEL ] }
-  - { id: adjective-commas, title: "Commas and and between adjectives (a big, old house; tall and dark)", level: B2, lesson: b2-38, sources: [ PEU, OEGC ] }
-  - { id: adverb-modifying, title: "Adverbs modifying adverbs, prepositions and noun phrases (right past me, well over ten, almost home)", level: C1, lesson: c1-30, sources: [ PEU, OMEG ] }
-  - { id: any-no-comparative, title: "any / no + comparative (no better; any longer)", level: B1, lesson: b1-45, sources: [ PEU ] }
+  - {
+      id: adverb-comparison,
+      title: "Comparative and superlative adverbs (faster, more carefully, the best)",
+      level: A2,
+      lesson: a2-41,
+      sources: [ GSE, CI, PEU, OEGC, OGEG, LGSWE, LSGSWE, CGEL ],
+    }
+  - {
+      id: a-lot-adverb,
+      title: "a lot, a bit, much, very much after verbs (I like it a lot; It helps a bit)",
+      level: A2,
+      lesson: a2-40,
+      sources: [ GSE ],
+    }
+  - {
+      id: position-meaning-adjectives,
+      title: "Adjectives whose meaning depends on position (the responsible person / the person responsible)",
+      level: C1,
+      lesson: c1-31,
+      sources: [ OGEG, LALG ],
+    }
+  - {
+      id: postposed-adjectives,
+      title: "Adjectives after nouns and pronouns (something interesting, the people involved, the president elect)",
+      level: B2,
+      lesson: b2-38,
+      sources: [ PEU, OGEG, LGSWE, LSGSWE, CGEL ],
+    }
+  - {
+      id: adjective-adjuncts,
+      title: "Adjectives as sentence adjuncts (More importantly, Worse still, Strange to say)",
+      level: C1,
+      lesson: c1-30,
+      sources: [ LGSWE ],
+    }
+  - {
+      id: adverbs-after-prepositions,
+      title: "Adverbs after prepositions (from here, until now, since then, by then)",
+      level: B1,
+      lesson: b1-46,
+      sources: [ LGSWE, LSGSWE, CGEL ],
+    }
+  - {
+      id: adjective-commas,
+      title: "Commas and and between adjectives (a big, old house; tall and dark)",
+      level: B2,
+      lesson: b2-38,
+      sources: [ PEU, OEGC ],
+    }
+  - {
+      id: adverb-modifying,
+      title: "Adverbs modifying adverbs, prepositions and noun phrases (right past me, well over ten, almost home)",
+      level: C1,
+      lesson: c1-30,
+      sources: [ PEU, OMEG ],
+    }
+  - {
+      id: any-no-comparative,
+      title: "any / no + comparative (no better; any longer)",
+      level: B1,
+      lesson: b1-45,
+      sources: [ PEU ],
+    }

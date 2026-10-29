@@ -1,18 +1,138 @@
 # Reference works used to audit the inventory (checklists for coverage and level only; all content is original).
 # status: pending → collected (checklist items in audit/<code>.yaml, some parts unverified) → mapped (verified and every item mapped or out of scope)
 # edition: the short label shown in the app; the audit file records exactly which printing was read and from where.
-- { id: EGP, code: EGP, publisher: Cambridge, title: "English Grammar Profile (online)", edition: "Online database: not accessible (13 statements checked)", role: "CEFR level of each point (learner-corpus evidence)", status: collected }
-- { id: GSE, code: GSE, publisher: Pearson, title: "Global Scale of English: grammar objectives for adult learners", edition: "2022 objectives", role: "CEFR / GSE level of each point", status: mapped }
-- { id: CI, code: CI, publisher: British Council / EAQUALS, title: "Core Inventory for General English", edition: "2010 (only edition)", role: "Core points by level", status: mapped }
-- { id: GIU, code: GIU, publisher: Cambridge, title: "Murphy & Hewings: Essential, English and Advanced Grammar in Use", edition: "Essential 4th · English 5th · Advanced 3rd", role: "Unit lists by level", status: mapped }
-- { id: PEU, code: PEU, publisher: Oxford, title: "Swan: Practical English Usage", edition: "4th edition (2016)", role: "Finest-grained usage checklist", status: mapped }
-- { id: OEGC, code: OEGC, publisher: Oxford, title: "Swan & Walter: Oxford English Grammar Course", edition: "Updated 2019 (contents read from 2011/2020 printings)", role: "Unit lists A1 → C1+", status: collected }
-- { id: OPG, code: OPG, publisher: Oxford, title: "Coe, Eastwood, Yule: Oxford Practice Grammar", edition: "Revised 2019 (contents read from 2006 printings)", role: "Unit lists by level", status: collected }
-- { id: OMEG, code: OMEG, publisher: Oxford, title: "Aarts: Oxford Modern English Grammar", edition: "1st edition (2011)", role: "Academic descriptive coverage", status: mapped }
-- { id: OGEG, code: OGEG, publisher: Oxford, title: "Eastwood: Oxford Guide to English Grammar", edition: "1994 (only edition; 2002 printing read)", role: "Learner reference coverage", status: mapped }
-- { id: OGEAP, code: OGEAP, publisher: Oxford, title: "Paterson & Wedge: Oxford Grammar for EAP", edition: "2013 (only edition; unit list only)", role: "Academic-writing grammar", status: collected }
-- { id: LGSWE, code: LGSWE, publisher: Longman / John Benjamins, title: "Biber et al.: Grammar of Spoken and Written English", edition: "2021 redesign (contents read from the 1999 edition)", role: "Corpus-based coverage by register; US vs UK", status: collected }
-- { id: LSGSWE, code: LSGSWE, publisher: Longman, title: "Biber, Conrad, Leech: Longman Student Grammar of Spoken and Written English", edition: "2002 (only edition)", role: "B2–C2 cross-check", status: mapped }
-- { id: CGEL, code: CGEL, publisher: Longman, title: "Quirk et al.: A Comprehensive Grammar of the English Language", edition: "1985 (only edition; some chapters unreadable)", role: "Final exhaustive sweep", status: collected }
-- { id: LEG, code: LEG, publisher: Longman, title: "Alexander: Longman English Grammar Practice (+ reference grammar)", edition: "Practice 1990 (reference book not read)", role: "Learner reference and practice", status: collected }
-- { id: LALG, code: LALG, publisher: Longman, title: "Foley & Hall: Longman Advanced Learners' Grammar", edition: "2003", role: "C1–C2 cross-check", status: mapped }
+- {
+    id: EGP,
+    code: EGP,
+    publisher: Cambridge,
+    title: "English Grammar Profile (online)",
+    edition: "Online database: not accessible (13 statements checked)",
+    role: "CEFR level of each point (learner-corpus evidence)",
+    status: collected,
+  }
+- {
+    id: GSE,
+    code: GSE,
+    publisher: Pearson,
+    title: "Global Scale of English: grammar objectives for adult learners",
+    edition: "2022 objectives",
+    role: "CEFR / GSE level of each point",
+    status: mapped,
+  }
+- {
+    id: CI,
+    code: CI,
+    publisher: British Council / EAQUALS,
+    title: "Core Inventory for General English",
+    edition: "2010 (only edition)",
+    role: "Core points by level",
+    status: mapped,
+  }
+- {
+    id: GIU,
+    code: GIU,
+    publisher: Cambridge,
+    title: "Murphy & Hewings: Essential, English and Advanced Grammar in Use",
+    edition: "Essential 4th · English 5th · Advanced 3rd",
+    role: "Unit lists by level",
+    status: mapped,
+  }
+- {
+    id: PEU,
+    code: PEU,
+    publisher: Oxford,
+    title: "Swan: Practical English Usage",
+    edition: "4th edition (2016)",
+    role: "Finest-grained usage checklist",
+    status: mapped,
+  }
+- {
+    id: OEGC,
+    code: OEGC,
+    publisher: Oxford,
+    title: "Swan & Walter: Oxford English Grammar Course",
+    edition: "Updated 2019 (contents read from 2011/2020 printings)",
+    role: "Unit lists A1 → C1+",
+    status: collected,
+  }
+- {
+    id: OPG,
+    code: OPG,
+    publisher: Oxford,
+    title: "Coe, Eastwood, Yule: Oxford Practice Grammar",
+    edition: "Revised 2019 (contents read from 2006 printings)",
+    role: "Unit lists by level",
+    status: collected,
+  }
+- {
+    id: OMEG,
+    code: OMEG,
+    publisher: Oxford,
+    title: "Aarts: Oxford Modern English Grammar",
+    edition: "1st edition (2011)",
+    role: "Academic descriptive coverage",
+    status: mapped,
+  }
+- {
+    id: OGEG,
+    code: OGEG,
+    publisher: Oxford,
+    title: "Eastwood: Oxford Guide to English Grammar",
+    edition: "1994 (only edition; 2002 printing read)",
+    role: "Learner reference coverage",
+    status: mapped,
+  }
+- {
+    id: OGEAP,
+    code: OGEAP,
+    publisher: Oxford,
+    title: "Paterson & Wedge: Oxford Grammar for EAP",
+    edition: "2013 (only edition; unit list only)",
+    role: "Academic-writing grammar",
+    status: collected,
+  }
+- {
+    id: LGSWE,
+    code: LGSWE,
+    publisher: Longman / John Benjamins,
+    title: "Biber et al.: Grammar of Spoken and Written English",
+    edition: "2021 redesign (contents read from the 1999 edition)",
+    role: "Corpus-based coverage by register; US vs UK",
+    status: collected,
+  }
+- {
+    id: LSGSWE,
+    code: LSGSWE,
+    publisher: Longman,
+    title: "Biber, Conrad, Leech: Longman Student Grammar of Spoken and Written English",
+    edition: "2002 (only edition)",
+    role: "B2–C2 cross-check",
+    status: mapped,
+  }
+- {
+    id: CGEL,
+    code: CGEL,
+    publisher: Longman,
+    title: "Quirk et al.: A Comprehensive Grammar of the English Language",
+    edition: "1985 (only edition; some chapters unreadable)",
+    role: "Final exhaustive sweep",
+    status: collected,
+  }
+- {
+    id: LEG,
+    code: LEG,
+    publisher: Longman,
+    title: "Alexander: Longman English Grammar Practice (+ reference grammar)",
+    edition: "Practice 1990 (reference book not read)",
+    role: "Learner reference and practice",
+    status: collected,
+  }
+- {
+    id: LALG,
+    code: LALG,
+    publisher: Longman,
+    title: "Foley & Hall: Longman Advanced Learners' Grammar",
+    edition: "2003",
+    role: "C1–C2 cross-check",
+    status: mapped,
+  }

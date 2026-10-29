@@ -1,64 +1,539 @@
 pillar: modals
 points:
-  - { id: can-ability, title: "can / can't for ability", level: A1, lesson: a1-21, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: can-permission-requests, title: "can for permission and requests (Can I…? Can you…?)", level: A1, lesson: a1-21, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, OGEG, LGSWE, LSGSWE, LEG, LALG ] }
-  - { id: modal-grammar, title: "How modal verbs work: no -s, no to, no do (She can swim)", level: A1, lesson: a1-21, aliases: [ "modal verbs" ], sources: [ GIU, PEU, OEGC, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LEG ] }
-  - { id: must-have-to, title: "must vs have to", level: A2, lesson: a2-19, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: mustnt-dont-have-to, title: "mustn't (not allowed) vs don't have to (not necessary)", level: A2, lesson: a2-19, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OGEG, CGEL, LEG, LALG ] }
-  - { id: have-got-to, title: "have got to (informal)", level: A2, lesson: a2-19, sources: [ GIU, PEU, OEGC, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LALG ] }
-  - { id: had-to, title: "had to for past obligation", level: A2, lesson: a2-19, sources: [ GSE, CI, GIU, PEU, OPG, OMEG, OGEG, LALG ] }
-  - { id: should-advice, title: "should / shouldn't for advice and opinions", level: A2, lesson: a2-20, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: could-past-ability, title: "could for past ability", level: A2, lesson: a2-21, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, OGEG, LEG, LALG ] }
-  - { id: be-able-to, title: "be able to (will be able to, have been able to)", level: A2, lesson: a2-21, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OGEG, LGSWE, LSGSWE, LEG, LALG ] }
-  - { id: could-may-requests, title: "Could you…? May I…? (polite requests and permission)", level: A2, lesson: a2-21, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, OGEG, LEG, LALG ] }
-  - { id: may-might-possibility, title: "may / might (not) for possibility", level: A2, lesson: a2-22, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, OGEG, OGEAP, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: might-vs-will, title: "might vs will (less certain)", level: A2, lesson: a2-22, sources: [ CI, GIU, PEU, OGEG, LEG, LALG ] }
-  - { id: suggestions, title: "Suggestions: Let's…, Shall we…?, Why don't we…?, How about + -ing?, We could…", level: A2, lesson: a2-23, sources: [ GSE, GIU, PEU, OPG, LGSWE, CGEL, LEG, LALG ] }
-  - { id: offers, title: "Offers: Shall I…? I'll… Would you like…?", level: A2, lesson: a2-23, sources: [ GSE, GIU, OPG, CGEL, LEG, LALG ] }
-  - { id: deduction-present, title: "Deduction now: must (sure), might / may / could (possible), can't (impossible)", level: B1, lesson: b1-17, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, OGEG, OGEAP, LGSWE, LSGSWE, LEG, LALG ] }
-  - { id: should-expectation, title: "should for expectation (He should be home by now)", level: B1, lesson: b1-17, sources: [ GSE, GIU, PEU, OEGC, OPG, OMEG, OGEG, OGEAP, LALG ] }
-  - { id: had-better, title: "had better (strong advice, warning)", level: B1, lesson: b1-18, sources: [ GSE, GIU, PEU, OEGC, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: ought-to, title: "ought to", level: B1, lesson: b1-18, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: supposed-to, title: "be supposed to", level: B1, lesson: b1-18, sources: [ GSE, GIU, PEU, OEGC, OPG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ] }
-  - { id: need-neednt, title: "need to / don't need to / needn't", level: B1, lesson: b1-19, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OGEG, LEG, LALG ] }
-  - { id: allowed-to, title: "be allowed to / be permitted to", level: B1, lesson: b1-19, sources: [ GSE, GIU, PEU, OEGC, OPG, OGEG, LEG, LALG ] }
-  - { id: managed-to, title: "could vs managed to / was able to (one success in the past)", level: B1, lesson: b1-19, sources: [ GIU, PEU, OEGC, OPG, OGEG, LEG, LALG ] }
-  - { id: would-you-mind, title: "Would you mind + -ing? / Would you mind if I…?", level: B1, lesson: b1-20, sources: [ GIU, PEU, OEGC, OPG, OGEG, LEG, LALG ] }
-  - { id: do-you-mind-if, title: "Do you mind if I…?", level: B1, lesson: b1-20, sources: [ PEU, LEG, LALG ] }
-  - { id: i-wonder-if, title: "I wonder if you could…", level: B1, lesson: b1-20, sources: [ GSE, PEU, CGEL, LEG, LALG ] }
-  - { id: would-polite, title: "would for polite requests (Would you…?)", level: B1, lesson: b1-20, sources: [ GSE, GIU, PEU, OEGC, OPG, OMEG, OGEG, LGSWE, CGEL, LEG, LALG ] }
-  - { id: deduction-past, title: "Deduction about the past: must have, can't / couldn't have, may / might / could have", level: B2, lesson: b2-09, sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OGEG, OGEAP, LGSWE, LSGSWE, LEG, LALG ] }
-  - { id: should-have, title: "should have / ought to have (criticism, regret)", level: B2, lesson: b2-10, sources: [ GSE, CI, GIU, OEGC, OPG, OGEG, CGEL, LEG, LALG ] }
-  - { id: could-have, title: "could have (a possibility that didn't happen)", level: B2, lesson: b2-10, sources: [ GSE, CI, GIU, OEGC, OPG, OGEG, CGEL, LALG ] }
-  - { id: would-have, title: "would have (unreal past)", level: B2, lesson: b2-10, sources: [ GIU, OGEG, LEG, LALG ] }
-  - { id: neednt-have, title: "needn't have vs didn't need to", level: B2, lesson: b2-10, sources: [ CI, GIU, PEU, OEGC, OPG, CGEL, LEG, LALG ] }
-  - { id: might-have-reproach, title: "You might have told me! (reproach)", level: B2, lesson: b2-10, sources: [ GIU, PEU, LALG ] }
-  - { id: modal-continuous, title: "Modal + be + -ing (He must be working)", level: B2, lesson: b2-11, sources: [ CI, PEU, OPG, OMEG, OGEG, LGSWE, LSGSWE, LEG ] }
-  - { id: modal-passive, title: "Modal + be + past participle (It should be done)", level: B2, lesson: b2-11, sources: [ GSE, PEU, OPG, OGEG, OGEAP, LGSWE, LSGSWE ] }
-  - { id: modal-perfect-passive, title: "Modal + have been + past participle", level: B2, lesson: b2-11, sources: [ GSE, CI, GIU, OPG, OMEG, OGEG, LGSWE, LSGSWE ] }
-  - { id: dare, title: "dare (I don't dare / I daren't)", level: B2, lesson: b2-12, sources: [ PEU, OMEG, OGEG, LGSWE, CGEL, LEG ] }
-  - { id: need-modal, title: "need as a modal (Need I…? You needn't)", level: B2, lesson: b2-12, sources: [ GIU, PEU, OEGC, OMEG, OGEG, LGSWE, CGEL, LEG, LALG ] }
-  - { id: able-all-forms, title: "be able to in all tenses and after other verbs (I'd love to be able to…)", level: B2, lesson: b2-12, sources: [ GIU, PEU, OGEG, LEG, LALG ] }
-  - { id: wont-refusal, title: "won't / wouldn't for refusal (The car won't start)", level: B2, lesson: b2-12, sources: [ GIU, PEU, OEGC, OPG, LEG, LALG ] }
-  - { id: may-well, title: "may / might / could well", level: C1, lesson: c1-10, sources: [ GIU, PEU, OEGC, OPG, OMEG, OGEG, OGEAP, LEG, LALG ] }
-  - { id: might-as-well, title: "may / might as well", level: C1, lesson: c1-10, sources: [ GIU, PEU, OGEG ] }
-  - { id: will-assumption, title: "will for assumptions (That'll be John)", level: C1, lesson: c1-10, sources: [ GIU, OEGC, OGEG, LEG, LALG ] }
-  - { id: would-characteristic, title: "would for typical behavior (He would say that)", level: C1, lesson: c1-10, sources: [ GIU, PEU, OEGC, OPG, OMEG, OGEG, LEG, LALG ] }
-  - { id: shall-formal, title: "shall for formal offers, suggestions and rules", level: C1, lesson: c1-10, sources: [ GSE, OPG, OMEG, CGEL, LALG ] }
-  - { id: could-do-with, title: "could do with", level: C1, lesson: c1-10, sources: [] }
-  - { id: dare-say, title: "I dare say / How dare you", level: C1, lesson: c1-10, sources: [ PEU, OGEG, LEG ] }
-  - { id: modal-perfect-continuous, title: "Modal + have been + -ing (must have been waiting)", level: C1, lesson: c1-11, sources: [ CI, OPG, OMEG, OGEAP, LGSWE, LSGSWE, LEG, LALG ] }
-  - { id: cant-vs-mustnt, title: "can't (deduction) vs mustn't (prohibition)", level: C1, lesson: c1-11, sources: [ GIU, PEU, OPG, OMEG, OGEG, LEG, LALG ] }
-  - { id: be-to-vs-have-to, title: "be to vs have to", level: C1, lesson: c1-11, sources: [ GIU, OPG, LALG ] }
-  - { id: modal-combinations, title: "Combining modal meanings (will have to be able to)", level: C1, lesson: c1-11, sources: [ OPG, OGEG, LGSWE, LSGSWE, CGEL ] }
-  - { id: putative-should, title: "Putative should (It's odd that he should say that)", level: C2, lesson: c2-06, sources: [ GIU, OEGC, OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG ] }
-  - { id: legal-shall, title: "shall in legal and formal documents", level: C2, lesson: c2-06, sources: [] }
-  - { id: would-criticism, title: "You would say that! (criticism)", level: C2, lesson: c2-06, sources: [ PEU, LALG ] }
-  - { id: might-suggestion, title: "You might want to… (polite suggestion)", level: C2, lesson: c2-06, sources: [ LALG ] }
-  - { id: could-irritation, title: "You could have told me! (irritation)", level: C2, lesson: c2-06, sources: [ LALG ] }
-  - { id: would-be, title: "would-be (a would-be writer)", level: C2, lesson: c2-06, sources: [ OGEG ] }
+  - {
+      id: can-ability,
+      title: "can / can't for ability",
+      level: A1,
+      lesson: a1-21,
+      sources:
+        [
+          GSE,
+          CI,
+          GIU,
+          PEU,
+          OEGC,
+          OPG,
+          OMEG,
+          OGEG,
+          LGSWE,
+          LSGSWE,
+          CGEL,
+          LEG,
+          LALG,
+        ],
+    }
+  - {
+      id: can-permission-requests,
+      title: "can for permission and requests (Can I…? Can you…?)",
+      level: A1,
+      lesson: a1-21,
+      sources:
+        [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, OGEG, LGSWE, LSGSWE, LEG, LALG ],
+    }
+  - {
+      id: modal-grammar,
+      title: "How modal verbs work: no -s, no to, no do (She can swim)",
+      level: A1,
+      lesson: a1-21,
+      aliases: [ "modal verbs" ],
+      sources: [ GIU, PEU, OEGC, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LEG ],
+    }
+  - {
+      id: must-have-to,
+      title: "must vs have to",
+      level: A2,
+      lesson: a2-19,
+      sources:
+        [
+          GSE,
+          CI,
+          GIU,
+          PEU,
+          OEGC,
+          OPG,
+          OMEG,
+          OGEG,
+          LGSWE,
+          LSGSWE,
+          CGEL,
+          LEG,
+          LALG,
+        ],
+    }
+  - {
+      id: mustnt-dont-have-to,
+      title: "mustn't (not allowed) vs don't have to (not necessary)",
+      level: A2,
+      lesson: a2-19,
+      sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OGEG, CGEL, LEG, LALG ],
+    }
+  - {
+      id: have-got-to,
+      title: "have got to (informal)",
+      level: A2,
+      lesson: a2-19,
+      sources: [ GIU, PEU, OEGC, OPG, OMEG, OGEG, LGSWE, LSGSWE, CGEL, LALG ],
+    }
+  - {
+      id: had-to,
+      title: "had to for past obligation",
+      level: A2,
+      lesson: a2-19,
+      sources: [ GSE, CI, GIU, PEU, OPG, OMEG, OGEG, LALG ],
+    }
+  - {
+      id: should-advice,
+      title: "should / shouldn't for advice and opinions",
+      level: A2,
+      lesson: a2-20,
+      sources:
+        [
+          GSE,
+          CI,
+          GIU,
+          PEU,
+          OEGC,
+          OPG,
+          OMEG,
+          OGEG,
+          LGSWE,
+          LSGSWE,
+          CGEL,
+          LEG,
+          LALG,
+        ],
+    }
+  - {
+      id: could-past-ability,
+      title: "could for past ability",
+      level: A2,
+      lesson: a2-21,
+      sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, OGEG, LEG, LALG ],
+    }
+  - {
+      id: be-able-to,
+      title: "be able to (will be able to, have been able to)",
+      level: A2,
+      lesson: a2-21,
+      sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OGEG, LGSWE, LSGSWE, LEG, LALG ],
+    }
+  - {
+      id: could-may-requests,
+      title: "Could you…? May I…? (polite requests and permission)",
+      level: A2,
+      lesson: a2-21,
+      sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OMEG, OGEG, LEG, LALG ],
+    }
+  - {
+      id: may-might-possibility,
+      title: "may / might (not) for possibility",
+      level: A2,
+      lesson: a2-22,
+      sources:
+        [
+          GSE,
+          CI,
+          GIU,
+          PEU,
+          OEGC,
+          OPG,
+          OMEG,
+          OGEG,
+          OGEAP,
+          LGSWE,
+          LSGSWE,
+          CGEL,
+          LEG,
+          LALG,
+        ],
+    }
+  - {
+      id: might-vs-will,
+      title: "might vs will (less certain)",
+      level: A2,
+      lesson: a2-22,
+      sources: [ CI, GIU, PEU, OGEG, LEG, LALG ],
+    }
+  - {
+      id: suggestions,
+      title: "Suggestions: Let's…, Shall we…?, Why don't we…?, How about + -ing?, We could…",
+      level: A2,
+      lesson: a2-23,
+      sources: [ GSE, GIU, PEU, OPG, LGSWE, CGEL, LEG, LALG ],
+    }
+  - {
+      id: offers,
+      title: "Offers: Shall I…? I'll… Would you like…?",
+      level: A2,
+      lesson: a2-23,
+      sources: [ GSE, GIU, OPG, CGEL, LEG, LALG ],
+    }
+  - {
+      id: deduction-present,
+      title: "Deduction now: must (sure), might / may / could (possible), can't (impossible)",
+      level: B1,
+      lesson: b1-17,
+      sources:
+        [
+          GSE,
+          CI,
+          GIU,
+          PEU,
+          OEGC,
+          OPG,
+          OMEG,
+          OGEG,
+          OGEAP,
+          LGSWE,
+          LSGSWE,
+          LEG,
+          LALG,
+        ],
+    }
+  - {
+      id: should-expectation,
+      title: "should for expectation (He should be home by now)",
+      level: B1,
+      lesson: b1-17,
+      sources: [ GSE, GIU, PEU, OEGC, OPG, OMEG, OGEG, OGEAP, LALG ],
+    }
+  - {
+      id: had-better,
+      title: "had better (strong advice, warning)",
+      level: B1,
+      lesson: b1-18,
+      sources:
+        [
+          GSE,
+          GIU,
+          PEU,
+          OEGC,
+          OPG,
+          OMEG,
+          OGEG,
+          LGSWE,
+          LSGSWE,
+          CGEL,
+          LEG,
+          LALG,
+        ],
+    }
+  - {
+      id: ought-to,
+      title: "ought to",
+      level: B1,
+      lesson: b1-18,
+      sources:
+        [
+          GSE,
+          CI,
+          GIU,
+          PEU,
+          OEGC,
+          OPG,
+          OMEG,
+          OGEG,
+          LGSWE,
+          LSGSWE,
+          CGEL,
+          LEG,
+          LALG,
+        ],
+    }
+  - {
+      id: supposed-to,
+      title: "be supposed to",
+      level: B1,
+      lesson: b1-18,
+      sources:
+        [ GSE, GIU, PEU, OEGC, OPG, OGEG, LGSWE, LSGSWE, CGEL, LEG, LALG ],
+    }
+  - {
+      id: need-neednt,
+      title: "need to / don't need to / needn't",
+      level: B1,
+      lesson: b1-19,
+      sources: [ GSE, CI, GIU, PEU, OEGC, OPG, OGEG, LEG, LALG ],
+    }
+  - {
+      id: allowed-to,
+      title: "be allowed to / be permitted to",
+      level: B1,
+      lesson: b1-19,
+      sources: [ GSE, GIU, PEU, OEGC, OPG, OGEG, LEG, LALG ],
+    }
+  - {
+      id: managed-to,
+      title: "could vs managed to / was able to (one success in the past)",
+      level: B1,
+      lesson: b1-19,
+      sources: [ GIU, PEU, OEGC, OPG, OGEG, LEG, LALG ],
+    }
+  - {
+      id: would-you-mind,
+      title: "Would you mind + -ing? / Would you mind if I…?",
+      level: B1,
+      lesson: b1-20,
+      sources: [ GIU, PEU, OEGC, OPG, OGEG, LEG, LALG ],
+    }
+  - {
+      id: do-you-mind-if,
+      title: "Do you mind if I…?",
+      level: B1,
+      lesson: b1-20,
+      sources: [ PEU, LEG, LALG ],
+    }
+  - {
+      id: i-wonder-if,
+      title: "I wonder if you could…",
+      level: B1,
+      lesson: b1-20,
+      sources: [ GSE, PEU, CGEL, LEG, LALG ],
+    }
+  - {
+      id: would-polite,
+      title: "would for polite requests (Would you…?)",
+      level: B1,
+      lesson: b1-20,
+      sources: [ GSE, GIU, PEU, OEGC, OPG, OMEG, OGEG, LGSWE, CGEL, LEG, LALG ],
+    }
+  - {
+      id: deduction-past,
+      title: "Deduction about the past: must have, can't / couldn't have, may / might / could have",
+      level: B2,
+      lesson: b2-09,
+      sources:
+        [ GSE, CI, GIU, PEU, OEGC, OPG, OGEG, OGEAP, LGSWE, LSGSWE, LEG, LALG ],
+    }
+  - {
+      id: should-have,
+      title: "should have / ought to have (criticism, regret)",
+      level: B2,
+      lesson: b2-10,
+      sources: [ GSE, CI, GIU, OEGC, OPG, OGEG, CGEL, LEG, LALG ],
+    }
+  - {
+      id: could-have,
+      title: "could have (a possibility that didn't happen)",
+      level: B2,
+      lesson: b2-10,
+      sources: [ GSE, CI, GIU, OEGC, OPG, OGEG, CGEL, LALG ],
+    }
+  - {
+      id: would-have,
+      title: "would have (unreal past)",
+      level: B2,
+      lesson: b2-10,
+      sources: [ GIU, OGEG, LEG, LALG ],
+    }
+  - {
+      id: neednt-have,
+      title: "needn't have vs didn't need to",
+      level: B2,
+      lesson: b2-10,
+      sources: [ CI, GIU, PEU, OEGC, OPG, CGEL, LEG, LALG ],
+    }
+  - {
+      id: might-have-reproach,
+      title: "You might have told me! (reproach)",
+      level: B2,
+      lesson: b2-10,
+      sources: [ GIU, PEU, LALG ],
+    }
+  - {
+      id: modal-continuous,
+      title: "Modal + be + -ing (He must be working)",
+      level: B2,
+      lesson: b2-11,
+      sources: [ CI, PEU, OPG, OMEG, OGEG, LGSWE, LSGSWE, LEG ],
+    }
+  - {
+      id: modal-passive,
+      title: "Modal + be + past participle (It should be done)",
+      level: B2,
+      lesson: b2-11,
+      sources: [ GSE, PEU, OPG, OGEG, OGEAP, LGSWE, LSGSWE ],
+    }
+  - {
+      id: modal-perfect-passive,
+      title: "Modal + have been + past participle",
+      level: B2,
+      lesson: b2-11,
+      sources: [ GSE, CI, GIU, OPG, OMEG, OGEG, LGSWE, LSGSWE ],
+    }
+  - {
+      id: dare,
+      title: "dare (I don't dare / I daren't)",
+      level: B2,
+      lesson: b2-12,
+      sources: [ PEU, OMEG, OGEG, LGSWE, CGEL, LEG ],
+    }
+  - {
+      id: need-modal,
+      title: "need as a modal (Need I…? You needn't)",
+      level: B2,
+      lesson: b2-12,
+      sources: [ GIU, PEU, OEGC, OMEG, OGEG, LGSWE, CGEL, LEG, LALG ],
+    }
+  - {
+      id: able-all-forms,
+      title: "be able to in all tenses and after other verbs (I'd love to be able to…)",
+      level: B2,
+      lesson: b2-12,
+      sources: [ GIU, PEU, OGEG, LEG, LALG ],
+    }
+  - {
+      id: wont-refusal,
+      title: "won't / wouldn't for refusal (The car won't start)",
+      level: B2,
+      lesson: b2-12,
+      sources: [ GIU, PEU, OEGC, OPG, LEG, LALG ],
+    }
+  - {
+      id: may-well,
+      title: "may / might / could well",
+      level: C1,
+      lesson: c1-10,
+      sources: [ GIU, PEU, OEGC, OPG, OMEG, OGEG, OGEAP, LEG, LALG ],
+    }
+  - {
+      id: might-as-well,
+      title: "may / might as well",
+      level: C1,
+      lesson: c1-10,
+      sources: [ GIU, PEU, OGEG ],
+    }
+  - {
+      id: will-assumption,
+      title: "will for assumptions (That'll be John)",
+      level: C1,
+      lesson: c1-10,
+      sources: [ GIU, OEGC, OGEG, LEG, LALG ],
+    }
+  - {
+      id: would-characteristic,
+      title: "would for typical behavior (He would say that)",
+      level: C1,
+      lesson: c1-10,
+      sources: [ GIU, PEU, OEGC, OPG, OMEG, OGEG, LEG, LALG ],
+    }
+  - {
+      id: shall-formal,
+      title: "shall for formal offers, suggestions and rules",
+      level: C1,
+      lesson: c1-10,
+      sources: [ GSE, OPG, OMEG, CGEL, LALG ],
+    }
+  - {
+      id: could-do-with,
+      title: "could do with",
+      level: C1,
+      lesson: c1-10,
+      sources: [],
+    }
+  - {
+      id: dare-say,
+      title: "I dare say / How dare you",
+      level: C1,
+      lesson: c1-10,
+      sources: [ PEU, OGEG, LEG ],
+    }
+  - {
+      id: modal-perfect-continuous,
+      title: "Modal + have been + -ing (must have been waiting)",
+      level: C1,
+      lesson: c1-11,
+      sources: [ CI, OPG, OMEG, OGEAP, LGSWE, LSGSWE, LEG, LALG ],
+    }
+  - {
+      id: cant-vs-mustnt,
+      title: "can't (deduction) vs mustn't (prohibition)",
+      level: C1,
+      lesson: c1-11,
+      sources: [ GIU, PEU, OPG, OMEG, OGEG, LEG, LALG ],
+    }
+  - {
+      id: be-to-vs-have-to,
+      title: "be to vs have to",
+      level: C1,
+      lesson: c1-11,
+      sources: [ GIU, OPG, LALG ],
+    }
+  - {
+      id: modal-combinations,
+      title: "Combining modal meanings (will have to be able to)",
+      level: C1,
+      lesson: c1-11,
+      sources: [ OPG, OGEG, LGSWE, LSGSWE, CGEL ],
+    }
+  - {
+      id: putative-should,
+      title: "Putative should (It's odd that he should say that)",
+      level: C2,
+      lesson: c2-06,
+      sources: [ GIU, OEGC, OPG, OMEG, LGSWE, LSGSWE, CGEL, LEG ],
+    }
+  - {
+      id: legal-shall,
+      title: "shall in legal and formal documents",
+      level: C2,
+      lesson: c2-06,
+      sources: [],
+    }
+  - {
+      id: would-criticism,
+      title: "You would say that! (criticism)",
+      level: C2,
+      lesson: c2-06,
+      sources: [ PEU, LALG ],
+    }
+  - {
+      id: might-suggestion,
+      title: "You might want to… (polite suggestion)",
+      level: C2,
+      lesson: c2-06,
+      sources: [ LALG ],
+    }
+  - {
+      id: could-irritation,
+      title: "You could have told me! (irritation)",
+      level: C2,
+      lesson: c2-06,
+      sources: [ LALG ],
+    }
+  - {
+      id: would-be,
+      title: "would-be (a would-be writer)",
+      level: C2,
+      lesson: c2-06,
+      sources: [ OGEG ],
+    }
   # added from the reference audit
-  - { id: can-perception, title: "can / could with verbs of perception (I can see it; I could hear voices)", level: A2, lesson: a2-21, sources: [ GSE, PEU ] }
-  - { id: could-possibility-suggestions, title: "could for possibility, offers and suggestions (It could rain; I could help; You could ask her)", level: B1, lesson: b1-17, sources: [ GSE, OGEG ] }
-  - { id: can-general-possibility, title: "can / could for general possibility (It can get very cold in November)", level: B1, lesson: b1-17, sources: [ GSE, OGEG ] }
-  - { id: will-orders, title: "will for orders and formal instructions (You will report to reception at nine)", level: C1, lesson: c1-10, sources: [ GSE ] }
+  - {
+      id: can-perception,
+      title: "can / could with verbs of perception (I can see it; I could hear voices)",
+      level: A2,
+      lesson: a2-21,
+      sources: [ GSE, PEU ],
+    }
+  - {
+      id: could-possibility-suggestions,
+      title: "could for possibility, offers and suggestions (It could rain; I could help; You could ask her)",
+      level: B1,
+      lesson: b1-17,
+      sources: [ GSE, OGEG ],
+    }
+  - {
+      id: can-general-possibility,
+      title: "can / could for general possibility (It can get very cold in November)",
+      level: B1,
+      lesson: b1-17,
+      sources: [ GSE, OGEG ],
+    }
+  - {
+      id: will-orders,
+      title: "will for orders and formal instructions (You will report to reception at nine)",
+      level: C1,
+      lesson: c1-10,
+      sources: [ GSE ],
+    }

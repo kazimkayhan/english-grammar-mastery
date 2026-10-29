@@ -1,0 +1,23 @@
+---
+import { FAMILY_INFO, PILLAR_INFO, type Pillar } from "@/lib/taxonomy";
+
+interface Props {
+  link?: boolean;
+  pillar: Pillar;
+}
+
+const { pillar, link = true } = Astro.props;
+const info = PILLAR_INFO[pillar];
+const family = FAMILY_INFO[info.family];
+const Tag = link ? "a" : "span";
+---
+
+<Tag
+  class="inline-flex h-6 items-center gap-1.5 rounded-full px-2.5 text-xs font-bold whitespace-nowrap"
+  href={link ? `/pillars/${pillar}` : undefined}
+  style={`background:${family.soft};color:${family.color}`}
+  title={`${family.title} · ${info.title}`}
+>
+  <span class="tabular-nums">{info.number}</span>
+  <span>{info.short}</span>
+</Tag>

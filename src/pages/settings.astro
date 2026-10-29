@@ -1,13 +1,17 @@
 ---
-import AppLayout from "@/layouts/AppLayout.astro"
-import { SettingsPanel } from "@/components/settings/SettingsPanel"
+import { SettingsPanel } from "@/components/settings/settings-panel";
+import AppLayout from "@/layouts/app-layout.astro";
 ---
 
-<AppLayout title="Settings" description="Theme, reading comfort, Persian support and flashcard backup.">
+<AppLayout
+  description="Theme, reading comfort, Persian support and flashcard backup."
+  title="Settings"
+>
   <header class="flex flex-col gap-3">
     <h1 class="font-heading text-4xl font-bold tracking-tight">Settings</h1>
-    <p class="max-w-2xl lg:max-w-7xl text-muted-foreground">
-      Everything is saved only in this browser. The app stores just two things: these settings and your flashcards.
+    <p class="text-muted-foreground max-w-2xl lg:max-w-7xl">
+      Everything is saved only in this browser. The app stores just two things:
+      these settings and your flashcards.
     </p>
   </header>
   <SettingsPanel client:load />

@@ -1,0 +1,66 @@
+---
+import type { PlannedLesson } from "@/lib/content";
+import { FAMILY_INFO, PILLAR_INFO, type Pillar } from "@/lib/taxonomy";
+
+interface Props {
+  items: PlannedLesson[];
+  showLevel?: boolean;
+  showPillar?: boolean;
+}
+
+const { items, showLevel = false, showPillar = true } = Astro.props;
+---
+
+<ol class="bg-card flex flex-col divide-y rounded-2xl border">
+  {items.map((item) => {
+    const pillar = PILLAR_INFO[item.pillar as Pillar];
+    const fam = FAMILY_INFO[pillar.family];
+    const Tag = item.lesson ? "a" : "div";
+    return (
+      <li>
+        <Tag
+          class:list={[
+            "flex items-center gap-3 px-4 py-3",
+            item.lesson
+              ? "transition-colors hover:bg-muted/50"
+              : "text-muted-foreground",
+          ]}
+          href={item.lesson ? `/lessons/${item.lesson.id}` : undefined}
+        >
+          <span
+            class="flex h-7 min-w-12 shrink-0 items-center justify-center rounded-lg text-xs font-bold tabular-nums"
+            style={`background:${fam.soft};color:${fam.color}`}
+          >
+            {showLevel ? `${item.level}.${item.number}` : item.number}
+          </span>
+          <span
+            class:list={[
+              "min-w-0 flex-1",
+              item.lesson && "font-bold text-foreground",
+            ]}
+          >
+            {item.title}
+          </span>
+          {showPillar ? (
+            <span class="text-muted-foreground hidden shrink-0 text-xs md:inline">
+              {pillar.short}
+            </span>
+          ) : null}
+          <span class="text-muted-foreground hidden shrink-0 text-xs sm:inline">
+            {item.size === "core" ? "Core" : "Mini"}
+          </span>
+          {item.lesson ? (
+            <span class="bg-success-soft text-success shrink-0 rounded-full px-2 py-0.5 text-xs font-bold">
+              Open
+            </span>
+          ) : (
+            <span class="bg-muted shrink-0 rounded-full px-2 py-0.5 text-xs">
+              <span class="sm:hidden">Soon</span>
+              <span class="hidden sm:inline">Coming soon</span>
+            </span>
+          )}
+        </Tag>
+      </li>
+    );
+  })}
+</ol>

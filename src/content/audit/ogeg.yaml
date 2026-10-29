@@ -7,270 +7,1659 @@ retrieved_from:
 verified: true
 note: "Section-level list read from the full text of the 1994 book (7th impression 2002). Each chapter's opening 'Summary' section (e.g. 1, 7, 15, 21 ...) is not itemised because it only previews the chapter's other sections; all other numbered sections 2-308 are listed (267 items). Section titles were extracted from the scan's text layer; a few were recovered from cross-reference lines and 123 and 237 were completed from context (Adjective + to-infinitive, Noun + preposition). Section 54 (stress and intonation) is the only item marked out of scope; sections 55 (weak/short forms) and 56 (punctuation) are mapped to the contraction and punctuation points."
 items:
-  - { ref: "§2", item: "Ch1 English grammar: Grammatical units", maps: [ parts-of-speech, sentence-parts ] }
-  - { ref: "§3", item: "Ch1 English grammar: Word classes", maps: [ parts-of-speech ] }
-  - { ref: "§4", item: "Ch1 English grammar: Phrases", maps: [ sentence-parts, noun-phrase-premod ] }
-  - { ref: "§5", item: "Ch1 English grammar: Sentence elements", maps: [ sentence-parts, svo-order ] }
-  - { ref: "§6", item: "Ch1 English grammar: English compared with other languages", maps: [ svo-order, subject-required ] }
-  - { ref: "§8", item: "Ch2 The simple sentence: Intransitive and transitive verbs", maps: [ verb-to, linking-verbs ] }
-  - { ref: "§9", item: "Ch2 The simple sentence: Linking verbs", maps: [ linking-verbs ] }
-  - { ref: "§10", item: "Ch2 The simple sentence: Give, send etc", maps: [ two-objects, two-objects-to-for ] }
-  - { ref: "§11", item: "Ch2 The simple sentence: Call, put etc", maps: [ object-complement, find-it-adj ] }
-  - { ref: "§12", item: "Ch2 The simple sentence: Extra adverbials", maps: [ place-before-time, adverb-positions ] }
-  - { ref: "§13", item: "Ch2 The simple sentence: And and or", maps: [ and-but-or ] }
-  - { ref: "§14", item: "Ch2 The simple sentence: Phrases in apposition", maps: [ apposition ] }
-  - { ref: "§16", item: "Ch3 Statements, questions, imperatives and exclamations: Statements", maps: [ svo-order, sentence-types ] }
-  - { ref: "§17", item: "Ch3 Statements, questions, imperatives and exclamations: Negative statements", maps: [ negative-words, one-negative, be-negative, present-simple-negative ] }
-  - { ref: "§18", item: "Ch3 Statements, questions, imperatives and exclamations: Questions", maps: [ question-word-order, be-questions ] }
-  - { ref: "§19", item: "Ch3 Statements, questions, imperatives and exclamations: The imperative", maps: [ imperatives, lets, always-never-imperative ] }
-  - { ref: "§20", item: "Ch3 Statements, questions, imperatives and exclamations: Exclamations", maps: [ exclamations, so-such-exclamations ] }
-  - { ref: "§22", item: "Ch4 Questions and answers: The use of questions", maps: [ questions-that-clauses, rhetorical-questions ] }
-  - { ref: "§23", item: "Ch4 Questions and answers: Inversion in questions", maps: [ question-word-order, be-questions ] }
-  - { ref: "§24", item: "Ch4 Questions and answers: Yes/no questions and wh-questions", maps: [ be-questions, question-words ] }
-  - { ref: "§25", item: "Ch4 Questions and answers: Wh-questions: more details", maps: [ question-words, subject-questions, object-questions, preposition-end-questions ] }
-  - { ref: "§26", item: "Ch4 Questions and answers: Question words: more details", maps: [ what-vs-which, how-questions, how-long-often-far, what-like ] }
-  - { ref: "§27", item: "Ch4 Questions and answers: Overview: question words", maps: [ question-words, what-kind-of ] }
-  - { ref: "§28", item: "Ch4 Questions and answers: Question phrases", maps: [ what-vs-which, what-kind-of, how-long-often-far ] }
-  - { ref: "§29", item: "Ch4 Questions and answers: Answering questions", maps: [ be-short-answers, answering-negative-questions ] }
-  - { ref: "§30", item: "Ch4 Questions and answers: Negative questions", maps: [ negative-questions-basic, answering-negative-questions, negative-surprise ] }
-  - { ref: "§31", item: "Ch4 Questions and answers: Questions with or", maps: [ alternative-questions ] }
-  - { ref: "§32", item: "Ch4 Questions and answers: Questions without inversion", maps: [ declarative-questions ] }
-  - { ref: "§33", item: "Ch4 Questions and answers: Indirect questions", maps: [ indirect-questions, wh-to ] }
-  - { ref: "§34", item: "Ch4 Questions and answers: Question tags", maps: [ question-tags, special-tags, tags-checking-asking ] }
-  - { ref: "§35", item: "Ch4 Questions and answers: Echo questions and echo tags", maps: [ echo-reply-questions ] }
-  - { ref: "§37", item: "Ch5 Leaving out and replacing words: Avoiding repetition", maps: [ auxiliary-ellipsis, spoken-ellipsis ] }
-  - { ref: "§38", item: "Ch5 Leaving out and replacing words: Leaving out words after the auxiliary", maps: [ auxiliary-ellipsis ] }
-  - { ref: "§39", item: "Ch5 Leaving out and replacing words: Leaving out an infinitive clause", maps: [ ellipsis-to ] }
-  - { ref: "§40", item: "Ch5 Leaving out and replacing words: Leaving out words after a question word", maps: [ spoken-ellipsis, auxiliary-ellipsis ] }
-  - { ref: "§41", item: "Ch5 Leaving out and replacing words: Leaving out the verb", maps: [ spoken-ellipsis, comparative-ellipsis-clause ] }
-  - { ref: "§42", item: "Ch5 Leaving out and replacing words: Leaving out words at the beginning of a sentence", maps: [ spoken-ellipsis, heads-tails ] }
-  - { ref: "§43", item: "Ch5 Leaving out and replacing words: Patterns with so, neither etc", maps: [ so-neither-do-i, me-too-me-neither ] }
-  - { ref: "§44", item: "Ch5 Leaving out and replacing words: Some other ways of avoiding repetition", maps: [ substitution-suppose-so, do-so, think-so-hope-not, uk-do-substitution, if-so-not ] }
-  - { ref: "§47", item: "Ch6 Information and emphasis: Word order and information", maps: [ theme-rheme, end-weight-focus, extraposition ] }
-  - { ref: "§48", item: "Ch6 Information and emphasis: The subject", maps: [ svo-order, subject-required, long-subject-agreement ] }
-  - { ref: "§49", item: "Ch6 Information and emphasis: Front position", maps: [ fronting, negative-inversion, place-inversion ] }
-  - { ref: "§50", item: "Ch6 Information and emphasis: The empty subjects there and it", maps: [ dummy-it, there-is-are, it-vs-there, existential-variants, preparatory-it-object ] }
-  - { ref: "§51", item: "Ch6 Information and emphasis: Emphasis", maps: [ emphatic-do, it-cleft, wh-cleft, all-cleft, reversed-cleft ] }
-  - { ref: "§53", item: "Ch7 Spoken English and written English: Grammar in speech and writing", maps: [ discourse-speech, discourse-writing, register-grammar ] }
-  - { ref: "§54", item: "Ch7 Spoken English and written English: Stress and intonation", maps: [], outOfScope: "pronunciation (stress and intonation), not grammar" }
-  - { ref: "§55", item: "Ch7 Spoken English and written English: Weak forms and short forms", maps: [ contractions, s-is-has, be-contractions ] }
-  - { ref: "§56", item: "Ch7 Spoken English and written English: Punctuation", maps: [ comma-lists, comma-intro, comma-nondefining, direct-speech-punctuation, colon-semicolon, dash-hyphen, apostrophe-possession ] }
-  - { ref: "§58", item: "Ch8 The verb phrase: Verb forms", maps: [ verb-forms, auxiliaries, past-participle ] }
-  - { ref: "§59", item: "Ch8 The verb phrase: Finite and non-finite verbs", maps: [ infinitive-clauses, participle-clauses, verb-forms ] }
-  - { ref: "§60", item: "Ch8 The verb phrase: The structure of the verb phrase", maps: [ auxiliaries, modal-grammar, be-being ] }
-  - { ref: "§61", item: "Ch8 The verb phrase: Meaning in the verb phrase", maps: [ aspect-in-narrative, perfect-progressive-nuance ] }
-  - { ref: "§62", item: "Ch8 The verb phrase: Action verbs and state verbs", maps: [ stative-verbs, stative-dynamic-meanings, stative-progressive ] }
-  - { ref: "§64", item: "Ch9 Verb tenses and aspects: Present continuous and present simple", maps: [ simple-vs-continuous, temporary-permanent, present-simple-uses, present-continuous-now ] }
-  - { ref: "§65", item: "Ch9 Verb tenses and aspects: Present perfect and past simple", maps: [ pp-vs-past, finished-time-trap, present-perfect-form ] }
-  - { ref: "§66", item: "Ch9 Verb tenses and aspects: Past continuous", maps: [ past-continuous, when-while, past-continuous-background, past-simple-vs-continuous ] }
-  - { ref: "§67", item: "Ch9 Verb tenses and aspects: Present perfect continuous", maps: [ ppc-form, ppc-duration, ppc-recent-results, ppc-vs-pp ] }
-  - { ref: "§68", item: "Ch9 Verb tenses and aspects: Past perfect and past perfect continuous", maps: [ past-perfect, past-perfect-sequence, past-perfect-continuous, past-perfect-adverbs ] }
-  - { ref: "§69", item: "Ch9 Verb tenses and aspects: Overview: uses of tenses and aspects", maps: [ narrative-tenses, distancing-past, tentative-forms, historic-present, present-perfect-experience ] }
-  - { ref: "§71", item: "Ch10 The future: Will and shall", maps: [ will-predictions, will-decisions, shall-offers, probably-will ] }
-  - { ref: "§72", item: "Ch10 The future: Be going to", maps: [ going-to-plans, going-to-evidence ] }
-  - { ref: "§73", item: "Ch10 The future: Present tense forms for the future", maps: [ present-continuous-future, present-simple-timetable ] }
-  - { ref: "§74", item: "Ch10 The future: Will, be going to or the present continuous?", maps: [ futures-compared, which-future-intro ] }
-  - { ref: "§75", item: "Ch10 The future: The future continuous: will be doing", maps: [ future-continuous-intro, future-continuous-full ] }
+  - {
+      ref: "§2",
+      item: "Ch1 English grammar: Grammatical units",
+      maps: [ parts-of-speech, sentence-parts ],
+    }
+  - {
+      ref: "§3",
+      item: "Ch1 English grammar: Word classes",
+      maps: [ parts-of-speech ],
+    }
+  - {
+      ref: "§4",
+      item: "Ch1 English grammar: Phrases",
+      maps: [ sentence-parts, noun-phrase-premod ],
+    }
+  - {
+      ref: "§5",
+      item: "Ch1 English grammar: Sentence elements",
+      maps: [ sentence-parts, svo-order ],
+    }
+  - {
+      ref: "§6",
+      item: "Ch1 English grammar: English compared with other languages",
+      maps: [ svo-order, subject-required ],
+    }
+  - {
+      ref: "§8",
+      item: "Ch2 The simple sentence: Intransitive and transitive verbs",
+      maps: [ verb-to, linking-verbs ],
+    }
+  - {
+      ref: "§9",
+      item: "Ch2 The simple sentence: Linking verbs",
+      maps: [ linking-verbs ],
+    }
+  - {
+      ref: "§10",
+      item: "Ch2 The simple sentence: Give, send etc",
+      maps: [ two-objects, two-objects-to-for ],
+    }
+  - {
+      ref: "§11",
+      item: "Ch2 The simple sentence: Call, put etc",
+      maps: [ object-complement, find-it-adj ],
+    }
+  - {
+      ref: "§12",
+      item: "Ch2 The simple sentence: Extra adverbials",
+      maps: [ place-before-time, adverb-positions ],
+    }
+  - {
+      ref: "§13",
+      item: "Ch2 The simple sentence: And and or",
+      maps: [ and-but-or ],
+    }
+  - {
+      ref: "§14",
+      item: "Ch2 The simple sentence: Phrases in apposition",
+      maps: [ apposition ],
+    }
+  - {
+      ref: "§16",
+      item: "Ch3 Statements, questions, imperatives and exclamations: Statements",
+      maps: [ svo-order, sentence-types ],
+    }
+  - {
+      ref: "§17",
+      item: "Ch3 Statements, questions, imperatives and exclamations: Negative statements",
+      maps:
+        [ negative-words, one-negative, be-negative, present-simple-negative ],
+    }
+  - {
+      ref: "§18",
+      item: "Ch3 Statements, questions, imperatives and exclamations: Questions",
+      maps: [ question-word-order, be-questions ],
+    }
+  - {
+      ref: "§19",
+      item: "Ch3 Statements, questions, imperatives and exclamations: The imperative",
+      maps: [ imperatives, lets, always-never-imperative ],
+    }
+  - {
+      ref: "§20",
+      item: "Ch3 Statements, questions, imperatives and exclamations: Exclamations",
+      maps: [ exclamations, so-such-exclamations ],
+    }
+  - {
+      ref: "§22",
+      item: "Ch4 Questions and answers: The use of questions",
+      maps: [ questions-that-clauses, rhetorical-questions ],
+    }
+  - {
+      ref: "§23",
+      item: "Ch4 Questions and answers: Inversion in questions",
+      maps: [ question-word-order, be-questions ],
+    }
+  - {
+      ref: "§24",
+      item: "Ch4 Questions and answers: Yes/no questions and wh-questions",
+      maps: [ be-questions, question-words ],
+    }
+  - {
+      ref: "§25",
+      item: "Ch4 Questions and answers: Wh-questions: more details",
+      maps:
+        [
+          question-words,
+          subject-questions,
+          object-questions,
+          preposition-end-questions,
+        ],
+    }
+  - {
+      ref: "§26",
+      item: "Ch4 Questions and answers: Question words: more details",
+      maps: [ what-vs-which, how-questions, how-long-often-far, what-like ],
+    }
+  - {
+      ref: "§27",
+      item: "Ch4 Questions and answers: Overview: question words",
+      maps: [ question-words, what-kind-of ],
+    }
+  - {
+      ref: "§28",
+      item: "Ch4 Questions and answers: Question phrases",
+      maps: [ what-vs-which, what-kind-of, how-long-often-far ],
+    }
+  - {
+      ref: "§29",
+      item: "Ch4 Questions and answers: Answering questions",
+      maps: [ be-short-answers, answering-negative-questions ],
+    }
+  - {
+      ref: "§30",
+      item: "Ch4 Questions and answers: Negative questions",
+      maps:
+        [
+          negative-questions-basic,
+          answering-negative-questions,
+          negative-surprise,
+        ],
+    }
+  - {
+      ref: "§31",
+      item: "Ch4 Questions and answers: Questions with or",
+      maps: [ alternative-questions ],
+    }
+  - {
+      ref: "§32",
+      item: "Ch4 Questions and answers: Questions without inversion",
+      maps: [ declarative-questions ],
+    }
+  - {
+      ref: "§33",
+      item: "Ch4 Questions and answers: Indirect questions",
+      maps: [ indirect-questions, wh-to ],
+    }
+  - {
+      ref: "§34",
+      item: "Ch4 Questions and answers: Question tags",
+      maps: [ question-tags, special-tags, tags-checking-asking ],
+    }
+  - {
+      ref: "§35",
+      item: "Ch4 Questions and answers: Echo questions and echo tags",
+      maps: [ echo-reply-questions ],
+    }
+  - {
+      ref: "§37",
+      item: "Ch5 Leaving out and replacing words: Avoiding repetition",
+      maps: [ auxiliary-ellipsis, spoken-ellipsis ],
+    }
+  - {
+      ref: "§38",
+      item: "Ch5 Leaving out and replacing words: Leaving out words after the auxiliary",
+      maps: [ auxiliary-ellipsis ],
+    }
+  - {
+      ref: "§39",
+      item: "Ch5 Leaving out and replacing words: Leaving out an infinitive clause",
+      maps: [ ellipsis-to ],
+    }
+  - {
+      ref: "§40",
+      item: "Ch5 Leaving out and replacing words: Leaving out words after a question word",
+      maps: [ spoken-ellipsis, auxiliary-ellipsis ],
+    }
+  - {
+      ref: "§41",
+      item: "Ch5 Leaving out and replacing words: Leaving out the verb",
+      maps: [ spoken-ellipsis, comparative-ellipsis-clause ],
+    }
+  - {
+      ref: "§42",
+      item: "Ch5 Leaving out and replacing words: Leaving out words at the beginning of a sentence",
+      maps: [ spoken-ellipsis, heads-tails ],
+    }
+  - {
+      ref: "§43",
+      item: "Ch5 Leaving out and replacing words: Patterns with so, neither etc",
+      maps: [ so-neither-do-i, me-too-me-neither ],
+    }
+  - {
+      ref: "§44",
+      item: "Ch5 Leaving out and replacing words: Some other ways of avoiding repetition",
+      maps:
+        [
+          substitution-suppose-so,
+          do-so,
+          think-so-hope-not,
+          uk-do-substitution,
+          if-so-not,
+        ],
+    }
+  - {
+      ref: "§47",
+      item: "Ch6 Information and emphasis: Word order and information",
+      maps: [ theme-rheme, end-weight-focus, extraposition ],
+    }
+  - {
+      ref: "§48",
+      item: "Ch6 Information and emphasis: The subject",
+      maps: [ svo-order, subject-required, long-subject-agreement ],
+    }
+  - {
+      ref: "§49",
+      item: "Ch6 Information and emphasis: Front position",
+      maps: [ fronting, negative-inversion, place-inversion ],
+    }
+  - {
+      ref: "§50",
+      item: "Ch6 Information and emphasis: The empty subjects there and it",
+      maps:
+        [
+          dummy-it,
+          there-is-are,
+          it-vs-there,
+          existential-variants,
+          preparatory-it-object,
+        ],
+    }
+  - {
+      ref: "§51",
+      item: "Ch6 Information and emphasis: Emphasis",
+      maps: [ emphatic-do, it-cleft, wh-cleft, all-cleft, reversed-cleft ],
+    }
+  - {
+      ref: "§53",
+      item: "Ch7 Spoken English and written English: Grammar in speech and writing",
+      maps: [ discourse-speech, discourse-writing, register-grammar ],
+    }
+  - {
+      ref: "§54",
+      item: "Ch7 Spoken English and written English: Stress and intonation",
+      maps: [],
+      outOfScope: "pronunciation (stress and intonation), not grammar",
+    }
+  - {
+      ref: "§55",
+      item: "Ch7 Spoken English and written English: Weak forms and short forms",
+      maps: [ contractions, s-is-has, be-contractions ],
+    }
+  - {
+      ref: "§56",
+      item: "Ch7 Spoken English and written English: Punctuation",
+      maps:
+        [
+          comma-lists,
+          comma-intro,
+          comma-nondefining,
+          direct-speech-punctuation,
+          colon-semicolon,
+          dash-hyphen,
+          apostrophe-possession,
+        ],
+    }
+  - {
+      ref: "§58",
+      item: "Ch8 The verb phrase: Verb forms",
+      maps: [ verb-forms, auxiliaries, past-participle ],
+    }
+  - {
+      ref: "§59",
+      item: "Ch8 The verb phrase: Finite and non-finite verbs",
+      maps: [ infinitive-clauses, participle-clauses, verb-forms ],
+    }
+  - {
+      ref: "§60",
+      item: "Ch8 The verb phrase: The structure of the verb phrase",
+      maps: [ auxiliaries, modal-grammar, be-being ],
+    }
+  - {
+      ref: "§61",
+      item: "Ch8 The verb phrase: Meaning in the verb phrase",
+      maps: [ aspect-in-narrative, perfect-progressive-nuance ],
+    }
+  - {
+      ref: "§62",
+      item: "Ch8 The verb phrase: Action verbs and state verbs",
+      maps: [ stative-verbs, stative-dynamic-meanings, stative-progressive ],
+    }
+  - {
+      ref: "§64",
+      item: "Ch9 Verb tenses and aspects: Present continuous and present simple",
+      maps:
+        [
+          simple-vs-continuous,
+          temporary-permanent,
+          present-simple-uses,
+          present-continuous-now,
+        ],
+    }
+  - {
+      ref: "§65",
+      item: "Ch9 Verb tenses and aspects: Present perfect and past simple",
+      maps: [ pp-vs-past, finished-time-trap, present-perfect-form ],
+    }
+  - {
+      ref: "§66",
+      item: "Ch9 Verb tenses and aspects: Past continuous",
+      maps:
+        [
+          past-continuous,
+          when-while,
+          past-continuous-background,
+          past-simple-vs-continuous,
+        ],
+    }
+  - {
+      ref: "§67",
+      item: "Ch9 Verb tenses and aspects: Present perfect continuous",
+      maps: [ ppc-form, ppc-duration, ppc-recent-results, ppc-vs-pp ],
+    }
+  - {
+      ref: "§68",
+      item: "Ch9 Verb tenses and aspects: Past perfect and past perfect continuous",
+      maps:
+        [
+          past-perfect,
+          past-perfect-sequence,
+          past-perfect-continuous,
+          past-perfect-adverbs,
+        ],
+    }
+  - {
+      ref: "§69",
+      item: "Ch9 Verb tenses and aspects: Overview: uses of tenses and aspects",
+      maps:
+        [
+          narrative-tenses,
+          distancing-past,
+          tentative-forms,
+          historic-present,
+          present-perfect-experience,
+        ],
+    }
+  - {
+      ref: "§71",
+      item: "Ch10 The future: Will and shall",
+      maps: [ will-predictions, will-decisions, shall-offers, probably-will ],
+    }
+  - {
+      ref: "§72",
+      item: "Ch10 The future: Be going to",
+      maps: [ going-to-plans, going-to-evidence ],
+    }
+  - {
+      ref: "§73",
+      item: "Ch10 The future: Present tense forms for the future",
+      maps: [ present-continuous-future, present-simple-timetable ],
+    }
+  - {
+      ref: "§74",
+      item: "Ch10 The future: Will, be going to or the present continuous?",
+      maps: [ futures-compared, which-future-intro ],
+    }
+  - {
+      ref: "§75",
+      item: "Ch10 The future: The future continuous: will be doing",
+      maps: [ future-continuous-intro, future-continuous-full ],
+    }
   - { ref: "§76", item: "Ch10 The future: Be to", maps: [ be-to-infinitive ] }
-  - { ref: "§77", item: "Ch10 The future: The present simple in a sub clause", maps: [ future-time-clauses, future-time-clauses-basic ] }
-  - { ref: "§78", item: "Ch10 The future: Other ways of expressing the future", maps: [ be-about-to, be-due-to, be-bound-to ] }
-  - { ref: "§79", item: "Ch10 The future: The future perfect: will have done", maps: [ future-perfect, future-perfect-continuous ] }
-  - { ref: "§80", item: "Ch10 The future: Looking forward from the past: was going to etc", maps: [ future-in-past, was-going-to, was-to ] }
-  - { ref: "§81", item: "Ch10 The future: Overview: the future", maps: [ futures-compared, in-period-future ] }
-  - { ref: "§83", item: "Ch11 Be, have and do: Auxiliary verbs and ordinary verbs", maps: [ auxiliaries ] }
-  - { ref: "§84", item: "Ch11 Be, have and do: The ordinary verb be", maps: [ be-present-forms, be-uses-age, was-were, was-born, be-negative ] }
-  - { ref: "§85", item: "Ch11 Be, have and do: Have (got)", maps: [ have-possession, have-got, have-questions ] }
-  - { ref: "§86", item: "Ch11 Be, have and do: The ordinary verb have", maps: [ have-actions, have-questions, delexical-verbs ] }
-  - { ref: "§87", item: "Ch11 Be, have and do: Empty verbs", maps: [ delexical-verbs, get-uses ] }
-  - { ref: "§88", item: "Ch11 Be, have and do: The ordinary verb do", maps: [ delexical-verbs, emphatic-do, did-negative-questions ] }
-  - { ref: "§89", item: "Ch11 Be, have and do: Do and make", maps: [ make-vs-do ] }
-  - { ref: "§91", item: "Ch12 Modal verbs: Introduction to modal verbs", maps: [ modal-grammar ] }
-  - { ref: "§92", item: "Ch12 Modal verbs: Necessity", maps: [ must-have-to, mustnt-dont-have-to, have-got-to, had-to, need-neednt, need-modal ] }
-  - { ref: "§93", item: "Ch12 Modal verbs: Obligation and advice: should, ought to etc", maps: [ should-advice, had-better, ought-to, supposed-to, should-expectation ] }
-  - { ref: "§94", item: "Ch12 Modal verbs: Permission", maps: [ can-permission-requests, could-may-requests, allowed-to ] }
-  - { ref: "§95", item: "Ch12 Modal verbs: Certainty: will, must and can't", maps: [ deduction-present, deduction-past, cant-vs-mustnt, will-assumption ] }
-  - { ref: "§96", item: "Ch12 Modal verbs: Probability", maps: [ should-expectation, will-assumption, deduction-present ] }
-  - { ref: "§97", item: "Ch12 Modal verbs: Possibility: may, might, can and could", maps: [ may-might-possibility, might-vs-will, could-possibility-suggestions, can-general-possibility, may-well, might-as-well ] }
-  - { ref: "§98", item: "Ch12 Modal verbs: Ability: can, could and be able to", maps: [ can-ability, could-past-ability, be-able-to, managed-to, able-all-forms ] }
-  - { ref: "§99", item: "Ch12 Modal verbs: Unreal situations: would", maps: [ would-polite, would-you-mind, would-be, second-conditional ] }
-  - { ref: "§100", item: "Ch12 Modal verbs: Habits: will, would and used to", maps: [ would-habits-intro, will-habits, would-characteristic, used-to, didnt-use-to, would-vs-used-to ] }
-  - { ref: "§101", item: "Ch12 Modal verbs: The verb dare", maps: [ dare, dare-say ] }
-  - { ref: "§102", item: "Ch12 Modal verbs: Overview: the use of modal verbs", maps: [ modal-combinations, modal-continuous, modal-perfect-passive, should-have, could-have, would-have ] }
-  - { ref: "§104", item: "Ch13 The passive: The use of the passive", maps: [ passive-form, passive-by, passive-why, choosing-voice ] }
-  - { ref: "§105", item: "Ch13 The passive: Tenses and aspects in the passive", maps: [ passive-present-past, passive-perfect, passive-future, passive-continuous ] }
-  - { ref: "§106", item: "Ch13 The passive: Modal verbs in the passive", maps: [ passive-modal, modal-passive ] }
-  - { ref: "§107", item: "Ch13 The passive: The passive with get", maps: [ get-passive ] }
-  - { ref: "§108", item: "Ch13 The passive: The passive with verbs of giving", maps: [ passive-two-objects ] }
-  - { ref: "§109", item: "Ch13 The passive: The passive with verbs of reporting", maps: [ reporting-passive-verbs, impersonal-it-said, personal-said-to, there-said-to-be, passive-reporting ] }
-  - { ref: "§110", item: "Ch13 The passive: Passive + to-infinitive or active participle", maps: [ perception-passive, made-to ] }
-  - { ref: "§111", item: "Ch13 The passive: Patterns with have and get", maps: [ have-something-done, have-sb-do, make-sb-do, causative-experience ] }
-  - { ref: "§112", item: "Ch13 The passive: The passive to-infinitive and gerund", maps: [ passive-infinitive-gerund, complex-passive-infinitive ] }
-  - { ref: "§113", item: "Ch13 The passive: Active forms with a passive meaning", maps: [ ergative-verbs, middle-voice, needs-doing ] }
-  - { ref: "§114", item: "Ch13 The passive: Overview: active and passive verb forms", maps: [ passive-form, passive-infinitive-gerund ] }
-  - { ref: "§116", item: "Ch14 The infinitive: Infinitive forms", maps: [ perfect-infinitive, continuous-infinitive, verb-to ] }
-  - { ref: "§117", item: "Ch14 The infinitive: Infinitive clauses", maps: [ infinitive-clauses, infinitive-subject, not-ing ] }
-  - { ref: "§118", item: "Ch14 The infinitive: The to-infinitive as subject and complement", maps: [ infinitive-subject, to-clause-complement ] }
-  - { ref: "§119", item: "Ch14 The infinitive: The to-infinitive expressing purpose and result", maps: [ infinitive-purpose, for-ing-purpose, first-to ] }
-  - { ref: "§120", item: "Ch14 The infinitive: Verb + to-infinitive", maps: [ verb-to, want-sb-to ] }
-  - { ref: "§121", item: "Ch14 The infinitive: To-infinitive or gerund after a verb", maps: [ ing-to-meaning-change, like-doing-vs-to, mean-go-on ] }
-  - { ref: "§122", item: "Ch14 The infinitive: Verb + object + to-infinitive", maps: [ verb-object-to, want-sb-to, make-let-help, believe-object-to-be ] }
-  - { ref: "§123", item: "Ch14 The infinitive: Adjective + to-infinitive", maps: [ adjective-to, easy-to-please, afraid-sorry-interested ] }
-  - { ref: "§124", item: "Ch14 The infinitive: Noun phrase + to-infinitive", maps: [ noun-to ] }
-  - { ref: "§125", item: "Ch14 The infinitive: Question word + to-infinitive", maps: [ wh-to ] }
-  - { ref: "§126", item: "Ch14 The infinitive: For and of with a to-infinitive", maps: [ for-object-to, kind-of-you ] }
-  - { ref: "§127", item: "Ch14 The infinitive: Patterns with the bare infinitive", maps: [ make-let-help, perception-base-ing ] }
-  - { ref: "§129", item: "Ch15 The gerund: Gerund forms", maps: [ perfect-gerund, ing-spelling ] }
-  - { ref: "§130", item: "Ch15 The gerund: Gerund clauses", maps: [ ing-subject, ing-complement ] }
-  - { ref: "§131", item: "Ch15 The gerund: Some patterns with the gerund", maps: [ verb-ing, go-ing, fixed-ing-expressions, difficulty-spend, worth-ing ] }
-  - { ref: "§132", item: "Ch15 The gerund: Preposition + gerund", maps: [ ing-after-prepositions, prevent-from ] }
-  - { ref: "§133", item: "Ch15 The gerund: Determiner + gerund", maps: [ possessive-gerund ] }
-  - { ref: "§135", item: "Ch16 Participles: Participle forms", maps: [ participle-clauses, past-participle ] }
-  - { ref: "§136", item: "Ch16 Participles: Participle clauses", maps: [ participle-clauses, reduced-relative, conjunction-ing, absolute-clauses, dangling-participles ] }
-  - { ref: "§137", item: "Ch16 Participles: Participle + noun", maps: [ ed-ing-adjectives, with-noun-participle ] }
-  - { ref: "§138", item: "Ch16 Participles: Verb + participle", maps: [ perception-base-ing, verb-ing ] }
-  - { ref: "§139", item: "Ch16 Participles: Participle clauses of time, reason etc", maps: [ participle-clauses, conjunction-ing, perfect-passive-participle ] }
-  - { ref: "§140", item: "Ch16 Participles: Verb + object + participle", maps: [ object-past-participle, perception-base-ing ] }
-  - { ref: "§142", item: "Ch17 Nouns and noun phrases: Nouns", maps: [ plural-regular, countable-uncountable ] }
-  - { ref: "§143", item: "Ch17 Nouns and noun phrases: Noun phrases", maps: [ noun-phrase-premod, noun-phrase-postmod, dense-noun-phrases ] }
-  - { ref: "§144", item: "Ch17 Nouns and noun phrases: Countable and uncountable nouns", maps: [ countable-uncountable, uncountable-traps, dual-countability, partitives ] }
-  - { ref: "§145", item: "Ch17 Nouns and noun phrases: The plural of nouns", maps: [ plural-regular, plural-irregular, plural-f-ves, plural-o ] }
-  - { ref: "§146", item: "Ch17 Nouns and noun phrases: The possessive form", maps: [ possessive-s, possessive-of, time-possessive, possessive-places, group-possessive, double-possessive ] }
-  - { ref: "§147", item: "Ch17 Nouns and noun phrases: Two nouns together", maps: [ compound-nouns, measurement-compounds, plural-modifiers ] }
-  - { ref: "§148", item: "Ch17 Nouns and noun phrases: Phrases after a noun", maps: [ noun-phrase-postmod ] }
-  - { ref: "§149", item: "Ch17 Nouns and noun phrases: Nominalization", maps: [ nominalisation, nominal-vs-verbal ] }
-  - { ref: "§151", item: "Ch18 Agreement: Singular and plural verbs", maps: [ collective-agreement, agreement-indefinite, long-subject-agreement ] }
-  - { ref: "§152", item: "Ch18 Agreement: Singular and plural subjects", maps: [ and-agreement, either-or-agreement, notional-agreement ] }
-  - { ref: "§153", item: "Ch18 Agreement: One of, a number of, every, there etc", maps: [ one-of-plural, number-of, agreement-there, majority-agreement, more-than-one ] }
-  - { ref: "§154", item: "Ch18 Agreement: Nouns with a plural form", maps: [ plural-only, singular-s-nouns, plural-verb-nouns ] }
+  - {
+      ref: "§77",
+      item: "Ch10 The future: The present simple in a sub clause",
+      maps: [ future-time-clauses, future-time-clauses-basic ],
+    }
+  - {
+      ref: "§78",
+      item: "Ch10 The future: Other ways of expressing the future",
+      maps: [ be-about-to, be-due-to, be-bound-to ],
+    }
+  - {
+      ref: "§79",
+      item: "Ch10 The future: The future perfect: will have done",
+      maps: [ future-perfect, future-perfect-continuous ],
+    }
+  - {
+      ref: "§80",
+      item: "Ch10 The future: Looking forward from the past: was going to etc",
+      maps: [ future-in-past, was-going-to, was-to ],
+    }
+  - {
+      ref: "§81",
+      item: "Ch10 The future: Overview: the future",
+      maps: [ futures-compared, in-period-future ],
+    }
+  - {
+      ref: "§83",
+      item: "Ch11 Be, have and do: Auxiliary verbs and ordinary verbs",
+      maps: [ auxiliaries ],
+    }
+  - {
+      ref: "§84",
+      item: "Ch11 Be, have and do: The ordinary verb be",
+      maps: [ be-present-forms, be-uses-age, was-were, was-born, be-negative ],
+    }
+  - {
+      ref: "§85",
+      item: "Ch11 Be, have and do: Have (got)",
+      maps: [ have-possession, have-got, have-questions ],
+    }
+  - {
+      ref: "§86",
+      item: "Ch11 Be, have and do: The ordinary verb have",
+      maps: [ have-actions, have-questions, delexical-verbs ],
+    }
+  - {
+      ref: "§87",
+      item: "Ch11 Be, have and do: Empty verbs",
+      maps: [ delexical-verbs, get-uses ],
+    }
+  - {
+      ref: "§88",
+      item: "Ch11 Be, have and do: The ordinary verb do",
+      maps: [ delexical-verbs, emphatic-do, did-negative-questions ],
+    }
+  - {
+      ref: "§89",
+      item: "Ch11 Be, have and do: Do and make",
+      maps: [ make-vs-do ],
+    }
+  - {
+      ref: "§91",
+      item: "Ch12 Modal verbs: Introduction to modal verbs",
+      maps: [ modal-grammar ],
+    }
+  - {
+      ref: "§92",
+      item: "Ch12 Modal verbs: Necessity",
+      maps:
+        [
+          must-have-to,
+          mustnt-dont-have-to,
+          have-got-to,
+          had-to,
+          need-neednt,
+          need-modal,
+        ],
+    }
+  - {
+      ref: "§93",
+      item: "Ch12 Modal verbs: Obligation and advice: should, ought to etc",
+      maps:
+        [
+          should-advice,
+          had-better,
+          ought-to,
+          supposed-to,
+          should-expectation,
+        ],
+    }
+  - {
+      ref: "§94",
+      item: "Ch12 Modal verbs: Permission",
+      maps: [ can-permission-requests, could-may-requests, allowed-to ],
+    }
+  - {
+      ref: "§95",
+      item: "Ch12 Modal verbs: Certainty: will, must and can't",
+      maps:
+        [ deduction-present, deduction-past, cant-vs-mustnt, will-assumption ],
+    }
+  - {
+      ref: "§96",
+      item: "Ch12 Modal verbs: Probability",
+      maps: [ should-expectation, will-assumption, deduction-present ],
+    }
+  - {
+      ref: "§97",
+      item: "Ch12 Modal verbs: Possibility: may, might, can and could",
+      maps:
+        [
+          may-might-possibility,
+          might-vs-will,
+          could-possibility-suggestions,
+          can-general-possibility,
+          may-well,
+          might-as-well,
+        ],
+    }
+  - {
+      ref: "§98",
+      item: "Ch12 Modal verbs: Ability: can, could and be able to",
+      maps:
+        [
+          can-ability,
+          could-past-ability,
+          be-able-to,
+          managed-to,
+          able-all-forms,
+        ],
+    }
+  - {
+      ref: "§99",
+      item: "Ch12 Modal verbs: Unreal situations: would",
+      maps: [ would-polite, would-you-mind, would-be, second-conditional ],
+    }
+  - {
+      ref: "§100",
+      item: "Ch12 Modal verbs: Habits: will, would and used to",
+      maps:
+        [
+          would-habits-intro,
+          will-habits,
+          would-characteristic,
+          used-to,
+          didnt-use-to,
+          would-vs-used-to,
+        ],
+    }
+  - {
+      ref: "§101",
+      item: "Ch12 Modal verbs: The verb dare",
+      maps: [ dare, dare-say ],
+    }
+  - {
+      ref: "§102",
+      item: "Ch12 Modal verbs: Overview: the use of modal verbs",
+      maps:
+        [
+          modal-combinations,
+          modal-continuous,
+          modal-perfect-passive,
+          should-have,
+          could-have,
+          would-have,
+        ],
+    }
+  - {
+      ref: "§104",
+      item: "Ch13 The passive: The use of the passive",
+      maps: [ passive-form, passive-by, passive-why, choosing-voice ],
+    }
+  - {
+      ref: "§105",
+      item: "Ch13 The passive: Tenses and aspects in the passive",
+      maps:
+        [
+          passive-present-past,
+          passive-perfect,
+          passive-future,
+          passive-continuous,
+        ],
+    }
+  - {
+      ref: "§106",
+      item: "Ch13 The passive: Modal verbs in the passive",
+      maps: [ passive-modal, modal-passive ],
+    }
+  - {
+      ref: "§107",
+      item: "Ch13 The passive: The passive with get",
+      maps: [ get-passive ],
+    }
+  - {
+      ref: "§108",
+      item: "Ch13 The passive: The passive with verbs of giving",
+      maps: [ passive-two-objects ],
+    }
+  - {
+      ref: "§109",
+      item: "Ch13 The passive: The passive with verbs of reporting",
+      maps:
+        [
+          reporting-passive-verbs,
+          impersonal-it-said,
+          personal-said-to,
+          there-said-to-be,
+          passive-reporting,
+        ],
+    }
+  - {
+      ref: "§110",
+      item: "Ch13 The passive: Passive + to-infinitive or active participle",
+      maps: [ perception-passive, made-to ],
+    }
+  - {
+      ref: "§111",
+      item: "Ch13 The passive: Patterns with have and get",
+      maps:
+        [ have-something-done, have-sb-do, make-sb-do, causative-experience ],
+    }
+  - {
+      ref: "§112",
+      item: "Ch13 The passive: The passive to-infinitive and gerund",
+      maps: [ passive-infinitive-gerund, complex-passive-infinitive ],
+    }
+  - {
+      ref: "§113",
+      item: "Ch13 The passive: Active forms with a passive meaning",
+      maps: [ ergative-verbs, middle-voice, needs-doing ],
+    }
+  - {
+      ref: "§114",
+      item: "Ch13 The passive: Overview: active and passive verb forms",
+      maps: [ passive-form, passive-infinitive-gerund ],
+    }
+  - {
+      ref: "§116",
+      item: "Ch14 The infinitive: Infinitive forms",
+      maps: [ perfect-infinitive, continuous-infinitive, verb-to ],
+    }
+  - {
+      ref: "§117",
+      item: "Ch14 The infinitive: Infinitive clauses",
+      maps: [ infinitive-clauses, infinitive-subject, not-ing ],
+    }
+  - {
+      ref: "§118",
+      item: "Ch14 The infinitive: The to-infinitive as subject and complement",
+      maps: [ infinitive-subject, to-clause-complement ],
+    }
+  - {
+      ref: "§119",
+      item: "Ch14 The infinitive: The to-infinitive expressing purpose and result",
+      maps: [ infinitive-purpose, for-ing-purpose, first-to ],
+    }
+  - {
+      ref: "§120",
+      item: "Ch14 The infinitive: Verb + to-infinitive",
+      maps: [ verb-to, want-sb-to ],
+    }
+  - {
+      ref: "§121",
+      item: "Ch14 The infinitive: To-infinitive or gerund after a verb",
+      maps: [ ing-to-meaning-change, like-doing-vs-to, mean-go-on ],
+    }
+  - {
+      ref: "§122",
+      item: "Ch14 The infinitive: Verb + object + to-infinitive",
+      maps: [ verb-object-to, want-sb-to, make-let-help, believe-object-to-be ],
+    }
+  - {
+      ref: "§123",
+      item: "Ch14 The infinitive: Adjective + to-infinitive",
+      maps: [ adjective-to, easy-to-please, afraid-sorry-interested ],
+    }
+  - {
+      ref: "§124",
+      item: "Ch14 The infinitive: Noun phrase + to-infinitive",
+      maps: [ noun-to ],
+    }
+  - {
+      ref: "§125",
+      item: "Ch14 The infinitive: Question word + to-infinitive",
+      maps: [ wh-to ],
+    }
+  - {
+      ref: "§126",
+      item: "Ch14 The infinitive: For and of with a to-infinitive",
+      maps: [ for-object-to, kind-of-you ],
+    }
+  - {
+      ref: "§127",
+      item: "Ch14 The infinitive: Patterns with the bare infinitive",
+      maps: [ make-let-help, perception-base-ing ],
+    }
+  - {
+      ref: "§129",
+      item: "Ch15 The gerund: Gerund forms",
+      maps: [ perfect-gerund, ing-spelling ],
+    }
+  - {
+      ref: "§130",
+      item: "Ch15 The gerund: Gerund clauses",
+      maps: [ ing-subject, ing-complement ],
+    }
+  - {
+      ref: "§131",
+      item: "Ch15 The gerund: Some patterns with the gerund",
+      maps:
+        [
+          verb-ing,
+          go-ing,
+          fixed-ing-expressions,
+          difficulty-spend,
+          worth-ing,
+        ],
+    }
+  - {
+      ref: "§132",
+      item: "Ch15 The gerund: Preposition + gerund",
+      maps: [ ing-after-prepositions, prevent-from ],
+    }
+  - {
+      ref: "§133",
+      item: "Ch15 The gerund: Determiner + gerund",
+      maps: [ possessive-gerund ],
+    }
+  - {
+      ref: "§135",
+      item: "Ch16 Participles: Participle forms",
+      maps: [ participle-clauses, past-participle ],
+    }
+  - {
+      ref: "§136",
+      item: "Ch16 Participles: Participle clauses",
+      maps:
+        [
+          participle-clauses,
+          reduced-relative,
+          conjunction-ing,
+          absolute-clauses,
+          dangling-participles,
+        ],
+    }
+  - {
+      ref: "§137",
+      item: "Ch16 Participles: Participle + noun",
+      maps: [ ed-ing-adjectives, with-noun-participle ],
+    }
+  - {
+      ref: "§138",
+      item: "Ch16 Participles: Verb + participle",
+      maps: [ perception-base-ing, verb-ing ],
+    }
+  - {
+      ref: "§139",
+      item: "Ch16 Participles: Participle clauses of time, reason etc",
+      maps: [ participle-clauses, conjunction-ing, perfect-passive-participle ],
+    }
+  - {
+      ref: "§140",
+      item: "Ch16 Participles: Verb + object + participle",
+      maps: [ object-past-participle, perception-base-ing ],
+    }
+  - {
+      ref: "§142",
+      item: "Ch17 Nouns and noun phrases: Nouns",
+      maps: [ plural-regular, countable-uncountable ],
+    }
+  - {
+      ref: "§143",
+      item: "Ch17 Nouns and noun phrases: Noun phrases",
+      maps: [ noun-phrase-premod, noun-phrase-postmod, dense-noun-phrases ],
+    }
+  - {
+      ref: "§144",
+      item: "Ch17 Nouns and noun phrases: Countable and uncountable nouns",
+      maps:
+        [
+          countable-uncountable,
+          uncountable-traps,
+          dual-countability,
+          partitives,
+        ],
+    }
+  - {
+      ref: "§145",
+      item: "Ch17 Nouns and noun phrases: The plural of nouns",
+      maps: [ plural-regular, plural-irregular, plural-f-ves, plural-o ],
+    }
+  - {
+      ref: "§146",
+      item: "Ch17 Nouns and noun phrases: The possessive form",
+      maps:
+        [
+          possessive-s,
+          possessive-of,
+          time-possessive,
+          possessive-places,
+          group-possessive,
+          double-possessive,
+        ],
+    }
+  - {
+      ref: "§147",
+      item: "Ch17 Nouns and noun phrases: Two nouns together",
+      maps: [ compound-nouns, measurement-compounds, plural-modifiers ],
+    }
+  - {
+      ref: "§148",
+      item: "Ch17 Nouns and noun phrases: Phrases after a noun",
+      maps: [ noun-phrase-postmod ],
+    }
+  - {
+      ref: "§149",
+      item: "Ch17 Nouns and noun phrases: Nominalization",
+      maps: [ nominalisation, nominal-vs-verbal ],
+    }
+  - {
+      ref: "§151",
+      item: "Ch18 Agreement: Singular and plural verbs",
+      maps:
+        [ collective-agreement, agreement-indefinite, long-subject-agreement ],
+    }
+  - {
+      ref: "§152",
+      item: "Ch18 Agreement: Singular and plural subjects",
+      maps: [ and-agreement, either-or-agreement, notional-agreement ],
+    }
+  - {
+      ref: "§153",
+      item: "Ch18 Agreement: One of, a number of, every, there etc",
+      maps:
+        [
+          one-of-plural,
+          number-of,
+          agreement-there,
+          majority-agreement,
+          more-than-one,
+        ],
+    }
+  - {
+      ref: "§154",
+      item: "Ch18 Agreement: Nouns with a plural form",
+      maps: [ plural-only, singular-s-nouns, plural-verb-nouns ],
+    }
   - { ref: "§155", item: "Ch18 Agreement: Pair nouns", maps: [ plural-only ] }
-  - { ref: "§156", item: "Ch18 Agreement: Group nouns", maps: [ collective-agreement, kind-of-agreement ] }
-  - { ref: "§157", item: "Ch18 Agreement: Number in the subject and object", maps: [ distributive-plural, quantity-agreement ] }
-  - { ref: "§159", item: "Ch19 The articles: a/an and the: The form of the articles", maps: [ a-an-sound, the-specific ] }
-  - { ref: "§160", item: "Ch19 The articles: a/an and the: The basic use of the articles", maps: [ the-specific, the-unique, the-second-mention, a-jobs ] }
-  - { ref: "§161", item: "Ch19 The articles: a/an and the: Alan to describe and classify", maps: [ a-jobs, a-vs-one ] }
-  - { ref: "§162", item: "Ch19 The articles: a/an and the: The article in generalizations", maps: [ generic-reference ] }
-  - { ref: "§163", item: "Ch19 The articles: a/an and the: A/an or one?", maps: [ a-vs-one ] }
-  - { ref: "§164", item: "Ch19 The articles: a/an and the: Alan, some and a noun on its own", maps: [ some-any-basic, a-an-sound ] }
-  - { ref: "§165", item: "Ch19 The articles: a/an and the: Sugar or the sugar?", maps: [ the-vs-zero, generic-reference ] }
-  - { ref: "§166", item: "Ch19 The articles: a/an and the: Overview: a/an, some and the", maps: [ the-vs-zero ] }
-  - { ref: "§167", item: "Ch19 The articles: a/an and the: A singular noun on its own", maps: [ zero-article-fixed, a-knowledge-of ] }
-  - { ref: "§168", item: "Ch19 The articles: a/an and the: Articles with school, prison etc", maps: [ institutions, zero-article-set-phrases ] }
-  - { ref: "§169", item: "Ch19 The articles: a/an and the: Articles in phrases of time", maps: [ articles-meals-days, zero-article-set-phrases ] }
-  - { ref: "§170", item: "Ch19 The articles: a/an and the: Names of people", maps: [ articles-names, roles-zero-article ] }
-  - { ref: "§171", item: "Ch19 The articles: a/an and the: Place names and the", maps: [ the-geography, articles-names ] }
-  - { ref: "§172", item: "Ch19 The articles: a/an and the: Ten pounds an hour etc", maps: [ a-jobs, measurement-singular ] }
-  - { ref: "§174", item: "Ch20 Possessives and demonstratives: Possessives", maps: [ possessive-adjectives, possessive-pronouns, whose ] }
-  - { ref: "§175", item: "Ch20 Possessives and demonstratives: Demonstratives", maps: [ demonstratives, demonstrative-pronouns, demonstrative-time ] }
-  - { ref: "§177", item: "Ch21 Quantifiers: Large and small quantities", maps: [ much-many, a-lot-of, a-few-a-little, too-much-many, few-a-few, quite-a-few, great-deal, hardly-any ] }
-  - { ref: "§178", item: "Ch21 Quantifiers: Whole and part quantities: all, most, both etc", maps: [ all-both-basic, both-all-whole, most-of, half, predeterminers, none-of ] }
-  - { ref: "§179", item: "Ch21 Quantifiers: Some, any and no", maps: [ some-any-offers, any-whichever, no-none, no-vs-not-a ] }
-  - { ref: "§180", item: "Ch21 Quantifiers: Other quantifiers", maps: [ each-every-full, either-neither, another-other, more-determiner ] }
-  - { ref: "§181", item: "Ch21 Quantifiers: Quantifiers without a noun", maps: [ none-of, floating-quantifiers, none-agreement ] }
-  - { ref: "§182", item: "Ch21 Quantifiers: Overview: quantifiers", maps: [ determiner-order, semi-determiners ] }
-  - { ref: "§184", item: "Ch22 Pronouns: Personal pronouns", maps: [ subject-pronouns, object-pronouns, you-singular-plural, pronoun-case, he-she-it ] }
-  - { ref: "§185", item: "Ch22 Pronouns: Special uses of you, one, we and they", maps: [ generic-you-one, formal-one, they-organisations ] }
-  - { ref: "§186", item: "Ch22 Pronouns: Reflexive pronouns, emphatic pronouns and each other", maps: [ reflexive-pronouns, by-myself, emphatic-reflexive, each-other ] }
-  - { ref: "§187", item: "Ch22 Pronouns: Overview: personal pronouns, Possessives and reflexives", maps: [ pronoun-case, it-this-that-reference, reference-chains, possessive-pronouns ] }
+  - {
+      ref: "§156",
+      item: "Ch18 Agreement: Group nouns",
+      maps: [ collective-agreement, kind-of-agreement ],
+    }
+  - {
+      ref: "§157",
+      item: "Ch18 Agreement: Number in the subject and object",
+      maps: [ distributive-plural, quantity-agreement ],
+    }
+  - {
+      ref: "§159",
+      item: "Ch19 The articles: a/an and the: The form of the articles",
+      maps: [ a-an-sound, the-specific ],
+    }
+  - {
+      ref: "§160",
+      item: "Ch19 The articles: a/an and the: The basic use of the articles",
+      maps: [ the-specific, the-unique, the-second-mention, a-jobs ],
+    }
+  - {
+      ref: "§161",
+      item: "Ch19 The articles: a/an and the: Alan to describe and classify",
+      maps: [ a-jobs, a-vs-one ],
+    }
+  - {
+      ref: "§162",
+      item: "Ch19 The articles: a/an and the: The article in generalizations",
+      maps: [ generic-reference ],
+    }
+  - {
+      ref: "§163",
+      item: "Ch19 The articles: a/an and the: A/an or one?",
+      maps: [ a-vs-one ],
+    }
+  - {
+      ref: "§164",
+      item: "Ch19 The articles: a/an and the: Alan, some and a noun on its own",
+      maps: [ some-any-basic, a-an-sound ],
+    }
+  - {
+      ref: "§165",
+      item: "Ch19 The articles: a/an and the: Sugar or the sugar?",
+      maps: [ the-vs-zero, generic-reference ],
+    }
+  - {
+      ref: "§166",
+      item: "Ch19 The articles: a/an and the: Overview: a/an, some and the",
+      maps: [ the-vs-zero ],
+    }
+  - {
+      ref: "§167",
+      item: "Ch19 The articles: a/an and the: A singular noun on its own",
+      maps: [ zero-article-fixed, a-knowledge-of ],
+    }
+  - {
+      ref: "§168",
+      item: "Ch19 The articles: a/an and the: Articles with school, prison etc",
+      maps: [ institutions, zero-article-set-phrases ],
+    }
+  - {
+      ref: "§169",
+      item: "Ch19 The articles: a/an and the: Articles in phrases of time",
+      maps: [ articles-meals-days, zero-article-set-phrases ],
+    }
+  - {
+      ref: "§170",
+      item: "Ch19 The articles: a/an and the: Names of people",
+      maps: [ articles-names, roles-zero-article ],
+    }
+  - {
+      ref: "§171",
+      item: "Ch19 The articles: a/an and the: Place names and the",
+      maps: [ the-geography, articles-names ],
+    }
+  - {
+      ref: "§172",
+      item: "Ch19 The articles: a/an and the: Ten pounds an hour etc",
+      maps: [ a-jobs, measurement-singular ],
+    }
+  - {
+      ref: "§174",
+      item: "Ch20 Possessives and demonstratives: Possessives",
+      maps: [ possessive-adjectives, possessive-pronouns, whose ],
+    }
+  - {
+      ref: "§175",
+      item: "Ch20 Possessives and demonstratives: Demonstratives",
+      maps: [ demonstratives, demonstrative-pronouns, demonstrative-time ],
+    }
+  - {
+      ref: "§177",
+      item: "Ch21 Quantifiers: Large and small quantities",
+      maps:
+        [
+          much-many,
+          a-lot-of,
+          a-few-a-little,
+          too-much-many,
+          few-a-few,
+          quite-a-few,
+          great-deal,
+          hardly-any,
+        ],
+    }
+  - {
+      ref: "§178",
+      item: "Ch21 Quantifiers: Whole and part quantities: all, most, both etc",
+      maps:
+        [
+          all-both-basic,
+          both-all-whole,
+          most-of,
+          half,
+          predeterminers,
+          none-of,
+        ],
+    }
+  - {
+      ref: "§179",
+      item: "Ch21 Quantifiers: Some, any and no",
+      maps: [ some-any-offers, any-whichever, no-none, no-vs-not-a ],
+    }
+  - {
+      ref: "§180",
+      item: "Ch21 Quantifiers: Other quantifiers",
+      maps: [ each-every-full, either-neither, another-other, more-determiner ],
+    }
+  - {
+      ref: "§181",
+      item: "Ch21 Quantifiers: Quantifiers without a noun",
+      maps: [ none-of, floating-quantifiers, none-agreement ],
+    }
+  - {
+      ref: "§182",
+      item: "Ch21 Quantifiers: Overview: quantifiers",
+      maps: [ determiner-order, semi-determiners ],
+    }
+  - {
+      ref: "§184",
+      item: "Ch22 Pronouns: Personal pronouns",
+      maps:
+        [
+          subject-pronouns,
+          object-pronouns,
+          you-singular-plural,
+          pronoun-case,
+          he-she-it,
+        ],
+    }
+  - {
+      ref: "§185",
+      item: "Ch22 Pronouns: Special uses of you, one, we and they",
+      maps: [ generic-you-one, formal-one, they-organisations ],
+    }
+  - {
+      ref: "§186",
+      item: "Ch22 Pronouns: Reflexive pronouns, emphatic pronouns and each other",
+      maps: [ reflexive-pronouns, by-myself, emphatic-reflexive, each-other ],
+    }
+  - {
+      ref: "§187",
+      item: "Ch22 Pronouns: Overview: personal pronouns, Possessives and reflexives",
+      maps:
+        [
+          pronoun-case,
+          it-this-that-reference,
+          reference-chains,
+          possessive-pronouns,
+        ],
+    }
   - { ref: "§188", item: "Ch22 Pronouns: One and ones", maps: [ one-ones ] }
-  - { ref: "§189", item: "Ch22 Pronouns: Everyone, something etc", maps: [ indefinite-compounds, indefinite-singular-verb ] }
-  - { ref: "§191", item: "Ch23 Numbers and measurements: Cardinal numbers", maps: [ cardinal-numbers, large-numbers ] }
-  - { ref: "§192", item: "Ch23 Numbers and measurements: Ordinal numbers", maps: [ ordinal-numbers, dates ] }
-  - { ref: "§193", item: "Ch23 Numbers and measurements: Fractions, decimals and percentages", maps: [ fractions-decimals ] }
-  - { ref: "§194", item: "Ch23 Numbers and measurements: Number of times", maps: [ frequency-adverbs, how-often ] }
-  - { ref: "§195", item: "Ch23 Numbers and measurements: Times and dates", maps: [ telling-time, dates ] }
-  - { ref: "§196", item: "Ch23 Numbers and measurements: Some other measurements", maps: [ prices, approximating-numbers, measurement-adjectives ] }
-  - { ref: "§198", item: "Ch24 Adjectives: Introduction to adjectives", maps: [ adjective-position, adjective-no-plural ] }
-  - { ref: "§199", item: "Ch24 Adjectives: The position of adjectives", maps: [ adjective-position, attributive-only, predicative-only ] }
-  - { ref: "§200", item: "Ch24 Adjectives: Adjectives used in one position only", maps: [ attributive-only, predicative-only ] }
-  - { ref: "§201", item: "Ch24 Adjectives: Adjectives after nouns and pronouns", maps: [ postposed-adjectives, something-to-adjective ] }
-  - { ref: "§202", item: "Ch24 Adjectives: The order of adjectives", maps: [ adjective-order-intro, adjective-order-full, compound-adjectives ] }
-  - { ref: "§203", item: "Ch24 Adjectives: Amusing and amused, interesting and interested", maps: [ ed-ing-adjectives ] }
-  - { ref: "§204", item: "Ch24 Adjectives: The + adjective", maps: [ the-adjective-group, the-nationality ] }
-  - { ref: "§206", item: "Ch25 Adverbials: Introduction to adverbials", maps: [ adverbs-manner, adverb-positions, adverbial-order-advanced ] }
-  - { ref: "§207", item: "Ch25 Adverbials: Adverb forms", maps: [ adverb-spelling, irregular-adverbs, adjective-vs-adverb ] }
-  - { ref: "§208", item: "Ch25 Adverbials: The position of adverbials", maps: [ adverb-positions, adverb-order, position-meaning-adjectives, adverbial-scope ] }
-  - { ref: "§209", item: "Ch25 Adverbials: Adverbs of manner", maps: [ adverbs-manner, adjective-vs-adverb ] }
-  - { ref: "§210", item: "Ch25 Adverbials: Place and time", maps: [ place-before-time, adverb-order, adverbs-place-direction ] }
-  - { ref: "§211", item: "Ch25 Adverbials: Adverbs of frequency", maps: [ frequency-adverbs, frequency-position ] }
-  - { ref: "§212", item: "Ch25 Adverbials: Adverbs of degree", maps: [ very-really, too-basic, too-enough, intensifiers, gradable-nongradable, softeners, quite-us-uk ] }
-  - { ref: "§213", item: "Ch25 Adverbials: Focus and viewpoint", maps: [ focus-adverbs, only-position, viewpoint-adverbs ] }
-  - { ref: "§214", item: "Ch25 Adverbials: Truth adverbs", maps: [ probably-negative, degree-collocations ] }
-  - { ref: "§215", item: "Ch25 Adverbials: Comment adverbs", maps: [ comment-adverbs ] }
-  - { ref: "§216", item: "Ch25 Adverbials: Linking adverbs", maps: [ linkers-addition, linkers-contrast, linkers-result, sequencing, disjuncts-conjuncts ] }
-  - { ref: "§218", item: "Ch26 Comparison: The comparative and superlative of adjectives", maps: [ comparatives-short, comparatives-long, comparatives-irregular, superlatives, superlative-in-of, than-me, elder-older ] }
-  - { ref: "§219", item: "Ch26 Comparison: The comparative and superlative of adverbs", maps: [ adverb-comparison, irregular-adverbs ] }
-  - { ref: "§220", item: "Ch26 Comparison: More, most, less, least, fewer andfewest", maps: [ less-least, fewer-less ] }
-  - { ref: "§221", item: "Ch26 Comparison: Patterns expressing a comparison", maps: [ as-as, same-similar-different, times-as, like-as, comparison-ellipsis, superlative-ever ] }
-  - { ref: "§222", item: "Ch26 Comparison: Special patterns with the comparative", maps: [ the-the-intro, more-and-more, much-far-comparative, the-comparative-the, by-far ] }
-  - { ref: "§224", item: "Ch27 Prepositions: Introduction to prepositions", maps: [ prep-phrases, prep-vs-conj ] }
-  - { ref: "§225", item: "Ch27 Prepositions: Prepositions of place", maps: [ place-in-on-at, place-others, address-prepositions, above-over-below-under, between-among, movement, transport-in-on ] }
-  - { ref: "§226", item: "Ch27 Prepositions: Prepositions of place: more details", maps: [ above-over-below-under, between-among, by-with, place-adverbial-verbs, in-on-at-other ] }
-  - { ref: "§227", item: "Ch27 Prepositions: Prepositions of time", maps: [ time-at-on-in, from-to-until, no-prep-time, at-night-weekend, during-vs-for, by-until ] }
-  - { ref: "§228", item: "Ch27 Prepositions: Prepositions: other meanings", maps: [ by-with, about-prep, except-besides, with-without-description ] }
-  - { ref: "§229", item: "Ch27 Prepositions: Idiomatic phrases with prepositions", maps: [ prep-phrases, complex-prepositions, due-to-owing-to ] }
-  - { ref: "§231", item: "Ch28 Phrasal verbs and patterns with prepositions: Verbs with adverbs and prepositions", maps: [ phrasal-verbs-intro, phrasal-separable, phrasal-pronoun-position, three-part-phrasal, movement-particles ] }
-  - { ref: "§232", item: "Ch28 Phrasal verbs and patterns with prepositions: Phrasal verb meanings", maps: [ phrasal-verbs-intro, latinate-phrasal ] }
-  - { ref: "§233", item: "Ch28 Phrasal verbs and patterns with prepositions: Prepositional verbs", maps: [ prepositional-verbs, verb-prep-1 ] }
-  - { ref: "§234", item: "Ch28 Phrasal verbs and patterns with prepositions: Verb + object + preposition", maps: [ verb-obj-prep ] }
-  - { ref: "§235", item: "Ch28 Phrasal verbs and patterns with prepositions: Verb + adverb + preposition", maps: [ three-part-phrasal ] }
-  - { ref: "§236", item: "Ch28 Phrasal verbs and patterns with prepositions: Adjective + preposition", maps: [ adj-prep-1, adjective-prep-that-to ] }
-  - { ref: "§237", item: "Ch28 Phrasal verbs and patterns with prepositions: Noun + preposition", maps: [ noun-prep ] }
-  - { ref: "§239", item: "Ch29 Sentences with more than one clause: Types of clause", maps: [ infinitive-clauses, participle-clauses, verbless-clauses ] }
-  - { ref: "§240", item: "Ch29 Sentences with more than one clause: Clause", maps: [ defining-relative-basic, that-clauses ] }
-  - { ref: "§241", item: "Ch29 Sentences with more than one clause: Tenses in sub clauses", maps: [ future-time-clauses, wish-past, wish-past-perfect ] }
-  - { ref: "§242", item: "Ch29 Sentences with more than one clause: The subjunctive", maps: [ mandative-subjunctive, were-subjunctive, formulaic-subjunctive, should-subjunctive, may-wishes ] }
-  - { ref: "§244", item: "Ch30 And, or, but, so etc: Words meaning 'and'", maps: [ and-but-or, both-and, not-only-but-also, as-well-as ] }
-  - { ref: "§245", item: "Ch30 And, or, but, so etc: Words meaning 'or'", maps: [ and-but-or, either-or-neither-nor, not-or-nor ] }
-  - { ref: "§246", item: "Ch30 And, or, but, so etc: Words meaning 'but'", maps: [ and-but-or, contrast-although, whereas-while, although-but-trap, however-but ] }
-  - { ref: "§247", item: "Ch30 And, or, but, so etc: Words meaning 'so'", maps: [ because-so, reason-result-basic, result-clauses ] }
-  - { ref: "§249", item: "Ch31 Adverbial clauses: Introduction to adverbial clauses", maps: [ time-clauses-basic, reason-result-basic, place-clauses ] }
-  - { ref: "§250", item: "Ch31 Adverbial clauses: Clauses of time", maps: [ time-clauses-basic, time-clauses-full, as-simultaneous ] }
-  - { ref: "§251", item: "Ch31 Adverbial clauses: Clauses of reason", maps: [ reason-clauses, because-so ] }
-  - { ref: "§252", item: "Ch31 Adverbial clauses: Clauses of purpose", maps: [ purpose-clauses, lest ] }
-  - { ref: "§253", item: "Ch31 Adverbial clauses: Other adverbial clauses", maps: [ place-clauses, much-as, adj-as-though, as-if ] }
-  - { ref: "§254", item: "Ch31 Adverbial clauses: Whoever, whatever etc", maps: [ whoever-whatever-expert, ever-clauses, no-matter ] }
-  - { ref: "§256", item: "Ch32 Conditional clauses: The use of conditional clauses", maps: [ first-conditional, second-conditional, implied-conditionals ] }
-  - { ref: "§257", item: "Ch32 Conditional clauses: Verbs in conditional sentences", maps: [ zero-conditional, third-conditional, mixed-past-present, mixed-present-past, modals-conditional-main ] }
-  - { ref: "§258", item: "Ch32 Conditional clauses: Should, were, had and inversion", maps: [ inverted-had, inverted-should, inverted-were, if-were-to ] }
-  - { ref: "§259", item: "Ch32 Conditional clauses: If, as long as, unless, in case etc", maps: [ unless, as-long-as, in-case, provided-providing, only-if, suppose-what-if, otherwise, even-if ] }
-  - { ref: "§261", item: "Ch33 Noun clauses: Introduction to noun clauses", maps: [ that-clauses, wh-clauses ] }
-  - { ref: "§262", item: "Ch33 Noun clauses: Patterns with noun clauses", maps: [ that-clauses, wh-clauses, if-whether-clauses, it-adj-that, clause-as-subject, the-fact-that ] }
-  - { ref: "§264", item: "Ch34 Direct and indirect speech: Introduction to indirect speech", maps: [ say-tell, reported-thoughts ] }
-  - { ref: "§265", item: "Ch34 Direct and indirect speech: Verbs of reporting", maps: [ reporting-verbs-patterns, suggest-pattern, accuse-apologise, deny-having, that-omission ] }
-  - { ref: "§266", item: "Ch34 Direct and indirect speech: Tell, say and ask", maps: [ say-tell ] }
-  - { ref: "§267", item: "Ch34 Direct and indirect speech: Changes in indirect speech", maps: [ reported-changes ] }
-  - { ref: "§268", item: "Ch34 Direct and indirect speech: Tenses in indirect speech", maps: [ backshift, no-backshift, reported-modals ] }
-  - { ref: "§269", item: "Ch34 Direct and indirect speech: Reporting questions", maps: [ reported-questions, reported-if-whether ] }
-  - { ref: "§270", item: "Ch34 Direct and indirect speech: Reporting orders, requests, offers etc", maps: [ reported-commands, reported-requests ] }
-  - { ref: "§272", item: "Ch35 Relative clauses: Introduction to relative clauses", maps: [ relative-who-which-that, defining-nondefining ] }
-  - { ref: "§273", item: "Ch35 Relative clauses: Relative pronouns in clauses without commas", maps: [ defining-relative-basic, omit-relative, that-vs-which, preposition-relative, relative-where ] }
-  - { ref: "§274", item: "Ch35 Relative clauses: Relative clauses with commas", maps: [ defining-nondefining, sentential-which, quantifier-relative ] }
-  - { ref: "§275", item: "Ch35 Relative clauses: Whose", maps: [ whose-things, relative-whose-when ] }
-  - { ref: "§276", item: "Ch35 Relative clauses: Participle relative clauses", maps: [ reduced-relative, participle-clauses ] }
-  - { ref: "§277", item: "Ch35 Relative clauses: Infinitive relative clauses", maps: [ reduced-relative, first-to ] }
-  - { ref: "§278", item: "Ch35 Relative clauses: Which relating to a clause", maps: [ sentential-which, which-linker ] }
-  - { ref: "§279", item: "Ch35 Relative clauses: Relative adverbs", maps: [ relative-where, relative-whose-when, reason-why-way ] }
-  - { ref: "§280", item: "Ch35 Relative clauses: The relative pronoun what", maps: [ nominal-what ] }
-  - { ref: "§281", item: "Ch35 Relative clauses: Whoever, whatever and whichever", maps: [ whoever-whatever-expert, ever-clauses ] }
-  - { ref: "§283", item: "Ch36 Word-building: Compounds", maps: [ compound-words ] }
-  - { ref: "§284", item: "Ch36 Word-building: Prefixes", maps: [ prefix-negative, prefix-meaning, prefix-spelling ] }
-  - { ref: "§285", item: "Ch36 Word-building: Suffixes", maps: [ suffix-noun, suffix-adjective, suffix-verb, suffix-adverb, productive-affixes ] }
-  - { ref: "§286", item: "Ch36 Word-building: Vowel and consonant changes", maps: [ conversion ] }
-  - { ref: "§287", item: "Ch36 Word-building: Words belonging to more than one class", maps: [ conversion ] }
-  - { ref: "§288", item: "Ch36 Word-building: Nationality words", maps: [ nationality-words, capitals-days-languages, the-nationality ] }
-  - { ref: "§290", item: "Ch37 Word endings: pronunciation and spelling: The s/es ending", maps: [ third-person-spelling, third-person-s, plural-regular ] }
-  - { ref: "§291", item: "Ch37 Word endings: pronunciation and spelling: The ed ending", maps: [ ed-spelling ] }
-  - { ref: "§292", item: "Ch37 Word endings: pronunciation and spelling: Leaving out e", maps: [ ed-spelling, ing-spelling ] }
-  - { ref: "§293", item: "Ch37 Word endings: pronunciation and spelling: The doubling of consonants", maps: [ ed-spelling, ing-spelling ] }
-  - { ref: "§294", item: "Ch37 Word endings: pronunciation and spelling: Consonant + y", maps: [ third-person-spelling, plural-regular, adverb-spelling ] }
-  - { ref: "§296", item: "Ch38 Irregular noun plurals: Vowel and consonant changes", maps: [ plural-irregular ] }
-  - { ref: "§297", item: "Ch38 Irregular noun plurals: Nouns which do not change in the plural", maps: [ same-singular-plural ] }
-  - { ref: "§298", item: "Ch38 Irregular noun plurals: Irregular plural endings", maps: [ latin-greek-plurals, plural-irregular ] }
-  - { ref: "§300", item: "Ch39 Irregular verb forms: List of irregular verbs", maps: [ irregular-verbs-2, past-simple-irregular ] }
-  - { ref: "§301", item: "Ch39 Irregular verb forms: Special participle forms", maps: [ past-participle ] }
-  - { ref: "§303", item: "Ch40 American English: Differences with verbs", maps: [ us-uk-verbs, us-uk-verb-spelling, us-uk-collective, us-uk-subjunctive ] }
-  - { ref: "§304", item: "Ch40 American English: Differences with noun phrases", maps: [ us-uk-collective ] }
-  - { ref: "§305", item: "Ch40 American English: Differences with adjectives and adverbs", maps: [ us-uk-prepositions ] }
-  - { ref: "§306", item: "Ch40 American English: Differences with prepositions", maps: [ us-uk-prepositions ] }
-  - { ref: "§307", item: "Ch40 American English: Differences with conjunctions", maps: [ us-uk-prepositions ] }
-  - { ref: "§308", item: "Ch40 American English: American spelling", maps: [ us-uk-verb-spelling, quotes-us-uk ] }
+  - {
+      ref: "§189",
+      item: "Ch22 Pronouns: Everyone, something etc",
+      maps: [ indefinite-compounds, indefinite-singular-verb ],
+    }
+  - {
+      ref: "§191",
+      item: "Ch23 Numbers and measurements: Cardinal numbers",
+      maps: [ cardinal-numbers, large-numbers ],
+    }
+  - {
+      ref: "§192",
+      item: "Ch23 Numbers and measurements: Ordinal numbers",
+      maps: [ ordinal-numbers, dates ],
+    }
+  - {
+      ref: "§193",
+      item: "Ch23 Numbers and measurements: Fractions, decimals and percentages",
+      maps: [ fractions-decimals ],
+    }
+  - {
+      ref: "§194",
+      item: "Ch23 Numbers and measurements: Number of times",
+      maps: [ frequency-adverbs, how-often ],
+    }
+  - {
+      ref: "§195",
+      item: "Ch23 Numbers and measurements: Times and dates",
+      maps: [ telling-time, dates ],
+    }
+  - {
+      ref: "§196",
+      item: "Ch23 Numbers and measurements: Some other measurements",
+      maps: [ prices, approximating-numbers, measurement-adjectives ],
+    }
+  - {
+      ref: "§198",
+      item: "Ch24 Adjectives: Introduction to adjectives",
+      maps: [ adjective-position, adjective-no-plural ],
+    }
+  - {
+      ref: "§199",
+      item: "Ch24 Adjectives: The position of adjectives",
+      maps: [ adjective-position, attributive-only, predicative-only ],
+    }
+  - {
+      ref: "§200",
+      item: "Ch24 Adjectives: Adjectives used in one position only",
+      maps: [ attributive-only, predicative-only ],
+    }
+  - {
+      ref: "§201",
+      item: "Ch24 Adjectives: Adjectives after nouns and pronouns",
+      maps: [ postposed-adjectives, something-to-adjective ],
+    }
+  - {
+      ref: "§202",
+      item: "Ch24 Adjectives: The order of adjectives",
+      maps:
+        [ adjective-order-intro, adjective-order-full, compound-adjectives ],
+    }
+  - {
+      ref: "§203",
+      item: "Ch24 Adjectives: Amusing and amused, interesting and interested",
+      maps: [ ed-ing-adjectives ],
+    }
+  - {
+      ref: "§204",
+      item: "Ch24 Adjectives: The + adjective",
+      maps: [ the-adjective-group, the-nationality ],
+    }
+  - {
+      ref: "§206",
+      item: "Ch25 Adverbials: Introduction to adverbials",
+      maps: [ adverbs-manner, adverb-positions, adverbial-order-advanced ],
+    }
+  - {
+      ref: "§207",
+      item: "Ch25 Adverbials: Adverb forms",
+      maps: [ adverb-spelling, irregular-adverbs, adjective-vs-adverb ],
+    }
+  - {
+      ref: "§208",
+      item: "Ch25 Adverbials: The position of adverbials",
+      maps:
+        [
+          adverb-positions,
+          adverb-order,
+          position-meaning-adjectives,
+          adverbial-scope,
+        ],
+    }
+  - {
+      ref: "§209",
+      item: "Ch25 Adverbials: Adverbs of manner",
+      maps: [ adverbs-manner, adjective-vs-adverb ],
+    }
+  - {
+      ref: "§210",
+      item: "Ch25 Adverbials: Place and time",
+      maps: [ place-before-time, adverb-order, adverbs-place-direction ],
+    }
+  - {
+      ref: "§211",
+      item: "Ch25 Adverbials: Adverbs of frequency",
+      maps: [ frequency-adverbs, frequency-position ],
+    }
+  - {
+      ref: "§212",
+      item: "Ch25 Adverbials: Adverbs of degree",
+      maps:
+        [
+          very-really,
+          too-basic,
+          too-enough,
+          intensifiers,
+          gradable-nongradable,
+          softeners,
+          quite-us-uk,
+        ],
+    }
+  - {
+      ref: "§213",
+      item: "Ch25 Adverbials: Focus and viewpoint",
+      maps: [ focus-adverbs, only-position, viewpoint-adverbs ],
+    }
+  - {
+      ref: "§214",
+      item: "Ch25 Adverbials: Truth adverbs",
+      maps: [ probably-negative, degree-collocations ],
+    }
+  - {
+      ref: "§215",
+      item: "Ch25 Adverbials: Comment adverbs",
+      maps: [ comment-adverbs ],
+    }
+  - {
+      ref: "§216",
+      item: "Ch25 Adverbials: Linking adverbs",
+      maps:
+        [
+          linkers-addition,
+          linkers-contrast,
+          linkers-result,
+          sequencing,
+          disjuncts-conjuncts,
+        ],
+    }
+  - {
+      ref: "§218",
+      item: "Ch26 Comparison: The comparative and superlative of adjectives",
+      maps:
+        [
+          comparatives-short,
+          comparatives-long,
+          comparatives-irregular,
+          superlatives,
+          superlative-in-of,
+          than-me,
+          elder-older,
+        ],
+    }
+  - {
+      ref: "§219",
+      item: "Ch26 Comparison: The comparative and superlative of adverbs",
+      maps: [ adverb-comparison, irregular-adverbs ],
+    }
+  - {
+      ref: "§220",
+      item: "Ch26 Comparison: More, most, less, least, fewer andfewest",
+      maps: [ less-least, fewer-less ],
+    }
+  - {
+      ref: "§221",
+      item: "Ch26 Comparison: Patterns expressing a comparison",
+      maps:
+        [
+          as-as,
+          same-similar-different,
+          times-as,
+          like-as,
+          comparison-ellipsis,
+          superlative-ever,
+        ],
+    }
+  - {
+      ref: "§222",
+      item: "Ch26 Comparison: Special patterns with the comparative",
+      maps:
+        [
+          the-the-intro,
+          more-and-more,
+          much-far-comparative,
+          the-comparative-the,
+          by-far,
+        ],
+    }
+  - {
+      ref: "§224",
+      item: "Ch27 Prepositions: Introduction to prepositions",
+      maps: [ prep-phrases, prep-vs-conj ],
+    }
+  - {
+      ref: "§225",
+      item: "Ch27 Prepositions: Prepositions of place",
+      maps:
+        [
+          place-in-on-at,
+          place-others,
+          address-prepositions,
+          above-over-below-under,
+          between-among,
+          movement,
+          transport-in-on,
+        ],
+    }
+  - {
+      ref: "§226",
+      item: "Ch27 Prepositions: Prepositions of place: more details",
+      maps:
+        [
+          above-over-below-under,
+          between-among,
+          by-with,
+          place-adverbial-verbs,
+          in-on-at-other,
+        ],
+    }
+  - {
+      ref: "§227",
+      item: "Ch27 Prepositions: Prepositions of time",
+      maps:
+        [
+          time-at-on-in,
+          from-to-until,
+          no-prep-time,
+          at-night-weekend,
+          during-vs-for,
+          by-until,
+        ],
+    }
+  - {
+      ref: "§228",
+      item: "Ch27 Prepositions: Prepositions: other meanings",
+      maps: [ by-with, about-prep, except-besides, with-without-description ],
+    }
+  - {
+      ref: "§229",
+      item: "Ch27 Prepositions: Idiomatic phrases with prepositions",
+      maps: [ prep-phrases, complex-prepositions, due-to-owing-to ],
+    }
+  - {
+      ref: "§231",
+      item: "Ch28 Phrasal verbs and patterns with prepositions: Verbs with adverbs and prepositions",
+      maps:
+        [
+          phrasal-verbs-intro,
+          phrasal-separable,
+          phrasal-pronoun-position,
+          three-part-phrasal,
+          movement-particles,
+        ],
+    }
+  - {
+      ref: "§232",
+      item: "Ch28 Phrasal verbs and patterns with prepositions: Phrasal verb meanings",
+      maps: [ phrasal-verbs-intro, latinate-phrasal ],
+    }
+  - {
+      ref: "§233",
+      item: "Ch28 Phrasal verbs and patterns with prepositions: Prepositional verbs",
+      maps: [ prepositional-verbs, verb-prep-1 ],
+    }
+  - {
+      ref: "§234",
+      item: "Ch28 Phrasal verbs and patterns with prepositions: Verb + object + preposition",
+      maps: [ verb-obj-prep ],
+    }
+  - {
+      ref: "§235",
+      item: "Ch28 Phrasal verbs and patterns with prepositions: Verb + adverb + preposition",
+      maps: [ three-part-phrasal ],
+    }
+  - {
+      ref: "§236",
+      item: "Ch28 Phrasal verbs and patterns with prepositions: Adjective + preposition",
+      maps: [ adj-prep-1, adjective-prep-that-to ],
+    }
+  - {
+      ref: "§237",
+      item: "Ch28 Phrasal verbs and patterns with prepositions: Noun + preposition",
+      maps: [ noun-prep ],
+    }
+  - {
+      ref: "§239",
+      item: "Ch29 Sentences with more than one clause: Types of clause",
+      maps: [ infinitive-clauses, participle-clauses, verbless-clauses ],
+    }
+  - {
+      ref: "§240",
+      item: "Ch29 Sentences with more than one clause: Clause",
+      maps: [ defining-relative-basic, that-clauses ],
+    }
+  - {
+      ref: "§241",
+      item: "Ch29 Sentences with more than one clause: Tenses in sub clauses",
+      maps: [ future-time-clauses, wish-past, wish-past-perfect ],
+    }
+  - {
+      ref: "§242",
+      item: "Ch29 Sentences with more than one clause: The subjunctive",
+      maps:
+        [
+          mandative-subjunctive,
+          were-subjunctive,
+          formulaic-subjunctive,
+          should-subjunctive,
+          may-wishes,
+        ],
+    }
+  - {
+      ref: "§244",
+      item: "Ch30 And, or, but, so etc: Words meaning 'and'",
+      maps: [ and-but-or, both-and, not-only-but-also, as-well-as ],
+    }
+  - {
+      ref: "§245",
+      item: "Ch30 And, or, but, so etc: Words meaning 'or'",
+      maps: [ and-but-or, either-or-neither-nor, not-or-nor ],
+    }
+  - {
+      ref: "§246",
+      item: "Ch30 And, or, but, so etc: Words meaning 'but'",
+      maps:
+        [
+          and-but-or,
+          contrast-although,
+          whereas-while,
+          although-but-trap,
+          however-but,
+        ],
+    }
+  - {
+      ref: "§247",
+      item: "Ch30 And, or, but, so etc: Words meaning 'so'",
+      maps: [ because-so, reason-result-basic, result-clauses ],
+    }
+  - {
+      ref: "§249",
+      item: "Ch31 Adverbial clauses: Introduction to adverbial clauses",
+      maps: [ time-clauses-basic, reason-result-basic, place-clauses ],
+    }
+  - {
+      ref: "§250",
+      item: "Ch31 Adverbial clauses: Clauses of time",
+      maps: [ time-clauses-basic, time-clauses-full, as-simultaneous ],
+    }
+  - {
+      ref: "§251",
+      item: "Ch31 Adverbial clauses: Clauses of reason",
+      maps: [ reason-clauses, because-so ],
+    }
+  - {
+      ref: "§252",
+      item: "Ch31 Adverbial clauses: Clauses of purpose",
+      maps: [ purpose-clauses, lest ],
+    }
+  - {
+      ref: "§253",
+      item: "Ch31 Adverbial clauses: Other adverbial clauses",
+      maps: [ place-clauses, much-as, adj-as-though, as-if ],
+    }
+  - {
+      ref: "§254",
+      item: "Ch31 Adverbial clauses: Whoever, whatever etc",
+      maps: [ whoever-whatever-expert, ever-clauses, no-matter ],
+    }
+  - {
+      ref: "§256",
+      item: "Ch32 Conditional clauses: The use of conditional clauses",
+      maps: [ first-conditional, second-conditional, implied-conditionals ],
+    }
+  - {
+      ref: "§257",
+      item: "Ch32 Conditional clauses: Verbs in conditional sentences",
+      maps:
+        [
+          zero-conditional,
+          third-conditional,
+          mixed-past-present,
+          mixed-present-past,
+          modals-conditional-main,
+        ],
+    }
+  - {
+      ref: "§258",
+      item: "Ch32 Conditional clauses: Should, were, had and inversion",
+      maps: [ inverted-had, inverted-should, inverted-were, if-were-to ],
+    }
+  - {
+      ref: "§259",
+      item: "Ch32 Conditional clauses: If, as long as, unless, in case etc",
+      maps:
+        [
+          unless,
+          as-long-as,
+          in-case,
+          provided-providing,
+          only-if,
+          suppose-what-if,
+          otherwise,
+          even-if,
+        ],
+    }
+  - {
+      ref: "§261",
+      item: "Ch33 Noun clauses: Introduction to noun clauses",
+      maps: [ that-clauses, wh-clauses ],
+    }
+  - {
+      ref: "§262",
+      item: "Ch33 Noun clauses: Patterns with noun clauses",
+      maps:
+        [
+          that-clauses,
+          wh-clauses,
+          if-whether-clauses,
+          it-adj-that,
+          clause-as-subject,
+          the-fact-that,
+        ],
+    }
+  - {
+      ref: "§264",
+      item: "Ch34 Direct and indirect speech: Introduction to indirect speech",
+      maps: [ say-tell, reported-thoughts ],
+    }
+  - {
+      ref: "§265",
+      item: "Ch34 Direct and indirect speech: Verbs of reporting",
+      maps:
+        [
+          reporting-verbs-patterns,
+          suggest-pattern,
+          accuse-apologise,
+          deny-having,
+          that-omission,
+        ],
+    }
+  - {
+      ref: "§266",
+      item: "Ch34 Direct and indirect speech: Tell, say and ask",
+      maps: [ say-tell ],
+    }
+  - {
+      ref: "§267",
+      item: "Ch34 Direct and indirect speech: Changes in indirect speech",
+      maps: [ reported-changes ],
+    }
+  - {
+      ref: "§268",
+      item: "Ch34 Direct and indirect speech: Tenses in indirect speech",
+      maps: [ backshift, no-backshift, reported-modals ],
+    }
+  - {
+      ref: "§269",
+      item: "Ch34 Direct and indirect speech: Reporting questions",
+      maps: [ reported-questions, reported-if-whether ],
+    }
+  - {
+      ref: "§270",
+      item: "Ch34 Direct and indirect speech: Reporting orders, requests, offers etc",
+      maps: [ reported-commands, reported-requests ],
+    }
+  - {
+      ref: "§272",
+      item: "Ch35 Relative clauses: Introduction to relative clauses",
+      maps: [ relative-who-which-that, defining-nondefining ],
+    }
+  - {
+      ref: "§273",
+      item: "Ch35 Relative clauses: Relative pronouns in clauses without commas",
+      maps:
+        [
+          defining-relative-basic,
+          omit-relative,
+          that-vs-which,
+          preposition-relative,
+          relative-where,
+        ],
+    }
+  - {
+      ref: "§274",
+      item: "Ch35 Relative clauses: Relative clauses with commas",
+      maps: [ defining-nondefining, sentential-which, quantifier-relative ],
+    }
+  - {
+      ref: "§275",
+      item: "Ch35 Relative clauses: Whose",
+      maps: [ whose-things, relative-whose-when ],
+    }
+  - {
+      ref: "§276",
+      item: "Ch35 Relative clauses: Participle relative clauses",
+      maps: [ reduced-relative, participle-clauses ],
+    }
+  - {
+      ref: "§277",
+      item: "Ch35 Relative clauses: Infinitive relative clauses",
+      maps: [ reduced-relative, first-to ],
+    }
+  - {
+      ref: "§278",
+      item: "Ch35 Relative clauses: Which relating to a clause",
+      maps: [ sentential-which, which-linker ],
+    }
+  - {
+      ref: "§279",
+      item: "Ch35 Relative clauses: Relative adverbs",
+      maps: [ relative-where, relative-whose-when, reason-why-way ],
+    }
+  - {
+      ref: "§280",
+      item: "Ch35 Relative clauses: The relative pronoun what",
+      maps: [ nominal-what ],
+    }
+  - {
+      ref: "§281",
+      item: "Ch35 Relative clauses: Whoever, whatever and whichever",
+      maps: [ whoever-whatever-expert, ever-clauses ],
+    }
+  - {
+      ref: "§283",
+      item: "Ch36 Word-building: Compounds",
+      maps: [ compound-words ],
+    }
+  - {
+      ref: "§284",
+      item: "Ch36 Word-building: Prefixes",
+      maps: [ prefix-negative, prefix-meaning, prefix-spelling ],
+    }
+  - {
+      ref: "§285",
+      item: "Ch36 Word-building: Suffixes",
+      maps:
+        [
+          suffix-noun,
+          suffix-adjective,
+          suffix-verb,
+          suffix-adverb,
+          productive-affixes,
+        ],
+    }
+  - {
+      ref: "§286",
+      item: "Ch36 Word-building: Vowel and consonant changes",
+      maps: [ conversion ],
+    }
+  - {
+      ref: "§287",
+      item: "Ch36 Word-building: Words belonging to more than one class",
+      maps: [ conversion ],
+    }
+  - {
+      ref: "§288",
+      item: "Ch36 Word-building: Nationality words",
+      maps: [ nationality-words, capitals-days-languages, the-nationality ],
+    }
+  - {
+      ref: "§290",
+      item: "Ch37 Word endings: pronunciation and spelling: The s/es ending",
+      maps: [ third-person-spelling, third-person-s, plural-regular ],
+    }
+  - {
+      ref: "§291",
+      item: "Ch37 Word endings: pronunciation and spelling: The ed ending",
+      maps: [ ed-spelling ],
+    }
+  - {
+      ref: "§292",
+      item: "Ch37 Word endings: pronunciation and spelling: Leaving out e",
+      maps: [ ed-spelling, ing-spelling ],
+    }
+  - {
+      ref: "§293",
+      item: "Ch37 Word endings: pronunciation and spelling: The doubling of consonants",
+      maps: [ ed-spelling, ing-spelling ],
+    }
+  - {
+      ref: "§294",
+      item: "Ch37 Word endings: pronunciation and spelling: Consonant + y",
+      maps: [ third-person-spelling, plural-regular, adverb-spelling ],
+    }
+  - {
+      ref: "§296",
+      item: "Ch38 Irregular noun plurals: Vowel and consonant changes",
+      maps: [ plural-irregular ],
+    }
+  - {
+      ref: "§297",
+      item: "Ch38 Irregular noun plurals: Nouns which do not change in the plural",
+      maps: [ same-singular-plural ],
+    }
+  - {
+      ref: "§298",
+      item: "Ch38 Irregular noun plurals: Irregular plural endings",
+      maps: [ latin-greek-plurals, plural-irregular ],
+    }
+  - {
+      ref: "§300",
+      item: "Ch39 Irregular verb forms: List of irregular verbs",
+      maps: [ irregular-verbs-2, past-simple-irregular ],
+    }
+  - {
+      ref: "§301",
+      item: "Ch39 Irregular verb forms: Special participle forms",
+      maps: [ past-participle ],
+    }
+  - {
+      ref: "§303",
+      item: "Ch40 American English: Differences with verbs",
+      maps:
+        [
+          us-uk-verbs,
+          us-uk-verb-spelling,
+          us-uk-collective,
+          us-uk-subjunctive,
+        ],
+    }
+  - {
+      ref: "§304",
+      item: "Ch40 American English: Differences with noun phrases",
+      maps: [ us-uk-collective ],
+    }
+  - {
+      ref: "§305",
+      item: "Ch40 American English: Differences with adjectives and adverbs",
+      maps: [ us-uk-prepositions ],
+    }
+  - {
+      ref: "§306",
+      item: "Ch40 American English: Differences with prepositions",
+      maps: [ us-uk-prepositions ],
+    }
+  - {
+      ref: "§307",
+      item: "Ch40 American English: Differences with conjunctions",
+      maps: [ us-uk-prepositions ],
+    }
+  - {
+      ref: "§308",
+      item: "Ch40 American English: American spelling",
+      maps: [ us-uk-verb-spelling, quotes-us-uk ],
+    }

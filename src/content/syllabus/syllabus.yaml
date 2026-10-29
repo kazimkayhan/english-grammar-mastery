@@ -3,263 +3,2013 @@
 # Fields: id (level-number), level, number, title, pillar, size (core ≈ 45 min, mini ≈ 20 min).
 
 # ------------------------------------------------------------------ A1 (35)
-- { id: a1-01, level: A1, number: 1, title: "Parts of speech & sentence parts", pillar: word-classes, size: core }
-- { id: a1-02, level: A1, number: 2, title: "Capital letters, periods & question marks", pillar: style, size: mini }
-- { id: a1-03, level: A1, number: 3, title: "Every sentence needs a subject: SVO order", pillar: sentence-structure, size: core }
-- { id: a1-04, level: A1, number: 4, title: "Subject pronouns: I, you, he, she, it, we, they", pillar: pronouns, size: core }
-- { id: a1-05, level: A1, number: 5, title: "be: am, is, are", pillar: tenses, size: core }
-- { id: a1-06, level: A1, number: 6, title: "be: questions & short answers", pillar: sentence-structure, size: core }
-- { id: a1-07, level: A1, number: 7, title: "Question words: what, where, who, when, how", pillar: sentence-structure, size: core }
-- { id: a1-08, level: A1, number: 8, title: "Plural nouns", pillar: nouns, size: core }
-- { id: a1-09, level: A1, number: 9, title: "a or an?", pillar: determiners, size: mini }
-- { id: a1-10, level: A1, number: 10, title: "the: first steps", pillar: determiners, size: core }
-- { id: a1-11, level: A1, number: 11, title: "this, that, these, those", pillar: determiners, size: mini }
-- { id: a1-12, level: A1, number: 12, title: "my, your, his, her… and 's", pillar: pronouns, size: core }
-- { id: a1-13, level: A1, number: 13, title: "Object pronouns: me, him, her, us, them", pillar: pronouns, size: mini }
-- { id: a1-14, level: A1, number: 14, title: "there is / there are", pillar: sentence-structure, size: core }
-- { id: a1-15, level: A1, number: 15, title: "Countable & uncountable nouns; some, any, how much, how many", pillar: nouns, size: core }
-- { id: a1-16, level: A1, number: 16, title: "have / have got", pillar: tenses, size: core }
-- { id: a1-17, level: A1, number: 17, title: "Present simple: positive", pillar: tenses, size: core }
-- { id: a1-18, level: A1, number: 18, title: "Present simple: negatives & questions", pillar: tenses, size: core }
-- { id: a1-19, level: A1, number: 19, title: "Adverbs of frequency: always, usually, never", pillar: modifiers, size: core }
-- { id: a1-20, level: A1, number: 20, title: "Imperatives & let's", pillar: sentence-structure, size: mini }
-- { id: a1-21, level: A1, number: 21, title: "can / can't (and how modal verbs work)", pillar: modals, size: core }
-- { id: a1-22, level: A1, number: 22, title: "Present continuous", pillar: tenses, size: core }
-- { id: a1-23, level: A1, number: 23, title: "Present simple or present continuous?", pillar: tenses, size: core }
-- { id: a1-24, level: A1, number: 24, title: "like, love, hate + -ing; would like", pillar: verb-patterns, size: core }
-- { id: a1-25, level: A1, number: 25, title: "was / were", pillar: tenses, size: core }
-- { id: a1-26, level: A1, number: 26, title: "Past simple: regular verbs", pillar: tenses, size: core }
-- { id: a1-27, level: A1, number: 27, title: "Past simple: irregular verbs & did", pillar: tenses, size: core }
-- { id: a1-28, level: A1, number: 28, title: "Past time phrases: yesterday, last week, ago", pillar: tenses, size: mini }
-- { id: a1-29, level: A1, number: 29, title: "Adjectives: before nouns and after be", pillar: modifiers, size: core }
-- { id: a1-30, level: A1, number: 30, title: "very, really, too", pillar: modifiers, size: mini }
-- { id: a1-31, level: A1, number: 31, title: "Prepositions of place", pillar: prepositions, size: core }
-- { id: a1-32, level: A1, number: 32, title: "Prepositions of time: at, on, in", pillar: prepositions, size: core }
-- { id: a1-33, level: A1, number: 33, title: "and, but, or, because, so", pillar: linking, size: core }
-- { id: a1-34, level: A1, number: 34, title: "it for time, weather & distance", pillar: sentence-structure, size: mini }
-- { id: a1-35, level: A1, number: 35, title: "Numbers, dates, times & prices", pillar: determiners, size: core }
+- {
+    id: a1-01,
+    level: A1,
+    number: 1,
+    title: "Parts of speech & sentence parts",
+    pillar: word-classes,
+    size: core,
+  }
+- {
+    id: a1-02,
+    level: A1,
+    number: 2,
+    title: "Capital letters, periods & question marks",
+    pillar: style,
+    size: mini,
+  }
+- {
+    id: a1-03,
+    level: A1,
+    number: 3,
+    title: "Every sentence needs a subject: SVO order",
+    pillar: sentence-structure,
+    size: core,
+  }
+- {
+    id: a1-04,
+    level: A1,
+    number: 4,
+    title: "Subject pronouns: I, you, he, she, it, we, they",
+    pillar: pronouns,
+    size: core,
+  }
+- {
+    id: a1-05,
+    level: A1,
+    number: 5,
+    title: "be: am, is, are",
+    pillar: tenses,
+    size: core,
+  }
+- {
+    id: a1-06,
+    level: A1,
+    number: 6,
+    title: "be: questions & short answers",
+    pillar: sentence-structure,
+    size: core,
+  }
+- {
+    id: a1-07,
+    level: A1,
+    number: 7,
+    title: "Question words: what, where, who, when, how",
+    pillar: sentence-structure,
+    size: core,
+  }
+- {
+    id: a1-08,
+    level: A1,
+    number: 8,
+    title: "Plural nouns",
+    pillar: nouns,
+    size: core,
+  }
+- {
+    id: a1-09,
+    level: A1,
+    number: 9,
+    title: "a or an?",
+    pillar: determiners,
+    size: mini,
+  }
+- {
+    id: a1-10,
+    level: A1,
+    number: 10,
+    title: "the: first steps",
+    pillar: determiners,
+    size: core,
+  }
+- {
+    id: a1-11,
+    level: A1,
+    number: 11,
+    title: "this, that, these, those",
+    pillar: determiners,
+    size: mini,
+  }
+- {
+    id: a1-12,
+    level: A1,
+    number: 12,
+    title: "my, your, his, her… and 's",
+    pillar: pronouns,
+    size: core,
+  }
+- {
+    id: a1-13,
+    level: A1,
+    number: 13,
+    title: "Object pronouns: me, him, her, us, them",
+    pillar: pronouns,
+    size: mini,
+  }
+- {
+    id: a1-14,
+    level: A1,
+    number: 14,
+    title: "there is / there are",
+    pillar: sentence-structure,
+    size: core,
+  }
+- {
+    id: a1-15,
+    level: A1,
+    number: 15,
+    title: "Countable & uncountable nouns; some, any, how much, how many",
+    pillar: nouns,
+    size: core,
+  }
+- {
+    id: a1-16,
+    level: A1,
+    number: 16,
+    title: "have / have got",
+    pillar: tenses,
+    size: core,
+  }
+- {
+    id: a1-17,
+    level: A1,
+    number: 17,
+    title: "Present simple: positive",
+    pillar: tenses,
+    size: core,
+  }
+- {
+    id: a1-18,
+    level: A1,
+    number: 18,
+    title: "Present simple: negatives & questions",
+    pillar: tenses,
+    size: core,
+  }
+- {
+    id: a1-19,
+    level: A1,
+    number: 19,
+    title: "Adverbs of frequency: always, usually, never",
+    pillar: modifiers,
+    size: core,
+  }
+- {
+    id: a1-20,
+    level: A1,
+    number: 20,
+    title: "Imperatives & let's",
+    pillar: sentence-structure,
+    size: mini,
+  }
+- {
+    id: a1-21,
+    level: A1,
+    number: 21,
+    title: "can / can't (and how modal verbs work)",
+    pillar: modals,
+    size: core,
+  }
+- {
+    id: a1-22,
+    level: A1,
+    number: 22,
+    title: "Present continuous",
+    pillar: tenses,
+    size: core,
+  }
+- {
+    id: a1-23,
+    level: A1,
+    number: 23,
+    title: "Present simple or present continuous?",
+    pillar: tenses,
+    size: core,
+  }
+- {
+    id: a1-24,
+    level: A1,
+    number: 24,
+    title: "like, love, hate + -ing; would like",
+    pillar: verb-patterns,
+    size: core,
+  }
+- {
+    id: a1-25,
+    level: A1,
+    number: 25,
+    title: "was / were",
+    pillar: tenses,
+    size: core,
+  }
+- {
+    id: a1-26,
+    level: A1,
+    number: 26,
+    title: "Past simple: regular verbs",
+    pillar: tenses,
+    size: core,
+  }
+- {
+    id: a1-27,
+    level: A1,
+    number: 27,
+    title: "Past simple: irregular verbs & did",
+    pillar: tenses,
+    size: core,
+  }
+- {
+    id: a1-28,
+    level: A1,
+    number: 28,
+    title: "Past time phrases: yesterday, last week, ago",
+    pillar: tenses,
+    size: mini,
+  }
+- {
+    id: a1-29,
+    level: A1,
+    number: 29,
+    title: "Adjectives: before nouns and after be",
+    pillar: modifiers,
+    size: core,
+  }
+- {
+    id: a1-30,
+    level: A1,
+    number: 30,
+    title: "very, really, too",
+    pillar: modifiers,
+    size: mini,
+  }
+- {
+    id: a1-31,
+    level: A1,
+    number: 31,
+    title: "Prepositions of place",
+    pillar: prepositions,
+    size: core,
+  }
+- {
+    id: a1-32,
+    level: A1,
+    number: 32,
+    title: "Prepositions of time: at, on, in",
+    pillar: prepositions,
+    size: core,
+  }
+- {
+    id: a1-33,
+    level: A1,
+    number: 33,
+    title: "and, but, or, because, so",
+    pillar: linking,
+    size: core,
+  }
+- {
+    id: a1-34,
+    level: A1,
+    number: 34,
+    title: "it for time, weather & distance",
+    pillar: sentence-structure,
+    size: mini,
+  }
+- {
+    id: a1-35,
+    level: A1,
+    number: 35,
+    title: "Numbers, dates, times & prices",
+    pillar: determiners,
+    size: core,
+  }
 
 # ------------------------------------------------------------------ A2 (47)
-- { id: a2-01, level: A2, number: 1, title: "Wh- questions: which, whose, how long, what … like", pillar: sentence-structure, size: core }
-- { id: a2-02, level: A2, number: 2, title: "Negatives & answering negative questions", pillar: sentence-structure, size: core }
-- { id: a2-03, level: A2, number: 3, title: "Short responses: So do I, Me neither, I think so", pillar: linking, size: mini }
-- { id: a2-04, level: A2, number: 4, title: "Exclamations: What a…! How…!", pillar: sentence-structure, size: mini }
-- { id: a2-05, level: A2, number: 5, title: "Verbs with two objects: give me it / give it to me", pillar: verb-patterns, size: mini }
-- { id: a2-06, level: A2, number: 6, title: "Contractions & apostrophes", pillar: style, size: mini }
-- { id: a2-07, level: A2, number: 7, title: "Past simple: more irregular verbs", pillar: tenses, size: core }
-- { id: a2-08, level: A2, number: 8, title: "Past continuous; when & while", pillar: tenses, size: core }
-- { id: a2-09, level: A2, number: 9, title: "Past simple or past continuous?", pillar: tenses, size: core }
-- { id: a2-10, level: A2, number: 10, title: "used to", pillar: tenses, size: core }
-- { id: a2-11, level: A2, number: 11, title: "going to", pillar: tenses, size: core }
-- { id: a2-12, level: A2, number: 12, title: "will & shall", pillar: tenses, size: core }
-- { id: a2-13, level: A2, number: 13, title: "Present continuous for the future", pillar: tenses, size: mini }
-- { id: a2-14, level: A2, number: 14, title: "Verb forms & auxiliary verbs", pillar: tenses, size: mini }
-- { id: a2-15, level: A2, number: 15, title: "Present perfect: experience (ever, never, been, gone)", pillar: tenses, size: core }
-- { id: a2-16, level: A2, number: 16, title: "Present perfect: just, already, yet", pillar: tenses, size: core }
-- { id: a2-17, level: A2, number: 17, title: "Linking verbs: look, feel, sound, seem + adjective", pillar: verb-patterns, size: mini }
-- { id: a2-18, level: A2, number: 18, title: "Phrasal verbs: first steps", pillar: verb-patterns, size: core }
-- { id: a2-19, level: A2, number: 19, title: "must, mustn't, have to, don't have to", pillar: modals, size: core }
-- { id: a2-20, level: A2, number: 20, title: "should for advice", pillar: modals, size: mini }
-- { id: a2-21, level: A2, number: 21, title: "could, be able to; asking for things & permission", pillar: modals, size: core }
-- { id: a2-22, level: A2, number: 22, title: "may & might", pillar: modals, size: mini }
-- { id: a2-23, level: A2, number: 23, title: "Suggestions & offers: Let's, Shall we, How about", pillar: modals, size: mini }
-- { id: a2-24, level: A2, number: 24, title: "verb + to or verb + -ing? (basics)", pillar: verb-patterns, size: core }
-- { id: a2-25, level: A2, number: 25, title: "to for purpose: I came to study", pillar: verb-patterns, size: mini }
-- { id: a2-26, level: A2, number: 26, title: "Zero conditional", pillar: conditionals, size: mini }
-- { id: a2-27, level: A2, number: 27, title: "First conditional & future time clauses", pillar: conditionals, size: core }
-- { id: a2-28, level: A2, number: 28, title: "Relative clauses: who, which, that, where", pillar: clauses, size: core }
-- { id: a2-29, level: A2, number: 29, title: "Time & reason clauses: when, before, because", pillar: clauses, size: core }
-- { id: a2-30, level: A2, number: 30, title: "the or no article?", pillar: determiners, size: core }
-- { id: a2-31, level: A2, number: 31, title: "much, many, a lot of, a few, a little", pillar: determiners, size: core }
-- { id: a2-32, level: A2, number: 32, title: "some, any, no; something, anyone, nowhere", pillar: determiners, size: core }
-- { id: a2-33, level: A2, number: 33, title: "mine, yours… and whose", pillar: pronouns, size: core }
-- { id: a2-34, level: A2, number: 34, title: "Reflexive pronouns: myself, yourself", pillar: pronouns, size: mini }
-- { id: a2-35, level: A2, number: 35, title: "one, ones; another, other, the other", pillar: determiners, size: mini }
-- { id: a2-36, level: A2, number: 36, title: "all, both, each, every", pillar: determiners, size: mini }
-- { id: a2-37, level: A2, number: 37, title: "Comparatives", pillar: modifiers, size: core }
-- { id: a2-38, level: A2, number: 38, title: "Superlatives", pillar: modifiers, size: core }
-- { id: a2-39, level: A2, number: 39, title: "as … as, the same as, different from", pillar: modifiers, size: mini }
-- { id: a2-40, level: A2, number: 40, title: "too, enough, very", pillar: modifiers, size: mini }
-- { id: a2-41, level: A2, number: 41, title: "Adverbs of manner: quickly, well", pillar: modifiers, size: core }
-- { id: a2-42, level: A2, number: 42, title: "-ed or -ing adjectives: bored or boring?", pillar: modifiers, size: mini }
-- { id: a2-43, level: A2, number: 43, title: "already, yet, still, just; also, too, either", pillar: modifiers, size: mini }
-- { id: a2-44, level: A2, number: 44, title: "Prepositions of movement", pillar: prepositions, size: core }
-- { id: a2-45, level: A2, number: 45, title: "by, with, about; between, among; above, over", pillar: prepositions, size: mini }
-- { id: a2-46, level: A2, number: 46, title: "Sequencing: first, then, after that, finally", pillar: linking, size: mini }
-- { id: a2-47, level: A2, number: 47, title: "Commas in lists & capital letters", pillar: style, size: mini }
+- {
+    id: a2-01,
+    level: A2,
+    number: 1,
+    title: "Wh- questions: which, whose, how long, what … like",
+    pillar: sentence-structure,
+    size: core,
+  }
+- {
+    id: a2-02,
+    level: A2,
+    number: 2,
+    title: "Negatives & answering negative questions",
+    pillar: sentence-structure,
+    size: core,
+  }
+- {
+    id: a2-03,
+    level: A2,
+    number: 3,
+    title: "Short responses: So do I, Me neither, I think so",
+    pillar: linking,
+    size: mini,
+  }
+- {
+    id: a2-04,
+    level: A2,
+    number: 4,
+    title: "Exclamations: What a…! How…!",
+    pillar: sentence-structure,
+    size: mini,
+  }
+- {
+    id: a2-05,
+    level: A2,
+    number: 5,
+    title: "Verbs with two objects: give me it / give it to me",
+    pillar: verb-patterns,
+    size: mini,
+  }
+- {
+    id: a2-06,
+    level: A2,
+    number: 6,
+    title: "Contractions & apostrophes",
+    pillar: style,
+    size: mini,
+  }
+- {
+    id: a2-07,
+    level: A2,
+    number: 7,
+    title: "Past simple: more irregular verbs",
+    pillar: tenses,
+    size: core,
+  }
+- {
+    id: a2-08,
+    level: A2,
+    number: 8,
+    title: "Past continuous; when & while",
+    pillar: tenses,
+    size: core,
+  }
+- {
+    id: a2-09,
+    level: A2,
+    number: 9,
+    title: "Past simple or past continuous?",
+    pillar: tenses,
+    size: core,
+  }
+- {
+    id: a2-10,
+    level: A2,
+    number: 10,
+    title: "used to",
+    pillar: tenses,
+    size: core,
+  }
+- {
+    id: a2-11,
+    level: A2,
+    number: 11,
+    title: "going to",
+    pillar: tenses,
+    size: core,
+  }
+- {
+    id: a2-12,
+    level: A2,
+    number: 12,
+    title: "will & shall",
+    pillar: tenses,
+    size: core,
+  }
+- {
+    id: a2-13,
+    level: A2,
+    number: 13,
+    title: "Present continuous for the future",
+    pillar: tenses,
+    size: mini,
+  }
+- {
+    id: a2-14,
+    level: A2,
+    number: 14,
+    title: "Verb forms & auxiliary verbs",
+    pillar: tenses,
+    size: mini,
+  }
+- {
+    id: a2-15,
+    level: A2,
+    number: 15,
+    title: "Present perfect: experience (ever, never, been, gone)",
+    pillar: tenses,
+    size: core,
+  }
+- {
+    id: a2-16,
+    level: A2,
+    number: 16,
+    title: "Present perfect: just, already, yet",
+    pillar: tenses,
+    size: core,
+  }
+- {
+    id: a2-17,
+    level: A2,
+    number: 17,
+    title: "Linking verbs: look, feel, sound, seem + adjective",
+    pillar: verb-patterns,
+    size: mini,
+  }
+- {
+    id: a2-18,
+    level: A2,
+    number: 18,
+    title: "Phrasal verbs: first steps",
+    pillar: verb-patterns,
+    size: core,
+  }
+- {
+    id: a2-19,
+    level: A2,
+    number: 19,
+    title: "must, mustn't, have to, don't have to",
+    pillar: modals,
+    size: core,
+  }
+- {
+    id: a2-20,
+    level: A2,
+    number: 20,
+    title: "should for advice",
+    pillar: modals,
+    size: mini,
+  }
+- {
+    id: a2-21,
+    level: A2,
+    number: 21,
+    title: "could, be able to; asking for things & permission",
+    pillar: modals,
+    size: core,
+  }
+- {
+    id: a2-22,
+    level: A2,
+    number: 22,
+    title: "may & might",
+    pillar: modals,
+    size: mini,
+  }
+- {
+    id: a2-23,
+    level: A2,
+    number: 23,
+    title: "Suggestions & offers: Let's, Shall we, How about",
+    pillar: modals,
+    size: mini,
+  }
+- {
+    id: a2-24,
+    level: A2,
+    number: 24,
+    title: "verb + to or verb + -ing? (basics)",
+    pillar: verb-patterns,
+    size: core,
+  }
+- {
+    id: a2-25,
+    level: A2,
+    number: 25,
+    title: "to for purpose: I came to study",
+    pillar: verb-patterns,
+    size: mini,
+  }
+- {
+    id: a2-26,
+    level: A2,
+    number: 26,
+    title: "Zero conditional",
+    pillar: conditionals,
+    size: mini,
+  }
+- {
+    id: a2-27,
+    level: A2,
+    number: 27,
+    title: "First conditional & future time clauses",
+    pillar: conditionals,
+    size: core,
+  }
+- {
+    id: a2-28,
+    level: A2,
+    number: 28,
+    title: "Relative clauses: who, which, that, where",
+    pillar: clauses,
+    size: core,
+  }
+- {
+    id: a2-29,
+    level: A2,
+    number: 29,
+    title: "Time & reason clauses: when, before, because",
+    pillar: clauses,
+    size: core,
+  }
+- {
+    id: a2-30,
+    level: A2,
+    number: 30,
+    title: "the or no article?",
+    pillar: determiners,
+    size: core,
+  }
+- {
+    id: a2-31,
+    level: A2,
+    number: 31,
+    title: "much, many, a lot of, a few, a little",
+    pillar: determiners,
+    size: core,
+  }
+- {
+    id: a2-32,
+    level: A2,
+    number: 32,
+    title: "some, any, no; something, anyone, nowhere",
+    pillar: determiners,
+    size: core,
+  }
+- {
+    id: a2-33,
+    level: A2,
+    number: 33,
+    title: "mine, yours… and whose",
+    pillar: pronouns,
+    size: core,
+  }
+- {
+    id: a2-34,
+    level: A2,
+    number: 34,
+    title: "Reflexive pronouns: myself, yourself",
+    pillar: pronouns,
+    size: mini,
+  }
+- {
+    id: a2-35,
+    level: A2,
+    number: 35,
+    title: "one, ones; another, other, the other",
+    pillar: determiners,
+    size: mini,
+  }
+- {
+    id: a2-36,
+    level: A2,
+    number: 36,
+    title: "all, both, each, every",
+    pillar: determiners,
+    size: mini,
+  }
+- {
+    id: a2-37,
+    level: A2,
+    number: 37,
+    title: "Comparatives",
+    pillar: modifiers,
+    size: core,
+  }
+- {
+    id: a2-38,
+    level: A2,
+    number: 38,
+    title: "Superlatives",
+    pillar: modifiers,
+    size: core,
+  }
+- {
+    id: a2-39,
+    level: A2,
+    number: 39,
+    title: "as … as, the same as, different from",
+    pillar: modifiers,
+    size: mini,
+  }
+- {
+    id: a2-40,
+    level: A2,
+    number: 40,
+    title: "too, enough, very",
+    pillar: modifiers,
+    size: mini,
+  }
+- {
+    id: a2-41,
+    level: A2,
+    number: 41,
+    title: "Adverbs of manner: quickly, well",
+    pillar: modifiers,
+    size: core,
+  }
+- {
+    id: a2-42,
+    level: A2,
+    number: 42,
+    title: "-ed or -ing adjectives: bored or boring?",
+    pillar: modifiers,
+    size: mini,
+  }
+- {
+    id: a2-43,
+    level: A2,
+    number: 43,
+    title: "already, yet, still, just; also, too, either",
+    pillar: modifiers,
+    size: mini,
+  }
+- {
+    id: a2-44,
+    level: A2,
+    number: 44,
+    title: "Prepositions of movement",
+    pillar: prepositions,
+    size: core,
+  }
+- {
+    id: a2-45,
+    level: A2,
+    number: 45,
+    title: "by, with, about; between, among; above, over",
+    pillar: prepositions,
+    size: mini,
+  }
+- {
+    id: a2-46,
+    level: A2,
+    number: 46,
+    title: "Sequencing: first, then, after that, finally",
+    pillar: linking,
+    size: mini,
+  }
+- {
+    id: a2-47,
+    level: A2,
+    number: 47,
+    title: "Commas in lists & capital letters",
+    pillar: style,
+    size: mini,
+  }
 
 # ------------------------------------------------------------------ B1 (50)
-- { id: b1-01, level: B1, number: 1, title: "Subject & object questions", pillar: sentence-structure, size: core }
-- { id: b1-02, level: B1, number: 2, title: "Question tags", pillar: sentence-structure, size: core }
-- { id: b1-03, level: B1, number: 3, title: "Indirect questions", pillar: sentence-structure, size: core }
-- { id: b1-04, level: B1, number: 4, title: "it or there?", pillar: sentence-structure, size: core }
-- { id: b1-05, level: B1, number: 5, title: "Subject–verb agreement 1", pillar: sentence-structure, size: core }
-- { id: b1-06, level: B1, number: 6, title: "Present perfect or past simple?", pillar: tenses, size: core }
-- { id: b1-07, level: B1, number: 7, title: "for, since, ago, during; by or until?", pillar: tenses, size: mini }
-- { id: b1-08, level: B1, number: 8, title: "Present perfect continuous", pillar: tenses, size: core }
-- { id: b1-09, level: B1, number: 9, title: "Past perfect", pillar: tenses, size: core }
-- { id: b1-10, level: B1, number: 10, title: "State verbs & action verbs", pillar: tenses, size: core }
-- { id: b1-11, level: B1, number: 11, title: "All the futures compared", pillar: tenses, size: core }
-- { id: b1-12, level: B1, number: 12, title: "Future continuous & future time clauses", pillar: tenses, size: mini }
-- { id: b1-13, level: B1, number: 13, title: "used to, be used to, get used to", pillar: tenses, size: core }
-- { id: b1-14, level: B1, number: 14, title: "Phrasal & prepositional verbs", pillar: verb-patterns, size: core }
-- { id: b1-15, level: B1, number: 15, title: "The many uses of get", pillar: verb-patterns, size: mini }
-- { id: b1-16, level: B1, number: 16, title: "make, do, have, take, give + noun", pillar: verb-patterns, size: core }
-- { id: b1-17, level: B1, number: 17, title: "Deduction now: must, might, can't", pillar: modals, size: core }
-- { id: b1-18, level: B1, number: 18, title: "had better, ought to, be supposed to", pillar: modals, size: mini }
-- { id: b1-19, level: B1, number: 19, title: "need, be allowed to, managed to", pillar: modals, size: core }
-- { id: b1-20, level: B1, number: 20, title: "Polite requests: Would you mind…?", pillar: modals, size: mini }
-- { id: b1-21, level: B1, number: 21, title: "Passive 1: present & past simple", pillar: voice, size: core }
-- { id: b1-22, level: B1, number: 22, title: "Passive 2: perfect, future & modals", pillar: voice, size: core }
-- { id: b1-23, level: B1, number: 23, title: "Second conditional", pillar: conditionals, size: core }
-- { id: b1-24, level: B1, number: 24, title: "unless, as long as, in case", pillar: conditionals, size: core }
-- { id: b1-25, level: B1, number: 25, title: "wish + past; wish or hope?", pillar: conditionals, size: core }
-- { id: b1-26, level: B1, number: 26, title: "Reported statements: say or tell?", pillar: reported-speech, size: core }
-- { id: b1-27, level: B1, number: 27, title: "Reported questions", pillar: reported-speech, size: core }
-- { id: b1-28, level: B1, number: 28, title: "Reported commands & requests", pillar: reported-speech, size: mini }
-- { id: b1-29, level: B1, number: 29, title: "Defining & non-defining relative clauses", pillar: clauses, size: core }
-- { id: b1-30, level: B1, number: 30, title: "Purpose, reason & result", pillar: clauses, size: core }
-- { id: b1-31, level: B1, number: 31, title: "Contrast: although, however, despite", pillar: clauses, size: core }
-- { id: b1-32, level: B1, number: 32, title: "Time & place clauses: as soon as, until, wherever", pillar: clauses, size: mini }
-- { id: b1-33, level: B1, number: 33, title: "-ing or to? Verbs that change meaning", pillar: verb-patterns, size: core }
-- { id: b1-34, level: B1, number: 34, title: "want sb to; make, let, help sb do", pillar: verb-patterns, size: core }
-- { id: b1-35, level: B1, number: 35, title: "-ing as a subject and after prepositions", pillar: verb-patterns, size: mini }
-- { id: b1-36, level: B1, number: 36, title: "Dependent prepositions 1", pillar: prepositions, size: core }
-- { id: b1-37, level: B1, number: 37, title: "Articles 2: places, institutions, the rich", pillar: determiners, size: core }
-- { id: b1-38, level: B1, number: 38, title: "Uncountable traps & a piece of", pillar: nouns, size: core }
-- { id: b1-39, level: B1, number: 39, title: "Compound nouns & measurements: a ten-minute walk", pillar: nouns, size: mini }
-- { id: b1-40, level: B1, number: 40, title: "each, every, either, neither, both, all, whole, none", pillar: determiners, size: core }
-- { id: b1-41, level: B1, number: 41, title: "Paired conjunctions: both … and, either … or", pillar: linking, size: mini }
-- { id: b1-42, level: B1, number: 42, title: "Numbers & quantities: hundreds of, two-thirds, 50%", pillar: determiners, size: mini }
-- { id: b1-43, level: B1, number: 43, title: "Generic you, one, they; each other", pillar: pronouns, size: mini }
-- { id: b1-44, level: B1, number: 44, title: "so & such; too & enough + to", pillar: modifiers, size: mini }
-- { id: b1-45, level: B1, number: 45, title: "Comparatives 2: much better, more and more, the … the", pillar: modifiers, size: core }
-- { id: b1-46, level: B1, number: 46, title: "Where adverbs go", pillar: modifiers, size: core }
-- { id: b1-47, level: B1, number: 47, title: "Adjective order (first steps)", pillar: modifiers, size: mini }
-- { id: b1-48, level: B1, number: 48, title: "Linking words for writing", pillar: linking, size: core }
-- { id: b1-49, level: B1, number: 49, title: "Word formation 1: suffixes", pillar: word-classes, size: core }
-- { id: b1-50, level: B1, number: 50, title: "Commas & direct speech", pillar: style, size: mini }
+- {
+    id: b1-01,
+    level: B1,
+    number: 1,
+    title: "Subject & object questions",
+    pillar: sentence-structure,
+    size: core,
+  }
+- {
+    id: b1-02,
+    level: B1,
+    number: 2,
+    title: "Question tags",
+    pillar: sentence-structure,
+    size: core,
+  }
+- {
+    id: b1-03,
+    level: B1,
+    number: 3,
+    title: "Indirect questions",
+    pillar: sentence-structure,
+    size: core,
+  }
+- {
+    id: b1-04,
+    level: B1,
+    number: 4,
+    title: "it or there?",
+    pillar: sentence-structure,
+    size: core,
+  }
+- {
+    id: b1-05,
+    level: B1,
+    number: 5,
+    title: "Subject–verb agreement 1",
+    pillar: sentence-structure,
+    size: core,
+  }
+- {
+    id: b1-06,
+    level: B1,
+    number: 6,
+    title: "Present perfect or past simple?",
+    pillar: tenses,
+    size: core,
+  }
+- {
+    id: b1-07,
+    level: B1,
+    number: 7,
+    title: "for, since, ago, during; by or until?",
+    pillar: tenses,
+    size: mini,
+  }
+- {
+    id: b1-08,
+    level: B1,
+    number: 8,
+    title: "Present perfect continuous",
+    pillar: tenses,
+    size: core,
+  }
+- {
+    id: b1-09,
+    level: B1,
+    number: 9,
+    title: "Past perfect",
+    pillar: tenses,
+    size: core,
+  }
+- {
+    id: b1-10,
+    level: B1,
+    number: 10,
+    title: "State verbs & action verbs",
+    pillar: tenses,
+    size: core,
+  }
+- {
+    id: b1-11,
+    level: B1,
+    number: 11,
+    title: "All the futures compared",
+    pillar: tenses,
+    size: core,
+  }
+- {
+    id: b1-12,
+    level: B1,
+    number: 12,
+    title: "Future continuous & future time clauses",
+    pillar: tenses,
+    size: mini,
+  }
+- {
+    id: b1-13,
+    level: B1,
+    number: 13,
+    title: "used to, be used to, get used to",
+    pillar: tenses,
+    size: core,
+  }
+- {
+    id: b1-14,
+    level: B1,
+    number: 14,
+    title: "Phrasal & prepositional verbs",
+    pillar: verb-patterns,
+    size: core,
+  }
+- {
+    id: b1-15,
+    level: B1,
+    number: 15,
+    title: "The many uses of get",
+    pillar: verb-patterns,
+    size: mini,
+  }
+- {
+    id: b1-16,
+    level: B1,
+    number: 16,
+    title: "make, do, have, take, give + noun",
+    pillar: verb-patterns,
+    size: core,
+  }
+- {
+    id: b1-17,
+    level: B1,
+    number: 17,
+    title: "Deduction now: must, might, can't",
+    pillar: modals,
+    size: core,
+  }
+- {
+    id: b1-18,
+    level: B1,
+    number: 18,
+    title: "had better, ought to, be supposed to",
+    pillar: modals,
+    size: mini,
+  }
+- {
+    id: b1-19,
+    level: B1,
+    number: 19,
+    title: "need, be allowed to, managed to",
+    pillar: modals,
+    size: core,
+  }
+- {
+    id: b1-20,
+    level: B1,
+    number: 20,
+    title: "Polite requests: Would you mind…?",
+    pillar: modals,
+    size: mini,
+  }
+- {
+    id: b1-21,
+    level: B1,
+    number: 21,
+    title: "Passive 1: present & past simple",
+    pillar: voice,
+    size: core,
+  }
+- {
+    id: b1-22,
+    level: B1,
+    number: 22,
+    title: "Passive 2: perfect, future & modals",
+    pillar: voice,
+    size: core,
+  }
+- {
+    id: b1-23,
+    level: B1,
+    number: 23,
+    title: "Second conditional",
+    pillar: conditionals,
+    size: core,
+  }
+- {
+    id: b1-24,
+    level: B1,
+    number: 24,
+    title: "unless, as long as, in case",
+    pillar: conditionals,
+    size: core,
+  }
+- {
+    id: b1-25,
+    level: B1,
+    number: 25,
+    title: "wish + past; wish or hope?",
+    pillar: conditionals,
+    size: core,
+  }
+- {
+    id: b1-26,
+    level: B1,
+    number: 26,
+    title: "Reported statements: say or tell?",
+    pillar: reported-speech,
+    size: core,
+  }
+- {
+    id: b1-27,
+    level: B1,
+    number: 27,
+    title: "Reported questions",
+    pillar: reported-speech,
+    size: core,
+  }
+- {
+    id: b1-28,
+    level: B1,
+    number: 28,
+    title: "Reported commands & requests",
+    pillar: reported-speech,
+    size: mini,
+  }
+- {
+    id: b1-29,
+    level: B1,
+    number: 29,
+    title: "Defining & non-defining relative clauses",
+    pillar: clauses,
+    size: core,
+  }
+- {
+    id: b1-30,
+    level: B1,
+    number: 30,
+    title: "Purpose, reason & result",
+    pillar: clauses,
+    size: core,
+  }
+- {
+    id: b1-31,
+    level: B1,
+    number: 31,
+    title: "Contrast: although, however, despite",
+    pillar: clauses,
+    size: core,
+  }
+- {
+    id: b1-32,
+    level: B1,
+    number: 32,
+    title: "Time & place clauses: as soon as, until, wherever",
+    pillar: clauses,
+    size: mini,
+  }
+- {
+    id: b1-33,
+    level: B1,
+    number: 33,
+    title: "-ing or to? Verbs that change meaning",
+    pillar: verb-patterns,
+    size: core,
+  }
+- {
+    id: b1-34,
+    level: B1,
+    number: 34,
+    title: "want sb to; make, let, help sb do",
+    pillar: verb-patterns,
+    size: core,
+  }
+- {
+    id: b1-35,
+    level: B1,
+    number: 35,
+    title: "-ing as a subject and after prepositions",
+    pillar: verb-patterns,
+    size: mini,
+  }
+- {
+    id: b1-36,
+    level: B1,
+    number: 36,
+    title: "Dependent prepositions 1",
+    pillar: prepositions,
+    size: core,
+  }
+- {
+    id: b1-37,
+    level: B1,
+    number: 37,
+    title: "Articles 2: places, institutions, the rich",
+    pillar: determiners,
+    size: core,
+  }
+- {
+    id: b1-38,
+    level: B1,
+    number: 38,
+    title: "Uncountable traps & a piece of",
+    pillar: nouns,
+    size: core,
+  }
+- {
+    id: b1-39,
+    level: B1,
+    number: 39,
+    title: "Compound nouns & measurements: a ten-minute walk",
+    pillar: nouns,
+    size: mini,
+  }
+- {
+    id: b1-40,
+    level: B1,
+    number: 40,
+    title: "each, every, either, neither, both, all, whole, none",
+    pillar: determiners,
+    size: core,
+  }
+- {
+    id: b1-41,
+    level: B1,
+    number: 41,
+    title: "Paired conjunctions: both … and, either … or",
+    pillar: linking,
+    size: mini,
+  }
+- {
+    id: b1-42,
+    level: B1,
+    number: 42,
+    title: "Numbers & quantities: hundreds of, two-thirds, 50%",
+    pillar: determiners,
+    size: mini,
+  }
+- {
+    id: b1-43,
+    level: B1,
+    number: 43,
+    title: "Generic you, one, they; each other",
+    pillar: pronouns,
+    size: mini,
+  }
+- {
+    id: b1-44,
+    level: B1,
+    number: 44,
+    title: "so & such; too & enough + to",
+    pillar: modifiers,
+    size: mini,
+  }
+- {
+    id: b1-45,
+    level: B1,
+    number: 45,
+    title: "Comparatives 2: much better, more and more, the … the",
+    pillar: modifiers,
+    size: core,
+  }
+- {
+    id: b1-46,
+    level: B1,
+    number: 46,
+    title: "Where adverbs go",
+    pillar: modifiers,
+    size: core,
+  }
+- {
+    id: b1-47,
+    level: B1,
+    number: 47,
+    title: "Adjective order (first steps)",
+    pillar: modifiers,
+    size: mini,
+  }
+- {
+    id: b1-48,
+    level: B1,
+    number: 48,
+    title: "Linking words for writing",
+    pillar: linking,
+    size: core,
+  }
+- {
+    id: b1-49,
+    level: B1,
+    number: 49,
+    title: "Word formation 1: suffixes",
+    pillar: word-classes,
+    size: core,
+  }
+- {
+    id: b1-50,
+    level: B1,
+    number: 50,
+    title: "Commas & direct speech",
+    pillar: style,
+    size: mini,
+  }
 
 # ------------------------------------------------------------------ B2 (49)
-- { id: b2-01, level: B2, number: 1, title: "Advanced questions: How come…? Echo & reply questions", pillar: sentence-structure, size: core }
-- { id: b2-02, level: B2, number: 2, title: "Subject–verb agreement 2", pillar: sentence-structure, size: mini }
-- { id: b2-03, level: B2, number: 3, title: "Narrative tenses & past perfect continuous", pillar: tenses, size: core }
-- { id: b2-04, level: B2, number: 4, title: "Future perfect & future continuous", pillar: tenses, size: core }
-- { id: b2-05, level: B2, number: 5, title: "be about to, be due to; was going to", pillar: tenses, size: mini }
-- { id: b2-06, level: B2, number: 6, title: "Habits: would, used to, will, always -ing", pillar: tenses, size: core }
-- { id: b2-07, level: B2, number: 7, title: "Stative verbs 2: You're being silly", pillar: tenses, size: mini }
-- { id: b2-08, level: B2, number: 8, title: "Ergative, reflexive & reciprocal verbs", pillar: voice, size: mini }
-- { id: b2-09, level: B2, number: 9, title: "Deduction about the past: must have, can't have", pillar: modals, size: core }
-- { id: b2-10, level: B2, number: 10, title: "Past modals: should have, could have, needn't have", pillar: modals, size: core }
-- { id: b2-11, level: B2, number: 11, title: "Modals with continuous & passive infinitives", pillar: modals, size: mini }
-- { id: b2-12, level: B2, number: 12, title: "dare, need; be able to; won't for refusal", pillar: modals, size: mini }
-- { id: b2-13, level: B2, number: 13, title: "Passive 3: continuous, infinitive, two objects", pillar: voice, size: core }
-- { id: b2-14, level: B2, number: 14, title: "Passive 4: phrasal verbs, get-passive, needs doing", pillar: voice, size: core }
-- { id: b2-15, level: B2, number: 15, title: "Causative: have/get something done", pillar: voice, size: core }
-- { id: b2-16, level: B2, number: 16, title: "It is said that… / He is said to…", pillar: voice, size: mini }
-- { id: b2-17, level: B2, number: 17, title: "Third conditional", pillar: conditionals, size: core }
-- { id: b2-18, level: B2, number: 18, title: "Mixed conditionals", pillar: conditionals, size: core }
-- { id: b2-19, level: B2, number: 19, title: "Alternatives to if: provided, suppose, otherwise", pillar: conditionals, size: core }
-- { id: b2-20, level: B2, number: 20, title: "wish, if only, would rather, it's time", pillar: conditionals, size: core }
-- { id: b2-21, level: B2, number: 21, title: "Reporting verbs & their patterns", pillar: reported-speech, size: core }
-- { id: b2-22, level: B2, number: 22, title: "Reported speech 2: when not to change tense", pillar: reported-speech, size: core }
-- { id: b2-23, level: B2, number: 23, title: "Relative clauses 2: to whom, some of which", pillar: clauses, size: core }
-- { id: b2-24, level: B2, number: 24, title: "Reduced relative clauses", pillar: clauses, size: mini }
-- { id: b2-25, level: B2, number: 25, title: "Participle clauses", pillar: clauses, size: core }
-- { id: b2-26, level: B2, number: 26, title: "Noun clauses: that, what, whether", pillar: clauses, size: core }
-- { id: b2-27, level: B2, number: 27, title: "Concession & contrast 2", pillar: clauses, size: core }
-- { id: b2-28, level: B2, number: 28, title: "Perfect & passive -ing and to", pillar: verb-patterns, size: core }
-- { id: b2-29, level: B2, number: 29, title: "I saw him cross/crossing; prevent sb from -ing", pillar: verb-patterns, size: core }
-- { id: b2-30, level: B2, number: 30, title: "Fixed expressions + -ing: it's no use, look forward to", pillar: verb-patterns, size: core }
-- { id: b2-31, level: B2, number: 31, title: "Adjective / noun + to: It's kind of you to…", pillar: verb-patterns, size: mini }
-- { id: b2-32, level: B2, number: 32, title: "Articles 3: generic and abstract", pillar: determiners, size: core }
-- { id: b2-33, level: B2, number: 33, title: "a coffee or coffee? Nouns that change meaning", pillar: nouns, size: mini }
-- { id: b2-34, level: B2, number: 34, title: "Special plurals: trousers, news, criteria", pillar: nouns, size: mini }
-- { id: b2-35, level: B2, number: 35, title: "Possession 3: 's, of or noun + noun?", pillar: nouns, size: mini }
-- { id: b2-36, level: B2, number: 36, title: "Quantifiers 3: few or a few?", pillar: determiners, size: core }
-- { id: b2-37, level: B2, number: 37, title: "Gradable & non-gradable adjectives", pillar: modifiers, size: core }
-- { id: b2-38, level: B2, number: 38, title: "Adjective order & compound adjectives", pillar: modifiers, size: core }
-- { id: b2-39, level: B2, number: 39, title: "Comparison 3: twice as…, by far, like or as", pillar: modifiers, size: core }
-- { id: b2-40, level: B2, number: 40, title: "Adverbs 2: hard or hardly? late or lately?", pillar: modifiers, size: core }
-- { id: b2-41, level: B2, number: 41, title: "Dependent prepositions 2", pillar: prepositions, size: core }
-- { id: b2-42, level: B2, number: 42, title: "Prepositional phrases & zero-preposition traps", pillar: prepositions, size: core }
-- { id: b2-43, level: B2, number: 43, title: "Preposition or conjunction? during/while, despite/although", pillar: prepositions, size: mini }
-- { id: b2-44, level: B2, number: 44, title: "Ellipsis & substitution 1", pillar: linking, size: core }
-- { id: b2-45, level: B2, number: 45, title: "Emphasis 1: I do like it; What I need is…", pillar: linking, size: core }
-- { id: b2-46, level: B2, number: 46, title: "Inversion 1: Not only…, So do I", pillar: linking, size: mini }
-- { id: b2-47, level: B2, number: 47, title: "Discourse markers", pillar: linking, size: core }
-- { id: b2-48, level: B2, number: 48, title: "Word formation 2: prefixes", pillar: word-classes, size: core }
-- { id: b2-49, level: B2, number: 49, title: "Colons, semicolons, dashes & sentence types", pillar: style, size: core }
+- {
+    id: b2-01,
+    level: B2,
+    number: 1,
+    title: "Advanced questions: How come…? Echo & reply questions",
+    pillar: sentence-structure,
+    size: core,
+  }
+- {
+    id: b2-02,
+    level: B2,
+    number: 2,
+    title: "Subject–verb agreement 2",
+    pillar: sentence-structure,
+    size: mini,
+  }
+- {
+    id: b2-03,
+    level: B2,
+    number: 3,
+    title: "Narrative tenses & past perfect continuous",
+    pillar: tenses,
+    size: core,
+  }
+- {
+    id: b2-04,
+    level: B2,
+    number: 4,
+    title: "Future perfect & future continuous",
+    pillar: tenses,
+    size: core,
+  }
+- {
+    id: b2-05,
+    level: B2,
+    number: 5,
+    title: "be about to, be due to; was going to",
+    pillar: tenses,
+    size: mini,
+  }
+- {
+    id: b2-06,
+    level: B2,
+    number: 6,
+    title: "Habits: would, used to, will, always -ing",
+    pillar: tenses,
+    size: core,
+  }
+- {
+    id: b2-07,
+    level: B2,
+    number: 7,
+    title: "Stative verbs 2: You're being silly",
+    pillar: tenses,
+    size: mini,
+  }
+- {
+    id: b2-08,
+    level: B2,
+    number: 8,
+    title: "Ergative, reflexive & reciprocal verbs",
+    pillar: voice,
+    size: mini,
+  }
+- {
+    id: b2-09,
+    level: B2,
+    number: 9,
+    title: "Deduction about the past: must have, can't have",
+    pillar: modals,
+    size: core,
+  }
+- {
+    id: b2-10,
+    level: B2,
+    number: 10,
+    title: "Past modals: should have, could have, needn't have",
+    pillar: modals,
+    size: core,
+  }
+- {
+    id: b2-11,
+    level: B2,
+    number: 11,
+    title: "Modals with continuous & passive infinitives",
+    pillar: modals,
+    size: mini,
+  }
+- {
+    id: b2-12,
+    level: B2,
+    number: 12,
+    title: "dare, need; be able to; won't for refusal",
+    pillar: modals,
+    size: mini,
+  }
+- {
+    id: b2-13,
+    level: B2,
+    number: 13,
+    title: "Passive 3: continuous, infinitive, two objects",
+    pillar: voice,
+    size: core,
+  }
+- {
+    id: b2-14,
+    level: B2,
+    number: 14,
+    title: "Passive 4: phrasal verbs, get-passive, needs doing",
+    pillar: voice,
+    size: core,
+  }
+- {
+    id: b2-15,
+    level: B2,
+    number: 15,
+    title: "Causative: have/get something done",
+    pillar: voice,
+    size: core,
+  }
+- {
+    id: b2-16,
+    level: B2,
+    number: 16,
+    title: "It is said that… / He is said to…",
+    pillar: voice,
+    size: mini,
+  }
+- {
+    id: b2-17,
+    level: B2,
+    number: 17,
+    title: "Third conditional",
+    pillar: conditionals,
+    size: core,
+  }
+- {
+    id: b2-18,
+    level: B2,
+    number: 18,
+    title: "Mixed conditionals",
+    pillar: conditionals,
+    size: core,
+  }
+- {
+    id: b2-19,
+    level: B2,
+    number: 19,
+    title: "Alternatives to if: provided, suppose, otherwise",
+    pillar: conditionals,
+    size: core,
+  }
+- {
+    id: b2-20,
+    level: B2,
+    number: 20,
+    title: "wish, if only, would rather, it's time",
+    pillar: conditionals,
+    size: core,
+  }
+- {
+    id: b2-21,
+    level: B2,
+    number: 21,
+    title: "Reporting verbs & their patterns",
+    pillar: reported-speech,
+    size: core,
+  }
+- {
+    id: b2-22,
+    level: B2,
+    number: 22,
+    title: "Reported speech 2: when not to change tense",
+    pillar: reported-speech,
+    size: core,
+  }
+- {
+    id: b2-23,
+    level: B2,
+    number: 23,
+    title: "Relative clauses 2: to whom, some of which",
+    pillar: clauses,
+    size: core,
+  }
+- {
+    id: b2-24,
+    level: B2,
+    number: 24,
+    title: "Reduced relative clauses",
+    pillar: clauses,
+    size: mini,
+  }
+- {
+    id: b2-25,
+    level: B2,
+    number: 25,
+    title: "Participle clauses",
+    pillar: clauses,
+    size: core,
+  }
+- {
+    id: b2-26,
+    level: B2,
+    number: 26,
+    title: "Noun clauses: that, what, whether",
+    pillar: clauses,
+    size: core,
+  }
+- {
+    id: b2-27,
+    level: B2,
+    number: 27,
+    title: "Concession & contrast 2",
+    pillar: clauses,
+    size: core,
+  }
+- {
+    id: b2-28,
+    level: B2,
+    number: 28,
+    title: "Perfect & passive -ing and to",
+    pillar: verb-patterns,
+    size: core,
+  }
+- {
+    id: b2-29,
+    level: B2,
+    number: 29,
+    title: "I saw him cross/crossing; prevent sb from -ing",
+    pillar: verb-patterns,
+    size: core,
+  }
+- {
+    id: b2-30,
+    level: B2,
+    number: 30,
+    title: "Fixed expressions + -ing: it's no use, look forward to",
+    pillar: verb-patterns,
+    size: core,
+  }
+- {
+    id: b2-31,
+    level: B2,
+    number: 31,
+    title: "Adjective / noun + to: It's kind of you to…",
+    pillar: verb-patterns,
+    size: mini,
+  }
+- {
+    id: b2-32,
+    level: B2,
+    number: 32,
+    title: "Articles 3: generic and abstract",
+    pillar: determiners,
+    size: core,
+  }
+- {
+    id: b2-33,
+    level: B2,
+    number: 33,
+    title: "a coffee or coffee? Nouns that change meaning",
+    pillar: nouns,
+    size: mini,
+  }
+- {
+    id: b2-34,
+    level: B2,
+    number: 34,
+    title: "Special plurals: trousers, news, criteria",
+    pillar: nouns,
+    size: mini,
+  }
+- {
+    id: b2-35,
+    level: B2,
+    number: 35,
+    title: "Possession 3: 's, of or noun + noun?",
+    pillar: nouns,
+    size: mini,
+  }
+- {
+    id: b2-36,
+    level: B2,
+    number: 36,
+    title: "Quantifiers 3: few or a few?",
+    pillar: determiners,
+    size: core,
+  }
+- {
+    id: b2-37,
+    level: B2,
+    number: 37,
+    title: "Gradable & non-gradable adjectives",
+    pillar: modifiers,
+    size: core,
+  }
+- {
+    id: b2-38,
+    level: B2,
+    number: 38,
+    title: "Adjective order & compound adjectives",
+    pillar: modifiers,
+    size: core,
+  }
+- {
+    id: b2-39,
+    level: B2,
+    number: 39,
+    title: "Comparison 3: twice as…, by far, like or as",
+    pillar: modifiers,
+    size: core,
+  }
+- {
+    id: b2-40,
+    level: B2,
+    number: 40,
+    title: "Adverbs 2: hard or hardly? late or lately?",
+    pillar: modifiers,
+    size: core,
+  }
+- {
+    id: b2-41,
+    level: B2,
+    number: 41,
+    title: "Dependent prepositions 2",
+    pillar: prepositions,
+    size: core,
+  }
+- {
+    id: b2-42,
+    level: B2,
+    number: 42,
+    title: "Prepositional phrases & zero-preposition traps",
+    pillar: prepositions,
+    size: core,
+  }
+- {
+    id: b2-43,
+    level: B2,
+    number: 43,
+    title: "Preposition or conjunction? during/while, despite/although",
+    pillar: prepositions,
+    size: mini,
+  }
+- {
+    id: b2-44,
+    level: B2,
+    number: 44,
+    title: "Ellipsis & substitution 1",
+    pillar: linking,
+    size: core,
+  }
+- {
+    id: b2-45,
+    level: B2,
+    number: 45,
+    title: "Emphasis 1: I do like it; What I need is…",
+    pillar: linking,
+    size: core,
+  }
+- {
+    id: b2-46,
+    level: B2,
+    number: 46,
+    title: "Inversion 1: Not only…, So do I",
+    pillar: linking,
+    size: mini,
+  }
+- {
+    id: b2-47,
+    level: B2,
+    number: 47,
+    title: "Discourse markers",
+    pillar: linking,
+    size: core,
+  }
+- {
+    id: b2-48,
+    level: B2,
+    number: 48,
+    title: "Word formation 2: prefixes",
+    pillar: word-classes,
+    size: core,
+  }
+- {
+    id: b2-49,
+    level: B2,
+    number: 49,
+    title: "Colons, semicolons, dashes & sentence types",
+    pillar: style,
+    size: core,
+  }
 
 # ------------------------------------------------------------------ C1 (39)
-- { id: c1-01, level: C1, number: 1, title: "Negative inversion: Never have I…", pillar: linking, size: core }
-- { id: c1-02, level: C1, number: 2, title: "Inversion after place adverbials & so/such", pillar: linking, size: core }
-- { id: c1-03, level: C1, number: 3, title: "Cleft sentences", pillar: linking, size: core }
-- { id: c1-04, level: C1, number: 4, title: "Fronting, extraposition & end-weight", pillar: linking, size: core }
-- { id: c1-05, level: C1, number: 5, title: "Ellipsis & substitution 2", pillar: linking, size: mini }
-- { id: c1-06, level: C1, number: 6, title: "Future in the past", pillar: tenses, size: core }
-- { id: c1-07, level: C1, number: 7, title: "be to; be bound to, be sure to, be likely to", pillar: tenses, size: core }
-- { id: c1-08, level: C1, number: 8, title: "Tense for distance & politeness", pillar: tenses, size: mini }
-- { id: c1-09, level: C1, number: 9, title: "Special uses of the present", pillar: tenses, size: mini }
-- { id: c1-10, level: C1, number: 10, title: "Modality 1: may well, might as well, That'll be John", pillar: modals, size: core }
-- { id: c1-11, level: C1, number: 11, title: "Modality 2: must have been waiting; can't or mustn't?", pillar: modals, size: core }
-- { id: c1-12, level: C1, number: 12, title: "Impersonal passive", pillar: voice, size: core }
-- { id: c1-13, level: C1, number: 13, title: "Passive with see & make; choosing active or passive", pillar: voice, size: core }
-- { id: c1-14, level: C1, number: 14, title: "Inverted conditionals: Had I known…", pillar: conditionals, size: core }
-- { id: c1-15, level: C1, number: 15, title: "if + should, were to, happen to; if so, if not", pillar: conditionals, size: core }
-- { id: c1-16, level: C1, number: 16, title: "as if, would rather, it's high time, suppose", pillar: conditionals, size: core }
-- { id: c1-17, level: C1, number: 17, title: "Reporting 3: nominal & passive reporting", pillar: reported-speech, size: core }
-- { id: c1-18, level: C1, number: 18, title: "Participle clauses 2: absolutes & dangling participles", pillar: clauses, size: core }
-- { id: c1-19, level: C1, number: 19, title: "Noun clauses 2: the fact that, -ever clauses", pillar: clauses, size: core }
-- { id: c1-20, level: C1, number: 20, title: "Relative clauses 3: whereby, in which case", pillar: clauses, size: core }
-- { id: c1-21, level: C1, number: 21, title: "Concession 3: much as, Tired as I was", pillar: clauses, size: core }
-- { id: c1-22, level: C1, number: 22, title: "Infinitive & verbless clauses", pillar: clauses, size: mini }
-- { id: c1-23, level: C1, number: 23, title: "Advanced complementation: painted it red", pillar: verb-patterns, size: core }
-- { id: c1-24, level: C1, number: 24, title: "-ing or to: the subtle cases", pillar: verb-patterns, size: core }
-- { id: c1-25, level: C1, number: 25, title: "Nominalisation & complex noun phrases", pillar: nouns, size: core }
-- { id: c1-26, level: C1, number: 26, title: "Determiner order & pre-determiners", pillar: determiners, size: core }
-- { id: c1-27, level: C1, number: 27, title: "Articles 4: fixed phrases & names", pillar: determiners, size: core }
-- { id: c1-28, level: C1, number: 28, title: "Agreement 3: The majority is/are", pillar: sentence-structure, size: core }
-- { id: c1-29, level: C1, number: 29, title: "Pronouns: advanced", pillar: pronouns, size: core }
-- { id: c1-30, level: C1, number: 30, title: "Adverbs 3: viewpoint, focus & position", pillar: modifiers, size: core }
-- { id: c1-31, level: C1, number: 31, title: "Adjective complementation", pillar: modifiers, size: core }
-- { id: c1-32, level: C1, number: 32, title: "Comparison 4: all the more, none the less", pillar: modifiers, size: mini }
-- { id: c1-33, level: C1, number: 33, title: "Complex prepositions: in terms of, by virtue of", pillar: prepositions, size: core }
-- { id: c1-34, level: C1, number: 34, title: "Cohesion: the former, the latter, thereby", pillar: linking, size: core }
-- { id: c1-35, level: C1, number: 35, title: "Hedging & boosting", pillar: linking, size: core }
-- { id: c1-36, level: C1, number: 36, title: "Register: formal & informal grammar", pillar: style, size: core }
-- { id: c1-37, level: C1, number: 37, title: "Spoken grammar 1", pillar: style, size: core }
-- { id: c1-38, level: C1, number: 38, title: "Word formation 3: conversion & compounds", pillar: word-classes, size: core }
-- { id: c1-39, level: C1, number: 39, title: "Punctuation 4: long sentences", pillar: style, size: mini }
+- {
+    id: c1-01,
+    level: C1,
+    number: 1,
+    title: "Negative inversion: Never have I…",
+    pillar: linking,
+    size: core,
+  }
+- {
+    id: c1-02,
+    level: C1,
+    number: 2,
+    title: "Inversion after place adverbials & so/such",
+    pillar: linking,
+    size: core,
+  }
+- {
+    id: c1-03,
+    level: C1,
+    number: 3,
+    title: "Cleft sentences",
+    pillar: linking,
+    size: core,
+  }
+- {
+    id: c1-04,
+    level: C1,
+    number: 4,
+    title: "Fronting, extraposition & end-weight",
+    pillar: linking,
+    size: core,
+  }
+- {
+    id: c1-05,
+    level: C1,
+    number: 5,
+    title: "Ellipsis & substitution 2",
+    pillar: linking,
+    size: mini,
+  }
+- {
+    id: c1-06,
+    level: C1,
+    number: 6,
+    title: "Future in the past",
+    pillar: tenses,
+    size: core,
+  }
+- {
+    id: c1-07,
+    level: C1,
+    number: 7,
+    title: "be to; be bound to, be sure to, be likely to",
+    pillar: tenses,
+    size: core,
+  }
+- {
+    id: c1-08,
+    level: C1,
+    number: 8,
+    title: "Tense for distance & politeness",
+    pillar: tenses,
+    size: mini,
+  }
+- {
+    id: c1-09,
+    level: C1,
+    number: 9,
+    title: "Special uses of the present",
+    pillar: tenses,
+    size: mini,
+  }
+- {
+    id: c1-10,
+    level: C1,
+    number: 10,
+    title: "Modality 1: may well, might as well, That'll be John",
+    pillar: modals,
+    size: core,
+  }
+- {
+    id: c1-11,
+    level: C1,
+    number: 11,
+    title: "Modality 2: must have been waiting; can't or mustn't?",
+    pillar: modals,
+    size: core,
+  }
+- {
+    id: c1-12,
+    level: C1,
+    number: 12,
+    title: "Impersonal passive",
+    pillar: voice,
+    size: core,
+  }
+- {
+    id: c1-13,
+    level: C1,
+    number: 13,
+    title: "Passive with see & make; choosing active or passive",
+    pillar: voice,
+    size: core,
+  }
+- {
+    id: c1-14,
+    level: C1,
+    number: 14,
+    title: "Inverted conditionals: Had I known…",
+    pillar: conditionals,
+    size: core,
+  }
+- {
+    id: c1-15,
+    level: C1,
+    number: 15,
+    title: "if + should, were to, happen to; if so, if not",
+    pillar: conditionals,
+    size: core,
+  }
+- {
+    id: c1-16,
+    level: C1,
+    number: 16,
+    title: "as if, would rather, it's high time, suppose",
+    pillar: conditionals,
+    size: core,
+  }
+- {
+    id: c1-17,
+    level: C1,
+    number: 17,
+    title: "Reporting 3: nominal & passive reporting",
+    pillar: reported-speech,
+    size: core,
+  }
+- {
+    id: c1-18,
+    level: C1,
+    number: 18,
+    title: "Participle clauses 2: absolutes & dangling participles",
+    pillar: clauses,
+    size: core,
+  }
+- {
+    id: c1-19,
+    level: C1,
+    number: 19,
+    title: "Noun clauses 2: the fact that, -ever clauses",
+    pillar: clauses,
+    size: core,
+  }
+- {
+    id: c1-20,
+    level: C1,
+    number: 20,
+    title: "Relative clauses 3: whereby, in which case",
+    pillar: clauses,
+    size: core,
+  }
+- {
+    id: c1-21,
+    level: C1,
+    number: 21,
+    title: "Concession 3: much as, Tired as I was",
+    pillar: clauses,
+    size: core,
+  }
+- {
+    id: c1-22,
+    level: C1,
+    number: 22,
+    title: "Infinitive & verbless clauses",
+    pillar: clauses,
+    size: mini,
+  }
+- {
+    id: c1-23,
+    level: C1,
+    number: 23,
+    title: "Advanced complementation: painted it red",
+    pillar: verb-patterns,
+    size: core,
+  }
+- {
+    id: c1-24,
+    level: C1,
+    number: 24,
+    title: "-ing or to: the subtle cases",
+    pillar: verb-patterns,
+    size: core,
+  }
+- {
+    id: c1-25,
+    level: C1,
+    number: 25,
+    title: "Nominalisation & complex noun phrases",
+    pillar: nouns,
+    size: core,
+  }
+- {
+    id: c1-26,
+    level: C1,
+    number: 26,
+    title: "Determiner order & pre-determiners",
+    pillar: determiners,
+    size: core,
+  }
+- {
+    id: c1-27,
+    level: C1,
+    number: 27,
+    title: "Articles 4: fixed phrases & names",
+    pillar: determiners,
+    size: core,
+  }
+- {
+    id: c1-28,
+    level: C1,
+    number: 28,
+    title: "Agreement 3: The majority is/are",
+    pillar: sentence-structure,
+    size: core,
+  }
+- {
+    id: c1-29,
+    level: C1,
+    number: 29,
+    title: "Pronouns: advanced",
+    pillar: pronouns,
+    size: core,
+  }
+- {
+    id: c1-30,
+    level: C1,
+    number: 30,
+    title: "Adverbs 3: viewpoint, focus & position",
+    pillar: modifiers,
+    size: core,
+  }
+- {
+    id: c1-31,
+    level: C1,
+    number: 31,
+    title: "Adjective complementation",
+    pillar: modifiers,
+    size: core,
+  }
+- {
+    id: c1-32,
+    level: C1,
+    number: 32,
+    title: "Comparison 4: all the more, none the less",
+    pillar: modifiers,
+    size: mini,
+  }
+- {
+    id: c1-33,
+    level: C1,
+    number: 33,
+    title: "Complex prepositions: in terms of, by virtue of",
+    pillar: prepositions,
+    size: core,
+  }
+- {
+    id: c1-34,
+    level: C1,
+    number: 34,
+    title: "Cohesion: the former, the latter, thereby",
+    pillar: linking,
+    size: core,
+  }
+- {
+    id: c1-35,
+    level: C1,
+    number: 35,
+    title: "Hedging & boosting",
+    pillar: linking,
+    size: core,
+  }
+- {
+    id: c1-36,
+    level: C1,
+    number: 36,
+    title: "Register: formal & informal grammar",
+    pillar: style,
+    size: core,
+  }
+- {
+    id: c1-37,
+    level: C1,
+    number: 37,
+    title: "Spoken grammar 1",
+    pillar: style,
+    size: core,
+  }
+- {
+    id: c1-38,
+    level: C1,
+    number: 38,
+    title: "Word formation 3: conversion & compounds",
+    pillar: word-classes,
+    size: core,
+  }
+- {
+    id: c1-39,
+    level: C1,
+    number: 39,
+    title: "Punctuation 4: long sentences",
+    pillar: style,
+    size: mini,
+  }
 
 # ------------------------------------------------------------------ C2 (30)
-- { id: c2-01, level: C2, number: 1, title: "The subjunctive", pillar: style, size: core }
-- { id: c2-02, level: C2, number: 2, title: "Stylistic inversion: Try as he might…", pillar: linking, size: core }
-- { id: c2-03, level: C2, number: 3, title: "Conditionals without if", pillar: conditionals, size: core }
-- { id: c2-04, level: C2, number: 4, title: "Tense & aspect for stance", pillar: tenses, size: core }
-- { id: c2-05, level: C2, number: 5, title: "Aspect nuance", pillar: tenses, size: mini }
-- { id: c2-06, level: C2, number: 6, title: "Fine modality", pillar: modals, size: core }
-- { id: c2-07, level: C2, number: 7, title: "Voice: expert choices", pillar: voice, size: core }
-- { id: c2-08, level: C2, number: 8, title: "Complex sentences: parallelism & balance", pillar: sentence-structure, size: core }
-- { id: c2-09, level: C2, number: 9, title: "Relative & nominal clauses: expert", pillar: clauses, size: core }
-- { id: c2-10, level: C2, number: 10, title: "Concession: expert (albeit, notwithstanding)", pillar: clauses, size: mini }
-- { id: c2-11, level: C2, number: 11, title: "Formal subordinators: lest, inasmuch as", pillar: clauses, size: core }
-- { id: c2-12, level: C2, number: 12, title: "Information structure: expert", pillar: linking, size: core }
-- { id: c2-13, level: C2, number: 13, title: "Determiners & quantifiers: fine points", pillar: determiners, size: core }
-- { id: c2-14, level: C2, number: 14, title: "Noun phrases: expert", pillar: nouns, size: core }
-- { id: c2-15, level: C2, number: 15, title: "Reference: expert", pillar: pronouns, size: core }
-- { id: c2-16, level: C2, number: 16, title: "Adverbials: expert", pillar: modifiers, size: core }
-- { id: c2-17, level: C2, number: 17, title: "Negation: expert", pillar: sentence-structure, size: core }
-- { id: c2-18, level: C2, number: 18, title: "Word formation: expert", pillar: word-classes, size: core }
-- { id: c2-19, level: C2, number: 19, title: "Spoken grammar 2", pillar: style, size: core }
-- { id: c2-20, level: C2, number: 20, title: "Academic grammar", pillar: style, size: core }
-- { id: c2-21, level: C2, number: 21, title: "Attribution & free indirect speech", pillar: reported-speech, size: core }
-- { id: c2-22, level: C2, number: 22, title: "The grammar of rhetoric", pillar: style, size: core }
-- { id: c2-23, level: C2, number: 23, title: "Telegraphic grammar: headlines & notes", pillar: style, size: mini }
-- { id: c2-24, level: C2, number: 24, title: "Literary & archaic forms", pillar: style, size: mini }
-- { id: c2-25, level: C2, number: 25, title: "US vs UK grammar & other Englishes", pillar: style, size: core }
-- { id: c2-26, level: C2, number: 26, title: "Prescriptive rules vs real usage", pillar: style, size: core }
-- { id: c2-27, level: C2, number: 27, title: "Ambiguity & precision", pillar: sentence-structure, size: core }
-- { id: c2-28, level: C2, number: 28, title: "Expert punctuation", pillar: style, size: core }
-- { id: c2-29, level: C2, number: 29, title: "Concision", pillar: style, size: mini }
-- { id: c2-30, level: C2, number: 30, title: "Error mastery: the 100 most common errors", pillar: style, size: core }
+- {
+    id: c2-01,
+    level: C2,
+    number: 1,
+    title: "The subjunctive",
+    pillar: style,
+    size: core,
+  }
+- {
+    id: c2-02,
+    level: C2,
+    number: 2,
+    title: "Stylistic inversion: Try as he might…",
+    pillar: linking,
+    size: core,
+  }
+- {
+    id: c2-03,
+    level: C2,
+    number: 3,
+    title: "Conditionals without if",
+    pillar: conditionals,
+    size: core,
+  }
+- {
+    id: c2-04,
+    level: C2,
+    number: 4,
+    title: "Tense & aspect for stance",
+    pillar: tenses,
+    size: core,
+  }
+- {
+    id: c2-05,
+    level: C2,
+    number: 5,
+    title: "Aspect nuance",
+    pillar: tenses,
+    size: mini,
+  }
+- {
+    id: c2-06,
+    level: C2,
+    number: 6,
+    title: "Fine modality",
+    pillar: modals,
+    size: core,
+  }
+- {
+    id: c2-07,
+    level: C2,
+    number: 7,
+    title: "Voice: expert choices",
+    pillar: voice,
+    size: core,
+  }
+- {
+    id: c2-08,
+    level: C2,
+    number: 8,
+    title: "Complex sentences: parallelism & balance",
+    pillar: sentence-structure,
+    size: core,
+  }
+- {
+    id: c2-09,
+    level: C2,
+    number: 9,
+    title: "Relative & nominal clauses: expert",
+    pillar: clauses,
+    size: core,
+  }
+- {
+    id: c2-10,
+    level: C2,
+    number: 10,
+    title: "Concession: expert (albeit, notwithstanding)",
+    pillar: clauses,
+    size: mini,
+  }
+- {
+    id: c2-11,
+    level: C2,
+    number: 11,
+    title: "Formal subordinators: lest, inasmuch as",
+    pillar: clauses,
+    size: core,
+  }
+- {
+    id: c2-12,
+    level: C2,
+    number: 12,
+    title: "Information structure: expert",
+    pillar: linking,
+    size: core,
+  }
+- {
+    id: c2-13,
+    level: C2,
+    number: 13,
+    title: "Determiners & quantifiers: fine points",
+    pillar: determiners,
+    size: core,
+  }
+- {
+    id: c2-14,
+    level: C2,
+    number: 14,
+    title: "Noun phrases: expert",
+    pillar: nouns,
+    size: core,
+  }
+- {
+    id: c2-15,
+    level: C2,
+    number: 15,
+    title: "Reference: expert",
+    pillar: pronouns,
+    size: core,
+  }
+- {
+    id: c2-16,
+    level: C2,
+    number: 16,
+    title: "Adverbials: expert",
+    pillar: modifiers,
+    size: core,
+  }
+- {
+    id: c2-17,
+    level: C2,
+    number: 17,
+    title: "Negation: expert",
+    pillar: sentence-structure,
+    size: core,
+  }
+- {
+    id: c2-18,
+    level: C2,
+    number: 18,
+    title: "Word formation: expert",
+    pillar: word-classes,
+    size: core,
+  }
+- {
+    id: c2-19,
+    level: C2,
+    number: 19,
+    title: "Spoken grammar 2",
+    pillar: style,
+    size: core,
+  }
+- {
+    id: c2-20,
+    level: C2,
+    number: 20,
+    title: "Academic grammar",
+    pillar: style,
+    size: core,
+  }
+- {
+    id: c2-21,
+    level: C2,
+    number: 21,
+    title: "Attribution & free indirect speech",
+    pillar: reported-speech,
+    size: core,
+  }
+- {
+    id: c2-22,
+    level: C2,
+    number: 22,
+    title: "The grammar of rhetoric",
+    pillar: style,
+    size: core,
+  }
+- {
+    id: c2-23,
+    level: C2,
+    number: 23,
+    title: "Telegraphic grammar: headlines & notes",
+    pillar: style,
+    size: mini,
+  }
+- {
+    id: c2-24,
+    level: C2,
+    number: 24,
+    title: "Literary & archaic forms",
+    pillar: style,
+    size: mini,
+  }
+- {
+    id: c2-25,
+    level: C2,
+    number: 25,
+    title: "US vs UK grammar & other Englishes",
+    pillar: style,
+    size: core,
+  }
+- {
+    id: c2-26,
+    level: C2,
+    number: 26,
+    title: "Prescriptive rules vs real usage",
+    pillar: style,
+    size: core,
+  }
+- {
+    id: c2-27,
+    level: C2,
+    number: 27,
+    title: "Ambiguity & precision",
+    pillar: sentence-structure,
+    size: core,
+  }
+- {
+    id: c2-28,
+    level: C2,
+    number: 28,
+    title: "Expert punctuation",
+    pillar: style,
+    size: core,
+  }
+- {
+    id: c2-29,
+    level: C2,
+    number: 29,
+    title: "Concision",
+    pillar: style,
+    size: mini,
+  }
+- {
+    id: c2-30,
+    level: C2,
+    number: 30,
+    title: "Error mastery: the 100 most common errors",
+    pillar: style,
+    size: core,
+  }

@@ -1,0 +1,4 @@
+# ultracite
+#!/bin/sh
+pnpm exec ultracite fix
+# ultracite end

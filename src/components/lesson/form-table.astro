@@ -1,0 +1,16 @@
+---
+// Wraps a markdown table that shows the form (+ / − / ?) of a structure.
+interface Props {
+  caption?: string;
+}
+const { caption } = Astro.props;
+---
+
+<figure class="form-table flex flex-col gap-2">
+  {caption && (
+    <figcaption class="text-muted-foreground font-sans text-sm font-bold">
+      {caption}
+    </figcaption>
+  )}
+  <slot />
+</figure>

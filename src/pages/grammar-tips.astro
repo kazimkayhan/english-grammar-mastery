@@ -1,12 +1,11 @@
 ---
-import { getCollection } from "astro:content"
+import { getCollection } from "astro:content";
+import WrongRight from "@/components/lesson/wrong-right.astro";
+import AppLayout from "@/layouts/app-layout.astro";
+import { getSyllabus } from "@/lib/content";
 
-import AppLayout from "@/layouts/AppLayout.astro"
-import WrongRight from "@/components/lesson/WrongRight.astro"
-import { getSyllabus } from "@/lib/content"
-
-const traps = await getCollection("persianTraps")
-const syllabus = new Map((await getSyllabus()).map((s) => [s.id, s]))
+const traps = await getCollection("persianTraps");
+const syllabus = new Map((await getSyllabus()).map((s) => [s.id, s]));
 const GROUPS = [
   "Sentence structure",
   "Nouns & determiners",
@@ -15,61 +14,85 @@ const GROUPS = [
   "Verb patterns & reported speech",
   "Prepositions",
   "Modifiers",
-] as const
+] as const;
 ---
 
-<AppLayout title="Grammar Tips" description="The typical English grammar mistakes of Persian speakers, and how to fix them.">
+<AppLayout
+  description="The typical English grammar mistakes of Persian speakers, and how to fix them."
+  title="Grammar Tips"
+>
   <header class="flex flex-col gap-3">
     <h1 class="font-heading text-4xl font-bold tracking-tight">
-      Grammar Tips <span class="fa text-3xl font-normal text-persian">نکته های گرامری</span>
+      Grammar Tips
+      <span class="fa text-persian text-3xl font-normal">نکته های گرامری</span>
     </h1>
-    <p class="max-w-2xl lg:max-w-7xl font-reading text-lg text-muted-foreground">
-      {traps.length} mistakes that Persian speakers make because Persian grammar works differently. Each one shows what people
-      say, the correct English, why, and the lesson that fixes it for good.
+    <p
+      class="font-reading text-muted-foreground max-w-2xl text-lg lg:max-w-7xl"
+    >
+      {traps.length}
+      mistakes that Persian speakers make because Persian grammar works
+      differently. Each one shows what people say, the correct English, why, and
+      the lesson that fixes it for good.
     </p>
-    <p lang="fa" dir="rtl" class="fa persian-only max-w-2xl lg:max-w-7xl rounded-2xl bg-persian-soft px-4 py-3">
-      این اشتباه‌ها به خاطر تفاوت دستور زبان فارسی و انگلیسی است. دانستن «چرا»ی هر اشتباه کمک می‌کند برای همیشه درست شود.
+    <p
+      class="fa persian-only bg-persian-soft max-w-2xl rounded-2xl px-4 py-3 lg:max-w-7xl"
+      dir="rtl"
+      lang="fa"
+    >
+      این اشتباه‌ها به خاطر تفاوت دستور زبان فارسی و انگلیسی است. دانستن «چرا»ی
+      هر اشتباه کمک می‌کند برای همیشه درست شود.
     </p>
     <nav aria-label="Groups" class="flex flex-wrap gap-2 pt-1">
-      {
-        GROUPS.map((g) => (
-          <a href={`#${g.toLowerCase().replace(/[^a-z]+/g, "-")}`} class="rounded-full border bg-card px-3 py-1 text-sm hover:bg-muted/50">
-            {g}
-          </a>
-        ))
-      }
+      {GROUPS.map((g) => (
+        <a
+          class="bg-card hover:bg-muted/50 rounded-full border px-3 py-1 text-sm"
+          href={`#${g.toLowerCase().replace(/[^a-z]+/gu, "-")}`}
+        >
+          {g}
+        </a>
+      ))}
     </nav>
   </header>
 
-  {
-    GROUPS.map((group) => (
-      <section class="flex flex-col gap-3" id={group.toLowerCase().replace(/[^a-z]+/g, "-")}>
-        <h2 class="font-heading text-2xl font-bold">{group}</h2>
-        {traps
-          .filter((t) => t.data.group === group)
-          .map((t) => {
-            const planned = syllabus.get(t.data.lesson)
-            return (
-              <div class="flex flex-col gap-1.5">
-                <WrongRight wrong={t.data.wrong} right={t.data.right} why={t.data.why} fa={t.data.fa} />
-                {planned && (
-                  <p class="px-1 text-sm text-muted-foreground">
-                    Fixed in{" "}
-                    {planned.lesson ? (
-                      <a class="font-bold text-primary hover:underline" href={`/lessons/${planned.lesson.id}`}>
-                        {planned.level}.{planned.number} {planned.title}
-                      </a>
-                    ) : (
-                      <span>
-                        {planned.level}.{planned.number} {planned.title} (coming soon)
-                      </span>
-                    )}
-                  </p>
-                )}
-              </div>
-            )
-          })}
-      </section>
-    ))
-  }
+  {GROUPS.map((group) => (
+    <section
+      class="flex flex-col gap-3"
+      id={group.toLowerCase().replace(/[^a-z]+/gu, "-")}
+    >
+      <h2 class="font-heading text-2xl font-bold">{group}</h2>
+      {traps
+        .filter((t) => t.data.group === group)
+        .map((t) => {
+          const planned = syllabus.get(t.data.lesson);
+          return (
+            <div class="flex flex-col gap-1.5">
+              <WrongRight
+                fa={t.data.fa}
+                right={t.data.right}
+                why={t.data.why}
+                wrong={t.data.wrong}
+              />
+              {planned && (
+                <p class="text-muted-foreground px-1 text-sm">
+                  Fixed in{" "}
+                  {planned.lesson ? (
+                    <a
+                      class="text-primary font-bold hover:underline"
+                      href={`/lessons/${planned.lesson.id}`}
+                    >
+                      {planned.level}.{planned.number} {planned.title}
+                    </a>
+                  ) : (
+                    <span>
+                      {planned.level}.{planned.number} {planned.title} (coming
+                      soon)
+                    </span>
+                  )}
+                </p>
+              )}
+            </div>
+          );
+        })}
+    </section>
+  ))}
 </AppLayout>

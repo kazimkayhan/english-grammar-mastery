@@ -7,187 +7,283 @@
 // ends a run. A run is wrapped whole only when it closes every tag it opens (the HTML stays well
 // formed); otherwise each text segment between its tags is wrapped on its own.
 
-const TAG = "\uE000" // an inline tag
-const BREAK = "\uE001" // any other tag
-const INLINE_TAG = /^<\/?(?:a|abbr|b|code|del|em|i|kbd|mark|s|small|span|strong|sub|sup|u)\b/i
+const TAG = ""; // an inline tag
+const BREAK = ""; // any other tag
+const INLINE_TAG =
+  /^<\/?(?:a|abbr|b|code|del|em|i|kbd|mark|s|small|span|strong|sub|sup|u)\b/iu;
+const TAG_SPLIT = /(?<tag><[^>]+>)/u;
+const TAG_NAME = /^<\/?(?<name>[a-z0-9]+)/iu;
+const ENTITY = /&(?<code>#x[0-9a-f]+|#\d+|[a-z]+);/giu;
+const WHITESPACE = /\s/u;
+const LATIN_LETTER = /[A-Za-z]/u;
+const ABBREVIATION_END = /\.[A-Za-z]+\.$/u;
 
 // A candidate run may hold brackets, Persian commas and inline tags; wrapRun() then splits and trims it.
-const LATIN_RUN = /\(?[A-Za-z][A-Za-z0-9'’\-/,.!?:()،… \uE000]*[A-Za-z0-9'’.!?)…\uE000]|\(?[A-Za-z]\)?/g
+const LATIN_RUN =
+  /\(?[A-Za-z][A-Za-z0-9'’\-/,.!?:()،… ]*[A-Za-z0-9'’.!?)…]|\(?[A-Za-z]\)?/gu;
 
-const RUN_END = /[A-Za-z0-9'’.!?)…]/
+const RUN_END = /[A-Za-z0-9'’.!?)…]/u;
 
 // English that is a sentence ("Ali drinks tea.", "be: She is never late.") keeps its full stop.
-const SENTENCE = /^[A-Z]|[:.!?] [A-Z]/
+const SENTENCE = /^[A-Z]|[:.!?] [A-Z]/u;
 
 const escapeHtml = (s: string) =>
-  s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;")
+  s
+    .replace(/&/gu, "&amp;")
+    .replace(/</gu, "&lt;")
+    .replace(/>/gu, "&gt;")
+    .replace(/"/gu, "&quot;");
 
-const NAMED: Record<string, string> = { amp: "&", lt: "<", gt: ">", quot: '"', apos: "'", nbsp: " " }
+const NAMED: Record<string, string> = {
+  amp: "&",
+  apos: "'",
+  gt: ">",
+  lt: "<",
+  nbsp: " ",
+  quot: '"',
+};
 
 /** Decode the entities a renderer may emit, so "I&#39;m" is seen as one English word. */
 const decodeEntities = (s: string) =>
-  s.replace(/&(#x[0-9a-f]+|#\d+|[a-z]+);/gi, (match, code: string) => {
+  s.replace(ENTITY, (match, code: string) => {
     if (code[0] === "#") {
-      const n = code[1].toLowerCase() === "x" ? parseInt(code.slice(2), 16) : parseInt(code.slice(1), 10)
-      return Number.isFinite(n) ? String.fromCodePoint(n) : match
+      const n =
+        code[1].toLowerCase() === "x"
+          ? Number.parseInt(code.slice(2), 16)
+          : Number.parseInt(code.slice(1), 10);
+      return Number.isFinite(n) ? String.fromCodePoint(n) : match;
     }
-    return NAMED[code.toLowerCase()] ?? match
-  })
+    return NAMED[code.toLowerCase()] ?? match;
+  });
 
 interface Flat {
-  text: string
-  tags: Map<number, string> // position of each placeholder → the tag it stands for
+  tags: Map<number, string>; // position of each placeholder → the tag it stands for
+  text: string;
 }
 
 function flattenHtml(html: string): Flat {
-  let text = ""
-  const tags = new Map<number, string>()
-  for (const part of html.split(/(<[^>]+>)/)) {
+  let text = "";
+  const tags = new Map<number, string>();
+  for (const part of html.split(TAG_SPLIT)) {
     if (part.startsWith("<")) {
-      tags.set(text.length, part)
-      text += INLINE_TAG.test(part) ? TAG : BREAK
-    } else text += decodeEntities(part)
+      tags.set(text.length, part);
+      text += INLINE_TAG.test(part) ? TAG : BREAK;
+    } else {
+      text += decodeEntities(part);
+    }
   }
-  return { text, tags }
+  return { tags, text };
 }
 
 /** The HTML for text[from, to): placeholders turn back into their tags and text is escaped. */
 function emit(f: Flat, from: number, to: number, english = false): string {
-  let out = ""
-  for (let i = from; i < to; i++) {
-    const c = f.text[i]
+  let out = "";
+  for (let i = from; i < to; i += 1) {
+    const c = f.text[i];
     // Inside a bracketed English list the commas are English too: "(Ali، tea)" → "(Ali, tea)".
-    out += f.tags.get(i) ?? escapeHtml(english && c === "،" ? "," : c)
+    out += f.tags.get(i) ?? escapeHtml(english && c === "،" ? "," : c);
   }
-  return out
+  return out;
 }
 
-const tagName = (tag: string) => /^<\/?([a-z0-9]+)/i.exec(tag)?.[1].toLowerCase() ?? ""
+const tagName = (tag: string) =>
+  TAG_NAME.exec(tag)?.groups?.name?.toLowerCase() ?? "";
 
 /** Placeholders in [from, to) whose partner tag lies outside the range. */
 function unpaired(f: Flat, from: number, to: number): number[] {
-  const open: number[] = []
-  const lone: number[] = []
-  for (let i = from; i < to; i++) {
-    if (f.text[i] !== TAG) continue
-    const tag = f.tags.get(i)!
-    if (!tag.startsWith("</")) {
-      if (!tag.endsWith("/>")) open.push(i)
-    } else if (open.length && tagName(f.tags.get(open.at(-1)!)!) === tagName(tag)) open.pop()
-    else lone.push(i)
+  const open: { index: number; name: string }[] = [];
+  const lone: number[] = [];
+  for (let i = from; i < to; i += 1) {
+    if (f.text[i] !== TAG) {
+      continue;
+    }
+    const tag = f.tags.get(i) ?? "";
+    if (tag.startsWith("</")) {
+      const last = open.at(-1);
+      if (last && last.name === tagName(tag)) {
+        open.pop();
+      } else {
+        lone.push(i);
+      }
+    } else if (!tag.endsWith("/>")) {
+      open.push({ index: i, name: tagName(tag) });
+    }
   }
-  return [...lone, ...open]
+  return [...lone, ...open.map((o) => o.index)];
 }
 
-const count = (s: string, c: string) => s.split(c).length - 1
+const count = (s: string, c: string) => s.split(c).length - 1;
+
+const innerText = (f: Flat, start: number, end: number) =>
+  f.text.slice(start, end).replaceAll(TAG, "");
+
+/** One trim from either edge of [start, end), or null when that edge is settled. */
+function trimStep(
+  f: Flat,
+  start: number,
+  end: number
+): [number, number] | null {
+  const s = innerText(f, start, end);
+  const first = f.text[start];
+  const last = f.text[end - 1];
+  if (WHITESPACE.test(first)) {
+    return [start + 1, end];
+  }
+  if (WHITESPACE.test(last)) {
+    return [start, end - 1];
+  }
+  if (first === "(" && count(s, "(") > count(s, ")")) {
+    return [start + 1, end];
+  }
+  if (last === ")" && count(s, ")") > count(s, "(")) {
+    return [start, end - 1];
+  }
+  if (first === TAG && unpaired(f, start, end).includes(start)) {
+    return [start + 1, end];
+  }
+  if (last === TAG && unpaired(f, start, end).includes(end - 1)) {
+    return [start, end - 1];
+  }
+  // "(parts of speech):</strong>" ends at ")"
+  if (last !== TAG && !RUN_END.test(last)) {
+    return [start, end - 1];
+  }
+  return null;
+}
+
+/** Narrow [from, to) past whitespace, unpaired brackets and tags, and punctuation that ends the run. */
+function trimEdges(f: Flat, from: number, to: number): [number, number] {
+  let start = from;
+  let end = to;
+  while (start < end) {
+    const next = trimStep(f, start, end);
+    if (!next) {
+      break;
+    }
+    [start, end] = next;
+  }
+  return [start, end];
+}
 
 /** One piece of English: brackets stay inside only when they pair up ("(Ali, tea)" but "go" + ")"). */
 function wrapPiece(f: Flat, from: number, to: number): string {
-  let start = from
-  let end = to
-  const inner = () => f.text.slice(start, end).replaceAll(TAG, "")
   // A final full stop belongs to English that is a sentence ("Ali drinks tea.") or an abbreviation
   // ("a.m."); any other ends the Persian sentence, so it goes outside: "… مفعول (object)."
-  const whole = inner().trim()
-  const ownsStop = (SENTENCE.test(whole) && !whole.endsWith(").")) || /\.[A-Za-z]+\.$/.test(whole)
-  while (end > start && /\s/.test(f.text[end - 1])) end--
-  if (f.text[end - 1] === "." && !ownsStop) end--
-  for (;;) {
-    if (start >= end) break
-    const s = inner()
-    const first = f.text[start]
-    const last = f.text[end - 1]
-    if (/\s/.test(first)) start++
-    else if (/\s/.test(last)) end--
-    else if (first === "(" && count(s, "(") > count(s, ")")) start++
-    else if (last === ")" && count(s, ")") > count(s, "(")) end--
-    else if (first === TAG && unpaired(f, start, end).includes(start)) start++
-    else if (last === TAG && unpaired(f, start, end).includes(end - 1)) end--
-    else if (last !== TAG && !RUN_END.test(last)) end-- // "(parts of speech):</strong>" ends at ")"
-    else break
+  const whole = innerText(f, from, to).trim();
+  const ownsStop =
+    (SENTENCE.test(whole) && !whole.endsWith(").")) ||
+    ABBREVIATION_END.test(whole);
+  let trimmedEnd = to;
+  while (trimmedEnd > from && WHITESPACE.test(f.text[trimmedEnd - 1])) {
+    trimmedEnd -= 1;
   }
-  if (!/[A-Za-z]/.test(inner())) return emit(f, from, to)
+  if (f.text[trimmedEnd - 1] === "." && !ownsStop) {
+    trimmedEnd -= 1;
+  }
+  const [start, end] = trimEdges(f, from, trimmedEnd);
+  if (!LATIN_LETTER.test(innerText(f, start, end))) {
+    return emit(f, from, to);
+  }
   if (unpaired(f, start, end).length) {
     // A tag crosses the run: wrap each text segment between the tags on its own.
-    let out = emit(f, from, start)
-    let segment = start
-    for (let i = start; i <= end; i++) {
-      if (i < end && f.text[i] !== TAG) continue
-      out += wrapPiece(f, segment, i) + emit(f, i, Math.min(i + 1, end))
-      segment = i + 1
+    let out = emit(f, from, start);
+    let segment = start;
+    for (let i = start; i <= end; i += 1) {
+      if (i < end && f.text[i] !== TAG) {
+        continue;
+      }
+      out += wrapPiece(f, segment, i) + emit(f, i, Math.min(i + 1, end));
+      segment = i + 1;
     }
-    return out + emit(f, end, to)
+    return out + emit(f, end, to);
   }
-  return `${emit(f, from, start)}<bdi dir="ltr" lang="en">${emit(f, start, end, true)}</bdi>${emit(f, end, to)}`
+  return `${emit(f, from, start)}<bdi dir="ltr" lang="en">${emit(f, start, end, true)}</bdi>${emit(f, end, to)}`;
 }
 
 /** A Persian comma outside brackets separates items of a Persian list ("go ← went، see ← saw"),
  *  so each item is isolated on its own and the list reads right to left. */
 function wrapRun(f: Flat, from: number, to: number): string {
-  let out = ""
-  let depth = 0
-  let piece = from
-  for (let i = from; i < to; i++) {
-    const c = f.text[i]
-    if (c === "(") depth++
-    else if (c === ")") depth = Math.max(0, depth - 1)
-    else if (c === "،" && depth === 0) {
-      out += wrapPiece(f, piece, i) + "،"
-      piece = i + 1
+  let out = "";
+  let depth = 0;
+  let piece = from;
+  for (let i = from; i < to; i += 1) {
+    const c = f.text[i];
+    if (c === "(") {
+      depth += 1;
+    } else if (c === ")") {
+      depth = Math.max(0, depth - 1);
+    } else if (c === "،" && depth === 0) {
+      out += `${wrapPiece(f, piece, i)}،`;
+      piece = i + 1;
     }
   }
-  return out + wrapPiece(f, piece, to)
+  return out + wrapPiece(f, piece, to);
 }
 
 function isolate(f: Flat): string {
-  let out = ""
-  let last = 0
+  let out = "";
+  let last = 0;
   for (const m of f.text.matchAll(LATIN_RUN)) {
-    const end = m.index! + m[0].length
+    const end = m.index + m[0].length;
     // Take in an opening tag just before the run when the run holds its closing tag: "<strong>in</strong> Tehran".
-    let start = m.index!
-    while (start > last && f.text[start - 1] === TAG && unpaired(f, start - 1, end).length < unpaired(f, start, end).length) start--
-    out += emit(f, last, start) + wrapRun(f, start, end)
-    last = end
+    let start = m.index;
+    while (
+      start > last &&
+      f.text[start - 1] === TAG &&
+      unpaired(f, start - 1, end).length < unpaired(f, start, end).length
+    ) {
+      start -= 1;
+    }
+    out += emit(f, last, start) + wrapRun(f, start, end);
+    last = end;
   }
-  return out + emit(f, last, f.text.length)
+  return out + emit(f, last, f.text.length);
 }
 
 /** Isolate Latin runs inside an HTML string (tags are kept, and stay well formed). */
 export function isolateLatinHtml(html: string): string {
-  return isolate(flattenHtml(html))
+  return isolate(flattenHtml(html));
 }
 
 /** Same for plain text. */
 export function isolateLatinText(text: string): string {
-  return isolate({ text, tags: new Map() })
+  return isolate({ tags: new Map(), text });
 }
 
 // The reverse case: Persian words inside an English sentence ("(توضیح کامل فارسی)").
-const PERSIAN_RUN = /[؀-ۿﭐ-﷿ﹰ-﻿][؀-ۿﭐ-﷿ﹰ-﻿‌۰-۹ «»،؛]*/g
+const PERSIAN_RUN = /[؀-ۿﭐ-﷿ﹰ-﻿][؀-ۿﭐ-﷿ﹰ-﻿‌۰-۹ «»،؛]*/gu;
 
 /** Split plain text into English and Persian pieces, so Persian runs can be wrapped in <bdi dir="rtl">. */
-export function splitPersianRuns(text: string): { text: string; fa: boolean }[] {
-  const parts: { text: string; fa: boolean }[] = []
-  let last = 0
+export function splitPersianRuns(
+  text: string
+): { text: string; fa: boolean }[] {
+  const parts: { text: string; fa: boolean }[] = [];
+  let last = 0;
   for (const m of text.matchAll(PERSIAN_RUN)) {
-    const run = m[0].trimEnd()
-    if (m.index! > last) parts.push({ text: text.slice(last, m.index), fa: false })
-    parts.push({ text: run, fa: true })
-    last = m.index! + run.length
+    const run = m[0].trimEnd();
+    const matchStart = m.index;
+    if (matchStart > last) {
+      parts.push({ fa: false, text: text.slice(last, matchStart) });
+    }
+    parts.push({ fa: true, text: run });
+    last = matchStart + run.length;
   }
-  if (last < text.length) parts.push({ text: text.slice(last), fa: false })
-  return parts
+  if (last < text.length) {
+    parts.push({ fa: false, text: text.slice(last) });
+  }
+  return parts;
 }
 
 /** HTML version: escape, then isolate Persian runs inside English text. */
 export function isolatePersian(text: string): string {
-  return splitPersianRuns(text)
-    // Short phrases stay on one line: a Persian phrase split across lines inside English reads badly.
-    .map((p) =>
-      p.fa
-        ? `<bdi dir="rtl" lang="fa" class="fa">${escapeHtml(p.text.length <= 30 ? p.text.replace(/ /g, " ") : p.text)}</bdi>`
-        : escapeHtml(p.text),
-    )
-    .join("")
+  return (
+    splitPersianRuns(text)
+      // Short phrases stay on one line: a Persian phrase split across lines inside English reads badly.
+      .map((p) =>
+        p.fa
+          ? `<bdi dir="rtl" lang="fa" class="fa">${escapeHtml(p.text.length <= 30 ? p.text.replace(/ /gu, " ") : p.text)}</bdi>`
+          : escapeHtml(p.text)
+      )
+      .join("")
+  );
 }

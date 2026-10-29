@@ -1,38 +1,56 @@
 ---
-import AppLayout from "@/layouts/AppLayout.astro"
-import LinkButton from "@/components/common/LinkButton.astro"
-import { Mindmap } from "@/components/mindmap/Mindmap"
-import { getAllMaps, type MapEntry } from "@/lib/maps"
+import LinkButton from "@/components/common/link-button.astro";
+import { Mindmap } from "@/components/mindmap/mindmap";
+import AppLayout from "@/layouts/app-layout.astro";
+import { getAllMaps, type MapEntry } from "@/lib/maps";
 
 export async function getStaticPaths() {
-  const maps = await getAllMaps()
-  return maps.map((map) => ({ params: { id: map.id }, props: { map } }))
+  const maps = await getAllMaps();
+  return maps.map((entry) => ({
+    params: { id: entry.id },
+    props: { map: entry },
+  }));
 }
 
-const { map } = Astro.props as { map: MapEntry }
-const back =
-  map.kind === "pillar"
-    ? { href: `/pillars/${map.id.replace("pillar-", "")}`, label: "Pillar page" }
-    : map.kind === "level"
-      ? { href: `/levels/${map.id.replace("level-", "")}`, label: "Level page" }
-      : { href: "/roadmap", label: "Roadmap" }
+const backLinkFor = (entry: MapEntry) => {
+  if (entry.kind === "pillar") {
+    return {
+      href: `/pillars/${entry.id.replace("pillar-", "")}`,
+      label: "Pillar page",
+    };
+  }
+  if (entry.kind === "level") {
+    return {
+      href: `/levels/${entry.id.replace("level-", "")}`,
+      label: "Level page",
+    };
+  }
+  return { href: "/roadmap", label: "Roadmap" };
+};
+
+const { map } = Astro.props as { map: MapEntry };
+const back = backLinkFor(map);
 ---
 
-<AppLayout title={map.title} description={map.description}>
+<AppLayout description={map.description} title={map.title}>
   <header class="flex flex-col gap-2">
-    <a href="/mindmaps" class="text-sm text-muted-foreground hover:text-foreground">← All mindmaps</a>
+    <a
+      class="text-muted-foreground hover:text-foreground text-sm"
+      href="/mindmaps"
+      >← All mindmaps</a
+    >
     <h1 class="font-heading text-3xl font-bold tracking-tight">{map.title}</h1>
     <p class="text-muted-foreground">{map.description}</p>
   </header>
   <Mindmap
-    client:load
-    markdown={map.markdown}
+    branchColors={map.branchColors}
     colors={map.colors}
     colorVar={map.colorVar}
-    branchColors={map.branchColors}
-    title={map.title}
     height={640}
+    markdown={map.markdown}
     recallDefault
+    title={map.title}
+    client:load
   />
   <div class="flex gap-2">
     <LinkButton href={back.href} variant="outline">{back.label}</LinkButton>

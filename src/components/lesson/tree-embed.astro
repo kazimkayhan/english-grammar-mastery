@@ -1,0 +1,27 @@
+---
+// <DecisionTree id="articles" /> inside a lesson: loads the tree from src/content/trees.
+import { getEntry } from "astro:content";
+
+import { DecisionTree } from "@/components/mindmap/decision-tree";
+import { PILLAR_INFO } from "@/lib/taxonomy";
+
+interface Props {
+  id: string;
+}
+
+const entry = await getEntry("trees", Astro.props.id);
+if (!entry) {
+  throw new Error(
+    `Decision tree "${Astro.props.id}" not found in src/content/trees`
+  );
+}
+const { family } = PILLAR_INFO[entry.data.pillar];
+---
+
+<DecisionTree
+  colorVar={`--fam-${family}`}
+  description={entry.data.description}
+  root={entry.data.root}
+  title={entry.data.title}
+  client:visible
+/>

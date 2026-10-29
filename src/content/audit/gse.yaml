@@ -6,450 +6,2858 @@ retrieved_from:
 verified: true
 note: "Items are the 447 Can-do grammar learning objectives in the 'GSE Learning Objectives: Grammar - Adult Learners' PDF (General Adult set; the Academic and Professional grammar sets were not retrieved). Text was extracted with pypdf from the downloaded PDF; one objective sentence is kept per item. Levels are derived from the GSE value printed in the PDF using Pearson's scale (A1 22-29, A2 30-42, B1 43-58, B2 59-75, C1 76-84). The adult guide stops at GSE 80 (C1); there are no C2 objectives. Where an objective is only partly covered by existing points, the item is mapped and also carries a suggest block. levelNote is added when any mapped inventory point is 2+ CEFR levels away from the GSE level; GSE rates productive use and places some structures (e.g. adverb comparatives, because of, state-change verbs) lower than classroom syllabi. Items sharing a suggested title are one proposed point."
 items:
-  - { ref: "GSE 24 #001", level: A1, item: "Can ask basic questions using ‘What’s your ...?’", maps: [ question-words ] }
-  - { ref: "GSE 24 #002", level: A1, item: "Can use the correct form of ‘be’ with singular and plural nouns.", maps: [ be-present-forms ] }
-  - { ref: "GSE 24 #003", level: A1, item: "Can make basic statements with subject + verb + object.", maps: [ svo-order ] }
-  - { ref: "GSE 24 #004", level: A1, item: "Can use subject personal pronouns.", maps: [ subject-pronouns ] }
-  - { ref: "GSE 24 #005", level: A1, item: "Can say their own age using ‘I’m [number]’.", maps: [ be-uses-age ] }
-  - { ref: "GSE 24 #006", level: A1, item: "Can make simple statements with ‘it’s/it is’.", maps: [ dummy-it ] }
-  - { ref: "GSE 24 #007", level: A1, item: "Can use regular nouns in the plural form.", maps: [ plural-regular ] }
-  - { ref: "GSE 24 #008", level: A1, item: "Can use subject pronouns with the correct form of the verb ‘be’ in the simple present.", maps: [ be-present-forms ] }
-  - { ref: "GSE 25 #009", level: A1, item: "Can use possessive adjectives such as ‘my’, ‘your’, etc.", maps: [ possessive-adjectives ] }
-  - { ref: "GSE 25 #010", level: A1, item: "Can use ‘a/an’with the names of jobs.", maps: [ a-jobs ] }
-  - { ref: "GSE 25 #011", level: A1, item: "Can form questions with ‘what’ and ‘who’ and answer them.", maps: [ question-words ] }
-  - { ref: "GSE 25 #012", level: A1, item: "Can ask someone’s age using ‘How old …?’", maps: [ how-questions ] }
-  - { ref: "GSE 25 #013", level: A1, item: "Can use ‘and’ to link nouns and noun phrases.", maps: [ and-but-or ] }
-  - { ref: "GSE 25 #014", level: A1, item: "Can use the verb ‘be’in the simple present with adjectives.", maps: [ be-present-forms, adjective-position ] }
-  - { ref: "GSE 25 #015", level: A1, item: "Can use ‘this is’for an introduction.", maps: [ demonstrative-pronouns ] }
-  - { ref: "GSE 25 #016", level: A1, item: "Can use common forms of ‘have’in the present tense.", maps: [ have-possession ] }
-  - { ref: "GSE 25 #017", level: A1, item: "Can use common irregular nouns in the plural form.", maps: [ plural-irregular ] }
-  - { ref: "GSE 25 #018", level: A1, item: "Can ask where other people are using ‘Where is/are …?’", maps: [ question-words, be-questions ] }
-  - { ref: "GSE 26 #019", level: A1, item: "Can use ‘a/an’ with single countable nouns.", maps: [ a-an-sound ] }
-  - { ref: "GSE 26 #020", level: A1, item: "Can make affirmative statements using the present simple without time reference.", maps: [ present-simple-positive ] }
-  - { ref: "GSE 26 #021", level: A1, item: "Can make negative statements using the present simple.", maps: [ present-simple-negative ] }
-  - { ref: "GSE 26 #022", level: A1, item: "Can ask wh- questions using the present simple.", maps: [ wh-present-simple ] }
-  - { ref: "GSE 26 #023", level: A1, item: "Can use the present simple to refer to daily routines.", maps: [ present-simple-uses ] }
-  - { ref: "GSE 26 #024", level: A1, item: "Can ask yes/no questions using the present simple.", maps: [ present-simple-questions ] }
-  - { ref: "GSE 26 #025", level: A1, item: "Can use ‘a/an’ with jobs to talk about work and professions.", maps: [ a-jobs ] }
-  - { ref: "GSE 26 #026", level: A1, item: "Can use basic prepositions of place with nouns and noun phrases.", maps: [ place-in-on-at, place-others ] }
-  - { ref: "GSE 27 #027", level: A1, item: "Can use verbs in the imperative.", maps: [ imperatives ] }
-  - { ref: "GSE 27 #028", level: A1, item: "Can use personal pronouns as objects and complements.", maps: [ object-pronouns ] }
-  - { ref: "GSE 27 #029", level: A1, item: "Can use a range of time expressions with whole numbers (+ ‘o’clock’).", maps: [ telling-time ] }
-  - { ref: "GSE 27 #030", level: A1, item: "Can use ‘there’ + ‘be’ to express presence/ absence.", maps: [ there-is-are, there-negative-questions ] }
-  - { ref: "GSE 27 #031", level: A1, item: "Can ask about the price of something using ‘How much is/are …?’", maps: [ prices, how-questions ] }
-  - { ref: "GSE 27 #032", level: A1, item: "Can ask a range of wh- questions.", maps: [ question-words ] }
-  - { ref: "GSE 27 #033", level: A1, item: "Can say where they and other people are using a few basic prepositions.", maps: [ place-in-on-at ] }
-  - { ref: "GSE 27 #034", level: A1, item: "Can use the present simple to refer to likes, dislikes and opinions.", maps: [ present-simple-uses, like-ing ] }
-  - { ref: "GSE 28 #035", level: A1, item: "Can use ‘but’to link clauses and sentences.", maps: [ and-but-or ] }
-  - { ref: "GSE 28 #036", level: A1, item: "Can use common forms of ‘have got’ (BrE) in the present tense.", maps: [ have-got ] }
-  - { ref: "GSE 28 #037", level: A1, item: "Can give dates (e.g. their date of birth) using ordinal numbers in the form day- monthyear or monthdayyear.", maps: [ dates, ordinal-numbers ] }
-  - { ref: "GSE 28 #038", level: A1, item: "Can use ‘’s’ to express possession with singular nouns.", maps: [ possessive-s ] }
-  - { ref: "GSE 28 #039", level: A1, item: "Can construct short answers to questions in the present simple using the verb ‘do’.", maps: [ present-simple-questions ] }
-  - { ref: "GSE 29 #040", level: A1, item: "Can tell when to use the present simple and when to use the present continuous.", maps: [ simple-vs-continuous ] }
-  - { ref: "GSE 29 #041", level: A1, item: "Can use ‘I’dlike …/Iwant …’toexpress wants and wishes.", maps: [ would-like ] }
-  - { ref: "GSE 29 #042", level: A1, item: "Can use ‘can’ to refer to ability in the present.", maps: [ can-ability ] }
-  - { ref: "GSE 30 #043", level: A2, item: "Can use ‘that’ and ‘this’ as determiners relating to people or objects.", maps: [ demonstratives ] }
-  - { ref: "GSE 30 #044", level: A2, item: "Can use the present continuous to refer to events at the time of speaking.", maps: [ present-continuous-now ] }
-  - { ref: "GSE 30 #045", level: A2, item: "Can ask about quantities using ‘how much/ many’ with count and uncountable nouns.", maps: [ how-much-many ] }
-  - { ref: "GSE 30 #046", level: A2, item: "Can make affirmative statements using common irregular past simple forms.", maps: [ past-simple-irregular ] }
-  - { ref: "GSE 30 #047", level: A2, item: "Can use ‘and’ with verbs and verb phrases.", maps: [ and-but-or ] }
-  - { ref: "GSE 30 #048", level: A2, item: "Can ask yes/no questions using the past tense of verbs.", maps: [ did-negative-questions ] }
-  - { ref: "GSE 30 #049", level: A2, item: "Can use ‘s’’ to express possession with plural nouns.", maps: [ s-plural-possessive ] }
-  - { ref: "GSE 30 #050", level: A2, item: "Can use ‘at’ as a preposition of time.", maps: [ time-at-on-in ] }
-  - { ref: "GSE 30 #051", level: A2, item: "Can use an adjective as a subject complement after a linking verb.", maps: [ linking-verbs ] }
-  - { ref: "GSE 30 #052", level: A2, item: "Can make affirmative statements using common regular past simple forms.", maps: [ past-simple-regular ] }
-  - { ref: "GSE 30 #053", level: A2, item: "Can use a range of prepositions of place.", maps: [ place-others ] }
-  - { ref: "GSE 31 #054", level: A2, item: "Can use ‘like/hate/love’ with the ‘ ing’ forms of verbs.", maps: [ like-ing ] }
-  - { ref: "GSE 31 #055", level: A2, item: "Can ask for information about time, measurement, size etc.", maps: [ how-questions ] }
-  - { ref: "GSE 31 #056", level: A2, item: "Can place adjectives in the correct position (before nouns).", maps: [ adjective-position ] }
-  - { ref: "GSE 31 #057", level: A2, item: "Can use a range of common time expressions with ‘past’/’to’ and fractions.", maps: [ telling-time ] }
-  - { ref: "GSE 31 #058", level: A2, item: "Can use ‘want to’ + infinitive to express intentions.", maps: [ verb-to ] }
-  - { ref: "GSE 31 #059", level: A2, item: "Can ask wh- questions using the past tense of verbs.", maps: [ past-simple-wh ] }
-  - { ref: "GSE 32 #060", level: A2, item: "Can use ‘after’ as a preposition in time expressions.", maps: [ before-after-noun ], suggest: { title: "before / after + noun as time prepositions (before lunch, after the class)", level: A2, lesson: a2-45 } }
-  - { ref: "GSE 32 #061", level: A2, item: "Can use uncountable (mass) nouns with no quantifier or an appropriate quantifier.", maps: [ countable-uncountable, a-lot-of-basic, some-any-basic ] }
-  - { ref: "GSE 32 #062", level: A2, item: "Can use ‘was’ and ‘were’ with a range of complement phrases.", maps: [ was-were ] }
-  - { ref: "GSE 32 #063", level: A2, item: "Can link clauses and sentences with a range of basic connectors.", maps: [ and-but-or, because-so ] }
-  - { ref: "GSE 32 #064", level: A2, item: "Can use the definite article to refer to a specific person, thing, or situation.", maps: [ the-specific ] }
-  - { ref: "GSE 32 #065", level: A2, item: "Can form questions with ‘How often’ in the present tense.", maps: [ how-often ] }
-  - { ref: "GSE 32 #066", level: A2, item: "Can use ‘this’ with time expressions referring to the present or future.", maps: [ demonstrative-time ] }
-  - { ref: "GSE 33 #067", level: A2, item: "Can give, deny or ask about permission in the present and near future with ‘can’.", maps: [ can-permission-requests ] }
-  - { ref: "GSE 33 #068", level: A2, item: "Can use ‘can’t’ to decline offers and invitations.", maps: [ can-ability ] }
-  - { ref: "GSE 33 #069", level: A2, item: "Can ask questions about how to do things.", maps: [ question-words, question-word-order ] }
-  - { ref: "GSE 33 #070", level: A2, item: "Can use a range of common adverbs of frequency.", maps: [ frequency-adverbs ] }
-  - { ref: "GSE 33 #071", level: A2, item: "Can make requests and offers with ‘would like’ + nouns and noun phrases.", maps: [ would-like ] }
-  - { ref: "GSE 33 #072", level: A2, item: "Can make basic polite requests with ‘could’.", maps: [ could-may-requests ] }
-  - { ref: "GSE 33 #073", level: A2, item: "Can use the correct preposition (‘on’ or ‘at’) with various common time expressions.", maps: [ time-at-on-in ] }
-  - { ref: "GSE 33 #074", level: A2, item: "Can describe times exactly using numbers from 1 to 59 (+ ‘past/to’).", maps: [ telling-time ] }
-  - { ref: "GSE 33 #075", level: A2, item: "Can use ‘it’ as a dummy (impersonal) subject when talking about weather conditions.", maps: [ dummy-it ] }
-  - { ref: "GSE 34 #076", level: A2, item: "Can use ‘(not) here’ and ‘(not) there’ to refer to presence and absence.", maps: [ adverbs-place-direction ], suggest: { title: "Adverbs of place and direction (here, there, up, down, back, away, upstairs, abroad)", level: A2, lesson: a2-41 } }
-  - { ref: "GSE 34 #077", level: A2, item: "Can make offers, requests, and suggestions using ‘can’.", maps: [ can-permission-requests, suggestions, offers ] }
-  - { ref: "GSE 34 #078", level: A2, item: "Can form questions with ‘what’ and ‘which’ as adjectives.", maps: [ what-vs-which ] }
-  - { ref: "GSE 34 #079", level: A2, item: "Can form questions with ‘whose’.", maps: [ whose ] }
-  - { ref: "GSE 34 #080", level: A2, item: "Can use ‘can’ and ‘can’t’ with verbs of perception.", maps: [ can-perception ], suggest: { title: "can / can't with verbs of perception (I can see it; I can't hear you)", level: A2, lesson: a2-21 } }
-  - { ref: "GSE 34 #081", level: A2, item: "Can use ‘Let’s …’ for suggestions and invitations.", maps: [ lets ] }
-  - { ref: "GSE 35 #082", level: A2, item: "Can use a range of common adverbs of movement and direction.", maps: [ adverbs-place-direction ], suggest: { title: "Adverbs of place and direction (here, there, up, down, back, away, upstairs, abroad)", level: A2, lesson: a2-41 } }
-  - { ref: "GSE 35 #083", level: A2, item: "Can use a range of common time markers for the past, present and future.", maps: [ past-time-expressions, no-prep-time ] }
-  - { ref: "GSE 35 #084", level: A2, item: "Can express personal plans and intentions for the future using ‘going to’.", maps: [ going-to-plans ] }
-  - { ref: "GSE 35 #085", level: A2, item: "Can make requests and offers with ‘would like to’ + verbs in the infinitive.", maps: [ would-like ] }
-  - { ref: "GSE 35 #086", level: A2, item: "Can use ‘(not) many/much’ with count (countable) and mass (uncountable) nouns respectively.", maps: [ much-many ] }
-  - { ref: "GSE 36 #087", level: A2, item: "Can form the superlative of longer regular adjectives with ‘most’.", maps: [ superlatives ] }
-  - { ref: "GSE 36 #088", level: A2, item: "Can use uncountable nouns without an article.", maps: [ the-vs-zero, countable-uncountable ] }
-  - { ref: "GSE 36 #089", level: A2, item: "Can use ‘a lot of/lots of’ to refer to quantities.", maps: [ a-lot-of ] }
-  - { ref: "GSE 36 #090", level: A2, item: "Can use ‘should(n’t)’ to offer or ask for advice or suggestions.", maps: [ should-advice ] }
-  - { ref: "GSE 36 #091", level: A2, item: "Can make comparisons with ‘more’ + longer adjectives.", maps: [ comparatives-long ] }
-  - { ref: "GSE 36 #092", level: A2, item: "Can use adverbs of frequency and manner in the correct position.", maps: [ frequency-position, adverb-positions ] }
-  - { ref: "GSE 36 #093", level: A2, item: "Can form the superlative of regular adjectives with ‘est’.", maps: [ superlatives ] }
-  - { ref: "GSE 36 #094", level: A2, item: "Can use ‘of’ to refer to possession and attribution.", maps: [ possessive-of ], levelNote: "source says A2, inventory says possessive-of B2" }
-  - { ref: "GSE 35 #095", level: A2, item: "Can use the definite article to refer back to something already mentioned.", maps: [ the-second-mention ] }
-  - { ref: "GSE 35 #096", level: A2, item: "Can use plural countable nouns without an article or quantifier.", maps: [ the-vs-zero ] }
-  - { ref: "GSE 35 #097", level: A2, item: "Can use ‘because’ with verb phrases to refer to causes and reasons.", maps: [ because-so, reason-clauses ] }
-  - { ref: "GSE 35 #098", level: A2, item: "Can use a range of common prepositions of movement.", maps: [ movement ] }
-  - { ref: "GSE 35 #099", level: A2, item: "Can use ‘please’ in the correct position with imperative verb forms.", maps: [ imperatives ] }
-  - { ref: "GSE 36 #100", level: A2, item: "Can use ‘will’ to ask questions about the future.", maps: [ will-predictions ] }
-  - { ref: "GSE 36 #101", level: A2, item: "Can ask questions with ‘what kind/sort of …?’", maps: [ what-kind-of ], suggest: { title: "What kind / sort of ...? (What kind of music do you like?)", level: A2, lesson: a2-01 } }
-  - { ref: "GSE 36 #102", level: A2, item: "Can deny intention and desire with ‘wouldn’t like/don’t want to …’", maps: [ would-like ] }
-  - { ref: "GSE 36 #103", level: A2, item: "Can use ‘some’as a quantifier with count andmass nouns.", maps: [ some-any-basic ] }
-  - { ref: "GSE 37 #104", level: A2, item: "Can use ‘with’and ‘without’to refer to (lack of) possession and attribution.", maps: [ with-without-description ], suggest: { title: "with / without for description (a girl with long hair, coffee without sugar)", level: A2, lesson: a2-45 } }
-  - { ref: "GSE 37 #105", level: A2, item: "Can express obligation and necessity in the present and near future with ‘have to’.", maps: [ must-have-to ] }
-  - { ref: "GSE 37 #106", level: A2, item: "Can form basic adverbs by adding ‘ly’ to adjectives.", maps: [ adverbs-manner ] }
-  - { ref: "GSE 37 #107", level: A2, item: "Can use a range of basic quantifiers with ‘of’ and noun phrases.", maps: [ a-lot-of, a-few-a-little, all-both-basic ] }
-  - { ref: "GSE 37 #108", level: A2, item: "Can use ‘must’ to express obligation and necessity in the present and near future.", maps: [ must-have-to ] }
-  - { ref: "GSE 37 #109", level: A2, item: "Can generalise about persons, things, or situations using plural nouns/noun phrases with no (zero) article.", maps: [ the-vs-zero ] }
-  - { ref: "GSE 37 #110", level: A2, item: "Can use verb + ‘ing’forms as the complement of a sentence.", maps: [ ing-complement ], suggest: { title: "-ing as complement (My hobby is swimming; The best thing is walking)", level: B1, lesson: b1-35 } }
-  - { ref: "GSE 37 #111", level: A2, item: "Can form and use irregular adverbs.", maps: [ irregular-adverbs ] }
-  - { ref: "GSE 37 #112", level: A2, item: "Can use phrases with prepositions + adjectives + nouns.", maps: [ with-without-description ], suggest: { title: "with / without for description (a girl with long hair, coffee without sugar)", level: A2, lesson: a2-45 } }
-  - { ref: "GSE 37 #113", level: A2, item: "Can use ‘some’ and ‘any’ as quantifiers in negative statements and questions with mass and count nouns.", maps: [ some-any-basic ] }
-  - { ref: "GSE 38 #114", level: A2, item: "Can use a range of common adverbs and adverbial phrases of position.", maps: [ adverbs-place-direction ], suggest: { title: "Adverbs of place and direction (here, there, up, down, back, away, upstairs, abroad)", level: A2, lesson: a2-41 } }
-  - { ref: "GSE 38 #115", level: A2, item: "Can use ‘will’+ infinitive for predictions about the future.", maps: [ will-predictions ] }
-  - { ref: "GSE 38 #116", level: A2, item: "Can express means using ‘by’ with nouns and noun phrases.", maps: [ by-with ] }
-  - { ref: "GSE 38 #117", level: A2, item: "Can distinguish between adjectives ending with ‘ed’ and ‘ing’.", maps: [ ed-ing-adjectives ] }
-  - { ref: "GSE 38 #118", level: A2, item: "Can form irregular superlatives of adjectives and adverbs such as ‘best’, ‘worst’.", maps: [ comparatives-irregular, superlatives ] }
-  - { ref: "GSE 38 #119", level: A2, item: "Can make comparisons with regular shorter adjectives + ‘er’.", maps: [ comparatives-short ] }
-  - { ref: "GSE 38 #120", level: A2, item: "Can use the present continuous to refer to temporary situations.", maps: [ temporary-permanent ] }
-  - { ref: "GSE 38 #121", level: A2, item: "Can use ‘in’as a preposition of time with future reference.", maps: [ in-period-future ], suggest: { title: "in + period of time for the future (in two weeks, in a few minutes)", level: A2, lesson: a2-11 } }
-  - { ref: "GSE 38 #122", level: A2, item: "Can use ‘so’ to refer to results and consequences.", maps: [ because-so ] }
-  - { ref: "GSE 38 #123", level: A2, item: "Can ask wh- questions about the subject.", maps: [ subject-questions ] }
-  - { ref: "GSE 38 #124", level: A2, item: "Can use ’ll+ infinitive for spontaneous decisions and offers.", maps: [ will-decisions ] }
-  - { ref: "GSE 38 #125", level: A2, item: "Can make statements and questions with ‘know’ + whclauses.", maps: [ indirect-questions, wh-clauses ], levelNote: "source says A2, inventory says wh-clauses B2" }
-  - { ref: "GSE 39 #126", level: A2, item: "Can use ‘no’ as a quantifier to indicate the absence or lack of something.", maps: [ no-none ] }
-  - { ref: "GSE 39 #127", level: A2, item: "Can express sufficiency and insufficiency with ‘enough’ and ‘too’.", maps: [ too-enough ] }
-  - { ref: "GSE 39 #128", level: A2, item: "Can use ‘that’ and ‘this’ as subject and object pronouns.", maps: [ demonstrative-pronouns ] }
-  - { ref: "GSE 39 #129", level: A2, item: "Can use direct + indirect objects together after ditransitive verbs like ‘give/tell/pass’.", maps: [ two-objects ] }
-  - { ref: "GSE 39 #130", level: A2, item: "Can make irregular comparisons of adjectives and adverbs such as ‘better’, ‘worse’.", maps: [ comparatives-irregular ] }
-  - { ref: "GSE 40 #131", level: A2, item: "Can use the definite article correctly with geographical names and locations.", maps: [ the-geography ] }
-  - { ref: "GSE 40 #132", level: A2, item: "Can use ‘before/after’ as conjunctions with complement clauses.", maps: [ time-clauses-basic ] }
-  - { ref: "GSE 40 #133", level: A2, item: "Can distinguish between the past simple and past continuous.", maps: [ past-simple-vs-continuous ] }
-  - { ref: "GSE 40 #134", level: A2, item: "Can make statements with the verb ‘be’ and adjectives with verbs in the infinitive.", maps: [ it-adj-to ] }
-  - { ref: "GSE 40 #135", level: A2, item: "Can use all forms of comparatives and superlatives of adjectives.", maps: [ comparatives-short, comparatives-long, superlatives ] }
-  - { ref: "GSE 40 #136", level: A2, item: "Can use singular verb forms with impersonal pronouns ‘every/any/no/some + body/where/one/thing’", maps: [ indefinite-singular-verb ] }
-  - { ref: "GSE 41 #137", level: A2, item: "Can use ‘May I/we ...?’ for formal and polite requests for permission.", maps: [ could-may-requests ] }
-  - { ref: "GSE 41 #138", level: A2, item: "Can use ‘when’to link two clauses in the past simple.", maps: [ when-while, past-simple-sequence ] }
-  - { ref: "GSE 41 #139", level: A2, item: "Can use ‘so …’ to express results and consequences.", maps: [ because-so ] }
-  - { ref: "GSE 41 #140", level: A2, item: "Can distinguish between the most common ways of expressing the future.", maps: [ futures-compared, which-future-intro ] }
-  - { ref: "GSE 41 #141", level: A2, item: "Can use the present perfect to refer to personal experiences in the past.", maps: [ present-perfect-experience ] }
-  - { ref: "GSE 41 #142", level: A2, item: "Can use a range of indefinite compound pronouns prefixed with ‘some’.", maps: [ indefinite-compounds ] }
-  - { ref: "GSE 41 #143", level: A2, item: "Can refer to impossibility and inability in the past using ‘couldn’t’.", maps: [ could-past-ability ] }
-  - { ref: "GSE 41 #144", level: A2, item: "Can qualify adverbs with ‘really/quite/very’.", maps: [ very-really, softeners ], levelNote: "source says A2, inventory says softeners B2" }
-  - { ref: "GSE 41 #145", level: A2, item: "Can ask questions using the present perfect with ‘ever’.", maps: [ present-perfect-experience ] }
-  - { ref: "GSE 41 #146", level: A2, item: "Can use ‘a bit/a little’ to refer to quantities with mass (uncountable) nouns.", maps: [ a-few-a-little ] }
-  - { ref: "GSE 41 #147", level: A2, item: "Can make offers and suggestions using ‘could’.", maps: [ could-possibility-suggestions ], suggest: { title: "could for possibility, offers and suggestions (It could rain; I could help you; You could ask her)", level: B1, lesson: b1-17 } }
-  - { ref: "GSE 42 #148", level: A2, item: "Can use ‘like’ with sensory verbs to express similarity.", maps: [ look-like ] }
-  - { ref: "GSE 42 #149", level: A2, item: "Can use the present perfect with present reference.", maps: [ present-perfect-recent ] }
-  - { ref: "GSE 42 #150", level: A2, item: "Can report current and future plans and intentions.", maps: [ say-tell ] }
-  - { ref: "GSE 42 #151", level: A2, item: "Can use the present continuous with future reference.", maps: [ present-continuous-future ] }
-  - { ref: "GSE 42 #152", level: A2, item: "Can use ‘both’ and ‘both of’ with nouns and noun phrases.", maps: [ all-both-basic ] }
-  - { ref: "GSE 42 #153", level: A2, item: "Can use a range of pronouns and adverbials for anaphoric (back) reference.", maps: [ the-second-mention, it-this-that-reference ], levelNote: "source says A2, inventory says it-this-that-reference C1" }
-  - { ref: "GSE 42 #154", level: A2, item: "Can construct doublecomplement sentences with verbs such as ‘give’, ‘tell’, ‘ask’,etc.", maps: [ two-objects ] }
-  - { ref: "GSE 42 #155", level: A2, item: "Can express basic cause and effect with ‘because of …’ ‘because of …’ + NP We didn’t go out, because of the weather.", maps: [ prep-vs-conj, due-to-owing-to ], levelNote: "source says A2, inventory says prep-vs-conj B2, due-to-owing-to B2" }
-  - { ref: "GSE 43 #156", level: B1, item: "Can use a range of indefinite compound pronouns prefixed with ‘every’.", maps: [ indefinite-compounds ] }
-  - { ref: "GSE 43 #157", level: B1, item: "Can use a wide range of quantifiers with countable (count) and uncountable (non- count) nouns.", maps: [ much-many, a-lot-of, a-few-a-little, some-any-basic ], levelNote: "source says B1, inventory says some-any-basic A1" }
-  - { ref: "GSE 43 #158", level: B1, item: "Can use ‘needn’t’ and ‘don’t/doesn’t have to’ to express absence of obligation in the present and future.", maps: [ mustnt-dont-have-to, need-neednt ] }
-  - { ref: "GSE 43 #159", level: B1, item: "Can use ‘with’ to refer to the instrument or means of doing something.", maps: [ by-with ] }
-  - { ref: "GSE 43 #160", level: B1, item: "Can use verb + ‘ing’ forms as the subject of a sentence.", maps: [ ing-subject ] }
-  - { ref: "GSE 43 #161", level: B1, item: "Can form compound nouns from nouns plus other nouns and adjectives.", maps: [ compound-nouns ] }
-  - { ref: "GSE 44 #162", level: B1, item: "Can use a range of indefinite compound pronouns prefixed with ‘no’.", maps: [ indefinite-compounds ] }
-  - { ref: "GSE 44 #163", level: B1, item: "Can use common adverbials to express combinations and similarities between nouns and phrases.", maps: [ also-too-either, also ], levelNote: "source says B1, inventory says also A1" }
-  - { ref: "GSE 44 #164", level: B1, item: "Can use reflexive pronouns as objects or complements.", maps: [ reflexive-pronouns ] }
-  - { ref: "GSE 44 #165", level: B1, item: "Can use ‘all of’, ‘none of’, and ‘most of’ to describe subsets and proportions of groups of people and things.", maps: [ most-of, none-of, all-both-basic ] }
-  - { ref: "GSE 44 #166", level: B1, item: "Can use a range of prepositions of time, such as ‘before’,‘during’, ‘since’, ‘till/until’.", maps: [ during-vs-for, for-since, from-to-until, by-until ], levelNote: "source says B1, inventory says from-to-until A1" }
-  - { ref: "GSE 44 #167", level: B1, item: "Can correctly use ‘since’ and ‘for’ in time expressions.", maps: [ for-since ] }
-  - { ref: "GSE 44 #168", level: B1, item: "Can use the present perfect with ‘for/since’ to talk about the duration of states and conditions.", maps: [ for-since, how-long ] }
-  - { ref: "GSE 44 #169", level: B1, item: "Can refer to someone’s practical knowledge using ‘knowhow to’+ verb phrase.", maps: [ wh-to ] }
-  - { ref: "GSE 44 #170", level: B1, item: "Can make statements and ask questions with ‘know about’ + nouns and noun phrases.", maps: [ verb-prep-1 ] }
-  - { ref: "GSE 44 #171", level: B1, item: "Can use the present perfect with ‘yet’ and ‘still’.", maps: [ just-already-yet, already-yet-still ] }
-  - { ref: "GSE 44 #172", level: B1, item: "Can use ‘need’ in affirmative statements and questions relating to the present and near future.", maps: [ need-neednt ] }
-  - { ref: "GSE 44 #173", level: B1, item: "Can make comparisons using ‘(not) as … as’ with adjectives and adverbs.", maps: [ as-as ] }
-  - { ref: "GSE 44 #174", level: B1, item: "Can use ‘a few’ to refer to quantities with count (countable) nouns.", maps: [ a-few-a-little ] }
-  - { ref: "GSE 44 #175", level: B1, item: "Can use ‘going to’ with reference to predicted future events and situations.", maps: [ going-to-evidence ] }
-  - { ref: "GSE 44 #176", level: B1, item: "Can make comparisons with regular shorter adverbs + ‘er’.", maps: [ adverb-comparison ], suggest: { title: "Comparatives and superlatives of adverbs (faster, more carefully, the best)", level: A2, lesson: a2-41 } }
-  - { ref: "GSE 44 #177", level: B1, item: "Can describe live (e.g. sporting) events using the present simple.", maps: [ historic-present ], levelNote: "source says B1, inventory says historic-present C1" }
-  - { ref: "GSE 44 #178", level: B1, item: "Can tell when to use the past simple and when to use the present perfect (BrE).", maps: [ pp-vs-past ] }
-  - { ref: "GSE 45 #179", level: B1, item: "Can express agency using ‘by’ with nouns and noun phrases.", maps: [ passive-by ] }
-  - { ref: "GSE 45 #180", level: B1, item: "Can use possessive pronouns as objects and complements.", maps: [ possessive-pronouns ] }
-  - { ref: "GSE 45 #181", level: B1, item: "Can construct basic phrases with ‘(not) (the) same … as …’ ‘(not) (the) same … as …’ Your problem isn’t the same as mine.", maps: [ same-similar-different ] }
-  - { ref: "GSE 45 #182", level: B1, item: "Can use ‘Shall I/we …?’ to make formal suggestions and offers.", maps: [ shall-offers ] }
-  - { ref: "GSE 45 #183", level: B1, item: "Can use verbs of state change with object complements.", maps: [ object-complement ], levelNote: "source says B1, inventory says object-complement C1" }
-  - { ref: "GSE 45 #184", level: B1, item: "Can use ‘used to’ to refer to past habits and routines.", maps: [ used-to ] }
-  - { ref: "GSE 45 #185", level: B1, item: "Can express preference with ‘like … better more/than ….’ ‘like … better/more than …’ I like coffee more than tea.", maps: [ rather-better-prefer ] }
-  - { ref: "GSE 45 #186", level: B1, item: "Can use a range of indefinite compound pronouns prefixed with ‘any’.", maps: [ indefinite-compounds ] }
-  - { ref: "GSE 45 #187", level: B1, item: "Can respond to a suggestion with ‘Yes, let’s’.", maps: [ lets ], levelNote: "source says B1, inventory says lets A1" }
-  - { ref: "GSE 45 #188", level: B1, item: "Can qualify adverbs with ‘too/enough’.", maps: [ too-enough ] }
-  - { ref: "GSE 45 #189", level: B1, item: "Can use the present perfect with ‘just’ (BrE).", maps: [ just-already-yet ] }
-  - { ref: "GSE 45 #190", level: B1, item: "Can refer to the recipient or indirect object with ‘to’ + noun or noun phrase.", maps: [ two-objects-to-for ] }
-  - { ref: "GSE 45 #191", level: B1, item: "Can use a range of common linking words to sequence events or activities.", maps: [ sequencing ] }
-  - { ref: "GSE 46 #192", level: B1, item: "Can correctly use ‘a bit/a little’ and ‘a few’ to refer to quantities with mass and count nouns respectively.", maps: [ a-few-a-little ] }
-  - { ref: "GSE 46 #193", level: B1, item: "Can use the present continuous to refer to changing situations.", maps: [ changing-situations ], levelNote: "source says B1, inventory says changing-situations A1" }
-  - { ref: "GSE 46 #194", level: B1, item: "Can identify which article (including no article) to use with a range of nouns and noun phrases.", maps: [ the-vs-zero, the-specific, a-an-sound ], levelNote: "source says B1, inventory says the-specific A1, a-an-sound A1" }
-  - { ref: "GSE 46 #195", level: B1, item: "Can make suggestions using ‘what about/ how about’ with verbs in the gerund.", maps: [ suggestions ] }
-  - { ref: "GSE 46 #196", level: B1, item: "Can use ‘of’ with possessive forms to describe possessions or attributes.", maps: [ double-possessive ] }
-  - { ref: "GSE 46 #197", level: B1, item: "Can use ‘had to ...’/’Did …have to…?’to refer to past necessity and obligation.", maps: [ had-to ] }
-  - { ref: "GSE 46 #198", level: B1, item: "Can make offers using the first conditional.", maps: [ first-conditional, offers ] }
-  - { ref: "GSE 46 #199", level: B1, item: "Can use common quantifiers such as ‘a lot’ and ‘much’ as adverbs.", maps: [ a-lot-adverb ], suggest: { title: "a lot, a bit, much, very much as adverbs after verbs (I like it a lot; It helps a bit)", level: A2, lesson: a2-40 } }
-  - { ref: "GSE 46 #200", level: B1, item: "Can speculate about the future using ‘may/ might/could’ + infinitive.", maps: [ may-might-possibility ], suggest: { title: "could for possibility, offers and suggestions (It could rain; I could help you; You could ask her)", level: B1, lesson: b1-17 } }
-  - { ref: "GSE 46 #201", level: B1, item: "Can make offers and suggestions with ‘Why not/why don’t you/we …’?", maps: [ suggestions ] }
-  - { ref: "GSE 46 #202", level: B1, item: "Can use the present simple with future reference.", maps: [ present-simple-timetable ] }
-  - { ref: "GSE 46 #203", level: B1, item: "Can use infinitives after some common adjectives.", maps: [ adjective-to ] }
-  - { ref: "GSE 46 #204", level: B1, item: "Can use phrasal verbs with separated object.", maps: [ phrasal-pronoun-position, phrasal-separable ] }
-  - { ref: "GSE 46 #205", level: B1, item: "Can form a range of nouns from adjectives and verbs with common suffixes.", maps: [ suffix-noun ] }
-  - { ref: "GSE 46 #206", level: B1, item: "Can describe possible future outcomes of a present action or situation using the first conditional.", maps: [ first-conditional ] }
-  - { ref: "GSE 46 #207", level: B1, item: "Can use transitive verbs in the passive with the object as the grammatical subject.", maps: [ passive-form ] }
-  - { ref: "GSE 46 #208", level: B1, item: "Can use ‘mustn’t’ to express prohibition in the present and near future.", maps: [ mustnt-dont-have-to ] }
-  - { ref: "GSE 46 #209", level: B1, item: "Can express preference with regard to things using ‘prefer … (to …)’ ‘prefer’+ NP (+ ‘to’+ NP) I prefer dogs to cats.", maps: [ rather-better-prefer ] }
-  - { ref: "GSE 46 #210", level: B1, item: "Can describe quantities using ‘hardly/not’ + ‘any/much/many’.", maps: [ hardly-any ] }
-  - { ref: "GSE 46 #211", level: B1, item: "Can use indefinite compound pronouns followed by infinitive verb phrases.", maps: [ something-to-adjective ], suggest: { title: "something / anything / nothing + to-infinitive or adjective (something to eat; nothing interesting)", level: A2, lesson: a2-32 } }
-  - { ref: "GSE 46 #212", level: B1, item: "Can use ‘that’ with time expressions referring to the past.", maps: [ demonstrative-time ], levelNote: "source says B1, inventory says demonstrative-time A1" }
-  - { ref: "GSE 46 #213", level: B1, item: "Can use ‘when’ to link clauses in the past simple and past continuous.", maps: [ past-simple-vs-continuous, when-while ] }
-  - { ref: "GSE 46 #214", level: B1, item: "Can use ‘till/until’ with the present tense to refer to events in the future.", maps: [ future-time-clauses ] }
-  - { ref: "GSE 47 #215", level: B1, item: "Can distinguish between present perfect simple and continuous.", maps: [ ppc-vs-pp ] }
-  - { ref: "GSE 47 #216", level: B1, item: "Can correctly use ‘(the) other’ and ‘another’ with nouns.", maps: [ another-other ] }
-  - { ref: "GSE 47 #217", level: B1, item: "Can describe simple conditions where one event follows another.", maps: [ zero-conditional ] }
-  - { ref: "GSE 47 #218", level: B1, item: "Can use ‘you’ in a generic or impersonal sense.", maps: [ generic-you-one ] }
-  - { ref: "GSE 47 #219", level: B1, item: "Can form and use phrases with prepositions + verbs (+’ing’).", maps: [ ing-after-prepositions ] }
-  - { ref: "GSE 47 #220", level: B1, item: "Can use the present perfect continuous with present reference plus ‘recently/lately’.", maps: [ ppc-recent-results ] }
-  - { ref: "GSE 47 #221", level: B1, item: "Can express attitude and agreement with ‘agree/think (that)’ + complement clause.", maps: [ that-clauses ] }
-  - { ref: "GSE 47 #222", level: B1, item: "Can form a range of adjectives from nouns and verbs with common suffixes.", maps: [ suffix-adjective ] }
-  - { ref: "GSE 47 #223", level: B1, item: "Can form nouns from adjectives with common suffixes.", maps: [ suffix-noun ] }
-  - { ref: "GSE 47 #224", level: B1, item: "Can use ‘after/before’ as prepositions with the gerundive (ing) form of verbs.", maps: [ ing-after-prepositions, conjunction-ing ] }
-  - { ref: "GSE 47 #225", level: B1, item: "Can express thanks for an action using verbs in the gerund.", maps: [ ing-after-prepositions, verb-obj-prep ] }
-  - { ref: "GSE 47 #226", level: B1, item: "Can correctly use ‘as’ and’ like’ with noun phrases to express capacity and similarity.", maps: [ like-as ] }
-  - { ref: "GSE 47 #227", level: B1, item: "Can make comparisons with ‘more’ + longer adverbs.", maps: [ adverb-comparison ], suggest: { title: "Comparatives and superlatives of adverbs (faster, more carefully, the best)", level: A2, lesson: a2-41 } }
-  - { ref: "GSE 47 #228", level: B1, item: "Can use the present perfect continuous with ‘for/since’ and time expressions.", maps: [ ppc-duration ] }
-  - { ref: "GSE 47 #229", level: B1, item: "Can use a range of verbs taking ‘to’ + infinitive.", maps: [ verb-to ] }
-  - { ref: "GSE 47 #230", level: B1, item: "Can use a range of common prefixes with verbs.", maps: [ prefix-meaning ] }
-  - { ref: "GSE 47 #231", level: B1, item: "Can correctly use the present perfect with ‘been (to)’ and ‘gone (to)’, referring to places.", maps: [ been-gone ] }
-  - { ref: "GSE 47 #232", level: B1, item: "Can form questions with prepositional verbs and final prepositions.", maps: [ preposition-end-questions ] }
-  - { ref: "GSE 48 #233", level: B1, item: "Can report past orders and requests with ‘tell/ask’.", maps: [ reported-commands ] }
-  - { ref: "GSE 48 #234", level: B1, item: "Can express strong wishes or aversion using ‘would love/hate to …’", maps: [ would-like ], levelNote: "source says B1, inventory says would-like A1" }
-  - { ref: "GSE 48 #235", level: B1, item: "Can make statements and ask questions with ‘know (that)’ + complement clauses.", maps: [ that-clauses ] }
-  - { ref: "GSE 48 #236", level: B1, item: "Can use conjunctions such as ‘when’ and ‘before’ with the present simple, with future reference.", maps: [ future-time-clauses ] }
-  - { ref: "GSE 48 #237", level: B1, item: "Can use the present perfect continuous to refer to ongoing states and conditions.", maps: [ ppc-duration ] }
-  - { ref: "GSE 48 #238", level: B1, item: "Can correctly place the indirect object with verbs taking ‘for’ and ‘to.", maps: [ two-objects-to-for ] }
-  - { ref: "GSE 48 #239", level: B1, item: "Can use ‘till/until’ referring to events in the past using appropriate verb forms.", maps: [ from-to-until, time-clauses-full ], levelNote: "source says B1, inventory says from-to-until A1" }
-  - { ref: "GSE 48 #240", level: B1, item: "Can use ‘one/ones’ to replace nouns.", maps: [ one-ones ] }
-  - { ref: "GSE 48 #241", level: B1, item: "Can use ‘who/that/which’ in basic defining (restrictive) relative clauses.", maps: [ relative-who-which-that ] }
-  - { ref: "GSE 48 #242", level: B1, item: "Can use ‘by’ with verbs and verb phrases to express the means or way of doing something.", maps: [ ing-after-prepositions ] }
-  - { ref: "GSE 48 #243", level: B1, item: "Can give, deny or ask about permission in the past with ‘was(n’t) able to/allowed to’.", maps: [ allowed-to, be-able-to, could-past-ability ] }
-  - { ref: "GSE 48 #244", level: B1, item: "Can refer to general truths using ‘can’.", maps: [ can-general-possibility ], suggest: { title: "can / could for general possibility (It can get very cold in November)", level: B1, lesson: b1-17 } }
-  - { ref: "GSE 48 #245", level: B1, item: "Can negate adjectives with the correct negative prefix.", maps: [ prefix-negative ] }
-  - { ref: "GSE 48 #246", level: B1, item: "Can use a wide range of subject and object relative pronouns, including zero (omission of pronoun).", maps: [ omit-relative, relative-who-which-that ] }
-  - { ref: "GSE 48 #247", level: B1, item: "Can use ‘when’ and ‘where’ in relative clauses.", maps: [ relative-whose-when, relative-where ] }
-  - { ref: "GSE 48 #248", level: B1, item: "Can use ‘was/were going to’ to refer to past intentions.", maps: [ was-going-to ] }
-  - { ref: "GSE 48 #249", level: B1, item: "Can describe hypothetical (counterfactual) results of a current action or situation using the second conditional.", maps: [ second-conditional ] }
-  - { ref: "GSE 48 #250", level: B1, item: "Can make generalisations about groups and nationalities using ‘the’ + adjective (+ ‘s’).", maps: [ the-adjective-group, the-nationality ] }
-  - { ref: "GSE 48 #251", level: B1, item: "Can use ‘let/make/help’ to refer to enabling, forcing, or allowing things to be done.", maps: [ make-let-help ] }
-  - { ref: "GSE 48 #252", level: B1, item: "Can use ‘both … and …’ to connect two words or phrases.", maps: [ both-and ] }
-  - { ref: "GSE 48 #253", level: B1, item: "Can use the past simple passive.", maps: [ passive-present-past ] }
-  - { ref: "GSE 48 #254", level: B1, item: "Can use a range of common placeholders or propwords.", maps: [ one-ones ] }
-  - { ref: "GSE 48 #255", level: B1, item: "Can correctly use a range of common phrasal (separable) and prepositional (inseparable phrasal) verbs.", maps: [ phrasal-verbs-intro, phrasal-separable, prepositional-verbs ] }
-  - { ref: "GSE 48 #256", level: B1, item: "Can express purpose with ‘for’ + verb + ‘ing’.", maps: [ for-ing-purpose ], suggest: { title: "for + -ing for purpose (This knife is for cutting bread)", level: A2, lesson: a2-25 } }
-  - { ref: "GSE 48 #257", level: B1, item: "Can use the present simple passive.", maps: [ passive-present-past ] }
-  - { ref: "GSE 49 #258", level: B1, item: "Can use ‘whose’to talk about possession in relative clauses.", maps: [ relative-whose-when ] }
-  - { ref: "GSE 49 #259", level: B1, item: "Can put a range of different adjectives into the correct sequence.", maps: [ adjective-order-intro, adjective-order-full ] }
-  - { ref: "GSE 49 #260", level: B1, item: "Can form adjectives from verbs and nouns with common suffixes.", maps: [ suffix-adjective ] }
-  - { ref: "GSE 49 #261", level: B1, item: "Can make negative suggestions with ‘Let’s not ...’ ‘Let’s not …’ for negative suggestions Let’s not fight about this.", maps: [ lets ], levelNote: "source says B1, inventory says lets A1" }
-  - { ref: "GSE 49 #262", level: B1, item: "Can refer to general concepts using abstract nouns without articles.", maps: [ abstract-articles ] }
-  - { ref: "GSE 49 #263", level: B1, item: "Can use ‘must’ and ‘can’t’for inferences and assumptions in the present.", maps: [ deduction-present ] }
-  - { ref: "GSE 49 #264", level: B1, item: "Can ask indirect questions using ‘would like to know’ with wh- pronouns.", maps: [ indirect-questions ] }
-  - { ref: "GSE 49 #265", level: B1, item: "Can use ‘quite’ and ‘quite a(n)’ as adverbials with adjectives and noun phrases.", maps: [ softeners, quite-us-uk ] }
-  - { ref: "GSE 49 #266", level: B1, item: "Can use ‘either ...", maps: [ either-or-neither-nor ] }
-  - { ref: "GSE 49 #267", level: B1, item: "Can distinguish between ‘to’+ infinitive and ‘ing’ after certain verbs with a change of meaning.", maps: [ ing-to-meaning-change ] }
-  - { ref: "GSE 49 #268", level: B1, item: "Can construct complement clauses starting with ‘about’.", maps: [ ing-after-prepositions ] }
-  - { ref: "GSE 49 #269", level: B1, item: "Can correctly use positive/positive (Br Eng), positive/negative and negative/positive question tags.", maps: [ question-tags ] }
-  - { ref: "GSE 49 #270", level: B1, item: "Can correctly use ‘between’ and ‘among’ with noun phrases referring to two or more items or entities.", maps: [ between-among ] }
-  - { ref: "GSE 49 #271", level: B1, item: "Can use the present perfect with the superlative forms of adjectives.", maps: [ superlative-ever ] }
-  - { ref: "GSE 50 #272", level: B1, item: "Can give, deny or ask about permission in the future with ‘will/won’t be able to/ allowed to’.", maps: [ be-able-to, allowed-to ] }
-  - { ref: "GSE 50 #273", level: B1, item: "Can use a range of negative question tags.", maps: [ question-tags ] }
-  - { ref: "GSE 50 #274", level: B1, item: "Can ask indirect questions using ‘would like to know’ with ‘if/whether’.", maps: [ indirect-questions, if-whether-clauses ] }
-  - { ref: "GSE 50 #275", level: B1, item: "Can use past participles as adjectives.", maps: [ ed-ing-adjectives ] }
-  - { ref: "GSE 50 #276", level: B1, item: "Can refer to groups and subgroups using ‘neither’, ‘either’, ‘each’ and ‘all’ with noun phrases.", maps: [ either-neither, each-every-full, both-all-whole ] }
-  - { ref: "GSE 50 #277", level: B1, item: "Can express hope and aspiration with ‘hope (that)’ + complement clause.", maps: [ that-clauses, wish-vs-hope ] }
-  - { ref: "GSE 50 #278", level: B1, item: "Can use a range of common prefixes with nouns.", maps: [ prefix-meaning ] }
-  - { ref: "GSE 50 #279", level: B1, item: "Can form a range of verbs from adjectives and nouns with common suffixes.", maps: [ suffix-verb ] }
-  - { ref: "GSE 50 #280", level: B1, item: "Can form a range of hyphenated compound adjectives.", maps: [ compound-adjectives ] }
-  - { ref: "GSE 50 #281", level: B1, item: "Can report past wh- questions.", maps: [ reported-questions ] }
-  - { ref: "GSE 50 #282", level: B1, item: "Can use ‘should’ to express likelihood in the present and near future.", maps: [ should-expectation ] }
-  - { ref: "GSE 50 #283", level: B1, item: "Can correctly place prepositions (particles) with phrasal (separable) and prepositional (inseparable phrasal) verbs.", maps: [ phrasal-separable, prepositional-verbs ] }
-  - { ref: "GSE 50 #284", level: B1, item: "Can use ‘while’ with the past simple and past continuous to refer to past actions and states.", maps: [ when-while, past-simple-vs-continuous ] }
-  - { ref: "GSE 50 #285", level: B1, item: "Can use ‘going’ to and ‘will’ future forms of the passive.", maps: [ passive-future ] }
-  - { ref: "GSE 50 #286", level: B1, item: "Can express hope and aspiration with ‘… hope to’ + infinitive.", maps: [ verb-to ] }
-  - { ref: "GSE 50 #287", level: B1, item: "Can construct relative clauses with ‘what’.", maps: [ nominal-what ], levelNote: "source says B1, inventory says nominal-what C1" }
-  - { ref: "GSE 51 #288", level: B1, item: "Can refer to acquired information using ‘hear’ + ‘of/about’ with nouns and noun phrases.", maps: [ verb-prep-1 ] }
-  - { ref: "GSE 51 #289", level: B1, item: "Can use the present continuous with ‘always’ and other adverbs of frequency to express negative attitude.", maps: [ always-ing ] }
-  - { ref: "GSE 51 #290", level: B1, item: "Can use embedded defining (restrictive) relative clauses.", maps: [ omit-relative, defining-nondefining ] }
-  - { ref: "GSE 51 #291", level: B1, item: "Can use a range of adverbial intensifiers with adjectives.", maps: [ intensifiers ] }
-  - { ref: "GSE 51 #292", level: B1, item: "Can make requests using ‘Will you (please) ...?’", maps: [ would-polite, could-may-requests ] }
-  - { ref: "GSE 51 #293", level: B1, item: "Can use ‘so’ + adjective/quantifier + ‘that’ to express results and consequences.", maps: [ result-clauses ] }
-  - { ref: "GSE 51 #294", level: B1, item: "Can express necessity or absence of necessity with ‘(not) necessary to …’", maps: [ need-neednt ] }
-  - { ref: "GSE 51 #295", level: B1, item: "Can use object relative clauses with relative pronouns to specify or define.", maps: [ omit-relative, defining-relative-basic ] }
-  - { ref: "GSE 51 #296", level: B1, item: "Can use ‘do’/’did’ as a general placeholder (substitute) for verbs.", maps: [ do-so, auxiliary-ellipsis ] }
-  - { ref: "GSE 51 #297", level: B1, item: "Can give advice using ‘If I were you …’ ‘If I were you I’d/Iwouldn’t’ + VP for advice I wouldn’t do that if I were you.", maps: [ if-i-were-you ] }
-  - { ref: "GSE 51 #298", level: B1, item: "Can correctly use ‘each other’ and reflexive pronouns.", maps: [ each-other, reflexive-pronouns ] }
-  - { ref: "GSE 51 #299", level: B1, item: "Can correctly use ‘not … either’ and ‘neither … (nor)’ with noun and verb phrases.", maps: [ so-neither-do-i, either-or-neither-nor, also-too-either ] }
-  - { ref: "GSE 51 #300", level: B1, item: "Can use a range of positive question tags.", maps: [ question-tags ] }
-  - { ref: "GSE 51 #301", level: B1, item: "Can use phrasal verbs with two particles.", maps: [ three-part-phrasal ] }
-  - { ref: "GSE 51 #302", level: B1, item: "Can express agreement and disagreement with ‘…hope so/not’.", maps: [ think-so-hope-not ] }
-  - { ref: "GSE 51 #303", level: B1, item: "Can express indirect requests with ‘would like’ + noun phrase + verb (infinitive).", maps: [ verb-object-to, want-sb-to ] }
-  - { ref: "GSE 51 #304", level: B1, item: "Can use reflexive pronouns for emphasis.", maps: [ emphatic-reflexive ] }
-  - { ref: "GSE 51 #305", level: B1, item: "Can use ‘’s’ in time expressions.", maps: [ time-possessive ] }
-  - { ref: "GSE 51 #306", level: B1, item: "Can correctly place adverbs of comment and manner in longer sentences.", maps: [ adverb-positions, comment-adverbs ] }
-  - { ref: "GSE 51 #307", level: B1, item: "Can use the correct verb form (infinitive or ‘ing’) following phrasal and prepositional verbs", maps: [ to-preposition, ing-after-prepositions ] }
-  - { ref: "GSE 51 #308", level: B1, item: "Can use the past continuous to refer to temporary or changing past states or situations.", maps: [ past-continuous ] }
-  - { ref: "GSE 51 #309", level: B1, item: "Can construct phrases with wh- question words followed by verbs in the infinitive.", maps: [ wh-to ] }
-  - { ref: "GSE 51 #310", level: B1, item: "Can use a range of common verb + verb combinations using the ‘ing’ form.", maps: [ verb-ing ] }
-  - { ref: "GSE 52 #311", level: B1, item: "Can use the present perfect passive with ‘yet’.", maps: [ passive-perfect ] }
-  - { ref: "GSE 52 #312", level: B1, item: "Can use the present perfect passive with ‘just/already’.", maps: [ passive-perfect ] }
-  - { ref: "GSE 52 #313", level: B1, item: "Can correctly use ‘such’ and ‘such a’ with mass and count nouns respectively.", maps: [ so-such ] }
-  - { ref: "GSE 52 #314", level: B1, item: "Can use genitive ‘‘s’ + genitive ‘‘s’ in a noun phrase.", maps: [ group-possessive ] }
-  - { ref: "GSE 52 #315", level: B1, item: "Can correctly use ‘so’ and ‘such (a)’ with adjectives and nouns respectively.", maps: [ so-such ] }
-  - { ref: "GSE 52 #316", level: B1, item: "Can use ‘wouldrather …(than) …’to express preference.", maps: [ rather-better-prefer, would-rather-past ] }
-  - { ref: "GSE 52 #317", level: B1, item: "Can correctly use ‘little/a little’ and ‘few/a few’ to refer to quantities with mass and count nouns respectively.", maps: [ few-a-few ] }
-  - { ref: "GSE 52 #318", level: B1, item: "Can use ‘as’ with a noun or noun phrase referring to a job, or instrument for doing something.", maps: [ like-as ] }
-  - { ref: "GSE 52 #319", level: B1, item: "Can use ‘(in order) to’ to express purpose and intention.", maps: [ purpose-clauses, infinitive-purpose ] }
-  - { ref: "GSE 52 #320", level: B1, item: "Can ask negative questions with ‘wasn’t’, ‘didn’t’, etc.", maps: [ negative-questions-basic ] }
-  - { ref: "GSE 52 #321", level: B1, item: "Can use ‘except (for)’ and ‘apart from’ after general and other noun phrases.", maps: [ except-besides ] }
-  - { ref: "GSE 52 #322", level: B1, item: "Can use ‘plan’/’intend’/’mean’ + ‘to’ + infinitive to talk about present and future plans and intentions.", maps: [ verb-to ] }
-  - { ref: "GSE 52 #323", level: B1, item: "Can refer to general truths and frequent occurrences using ‘could’.", maps: [ can-general-possibility ], suggest: { title: "can / could for general possibility (It can get very cold in November)", level: B1, lesson: b1-17 } }
-  - { ref: "GSE 52 #324", level: B1, item: "Can talk about permission using ‘(not) allowed/ permitted to …’.", maps: [ allowed-to ] }
-  - { ref: "GSE 52 #325", level: B1, item: "Can use ‘may’/’might (+not) have ...’to talk about past possibilities.", maps: [ deduction-past ] }
-  - { ref: "GSE 53 #326", level: B1, item: "Can use ‘may not’to express prohibition in the present and near future.", maps: [ allowed-to ] }
-  - { ref: "GSE 53 #327", level: B1, item: "Can use verbs of state change in the passive with object complements.", maps: [ object-complement ], levelNote: "source says B1, inventory says object-complement C1" }
-  - { ref: "GSE 53 #328", level: B1, item: "Can use ‘such a/an’ + adjective with finite clauses to refer to results and consequences.", maps: [ result-clauses ] }
-  - { ref: "GSE 53 #329", level: B1, item: "Can use ‘so’ and ‘neither’ in short phrases to express agreement and disagreement.", maps: [ so-neither-do-i ] }
-  - { ref: "GSE 53 #330", level: B1, item: "Can use parallel comparatives (‘the’ + comparative1, ‘the’ + comparative2).", maps: [ the-the-intro ] }
-  - { ref: "GSE 53 #331", level: B1, item: "Can use ‘must have …’ to express inferences and assumptions about the past.", maps: [ deduction-past ] }
-  - { ref: "GSE 53 #332", level: B1, item: "Can use ‘neither … nor …’ to connect two words or phrases.", maps: [ either-or-neither-nor ] }
-  - { ref: "GSE 53 #333", level: B1, item: "Can use ‘ever’ for emphasis with comparatives and superlatives of adjectives.", maps: [ superlative-ever ] }
-  - { ref: "GSE 53 #334", level: B1, item: "Can use a wide range of common reporting verbs with ‘that’ + complement clause and appropriate tense changes.", maps: [ reporting-verbs-patterns, that-clauses ] }
-  - { ref: "GSE 54 #335", level: B1, item: "Can use ‘I wish/if only’ to express wishes related to the present or future.", maps: [ wish-past, if-only-intro ] }
-  - { ref: "GSE 54 #336", level: B1, item: "Can make polite requests with ‘would you’ + verbs in the infinitive.", maps: [ would-polite ] }
-  - { ref: "GSE 54 #337", level: B1, item: "Can use ‘get’ with the passive in informal speech to express unexpected or dramatic change.", maps: [ get-passive ] }
-  - { ref: "GSE 54 #338", level: B1, item: "Can describe present or future outcomes of a hypothetical situation using ‘even if’.", maps: [ even-if ] }
-  - { ref: "GSE 54 #339", level: B1, item: "Can express intentions and plans for the near future with ‘thinking of’ and verbs in the gerund.", maps: [ ing-after-prepositions ] }
-  - { ref: "GSE 54 #340", level: B1, item: "Can use the past perfect in a range of common situations.", maps: [ past-perfect ] }
-  - { ref: "GSE 54 #341", level: B1, item: "Can use ‘could(n’t) have ...’to talk about past possibilities.", maps: [ could-have ] }
-  - { ref: "GSE 55 #342", level: B1, item: "Can express preference with regard to actions using ‘prefer … (to …)’", maps: [ rather-better-prefer ] }
-  - { ref: "GSE 55 #343", level: B1, item: "Can construct a range of phrases using compound adverbials composed of whwords + ‘ever’.", maps: [ ever-clauses ], levelNote: "source says B1, inventory says ever-clauses C1" }
-  - { ref: "GSE 55 #344", level: B1, item: "Can report yes/no questions with ‘if/ whether’.", maps: [ reported-if-whether ] }
-  - { ref: "GSE 55 #345", level: B1, item: "Can correctly use ‘even’ and ‘not even’ in the right position to emphasise a point.", maps: [ focus-adverbs, only-position ], levelNote: "source says B1, inventory says only-position C1" }
-  - { ref: "GSE 55 #346", level: B1, item: "Can talk about expectations and obligations in the present tense using (not) supposed to", maps: [ supposed-to ] }
-  - { ref: "GSE 55 #347", level: B1, item: "Can use ‘oneof/some of/among’ in phrases with superlative adjectives.", maps: [ one-of-plural, superlative-in-of ] }
-  - { ref: "GSE 55 #348", level: B1, item: "Can use ‘about to’ to talk about imminent events in the present and past.", maps: [ be-about-to ] }
-  - { ref: "GSE 55 #349", level: B1, item: "Can use ‘would’ to refer to past habits and routines.", maps: [ would-habits-intro, would-vs-used-to ] }
-  - { ref: "GSE 55 #350", level: B1, item: "Can use the present continuous passive.", maps: [ passive-continuous ] }
-  - { ref: "GSE 55 #351", level: B1, item: "Can describe present or future outcomes of a hypothetical situation using ‘unless’.", maps: [ unless ] }
-  - { ref: "GSE 55 #352", level: B1, item: "Can make statements about plans using ‘plan/ intend to’ + infinitive.", maps: [ verb-to ] }
-  - { ref: "GSE 55 #353", level: B1, item: "Can express dislike using ‘not’ with verbs in the gerund.", maps: [ not-ing ], suggest: { title: "Negative -ing: not + -ing (I hate not knowing; He apologised for not calling)", level: B1, lesson: b1-35 } }
-  - { ref: "GSE 56 #354", level: B1, item: "Can make passive statements with ditransitive verbs like ‘tell’and ‘give’.", maps: [ passive-two-objects ] }
-  - { ref: "GSE 56 #355", level: B1, item: "Can use ‘get/have’ to refer to having things done by other people.", maps: [ have-something-done ] }
-  - { ref: "GSE 56 #356", level: B1, item: "Can construct defining (restrictive) relative clauses with ‘to’ + infinitive verb phrases.", maps: [ first-to ] }
-  - { ref: "GSE 56 #357", level: B1, item: "Can use ‘in case’ with the present tense to refer to future eventualities.", maps: [ in-case ] }
-  - { ref: "GSE 56 #358", level: B1, item: "Can use ‘only’ as an adverb in the correct position.", maps: [ focus-adverbs ] }
-  - { ref: "GSE 56 #359", level: B1, item: "Can use ‘in case of’ with noun phrases to speak of eventualities.", maps: [ in-case ] }
-  - { ref: "GSE 56 #360", level: B1, item: "Can talk about indirect causation with ‘get/ make’ + person + action.", maps: [ make-let-help, have-sb-do, make-sb-do ] }
-  - { ref: "GSE 56 #361", level: B1, item: "Can construct “reduced” defining (restrictive) relative clauses with verb +ing.", maps: [ reduced-relative ] }
-  - { ref: "GSE 56 #362", level: B1, item: "Can use ‘beforehand/afterwards’ to express sequences of events or actions.", maps: [ afterwards-eventually ] }
-  - { ref: "GSE 56 #363", level: B1, item: "Can use ‘had/’d better (not)’ + verb for strong advice and recommendations.", maps: [ had-better ] }
-  - { ref: "GSE 56 #364", level: B1, item: "Can use despite/in spite of’ with noun phrases to express concession.", maps: [ despite-in-spite ] }
-  - { ref: "GSE 56 #365", level: B1, item: "Can use ‘so …’ and ‘therefore …’ to express conclusions and inferences.", maps: [ linkers-result, because-so ], levelNote: "source says B1, inventory says because-so A1" }
-  - { ref: "GSE 56 #366", level: B1, item: "Can make tense changes (present to past) in reported speech.", maps: [ backshift ] }
-  - { ref: "GSE 56 #367", level: B1, item: "Can use ‘meant/planned/intended’ + ‘to’ + infinitive to talk about past plans and intentions.", maps: [ was-going-to, was-to ], levelNote: "source says B1, inventory says was-to C1" }
-  - { ref: "GSE 56 #368", level: B1, item: "Can use ‘though’ and ‘although’ as conjunctions to express concession.", maps: [ contrast-although ] }
-  - { ref: "GSE 57 #369", level: B1, item: "Can use ‘thought’ to express past expectations, with appropriate tense changes.", maps: [ reported-thoughts ] }
-  - { ref: "GSE 57 #370", level: B1, item: "Can use a range of verbs of advice and recommendation with noun phrases plus verbs in the infinitive.", maps: [ verb-object-to, reported-requests ] }
-  - { ref: "GSE 57 #371", level: B1, item: "Can use a range of verbs of advice and recommendation with noun phrases plus verbs in the infinitive.", maps: [ verb-object-to, reported-requests ] }
-  - { ref: "GSE 57 #372", level: B1, item: "Can omit words and phrases in a range of parallel structures.", maps: [ auxiliary-ellipsis, ellipsis-to, comparison-ellipsis ], levelNote: "source says B1, inventory says comparison-ellipsis C1" }
-  - { ref: "GSE 57 #373", level: B1, item: "Can soften orders and requests using ‘think’, ‘imagine’, ‘wonder’, etc.", maps: [ i-wonder-if, politeness-grammar ], levelNote: "source says B1, inventory says politeness-grammar C1" }
-  - { ref: "GSE 57 #374", level: B1, item: "Can use ‘due to’ and ‘owing to’ to express causation and consequence.", maps: [ due-to-owing-to ] }
-  - { ref: "GSE 57 #375", level: B1, item: "Can use nondefining (nonrestrictive) relative clauses to add information.", maps: [ defining-nondefining ] }
-  - { ref: "GSE 57 #376", level: B1, item: "Can talk about past beliefs and intentions in the passive.", maps: [ impersonal-it-said, personal-said-to ] }
-  - { ref: "GSE 58 #377", level: B1, item: "Can use ‘so’ in sentencefinal positions as a placeholder (substitute) for verbs and verb phrases.", maps: [ substitution-suppose-so, think-so-hope-not ] }
-  - { ref: "GSE 58 #378", level: B1, item: "Can use ‘should(n’t) have …’ to express regrets, wishes, or disapproval about the past.", maps: [ should-have ] }
-  - { ref: "GSE 58 #379", level: B1, item: "Can make statements about appearance using ‘seem/appear’ with verbs in the infinitive.", maps: [ hedging, there-seems ], levelNote: "source says B1, inventory says hedging C1" }
-  - { ref: "GSE 58 #380", level: B1, item: "Can use a range of verbs in the past continuous to refer to past plans and intentions.", maps: [ future-in-past ], levelNote: "source says B1, inventory says future-in-past C1" }
-  - { ref: "GSE 58 #381", level: B1, item: "Can express various degrees of likelihood and possibility using complement clauses.", maps: [ it-adj-that ] }
-  - { ref: "GSE 58 #382", level: B1, item: "Can describe hypothetical (counterfactual) past results of a previous action or situation using the third conditional.", maps: [ third-conditional ] }
-  - { ref: "GSE 59 #383", level: B2, item: "Can use a range of modals with passive infinitives referring to the present or future.", maps: [ modal-passive ] }
-  - { ref: "GSE 59 #384", level: B2, item: "Can refer to certainty and probability using ‘certain/likely/due to’ with verb phrases.", maps: [ be-bound-to ] }
-  - { ref: "GSE 59 #385", level: B2, item: "Can o mit the relative pronoun in defining (restrictive) relative clauses.", maps: [ omit-relative ] }
-  - { ref: "GSE 59 #386", level: B2, item: "Can use ‘need’with the passive infinitive to express necessity.", maps: [ needs-doing ] }
-  - { ref: "GSE 59 #387", level: B2, item: "Can express alternative conditions with ‘whether … or not’.", maps: [ whether-or-not ] }
-  - { ref: "GSE 59 #388", level: B2, item: "Can describe beliefs and opinions using verbs of judgement and evaluation in the passive.", maps: [ impersonal-it-said ] }
-  - { ref: "GSE 59 #389", level: B2, item: "Can use clauses with ‘It’ + ‘be’ … to emphasise the topic or main point.", maps: [ it-cleft ] }
-  - { ref: "GSE 59 #390", level: B2, item: "Can use verb phrases with ‘to’+ infinitive as subject and complement.", maps: [ infinitive-subject ] }
-  - { ref: "GSE 59 #391", level: B2, item: "Can use clauses with ‘What ...’ to emphasise the topic or main point.", maps: [ wh-cleft, what-cleft-intro ] }
-  - { ref: "GSE 59 #392", level: B2, item: "Can soften orders and requests by using verbs like ‘thought’, ‘wondered’, etc.", maps: [ distancing-past ] }
-  - { ref: "GSE 60 #393", level: B2, item: "Can use ‘while’, ‘whereas’ and ‘whilst’ (Br Eng) to contrast and compare actions and situations.", maps: [ whereas-while, whilst ], levelNote: "source says B2, inventory says whilst C2" }
-  - { ref: "GSE 60 #394", level: B2, item: "Can talk about past plans and intentions using ‘(not) meant/supposed to’ + infinitive.", maps: [ supposed-to, was-going-to ] }
-  - { ref: "GSE 60 #395", level: B2, item: "Can express prohibition in the present or future with ‘forbid’ and ‘(not) allow’.", maps: [ allowed-to, mustnt-dont-have-to ], levelNote: "source says B2, inventory says mustnt-dont-have-to A2" }
-  - { ref: "GSE 60 #396", level: B2, item: "Can report orders, requests and advice with infinitive clauses.", maps: [ reported-commands ] }
-  - { ref: "GSE 60 #397", level: B2, item: "Can express negative purpose with ‘so as/ in order not to’.", maps: [ purpose-clauses, such-that ], levelNote: "source says B2, inventory says such-that C2" }
-  - { ref: "GSE 60 #398", level: B2, item: "Can correctly use defining (restrictive) and nondefining (non- restrictive) relative clauses.", maps: [ defining-nondefining ] }
-  - { ref: "GSE 60 #399", level: B2, item: "Can use the future continuous with reference to actions in progress at a specific time in the future.", maps: [ future-continuous-intro, future-continuous-full ] }
-  - { ref: "GSE 61 #400", level: B2, item: "Can use adverbials such as ‘however’,‘on the other hand’, and ‘though’ to express concession.", maps: [ linkers-contrast, however-but ] }
-  - { ref: "GSE 61 #401", level: B2, item: "Can make statements about appearance using ‘seem/appear’ (+ ‘like/that’) with complement clauses.", maps: [ hedging, linking-verbs ], levelNote: "source says B2, inventory says linking-verbs A2" }
-  - { ref: "GSE 61 #402", level: B2, item: "Can construct phrases with ‘(not) worth ...’ and ‘(no) point ...’ to express the (lack of) usefulness of an action", maps: [ fixed-ing-expressions, worth-ing ] }
-  - { ref: "GSE 61 #403", level: B2, item: "Can emphasise a statement by adding ‘do’ or ‘did’.", maps: [ emphatic-do ] }
-  - { ref: "GSE 61 #404", level: B2, item: "Can express past intentions and plans with ‘thinking of’ and verbs in the gerund.", maps: [ ing-after-prepositions ] }
-  - { ref: "GSE 61 #405", level: B2, item: "Can use nondefining (nonrestrictive) relative clauses to make a comment.", maps: [ sentential-which ] }
-  - { ref: "GSE 61 #406", level: B2, item: "Can describe past beliefs and opinions using ‘it was’ + passive forms of verbs of judgement and evaluation.", maps: [ impersonal-it-said ] }
-  - { ref: "GSE 62 #407", level: B2, item: "Can speak about information acquired from others using ‘hear’ + ‘(that +)’ complement clause.", maps: [ i-hear-that ] }
-  - { ref: "GSE 62 #408", level: B2, item: "Can use ‘ought(n’t) to’ to offer or ask for advice or suggestions.", maps: [ ought-to ] }
-  - { ref: "GSE 62 #409", level: B2, item: "Can use ‘as soon as’ with the past simple and past perfect.", maps: [ time-clauses-full, past-perfect-sequence ] }
-  - { ref: "GSE 62 #410", level: B2, item: "Can use the past perfect continuous in a range of common situations.", maps: [ past-perfect-continuous ] }
-  - { ref: "GSE 62 #411", level: B2, item: "Can use a range of common reporting verbs with ‘that’ + complement clause.", maps: [ reporting-verbs-patterns ] }
-  - { ref: "GSE 62 #412", level: B2, item: "Can use ‘I wish/if only …’ to express regrets and wishes about the past.", maps: [ wish-past-perfect ] }
-  - { ref: "GSE 62 #413", level: B2, item: "Can make complex comparisons between verb/noun phrases.", maps: [ than-me, much-far-comparative ], levelNote: "source says B2, inventory says than-me A2" }
-  - { ref: "GSE 63 #414", level: B2, item: "Can use ‘need’ with verbs in the gerund to express necessity.", maps: [ needs-doing ] }
-  - { ref: "GSE 63 #415", level: B2, item: "Can use the past perfect with adverbial clauses of time.", maps: [ past-perfect-sequence ] }
-  - { ref: "GSE 64 #416", level: B2, item: "Can use the past perfect passive.", maps: [ passive-perfect ] }
-  - { ref: "GSE 64 #417", level: B2, item: "Can use noun phrases in place of verb phrases in formal written language.", maps: [ nominalisation ] }
-  - { ref: "GSE 64 #418", level: B2, item: "Can use gerunds in the passive form as complement.", maps: [ passive-infinitive-gerund ] }
-  - { ref: "GSE 64 #419", level: B2, item: "Can use a range of complex conjunctions in conditional statements (all three types).", maps: [ provided-providing, as-long-as, suppose-what-if, otherwise, whether-or-not ] }
-  - { ref: "GSE 65 #420", level: B2, item: "Can use ‘will’ + infinitive for orders and instructions.", maps: [ will-orders ], suggest: { title: "will for orders and formal instructions (You will report to reception at nine)", level: C1, lesson: c1-10 } }
-  - { ref: "GSE 66 #421", level: B2, item: "Can make complex comparisons between clauses.", maps: [ comparative-ellipsis-clause ], levelNote: "source says B2, inventory says comparative-ellipsis-clause C2" }
-  - { ref: "GSE 66 #422", level: B2, item: "Can express purpose using ‘soas to’ with infinitive clauses.", maps: [ purpose-clauses ] }
-  - { ref: "GSE 66 #423", level: B2, item: "Can express regrets and preferences with ‘would rather/it’s time’ with past tense clauses.", maps: [ would-rather-past, its-time-past ] }
-  - { ref: "GSE 66 #424", level: B2, item: "Can use ‘as if/as though’ with the present simple to refer to what appears to be the case.", maps: [ as-if ] }
-  - { ref: "GSE 66 #425", level: B2, item: "Can omit subject + ‘be’ after ‘if’ in fixed expressions.", maps: [ reduced-conditionals ] }
-  - { ref: "GSE 66 #426", level: B2, item: "Can use ‘shall’ + infinitive for formal first- person statements about the future.", maps: [ shall-formal ] }
-  - { ref: "GSE 66 #427", level: B2, item: "Can use the future perfect with reference to actions to be completed by a specific time in the future.", maps: [ future-perfect ] }
-  - { ref: "GSE 67 #428", level: B2, item: "Can use the future perfect passive.", maps: [ passive-future, modal-perfect-passive ] }
-  - { ref: "GSE 67 #429", level: B2, item: "Can use ‘it is/was believed/reported that’ + VP to report beliefs, reportes, rumours, etc.", maps: [ impersonal-it-said, passive-reporting ] }
-  - { ref: "GSE 67 #430", level: B2, item: "Can describe hypothetical current results of a past action or situation using ‘would …’ with the third conditional.", maps: [ mixed-past-present ] }
-  - { ref: "GSE 68 #431", level: B2, item: "Can use initial ‘No matter’ with relative pronouns for emphatic statements about the present and near future.", maps: [ no-matter ] }
-  - { ref: "GSE 69 #432", level: B2, item: "Can express beliefs and opinions with ‘is/ are/ was/were’ + ‘thought/believed to…’.", maps: [ personal-said-to ] }
-  - { ref: "GSE 70 #433", level: B2, item: "Can use ‘should’ in hypothetical statements about the present and near future with inversion and omission of ‘if’.", maps: [ inverted-should ] }
-  - { ref: "GSE 71 #434", level: B2, item: "Can use ‘as if/as though’ with the past simple to refer to hypothetical or counterfactual circumstances.", maps: [ as-if ] }
-  - { ref: "GSE 71 #435", level: B2, item: "Can ask questions with ‘is it/was it’ and complement clauses.", maps: [ it-cleft-questions ], suggest: { title: "Questions with is it / was it ... that (Where was it that you met?)", level: C1, lesson: c1-03 } }
-  - { ref: "GSE 71 #436", level: B2, item: "Can use a range of cleft sentences in the present, past and future.", maps: [ it-cleft, wh-cleft, all-cleft, reversed-cleft ] }
-  - { ref: "GSE 71 #437", level: B2, item: "Can add information using ‘not only … but also …’", maps: [ not-only-but-also, not-only-inversion ] }
-  - { ref: "GSE 71 #438", level: B2, item: "Can order a sequence of events using an appended clause with present participle or ‘having’ + past participle.", maps: [ participle-clauses, perfect-passive-participle ] }
-  - { ref: "GSE 71 #439", level: B2, item: "Can describe present or future outcomes of a hypothetical situation using initial ‘only if’ with inversion of subject and object.", maps: [ only-if, only-inversion ] }
-  - { ref: "GSE 71 #440", level: B2, item: "Can use ‘one’s’ as an impersonal possessive adjective.", maps: [ formal-one ] }
-  - { ref: "GSE 71 #441", level: B2, item: "Can use ‘on the point of’ (Br Eng) to talk about imminent events in the present and past.", maps: [ be-about-to ] }
-  - { ref: "GSE 71 #442", level: B2, item: "Can use ‘as if/as though’ with the past perfect to refer to hypothetical (counterfactual) circumstances in the past.", maps: [ as-if ] }
-  - { ref: "GSE 72 #443", level: B2, item: "Can use ‘since …’ to talk about reasons, causes and explanations.", maps: [ reason-clauses ] }
-  - { ref: "GSE 73 #444", level: B2, item: "Can express impersonal belief and opinion using ‘thought/believed to …’", maps: [ impersonal-it-said ] }
-  - { ref: "GSE 76 #445", level: C1, item: "Can add information using appended clauses with ‘being’ and/or passive participles.", maps: [ perfect-passive-participle, participle-clauses ] }
-  - { ref: "GSE 77 #446", level: C1, item: "Can replace past conditionals with ‘but for’ in formal statements.", maps: [ but-for ] }
-  - { ref: "GSE 80 #447", level: C1, item: "Can make very polite requests with ‘would you be so kind as to’+ verbs in the infinitive.", maps: [ politeness-grammar, would-polite ], levelNote: "source says C1, inventory says would-polite B1" }
+  - {
+      ref: "GSE 24 #001",
+      level: A1,
+      item: "Can ask basic questions using ‘What’s your ...?’",
+      maps: [ question-words ],
+    }
+  - {
+      ref: "GSE 24 #002",
+      level: A1,
+      item: "Can use the correct form of ‘be’ with singular and plural nouns.",
+      maps: [ be-present-forms ],
+    }
+  - {
+      ref: "GSE 24 #003",
+      level: A1,
+      item: "Can make basic statements with subject + verb + object.",
+      maps: [ svo-order ],
+    }
+  - {
+      ref: "GSE 24 #004",
+      level: A1,
+      item: "Can use subject personal pronouns.",
+      maps: [ subject-pronouns ],
+    }
+  - {
+      ref: "GSE 24 #005",
+      level: A1,
+      item: "Can say their own age using ‘I’m [number]’.",
+      maps: [ be-uses-age ],
+    }
+  - {
+      ref: "GSE 24 #006",
+      level: A1,
+      item: "Can make simple statements with ‘it’s/it is’.",
+      maps: [ dummy-it ],
+    }
+  - {
+      ref: "GSE 24 #007",
+      level: A1,
+      item: "Can use regular nouns in the plural form.",
+      maps: [ plural-regular ],
+    }
+  - {
+      ref: "GSE 24 #008",
+      level: A1,
+      item: "Can use subject pronouns with the correct form of the verb ‘be’ in the simple present.",
+      maps: [ be-present-forms ],
+    }
+  - {
+      ref: "GSE 25 #009",
+      level: A1,
+      item: "Can use possessive adjectives such as ‘my’, ‘your’, etc.",
+      maps: [ possessive-adjectives ],
+    }
+  - {
+      ref: "GSE 25 #010",
+      level: A1,
+      item: "Can use ‘a/an’with the names of jobs.",
+      maps: [ a-jobs ],
+    }
+  - {
+      ref: "GSE 25 #011",
+      level: A1,
+      item: "Can form questions with ‘what’ and ‘who’ and answer them.",
+      maps: [ question-words ],
+    }
+  - {
+      ref: "GSE 25 #012",
+      level: A1,
+      item: "Can ask someone’s age using ‘How old …?’",
+      maps: [ how-questions ],
+    }
+  - {
+      ref: "GSE 25 #013",
+      level: A1,
+      item: "Can use ‘and’ to link nouns and noun phrases.",
+      maps: [ and-but-or ],
+    }
+  - {
+      ref: "GSE 25 #014",
+      level: A1,
+      item: "Can use the verb ‘be’in the simple present with adjectives.",
+      maps: [ be-present-forms, adjective-position ],
+    }
+  - {
+      ref: "GSE 25 #015",
+      level: A1,
+      item: "Can use ‘this is’for an introduction.",
+      maps: [ demonstrative-pronouns ],
+    }
+  - {
+      ref: "GSE 25 #016",
+      level: A1,
+      item: "Can use common forms of ‘have’in the present tense.",
+      maps: [ have-possession ],
+    }
+  - {
+      ref: "GSE 25 #017",
+      level: A1,
+      item: "Can use common irregular nouns in the plural form.",
+      maps: [ plural-irregular ],
+    }
+  - {
+      ref: "GSE 25 #018",
+      level: A1,
+      item: "Can ask where other people are using ‘Where is/are …?’",
+      maps: [ question-words, be-questions ],
+    }
+  - {
+      ref: "GSE 26 #019",
+      level: A1,
+      item: "Can use ‘a/an’ with single countable nouns.",
+      maps: [ a-an-sound ],
+    }
+  - {
+      ref: "GSE 26 #020",
+      level: A1,
+      item: "Can make affirmative statements using the present simple without time reference.",
+      maps: [ present-simple-positive ],
+    }
+  - {
+      ref: "GSE 26 #021",
+      level: A1,
+      item: "Can make negative statements using the present simple.",
+      maps: [ present-simple-negative ],
+    }
+  - {
+      ref: "GSE 26 #022",
+      level: A1,
+      item: "Can ask wh- questions using the present simple.",
+      maps: [ wh-present-simple ],
+    }
+  - {
+      ref: "GSE 26 #023",
+      level: A1,
+      item: "Can use the present simple to refer to daily routines.",
+      maps: [ present-simple-uses ],
+    }
+  - {
+      ref: "GSE 26 #024",
+      level: A1,
+      item: "Can ask yes/no questions using the present simple.",
+      maps: [ present-simple-questions ],
+    }
+  - {
+      ref: "GSE 26 #025",
+      level: A1,
+      item: "Can use ‘a/an’ with jobs to talk about work and professions.",
+      maps: [ a-jobs ],
+    }
+  - {
+      ref: "GSE 26 #026",
+      level: A1,
+      item: "Can use basic prepositions of place with nouns and noun phrases.",
+      maps: [ place-in-on-at, place-others ],
+    }
+  - {
+      ref: "GSE 27 #027",
+      level: A1,
+      item: "Can use verbs in the imperative.",
+      maps: [ imperatives ],
+    }
+  - {
+      ref: "GSE 27 #028",
+      level: A1,
+      item: "Can use personal pronouns as objects and complements.",
+      maps: [ object-pronouns ],
+    }
+  - {
+      ref: "GSE 27 #029",
+      level: A1,
+      item: "Can use a range of time expressions with whole numbers (+ ‘o’clock’).",
+      maps: [ telling-time ],
+    }
+  - {
+      ref: "GSE 27 #030",
+      level: A1,
+      item: "Can use ‘there’ + ‘be’ to express presence/ absence.",
+      maps: [ there-is-are, there-negative-questions ],
+    }
+  - {
+      ref: "GSE 27 #031",
+      level: A1,
+      item: "Can ask about the price of something using ‘How much is/are …?’",
+      maps: [ prices, how-questions ],
+    }
+  - {
+      ref: "GSE 27 #032",
+      level: A1,
+      item: "Can ask a range of wh- questions.",
+      maps: [ question-words ],
+    }
+  - {
+      ref: "GSE 27 #033",
+      level: A1,
+      item: "Can say where they and other people are using a few basic prepositions.",
+      maps: [ place-in-on-at ],
+    }
+  - {
+      ref: "GSE 27 #034",
+      level: A1,
+      item: "Can use the present simple to refer to likes, dislikes and opinions.",
+      maps: [ present-simple-uses, like-ing ],
+    }
+  - {
+      ref: "GSE 28 #035",
+      level: A1,
+      item: "Can use ‘but’to link clauses and sentences.",
+      maps: [ and-but-or ],
+    }
+  - {
+      ref: "GSE 28 #036",
+      level: A1,
+      item: "Can use common forms of ‘have got’ (BrE) in the present tense.",
+      maps: [ have-got ],
+    }
+  - {
+      ref: "GSE 28 #037",
+      level: A1,
+      item: "Can give dates (e.g. their date of birth) using ordinal numbers in the form day- monthyear or monthdayyear.",
+      maps: [ dates, ordinal-numbers ],
+    }
+  - {
+      ref: "GSE 28 #038",
+      level: A1,
+      item: "Can use ‘’s’ to express possession with singular nouns.",
+      maps: [ possessive-s ],
+    }
+  - {
+      ref: "GSE 28 #039",
+      level: A1,
+      item: "Can construct short answers to questions in the present simple using the verb ‘do’.",
+      maps: [ present-simple-questions ],
+    }
+  - {
+      ref: "GSE 29 #040",
+      level: A1,
+      item: "Can tell when to use the present simple and when to use the present continuous.",
+      maps: [ simple-vs-continuous ],
+    }
+  - {
+      ref: "GSE 29 #041",
+      level: A1,
+      item: "Can use ‘I’dlike …/Iwant …’toexpress wants and wishes.",
+      maps: [ would-like ],
+    }
+  - {
+      ref: "GSE 29 #042",
+      level: A1,
+      item: "Can use ‘can’ to refer to ability in the present.",
+      maps: [ can-ability ],
+    }
+  - {
+      ref: "GSE 30 #043",
+      level: A2,
+      item: "Can use ‘that’ and ‘this’ as determiners relating to people or objects.",
+      maps: [ demonstratives ],
+    }
+  - {
+      ref: "GSE 30 #044",
+      level: A2,
+      item: "Can use the present continuous to refer to events at the time of speaking.",
+      maps: [ present-continuous-now ],
+    }
+  - {
+      ref: "GSE 30 #045",
+      level: A2,
+      item: "Can ask about quantities using ‘how much/ many’ with count and uncountable nouns.",
+      maps: [ how-much-many ],
+    }
+  - {
+      ref: "GSE 30 #046",
+      level: A2,
+      item: "Can make affirmative statements using common irregular past simple forms.",
+      maps: [ past-simple-irregular ],
+    }
+  - {
+      ref: "GSE 30 #047",
+      level: A2,
+      item: "Can use ‘and’ with verbs and verb phrases.",
+      maps: [ and-but-or ],
+    }
+  - {
+      ref: "GSE 30 #048",
+      level: A2,
+      item: "Can ask yes/no questions using the past tense of verbs.",
+      maps: [ did-negative-questions ],
+    }
+  - {
+      ref: "GSE 30 #049",
+      level: A2,
+      item: "Can use ‘s’’ to express possession with plural nouns.",
+      maps: [ s-plural-possessive ],
+    }
+  - {
+      ref: "GSE 30 #050",
+      level: A2,
+      item: "Can use ‘at’ as a preposition of time.",
+      maps: [ time-at-on-in ],
+    }
+  - {
+      ref: "GSE 30 #051",
+      level: A2,
+      item: "Can use an adjective as a subject complement after a linking verb.",
+      maps: [ linking-verbs ],
+    }
+  - {
+      ref: "GSE 30 #052",
+      level: A2,
+      item: "Can make affirmative statements using common regular past simple forms.",
+      maps: [ past-simple-regular ],
+    }
+  - {
+      ref: "GSE 30 #053",
+      level: A2,
+      item: "Can use a range of prepositions of place.",
+      maps: [ place-others ],
+    }
+  - {
+      ref: "GSE 31 #054",
+      level: A2,
+      item: "Can use ‘like/hate/love’ with the ‘ ing’ forms of verbs.",
+      maps: [ like-ing ],
+    }
+  - {
+      ref: "GSE 31 #055",
+      level: A2,
+      item: "Can ask for information about time, measurement, size etc.",
+      maps: [ how-questions ],
+    }
+  - {
+      ref: "GSE 31 #056",
+      level: A2,
+      item: "Can place adjectives in the correct position (before nouns).",
+      maps: [ adjective-position ],
+    }
+  - {
+      ref: "GSE 31 #057",
+      level: A2,
+      item: "Can use a range of common time expressions with ‘past’/’to’ and fractions.",
+      maps: [ telling-time ],
+    }
+  - {
+      ref: "GSE 31 #058",
+      level: A2,
+      item: "Can use ‘want to’ + infinitive to express intentions.",
+      maps: [ verb-to ],
+    }
+  - {
+      ref: "GSE 31 #059",
+      level: A2,
+      item: "Can ask wh- questions using the past tense of verbs.",
+      maps: [ past-simple-wh ],
+    }
+  - {
+      ref: "GSE 32 #060",
+      level: A2,
+      item: "Can use ‘after’ as a preposition in time expressions.",
+      maps: [ before-after-noun ],
+      suggest:
+        {
+          title: "before / after + noun as time prepositions (before lunch, after the class)",
+          level: A2,
+          lesson: a2-45,
+        },
+    }
+  - {
+      ref: "GSE 32 #061",
+      level: A2,
+      item: "Can use uncountable (mass) nouns with no quantifier or an appropriate quantifier.",
+      maps: [ countable-uncountable, a-lot-of-basic, some-any-basic ],
+    }
+  - {
+      ref: "GSE 32 #062",
+      level: A2,
+      item: "Can use ‘was’ and ‘were’ with a range of complement phrases.",
+      maps: [ was-were ],
+    }
+  - {
+      ref: "GSE 32 #063",
+      level: A2,
+      item: "Can link clauses and sentences with a range of basic connectors.",
+      maps: [ and-but-or, because-so ],
+    }
+  - {
+      ref: "GSE 32 #064",
+      level: A2,
+      item: "Can use the definite article to refer to a specific person, thing, or situation.",
+      maps: [ the-specific ],
+    }
+  - {
+      ref: "GSE 32 #065",
+      level: A2,
+      item: "Can form questions with ‘How often’ in the present tense.",
+      maps: [ how-often ],
+    }
+  - {
+      ref: "GSE 32 #066",
+      level: A2,
+      item: "Can use ‘this’ with time expressions referring to the present or future.",
+      maps: [ demonstrative-time ],
+    }
+  - {
+      ref: "GSE 33 #067",
+      level: A2,
+      item: "Can give, deny or ask about permission in the present and near future with ‘can’.",
+      maps: [ can-permission-requests ],
+    }
+  - {
+      ref: "GSE 33 #068",
+      level: A2,
+      item: "Can use ‘can’t’ to decline offers and invitations.",
+      maps: [ can-ability ],
+    }
+  - {
+      ref: "GSE 33 #069",
+      level: A2,
+      item: "Can ask questions about how to do things.",
+      maps: [ question-words, question-word-order ],
+    }
+  - {
+      ref: "GSE 33 #070",
+      level: A2,
+      item: "Can use a range of common adverbs of frequency.",
+      maps: [ frequency-adverbs ],
+    }
+  - {
+      ref: "GSE 33 #071",
+      level: A2,
+      item: "Can make requests and offers with ‘would like’ + nouns and noun phrases.",
+      maps: [ would-like ],
+    }
+  - {
+      ref: "GSE 33 #072",
+      level: A2,
+      item: "Can make basic polite requests with ‘could’.",
+      maps: [ could-may-requests ],
+    }
+  - {
+      ref: "GSE 33 #073",
+      level: A2,
+      item: "Can use the correct preposition (‘on’ or ‘at’) with various common time expressions.",
+      maps: [ time-at-on-in ],
+    }
+  - {
+      ref: "GSE 33 #074",
+      level: A2,
+      item: "Can describe times exactly using numbers from 1 to 59 (+ ‘past/to’).",
+      maps: [ telling-time ],
+    }
+  - {
+      ref: "GSE 33 #075",
+      level: A2,
+      item: "Can use ‘it’ as a dummy (impersonal) subject when talking about weather conditions.",
+      maps: [ dummy-it ],
+    }
+  - {
+      ref: "GSE 34 #076",
+      level: A2,
+      item: "Can use ‘(not) here’ and ‘(not) there’ to refer to presence and absence.",
+      maps: [ adverbs-place-direction ],
+      suggest:
+        {
+          title: "Adverbs of place and direction (here, there, up, down, back, away, upstairs, abroad)",
+          level: A2,
+          lesson: a2-41,
+        },
+    }
+  - {
+      ref: "GSE 34 #077",
+      level: A2,
+      item: "Can make offers, requests, and suggestions using ‘can’.",
+      maps: [ can-permission-requests, suggestions, offers ],
+    }
+  - {
+      ref: "GSE 34 #078",
+      level: A2,
+      item: "Can form questions with ‘what’ and ‘which’ as adjectives.",
+      maps: [ what-vs-which ],
+    }
+  - {
+      ref: "GSE 34 #079",
+      level: A2,
+      item: "Can form questions with ‘whose’.",
+      maps: [ whose ],
+    }
+  - {
+      ref: "GSE 34 #080",
+      level: A2,
+      item: "Can use ‘can’ and ‘can’t’ with verbs of perception.",
+      maps: [ can-perception ],
+      suggest:
+        {
+          title: "can / can't with verbs of perception (I can see it; I can't hear you)",
+          level: A2,
+          lesson: a2-21,
+        },
+    }
+  - {
+      ref: "GSE 34 #081",
+      level: A2,
+      item: "Can use ‘Let’s …’ for suggestions and invitations.",
+      maps: [ lets ],
+    }
+  - {
+      ref: "GSE 35 #082",
+      level: A2,
+      item: "Can use a range of common adverbs of movement and direction.",
+      maps: [ adverbs-place-direction ],
+      suggest:
+        {
+          title: "Adverbs of place and direction (here, there, up, down, back, away, upstairs, abroad)",
+          level: A2,
+          lesson: a2-41,
+        },
+    }
+  - {
+      ref: "GSE 35 #083",
+      level: A2,
+      item: "Can use a range of common time markers for the past, present and future.",
+      maps: [ past-time-expressions, no-prep-time ],
+    }
+  - {
+      ref: "GSE 35 #084",
+      level: A2,
+      item: "Can express personal plans and intentions for the future using ‘going to’.",
+      maps: [ going-to-plans ],
+    }
+  - {
+      ref: "GSE 35 #085",
+      level: A2,
+      item: "Can make requests and offers with ‘would like to’ + verbs in the infinitive.",
+      maps: [ would-like ],
+    }
+  - {
+      ref: "GSE 35 #086",
+      level: A2,
+      item: "Can use ‘(not) many/much’ with count (countable) and mass (uncountable) nouns respectively.",
+      maps: [ much-many ],
+    }
+  - {
+      ref: "GSE 36 #087",
+      level: A2,
+      item: "Can form the superlative of longer regular adjectives with ‘most’.",
+      maps: [ superlatives ],
+    }
+  - {
+      ref: "GSE 36 #088",
+      level: A2,
+      item: "Can use uncountable nouns without an article.",
+      maps: [ the-vs-zero, countable-uncountable ],
+    }
+  - {
+      ref: "GSE 36 #089",
+      level: A2,
+      item: "Can use ‘a lot of/lots of’ to refer to quantities.",
+      maps: [ a-lot-of ],
+    }
+  - {
+      ref: "GSE 36 #090",
+      level: A2,
+      item: "Can use ‘should(n’t)’ to offer or ask for advice or suggestions.",
+      maps: [ should-advice ],
+    }
+  - {
+      ref: "GSE 36 #091",
+      level: A2,
+      item: "Can make comparisons with ‘more’ + longer adjectives.",
+      maps: [ comparatives-long ],
+    }
+  - {
+      ref: "GSE 36 #092",
+      level: A2,
+      item: "Can use adverbs of frequency and manner in the correct position.",
+      maps: [ frequency-position, adverb-positions ],
+    }
+  - {
+      ref: "GSE 36 #093",
+      level: A2,
+      item: "Can form the superlative of regular adjectives with ‘est’.",
+      maps: [ superlatives ],
+    }
+  - {
+      ref: "GSE 36 #094",
+      level: A2,
+      item: "Can use ‘of’ to refer to possession and attribution.",
+      maps: [ possessive-of ],
+      levelNote: "source says A2, inventory says possessive-of B2",
+    }
+  - {
+      ref: "GSE 35 #095",
+      level: A2,
+      item: "Can use the definite article to refer back to something already mentioned.",
+      maps: [ the-second-mention ],
+    }
+  - {
+      ref: "GSE 35 #096",
+      level: A2,
+      item: "Can use plural countable nouns without an article or quantifier.",
+      maps: [ the-vs-zero ],
+    }
+  - {
+      ref: "GSE 35 #097",
+      level: A2,
+      item: "Can use ‘because’ with verb phrases to refer to causes and reasons.",
+      maps: [ because-so, reason-clauses ],
+    }
+  - {
+      ref: "GSE 35 #098",
+      level: A2,
+      item: "Can use a range of common prepositions of movement.",
+      maps: [ movement ],
+    }
+  - {
+      ref: "GSE 35 #099",
+      level: A2,
+      item: "Can use ‘please’ in the correct position with imperative verb forms.",
+      maps: [ imperatives ],
+    }
+  - {
+      ref: "GSE 36 #100",
+      level: A2,
+      item: "Can use ‘will’ to ask questions about the future.",
+      maps: [ will-predictions ],
+    }
+  - {
+      ref: "GSE 36 #101",
+      level: A2,
+      item: "Can ask questions with ‘what kind/sort of …?’",
+      maps: [ what-kind-of ],
+      suggest:
+        {
+          title: "What kind / sort of ...? (What kind of music do you like?)",
+          level: A2,
+          lesson: a2-01,
+        },
+    }
+  - {
+      ref: "GSE 36 #102",
+      level: A2,
+      item: "Can deny intention and desire with ‘wouldn’t like/don’t want to …’",
+      maps: [ would-like ],
+    }
+  - {
+      ref: "GSE 36 #103",
+      level: A2,
+      item: "Can use ‘some’as a quantifier with count andmass nouns.",
+      maps: [ some-any-basic ],
+    }
+  - {
+      ref: "GSE 37 #104",
+      level: A2,
+      item: "Can use ‘with’and ‘without’to refer to (lack of) possession and attribution.",
+      maps: [ with-without-description ],
+      suggest:
+        {
+          title: "with / without for description (a girl with long hair, coffee without sugar)",
+          level: A2,
+          lesson: a2-45,
+        },
+    }
+  - {
+      ref: "GSE 37 #105",
+      level: A2,
+      item: "Can express obligation and necessity in the present and near future with ‘have to’.",
+      maps: [ must-have-to ],
+    }
+  - {
+      ref: "GSE 37 #106",
+      level: A2,
+      item: "Can form basic adverbs by adding ‘ly’ to adjectives.",
+      maps: [ adverbs-manner ],
+    }
+  - {
+      ref: "GSE 37 #107",
+      level: A2,
+      item: "Can use a range of basic quantifiers with ‘of’ and noun phrases.",
+      maps: [ a-lot-of, a-few-a-little, all-both-basic ],
+    }
+  - {
+      ref: "GSE 37 #108",
+      level: A2,
+      item: "Can use ‘must’ to express obligation and necessity in the present and near future.",
+      maps: [ must-have-to ],
+    }
+  - {
+      ref: "GSE 37 #109",
+      level: A2,
+      item: "Can generalise about persons, things, or situations using plural nouns/noun phrases with no (zero) article.",
+      maps: [ the-vs-zero ],
+    }
+  - {
+      ref: "GSE 37 #110",
+      level: A2,
+      item: "Can use verb + ‘ing’forms as the complement of a sentence.",
+      maps: [ ing-complement ],
+      suggest:
+        {
+          title: "-ing as complement (My hobby is swimming; The best thing is walking)",
+          level: B1,
+          lesson: b1-35,
+        },
+    }
+  - {
+      ref: "GSE 37 #111",
+      level: A2,
+      item: "Can form and use irregular adverbs.",
+      maps: [ irregular-adverbs ],
+    }
+  - {
+      ref: "GSE 37 #112",
+      level: A2,
+      item: "Can use phrases with prepositions + adjectives + nouns.",
+      maps: [ with-without-description ],
+      suggest:
+        {
+          title: "with / without for description (a girl with long hair, coffee without sugar)",
+          level: A2,
+          lesson: a2-45,
+        },
+    }
+  - {
+      ref: "GSE 37 #113",
+      level: A2,
+      item: "Can use ‘some’ and ‘any’ as quantifiers in negative statements and questions with mass and count nouns.",
+      maps: [ some-any-basic ],
+    }
+  - {
+      ref: "GSE 38 #114",
+      level: A2,
+      item: "Can use a range of common adverbs and adverbial phrases of position.",
+      maps: [ adverbs-place-direction ],
+      suggest:
+        {
+          title: "Adverbs of place and direction (here, there, up, down, back, away, upstairs, abroad)",
+          level: A2,
+          lesson: a2-41,
+        },
+    }
+  - {
+      ref: "GSE 38 #115",
+      level: A2,
+      item: "Can use ‘will’+ infinitive for predictions about the future.",
+      maps: [ will-predictions ],
+    }
+  - {
+      ref: "GSE 38 #116",
+      level: A2,
+      item: "Can express means using ‘by’ with nouns and noun phrases.",
+      maps: [ by-with ],
+    }
+  - {
+      ref: "GSE 38 #117",
+      level: A2,
+      item: "Can distinguish between adjectives ending with ‘ed’ and ‘ing’.",
+      maps: [ ed-ing-adjectives ],
+    }
+  - {
+      ref: "GSE 38 #118",
+      level: A2,
+      item: "Can form irregular superlatives of adjectives and adverbs such as ‘best’, ‘worst’.",
+      maps: [ comparatives-irregular, superlatives ],
+    }
+  - {
+      ref: "GSE 38 #119",
+      level: A2,
+      item: "Can make comparisons with regular shorter adjectives + ‘er’.",
+      maps: [ comparatives-short ],
+    }
+  - {
+      ref: "GSE 38 #120",
+      level: A2,
+      item: "Can use the present continuous to refer to temporary situations.",
+      maps: [ temporary-permanent ],
+    }
+  - {
+      ref: "GSE 38 #121",
+      level: A2,
+      item: "Can use ‘in’as a preposition of time with future reference.",
+      maps: [ in-period-future ],
+      suggest:
+        {
+          title: "in + period of time for the future (in two weeks, in a few minutes)",
+          level: A2,
+          lesson: a2-11,
+        },
+    }
+  - {
+      ref: "GSE 38 #122",
+      level: A2,
+      item: "Can use ‘so’ to refer to results and consequences.",
+      maps: [ because-so ],
+    }
+  - {
+      ref: "GSE 38 #123",
+      level: A2,
+      item: "Can ask wh- questions about the subject.",
+      maps: [ subject-questions ],
+    }
+  - {
+      ref: "GSE 38 #124",
+      level: A2,
+      item: "Can use ’ll+ infinitive for spontaneous decisions and offers.",
+      maps: [ will-decisions ],
+    }
+  - {
+      ref: "GSE 38 #125",
+      level: A2,
+      item: "Can make statements and questions with ‘know’ + whclauses.",
+      maps: [ indirect-questions, wh-clauses ],
+      levelNote: "source says A2, inventory says wh-clauses B2",
+    }
+  - {
+      ref: "GSE 39 #126",
+      level: A2,
+      item: "Can use ‘no’ as a quantifier to indicate the absence or lack of something.",
+      maps: [ no-none ],
+    }
+  - {
+      ref: "GSE 39 #127",
+      level: A2,
+      item: "Can express sufficiency and insufficiency with ‘enough’ and ‘too’.",
+      maps: [ too-enough ],
+    }
+  - {
+      ref: "GSE 39 #128",
+      level: A2,
+      item: "Can use ‘that’ and ‘this’ as subject and object pronouns.",
+      maps: [ demonstrative-pronouns ],
+    }
+  - {
+      ref: "GSE 39 #129",
+      level: A2,
+      item: "Can use direct + indirect objects together after ditransitive verbs like ‘give/tell/pass’.",
+      maps: [ two-objects ],
+    }
+  - {
+      ref: "GSE 39 #130",
+      level: A2,
+      item: "Can make irregular comparisons of adjectives and adverbs such as ‘better’, ‘worse’.",
+      maps: [ comparatives-irregular ],
+    }
+  - {
+      ref: "GSE 40 #131",
+      level: A2,
+      item: "Can use the definite article correctly with geographical names and locations.",
+      maps: [ the-geography ],
+    }
+  - {
+      ref: "GSE 40 #132",
+      level: A2,
+      item: "Can use ‘before/after’ as conjunctions with complement clauses.",
+      maps: [ time-clauses-basic ],
+    }
+  - {
+      ref: "GSE 40 #133",
+      level: A2,
+      item: "Can distinguish between the past simple and past continuous.",
+      maps: [ past-simple-vs-continuous ],
+    }
+  - {
+      ref: "GSE 40 #134",
+      level: A2,
+      item: "Can make statements with the verb ‘be’ and adjectives with verbs in the infinitive.",
+      maps: [ it-adj-to ],
+    }
+  - {
+      ref: "GSE 40 #135",
+      level: A2,
+      item: "Can use all forms of comparatives and superlatives of adjectives.",
+      maps: [ comparatives-short, comparatives-long, superlatives ],
+    }
+  - {
+      ref: "GSE 40 #136",
+      level: A2,
+      item: "Can use singular verb forms with impersonal pronouns ‘every/any/no/some + body/where/one/thing’",
+      maps: [ indefinite-singular-verb ],
+    }
+  - {
+      ref: "GSE 41 #137",
+      level: A2,
+      item: "Can use ‘May I/we ...?’ for formal and polite requests for permission.",
+      maps: [ could-may-requests ],
+    }
+  - {
+      ref: "GSE 41 #138",
+      level: A2,
+      item: "Can use ‘when’to link two clauses in the past simple.",
+      maps: [ when-while, past-simple-sequence ],
+    }
+  - {
+      ref: "GSE 41 #139",
+      level: A2,
+      item: "Can use ‘so …’ to express results and consequences.",
+      maps: [ because-so ],
+    }
+  - {
+      ref: "GSE 41 #140",
+      level: A2,
+      item: "Can distinguish between the most common ways of expressing the future.",
+      maps: [ futures-compared, which-future-intro ],
+    }
+  - {
+      ref: "GSE 41 #141",
+      level: A2,
+      item: "Can use the present perfect to refer to personal experiences in the past.",
+      maps: [ present-perfect-experience ],
+    }
+  - {
+      ref: "GSE 41 #142",
+      level: A2,
+      item: "Can use a range of indefinite compound pronouns prefixed with ‘some’.",
+      maps: [ indefinite-compounds ],
+    }
+  - {
+      ref: "GSE 41 #143",
+      level: A2,
+      item: "Can refer to impossibility and inability in the past using ‘couldn’t’.",
+      maps: [ could-past-ability ],
+    }
+  - {
+      ref: "GSE 41 #144",
+      level: A2,
+      item: "Can qualify adverbs with ‘really/quite/very’.",
+      maps: [ very-really, softeners ],
+      levelNote: "source says A2, inventory says softeners B2",
+    }
+  - {
+      ref: "GSE 41 #145",
+      level: A2,
+      item: "Can ask questions using the present perfect with ‘ever’.",
+      maps: [ present-perfect-experience ],
+    }
+  - {
+      ref: "GSE 41 #146",
+      level: A2,
+      item: "Can use ‘a bit/a little’ to refer to quantities with mass (uncountable) nouns.",
+      maps: [ a-few-a-little ],
+    }
+  - {
+      ref: "GSE 41 #147",
+      level: A2,
+      item: "Can make offers and suggestions using ‘could’.",
+      maps: [ could-possibility-suggestions ],
+      suggest:
+        {
+          title: "could for possibility, offers and suggestions (It could rain; I could help you; You could ask her)",
+          level: B1,
+          lesson: b1-17,
+        },
+    }
+  - {
+      ref: "GSE 42 #148",
+      level: A2,
+      item: "Can use ‘like’ with sensory verbs to express similarity.",
+      maps: [ look-like ],
+    }
+  - {
+      ref: "GSE 42 #149",
+      level: A2,
+      item: "Can use the present perfect with present reference.",
+      maps: [ present-perfect-recent ],
+    }
+  - {
+      ref: "GSE 42 #150",
+      level: A2,
+      item: "Can report current and future plans and intentions.",
+      maps: [ say-tell ],
+    }
+  - {
+      ref: "GSE 42 #151",
+      level: A2,
+      item: "Can use the present continuous with future reference.",
+      maps: [ present-continuous-future ],
+    }
+  - {
+      ref: "GSE 42 #152",
+      level: A2,
+      item: "Can use ‘both’ and ‘both of’ with nouns and noun phrases.",
+      maps: [ all-both-basic ],
+    }
+  - {
+      ref: "GSE 42 #153",
+      level: A2,
+      item: "Can use a range of pronouns and adverbials for anaphoric (back) reference.",
+      maps: [ the-second-mention, it-this-that-reference ],
+      levelNote: "source says A2, inventory says it-this-that-reference C1",
+    }
+  - {
+      ref: "GSE 42 #154",
+      level: A2,
+      item: "Can construct doublecomplement sentences with verbs such as ‘give’, ‘tell’, ‘ask’,etc.",
+      maps: [ two-objects ],
+    }
+  - {
+      ref: "GSE 42 #155",
+      level: A2,
+      item: "Can express basic cause and effect with ‘because of …’ ‘because of …’ + NP We didn’t go out, because of the weather.",
+      maps: [ prep-vs-conj, due-to-owing-to ],
+      levelNote: "source says A2, inventory says prep-vs-conj B2, due-to-owing-to B2",
+    }
+  - {
+      ref: "GSE 43 #156",
+      level: B1,
+      item: "Can use a range of indefinite compound pronouns prefixed with ‘every’.",
+      maps: [ indefinite-compounds ],
+    }
+  - {
+      ref: "GSE 43 #157",
+      level: B1,
+      item: "Can use a wide range of quantifiers with countable (count) and uncountable (non- count) nouns.",
+      maps: [ much-many, a-lot-of, a-few-a-little, some-any-basic ],
+      levelNote: "source says B1, inventory says some-any-basic A1",
+    }
+  - {
+      ref: "GSE 43 #158",
+      level: B1,
+      item: "Can use ‘needn’t’ and ‘don’t/doesn’t have to’ to express absence of obligation in the present and future.",
+      maps: [ mustnt-dont-have-to, need-neednt ],
+    }
+  - {
+      ref: "GSE 43 #159",
+      level: B1,
+      item: "Can use ‘with’ to refer to the instrument or means of doing something.",
+      maps: [ by-with ],
+    }
+  - {
+      ref: "GSE 43 #160",
+      level: B1,
+      item: "Can use verb + ‘ing’ forms as the subject of a sentence.",
+      maps: [ ing-subject ],
+    }
+  - {
+      ref: "GSE 43 #161",
+      level: B1,
+      item: "Can form compound nouns from nouns plus other nouns and adjectives.",
+      maps: [ compound-nouns ],
+    }
+  - {
+      ref: "GSE 44 #162",
+      level: B1,
+      item: "Can use a range of indefinite compound pronouns prefixed with ‘no’.",
+      maps: [ indefinite-compounds ],
+    }
+  - {
+      ref: "GSE 44 #163",
+      level: B1,
+      item: "Can use common adverbials to express combinations and similarities between nouns and phrases.",
+      maps: [ also-too-either, also ],
+      levelNote: "source says B1, inventory says also A1",
+    }
+  - {
+      ref: "GSE 44 #164",
+      level: B1,
+      item: "Can use reflexive pronouns as objects or complements.",
+      maps: [ reflexive-pronouns ],
+    }
+  - {
+      ref: "GSE 44 #165",
+      level: B1,
+      item: "Can use ‘all of’, ‘none of’, and ‘most of’ to describe subsets and proportions of groups of people and things.",
+      maps: [ most-of, none-of, all-both-basic ],
+    }
+  - {
+      ref: "GSE 44 #166",
+      level: B1,
+      item: "Can use a range of prepositions of time, such as ‘before’,‘during’, ‘since’, ‘till/until’.",
+      maps: [ during-vs-for, for-since, from-to-until, by-until ],
+      levelNote: "source says B1, inventory says from-to-until A1",
+    }
+  - {
+      ref: "GSE 44 #167",
+      level: B1,
+      item: "Can correctly use ‘since’ and ‘for’ in time expressions.",
+      maps: [ for-since ],
+    }
+  - {
+      ref: "GSE 44 #168",
+      level: B1,
+      item: "Can use the present perfect with ‘for/since’ to talk about the duration of states and conditions.",
+      maps: [ for-since, how-long ],
+    }
+  - {
+      ref: "GSE 44 #169",
+      level: B1,
+      item: "Can refer to someone’s practical knowledge using ‘knowhow to’+ verb phrase.",
+      maps: [ wh-to ],
+    }
+  - {
+      ref: "GSE 44 #170",
+      level: B1,
+      item: "Can make statements and ask questions with ‘know about’ + nouns and noun phrases.",
+      maps: [ verb-prep-1 ],
+    }
+  - {
+      ref: "GSE 44 #171",
+      level: B1,
+      item: "Can use the present perfect with ‘yet’ and ‘still’.",
+      maps: [ just-already-yet, already-yet-still ],
+    }
+  - {
+      ref: "GSE 44 #172",
+      level: B1,
+      item: "Can use ‘need’ in affirmative statements and questions relating to the present and near future.",
+      maps: [ need-neednt ],
+    }
+  - {
+      ref: "GSE 44 #173",
+      level: B1,
+      item: "Can make comparisons using ‘(not) as … as’ with adjectives and adverbs.",
+      maps: [ as-as ],
+    }
+  - {
+      ref: "GSE 44 #174",
+      level: B1,
+      item: "Can use ‘a few’ to refer to quantities with count (countable) nouns.",
+      maps: [ a-few-a-little ],
+    }
+  - {
+      ref: "GSE 44 #175",
+      level: B1,
+      item: "Can use ‘going to’ with reference to predicted future events and situations.",
+      maps: [ going-to-evidence ],
+    }
+  - {
+      ref: "GSE 44 #176",
+      level: B1,
+      item: "Can make comparisons with regular shorter adverbs + ‘er’.",
+      maps: [ adverb-comparison ],
+      suggest:
+        {
+          title: "Comparatives and superlatives of adverbs (faster, more carefully, the best)",
+          level: A2,
+          lesson: a2-41,
+        },
+    }
+  - {
+      ref: "GSE 44 #177",
+      level: B1,
+      item: "Can describe live (e.g. sporting) events using the present simple.",
+      maps: [ historic-present ],
+      levelNote: "source says B1, inventory says historic-present C1",
+    }
+  - {
+      ref: "GSE 44 #178",
+      level: B1,
+      item: "Can tell when to use the past simple and when to use the present perfect (BrE).",
+      maps: [ pp-vs-past ],
+    }
+  - {
+      ref: "GSE 45 #179",
+      level: B1,
+      item: "Can express agency using ‘by’ with nouns and noun phrases.",
+      maps: [ passive-by ],
+    }
+  - {
+      ref: "GSE 45 #180",
+      level: B1,
+      item: "Can use possessive pronouns as objects and complements.",
+      maps: [ possessive-pronouns ],
+    }
+  - {
+      ref: "GSE 45 #181",
+      level: B1,
+      item: "Can construct basic phrases with ‘(not) (the) same … as …’ ‘(not) (the) same … as …’ Your problem isn’t the same as mine.",
+      maps: [ same-similar-different ],
+    }
+  - {
+      ref: "GSE 45 #182",
+      level: B1,
+      item: "Can use ‘Shall I/we …?’ to make formal suggestions and offers.",
+      maps: [ shall-offers ],
+    }
+  - {
+      ref: "GSE 45 #183",
+      level: B1,
+      item: "Can use verbs of state change with object complements.",
+      maps: [ object-complement ],
+      levelNote: "source says B1, inventory says object-complement C1",
+    }
+  - {
+      ref: "GSE 45 #184",
+      level: B1,
+      item: "Can use ‘used to’ to refer to past habits and routines.",
+      maps: [ used-to ],
+    }
+  - {
+      ref: "GSE 45 #185",
+      level: B1,
+      item: "Can express preference with ‘like … better more/than ….’ ‘like … better/more than …’ I like coffee more than tea.",
+      maps: [ rather-better-prefer ],
+    }
+  - {
+      ref: "GSE 45 #186",
+      level: B1,
+      item: "Can use a range of indefinite compound pronouns prefixed with ‘any’.",
+      maps: [ indefinite-compounds ],
+    }
+  - {
+      ref: "GSE 45 #187",
+      level: B1,
+      item: "Can respond to a suggestion with ‘Yes, let’s’.",
+      maps: [ lets ],
+      levelNote: "source says B1, inventory says lets A1",
+    }
+  - {
+      ref: "GSE 45 #188",
+      level: B1,
+      item: "Can qualify adverbs with ‘too/enough’.",
+      maps: [ too-enough ],
+    }
+  - {
+      ref: "GSE 45 #189",
+      level: B1,
+      item: "Can use the present perfect with ‘just’ (BrE).",
+      maps: [ just-already-yet ],
+    }
+  - {
+      ref: "GSE 45 #190",
+      level: B1,
+      item: "Can refer to the recipient or indirect object with ‘to’ + noun or noun phrase.",
+      maps: [ two-objects-to-for ],
+    }
+  - {
+      ref: "GSE 45 #191",
+      level: B1,
+      item: "Can use a range of common linking words to sequence events or activities.",
+      maps: [ sequencing ],
+    }
+  - {
+      ref: "GSE 46 #192",
+      level: B1,
+      item: "Can correctly use ‘a bit/a little’ and ‘a few’ to refer to quantities with mass and count nouns respectively.",
+      maps: [ a-few-a-little ],
+    }
+  - {
+      ref: "GSE 46 #193",
+      level: B1,
+      item: "Can use the present continuous to refer to changing situations.",
+      maps: [ changing-situations ],
+      levelNote: "source says B1, inventory says changing-situations A1",
+    }
+  - {
+      ref: "GSE 46 #194",
+      level: B1,
+      item: "Can identify which article (including no article) to use with a range of nouns and noun phrases.",
+      maps: [ the-vs-zero, the-specific, a-an-sound ],
+      levelNote: "source says B1, inventory says the-specific A1, a-an-sound A1",
+    }
+  - {
+      ref: "GSE 46 #195",
+      level: B1,
+      item: "Can make suggestions using ‘what about/ how about’ with verbs in the gerund.",
+      maps: [ suggestions ],
+    }
+  - {
+      ref: "GSE 46 #196",
+      level: B1,
+      item: "Can use ‘of’ with possessive forms to describe possessions or attributes.",
+      maps: [ double-possessive ],
+    }
+  - {
+      ref: "GSE 46 #197",
+      level: B1,
+      item: "Can use ‘had to ...’/’Did …have to…?’to refer to past necessity and obligation.",
+      maps: [ had-to ],
+    }
+  - {
+      ref: "GSE 46 #198",
+      level: B1,
+      item: "Can make offers using the first conditional.",
+      maps: [ first-conditional, offers ],
+    }
+  - {
+      ref: "GSE 46 #199",
+      level: B1,
+      item: "Can use common quantifiers such as ‘a lot’ and ‘much’ as adverbs.",
+      maps: [ a-lot-adverb ],
+      suggest:
+        {
+          title: "a lot, a bit, much, very much as adverbs after verbs (I like it a lot; It helps a bit)",
+          level: A2,
+          lesson: a2-40,
+        },
+    }
+  - {
+      ref: "GSE 46 #200",
+      level: B1,
+      item: "Can speculate about the future using ‘may/ might/could’ + infinitive.",
+      maps: [ may-might-possibility ],
+      suggest:
+        {
+          title: "could for possibility, offers and suggestions (It could rain; I could help you; You could ask her)",
+          level: B1,
+          lesson: b1-17,
+        },
+    }
+  - {
+      ref: "GSE 46 #201",
+      level: B1,
+      item: "Can make offers and suggestions with ‘Why not/why don’t you/we …’?",
+      maps: [ suggestions ],
+    }
+  - {
+      ref: "GSE 46 #202",
+      level: B1,
+      item: "Can use the present simple with future reference.",
+      maps: [ present-simple-timetable ],
+    }
+  - {
+      ref: "GSE 46 #203",
+      level: B1,
+      item: "Can use infinitives after some common adjectives.",
+      maps: [ adjective-to ],
+    }
+  - {
+      ref: "GSE 46 #204",
+      level: B1,
+      item: "Can use phrasal verbs with separated object.",
+      maps: [ phrasal-pronoun-position, phrasal-separable ],
+    }
+  - {
+      ref: "GSE 46 #205",
+      level: B1,
+      item: "Can form a range of nouns from adjectives and verbs with common suffixes.",
+      maps: [ suffix-noun ],
+    }
+  - {
+      ref: "GSE 46 #206",
+      level: B1,
+      item: "Can describe possible future outcomes of a present action or situation using the first conditional.",
+      maps: [ first-conditional ],
+    }
+  - {
+      ref: "GSE 46 #207",
+      level: B1,
+      item: "Can use transitive verbs in the passive with the object as the grammatical subject.",
+      maps: [ passive-form ],
+    }
+  - {
+      ref: "GSE 46 #208",
+      level: B1,
+      item: "Can use ‘mustn’t’ to express prohibition in the present and near future.",
+      maps: [ mustnt-dont-have-to ],
+    }
+  - {
+      ref: "GSE 46 #209",
+      level: B1,
+      item: "Can express preference with regard to things using ‘prefer … (to …)’ ‘prefer’+ NP (+ ‘to’+ NP) I prefer dogs to cats.",
+      maps: [ rather-better-prefer ],
+    }
+  - {
+      ref: "GSE 46 #210",
+      level: B1,
+      item: "Can describe quantities using ‘hardly/not’ + ‘any/much/many’.",
+      maps: [ hardly-any ],
+    }
+  - {
+      ref: "GSE 46 #211",
+      level: B1,
+      item: "Can use indefinite compound pronouns followed by infinitive verb phrases.",
+      maps: [ something-to-adjective ],
+      suggest:
+        {
+          title: "something / anything / nothing + to-infinitive or adjective (something to eat; nothing interesting)",
+          level: A2,
+          lesson: a2-32,
+        },
+    }
+  - {
+      ref: "GSE 46 #212",
+      level: B1,
+      item: "Can use ‘that’ with time expressions referring to the past.",
+      maps: [ demonstrative-time ],
+      levelNote: "source says B1, inventory says demonstrative-time A1",
+    }
+  - {
+      ref: "GSE 46 #213",
+      level: B1,
+      item: "Can use ‘when’ to link clauses in the past simple and past continuous.",
+      maps: [ past-simple-vs-continuous, when-while ],
+    }
+  - {
+      ref: "GSE 46 #214",
+      level: B1,
+      item: "Can use ‘till/until’ with the present tense to refer to events in the future.",
+      maps: [ future-time-clauses ],
+    }
+  - {
+      ref: "GSE 47 #215",
+      level: B1,
+      item: "Can distinguish between present perfect simple and continuous.",
+      maps: [ ppc-vs-pp ],
+    }
+  - {
+      ref: "GSE 47 #216",
+      level: B1,
+      item: "Can correctly use ‘(the) other’ and ‘another’ with nouns.",
+      maps: [ another-other ],
+    }
+  - {
+      ref: "GSE 47 #217",
+      level: B1,
+      item: "Can describe simple conditions where one event follows another.",
+      maps: [ zero-conditional ],
+    }
+  - {
+      ref: "GSE 47 #218",
+      level: B1,
+      item: "Can use ‘you’ in a generic or impersonal sense.",
+      maps: [ generic-you-one ],
+    }
+  - {
+      ref: "GSE 47 #219",
+      level: B1,
+      item: "Can form and use phrases with prepositions + verbs (+’ing’).",
+      maps: [ ing-after-prepositions ],
+    }
+  - {
+      ref: "GSE 47 #220",
+      level: B1,
+      item: "Can use the present perfect continuous with present reference plus ‘recently/lately’.",
+      maps: [ ppc-recent-results ],
+    }
+  - {
+      ref: "GSE 47 #221",
+      level: B1,
+      item: "Can express attitude and agreement with ‘agree/think (that)’ + complement clause.",
+      maps: [ that-clauses ],
+    }
+  - {
+      ref: "GSE 47 #222",
+      level: B1,
+      item: "Can form a range of adjectives from nouns and verbs with common suffixes.",
+      maps: [ suffix-adjective ],
+    }
+  - {
+      ref: "GSE 47 #223",
+      level: B1,
+      item: "Can form nouns from adjectives with common suffixes.",
+      maps: [ suffix-noun ],
+    }
+  - {
+      ref: "GSE 47 #224",
+      level: B1,
+      item: "Can use ‘after/before’ as prepositions with the gerundive (ing) form of verbs.",
+      maps: [ ing-after-prepositions, conjunction-ing ],
+    }
+  - {
+      ref: "GSE 47 #225",
+      level: B1,
+      item: "Can express thanks for an action using verbs in the gerund.",
+      maps: [ ing-after-prepositions, verb-obj-prep ],
+    }
+  - {
+      ref: "GSE 47 #226",
+      level: B1,
+      item: "Can correctly use ‘as’ and’ like’ with noun phrases to express capacity and similarity.",
+      maps: [ like-as ],
+    }
+  - {
+      ref: "GSE 47 #227",
+      level: B1,
+      item: "Can make comparisons with ‘more’ + longer adverbs.",
+      maps: [ adverb-comparison ],
+      suggest:
+        {
+          title: "Comparatives and superlatives of adverbs (faster, more carefully, the best)",
+          level: A2,
+          lesson: a2-41,
+        },
+    }
+  - {
+      ref: "GSE 47 #228",
+      level: B1,
+      item: "Can use the present perfect continuous with ‘for/since’ and time expressions.",
+      maps: [ ppc-duration ],
+    }
+  - {
+      ref: "GSE 47 #229",
+      level: B1,
+      item: "Can use a range of verbs taking ‘to’ + infinitive.",
+      maps: [ verb-to ],
+    }
+  - {
+      ref: "GSE 47 #230",
+      level: B1,
+      item: "Can use a range of common prefixes with verbs.",
+      maps: [ prefix-meaning ],
+    }
+  - {
+      ref: "GSE 47 #231",
+      level: B1,
+      item: "Can correctly use the present perfect with ‘been (to)’ and ‘gone (to)’, referring to places.",
+      maps: [ been-gone ],
+    }
+  - {
+      ref: "GSE 47 #232",
+      level: B1,
+      item: "Can form questions with prepositional verbs and final prepositions.",
+      maps: [ preposition-end-questions ],
+    }
+  - {
+      ref: "GSE 48 #233",
+      level: B1,
+      item: "Can report past orders and requests with ‘tell/ask’.",
+      maps: [ reported-commands ],
+    }
+  - {
+      ref: "GSE 48 #234",
+      level: B1,
+      item: "Can express strong wishes or aversion using ‘would love/hate to …’",
+      maps: [ would-like ],
+      levelNote: "source says B1, inventory says would-like A1",
+    }
+  - {
+      ref: "GSE 48 #235",
+      level: B1,
+      item: "Can make statements and ask questions with ‘know (that)’ + complement clauses.",
+      maps: [ that-clauses ],
+    }
+  - {
+      ref: "GSE 48 #236",
+      level: B1,
+      item: "Can use conjunctions such as ‘when’ and ‘before’ with the present simple, with future reference.",
+      maps: [ future-time-clauses ],
+    }
+  - {
+      ref: "GSE 48 #237",
+      level: B1,
+      item: "Can use the present perfect continuous to refer to ongoing states and conditions.",
+      maps: [ ppc-duration ],
+    }
+  - {
+      ref: "GSE 48 #238",
+      level: B1,
+      item: "Can correctly place the indirect object with verbs taking ‘for’ and ‘to.",
+      maps: [ two-objects-to-for ],
+    }
+  - {
+      ref: "GSE 48 #239",
+      level: B1,
+      item: "Can use ‘till/until’ referring to events in the past using appropriate verb forms.",
+      maps: [ from-to-until, time-clauses-full ],
+      levelNote: "source says B1, inventory says from-to-until A1",
+    }
+  - {
+      ref: "GSE 48 #240",
+      level: B1,
+      item: "Can use ‘one/ones’ to replace nouns.",
+      maps: [ one-ones ],
+    }
+  - {
+      ref: "GSE 48 #241",
+      level: B1,
+      item: "Can use ‘who/that/which’ in basic defining (restrictive) relative clauses.",
+      maps: [ relative-who-which-that ],
+    }
+  - {
+      ref: "GSE 48 #242",
+      level: B1,
+      item: "Can use ‘by’ with verbs and verb phrases to express the means or way of doing something.",
+      maps: [ ing-after-prepositions ],
+    }
+  - {
+      ref: "GSE 48 #243",
+      level: B1,
+      item: "Can give, deny or ask about permission in the past with ‘was(n’t) able to/allowed to’.",
+      maps: [ allowed-to, be-able-to, could-past-ability ],
+    }
+  - {
+      ref: "GSE 48 #244",
+      level: B1,
+      item: "Can refer to general truths using ‘can’.",
+      maps: [ can-general-possibility ],
+      suggest:
+        {
+          title: "can / could for general possibility (It can get very cold in November)",
+          level: B1,
+          lesson: b1-17,
+        },
+    }
+  - {
+      ref: "GSE 48 #245",
+      level: B1,
+      item: "Can negate adjectives with the correct negative prefix.",
+      maps: [ prefix-negative ],
+    }
+  - {
+      ref: "GSE 48 #246",
+      level: B1,
+      item: "Can use a wide range of subject and object relative pronouns, including zero (omission of pronoun).",
+      maps: [ omit-relative, relative-who-which-that ],
+    }
+  - {
+      ref: "GSE 48 #247",
+      level: B1,
+      item: "Can use ‘when’ and ‘where’ in relative clauses.",
+      maps: [ relative-whose-when, relative-where ],
+    }
+  - {
+      ref: "GSE 48 #248",
+      level: B1,
+      item: "Can use ‘was/were going to’ to refer to past intentions.",
+      maps: [ was-going-to ],
+    }
+  - {
+      ref: "GSE 48 #249",
+      level: B1,
+      item: "Can describe hypothetical (counterfactual) results of a current action or situation using the second conditional.",
+      maps: [ second-conditional ],
+    }
+  - {
+      ref: "GSE 48 #250",
+      level: B1,
+      item: "Can make generalisations about groups and nationalities using ‘the’ + adjective (+ ‘s’).",
+      maps: [ the-adjective-group, the-nationality ],
+    }
+  - {
+      ref: "GSE 48 #251",
+      level: B1,
+      item: "Can use ‘let/make/help’ to refer to enabling, forcing, or allowing things to be done.",
+      maps: [ make-let-help ],
+    }
+  - {
+      ref: "GSE 48 #252",
+      level: B1,
+      item: "Can use ‘both … and …’ to connect two words or phrases.",
+      maps: [ both-and ],
+    }
+  - {
+      ref: "GSE 48 #253",
+      level: B1,
+      item: "Can use the past simple passive.",
+      maps: [ passive-present-past ],
+    }
+  - {
+      ref: "GSE 48 #254",
+      level: B1,
+      item: "Can use a range of common placeholders or propwords.",
+      maps: [ one-ones ],
+    }
+  - {
+      ref: "GSE 48 #255",
+      level: B1,
+      item: "Can correctly use a range of common phrasal (separable) and prepositional (inseparable phrasal) verbs.",
+      maps: [ phrasal-verbs-intro, phrasal-separable, prepositional-verbs ],
+    }
+  - {
+      ref: "GSE 48 #256",
+      level: B1,
+      item: "Can express purpose with ‘for’ + verb + ‘ing’.",
+      maps: [ for-ing-purpose ],
+      suggest:
+        {
+          title: "for + -ing for purpose (This knife is for cutting bread)",
+          level: A2,
+          lesson: a2-25,
+        },
+    }
+  - {
+      ref: "GSE 48 #257",
+      level: B1,
+      item: "Can use the present simple passive.",
+      maps: [ passive-present-past ],
+    }
+  - {
+      ref: "GSE 49 #258",
+      level: B1,
+      item: "Can use ‘whose’to talk about possession in relative clauses.",
+      maps: [ relative-whose-when ],
+    }
+  - {
+      ref: "GSE 49 #259",
+      level: B1,
+      item: "Can put a range of different adjectives into the correct sequence.",
+      maps: [ adjective-order-intro, adjective-order-full ],
+    }
+  - {
+      ref: "GSE 49 #260",
+      level: B1,
+      item: "Can form adjectives from verbs and nouns with common suffixes.",
+      maps: [ suffix-adjective ],
+    }
+  - {
+      ref: "GSE 49 #261",
+      level: B1,
+      item: "Can make negative suggestions with ‘Let’s not ...’ ‘Let’s not …’ for negative suggestions Let’s not fight about this.",
+      maps: [ lets ],
+      levelNote: "source says B1, inventory says lets A1",
+    }
+  - {
+      ref: "GSE 49 #262",
+      level: B1,
+      item: "Can refer to general concepts using abstract nouns without articles.",
+      maps: [ abstract-articles ],
+    }
+  - {
+      ref: "GSE 49 #263",
+      level: B1,
+      item: "Can use ‘must’ and ‘can’t’for inferences and assumptions in the present.",
+      maps: [ deduction-present ],
+    }
+  - {
+      ref: "GSE 49 #264",
+      level: B1,
+      item: "Can ask indirect questions using ‘would like to know’ with wh- pronouns.",
+      maps: [ indirect-questions ],
+    }
+  - {
+      ref: "GSE 49 #265",
+      level: B1,
+      item: "Can use ‘quite’ and ‘quite a(n)’ as adverbials with adjectives and noun phrases.",
+      maps: [ softeners, quite-us-uk ],
+    }
+  - {
+      ref: "GSE 49 #266",
+      level: B1,
+      item: "Can use ‘either ...",
+      maps: [ either-or-neither-nor ],
+    }
+  - {
+      ref: "GSE 49 #267",
+      level: B1,
+      item: "Can distinguish between ‘to’+ infinitive and ‘ing’ after certain verbs with a change of meaning.",
+      maps: [ ing-to-meaning-change ],
+    }
+  - {
+      ref: "GSE 49 #268",
+      level: B1,
+      item: "Can construct complement clauses starting with ‘about’.",
+      maps: [ ing-after-prepositions ],
+    }
+  - {
+      ref: "GSE 49 #269",
+      level: B1,
+      item: "Can correctly use positive/positive (Br Eng), positive/negative and negative/positive question tags.",
+      maps: [ question-tags ],
+    }
+  - {
+      ref: "GSE 49 #270",
+      level: B1,
+      item: "Can correctly use ‘between’ and ‘among’ with noun phrases referring to two or more items or entities.",
+      maps: [ between-among ],
+    }
+  - {
+      ref: "GSE 49 #271",
+      level: B1,
+      item: "Can use the present perfect with the superlative forms of adjectives.",
+      maps: [ superlative-ever ],
+    }
+  - {
+      ref: "GSE 50 #272",
+      level: B1,
+      item: "Can give, deny or ask about permission in the future with ‘will/won’t be able to/ allowed to’.",
+      maps: [ be-able-to, allowed-to ],
+    }
+  - {
+      ref: "GSE 50 #273",
+      level: B1,
+      item: "Can use a range of negative question tags.",
+      maps: [ question-tags ],
+    }
+  - {
+      ref: "GSE 50 #274",
+      level: B1,
+      item: "Can ask indirect questions using ‘would like to know’ with ‘if/whether’.",
+      maps: [ indirect-questions, if-whether-clauses ],
+    }
+  - {
+      ref: "GSE 50 #275",
+      level: B1,
+      item: "Can use past participles as adjectives.",
+      maps: [ ed-ing-adjectives ],
+    }
+  - {
+      ref: "GSE 50 #276",
+      level: B1,
+      item: "Can refer to groups and subgroups using ‘neither’, ‘either’, ‘each’ and ‘all’ with noun phrases.",
+      maps: [ either-neither, each-every-full, both-all-whole ],
+    }
+  - {
+      ref: "GSE 50 #277",
+      level: B1,
+      item: "Can express hope and aspiration with ‘hope (that)’ + complement clause.",
+      maps: [ that-clauses, wish-vs-hope ],
+    }
+  - {
+      ref: "GSE 50 #278",
+      level: B1,
+      item: "Can use a range of common prefixes with nouns.",
+      maps: [ prefix-meaning ],
+    }
+  - {
+      ref: "GSE 50 #279",
+      level: B1,
+      item: "Can form a range of verbs from adjectives and nouns with common suffixes.",
+      maps: [ suffix-verb ],
+    }
+  - {
+      ref: "GSE 50 #280",
+      level: B1,
+      item: "Can form a range of hyphenated compound adjectives.",
+      maps: [ compound-adjectives ],
+    }
+  - {
+      ref: "GSE 50 #281",
+      level: B1,
+      item: "Can report past wh- questions.",
+      maps: [ reported-questions ],
+    }
+  - {
+      ref: "GSE 50 #282",
+      level: B1,
+      item: "Can use ‘should’ to express likelihood in the present and near future.",
+      maps: [ should-expectation ],
+    }
+  - {
+      ref: "GSE 50 #283",
+      level: B1,
+      item: "Can correctly place prepositions (particles) with phrasal (separable) and prepositional (inseparable phrasal) verbs.",
+      maps: [ phrasal-separable, prepositional-verbs ],
+    }
+  - {
+      ref: "GSE 50 #284",
+      level: B1,
+      item: "Can use ‘while’ with the past simple and past continuous to refer to past actions and states.",
+      maps: [ when-while, past-simple-vs-continuous ],
+    }
+  - {
+      ref: "GSE 50 #285",
+      level: B1,
+      item: "Can use ‘going’ to and ‘will’ future forms of the passive.",
+      maps: [ passive-future ],
+    }
+  - {
+      ref: "GSE 50 #286",
+      level: B1,
+      item: "Can express hope and aspiration with ‘… hope to’ + infinitive.",
+      maps: [ verb-to ],
+    }
+  - {
+      ref: "GSE 50 #287",
+      level: B1,
+      item: "Can construct relative clauses with ‘what’.",
+      maps: [ nominal-what ],
+      levelNote: "source says B1, inventory says nominal-what C1",
+    }
+  - {
+      ref: "GSE 51 #288",
+      level: B1,
+      item: "Can refer to acquired information using ‘hear’ + ‘of/about’ with nouns and noun phrases.",
+      maps: [ verb-prep-1 ],
+    }
+  - {
+      ref: "GSE 51 #289",
+      level: B1,
+      item: "Can use the present continuous with ‘always’ and other adverbs of frequency to express negative attitude.",
+      maps: [ always-ing ],
+    }
+  - {
+      ref: "GSE 51 #290",
+      level: B1,
+      item: "Can use embedded defining (restrictive) relative clauses.",
+      maps: [ omit-relative, defining-nondefining ],
+    }
+  - {
+      ref: "GSE 51 #291",
+      level: B1,
+      item: "Can use a range of adverbial intensifiers with adjectives.",
+      maps: [ intensifiers ],
+    }
+  - {
+      ref: "GSE 51 #292",
+      level: B1,
+      item: "Can make requests using ‘Will you (please) ...?’",
+      maps: [ would-polite, could-may-requests ],
+    }
+  - {
+      ref: "GSE 51 #293",
+      level: B1,
+      item: "Can use ‘so’ + adjective/quantifier + ‘that’ to express results and consequences.",
+      maps: [ result-clauses ],
+    }
+  - {
+      ref: "GSE 51 #294",
+      level: B1,
+      item: "Can express necessity or absence of necessity with ‘(not) necessary to …’",
+      maps: [ need-neednt ],
+    }
+  - {
+      ref: "GSE 51 #295",
+      level: B1,
+      item: "Can use object relative clauses with relative pronouns to specify or define.",
+      maps: [ omit-relative, defining-relative-basic ],
+    }
+  - {
+      ref: "GSE 51 #296",
+      level: B1,
+      item: "Can use ‘do’/’did’ as a general placeholder (substitute) for verbs.",
+      maps: [ do-so, auxiliary-ellipsis ],
+    }
+  - {
+      ref: "GSE 51 #297",
+      level: B1,
+      item: "Can give advice using ‘If I were you …’ ‘If I were you I’d/Iwouldn’t’ + VP for advice I wouldn’t do that if I were you.",
+      maps: [ if-i-were-you ],
+    }
+  - {
+      ref: "GSE 51 #298",
+      level: B1,
+      item: "Can correctly use ‘each other’ and reflexive pronouns.",
+      maps: [ each-other, reflexive-pronouns ],
+    }
+  - {
+      ref: "GSE 51 #299",
+      level: B1,
+      item: "Can correctly use ‘not … either’ and ‘neither … (nor)’ with noun and verb phrases.",
+      maps: [ so-neither-do-i, either-or-neither-nor, also-too-either ],
+    }
+  - {
+      ref: "GSE 51 #300",
+      level: B1,
+      item: "Can use a range of positive question tags.",
+      maps: [ question-tags ],
+    }
+  - {
+      ref: "GSE 51 #301",
+      level: B1,
+      item: "Can use phrasal verbs with two particles.",
+      maps: [ three-part-phrasal ],
+    }
+  - {
+      ref: "GSE 51 #302",
+      level: B1,
+      item: "Can express agreement and disagreement with ‘…hope so/not’.",
+      maps: [ think-so-hope-not ],
+    }
+  - {
+      ref: "GSE 51 #303",
+      level: B1,
+      item: "Can express indirect requests with ‘would like’ + noun phrase + verb (infinitive).",
+      maps: [ verb-object-to, want-sb-to ],
+    }
+  - {
+      ref: "GSE 51 #304",
+      level: B1,
+      item: "Can use reflexive pronouns for emphasis.",
+      maps: [ emphatic-reflexive ],
+    }
+  - {
+      ref: "GSE 51 #305",
+      level: B1,
+      item: "Can use ‘’s’ in time expressions.",
+      maps: [ time-possessive ],
+    }
+  - {
+      ref: "GSE 51 #306",
+      level: B1,
+      item: "Can correctly place adverbs of comment and manner in longer sentences.",
+      maps: [ adverb-positions, comment-adverbs ],
+    }
+  - {
+      ref: "GSE 51 #307",
+      level: B1,
+      item: "Can use the correct verb form (infinitive or ‘ing’) following phrasal and prepositional verbs",
+      maps: [ to-preposition, ing-after-prepositions ],
+    }
+  - {
+      ref: "GSE 51 #308",
+      level: B1,
+      item: "Can use the past continuous to refer to temporary or changing past states or situations.",
+      maps: [ past-continuous ],
+    }
+  - {
+      ref: "GSE 51 #309",
+      level: B1,
+      item: "Can construct phrases with wh- question words followed by verbs in the infinitive.",
+      maps: [ wh-to ],
+    }
+  - {
+      ref: "GSE 51 #310",
+      level: B1,
+      item: "Can use a range of common verb + verb combinations using the ‘ing’ form.",
+      maps: [ verb-ing ],
+    }
+  - {
+      ref: "GSE 52 #311",
+      level: B1,
+      item: "Can use the present perfect passive with ‘yet’.",
+      maps: [ passive-perfect ],
+    }
+  - {
+      ref: "GSE 52 #312",
+      level: B1,
+      item: "Can use the present perfect passive with ‘just/already’.",
+      maps: [ passive-perfect ],
+    }
+  - {
+      ref: "GSE 52 #313",
+      level: B1,
+      item: "Can correctly use ‘such’ and ‘such a’ with mass and count nouns respectively.",
+      maps: [ so-such ],
+    }
+  - {
+      ref: "GSE 52 #314",
+      level: B1,
+      item: "Can use genitive ‘‘s’ + genitive ‘‘s’ in a noun phrase.",
+      maps: [ group-possessive ],
+    }
+  - {
+      ref: "GSE 52 #315",
+      level: B1,
+      item: "Can correctly use ‘so’ and ‘such (a)’ with adjectives and nouns respectively.",
+      maps: [ so-such ],
+    }
+  - {
+      ref: "GSE 52 #316",
+      level: B1,
+      item: "Can use ‘wouldrather …(than) …’to express preference.",
+      maps: [ rather-better-prefer, would-rather-past ],
+    }
+  - {
+      ref: "GSE 52 #317",
+      level: B1,
+      item: "Can correctly use ‘little/a little’ and ‘few/a few’ to refer to quantities with mass and count nouns respectively.",
+      maps: [ few-a-few ],
+    }
+  - {
+      ref: "GSE 52 #318",
+      level: B1,
+      item: "Can use ‘as’ with a noun or noun phrase referring to a job, or instrument for doing something.",
+      maps: [ like-as ],
+    }
+  - {
+      ref: "GSE 52 #319",
+      level: B1,
+      item: "Can use ‘(in order) to’ to express purpose and intention.",
+      maps: [ purpose-clauses, infinitive-purpose ],
+    }
+  - {
+      ref: "GSE 52 #320",
+      level: B1,
+      item: "Can ask negative questions with ‘wasn’t’, ‘didn’t’, etc.",
+      maps: [ negative-questions-basic ],
+    }
+  - {
+      ref: "GSE 52 #321",
+      level: B1,
+      item: "Can use ‘except (for)’ and ‘apart from’ after general and other noun phrases.",
+      maps: [ except-besides ],
+    }
+  - {
+      ref: "GSE 52 #322",
+      level: B1,
+      item: "Can use ‘plan’/’intend’/’mean’ + ‘to’ + infinitive to talk about present and future plans and intentions.",
+      maps: [ verb-to ],
+    }
+  - {
+      ref: "GSE 52 #323",
+      level: B1,
+      item: "Can refer to general truths and frequent occurrences using ‘could’.",
+      maps: [ can-general-possibility ],
+      suggest:
+        {
+          title: "can / could for general possibility (It can get very cold in November)",
+          level: B1,
+          lesson: b1-17,
+        },
+    }
+  - {
+      ref: "GSE 52 #324",
+      level: B1,
+      item: "Can talk about permission using ‘(not) allowed/ permitted to …’.",
+      maps: [ allowed-to ],
+    }
+  - {
+      ref: "GSE 52 #325",
+      level: B1,
+      item: "Can use ‘may’/’might (+not) have ...’to talk about past possibilities.",
+      maps: [ deduction-past ],
+    }
+  - {
+      ref: "GSE 53 #326",
+      level: B1,
+      item: "Can use ‘may not’to express prohibition in the present and near future.",
+      maps: [ allowed-to ],
+    }
+  - {
+      ref: "GSE 53 #327",
+      level: B1,
+      item: "Can use verbs of state change in the passive with object complements.",
+      maps: [ object-complement ],
+      levelNote: "source says B1, inventory says object-complement C1",
+    }
+  - {
+      ref: "GSE 53 #328",
+      level: B1,
+      item: "Can use ‘such a/an’ + adjective with finite clauses to refer to results and consequences.",
+      maps: [ result-clauses ],
+    }
+  - {
+      ref: "GSE 53 #329",
+      level: B1,
+      item: "Can use ‘so’ and ‘neither’ in short phrases to express agreement and disagreement.",
+      maps: [ so-neither-do-i ],
+    }
+  - {
+      ref: "GSE 53 #330",
+      level: B1,
+      item: "Can use parallel comparatives (‘the’ + comparative1, ‘the’ + comparative2).",
+      maps: [ the-the-intro ],
+    }
+  - {
+      ref: "GSE 53 #331",
+      level: B1,
+      item: "Can use ‘must have …’ to express inferences and assumptions about the past.",
+      maps: [ deduction-past ],
+    }
+  - {
+      ref: "GSE 53 #332",
+      level: B1,
+      item: "Can use ‘neither … nor …’ to connect two words or phrases.",
+      maps: [ either-or-neither-nor ],
+    }
+  - {
+      ref: "GSE 53 #333",
+      level: B1,
+      item: "Can use ‘ever’ for emphasis with comparatives and superlatives of adjectives.",
+      maps: [ superlative-ever ],
+    }
+  - {
+      ref: "GSE 53 #334",
+      level: B1,
+      item: "Can use a wide range of common reporting verbs with ‘that’ + complement clause and appropriate tense changes.",
+      maps: [ reporting-verbs-patterns, that-clauses ],
+    }
+  - {
+      ref: "GSE 54 #335",
+      level: B1,
+      item: "Can use ‘I wish/if only’ to express wishes related to the present or future.",
+      maps: [ wish-past, if-only-intro ],
+    }
+  - {
+      ref: "GSE 54 #336",
+      level: B1,
+      item: "Can make polite requests with ‘would you’ + verbs in the infinitive.",
+      maps: [ would-polite ],
+    }
+  - {
+      ref: "GSE 54 #337",
+      level: B1,
+      item: "Can use ‘get’ with the passive in informal speech to express unexpected or dramatic change.",
+      maps: [ get-passive ],
+    }
+  - {
+      ref: "GSE 54 #338",
+      level: B1,
+      item: "Can describe present or future outcomes of a hypothetical situation using ‘even if’.",
+      maps: [ even-if ],
+    }
+  - {
+      ref: "GSE 54 #339",
+      level: B1,
+      item: "Can express intentions and plans for the near future with ‘thinking of’ and verbs in the gerund.",
+      maps: [ ing-after-prepositions ],
+    }
+  - {
+      ref: "GSE 54 #340",
+      level: B1,
+      item: "Can use the past perfect in a range of common situations.",
+      maps: [ past-perfect ],
+    }
+  - {
+      ref: "GSE 54 #341",
+      level: B1,
+      item: "Can use ‘could(n’t) have ...’to talk about past possibilities.",
+      maps: [ could-have ],
+    }
+  - {
+      ref: "GSE 55 #342",
+      level: B1,
+      item: "Can express preference with regard to actions using ‘prefer … (to …)’",
+      maps: [ rather-better-prefer ],
+    }
+  - {
+      ref: "GSE 55 #343",
+      level: B1,
+      item: "Can construct a range of phrases using compound adverbials composed of whwords + ‘ever’.",
+      maps: [ ever-clauses ],
+      levelNote: "source says B1, inventory says ever-clauses C1",
+    }
+  - {
+      ref: "GSE 55 #344",
+      level: B1,
+      item: "Can report yes/no questions with ‘if/ whether’.",
+      maps: [ reported-if-whether ],
+    }
+  - {
+      ref: "GSE 55 #345",
+      level: B1,
+      item: "Can correctly use ‘even’ and ‘not even’ in the right position to emphasise a point.",
+      maps: [ focus-adverbs, only-position ],
+      levelNote: "source says B1, inventory says only-position C1",
+    }
+  - {
+      ref: "GSE 55 #346",
+      level: B1,
+      item: "Can talk about expectations and obligations in the present tense using (not) supposed to",
+      maps: [ supposed-to ],
+    }
+  - {
+      ref: "GSE 55 #347",
+      level: B1,
+      item: "Can use ‘oneof/some of/among’ in phrases with superlative adjectives.",
+      maps: [ one-of-plural, superlative-in-of ],
+    }
+  - {
+      ref: "GSE 55 #348",
+      level: B1,
+      item: "Can use ‘about to’ to talk about imminent events in the present and past.",
+      maps: [ be-about-to ],
+    }
+  - {
+      ref: "GSE 55 #349",
+      level: B1,
+      item: "Can use ‘would’ to refer to past habits and routines.",
+      maps: [ would-habits-intro, would-vs-used-to ],
+    }
+  - {
+      ref: "GSE 55 #350",
+      level: B1,
+      item: "Can use the present continuous passive.",
+      maps: [ passive-continuous ],
+    }
+  - {
+      ref: "GSE 55 #351",
+      level: B1,
+      item: "Can describe present or future outcomes of a hypothetical situation using ‘unless’.",
+      maps: [ unless ],
+    }
+  - {
+      ref: "GSE 55 #352",
+      level: B1,
+      item: "Can make statements about plans using ‘plan/ intend to’ + infinitive.",
+      maps: [ verb-to ],
+    }
+  - {
+      ref: "GSE 55 #353",
+      level: B1,
+      item: "Can express dislike using ‘not’ with verbs in the gerund.",
+      maps: [ not-ing ],
+      suggest:
+        {
+          title: "Negative -ing: not + -ing (I hate not knowing; He apologised for not calling)",
+          level: B1,
+          lesson: b1-35,
+        },
+    }
+  - {
+      ref: "GSE 56 #354",
+      level: B1,
+      item: "Can make passive statements with ditransitive verbs like ‘tell’and ‘give’.",
+      maps: [ passive-two-objects ],
+    }
+  - {
+      ref: "GSE 56 #355",
+      level: B1,
+      item: "Can use ‘get/have’ to refer to having things done by other people.",
+      maps: [ have-something-done ],
+    }
+  - {
+      ref: "GSE 56 #356",
+      level: B1,
+      item: "Can construct defining (restrictive) relative clauses with ‘to’ + infinitive verb phrases.",
+      maps: [ first-to ],
+    }
+  - {
+      ref: "GSE 56 #357",
+      level: B1,
+      item: "Can use ‘in case’ with the present tense to refer to future eventualities.",
+      maps: [ in-case ],
+    }
+  - {
+      ref: "GSE 56 #358",
+      level: B1,
+      item: "Can use ‘only’ as an adverb in the correct position.",
+      maps: [ focus-adverbs ],
+    }
+  - {
+      ref: "GSE 56 #359",
+      level: B1,
+      item: "Can use ‘in case of’ with noun phrases to speak of eventualities.",
+      maps: [ in-case ],
+    }
+  - {
+      ref: "GSE 56 #360",
+      level: B1,
+      item: "Can talk about indirect causation with ‘get/ make’ + person + action.",
+      maps: [ make-let-help, have-sb-do, make-sb-do ],
+    }
+  - {
+      ref: "GSE 56 #361",
+      level: B1,
+      item: "Can construct “reduced” defining (restrictive) relative clauses with verb +ing.",
+      maps: [ reduced-relative ],
+    }
+  - {
+      ref: "GSE 56 #362",
+      level: B1,
+      item: "Can use ‘beforehand/afterwards’ to express sequences of events or actions.",
+      maps: [ afterwards-eventually ],
+    }
+  - {
+      ref: "GSE 56 #363",
+      level: B1,
+      item: "Can use ‘had/’d better (not)’ + verb for strong advice and recommendations.",
+      maps: [ had-better ],
+    }
+  - {
+      ref: "GSE 56 #364",
+      level: B1,
+      item: "Can use despite/in spite of’ with noun phrases to express concession.",
+      maps: [ despite-in-spite ],
+    }
+  - {
+      ref: "GSE 56 #365",
+      level: B1,
+      item: "Can use ‘so …’ and ‘therefore …’ to express conclusions and inferences.",
+      maps: [ linkers-result, because-so ],
+      levelNote: "source says B1, inventory says because-so A1",
+    }
+  - {
+      ref: "GSE 56 #366",
+      level: B1,
+      item: "Can make tense changes (present to past) in reported speech.",
+      maps: [ backshift ],
+    }
+  - {
+      ref: "GSE 56 #367",
+      level: B1,
+      item: "Can use ‘meant/planned/intended’ + ‘to’ + infinitive to talk about past plans and intentions.",
+      maps: [ was-going-to, was-to ],
+      levelNote: "source says B1, inventory says was-to C1",
+    }
+  - {
+      ref: "GSE 56 #368",
+      level: B1,
+      item: "Can use ‘though’ and ‘although’ as conjunctions to express concession.",
+      maps: [ contrast-although ],
+    }
+  - {
+      ref: "GSE 57 #369",
+      level: B1,
+      item: "Can use ‘thought’ to express past expectations, with appropriate tense changes.",
+      maps: [ reported-thoughts ],
+    }
+  - {
+      ref: "GSE 57 #370",
+      level: B1,
+      item: "Can use a range of verbs of advice and recommendation with noun phrases plus verbs in the infinitive.",
+      maps: [ verb-object-to, reported-requests ],
+    }
+  - {
+      ref: "GSE 57 #371",
+      level: B1,
+      item: "Can use a range of verbs of advice and recommendation with noun phrases plus verbs in the infinitive.",
+      maps: [ verb-object-to, reported-requests ],
+    }
+  - {
+      ref: "GSE 57 #372",
+      level: B1,
+      item: "Can omit words and phrases in a range of parallel structures.",
+      maps: [ auxiliary-ellipsis, ellipsis-to, comparison-ellipsis ],
+      levelNote: "source says B1, inventory says comparison-ellipsis C1",
+    }
+  - {
+      ref: "GSE 57 #373",
+      level: B1,
+      item: "Can soften orders and requests using ‘think’, ‘imagine’, ‘wonder’, etc.",
+      maps: [ i-wonder-if, politeness-grammar ],
+      levelNote: "source says B1, inventory says politeness-grammar C1",
+    }
+  - {
+      ref: "GSE 57 #374",
+      level: B1,
+      item: "Can use ‘due to’ and ‘owing to’ to express causation and consequence.",
+      maps: [ due-to-owing-to ],
+    }
+  - {
+      ref: "GSE 57 #375",
+      level: B1,
+      item: "Can use nondefining (nonrestrictive) relative clauses to add information.",
+      maps: [ defining-nondefining ],
+    }
+  - {
+      ref: "GSE 57 #376",
+      level: B1,
+      item: "Can talk about past beliefs and intentions in the passive.",
+      maps: [ impersonal-it-said, personal-said-to ],
+    }
+  - {
+      ref: "GSE 58 #377",
+      level: B1,
+      item: "Can use ‘so’ in sentencefinal positions as a placeholder (substitute) for verbs and verb phrases.",
+      maps: [ substitution-suppose-so, think-so-hope-not ],
+    }
+  - {
+      ref: "GSE 58 #378",
+      level: B1,
+      item: "Can use ‘should(n’t) have …’ to express regrets, wishes, or disapproval about the past.",
+      maps: [ should-have ],
+    }
+  - {
+      ref: "GSE 58 #379",
+      level: B1,
+      item: "Can make statements about appearance using ‘seem/appear’ with verbs in the infinitive.",
+      maps: [ hedging, there-seems ],
+      levelNote: "source says B1, inventory says hedging C1",
+    }
+  - {
+      ref: "GSE 58 #380",
+      level: B1,
+      item: "Can use a range of verbs in the past continuous to refer to past plans and intentions.",
+      maps: [ future-in-past ],
+      levelNote: "source says B1, inventory says future-in-past C1",
+    }
+  - {
+      ref: "GSE 58 #381",
+      level: B1,
+      item: "Can express various degrees of likelihood and possibility using complement clauses.",
+      maps: [ it-adj-that ],
+    }
+  - {
+      ref: "GSE 58 #382",
+      level: B1,
+      item: "Can describe hypothetical (counterfactual) past results of a previous action or situation using the third conditional.",
+      maps: [ third-conditional ],
+    }
+  - {
+      ref: "GSE 59 #383",
+      level: B2,
+      item: "Can use a range of modals with passive infinitives referring to the present or future.",
+      maps: [ modal-passive ],
+    }
+  - {
+      ref: "GSE 59 #384",
+      level: B2,
+      item: "Can refer to certainty and probability using ‘certain/likely/due to’ with verb phrases.",
+      maps: [ be-bound-to ],
+    }
+  - {
+      ref: "GSE 59 #385",
+      level: B2,
+      item: "Can o mit the relative pronoun in defining (restrictive) relative clauses.",
+      maps: [ omit-relative ],
+    }
+  - {
+      ref: "GSE 59 #386",
+      level: B2,
+      item: "Can use ‘need’with the passive infinitive to express necessity.",
+      maps: [ needs-doing ],
+    }
+  - {
+      ref: "GSE 59 #387",
+      level: B2,
+      item: "Can express alternative conditions with ‘whether … or not’.",
+      maps: [ whether-or-not ],
+    }
+  - {
+      ref: "GSE 59 #388",
+      level: B2,
+      item: "Can describe beliefs and opinions using verbs of judgement and evaluation in the passive.",
+      maps: [ impersonal-it-said ],
+    }
+  - {
+      ref: "GSE 59 #389",
+      level: B2,
+      item: "Can use clauses with ‘It’ + ‘be’ … to emphasise the topic or main point.",
+      maps: [ it-cleft ],
+    }
+  - {
+      ref: "GSE 59 #390",
+      level: B2,
+      item: "Can use verb phrases with ‘to’+ infinitive as subject and complement.",
+      maps: [ infinitive-subject ],
+    }
+  - {
+      ref: "GSE 59 #391",
+      level: B2,
+      item: "Can use clauses with ‘What ...’ to emphasise the topic or main point.",
+      maps: [ wh-cleft, what-cleft-intro ],
+    }
+  - {
+      ref: "GSE 59 #392",
+      level: B2,
+      item: "Can soften orders and requests by using verbs like ‘thought’, ‘wondered’, etc.",
+      maps: [ distancing-past ],
+    }
+  - {
+      ref: "GSE 60 #393",
+      level: B2,
+      item: "Can use ‘while’, ‘whereas’ and ‘whilst’ (Br Eng) to contrast and compare actions and situations.",
+      maps: [ whereas-while, whilst ],
+      levelNote: "source says B2, inventory says whilst C2",
+    }
+  - {
+      ref: "GSE 60 #394",
+      level: B2,
+      item: "Can talk about past plans and intentions using ‘(not) meant/supposed to’ + infinitive.",
+      maps: [ supposed-to, was-going-to ],
+    }
+  - {
+      ref: "GSE 60 #395",
+      level: B2,
+      item: "Can express prohibition in the present or future with ‘forbid’ and ‘(not) allow’.",
+      maps: [ allowed-to, mustnt-dont-have-to ],
+      levelNote: "source says B2, inventory says mustnt-dont-have-to A2",
+    }
+  - {
+      ref: "GSE 60 #396",
+      level: B2,
+      item: "Can report orders, requests and advice with infinitive clauses.",
+      maps: [ reported-commands ],
+    }
+  - {
+      ref: "GSE 60 #397",
+      level: B2,
+      item: "Can express negative purpose with ‘so as/ in order not to’.",
+      maps: [ purpose-clauses, such-that ],
+      levelNote: "source says B2, inventory says such-that C2",
+    }
+  - {
+      ref: "GSE 60 #398",
+      level: B2,
+      item: "Can correctly use defining (restrictive) and nondefining (non- restrictive) relative clauses.",
+      maps: [ defining-nondefining ],
+    }
+  - {
+      ref: "GSE 60 #399",
+      level: B2,
+      item: "Can use the future continuous with reference to actions in progress at a specific time in the future.",
+      maps: [ future-continuous-intro, future-continuous-full ],
+    }
+  - {
+      ref: "GSE 61 #400",
+      level: B2,
+      item: "Can use adverbials such as ‘however’,‘on the other hand’, and ‘though’ to express concession.",
+      maps: [ linkers-contrast, however-but ],
+    }
+  - {
+      ref: "GSE 61 #401",
+      level: B2,
+      item: "Can make statements about appearance using ‘seem/appear’ (+ ‘like/that’) with complement clauses.",
+      maps: [ hedging, linking-verbs ],
+      levelNote: "source says B2, inventory says linking-verbs A2",
+    }
+  - {
+      ref: "GSE 61 #402",
+      level: B2,
+      item: "Can construct phrases with ‘(not) worth ...’ and ‘(no) point ...’ to express the (lack of) usefulness of an action",
+      maps: [ fixed-ing-expressions, worth-ing ],
+    }
+  - {
+      ref: "GSE 61 #403",
+      level: B2,
+      item: "Can emphasise a statement by adding ‘do’ or ‘did’.",
+      maps: [ emphatic-do ],
+    }
+  - {
+      ref: "GSE 61 #404",
+      level: B2,
+      item: "Can express past intentions and plans with ‘thinking of’ and verbs in the gerund.",
+      maps: [ ing-after-prepositions ],
+    }
+  - {
+      ref: "GSE 61 #405",
+      level: B2,
+      item: "Can use nondefining (nonrestrictive) relative clauses to make a comment.",
+      maps: [ sentential-which ],
+    }
+  - {
+      ref: "GSE 61 #406",
+      level: B2,
+      item: "Can describe past beliefs and opinions using ‘it was’ + passive forms of verbs of judgement and evaluation.",
+      maps: [ impersonal-it-said ],
+    }
+  - {
+      ref: "GSE 62 #407",
+      level: B2,
+      item: "Can speak about information acquired from others using ‘hear’ + ‘(that +)’ complement clause.",
+      maps: [ i-hear-that ],
+    }
+  - {
+      ref: "GSE 62 #408",
+      level: B2,
+      item: "Can use ‘ought(n’t) to’ to offer or ask for advice or suggestions.",
+      maps: [ ought-to ],
+    }
+  - {
+      ref: "GSE 62 #409",
+      level: B2,
+      item: "Can use ‘as soon as’ with the past simple and past perfect.",
+      maps: [ time-clauses-full, past-perfect-sequence ],
+    }
+  - {
+      ref: "GSE 62 #410",
+      level: B2,
+      item: "Can use the past perfect continuous in a range of common situations.",
+      maps: [ past-perfect-continuous ],
+    }
+  - {
+      ref: "GSE 62 #411",
+      level: B2,
+      item: "Can use a range of common reporting verbs with ‘that’ + complement clause.",
+      maps: [ reporting-verbs-patterns ],
+    }
+  - {
+      ref: "GSE 62 #412",
+      level: B2,
+      item: "Can use ‘I wish/if only …’ to express regrets and wishes about the past.",
+      maps: [ wish-past-perfect ],
+    }
+  - {
+      ref: "GSE 62 #413",
+      level: B2,
+      item: "Can make complex comparisons between verb/noun phrases.",
+      maps: [ than-me, much-far-comparative ],
+      levelNote: "source says B2, inventory says than-me A2",
+    }
+  - {
+      ref: "GSE 63 #414",
+      level: B2,
+      item: "Can use ‘need’ with verbs in the gerund to express necessity.",
+      maps: [ needs-doing ],
+    }
+  - {
+      ref: "GSE 63 #415",
+      level: B2,
+      item: "Can use the past perfect with adverbial clauses of time.",
+      maps: [ past-perfect-sequence ],
+    }
+  - {
+      ref: "GSE 64 #416",
+      level: B2,
+      item: "Can use the past perfect passive.",
+      maps: [ passive-perfect ],
+    }
+  - {
+      ref: "GSE 64 #417",
+      level: B2,
+      item: "Can use noun phrases in place of verb phrases in formal written language.",
+      maps: [ nominalisation ],
+    }
+  - {
+      ref: "GSE 64 #418",
+      level: B2,
+      item: "Can use gerunds in the passive form as complement.",
+      maps: [ passive-infinitive-gerund ],
+    }
+  - {
+      ref: "GSE 64 #419",
+      level: B2,
+      item: "Can use a range of complex conjunctions in conditional statements (all three types).",
+      maps:
+        [
+          provided-providing,
+          as-long-as,
+          suppose-what-if,
+          otherwise,
+          whether-or-not,
+        ],
+    }
+  - {
+      ref: "GSE 65 #420",
+      level: B2,
+      item: "Can use ‘will’ + infinitive for orders and instructions.",
+      maps: [ will-orders ],
+      suggest:
+        {
+          title: "will for orders and formal instructions (You will report to reception at nine)",
+          level: C1,
+          lesson: c1-10,
+        },
+    }
+  - {
+      ref: "GSE 66 #421",
+      level: B2,
+      item: "Can make complex comparisons between clauses.",
+      maps: [ comparative-ellipsis-clause ],
+      levelNote: "source says B2, inventory says comparative-ellipsis-clause C2",
+    }
+  - {
+      ref: "GSE 66 #422",
+      level: B2,
+      item: "Can express purpose using ‘soas to’ with infinitive clauses.",
+      maps: [ purpose-clauses ],
+    }
+  - {
+      ref: "GSE 66 #423",
+      level: B2,
+      item: "Can express regrets and preferences with ‘would rather/it’s time’ with past tense clauses.",
+      maps: [ would-rather-past, its-time-past ],
+    }
+  - {
+      ref: "GSE 66 #424",
+      level: B2,
+      item: "Can use ‘as if/as though’ with the present simple to refer to what appears to be the case.",
+      maps: [ as-if ],
+    }
+  - {
+      ref: "GSE 66 #425",
+      level: B2,
+      item: "Can omit subject + ‘be’ after ‘if’ in fixed expressions.",
+      maps: [ reduced-conditionals ],
+    }
+  - {
+      ref: "GSE 66 #426",
+      level: B2,
+      item: "Can use ‘shall’ + infinitive for formal first- person statements about the future.",
+      maps: [ shall-formal ],
+    }
+  - {
+      ref: "GSE 66 #427",
+      level: B2,
+      item: "Can use the future perfect with reference to actions to be completed by a specific time in the future.",
+      maps: [ future-perfect ],
+    }
+  - {
+      ref: "GSE 67 #428",
+      level: B2,
+      item: "Can use the future perfect passive.",
+      maps: [ passive-future, modal-perfect-passive ],
+    }
+  - {
+      ref: "GSE 67 #429",
+      level: B2,
+      item: "Can use ‘it is/was believed/reported that’ + VP to report beliefs, reportes, rumours, etc.",
+      maps: [ impersonal-it-said, passive-reporting ],
+    }
+  - {
+      ref: "GSE 67 #430",
+      level: B2,
+      item: "Can describe hypothetical current results of a past action or situation using ‘would …’ with the third conditional.",
+      maps: [ mixed-past-present ],
+    }
+  - {
+      ref: "GSE 68 #431",
+      level: B2,
+      item: "Can use initial ‘No matter’ with relative pronouns for emphatic statements about the present and near future.",
+      maps: [ no-matter ],
+    }
+  - {
+      ref: "GSE 69 #432",
+      level: B2,
+      item: "Can express beliefs and opinions with ‘is/ are/ was/were’ + ‘thought/believed to…’.",
+      maps: [ personal-said-to ],
+    }
+  - {
+      ref: "GSE 70 #433",
+      level: B2,
+      item: "Can use ‘should’ in hypothetical statements about the present and near future with inversion and omission of ‘if’.",
+      maps: [ inverted-should ],
+    }
+  - {
+      ref: "GSE 71 #434",
+      level: B2,
+      item: "Can use ‘as if/as though’ with the past simple to refer to hypothetical or counterfactual circumstances.",
+      maps: [ as-if ],
+    }
+  - {
+      ref: "GSE 71 #435",
+      level: B2,
+      item: "Can ask questions with ‘is it/was it’ and complement clauses.",
+      maps: [ it-cleft-questions ],
+      suggest:
+        {
+          title: "Questions with is it / was it ... that (Where was it that you met?)",
+          level: C1,
+          lesson: c1-03,
+        },
+    }
+  - {
+      ref: "GSE 71 #436",
+      level: B2,
+      item: "Can use a range of cleft sentences in the present, past and future.",
+      maps: [ it-cleft, wh-cleft, all-cleft, reversed-cleft ],
+    }
+  - {
+      ref: "GSE 71 #437",
+      level: B2,
+      item: "Can add information using ‘not only … but also …’",
+      maps: [ not-only-but-also, not-only-inversion ],
+    }
+  - {
+      ref: "GSE 71 #438",
+      level: B2,
+      item: "Can order a sequence of events using an appended clause with present participle or ‘having’ + past participle.",
+      maps: [ participle-clauses, perfect-passive-participle ],
+    }
+  - {
+      ref: "GSE 71 #439",
+      level: B2,
+      item: "Can describe present or future outcomes of a hypothetical situation using initial ‘only if’ with inversion of subject and object.",
+      maps: [ only-if, only-inversion ],
+    }
+  - {
+      ref: "GSE 71 #440",
+      level: B2,
+      item: "Can use ‘one’s’ as an impersonal possessive adjective.",
+      maps: [ formal-one ],
+    }
+  - {
+      ref: "GSE 71 #441",
+      level: B2,
+      item: "Can use ‘on the point of’ (Br Eng) to talk about imminent events in the present and past.",
+      maps: [ be-about-to ],
+    }
+  - {
+      ref: "GSE 71 #442",
+      level: B2,
+      item: "Can use ‘as if/as though’ with the past perfect to refer to hypothetical (counterfactual) circumstances in the past.",
+      maps: [ as-if ],
+    }
+  - {
+      ref: "GSE 72 #443",
+      level: B2,
+      item: "Can use ‘since …’ to talk about reasons, causes and explanations.",
+      maps: [ reason-clauses ],
+    }
+  - {
+      ref: "GSE 73 #444",
+      level: B2,
+      item: "Can express impersonal belief and opinion using ‘thought/believed to …’",
+      maps: [ impersonal-it-said ],
+    }
+  - {
+      ref: "GSE 76 #445",
+      level: C1,
+      item: "Can add information using appended clauses with ‘being’ and/or passive participles.",
+      maps: [ perfect-passive-participle, participle-clauses ],
+    }
+  - {
+      ref: "GSE 77 #446",
+      level: C1,
+      item: "Can replace past conditionals with ‘but for’ in formal statements.",
+      maps: [ but-for ],
+    }
+  - {
+      ref: "GSE 80 #447",
+      level: C1,
+      item: "Can make very polite requests with ‘would you be so kind as to’+ verbs in the infinitive.",
+      maps: [ politeness-grammar, would-polite ],
+      levelNote: "source says C1, inventory says would-polite B1",
+    }
